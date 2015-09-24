@@ -1,0 +1,9 @@
+@base <http://www.oeg-upm.net/ontologies >
+@prefix vocab: <http://www.ontologies.org/ontologies/exercice1b#>
+:Class01 vocab:includes :Sensor029 ;
+vocab:includes :Computer101.
+:Sensor029 vocab:hasMeasurement :Measurement8401.
+:Measurement8401 vocab:hasTemperature "29"^^xsd:integer;
+vocab:atTime "2010-06-12T12:00:12"^^xsd:date.
+:Computer101 vocab:hasOwner :User10A.
+:User10A vocab:hasName "Pedro".

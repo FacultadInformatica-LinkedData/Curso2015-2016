@@ -8,6 +8,6 @@
 
 :Computer101 vocab:hasOwner :User10A .
 
-:Measurement8401 vocab:hasTemperature "29" ;
-                 vocab:atTime "2010-06-12T12:00:12" .
-:User10A         vocab:hasName "Pedro" .
+:Measurement8401 vocab:hasTemperature "29"^^xsd:int ;
+                 vocab:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
+:User10A         vocab:hasName "Pedro"^^xsd:string .

@@ -38,8 +38,7 @@ object Task6 extends App {
   // the result is the same with researcher.addSuperClass(person)
 
   // ** TASK 6.3: Create a new property named "worksIn" **
-  // I'm using ${ns + foafNS} because the prefix in the RDF is defined like that...
-  val worksIn = model.createOntProperty(s"${foafNS}worksIn")
+  val worksIn = model.createOntProperty(s"${ns}worksIn")
   worksIn.addDomain(person)
   worksIn.addRange(university)
   worksIn.addLabel("Works in", "en")

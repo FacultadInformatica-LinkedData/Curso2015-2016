@@ -39,20 +39,20 @@ object Task6 extends App {
 
   // ** TASK 6.3: Create a new property named "worksIn" **
   // I'm using ${ns + foafNS} because the prefix in the RDF is defined like that...
-  val worksIn = model.createOntProperty(s"${ns + foafNS}worksIn")
+  val worksIn = model.createOntProperty(s"${foafNS}worksIn")
   worksIn.addDomain(person)
   worksIn.addRange(university)
   worksIn.addLabel("Works in", "en")
-  
+
   // ** TASK 6.4: Create a new individual of Researcher named "Jane Smith" **
   val janeSmith = researcher.createIndividual(s"${ns}JaneSmith")
-  
+
   // ** TASK 6.5: Add to the individual JaneSmith the fullName, given and family names **
   janeSmith.addLiteral(VCARD.FN, model.createTypedLiteral("Jane Smith", stringTypeURI))
     .addLiteral(VCARD.Family, model.createTypedLiteral("Smith", stringTypeURI))
     .addLiteral(VCARD.Given, model.createTypedLiteral("Jane", stringTypeURI))
-    
-  // ** TASK 6.6: Add UPM as the university where John Smith works **  
+
+  // ** TASK 6.6: Add UPM as the university where John Smith works **
   // val upm = model.getIndividual(s"${ns}UPM")
   // I had to create it, I don't know why I can't get the individual, I don't even see it in:
   // println(model.listIndividuals().toList())

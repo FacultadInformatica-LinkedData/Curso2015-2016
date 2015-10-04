@@ -1,0 +1,20 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vocab: <http://www.ontologies.org/ontologies/assignment2/Schema#> .
+@prefix : <http://www.oeg-upm.net/ontologies/assignment2#> .
+
+:Class01 a vocab:class ;
+         vocab:includes :Computer101 ;
+         vocab:includes :Sensor029 .
+
+:Computer101 a vocab:computer ;
+             vocab:hasOwner :User10A .
+
+:User10A a vocab:user ;
+         vocab:hasName "Pedro"^^xsd:string .
+
+:Sensor029 a vocab:sensor ;
+           vocab:hasMeasurement :Measurement8401 .
+
+:Measurement8401 a vocab:measure ;
+                 vocab:hasTemperature "29"^^xsd:integer ;
+                 vocab:atTime "2010-06-12T12:00:12"^^xsd:dateTime .

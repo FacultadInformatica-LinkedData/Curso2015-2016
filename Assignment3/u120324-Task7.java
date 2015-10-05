@@ -54,16 +54,43 @@ public class Task07
 		
 		// ** TASK 7.2: List all subclasses of "Person" **
 		System.out.println("\n\nTask 7.2\n");
-		//Se hace un interador sobre la lista de sublclases de Person y
-		//acto seguido se imprimen los componentes de esta lista
-		ExtendedIterator dos = persona.listSubClasses();
-		while(dos.hasNext()){
-			OntClass subclase =  (OntClass) dos.next();
-			System.out.println(subclase.getLocalName());
-		}
+		/*En la función auxiliar se recorren las ramas completas 
+		 * de los hijos de la clase Person*/
+		hijos(model, persona);				
 		
-		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
-		System.out.println("\n\nTask 7.1\n");
+		
 	
-	    }
+		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
+		System.out.println("\n\nTask 7.3\n");
+		/*En la función auxiliar se recorren las ramas completas 
+		 * de los hijos de la clase Person y se mencionan los individuos
+		 * que forman parte de las subclases*/
+		hijos2(model,persona);
+		
+		
 	}
+private static void hijos(OntModel model, OntClass sub){
+	ExtendedIterator dos = sub.listSubClasses();
+	while(dos.hasNext()){
+		OntClass puede =  model.getOntClass(ns+sub.getLocalName());
+		puede = (OntClass) dos.next();
+		System.out.println(puede.getLocalName().toString());
+		hijos(model,puede);
+		}
+	}
+private static void hijos2(OntModel model, OntClass sub){
+	ExtendedIterator dos = sub.listSubClasses();
+	while(dos.hasNext()){
+		OntClass puede =  model.getOntClass(ns+sub.getLocalName());
+		puede = (OntClass) dos.next();
+		System.out.println(puede.getLocalName().toString());
+		ExtendedIterator tres = model.listIndividuals(puede);
+		//Se recorre el iterador y se imprime el nombre
+		while(tres.hasNext()){
+			Individual person =  (Individual) tres.next();
+			System.out.println(person.getLocalName());
+		}
+		hijos2(model,puede);
+		}
+	}
+}

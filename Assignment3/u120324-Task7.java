@@ -66,8 +66,8 @@ public class Task07
 		 * de los hijos de la clase Person y se mencionan los individuos
 		 * que forman parte de las subclases*/
 		OntModel model2 = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF, model);
-		hijos2(model2,persona);
-		
+		OntClass perso = model2.getOntClass(ns+"Person");
+		hijos2(model2,perso);
 		
 	}
 private static void hijos(OntModel model, OntClass sub){
@@ -91,7 +91,6 @@ private static void hijos2(OntModel model, OntClass sub){
 			Individual person =  (Individual) tres.next();
 			System.out.println(person.getLocalName());
 		}
-		hijos2(model,puede);
 		}
 	}
 }

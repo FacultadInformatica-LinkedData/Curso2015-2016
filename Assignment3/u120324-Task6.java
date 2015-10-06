@@ -110,7 +110,7 @@ public class Task06
 
 		// ** TASK 6.4: Create a new individual of Researcher named "Jane Smith" **
 
-		Individual janeSmith = researcher.createIndividual(ns+"Jane Smith");
+		Individual janeSmith = researcher.createIndividual(ns+"JaneSmith");
 
 		
 

@@ -1,4 +1,4 @@
-package ontologyapi;
+﻿package ontologyapi;
 
 import java.io.InputStream;
 
@@ -65,7 +65,8 @@ public class Task07
 		/*En la función auxiliar se recorren las ramas completas 
 		 * de los hijos de la clase Person y se mencionan los individuos
 		 * que forman parte de las subclases*/
-		hijos2(model,persona);
+		OntModel model2 = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF, model);
+		hijos2(model2,persona);
 		
 		
 	}

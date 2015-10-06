@@ -67,7 +67,16 @@ public class Task07
 		 * que forman parte de las subclases*/
 		OntModel model2 = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF, model);
 		OntClass perso = model2.getOntClass(ns+"Person");
-		hijos2(model2,perso);
+		ExtendedIterator tres = perso.listInstances();
+		while(tres.hasNext()){
+			Individual per = (Individual) tres.next();
+			System.out.println("Instance of Person: "+per.getLocalName());
+		}
+		ExtendedIterator cuatro = perso.listSubClasses();
+		while(cuatro.hasNext()){
+			OntClass subcla = (OntClass) cuatro.next();
+			System.out.println("Subclass of Person: "+subcla.getLocalName());
+		}
 		
 	}
 private static void hijos(OntModel model, OntClass sub){
@@ -77,20 +86,6 @@ private static void hijos(OntModel model, OntClass sub){
 		puede = (OntClass) dos.next();
 		System.out.println(puede.getLocalName().toString());
 		hijos(model,puede);
-		}
-	}
-private static void hijos2(OntModel model, OntClass sub){
-	ExtendedIterator dos = sub.listSubClasses();
-	while(dos.hasNext()){
-		OntClass puede =  model.getOntClass(ns+sub.getLocalName());
-		puede = (OntClass) dos.next();
-		System.out.println(puede.getLocalName().toString());
-		ExtendedIterator tres = model.listIndividuals(puede);
-		//Se recorre el iterador y se imprime el nombre
-		while(tres.hasNext()){
-			Individual person =  (Individual) tres.next();
-			System.out.println(person.getLocalName());
-		}
 		}
 	}
 }

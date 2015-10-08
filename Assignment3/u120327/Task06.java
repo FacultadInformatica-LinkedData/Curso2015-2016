@@ -14,10 +14,9 @@ import org.apache.jena.vocabulary.VCARD;
 /**
  * Task 06: Modifying ontologies (RDFs)
  * 
- * @author u120327
+ * @author u120327 (David Alvarez Zubeldia)
  *
  */
- 
 public class Task06 {
 	public static String ns = "http://somewhere#";
 	public static String foafNS = "http://xmlns.com/foaf/0.1/";

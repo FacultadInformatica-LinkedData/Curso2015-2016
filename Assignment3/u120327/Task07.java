@@ -13,7 +13,8 @@ import org.apache.jena.util.iterator.ExtendedIterator;
 /**
  * Task 07: Querying ontologies (RDFs)
  * 
- * @author u120327
+ * @author u120327 (David Alvarez Zubeldia)
+ * 
  */
 public class Task07 {
 	public static String ns = "http://somewhere#";
@@ -49,16 +50,47 @@ public class Task07 {
 		System.out.println("\nNow I will list every subclass of Person: ");
 		// Para listar las subclases de "Person" simplemente recorrere la lista
 		// de subclases de la ontologia "Person"
-		ExtendedIterator<OntClass> eIterPers = model.getOntClass(ns + "Person").listSubClasses();
-		while (eIterPers.hasNext()) {
-			OntClass clase = eIterPers.next();
-			System.out.println("\t" + clase.getLocalName().toString() + " is a subclass of Person.");
-		}
+		System.out.print(new Task07().listEverySubClass(model, "Person"));
 
 		// ** TASK 7.3: Make the necessary changes to get as well indirect
-		// instances and subclasses. TIP: you need some inference... **
+		// instances and subclases. TIP: you need some inference... **
 		System.out.println("\nNow I'd try to show every indirect instance/subclass");
-		
+		// Creo la inferencia
+		OntModel model2 = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF, model);
+		// Y una vez hecho esto imprimo las instancias y subclases como hemos
+		// hecho anteriormente. Dejo el task 7.2 de la forma recursiva para
+		// mostrar las distintas maneras de llegar a la solución. Esta ultima
+		// (el segundo bucle) creo que es la mas correcta para mostrar todas las
+		// subclases
+		ExtendedIterator<Individual> eIterInd2 = model2.listIndividuals(model.getOntClass(ns + "Person"));
+		while (eIterInd2.hasNext()) {
+			Individual persona = eIterInd2.next();
+			System.out.println("\t" + persona.getLocalName().toString() + " is an instance of Person.");
+		}
+		ExtendedIterator<OntClass> eIterPers = model2.getOntClass(ns + "Person").listSubClasses();
+		while (eIterPers.hasNext()) {
+			OntClass clase = eIterPers.next();
+			System.out.println("\t" + clase.getLocalName() + " is a subclass of Person.");
+		}
 
+		// System.out.print(new Task07().listEverySubClass(model2, "Person"));
+
+	}
+
+	private String listEverySubClass(OntModel model, String thing) {
+
+		String res = "";
+		String aux = "";
+		ExtendedIterator<OntClass> eIterPers = model.getOntClass(ns + thing).listSubClasses();
+		while (eIterPers.hasNext()) {
+			OntClass clase = eIterPers.next();
+			if (clase.hasSubClass()) {
+				aux += listEverySubClass(model, clase.getLocalName());
+			}
+			res += "\t" + clase.getLocalName() + "\n";
+
+		}
+		res += aux;
+		return res;
 	}
 }

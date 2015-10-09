@@ -53,7 +53,7 @@ public class Task06 {
 		Property worksin = model.createProperty(ns + "worksIn");
 		
 		// ** TASK 6.4: Create a new individual of Researcher named "Jane Smith" **
-		Individual jSmith = researcher.createIndividual(ns + "Jane Smith");
+		Individual jSmith = researcher.createIndividual(ns + "JaneSmith");
 		
 		// ** TASK 6.5: Add to the individual JaneSmith the fullName, given and family names **
 		jSmith.addProperty(VCARD.FN, "Jane Smith");

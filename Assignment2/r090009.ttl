@@ -1,0 +1,9 @@
+@base <http://www.oeg-upm.net/ontologies/assignment2/>
+@prefix clase: <http://www.ontologies.org/ontologies/assignment2#>
+    :Class01  clase:includes:Sensor029;
+              clase:includes:Computer101.
+	:Sensonr029 clase:hasMeasurement:Measurement8401.
+	:Measurement8401 clase:hasTemperature "29"^^xsd:integer;
+					 clase:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+	:Computer101 clase:hasOwner:User10A.
+	:User10A clase:hasName "Pedro".

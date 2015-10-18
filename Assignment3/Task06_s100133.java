@@ -14,7 +14,6 @@ import com.hp.hpl.jena.vocabulary.VCARD;
 /**
  * Task 06: Modifying ontologies (RDFs)
  * @author Jonathan Rincon Calixto
-
  *
  */
 public class Task06_Jonathan_Rincon
@@ -69,7 +68,7 @@ public class Task06_Jonathan_Rincon
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
 
-		Individual johnSmith = model.getIndividual(ns+"JaneSmith");
+		Individual johnSmith = model.getIndividual(ns+"JohnSmith");
 		johnSmith.addProperty(worksIn, university.createIndividual(ns+"UPM"));
 		
 		model.write(System.out, "RDF/XML-ABBREV");

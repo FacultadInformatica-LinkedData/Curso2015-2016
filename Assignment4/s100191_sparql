@@ -1,0 +1,73 @@
+# En todas las consultas tenemos un el mismo datashet: http://sandbox.linkeddata.es/Grado_20122013
+
+# 1. Obtener todas las clases
+select distinct ?x
+where { ?x a rdfs:Class }
+limit 100
+
+# 2. Obtener todas las subclases de Establishment
+select distinct ?x 
+where { ?x rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Establishment> } 
+limit 100
+
+# 3. Obtener las instancias de la clase city
+prefix p: <http://GP-onto.fi.upm.es/exercise2#> 
+select distinct ?x
+where { ?x a p:City. }
+limit 100
+
+# 4. Obtener el número de habitantes de Santiago de Compostela
+prefix p: <http://GP-onto.fi.upm.es/exercise2#> 
+select ?habitantes 
+where { p:Santiago_de_Compostela p:hasInhabitantNumber ?habitantes.}
+
+# 5. Obtener el número de habitantes de Santiago de Compostela y Arzua
+prefix p: <http://GP-onto.fi.upm.es/exercise2#> 
+select ?hsantiago ?harzua 
+where { p:Santiago_de_Compostela p:hasInhabitantNumber ?hsantiago. p:Arzua p:hasInhabitantNumber ?harzua. }
+
+# 6. Obtener distintos lugares con número de habitantes, ordenar los resultados por el nombre del lugar (ascendente)
+prefix p: <http://GP-onto.fi.upm.es/exercise2#> 
+select ?lugar ?habitantes 
+where { ?lugar p:hasInhabitantNumber ?habitantes.} 
+order by asc(?lugar)
+
+# 7. Obtener todas las instancias de Locality con su número de habitantes (si existe)
+prefix p: <http://GP-onto.fi.upm.es/exercise2#> 
+select ?localidad ?habitantes
+where { ?localidad a p:Locality; p:hasInhabitantNumber ?habitantes. }
+
+# 8. Obtener todos los lugares con más de 200.000 habitantes
+prefix p: <http://GP-onto.fi.upm.es/exercise2#> 
+select ?lugar ?habitantes 
+where { ?lugar p:hasInhabitantNumber ?habitantes filter(?habitantes > 200000) }
+
+# 9. Obtener los datos postales de Pazo_Breogan (calle, número, localidad, provincia)
+prefix p: <http://GP-onto.fi.upm.es/exercise2#> 
+select ?calle ?numero ?localidad ?provincia
+where { p:Pazo_Breogan p:hasAddress ?dir; p:isPlacedIn ?localidad. ?localidad p:inProvince ?provincia. ?dir p:hasStreet ?calle; p:hasNumber ?numero. }
+
+# 10. Obtener las subclases de la clase Location
+prefix p: <http://GP-onto.fi.upm.es/exercise2#> 
+select ?subLocation
+where { ?subLocation rdfs:subClassOf p:Location. }
+
+# 11. Obtener las instancias de la clase Locality
+prefix p: <http://GP-onto.fi.upm.es/exercise2#> 
+select ?locality 
+where { ?locality rdfs:subClassOf p:Location. }
+
+# 12. Describir el recurso con rdfs:label "Madrid”
+describe ?recurso 
+where { ?recurso rdfs:label "Madrid" }
+
+# 13. Construir el grafo RDF(S) que relaciona directamente todos los lugares turísticos con sus respectivas provincias, usando una nueva propiedad llamada ”isIn”
+prefix p: <http://GP-onto.fi.upm.es/exercise2#>
+construct {?subject p:isIn ?object} 
+where { ?subject a p:TouristicLocation; p:isPlacedIn ?pob. ?pob p:inProvince ?object. }
+
+# 14. Preguntar si hay alguna instancia de Town
+prefix p: <http://GP-onto.fi.upm.es/exercise2#> 
+ask where { ?instance a p:Town }
+
+

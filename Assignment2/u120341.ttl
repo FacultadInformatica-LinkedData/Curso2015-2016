@@ -1,4 +1,4 @@
-@base <http://www.oeg-upm.net/ontologies/javi>.
+@prefix <http://www.oeg-upm.net/ontologies/javi#>.
 @prefix vocab: <http://www.oeg-upm.net/ontologies/javi#>.
 
 :Class01 vocab:includes :Sensor029,Computer101 .
@@ -10,4 +10,4 @@
 :Measurement8401 vocab:hasTemperature :"29"^^xsd:integer ;
                  vocab:atTime :"2010-06-12T12:00:12"^^xsd:dataTime .
 
-:User10A vocab:hasName: Pedro .
+:User10A vocab:hasName "Pedro"^^xsd:string .

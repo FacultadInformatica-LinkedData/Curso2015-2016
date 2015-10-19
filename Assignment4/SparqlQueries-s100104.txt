@@ -1,0 +1,140 @@
+##### Jorge Munioz Pedrazuela s100104 #####
+
+#1
+
+select distinct ?Concept where {[] a ?Concept} LIMIT 100
+
+#2
+
+select distinct ?x
+where
+{
+	?x rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Establishment>
+}
+LIMIT 100
+
+#3
+
+select distinct ?x 
+where
+{
+	?x rdf:type <http://GP-onto.fi.upm.es/exercise2#City>
+}
+LIMIT 100
+
+#4
+
+select distinct ?y
+where
+{
+	<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?y
+}
+LIMIT 100
+
+#5
+
+select distinct ?x ?y
+where
+{
+	<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> <http://GP-onto.fi.upm.es/	exercise2#hasInhabitantNumber> ?x .
+	<http://GP-onto.fi.upm.es/exercise2#Arzua> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?y 
+}
+LIMIT 100
+
+#6
+
+select distinct ?x ?y ?z
+where
+{
+	?x <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?y .
+	?x rdfs:label ?z
+}
+ORDER BY ?z
+LIMIT 100
+
+#7
+
+select distinct ?x
+where
+{
+	?x rdf:type <http://GP-onto.fi.upm.es/exercise2#Locality>
+}
+LIMIT 100
+
+#8 
+
+PREFIX pr: <http://GP-onto.fi.upm.es/exercise2#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+select ?Lugares ?nHabitantes 
+where 
+{
+	$loc pr:hasInhabitantNumber ?nHabitantes; rdfs:label ?Lugares
+	FILTER(?nHabitantes > 200000) 
+}
+
+
+
+#9
+
+PREFIX pfz: <http://GP-onto.fi.upm.es/exercise2#> 
+select ?localite ?province ?stree ?num 
+where 
+{ 
+	pfz:Pazo_Breogan pfz:hasAddress ?dir; 
+	pfz:isPlacedIn ?localite. 
+	?localidad pfz:inProvince ?province. 
+	?dir pfz:hasStreet ?stree; 
+	pfz:hasNumber ?num.
+}
+
+
+#10
+
+PREFIX pfj: <http://GP-onto.fi.upm.es/exercise2#>
+select ?subClass
+where 
+{
+	?subClass rdfs:subClassOf pfj:Location
+}
+
+
+#11
+
+PREFIX pfj: <http://GP-onto.fi.upm.es/exercise2#>
+select ?Instance
+where 
+{
+?Instance a pfj:Location
+}
+
+
+#12
+
+DESCRIBE ?Recurso
+where
+{
+?Recurso rdfs:label "Madrid"
+}
+
+
+#13
+
+PREFIX pfj: <http://GP-onto.fi.upm.es/exercise2#>
+CONSTRUCT 
+{
+?TouristPlace pfj:isIn ?Province
+}
+where
+{?TouristPlace pfj:isPlacedIn ?Localite.?Localite pfj:inProvince ?Province
+}
+
+
+#14
+
+PREFIX pfz: <http://GP-onto.fi.upm.es/exercise2#> 
+ASK 
+where 
+{
+	?Instance a pfz:Town
+}
+

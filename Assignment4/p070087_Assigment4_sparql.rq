@@ -1,0 +1,163 @@
+# Universidad Politécnica de Madrid
+# Juan Pablo Romero Aguirre
+# 18 de octubre de 2015.
+# Web Semántica y linked data.
+# SPARQL
+
+#Dirección donde probar
+http://sandbox.linkeddata.es/sparql
+
+#(Graph IRI)
+http://sandbox.linkeddata.es/Grado_20122013
+
+# -------------------------------------------------------------------------------
+#1 todas las clases que tienen al menos una instancia
+#comentario que no se espera al final
+select distinct ?Concept 
+where {?variable a ?Concept} 
+LIMIT 100
+
+#1 clases del esquema aunque sean vacías
+select distinct ?clases 
+where {?clases rdf:type rdfs:Class} 
+LIMIT 100
+
+#2 subclases de Establishment
+select distinct ?subclases 
+where {
+    ?subclases rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Establishment>
+} 
+LIMIT 100
+
+#3 Instancias de la clase City
+select distinct ?instancias 
+where {
+    ?instancias rdf:type <http://GP-onto.fi.upm.es/exercise2#City>
+} 
+LIMIT 100
+
+# relaciones con santiago de compostela
+select ?relaciones ?objeto
+where {
+    <http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> ?relaciones  ?objeto
+} 
+LIMIT 100
+
+#4 número de habitantes de Santiago_de_Compostela
+select ?objeto
+where {
+    <http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> 
+    <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber>  
+    ?objeto
+} 
+LIMIT 100
+
+#5 número de habitantes de Santiago_de_Compostela y de Arzua
+prefix exercise2:<http://GP-onto.fi.upm.es/exercise2#>
+select ?Santiago_de_Compostela ?Arzua
+where {
+    exercise2:Santiago_de_Compostela 
+    exercise2:hasInhabitantNumber  
+    ?Santiago_de_Compostela .
+    exercise2:Arzua 
+    exercise2:hasInhabitantNumber  
+    ?Arzua
+} 
+LIMIT 100
+
+#6 Obtener distintos lugares con número de habitantes, 
+# ordenar los resultados por el nombre del lugar (ascendente)
+prefix exercise2:<http://GP-onto.fi.upm.es/exercise2#>
+select distinct ?Lugar ?NumeroHabitantes 
+where {
+    ?Lugar exercise2:hasInhabitantNumber ?NumeroHabitantes .
+}
+order by ?Lugar
+LIMIT 100
+
+# 7 Obtener todas las instancias de Locality con su número de habitantes(si existe)
+prefix exercise2:<http://GP-onto.fi.upm.es/exercise2#>
+select distinct ?Lugar ?NumeroHabitantes 
+where {
+    ?outer rdfs:subClassOf exercise2:Locality .
+    ?Lugar  rdf:type ?outer .
+    optional { ?Lugar exercise2:hasInhabitantNumber ?NumeroHabitantes }
+}
+LIMIT 100
+
+#8 Obtener todos los lugares  con más de 200000 habitantes
+prefix exercise2:<http://GP-onto.fi.upm.es/exercise2#>
+select distinct ?Lugar ?NumeroHabitantes
+where {
+    ?Lugar exercise2:hasInhabitantNumber ?NumeroHabitantes 
+    filter (xsd:integer(?NumeroHabitantes) > 200000)
+}
+LIMIT 100
+
+#9 Obtener los datos postales de Pazo_Breogan 
+# (calle, numero, localidad, provincia)
+prefix exercise2:<http://GP-onto.fi.upm.es/exercise2#>
+select ?calle ?numero ?localidad ?provincia
+where {
+    exercise2:Pazo_Breogan exercise2:isPlacedIn ?localidad ; 
+        exercise2:hasAddress ?PostalAdress .
+    
+    ?PostalAdress exercise2:hasStreet ?calle ; 
+        exercise2:hasNumber ?numero.
+
+    ?localidad exercise2:inProvince ?provincia . 
+}
+LIMIT 100
+
+#10 Obtener las subclases de la clase Location
+prefix exercise2:<http://GP-onto.fi.upm.es/exercise2#>
+select distinct ?subclaseDeLocation
+where {
+    { 
+        ?subclaseDeLocation rdfs:subClassOf exercise2:Location.
+    }UNION{ 
+        ?objeto rdfs:subClassOf exercise2:Location. 
+        ?subclaseDeLocation rdfs:subClassOf ?objeto 
+    }UNION{ 
+        ?objeto rdfs:subClassOf exercise2:Location. 
+        ?sujeto rdfs:subClassOf ?objeto. 
+        ?subclaseDeLocation rdfs:subClassOf ?sujeto 
+    }
+}
+LIMIT 100
+
+# 11 Obtener las instancias de la clase Locality
+prefix exercise2:<http://GP-onto.fi.upm.es/exercise2#>
+select distinct ?instancias 
+where {
+    ?sujeto rdfs:subClassOf exercise2:Locality .
+    ?instancias rdf:type ?sujeto .
+    }
+LIMIT 100
+
+#12 Describir el recurso con rdfs:label "Madrid"
+describe ?recurso
+where {
+    ?recurso rdfs:label "Madrid"
+}
+LIMIT 100
+
+#13 Construir el grafo RDF(S) que relaciona directamente 
+# todos los lugares turisticos con sus respectivas provincias, 
+# usando una nueva propiedad llamada "isln"
+
+prefix exercise2:<http://GP-onto.fi.upm.es/exercise2#>
+construct { ?lugar exercise2:isIn ?provincia }
+where {
+    ?sujeto rdfs:subClassOf exercise2:TouristicLocation. 
+    ?lugar rdf:type ?sujeto; exercise2:isPlacedIn ?objeto.
+    ?objeto exercise2:inProvince ?provincia.
+}
+LIMIT 100
+
+#14 Preguntar si hay alguna instancia de Town
+prefix exercise2:<http://GP-onto.fi.upm.es/exercise2#>
+ask
+where {
+    ?instancia rdf:type exercise2:Town. 
+}

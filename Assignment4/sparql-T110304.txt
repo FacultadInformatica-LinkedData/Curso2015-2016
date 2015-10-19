@@ -17,7 +17,7 @@ select distinct  ?number where{<http://GP-onto.fi.upm.es/exercise2#Santiago_de_C
 - Get the number of inhabitants of Santiago de Compostela and Arzua
 
 
-select distinct ?SantiagoDeCompostela,?Arzua where{<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?SantiagoDeCompostela. <http://GP-onto.fi.upm.es/exercise2#Arzua> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?Arzua .}
+select distinct ?SantiagoDeCompostela,?Arzua where{<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?SantiagoDeCompostela. <http://GP-onto.fi.upm.es/exercise2#Arzua> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?Arzua }
 
 
 - Get all places, together with the number of inhabitants, ordered by the place name (ascending)
@@ -29,17 +29,16 @@ order by asc(?placeOrd)
 
 - Get all instances of  Locality together with their number of inhabitants (if this information exists)
 
-
-select distinct ?local,?number where{ ?localOr <http://GP-onto.fi.upm.es/exercise2#Locality> ?number;
-<http://www.w3.org/2000/01/rdf-schema#label> ?local}
-optional {?number}
+select distinct ?local,?number where{?placeOrd a <http://GP-onto.fi.upm.es/exercise2#Locality>; 
+ <http://www.w3.org/2000/01/rdf-schema#label> ?local
+optional {$placeOrd <http://www.w3.org/2000/01/rdf-schema#hasInhabitantNumber> ?number}}
 
 
 - Get all places with more than 200.000 inhabitants
 
 
-select distinct ?number,?places where{ ?places <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber > ?number
-filter (?number > 200000)}
+select distinct ?number,?place where{ ?placeOrd <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?number;
+<http://www.w3.org/2000/01/rdf-schema#label> ?place filter (?number > 200000)}
 
 
 - Get postal address data for Pazo_Breogan (street, number, locality, province)
@@ -70,7 +69,10 @@ describe ?resource where {?resource <http://www.w3.org/2000/01/rdf-schema#label>
 
 - Construct a graph that relates directly all touristic places with their provinces, using a new property called ”isIn”
 
-construct {<http://GP-onto.fi.upm.es/exercise2#isIn> ?construction} 
+construct {?tourist <http://GP-onto.fi.upm.es/exercise2#isIn> ?prov} 
+where {?tourist a <http://GP-onto.fi.upm.es/exercise2#TouristicLocation>;
+ <http://GP-onto.fi.upm.es/exercise2#isPlacedIn> ?placed.
+?placed <http://GP-onto.fi.upm.es/exercise2#inProvince>  ?prov} 
 
 - Check whether there is any instance of Town
 

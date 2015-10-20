@@ -38,7 +38,7 @@ optional {$placeOrd <http://www.w3.org/2000/01/rdf-schema#hasInhabitantNumber> ?
 
 
 select distinct ?number,?place where{ ?placeOrd <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?number;
-<http://www.w3.org/2000/01/rdf-schema#label> ?place filter (?number > 200000)}
+<http://www.w3.org/2000/01/rdf-schema#label> ?place filter (xsd:integer(?number) > 200000)}
 
 
 - Get postal address data for Pazo_Breogan (street, number, locality, province)

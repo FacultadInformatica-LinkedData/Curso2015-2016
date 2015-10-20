@@ -57,17 +57,14 @@ select distinct ?subClass where{?subClass <http://www.w3.org/2000/01/rdf-schema#
 
 select distinct ?instances where{?instances a <http://GP-onto.fi.upm.es/exercise2#Locality>}
 
-or
-
-select distinct ?instances where{?instances a <http://GP-onto.fi.upm.es/exercise2#Location>}
 
 
-- Describe the resource with rdfs:label "Madridî
+- Describe the resource with rdfs:label "Madrid‚Äù
 
 describe ?resource where {?resource <http://www.w3.org/2000/01/rdf-schema#label>'Madrid' }
 
 
-- Construct a graph that relates directly all touristic places with their provinces, using a new property called îisInî
+- Construct a graph that relates directly all touristic places with their provinces, using a new property called ‚ÄùisIn‚Äù
 
 construct {?tourist <http://GP-onto.fi.upm.es/exercise2#isIn> ?prov} 
 where {?tourist a <http://GP-onto.fi.upm.es/exercise2#TouristicLocation>;

@@ -1,0 +1,83 @@
+BASIC
+
+1.
+
+select distinct ?x where {[] a ?x} LIMIT 100
+
+2.
+
+select distinct ?a where {?x rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Establishment> . ?x <http://www.w3.org/2000/01/rdf-schema#label> ?a}
+
+3.
+
+select distinct ?y where {?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://GP-onto.fi.upm.es/exercise2#City>. ?x rdfs:label ?y}
+
+4.
+
+select distinct ?x where {<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?x}
+
+5.
+
+select distinct ?x ?y where { <http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?x . <http://GP-onto.fi.upm.es/exercise2#Arzua> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?y}
+
+6.
+
+select distinct ?z ?y where {?x <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?y . ?x rdfs:label ?z.} ORDER BY ASC(?z)
+
+7.
+
+select distinct ?a ?b where {?x <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://GP-onto.fi.upm.es/exercise2#Locality>. ?z ?y ?x . ?z <http://www.w3.org/2000/01/rdf-schema#label> ?a. OPTIONAL {?z <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?b}}
+ 
+8.
+ 
+select distinct ?a ?b where {?x <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://GP-onto.fi.upm.es/exercise2#Locality>. ?z ?y ?x . ?z <http://www.w3.org/2000/01/rdf-schema#label> ?a. ?z <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?b. FILTER (xsd:integer(?b) > xsd:integer("200000"))}
+
+9.
+
+select distinct ?a ?b ?c ?d where {<http://GP-onto.fi.upm.es/exercise2#Pazo_Breogan> <http://GP-onto.fi.upm.es/exercise2#hasAddress> ?x. ?x <http://GP-onto.fi.upm.es/exercise2#hasStreet> ?a. ?x <http://GP-onto.fi.upm.es/exercise2#hasNumber> ?b. <http://GP-onto.fi.upm.es/exercise2#Pazo_Breogan> <http://GP-onto.fi.upm.es/exercise2#isPlacedIn> ?y. ?y rdfs:label ?c. ?y <http://GP-onto.fi.upm.es/exercise2#inProvince> ?d }
+
+10.
+
+select distinct ?a where { ?x <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://GP-onto.fi.upm.es/exercise2#Location>. ?x rdfs:label ?a }
+
+11.
+
+select distinct ?a where { ?x <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://GP-onto.fi.upm.es/exercise2#Locality>. ?z ?y ?x. ?z rdfs:label ?a }
+
+12.
+
+DESCRIBE ?x where { ?x rdfs:label "Madrid". }
+
+13.
+
+construct {?x <http://GP-onto.fi.upm.es/exercise2#isIn> ?y} where { ?a ?b <http://GP-onto.fi.upm.es/exercise2#TouristicLocation>. ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?a. ?c <http://GP-onto.fi.upm.es/exercise2#isPlacedIn> ?d. ?d <http://GP-onto.fi.upm.es/exercise2#inProvince> ?y }
+
+14.
+
+ASK {?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://GP-onto.fi.upm.es/exercise2#Town>}
+
+ADVANCED
+
+1.
+
+select distinct ?x where { ?y ?q <http://dbpedia.org/ontology/Politician> . ?y ?x ?z }
+
+2. 
+
+select distinct ?x where { ?y ?q <http://dbpedia.org/ontology/Politician> . ?y ?x ?z FILTER (?x != rdf:type) }
+
+3. 
+
+select count (distinct ?z) as ?a where { ?y ?q <http://dbpedia.org/ontology/Politician> . ?y ?x ?z FILTER (?x != rdf:type) }
+
+4.
+
+select ?x count (distinct ?z) as ?a where { ?y ?q <http://dbpedia.org/ontology/Politician> . ?y ?x ?z FILTER (?x != rdf:type) }
+
+5.
+
+select avg(?a) as ?b where { { select ?x count (distinct ?z) as ?a where { ?y ?q <http://dbpedia.org/ontology/Politician> . ?y ?x ?z FILTER (?x != rdf:type) } } }
+
+6.
+
+select ?x max(?a) as ?c where { { select ?x count (distinct ?z) as ?a where { ?y ?q <http://dbpedia.org/ontology/Politician> . ?y ?x ?z FILTER (?x != rdf:type) } } } ORDER BY DESC(?c)

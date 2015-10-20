@@ -1,4 +1,7 @@
-Get all the classes
+Daniel Peña Gonzalez
+
+1.Get all the classes
+select distinct ?x where {?x a rdfs:Class} LIMIT 100
 
 2.Get all the subclasses of the class Establishment
 select distinct ?x
@@ -60,21 +63,3 @@ where {?x a <http://GP-onto.fi.upm.es/exercise2#Locality>} LIMIT 100
 select distinct ?b ?c
 where {<http://GP-onto.fi.upm.es/exercise2#Madrid> ?b  ?c} LIMIT 100
 
-
-
-
-
-
-
-
- SPARQL Questionnaire (Basic)
-Provide the SPARQL query and the result for the following queries expressed in natural language.
-
-
-
-
-
-
-
-Construct a graph that relates directly all touristic places with their provinces, using a new property called ”isIn”
-Check whether there is any instance of Town

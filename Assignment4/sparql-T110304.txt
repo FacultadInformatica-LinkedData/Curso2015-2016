@@ -29,9 +29,9 @@ order by asc(?placeOrd)
 
 - Get all instances of  Locality together with their number of inhabitants (if this information exists)
 
-select distinct ?local,?number where{?placeOrd a <http://GP-onto.fi.upm.es/exercise2#Locality>; 
- <http://www.w3.org/2000/01/rdf-schema#label> ?local
-optional {$placeOrd <http://www.w3.org/2000/01/rdf-schema#hasInhabitantNumber> ?number}}
+select distinct ?local,?number  where {
+?local a ?placeOrd.?placeOrd <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://GP-onto.fi.upm.es/exercise2#Locality>. optional{?local <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?number }
+}
 
 
 - Get all places with more than 200.000 inhabitants

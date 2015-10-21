@@ -1,0 +1,137 @@
+Fco. Javier Caballero Abenza
+u110340
+
+1- Obtener todas las clases:
+
+select distinct ?Concept where {[] a ?Concept} LIMIT 100
+
+2-Obtener las subclases de la clase Establishment
+
+prefix ej2:<http://GP-onto.fi.upm.es/exercise2#>
+select distinct ?x 
+where 
+{
+	?x rdfs:subClassOf ej2:Establishment
+}
+LIMIT 100
+
+3- Obtener las instancias de la clase City
+
+prefix ej2:<http://GP-onto.fi.upm.es/exercise2#>
+select distinct ?x 
+where {
+	?x a ej2:City
+}
+LIMIT 100
+
+4- Obtener el número de habitantes de Santiago de Compostela
+
+prefix ej2:<http://GP-onto.fi.upm.es/exercise2#>
+select ?x 
+where {
+ej2:Santiago_de_Compostela ej2:hasInhabitantNumber ?x
+}
+LIMIT 100
+
+5- Obtener el número de habitantes de Santiago de Compostela y de Arzua
+
+prefix ej2:<http://GP-onto.fi.upm.es/exercise2#>
+select ?y ?z 
+where {
+ej2:Santiago_de_Compostela ej2:hasInhabitantNumber ?y .
+ej2:Arzua ej2:hasInhabitantNumber ?z .
+}
+LIMIT 100
+
+6- Obtener distintos lugares con número de habitantes, 
+ordenar los resultados por el nombre del lugar (ascendente)
+
+prefix ej2:<http://GP-onto.fi.upm.es/exercise2#>
+select distinct ?x ?y 
+where {
+?x ej2:hasInhabitantNumber ?y .
+}
+order by ?x
+LIMIT 100
+
+7- Obtener todas las instancias de Locality con su número de habitantes(si existe)
+
+prefix ej2:<http://GP-onto.fi.upm.es/exercise2#>
+select distinct ?x ?y 
+where {
+?z rdfs:subClassOf ej2:Locality .
+?x  a ?z .
+optional { ?x ej2:hasInhabitantNumber ?y }
+}
+order by ?x
+LIMIT 100
+
+8- Obtener todos los lugares  con más de 200.000 habitantes
+
+prefix ej2:<http://GP-onto.fi.upm.es/exercise2#>
+select distinct ?x ?y
+where {
+?x ej2:hasInhabitantNumber ?y 
+filter (xsd:integer(?y) > 200000)
+}
+LIMIT 100
+
+9- Obtener los datos postales de Pazo_Breogan (calle, numero, localidad, provincia)
+
+prefix ej2:<http://GP-onto.fi.upm.es/exercise2#>
+select ?calle ?numero ?localidad ?provincia
+where {
+ej2:Pazo_Breogan ej2:isPlacedIn ?localidad ; ej2:hasAddress ?x .
+?localidad ej2:inProvince ?provincia .
+?x ej2:hasStreet ?calle ; ej2:hasNumber ?numero
+}
+LIMIT 100
+
+10- Obtener las subclases de la clase Location
+
+prefix ej2:<http://GP-onto.fi.upm.es/exercise2#>
+select distinct ?subclase
+where {
+{ ?subclase rdfs:subClassOf ej2:Location }
+UNION { ?x rdfs:subClassOf ej2:Location. ?subclase rdfs:subClassOf ?x }
+UNION { ?x rdfs:subClassOf ej2:Location. ?y rdfs:subClassOf ?x. ?subclase rdfs:subClassOf ?y }
+}
+LIMIT 100
+
+11- Obtener las instancias de la clase Locality
+
+prefix ej2:<http://GP-onto.fi.upm.es/exercise2#>
+select distinct ?instancias 
+where {
+?x rdfs:subClassOf ej2:Locality .
+?instancias a ?x .
+}
+LIMIT 100
+
+12- Describir el recurso con rdfs:label "Madrid"
+
+describe ?recurso
+where {
+ ?recurso rdfs:label "Madrid"
+}
+LIMIT 100
+
+13- Construir el grafo RDF(S) que relaciona directamente todos los lugares 
+turisticos con sus respectivas provincias, usando una nueva propiedad llamada "isln"
+
+prefix ej2:<http://GP-onto.fi.upm.es/exercise2#>
+construct { ?lugar ej2:isIn ?provincia }
+where {
+ ?x rdfs:subClassOf ej2:TouristicLocation. 
+ ?lugar a ?x; ej2:isPlacedIn ?y.
+ ?y ej2:inProvince ?provincia
+}
+LIMIT 100
+
+14- Preguntar si hay alguna instancia de Town
+
+prefix ej2:<http://GP-onto.fi.upm.es/exercise2#>
+ask
+where {
+ ?x a ej2:Town. 
+}

@@ -55,7 +55,7 @@ select distinct ?subClass where{?subClass <http://www.w3.org/2000/01/rdf-schema#
 
 - Get all instances of class Locality
 
-select distinct ?instances where{?instances a <http://GP-onto.fi.upm.es/exercise2#Locality>}
+select distinct ?subClass where {?instances <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://GP-onto.fi.upm.es/exercise2#Locality>.?class ?arg ?instances.?class <http://www.w3.org/2000/01/rdf-schema#label> ?subClass }
 
 
 
@@ -66,9 +66,11 @@ describe ?resource where {?resource <http://www.w3.org/2000/01/rdf-schema#label>
 
 - Construct a graph that relates directly all touristic places with their provinces, using a new property called ”isIn”
 
+
 construct {?tourist <http://GP-onto.fi.upm.es/exercise2#isIn> ?prov} 
-where {?tourist a <http://GP-onto.fi.upm.es/exercise2#TouristicLocation>;
- <http://GP-onto.fi.upm.es/exercise2#isPlacedIn> ?placed.
+where {?turist ?arg2 <http://GP-onto.fi.upm.es/exercise2#TouristicLocation>.
+?tourist <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?turist.
+ ?arg <http://GP-onto.fi.upm.es/exercise2#isPlacedIn> ?placed.
 ?placed <http://GP-onto.fi.upm.es/exercise2#inProvince>  ?prov} 
 
 - Check whether there is any instance of Town

@@ -1,0 +1,96 @@
+1.Get all the classes
+
+select ?clase
+where {
+?clase <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> 
+} 
+
+2.Get all the subclasses of the class Establishment
+
+select ?subclase
+where {
+?subclase <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://GP-onto.fi.upm.es/exercise2#Establishment> 
+}
+
+3.Get all instances of the class City
+
+select ?ciudad
+where {
+?ciudad <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://GP-onto.fi.upm.es/exercise2#City> 
+}
+
+4.Get the number of inhabitants of Santiago de Compostela
+
+select ?habitantes
+where {
+<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?habitantes
+}
+
+5.Get the number of inhabitants of Santiago de Compostela and Arzua
+
+select ?ciudad ?habitantes
+where {
+?ciudad <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?habitantes 
+}
+
+6.Get all places, together with the number of inhabitants, ordered by the place name (ascending)
+
+select ?ciudad ?habitantes
+where {
+?ciudad <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?habitantes 
+} 
+ORDER BY ?ciudad
+
+7.Get all instances of  Locality together with their number of inhabitants (if this information exists)
+
+select ?ciudad ?habitantes
+where {
+?ciudad <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?habitantes 
+} 
+ORDER BY ?ciudad
+
+8.Get all places with more than 200.000 inhabitants
+
+PREFIX w3: <http://www.w3.org/2001/XMLSchema#>
+select ?ciudad ?habitantes
+where {
+?ciudad <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?habitantes . 
+FILTER (?habitantes > "200000"^^w3:integer).
+} 
+
+9.Get postal address data for Pazo_Breogan (street, number, locality, province)
+
+select  ?tipo ?direccion
+where {
+<http://GP-onto.fi.upm.es/exercise2#GP_Santiago_Instance_85> ?tipo ?direccion . 
+} 
+OFFSET 1
+
+10.Get all subclasses of class Location
+
+SELECT ?subClass
+WHERE {?subClass rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Location>}
+
+
+11.Get all instances of class Locality
+
+select ?Instance
+where {?Instance a <http://GP-onto.fi.upm.es/exercise2#Location>}
+
+
+12.Describe the resource with rdfs:label "Madrid”
+
+DESCRIBE ?source
+WHERE{?source rdfs:label "Madrid"}
+
+
+13. Construct a graph that relates directly all touristic places with their provinces, using a new property called ”isIn”
+
+CONSTRUCT {?TouristPlace pref:isIn ?Province}
+WHERE{?TouristPlace <http://GP-onto.fi.upm.es/exercise2#inProvinceisPlacedIn> ?Localite.
+?Localite <http://GP-onto.fi.upm.es/exercise2#inProvince> ?Province}
+
+14. Check whether there is any instance of Town
+
+ASK 
+WHERE {?Instance a <http://GP-onto.fi.upm.es/exercise2#Town>}

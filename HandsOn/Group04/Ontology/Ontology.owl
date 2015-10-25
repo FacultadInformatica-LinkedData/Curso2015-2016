@@ -1,0 +1,415 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://puntosinteres.madrid.es/group04/ontology/puntointeres#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://puntosinteres.madrid.es/group04/ontology/puntointeres#">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="Bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Calle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CodigoPostal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Direccion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Distrito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Latitud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Longitud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Metro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Monumento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Museo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Numero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OficinaTurismo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Parque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Posicion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Renfe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SitioTuristico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Teatro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TransportePublico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ZonaWifi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="EstaEnDireccion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="EstaEnPosicion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="TieneTransportePublico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="TieneDescripcion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="TieneEquipamiento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="TieneHorario"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="TieneTelefono"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="TieneTransporte"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="Bus"/>
+        <Class IRI="TransportePublico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Calle"/>
+        <Class IRI="Direccion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CodigoPostal"/>
+        <Class IRI="Direccion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Distrito"/>
+        <Class IRI="Direccion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Latitud"/>
+        <Class IRI="Posicion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Longitud"/>
+        <Class IRI="Posicion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Metro"/>
+        <Class IRI="TransportePublico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Monumento"/>
+        <Class IRI="SitioTuristico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Museo"/>
+        <Class IRI="SitioTuristico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Numero"/>
+        <Class IRI="Direccion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OficinaTurismo"/>
+        <Class IRI="SitioTuristico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Parque"/>
+        <Class IRI="SitioTuristico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Renfe"/>
+        <Class IRI="TransportePublico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Teatro"/>
+        <Class IRI="SitioTuristico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ZonaWifi"/>
+        <Class IRI="SitioTuristico"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="EstaEnDireccion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnDireccion"/>
+            <Class IRI="Monumento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="EstaEnDireccion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnDireccion"/>
+            <Class IRI="Museo"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="EstaEnDireccion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnDireccion"/>
+            <Class IRI="OficinaTurismo"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="EstaEnDireccion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnDireccion"/>
+            <Class IRI="Parque"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="EstaEnDireccion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnDireccion"/>
+            <Class IRI="SitioTuristico"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="EstaEnDireccion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnDireccion"/>
+            <Class IRI="Teatro"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="EstaEnDireccion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnDireccion"/>
+            <Class IRI="ZonaWifi"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="EstaEnPosicion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnPosicion"/>
+            <Class IRI="Monumento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="EstaEnPosicion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnPosicion"/>
+            <Class IRI="Museo"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="EstaEnPosicion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnPosicion"/>
+            <Class IRI="OficinaTurismo"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="EstaEnPosicion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnPosicion"/>
+            <Class IRI="Parque"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="EstaEnPosicion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnPosicion"/>
+            <Class IRI="SitioTuristico"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="EstaEnPosicion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnPosicion"/>
+            <Class IRI="Teatro"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="EstaEnPosicion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnPosicion"/>
+            <Class IRI="ZonaWifi"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="TieneTransportePublico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TieneTransportePublico"/>
+            <Class IRI="Monumento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="TieneTransportePublico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TieneTransportePublico"/>
+            <Class IRI="Museo"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="TieneTransportePublico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TieneTransportePublico"/>
+            <Class IRI="OficinaTurismo"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="TieneTransportePublico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TieneTransportePublico"/>
+            <Class IRI="Parque"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="TieneTransportePublico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TieneTransportePublico"/>
+            <Class IRI="SitioTuristico"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="TieneTransportePublico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TieneTransportePublico"/>
+            <Class IRI="Teatro"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="TieneTransportePublico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TieneTransportePublico"/>
+            <Class IRI="ZonaWifi"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="EstaEnDireccion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnDireccion"/>
+            <Class IRI="Calle"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="EstaEnDireccion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnDireccion"/>
+            <Class IRI="CodigoPostal"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="EstaEnDireccion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnDireccion"/>
+            <Class IRI="Direccion"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="EstaEnDireccion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnDireccion"/>
+            <Class IRI="Distrito"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="EstaEnDireccion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnDireccion"/>
+            <Class IRI="Numero"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="EstaEnPosicion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnPosicion"/>
+            <Class IRI="Latitud"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="EstaEnPosicion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnPosicion"/>
+            <Class IRI="Longitud"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="EstaEnPosicion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="EstaEnPosicion"/>
+            <Class IRI="Posicion"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="TieneTransportePublico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="TieneTransportePublico"/>
+            <Class IRI="TransportePublico"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="TieneDescripcion"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="TieneDescripcion"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="TieneDescripcion"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="TieneEquipamiento"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="TieneDescripcion"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="TieneHorario"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="TieneDescripcion"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="TieneTelefono"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="TieneDescripcion"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="TieneTransporte"/>
+            <Datatype abbreviatedIRI="rdfs:Literal"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Hand-on_Assignment2</title>
+  </head>
+    <body>
+    	<h1>Analyse Data Set</h1>
+
+	<h4>Off-Street parking lots and parking garages</h4>
+	<table border="10" style="width:100%">
+            <tr>
+                <th>Columna</th>
+                <th>Tipo</th>
+                <th>Rango</th>
+                <th>Comentarios</th>
+            </tr>
+            <tr>
+                <td>Id</td>
+                <td>int</td>
+                <td>0-n</td>
+                <td></td>
+            </tr>
+	    <tr>
+                <td>Propietario</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+	    <tr>
+                <td>Calle</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+	    <tr>
+                <td>Capacidad</td>
+                <td>int</td>
+                <td>10-9000</td>
+                <td>Hemos eliminado datos atípicos. Capacidad = 0</td>
+            </tr>
+	    <tr>
+                <td>Coordenadas</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table> 
+
+	<h4>Parking meters</h4>
+	<table border="10" style="width:100%">
+            <tr>
+                <th>Columna</th>
+                <th>Tipo</th>
+                <th>Rango</th>
+                <th>Comentarios</th>
+            </tr>
+            <tr>
+                <td>Id</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Color</td>
+                <td>String</td>
+                <td>{Black,Brown,Green,Grey,Purple,Red,Yellow}</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>nºCalle</td>
+                <td>int</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Nombre Calle</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Localizacion</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table> 
+
+	<h4>Recreation & Park Department Park</h4>
+	<table border="10" style="width:100%">
+            <tr>
+                <th>Columna</th>
+                <th>Tipo</th>
+                <th>Rango</th>
+                <th>Comentarios</th>
+            </tr>
+
+            <tr>
+                <td>Nombre</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+	    </tr>
+
+	    <tr>
+                <td>Tipo</td>
+                <td>String</td>
+                <td>{Civic Plaza or Square,Community Garden,Concession,Family Camp,Mini Park,Neighborhood Park or Playground,Parkway,Regional Park,Zoological Garden}</td>
+                <td></td>
+	    </tr>
+
+	    <tr>
+                <td>Manager</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+	    </tr>
+
+	    <tr>
+                <td>email</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+	    </tr>
+
+	    <tr>
+                <td>Teléfono</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+	    </tr>
+
+	    <tr>
+                <td>Id</td>
+                <td>int</td>
+                <td></td>
+                <td></td>
+	    </tr>
+	    <tr>
+                <td>Localizacion</td>
+                <td>String</td>
+                <td></td>
+                <td>La dirección hasta el retorno de carro. Después del retorno de carro las coordenadas geográficas</td>
+            </tr>
+        </table> 
+
+	<h4>Film Locations in SF</h4>
+	<table border="10" style="width:100%">
+            <tr>
+                <th>Columna</th>
+                <th>Tipo</th>
+                <th>Rango</th>
+                <th>Comentarios</th>
+            </tr>
+            <tr>
+                <td>Título</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Año</td>
+                <td>int</td>
+                <td>[1915,2015]</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Localización</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Compañía de producción</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Distribuidora</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Director</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Escritor</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Actor 1</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Actor 2</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Actor 3</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>id</td>
+                <td>int</td>
+                <td>1-n</td>
+                <td></td>
+            </tr>
+        </table> 
+
+		
+        <h1>Analyse Licensing of the Data Source</h1>
+
+	Estos datasheet pertecen a una organización liderada por Joy Bonaguro. Se puede obtener más información acerca de los miembros de la organización en el siguiente 		link: <a target="_blank" href="http://datasf.org/about/">Info Organización</a><br><br>
+	
+        La licencia de los datos que vamos a utilizar en nuestro proyecto es "Creative Commons 1.0 Universal". Es una licencia de datos abiertos.<br>
+	La persona que ha asociado una obra a ésta licencia ha dedicado la misma al dominio publico, liberándola de forma mundial y en la medida que lo permita la ley, 	de todos sus derechos de propiedad intelectual, incluyendo todos los derechos conexos.<br> 
+	Esta licencia permite  distribuir, usar, mezclar, modificar y construir a partir de dicho  objeto,  también  con  fines  comerciales,  siempre  que  se reconozca 		la autoría de la creación original.<br><br>
+
+	Una vez finalizado nuestro proyecto la idea es seleccionar una licencia de datos abiertos. 
+
+        
+        
+        <h1>Define Resource Naming Strategy</h1>
+
+	<table border="10" style="width:100%">
+            <tr>
+                <th>Nombre</th>
+                <th>Uri</th>
+            </tr>
+            <tr>
+                <td>Off-Street parking lots and parking garages</td>
+                <td>www.linkedData/2015-2016/group01/stree_parking_garages</td>
+            </tr>
+            <tr>
+                <td>Parking meters</td>
+                <td>www.linkedData/2015-2016/group01/parking_meters</td>
+            </tr>
+            <tr>
+                <td>Recreation & Park Department Park</td>
+                <td>www.linkedData/2015-2016/group01/recreation_park</td>
+            </tr>
+            <tr>
+                <td>Film Locations in SF</td>
+                <td>www.linkedData/2015-2016/group01/film</td>
+            </tr>
+        </table> 	
+	
+    </body>
+</html>

@@ -1,0 +1,175 @@
+##ALVARO TOLEDANO## T110120 ##
+
+
+1............
+
+select distinct ?Concept where {?x a ?Concept} LIMIT 100 //dame como mucho 100 clases.
+
+
+http://sandbox.linkeddata.es/sparql?
+default-graph-
+uri=http%3A%2F%2Fsandbox.linkeddata.es%2FGrado_20122013&query=select+distinct+%3FConcept+where+%7B%3Fx+a+%3FConcept%7D+LIMIT+100&
+format=application%2Fsparql-results%2Bjson&
+timeout=0&
+debug=on
+
+
+parte inicial
+pedir subclases
+
+select distinct ?x
+where 
+{
+?x <http://www.w3.org/2000/01rdf-schema#subClassof> <http://GP-onto.fi.upm.es/exercise2#Establishment>
+}LIMIT 100
+
+
+2.......................
+
+select distinct ?x
+where 
+{
+?x rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Establishment>
+}
+LIMIT 100
+
+
+3.....................
+
+select distinct ?x
+where 
+{
+?x rdf:type <http://GP-onto.fi.upm.es/exercise2#City>
+}
+LIMIT 100
+
+select distinct ?x
+where 
+{
+?x a <http://GP-onto.fi.upm.es/exercise2#City>
+}
+LIMIT 100
+
+4.................................
+
+select distinct ?x
+where 
+{
+<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela><http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber>  ?x
+}
+LIMIT 100
+
+pa saberlo uso 
+select distinct ?x ?p
+where 
+{
+<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela>  ?x ?p
+}
+LIMIT 100
+
+5.....................
+
+
+select distinct ?x ?y
+where 
+{
+<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?x.
+<http://GP-onto.fi.upm.es/exercise2#Arzua><http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?y
+}
+LIMIT 100
+
+6..................
+
+select distinct ?x ?y
+where 
+{
+?x<http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?y
+}
+ORDER BY ASC(?x)
+LIMIT 100
+
+7..........................
+
+select distinct ?x ?y
+where
+{
+?z rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Locality>.
+?x rdf:type ?z
+OPTIONAL{?x <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?y}
+}
+LIMIT 100
+
+8..........................
+
+prefix gp: <http://GP-onto.fi.upm.es/exercise2#> 
+select ?lugares ?numHabitantes
+where
+ { 
+ ?lugares gp:hasInhabitantNumber ?numHabitantes
+ FILTER(?numHabitantes > 200000) 
+}
+
+9.........................
+
+prefix gp: <http://GP-onto.fi.upm.es/exercise2#> 
+select ?localite ?province ?street ?number 
+where 
+{ 
+	gp:Pazo_Breogan gp:hasAddress ?dir; 
+	gp:isPlacedIn ?localite. 
+	?localidad gp:inProvince ?province. 
+	?dir gp:hasStreet ?street; 
+	gp:hasNumber ?number.
+}
+
+10.....................
+
+prefix gp: <http://GP-onto.fi.upm.es/exercise2#> 
+select ?subclasesLocation
+where
+{ 
+ ?subclasesLocation rdfs:subClassOf gp:Location. 
+}
+
+LIMIT 100
+
+
+11................
+
+select  ?Instancias
+where
+{
+?x <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://GP-onto.fi.upm.es/exercise2#Locality>.
+?y ?z ?x.
+?y rdfs:label ?Instancias
+}
+
+
+12..........
+
+describe ?recurso
+where
+{
+?recurso rdfs:label "Madrid"
+}
+
+13..................
+
+prefix gp: <http://GP-onto.fi.upm.es/exercise2#>
+construct 
+{
+?x gp:isIn ?Province
+}
+where
+{
+?x gp:isPlacedIn ?Localite.?Localite gp:inProvince ?Province
+}
+
+14........................
+
+prefix gp: <http://GP-onto.fi.upm.es/exercise2#> 
+ask 
+where 
+{
+	?Instance a gp:Town
+}

@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/franjiménez/ontologies/2015/9/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/franjiménez/ontologies/2015/9/untitled-ontology-7">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CodigoPostal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CoordenadaX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CoordenadaY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Coordenadas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Distrito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Email"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Equipamiento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Evento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Fecha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Metro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Nombre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Telefono"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Titulo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Transporte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#URL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Via"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasCoordenate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasDate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasEmail"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasEquipment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasPhone"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasPostalCode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasTitle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasURL"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#inDistrict"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#inStreet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#nearTransport"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#occurs"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Bus"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Transporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CoordenadaX"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Coordenadas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CoordenadaY"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Coordenadas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Metro"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Transporte"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasCoordenate"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasDate"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Evento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasEmail"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasEquipment"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasName"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasPhone"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasPostalCode"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasTitle"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Evento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasURL"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#inDistrict"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#inStreet"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#nearTransport"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#occurs"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Evento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasCoordenate"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Coordenadas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasDate"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Fecha"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasEmail"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Email"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasEquipment"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Equipamiento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasName"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Nombre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasPhone"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Telefono"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasPostalCode"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CodigoPostal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasTitle"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Titulo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasURL"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#URL"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#inDistrict"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Distrito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#inStreet"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Via"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#nearTransport"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Transporte"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#occurs"/>
+        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

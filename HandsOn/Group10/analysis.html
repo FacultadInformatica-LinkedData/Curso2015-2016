@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+	<!--ANALISIS DE LOS DATOS -->
+	<h1>Analyse Data Set</h1>
+	<p> <h3>Farmacias de guardia</h3>
+	<table border="1">
+		<tr>
+			<th>Columna</th>
+			<th>Tipo</th>
+			<th>Rango</th>
+			<th>Comentarios</th>
+			<th>Problemas</th>
+		</tr>
+		<tr>
+			<td>Localidad</td>
+			<td>String</td>
+			<td>6 caracteres</td>
+			<td>No nulo</td>
+			<td>Mismo valor en todas las filas. Columna desechable.</td>
+		</tr>
+		<tr>
+			<td>Barrio</td>
+			<td>String</td>
+			<td>[6-29] caracteres</td>
+			<td>No nulo</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Fecha</td>
+			<td>Date</td>
+			<td>['2015-10-01'-'2015-10-31']</td>
+			<td>No nulo</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Farmacia</td>
+			<td>String</td>
+			<td>[1-5] cifras</td>
+			<td>No nulo. Aunque son valores numéricos, son IDs, por lo que se deben tratar como Strings.</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Dirección</td>
+			<td>String</td>
+			<td>[12-81] caracteres</td>
+			<td>No nulo</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Duración</td>
+			<td>Choice (5 alternativas)</td>
+			<td>[30-35] caracteres</td>
+			<td>No nulo</td>
+			<td>Se deberían sustituir por IDs más claros para las alternativas.<br>
+				Con strings tan largos se pueden producir errores al poner una alternativa no válida.</td>
+		</tr>
+		<tr>
+			<td>Teléfono</td>
+			<td>String</td>
+			<td>7 cifras</td>
+			<td>Puede ser nulo</td>
+			<td>Recordar añadir el prefijo 91 de Madrid.</td>
+		</tr>
+	</table>
+
+	<!--ANALISIS DE LA LICENCIA DE LOS DATOS OBTENIDOS Y CREACIÓN DE LICENCIA-->
+	<h1>Analyse Licensing of the Data Source</h1>
+	<p>Los datos pertenecen al Ayuntamiento de Madrid, y su licencia se puede encontrar en el siguiente link: <a href="http://datos.madrid.es/egob/catalogo/aviso-legal">http://datos.madrid.es/egob/catalogo/aviso-legal</a></p>
+	<p>Los datos pueden ser utilizados para fines comerciales o no comerciales, realizando tareas de copia, difusion o modificacion de la informacion, bajo ciertas condiciones:<br>
+	<li>Debe citarse la fuente de los documentos.</li>
+	<li>Debe mencionarse la fecha de la ultima actualización.</li>
+	<li>Deben conservarse los metadatos sobre la fecha de actualizacion</li>
+		Tras la reutilización y modificación de los datos, el agente será también responsable de responder ante terceros por daños derivados de estas.<br>
+		Además, esta licencia cesa de forma gratuita los derechos de propiedad intelectual.</p>
+		
+	<!-- DEFINICIÓN DEL ESPACIO DE NOMBRES PARA NUESTROS DATOS -->
+	<h1>Define Resource Naming Strategy</h1>
+	<p>Dominio del proyecto: http://linkeddata.es/grupo10<br>
+	Path de la ontología: http://linkeddata.es/grupo10/ontology/Farmacias#<br>
+	Patrón para elementos de la ontología: http://linkeddata.es/grupo10/ontology/Farmacias#&lt;term_name&gt;<br>
+	Path de individuales: http://linkeddata.es/grupo10/resource/<br>
+	Patrón de individuales: http://linkeddata.es/grupo10/resource/&lt;resource_name&gt;
+	</p>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+[
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Duración to Horario",
+    "oldColumnName": "Duración",
+    "newColumnName": "Horario"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Fecha",
+    "columnName": "Fecha"
+  }
+]

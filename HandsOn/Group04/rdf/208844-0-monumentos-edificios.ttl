@@ -1,0 +1,2539 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix base: <http://puntosinteres.madrid.es/group04/ontology/puntosinteres#> .
+
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ArtePublico(MuseoalAireLibredelaCastellana)> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Arte Público (Museo al Aire Libre de la Castellana)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ArtePublico(MuseoalAireLibredelaCastellana)> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: rubén darío (línea 5)  bus: 5, 14, 27, 45, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ArtePublico(MuseoalAireLibredelaCastellana)> a base:Posicion ;
+	base:tieneLatitud "40.433.219.398.671.100" ;
+	base:tieneLongitud "-36.876.122.680.805.900" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ArtePublico(MuseoalAireLibredelaCastellana)> a base:Direccion ;
+	base:tieneNumero "40" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28046" ;
+	base:tieneCalle "CASTELLANA" ;
+	base:tieneTipoVia "PASEO" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ArtePublico(MuseoalAireLibredelaCastellana)> a base:Metro ;
+	base:tieneMetro "rubén darío (línea 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ArtePublico(MuseoalAireLibredelaCastellana)> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ArtePublico(MuseoalAireLibredelaCastellana)> a base:Bus ;
+	base:tieneBus "5, 14, 27, 45, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/BancodeEspaña> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Banco de España" ;
+	base:tieneDescripcion " El Banco de España es el banco central nacional y el supervisor del sistema bancario español. Su actividad está regulada por la Ley de Autonomía del Banco de España. " ;
+	base:tieneTelefono "913 385 000 (centralita)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/BancodeEspaña> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: banco de españa (línea 2)  bus: 1, 2, 9, 10, 15, 20, 34, 51, 52, 53, 74, 146, 202, 203 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/BancodeEspaña> a base:Posicion ;
+	base:tieneLatitud "404.188.339.187.439" ;
+	base:tieneLongitud "-369.482.107.480.432" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/BancodeEspaña> a base:Direccion ;
+	base:tieneNumero "48" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "ALCALA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/BancodeEspaña> a base:Metro ;
+	base:tieneMetro "banco de españa (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/BancodeEspaña> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/BancodeEspaña> a base:Bus ;
+	base:tieneBus "1, 2, 9, 10, 15, 20, 34, 51, 52, 53, 74, 146, 202, 203 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/BasilicaPontificiadeSanMiguel> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Basílica Pontificia de San Miguel" ;
+	base:tieneTelefono "915 484 011" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/BasilicaPontificiadeSanMiguel> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: ópera (líneas 2 y 5), puerta del sol (líneas 1, 2 y 3), tirso de molina (línea 1), la latina (línea 5) bus: 31, 50, 65 renfe: puerta del sol (líneas 3 y 4) " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/BasilicaPontificiadeSanMiguel> a base:Posicion ;
+	base:tieneLatitud "40.414.203.159.177.600" ;
+	base:tieneLongitud "-37.096.715.906.562.700" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/BasilicaPontificiadeSanMiguel> a base:Direccion ;
+	base:tieneNumero "4" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28005" ;
+	base:tieneCalle "SAN JUSTO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/BasilicaPontificiadeSanMiguel> a base:Metro ;
+	base:tieneMetro "ópera (líneas 2 y 5), puerta del sol (líneas 1, 2 y 3), tirso de molina (línea 1), la latina (línea 5) " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/BasilicaPontificiadeSanMiguel> a base:Renfe ;
+	base:tieneRenfe "puerta del sol (líneas 3 y 4) " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/BasilicaPontificiadeSanMiguel> a base:Bus ;
+	base:tieneBus "31, 50, 65 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/BibliotecaNacionaldeEspaña> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Biblioteca Nacional de España" ;
+	base:tieneDescripcion " Fundada por Felipe  V  en 1712 como Biblioteca Pública de Palacio. En 1836 dejó de ser propiedad de la Corona y pasó a depender del Ministerio de la Gobernación y recibió por primera vez el nombre de Biblioteca Nacional y en 1896 se abrió al público.   Horario     Salas de lectura y Servicios:    De lunes a viernes de 9 a 21 y sábados de 9 a 14 horas.  La petición de fondos en el Salón General y en la Sala de Prensa y Revistas es de 9:30 a 13:30 y de 15 a 19 horas.  La tramitación presencial de carnés es de lunes a viernes de 9 a 19 y sábados de 9 a 13:45 horas.     Exposiciones y Museo:    De martes a sábado de 10 a 20 horas.  Domingos y festivos de 10 a 14 horas.      Calendario cierre:    Exposiciones y museo: días 1, 6 de enero, 1 de mayo, 10 de noviembre y 8, 24, 25 y 31 de diciembre.   Biblioteca: 1, 6 y de 20 al 25 de enero, del 17 al 19 de abril, 1, 2 y 15 de mayo, 19 de junio, 15 de agosto, 1 y 10 de noviembre, 6, 8, 24, 25 y 31 de diciembre.    " ;
+	base:tieneEquipamiento "  Servicios bibliotecarios:    Orientación e información general sobre la institución y sobre otras bibliotecas.  Información bibliográfica sobre su colección y las de otras bibliotecas o sistemas bibliotecarios.  Acceso a su catálogo automatizado.  Consulta en sala de sus fondos.  Préstamo interbibliotecario.  Reproducción de fondos.     Otros servicios a los lectores:    Sala de exposiciones.  Museo.  Préstamo interbibliotecario.  Oficina de reprografía.  Registro.  Tienda.     Salas:    Salón general de lectura.  Sala de prensa y revistas  Sala Cervantes: manuscritos, incunables e impresos reservados.  Sala Goya: bellas artes y cartografía.  Sala Barbieri: música.  " ;
+	base:tieneTelefono """915 807 800                                                                                      
+                                                                                      
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/BibliotecaNacionaldeEspaña> a base:TransportePublico .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/BibliotecaNacionaldeEspaña> a base:Posicion ;
+	base:tieneLatitud "4.042.299.290.045.960" ;
+	base:tieneLongitud "-3.690.844.141.741.060" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/BibliotecaNacionaldeEspaña> a base:Direccion ;
+	base:tieneNumero "20" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001" ;
+	base:tieneCalle "RECOLETOS" ;
+	base:tieneTipoVia "PASEO" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/BibliotecaNacionaldeEspaña> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/BibliotecaNacionaldeEspaña> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/BibliotecaNacionaldeEspaña> a base:Bus .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/BolsadeMadrid> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Bolsa de Madrid" ;
+	base:tieneDescripcion " Es el principal mercado de valores de España. Tiene su sede en el Palacio de la Bolsa de Madrid. " ;
+	base:tieneEquipamiento "  Información sobre títulos admitidos a cotización en materia de pago de dividendos   Ampliaciones de capital  Datos sobre balances y cuentas de resultados de las empresas cotizantes   Boletines diarios  " ;
+	base:tieneTelefono """917 095 000 (Bolsas y mercados españoles, centralita)     
+915 891 162 / 915 891 020 (Visitas)          
+915 891 659 (Atención al inversor)   
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/BolsadeMadrid> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: banco de españa (línea 2)  bus: 1, 2, 5, 9, 10, 15, 20, 34 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/BolsadeMadrid> a base:Posicion ;
+	base:tieneLatitud "4.041.687.675.488.160" ;
+	base:tieneLongitud "-3.692.184.230.357.610" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/BolsadeMadrid> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "RETIRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "LEALTAD" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/BolsadeMadrid> a base:Metro ;
+	base:tieneMetro "banco de españa (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/BolsadeMadrid> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/BolsadeMadrid> a base:Bus ;
+	base:tieneBus "1, 2, 5, 9, 10, 15, 20, 34 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/CasadeAmerica> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Casa de América" ;
+	base:tieneDescripcion " Antiguo Palacio de Linares, diseñado por Carlos Colubí en 1872. De estilo rococó, destaca la escalera de mármol de Manuel Aníbal Álvarez y toda la decoración interior. " ;
+	base:tieneEquipamiento "  Celebración de actividades culturales: conciertos, conferencias, mesas redondas, actividades infantiles, exposiciones  Sala de exposiciones  Anfiteatro  Centro de información y documentación  Cine  Restauración   Restaurante Le Cabrera Casa de América, abierto todos los días de 13:30 a 15:30 y de 20:30 a 00 horas. Dispone de reservado.  Coctelería Le Cabrerita ,  abierta de lunes a domingo de 13:30 a 2 horas. Acceso por Paseo de Recoletos, 2.  Cafetería Le Cabrera Casa de América, abierta de lunes a domingo de 9 a 12 horas. Acceso por Marqués del Duero.  Terraza de verano.     La programación puede ser consultada en  http://www.casamerica.es/  " ;
+	base:tieneTelefono "915 954 800 (información) / 915 775 955 (reservas para el restaurante)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/CasadeAmerica> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: banco de españa (línea 2)  bus: 1, 2, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150, 202  renfe: recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/CasadeAmerica> a base:Posicion ;
+	base:tieneLatitud "40.419.749.969.504.000" ;
+	base:tieneLongitud "-36.922.961.903.054.300" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/CasadeAmerica> a base:Direccion ;
+	base:tieneNumero "4" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "CIBELES" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/CasadeAmerica> a base:Metro ;
+	base:tieneMetro "banco de españa (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/CasadeAmerica> a base:Renfe ;
+	base:tieneRenfe "recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/CasadeAmerica> a base:Bus ;
+	base:tieneBus "1, 2, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150, 202  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/CasadeCisneros> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Casa de Cisneros" ;
+	base:tieneDescripcion " Es uno de los pocos palacios renacentistas del siglo XVI conservados en Madrid, aunque con muchas modificaciones. " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/CasadeCisneros> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: sol (líneas 1, 2, 3), ópera (líneas r, 2, 5)  bus: 3, 5, 20, 25, 33, 39, 50, 51, 52, 53, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/CasadeCisneros> a base:Posicion ;
+	base:tieneLatitud "4.041.490.075.227.330" ;
+	base:tieneLongitud "-37.105.039.839.947.300" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/CasadeCisneros> a base:Direccion ;
+	base:tieneNumero "4" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28005" ;
+	base:tieneCalle "VILLA" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/CasadeCisneros> a base:Metro ;
+	base:tieneMetro "sol (líneas 1, 2, 3), ópera (líneas r, 2, 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/CasadeCisneros> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/CasadeCisneros> a base:Bus ;
+	base:tieneBus "3, 5, 20, 25, 33, 39, 50, 51, 52, 53, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/CasadeLaPanaderia> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Casa de La Panadería" ;
+	base:tieneDescripcion "Iniciada por Antonio Sillero en 1590 para el gremio del pan, será acabada y transformada en 1617 por Gómez de Mora al integrarla en el conjunto de la Plaza Mayor. La planta baja era completamente libre permitiendo el paso entre la calle Mayor y la Plaza. A finales del siglo  XVIII   Juan de Villanueva la restauró tras el incendio de la plaza en 1672. Es de destacar el balcón y Escudo Real de la fachada, así como sus pinturas." .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/CasadeLaPanaderia> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: sol (líneas 1, 2, 3)  bus: 3, 5, 15, 17, 18, 20, 23, 31, 35, 50, 51, 52, 53, 65, 150  renfe: sol (líneas 3, 4) " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/CasadeLaPanaderia> a base:Posicion ;
+	base:tieneLatitud "4.041.583.855.082.180" ;
+	base:tieneLongitud "-37.074.257.084.323.600" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/CasadeLaPanaderia> a base:Direccion ;
+	base:tieneNumero "27" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012" ;
+	base:tieneCalle "MAYOR" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/CasadeLaPanaderia> a base:Metro ;
+	base:tieneMetro "sol (líneas 1, 2, 3)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/CasadeLaPanaderia> a base:Renfe ;
+	base:tieneRenfe "sol (líneas 3, 4) " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/CasadeLaPanaderia> a base:Bus ;
+	base:tieneBus "3, 5, 15, 17, 18, 20, 23, 31, 35, 50, 51, 52, 53, 65, 150  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/CasadeLaVilla.CasasConsistorialesdelAyuntamientodeMadrid> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Casa de La Villa. Casas Consistoriales del Ayuntamiento de Madrid" ;
+	base:tieneDescripcion " Sede del Ayuntamiento de Madrid desde el año 2007 " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/CasadeLaVilla.CasasConsistorialesdelAyuntamientodeMadrid> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: sol (líneas 1, 2, 3), ópera (líneas r, 2, 5)  bus: 3, 5, 20, 25, 33, 39, 50, 51, 52, 53, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/CasadeLaVilla.CasasConsistorialesdelAyuntamientodeMadrid> a base:Posicion ;
+	base:tieneLatitud "4.041.518.829.867.040" ;
+	base:tieneLongitud "-37.106.248.754.622.500" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/CasadeLaVilla.CasasConsistorialesdelAyuntamientodeMadrid> a base:Direccion ;
+	base:tieneNumero "5" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28005" ;
+	base:tieneCalle "VILLA" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/CasadeLaVilla.CasasConsistorialesdelAyuntamientodeMadrid> a base:Metro ;
+	base:tieneMetro "sol (líneas 1, 2, 3), ópera (líneas r, 2, 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/CasadeLaVilla.CasasConsistorialesdelAyuntamientodeMadrid> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/CasadeLaVilla.CasasConsistorialesdelAyuntamientodeMadrid> a base:Bus ;
+	base:tieneBus "3, 5, 20, 25, 33, 39, 50, 51, 52, 53, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/CasadeLasSieteChimeneas> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Casa de Las Siete Chimeneas" ;
+	base:tieneDescripcion " Casa palacio construida en 1577 por Antonio Sillero. Ha sufrido numerosas reformas, siendo las más destacadas las del siglo XIX, a cargo de Agustín Ortiz de Villajos y Antonio Capó. Posteriormente ha sido reformada por Chueca Goitia y Domínguez Salazar. Destaca por las chimeneas que coronan el tejado. Es un ejemplo de la arquitectura doméstica del siglo XV.  En la actualidad están ubicadas dependencias del Ministerio de Cultura. " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/CasadeLasSieteChimeneas> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: banco de españa (línea 2)  bus: 1, 2, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 46, 51, 52, 53, 74, 146, 150, 202, m2,  renfe: recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/CasadeLasSieteChimeneas> a base:Posicion ;
+	base:tieneLatitud "4.042.020.264.263.880" ;
+	base:tieneLongitud "-36.964.264.776.282.300" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/CasadeLasSieteChimeneas> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004" ;
+	base:tieneCalle "REY" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/CasadeLasSieteChimeneas> a base:Metro ;
+	base:tieneMetro "banco de españa (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/CasadeLasSieteChimeneas> a base:Renfe ;
+	base:tieneRenfe "recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/CasadeLasSieteChimeneas> a base:Bus ;
+	base:tieneBus "1, 2, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 46, 51, 52, 53, 74, 146, 150, 202, m2,  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/CasadeVelazquez> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Casa de Velázquez" ;
+	base:tieneDescripcion " Centro de creación artística y de investigación situado en un palacete de estilo neoclásico de 1920. " ;
+	base:tieneEquipamiento " Desarrollo de actividades creadoras e investigaciones relacionadas con las artes, las lenguas, las literaturas y las sociedades de países ibéricos, iberoamericanos y del Magreb. " ;
+	base:tieneTelefono "914 551 580" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/CasadeVelazquez> a base:TransportePublico ;
+	base:tieneTransportePublico "bus: 83 , 133" .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/CasadeVelazquez> a base:Posicion ;
+	base:tieneLatitud "40.441.013.640.676.600" ;
+	base:tieneLongitud "-37.299.866.834.370.900" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/CasadeVelazquez> a base:Direccion ;
+	base:tieneNumero "3" ;
+	base:tieneDistrito "MONCLOA-ARAVACA" ;
+	base:tieneCodigoPostal "28040" ;
+	base:tieneCalle "PAUL GUINARD" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/CasadeVelazquez> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/CasadeVelazquez> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/CasadeVelazquez> a base:Bus ;
+	base:tieneBus "83 , 133" .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/CasondelBuenRetiro> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Casón del Buen Retiro" ;
+	base:tieneDescripcion " Edificio que forma parte del Museo Nacional del Prado, donde pueden consultarse fondos de la Biblioteca, del Archivo y del Servicio de Documentación de la colección del Museo y de otras fuentes relativas a la historia del arte. " ;
+	base:tieneHorario "  Mañanas    De lunes a jueves, de 9 a 15 horas. (Servicio de libros y otros materiales hasta las 14:30 horas)   Viernes, de 9 a 14:30 horas. (Servicio de libros y otros materiales hasta las 14 horas)     Tardes.  Lunes y miércoles, de 15 a 18 horas. (Servicio de libros y otros materiales hasta las 17:30 horas)   Horario de verano     Desde el 16 de junio al 15 de septiembre  Lunes a viernes, de 9 a 14:30 horas   " ;
+	base:tieneTelefono "902 107 077" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/CasondelBuenRetiro> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: atocha (línea 1)  bus: 19, 10, 14, 27, 34, 37, 45  renfe: atocha " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/CasondelBuenRetiro> a base:Posicion ;
+	base:tieneLatitud "40.415.263.749.471.500" ;
+	base:tieneLongitud "-3.689.232.811.717.630" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/CasondelBuenRetiro> a base:Direccion ;
+	base:tieneNumero "28" ;
+	base:tieneDistrito "RETIRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "ALFONSO XII" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/CasondelBuenRetiro> a base:Metro ;
+	base:tieneMetro "atocha (línea 1)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/CasondelBuenRetiro> a base:Renfe ;
+	base:tieneRenfe "atocha " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/CasondelBuenRetiro> a base:Bus ;
+	base:tieneBus "19, 10, 14, 27, 34, 37, 45  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/CastillodelaAlameda> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Castillo de la Alameda" ;
+	base:tieneDescripcion "El edificio está incorporado al sistema &quot;museosdemadrid&quot; donde se realizan talleres para escolares y actividades en verano." ;
+	base:tieneHorario "  Abierto fines de semana y festivos (incluso los lunes festivos)  De abril a septiembre: sábados, domingos y festivos de 10 a 21 horas  De octubre a marzo: sábados, domingos y festivos de 10 a 18 horas  Cerrado: 24, 25, 31 de diciembre, 1 de enero, 6 de enero, 1 de mayo.  " ;
+	base:tieneEquipamiento "  Accesibilidad    Rampas de acceso  Servicios para minusválidos  Información en Braille para invidentes  " ;
+	base:tieneTelefono """913 667 415                                                                   
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/CastillodelaAlameda> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: alameda de osuna (línea 5), el capricho (línea 5) bus: 101, 105, 112, 114, 115 y 151 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/CastillodelaAlameda> a base:Posicion ;
+	base:tieneLatitud "4.045.835.460.563.490" ;
+	base:tieneLongitud "-35.932.903.820.278.700" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/CastillodelaAlameda> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "BARAJAS" ;
+	base:tieneCodigoPostal "28042" ;
+	base:tieneCalle "ANTONIO SANCHA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/CastillodelaAlameda> a base:Metro ;
+	base:tieneMetro "alameda de osuna (línea 5), el capricho (línea 5) " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/CastillodelaAlameda> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/CastillodelaAlameda> a base:Bus ;
+	base:tieneBus "101, 105, 112, 114, 115 y 151 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/CatedralSantaMarialaRealdelaAlmudena> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Catedral Santa María la Real de la Almudena" ;
+	base:tieneDescripcion " Su construcción comienza a finales del siglo XIX por el Marqués de Cubas, sobre el primer recinto amurallado del Madrid musulmán, y finaliza en el año 1993. " ;
+	base:tieneTelefono "915 480 930" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/CatedralSantaMarialaRealdelaAlmudena> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: ópera (líneas 2, 5, ramal), sol (línea 1, 2, 3)   bus: 3, 31, 41, 50, 62, 65, 148, c1, c2 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/CatedralSantaMarialaRealdelaAlmudena> a base:Posicion ;
+	base:tieneLatitud "4.041.521.119.054.690" ;
+	base:tieneLongitud "-37.142.200.549.476.700" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/CatedralSantaMarialaRealdelaAlmudena> a base:Direccion ;
+	base:tieneNumero "90" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "MAYOR" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/CatedralSantaMarialaRealdelaAlmudena> a base:Metro ;
+	base:tieneMetro "ópera (líneas 2, 5, ramal), sol (línea 1, 2, 3)   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/CatedralSantaMarialaRealdelaAlmudena> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/CatedralSantaMarialaRealdelaAlmudena> a base:Bus ;
+	base:tieneBus "3, 31, 41, 50, 62, 65, 148, c1, c2 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/CentroCondeDuque> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Centro Conde Duque" ;
+	base:tieneDescripcion " Centro Conde Duque es un espacio cultural vinculado a la memoria y a la la difusión de Madrid.  Entre sus fines se encuentran: la difusión de la historia de Madrid, el intercambio de conocimientos históricos con la sociedad, la conservación de  los fondos históricos y artísticos del Ayuntamiento y la producción y exhibición de manifestaciones artísticas relacionadas con el mundo de la escena y de la música. " ;
+	base:tieneHorario "  Exposiciones (entrada gratuita)    De martes a sábado de 10 a 14 y de 17:30 a 21 horas.  Domingos y festivos de 10:30 a 14 horas.  " ;
+	base:tieneEquipamiento "   Salas de Exposiciones:  espacios expositivos con más de mil quinientos metros cuadrados, caracterizada por sus muros de ladrillo y por los espacios abovedados.   Auditorio Conde Duque:  1300 metros cuadrados, renovados en el 2011.   Teatro Conde Duque : espacio escénico moderno y versátil, con una escena de 12 por 17 metros de superficie y un peine de 5,99 metros de altura. Cuenta, además, con dos grandes salas de ensayo adyacentes.    Salon de Actos: u na gran sala de doble altura, totalmente forrada de madera, que está preparada para la realización de conferencias, presentaciones, congresos y seminarios. Ocupa las plantas primera y segunda de la zona del edificio que se sitúa encima del vestíbulo general desde el que tiene acceso. Dotado de medios de audición y gran pantalla de proyección, dispone de una capacidad de 293 asientos.     Zona wifi .   " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/CentroCondeDuque> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: ventura rodríguez (línea 3), san bernardo (línea 2 y 4) y noviciado (línea 2).  bus: 1, 2, 44, 74, 133, 202, 749, minibús m-2 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/CentroCondeDuque> a base:Posicion ;
+	base:tieneLatitud "40.427.938.443.518.200" ;
+	base:tieneLongitud "-3.710.240.346.719.510" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/CentroCondeDuque> a base:Direccion ;
+	base:tieneNumero "09-nov" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28015" ;
+	base:tieneCalle "CONDE DUQUE" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/CentroCondeDuque> a base:Metro ;
+	base:tieneMetro "ventura rodríguez (línea 3), san bernardo (línea 2 y 4) y noviciado (línea 2).  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/CentroCondeDuque> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/CentroCondeDuque> a base:Bus ;
+	base:tieneBus "1, 2, 44, 74, 133, 202, 749, minibús m-2 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/CentrodeEstudiosPoliticosyConstitucionales> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Centro de Estudios Políticos y Constitucionales" ;
+	base:tieneDescripcion "Construido por Sabatini en 1776. Tipología singular sin apartarse de los criterios clásico-barrocos, propios de la época de Carlos III. Destaca su escalera barroca. Fue creado para alojamiento y vivienda de Grimaldi. En 1819 se instaló la Biblioteca Real, y posteriormente las Secretarías, llamándose entonces Casa de los Ministerios." ;
+	base:tieneEquipamiento " Centro de Documentación - Publicaciones - Biblioteca (abierta de lunes a viernes de 9 a 20 horas) - Fotocopiadora - Catálogo colectivo de publicaciones periódicas - Información bibliográfica - Lector reproductor - Préstamo interbibliotecario - Búsquedas bibliográficas y referencia  Materias: Derecho constitucional y público - Ciencia política - Teoría del Estado - Historia política de España - Teoría de la Constitución - Historia de las Ideas Políticas - Posee una amplia colección de repertorios de legislación y jurisprudencia españolas y de los paises de nuestro entorno " ;
+	base:tieneTelefono "915 401 950" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/CentrodeEstudiosPoliticosyConstitucionales> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: santo domingo (línea 2), plaza de españa (línea 3), ópera (línea r, 2, 5)  bus: 1, 2, 25, 33, 39, 44, 46, 74, 75, 133 , 138, 148 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/CentrodeEstudiosPoliticosyConstitucionales> a base:Posicion ;
+	base:tieneLatitud "4.042.063.654.129.450" ;
+	base:tieneLongitud "-37.124.503.472.242.300" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/CentrodeEstudiosPoliticosyConstitucionales> a base:Direccion ;
+	base:tieneNumero "9" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "MARINA ESPA&Ntilde;OLA" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/CentrodeEstudiosPoliticosyConstitucionales> a base:Metro ;
+	base:tieneMetro "santo domingo (línea 2), plaza de españa (línea 3), ópera (línea r, 2, 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/CentrodeEstudiosPoliticosyConstitucionales> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/CentrodeEstudiosPoliticosyConstitucionales> a base:Bus ;
+	base:tieneBus "1, 2, 25, 33, 39, 44, 46, 74, 75, 133 , 138, 148 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/CentroSocialyCulturallaCasaEncendida> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Centro Social y Cultural la Casa Encendida" ;
+	base:tieneDescripcion " Edificio de carácter monumental. De estilo neomudéjar, fue diseñado por el arquitecto Fernando Arbós e inaugurado en el año 1913. Cuenta con más de 6.000 metros cuadrados de instalaciones divididas en 4 plantas y una azotea. " ;
+	base:tieneHorario "  De lunes a domingo de 10 a 22 horas (todos los días del año, excepto festividades nacionales y de la Comunidad de Madrid)  Exposiciones: de 10 a 21:45 horas  " ;
+	base:tieneEquipamiento "   Biblioteca  (consulta catálogo  http://catalogo.bibliotecas.obrasocialcajamadrid.es/ )   Sala de consulta y Hemeroteca: de lunes a domingos, de 10 a 21:15 horas  Mediateca y Sala de trabajo Ofimática: de lunes a domingos, de 10 a 21:15 horas  Biblioteca joven: de lunes a viernes, de 10 a 20:30, sábados y domingos de 10 a 13:30  Bebeteca: sábados y domingos de 10 a 13:30 horas     Estudio multimedia : cuenta con equipos profesionales para la edición de video con Final Cut Studio, Premiere, etc. Su uso tendrá un precio de cinco a ocho euros por turno de cinco horas dependiendo del tipo de asistencia técnica.   Laboratorio de radio:  dispone de un equipo completo de grabación y equipamiento profesional. Su uso tendrá un precio de diez euros por turnos de cinco horas.   Laboratorio fotográfico    Tienda solidaria:  consultar horario   Cafetería:  todos los días, excepto festivos, de 10 a 21:45 horas  " ;
+	base:tieneTelefono """902 430 322                                              
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/CentroSocialyCulturallaCasaEncendida> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: embajadores (línea 3), lavapies (línea 3), atocha (línea 1)   bus: 27, 34, 36, 41, 68, 69, 119   renfe: embajadores " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/CentroSocialyCulturallaCasaEncendida> a base:Posicion ;
+	base:tieneLatitud "4.040.595.710.517.700" ;
+	base:tieneLongitud "-3.699.779.793.558.760" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/CentroSocialyCulturallaCasaEncendida> a base:Direccion ;
+	base:tieneNumero "2" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012" ;
+	base:tieneCalle "VALENCIA" ;
+	base:tieneTipoVia "RONDA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/CentroSocialyCulturallaCasaEncendida> a base:Metro ;
+	base:tieneMetro "embajadores (línea 3), lavapies (línea 3), atocha (línea 1)   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/CentroSocialyCulturallaCasaEncendida> a base:Renfe ;
+	base:tieneRenfe "embajadores " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/CentroSocialyCulturallaCasaEncendida> a base:Bus ;
+	base:tieneBus "27, 34, 36, 41, 68, 69, 119   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/CirculodeBellasArtes> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Círculo de Bellas Artes" ;
+	base:tieneHorario "  Salas de exposiciones:  de 11 a 14 y de 17 a 21 horas. (martes a domingo). Lunes cerrado.    Azotea:  de lunes a jueves de 9 a 21:00, viernes y vísperas de festivos de 9 a 21:30, sábados de 11:00 a 21:30 y domingos de 11 a 21 horas. (horario sujeto a cambios).   Taquilla:  de 16 a 22 horas (miércoles a domingo). Horario sujeto a cambios   Cafetería &quot;La Pecera&quot;:  de 8 a 1 horas (viernes, sábado y domingo hasta las 3 horas )  " ;
+	base:tieneEquipamiento "  Acceso para minusválidos, excepto para Sala Goya.  Terraza - azotea visitable  Cafetería  Teatro  " ;
+	base:tieneTelefono """913 605 400 (Información general)                                                                           
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/CirculodeBellasArtes> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: banco de españa (línea 2)  bus: 1, 2, 3, 5, 9, 46, 51, 52, 53, 74, 146, 150, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/CirculodeBellasArtes> a base:Posicion ;
+	base:tieneLatitud "4.041.842.683.569.730" ;
+	base:tieneLongitud "-36.965.967.618.484.400" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/CirculodeBellasArtes> a base:Direccion ;
+	base:tieneNumero "42" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "ALCALÁ" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/CirculodeBellasArtes> a base:Metro ;
+	base:tieneMetro "banco de españa (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/CirculodeBellasArtes> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/CirculodeBellasArtes> a base:Bus ;
+	base:tieneBus "1, 2, 3, 5, 9, 46, 51, 52, 53, 74, 146, 150, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/CongresodelosDiputados> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Congreso de los Diputados" ;
+	base:tieneDescripcion " El Congreso de los Diputados está configurado por un complejo de cinco edificios con una superficie de cerca de setenta mil metros cuadrados. " ;
+	base:tieneTelefono "913 906 296" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/CongresodelosDiputados> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: sevilla (línea 2), banco de españa (línea 2)  bus: 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53,150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/CongresodelosDiputados> a base:Posicion ;
+	base:tieneLatitud "4.041.626.174.493.480" ;
+	base:tieneLongitud "-3.697.081.267.552.520" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/CongresodelosDiputados> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "CORTES" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/CongresodelosDiputados> a base:Metro ;
+	base:tieneMetro "sevilla (línea 2), banco de españa (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/CongresodelosDiputados> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/CongresodelosDiputados> a base:Bus ;
+	base:tieneBus "5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53,150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ConsejodeEstado> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Consejo de Estado" ;
+	base:tieneDescripcion " Es el supremo órgano consultivo del Gobierno. Actualmente se rige por la  Ley Orgánica 3/1980, de 22 de abril, y su Reglamento es de 18 de julio del mismo año.  (Modificados por Ley Orgánica 3/2004 de 28 de diciembre) y (Real Decreto 449/2005 de 22 de abril).   No forma parte de la Administración activa ni está integrado en ninguno de los Departamentos ministeriales y, aunque la Constitución de 1978 lo califique literalmente de órgano consultivo del Gobierno, tiene en realidad el carácter de órgano del Estado (Sentencia del Tribunal Constitucional 56/1990, de 29 de marzo).  " ;
+	base:tieneEquipamiento "  Archivo y Biblioteca:    Teléfonos: 915 166 356 / 915 166 357  Fax: 915 166 364  Correo electróncio:  archivo.biblioteca@consejo-estado.es   " ;
+	base:tieneTelefono "915 166 240 / 915 166 241 (asuntos en tramitación)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ConsejodeEstado> a base:TransportePublico ;
+	base:tieneTransportePublico " bus: 148, 3 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ConsejodeEstado> a base:Posicion ;
+	base:tieneLatitud "404.149.668.099.875" ;
+	base:tieneLongitud "-37.129.445.136.801.300" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ConsejodeEstado> a base:Direccion ;
+	base:tieneNumero "79" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "MAYOR" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ConsejodeEstado> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ConsejodeEstado> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ConsejodeEstado> a base:Bus ;
+	base:tieneBus "148, 3 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ConventodelasComendadorasdeSantiago> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Convento de las Comendadoras de Santiago" ;
+	base:tieneDescripcion " El templo fue construido entre 1667 y 1679 por Manuel del Olmo y José del Olmo. El convento data del siglo  XVIII   y es obra de Francisco de Sabatini. Es destacable la iglesia de planta cruciforme con gran cúpula central y cuatro exedras semicirculares, así como la sacristía de planta elíptica construida entre 1745 y 1754 por Francisco Moradillo. " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ConventodelasComendadorasdeSantiago> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: san bernardo (líneas 2, 4), ventura rodríguez (línea 3)  bus: 1, 2, 21, 44, 74, 133, 147, c " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ConventodelasComendadorasdeSantiago> a base:Posicion ;
+	base:tieneLatitud "404.273.968.151.307" ;
+	base:tieneLongitud "-3.708.949.668.437.210" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ConventodelasComendadorasdeSantiago> a base:Direccion ;
+	base:tieneNumero "10" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28015" ;
+	base:tieneCalle "COMENDADORAS" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ConventodelasComendadorasdeSantiago> a base:Metro ;
+	base:tieneMetro "san bernardo (líneas 2, 4), ventura rodríguez (línea 3)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ConventodelasComendadorasdeSantiago> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ConventodelasComendadorasdeSantiago> a base:Bus ;
+	base:tieneBus "1, 2, 21, 44, 74, 133, 147, c " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/EdificioMetropolis> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Edificio Metrópolis" ;
+	base:tieneDescripcion " Arquitectos : Jules y Reymond Fevrier y Luis Esteve (1906 - 1910)  Edificio de carácter monumental de estilo clasicista - francés de fin de siglo, aporta una buena solución de esquina para el arranque de la Gran Vía en la rotonda de columnas corintias de orden gigante que sostienen un tercer piso profuso en grupos escultóricos de Saint Marceux, Landousky, Lambert y Benlliure.   La Compañía Metrópolis sustituyó en 1975 el grupo escultórico de la Unión y el Fénix que coronaba la cúpula por una victoria alada de Federico Coullaut Valera.  " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/EdificioMetropolis> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: sevilla (línea 2), banco de españa (línea 2)  bus: 1, 2, 5, 9, 15, 20, 51, 52, 53, 74, 146, 150, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/EdificioMetropolis> a base:Posicion ;
+	base:tieneLatitud "4.041.866.416.622.280" ;
+	base:tieneLongitud "-36.975.775.550.486.100" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/EdificioMetropolis> a base:Direccion ;
+	base:tieneNumero "39" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "ALCALA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/EdificioMetropolis> a base:Metro ;
+	base:tieneMetro "sevilla (línea 2), banco de españa (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/EdificioMetropolis> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/EdificioMetropolis> a base:Bus ;
+	base:tieneBus "1, 2, 5, 9, 15, 20, 51, 52, 53, 74, 146, 150, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ErmitadeSanAntoniodelaFlorida(Museo)> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Ermita de San Antonio de la Florida (Museo)" ;
+	base:tieneDescripcion " Ermita dedicada a San Antonio de Padua y pequeño museo. Las pinturas murales que la decoran son de Francisco de Goya. Alberga los restos mortales del artista desde 1919. Para preservar sus pinturas, en 1929 se trasladó el culto a una ermita gemela construida a su lado, dejando el edificio original como museo. " ;
+	base:tieneHorario "  De martes a domingos y festivos de 9:30 a 20 horas.   Cerrado  los lunes, incluidos festivos, y los días 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre.   Último pase de visita:  20 minutos antes del cierre (el desalojo de las salas comenzará 10 minutos antes)   Por motivos de conservación, el aforo máximo es de 50 personas en el interior de la capilla.  Los sábados que se celebren Visitas animadas para familias se interrumpirá la visita durante el desarrollo de las mismas.  Este horario y la apertura de salas pueden sufrir modificaciones, por favor, confírmelo en el teléfono de información del museo.  " ;
+	base:tieneEquipamiento " Tienda, en la que se pueden adquirir las guías y publicaciones sobre la ermita editadas por el Museo y otros organismos públicos, así como catálogos y publicaciones de instituciones culturales del Ayuntamiento de Madrid. " ;
+	base:tieneTelefono """915 420 722 / 917 011 863                                                                                                                              
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ErmitadeSanAntoniodelaFlorida(Museo)> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: príncipe pío (líneas 5, 10 y ramal ópera - príncipe pío)  bus: 41, 46 y 75 (intercambiador príncipe pío)  renfe: príncipe pío " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ErmitadeSanAntoniodelaFlorida(Museo)> a base:Posicion ;
+	base:tieneLatitud "40.425.256.682.855.800" ;
+	base:tieneLongitud "-3.725.725.718.176.110" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ErmitadeSanAntoniodelaFlorida(Museo)> a base:Direccion ;
+	base:tieneNumero "5" ;
+	base:tieneDistrito "MONCLOA-ARAVACA" ;
+	base:tieneCodigoPostal "28008" ;
+	base:tieneCalle "SAN ANTONIO DE LA FLORIDA" ;
+	base:tieneTipoVia "GLORIETA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ErmitadeSanAntoniodelaFlorida(Museo)> a base:Metro ;
+	base:tieneMetro "príncipe pío (líneas 5, 10 y ramal ópera - príncipe pío)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ErmitadeSanAntoniodelaFlorida(Museo)> a base:Renfe ;
+	base:tieneRenfe "príncipe pío " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ErmitadeSanAntoniodelaFlorida(Museo)> a base:Bus ;
+	base:tieneBus "41, 46 y 75 (intercambiador príncipe pío)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ErmitadeSanIsidro> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Ermita de San Isidro" ;
+	base:tieneHorario "   Ermita:  sábados de 11 a 13 horas (celebración de la Eucaristía a las 12 horas).   Fuente del Santo:  sólo permanece abierta desde la semana anterior a la fiesta de San Isidro hasta la semana posterior.   Oficio en rito hispano mozárabe:  los días 2 de enero a las 18 horas (comienzo del año Caput anni) y 11 de mayo a las 18,30 horas (aniversario de la dedicación).  " ;
+	base:tieneTelefono "915 690 055" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ErmitadeSanIsidro> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: laguna (línea 6), urgel (línea 5)  bus: 25  renfe: laguna (línea 5) " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ErmitadeSanIsidro> a base:Posicion ;
+	base:tieneLatitud "4.039.949.832.410.480" ;
+	base:tieneLongitud "-373.168.274.610.084" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ErmitadeSanIsidro> a base:Direccion ;
+	base:tieneNumero "78" ;
+	base:tieneDistrito "CARABANCHEL" ;
+	base:tieneCodigoPostal "28019" ;
+	base:tieneCalle "ERMITA DEL SANTO" ;
+	base:tieneTipoVia "PASEO" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ErmitadeSanIsidro> a base:Metro ;
+	base:tieneMetro "laguna (línea 6), urgel (línea 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ErmitadeSanIsidro> a base:Renfe ;
+	base:tieneRenfe "laguna (línea 5) " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ErmitadeSanIsidro> a base:Bus ;
+	base:tieneBus "25  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ErmitadeSantaMarialaAntigua> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Ermita de Santa María la Antigua" ;
+	base:tieneTelefono "914 628 536 (Parroquia de San Sebastián Mártir)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ErmitadeSantaMarialaAntigua> a base:TransportePublico ;
+	base:tieneTransportePublico "bus: 34, 108" .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ErmitadeSantaMarialaAntigua> a base:Posicion ;
+	base:tieneLatitud "40.380.299.379.931.600" ;
+	base:tieneLongitud "-3.741.676.977.905.720" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ErmitadeSantaMarialaAntigua> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "CARABANCHEL" ;
+	base:tieneCodigoPostal "28025" ;
+	base:tieneCalle "MONSEÑOR OSCAR ROMERO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ErmitadeSantaMarialaAntigua> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ErmitadeSantaMarialaAntigua> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ErmitadeSantaMarialaAntigua> a base:Bus ;
+	base:tieneBus "34, 108" .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ErmitaVirgendelPuerto> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Ermita Virgen del Puerto" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ErmitaVirgendelPuerto> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: puerta del ángel (línea 6), príncipe pio (líneas 6 y 10) bus: 25, 31, 33, 39, 41, 62, 65, 138  renfe: príncipe pío (líneas 1, 7 y 10)" .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ErmitaVirgendelPuerto> a base:Posicion ;
+	base:tieneLatitud "4.041.556.461.689.200" ;
+	base:tieneLongitud "-37.211.426.105.677.400" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ErmitaVirgendelPuerto> a base:Direccion ;
+	base:tieneNumero "4" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28005" ;
+	base:tieneCalle "VIRGEN DEL PUERTO" ;
+	base:tieneTipoVia "PASEO" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ErmitaVirgendelPuerto> a base:Metro ;
+	base:tieneMetro "puerta del ángel (línea 6), príncipe pio (líneas 6 y 10) " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ErmitaVirgendelPuerto> a base:Renfe ;
+	base:tieneRenfe "príncipe pío (líneas 1, 7 y 10)" .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ErmitaVirgendelPuerto> a base:Bus ;
+	base:tieneBus "25, 31, 33, 39, 41, 62, 65, 138  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/EstacionferroviariaMadridPuertadeAtocha> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Estación ferroviaria Madrid Puerta de Atocha" ;
+	base:tieneDescripcion " Edificio con carácter monumental construído en 1889 por Alberto del Palacio para la Compañía Madrid - Zaragoza - Alicante, en sustitución de la de los años 50 " ;
+	base:tieneHorario "  Horario de la estación: de 5 a 1 horas  Horario de atención al cliente: de 6:30 a 22:30 horas  Horario de información: de 6:30 a 22:30 horas  Venta inmediata de billetes: de 5:30 a 22:30 horas  Venta anticipada de billetes: de lunes a viernes, excepto festivos: de 10 a 20 horas  Horario recogida venta telefónica: de 5:30 a 22:30 horas  Máquinas autoventa multiproducto: de 5:30 a 23:50 horas  Horario consignas: de 5:30 a 22:20 horas  " ;
+	base:tieneEquipamiento " Aseos, cafetería restaurante, cajeros automáticos, aparcamiento, comisaría de Policía Nacional, consigna, tiendas, servicios de alquiler de coches y de cambio de moneda, información turística, librería, recogida de billetes de venta telefónica e internet y sala Club   Servicios adaptados : atención a viajeros con discapacidad - aseos para personas con discapacidad - Vestíbulo zona comercial - Sillas de ruedas - Ascensores adaptados  - Andenes adpatados   Servicio Dialoga : información telefónica de Adif a través del móvil con conexión de datos para personas sordas y con discapacidad auditiva:  telesor.es  " ;
+	base:tieneTelefono """902 432 343 (Información de estaciones) /                                         
+902 320 320 (Renfe: información, reserva, venta, cambio y anulación de billetes) /                                      
+902 240 505 (Viajeros con discapacidad) """ .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/EstacionferroviariaMadridPuertadeAtocha> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: atocha renfe (línea 1)  bus: 10, 19, 24, 47, 55, 57, 85, 102  renfe: atocha " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/EstacionferroviariaMadridPuertadeAtocha> a base:Posicion ;
+	base:tieneLatitud "40.409.567.615.732.200" ;
+	base:tieneLongitud "-3.692.651.480.759.630" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/EstacionferroviariaMadridPuertadeAtocha> a base:Direccion ;
+	base:tieneNumero "S/N" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012" ;
+	base:tieneCalle "EMPERADOR CARLOS V" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/EstacionferroviariaMadridPuertadeAtocha> a base:Metro ;
+	base:tieneMetro "atocha renfe (línea 1)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/EstacionferroviariaMadridPuertadeAtocha> a base:Renfe ;
+	base:tieneRenfe "atocha " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/EstacionferroviariaMadridPuertadeAtocha> a base:Bus ;
+	base:tieneBus "10, 19, 24, 47, 55, 57, 85, 102  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/FundacionBBVA.PalaciodelMarquesdeSalamanca> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Fundación BBVA. Palacio del Marqués de Salamanca" ;
+	base:tieneTelefono "91 537 69 64 (Fundación BBVA)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/FundacionBBVA.PalaciodelMarquesdeSalamanca> a base:TransportePublico .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/FundacionBBVA.PalaciodelMarquesdeSalamanca> a base:Posicion ;
+	base:tieneLatitud "4.042.144.182.034.700" ;
+	base:tieneLongitud "-36.910.993.927.829.500" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/FundacionBBVA.PalaciodelMarquesdeSalamanca> a base:Direccion ;
+	base:tieneNumero "10" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001" ;
+	base:tieneCalle "RECOLETOS" ;
+	base:tieneTipoVia "PASEO" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/FundacionBBVA.PalaciodelMarquesdeSalamanca> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/FundacionBBVA.PalaciodelMarquesdeSalamanca> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/FundacionBBVA.PalaciodelMarquesdeSalamanca> a base:Bus .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/FundaciondelosFerrocarrilesEspañoles(PalaciodeFernanNuñez)> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Fundación de los Ferrocarriles Españoles (Palacio de Fernán Núñez)" ;
+	base:tieneDescripcion "  Fines:  tiene encomendada la recuperación, custodia y difusión del patrimonio histórico, cultural, científico y tecnológico ferroviario. " ;
+	base:tieneEquipamiento "Biblioteca" ;
+	base:tieneTelefono """915 276 172      
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/FundaciondelosFerrocarrilesEspañoles(PalaciodeFernanNuñez)> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: antón martín (línea 1), atocha (línea 1) , lavapiés (línea 3).  bus: 6 , 10 , 14 , 26 , 27 , 32 , 34 , 37 , 45 , 59 , 85 , c1.  renfe: atocha. " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/FundaciondelosFerrocarrilesEspañoles(PalaciodeFernanNuñez)> a base:Posicion ;
+	base:tieneLatitud "4.040.981.202.127.930" ;
+	base:tieneLongitud "-36.969.557.849.817.500" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/FundaciondelosFerrocarrilesEspañoles(PalaciodeFernanNuñez)> a base:Direccion ;
+	base:tieneNumero "44" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012" ;
+	base:tieneCalle "SANTA ISABEL" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/FundaciondelosFerrocarrilesEspañoles(PalaciodeFernanNuñez)> a base:Metro ;
+	base:tieneMetro "antón martín (línea 1), atocha (línea 1) , lavapiés (línea 3).  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/FundaciondelosFerrocarrilesEspañoles(PalaciodeFernanNuñez)> a base:Renfe ;
+	base:tieneRenfe "atocha. " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/FundaciondelosFerrocarrilesEspañoles(PalaciodeFernanNuñez)> a base:Bus ;
+	base:tieneBus "6 , 10 , 14 , 26 , 27 , 32 , 34 , 37 , 45 , 59 , 85 , c1.  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/GaleriadeCristaldelPalaciodeCibeles> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Galeria de Cristal del Palacio de Cibeles" ;
+	base:tieneDescripcion " Una gran bóveda acristalada, de geometría irregular y forma orgánica, cobija  2.800  m&sup2;    de este lugar de representación, celebración y encuentro para los ciudadanos, bajo el cielo de Madrid. Eleva a 30 metros de altura su transparente levedad (500 toneladas). Etá construida con casi 2.000 cristales triangulares, todos diferentes entre sí, formados por 2.966 barras y 1.034 nudos unidos uno a uno.  Tras haber sufrido diversas alteraciones, este espacio, que nace al cubrir el antiguo pasaje Ruiz de Alarcón, antes ocupado por vehículos de reparto de correo, restaurado y rehabilitado, constituye un elemento esencial de la sede del Ayuntamiento de Madrid. " ;
+	base:tieneHorario " Domingos y festivos de 11 a 20 horas " ;
+	base:tieneTelefono """915 217 170          
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/GaleriadeCristaldelPalaciodeCibeles> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: banco de españa (línea 2)  bus: 1, 2, 5, 9, 10, 15, 20, 27, 34, 45, 51, 52, 53, 74, 146, 150   renfe: recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/GaleriadeCristaldelPalaciodeCibeles> a base:Posicion ;
+	base:tieneLatitud "40.418.291.440.980.200" ;
+	base:tieneLongitud "-369.213.979.278.398" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/GaleriadeCristaldelPalaciodeCibeles> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "RETIRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "MONTALBAN" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/GaleriadeCristaldelPalaciodeCibeles> a base:Metro ;
+	base:tieneMetro "banco de españa (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/GaleriadeCristaldelPalaciodeCibeles> a base:Renfe ;
+	base:tieneRenfe "recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/GaleriadeCristaldelPalaciodeCibeles> a base:Bus ;
+	base:tieneBus "1, 2, 5, 9, 10, 15, 20, 27, 34, 45, 51, 52, 53, 74, 146, 150   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/IglesiaCatedraldelasFuerzasArmadas> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Iglesia Catedral de las Fuerzas Armadas" ;
+	base:tieneTelefono "915 473 624" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/IglesiaCatedraldelasFuerzasArmadas> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: ópera (líneas , ramal , 2 , 5)  bus: 3 , 17 , 25 , 31 , 33 , 39 , 41 , 50 , 65 , 138 , 148  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/IglesiaCatedraldelasFuerzasArmadas> a base:Posicion ;
+	base:tieneLatitud "40.414.889.947.123.700" ;
+	base:tieneLongitud "-37.122.600.779.776.700" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/IglesiaCatedraldelasFuerzasArmadas> a base:Direccion ;
+	base:tieneNumero "11" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28005" ;
+	base:tieneCalle "SACRAMENTO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/IglesiaCatedraldelasFuerzasArmadas> a base:Metro ;
+	base:tieneMetro "ópera (líneas , ramal , 2 , 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/IglesiaCatedraldelasFuerzasArmadas> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/IglesiaCatedraldelasFuerzasArmadas> a base:Bus ;
+	base:tieneBus "3 , 17 , 25 , 31 , 33 , 39 , 41 , 50 , 65 , 138 , 148  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/IglesiaCorpusChristi(JeronimasRecoletas)> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Iglesia Corpus Christi (Jerónimas Recoletas)" ;
+	base:tieneTelefono "915 483 701" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/IglesiaCorpusChristi(JeronimasRecoletas)> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: ópera ( lineas, ramal , 2 , 5 )  sol ( líneas, 1 , 2 , 3 ) la latina ( línea, 5 )  bus: 3 , 6 , 17 , 18 , 23 , 25 , 26 , 31 , 32 , 39 , 50  , 51 ,  65 , 148 ,                     " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/IglesiaCorpusChristi(JeronimasRecoletas)> a base:Posicion ;
+	base:tieneLatitud "4.041.481.486.646.870" ;
+	base:tieneLongitud "-37.098.194.568.632.300" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/IglesiaCorpusChristi(JeronimasRecoletas)> a base:Direccion ;
+	base:tieneNumero "3" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28005" ;
+	base:tieneCalle "CONDE DE MIRANDA" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/IglesiaCorpusChristi(JeronimasRecoletas)> a base:Metro ;
+	base:tieneMetro "ópera ( lineas, ramal , 2 , 5 )  sol ( líneas, 1 , 2 , 3 ) la latina ( línea, 5 )  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/IglesiaCorpusChristi(JeronimasRecoletas)> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/IglesiaCorpusChristi(JeronimasRecoletas)> a base:Bus ;
+	base:tieneBus "3 , 6 , 17 , 18 , 23 , 25 , 26 , 31 , 32 , 39 , 50  , 51 ,  65 , 148 ,                     " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/IglesiadelasCalatravas(ConcepcionRealdeCalatrava)> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Iglesia de las Calatravas (Concepción Real de Calatrava)" ;
+	base:tieneTelefono "915 218 035" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/IglesiadelasCalatravas(ConcepcionRealdeCalatrava)> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: sevilla (línea 2)  bus: 1, 2, 3, 5, 9, 14, 15, 20, 27, 37, 40, 45, 46, 50, 51, 52, 53, 74, 146, 150, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/IglesiadelasCalatravas(ConcepcionRealdeCalatrava)> a base:Posicion ;
+	base:tieneLatitud "40.418.196.333.786.000" ;
+	base:tieneLongitud "-3.698.963.613.858.250" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/IglesiadelasCalatravas(ConcepcionRealdeCalatrava)> a base:Direccion ;
+	base:tieneNumero "25" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "ALCALA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/IglesiadelasCalatravas(ConcepcionRealdeCalatrava)> a base:Metro ;
+	base:tieneMetro "sevilla (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/IglesiadelasCalatravas(ConcepcionRealdeCalatrava)> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/IglesiadelasCalatravas(ConcepcionRealdeCalatrava)> a base:Bus ;
+	base:tieneBus "1, 2, 3, 5, 9, 14, 15, 20, 27, 37, 40, 45, 46, 50, 51, 52, 53, 74, 146, 150, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/IglesiaMadresRedentoristas> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Iglesia Madres Redentoristas" ;
+	base:tieneTelefono "915 086 800" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/IglesiaMadresRedentoristas> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: carabanchel alto ( línea, 11)  bus: 34 , 35 , 47 , 121 , 131 , 139 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/IglesiaMadresRedentoristas> a base:Posicion ;
+	base:tieneLatitud "4.037.319.952.563.820" ;
+	base:tieneLongitud "-3.755.699.003.858.800" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/IglesiaMadresRedentoristas> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "CARABANCHEL" ;
+	base:tieneCodigoPostal "28044" ;
+	base:tieneCalle "MADRE CELESTE" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/IglesiaMadresRedentoristas> a base:Metro ;
+	base:tieneMetro "carabanchel alto ( línea, 11)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/IglesiaMadresRedentoristas> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/IglesiaMadresRedentoristas> a base:Bus ;
+	base:tieneBus "34 , 35 , 47 , 121 , 131 , 139 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/IglesiaSanAntoniodelosAlemanes> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Iglesia San Antonio de los Alemanes" ;
+	base:tieneTelefono "915 223 774" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/IglesiaSanAntoniodelosAlemanes> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: callao (líneas 3 y 5), gran vía (líneas 1 y 5)  bus: 1, 2, 46, 74, 146, 202        " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/IglesiaSanAntoniodelosAlemanes> a base:Posicion ;
+	base:tieneLatitud "4.042.195.996.338.600" ;
+	base:tieneLongitud "-37.022.913.826.706.000" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/IglesiaSanAntoniodelosAlemanes> a base:Direccion ;
+	base:tieneNumero "22" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004" ;
+	base:tieneCalle "PUEBLA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/IglesiaSanAntoniodelosAlemanes> a base:Metro ;
+	base:tieneMetro "callao (líneas 3 y 5), gran vía (líneas 1 y 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/IglesiaSanAntoniodelosAlemanes> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/IglesiaSanAntoniodelosAlemanes> a base:Bus ;
+	base:tieneBus "1, 2, 46, 74, 146, 202        " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/IglesiaSanIldefonso(MonasteriodelasTrinitariasDescalzas)> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Iglesia San Ildefonso (Monasterio de las Trinitarias Descalzas)" ;
+	base:tieneEquipamiento " El monumento conmemorativo alberga los restos hallados en la cripta del convento. Con la colocación de los restos de Miguel de Cervantes en la nave de la actual iglesia del siglo  XVIII   se cumple la voluntad testamentaria del autor de 'El Quijote'. Miguel de Cervantes, que fue enterrado en la primitiva iglesia el 23 de abril de 1616, expresó en su última voluntad descansar allí en agradecimiento a los Trinitarios que le liberaron de los cinco años y medio de cautiverio en Argel, en manos de los piratas berberiscos.  " ;
+	base:tieneTelefono "914 295 671" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/IglesiaSanIldefonso(MonasteriodelasTrinitariasDescalzas)> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: antón martín (línea 1), sevilla (línea 2)  bus: 5,  6, 9, 10, 14, 15, 20, 26, 27, 32, 34, 37, 45, 51, 52, 53, 150  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/IglesiaSanIldefonso(MonasteriodelasTrinitariasDescalzas)> a base:Posicion ;
+	base:tieneLatitud "4.041.367.254.153.840" ;
+	base:tieneLongitud "-36.976.792.276.700.900" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/IglesiaSanIldefonso(MonasteriodelasTrinitariasDescalzas)> a base:Direccion ;
+	base:tieneNumero "18" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "LOPE DE VEGA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/IglesiaSanIldefonso(MonasteriodelasTrinitariasDescalzas)> a base:Metro ;
+	base:tieneMetro "antón martín (línea 1), sevilla (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/IglesiaSanIldefonso(MonasteriodelasTrinitariasDescalzas)> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/IglesiaSanIldefonso(MonasteriodelasTrinitariasDescalzas)> a base:Bus ;
+	base:tieneBus "5,  6, 9, 10, 14, 15, 20, 26, 27, 32, 34, 37, 45, 51, 52, 53, 150  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/IglesiaSanPedroelViejo> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Iglesia San Pedro el Viejo" ;
+	base:tieneTelefono "913 651 284" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/IglesiaSanPedroelViejo> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: la latina (línea 5) tirso de molina (línea 1)  bus: 3 , 6 , 17 , 18 , 23 , 26 , 31 , 32 , 35 , 41 , 50 , 60 , 65 , 148 , 749 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/IglesiaSanPedroelViejo> a base:Posicion ;
+	base:tieneLatitud "4.041.320.112.124.680" ;
+	base:tieneLongitud "-371.000.286.701.288" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/IglesiaSanPedroelViejo> a base:Direccion ;
+	base:tieneNumero "14" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28005" ;
+	base:tieneCalle "NUNCIO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/IglesiaSanPedroelViejo> a base:Metro ;
+	base:tieneMetro "la latina (línea 5) tirso de molina (línea 1)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/IglesiaSanPedroelViejo> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/IglesiaSanPedroelViejo> a base:Bus ;
+	base:tieneBus "3 , 6 , 17 , 18 , 23 , 26 , 31 , 32 , 35 , 41 , 50 , 60 , 65 , 148 , 749 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/InstitutoCervantes> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Instituto Cervantes" ;
+	base:tieneDescripcion " El antiguo Banco Español del Río de la Plata eligió para su construcción el solar en el que estuvo situado el palacio de Casa Irujo y seleccionó a dos arquitectos de la época, Palacios y Otamendi. Para algunos autores es su mejor edificio, dentro de ese característico estilo grandioso y monumental que incorpora los órdenes clásicos con vigor, rotundidad y correcta modulación y los conjuga con la innovación de las superficies lisas de grandes vanos acristalados. En el chaflán, un grupo de cariátides preside la entrada. Ese mismo argumento de monumentalidad fue el que se utilizó para conceder la licencia constructiva, pues el exceso de altura (25 metros en vez de los 18 permitidos) retrasó el permiso para iniciar las obras. La gran carga simbólica del edificio se subrayaba en el patio central de operaciones, que abarcaba la altura de todas las plantas y se remataba con una magnífica cúpula vidriera. En torno a él se abrían perimetralmente las distintas dependencias bancarias, conjugando asimismo modernidad y monumentalidad en los elementos constructivos. Ese grandioso espacio central se perdió con la reforma y ampliación de la década de 1940, en la que se añadió un nuevo edificio por la calle del Barquillo y se cambió por completo el interior. La fachada de esta ampliación aspira a repetir el esquema de Palacios y Otamendi sin mimetizarlo. " ;
+	base:tieneHorario "  Recepción: 8 a 19 horas  Registro:   lunes a jueves: de 8 a 15 horas  Viernes: de 9 a 14 horas    Exposiciones: consultar programa  " ;
+	base:tieneEquipamiento "  Biblioteca  Canal de televisión a través de internet (24 horas de emisión)  cervantestv.es   " ;
+	base:tieneTelefono "914 367 600" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/InstitutoCervantes> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: banco de españa (línea 2)  bus: 1, 2, 5, 20, 51, 52, 53, 74  renfe: recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/InstitutoCervantes> a base:Posicion ;
+	base:tieneLatitud "40.419.245.261.976" ;
+	base:tieneLongitud "-36.953.321.647.484.300" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/InstitutoCervantes> a base:Direccion ;
+	base:tieneNumero "49" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "ALCALA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/InstitutoCervantes> a base:Metro ;
+	base:tieneMetro "banco de españa (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/InstitutoCervantes> a base:Renfe ;
+	base:tieneRenfe "recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/InstitutoCervantes> a base:Bus ;
+	base:tieneBus "1, 2, 5, 20, 51, 52, 53, 74  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/InstitutoItalianodeCulturadeMadrid> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Instituto Italiano de Cultura de Madrid" ;
+	base:tieneDescripcion "  Objetivo : promover y difundir la lengua y la cultura italianas en España a través de la organización de actividades culturales para favorecer la circulación de las ideas, de las artes y de las ciencias.  " ;
+	base:tieneHorario " Invierno: de lunes a viernes de 9 a 18 horas  Verano: de 9 a 14 horas " ;
+	base:tieneEquipamiento "  Biblioteca  Cafetería  Exposiciones  Ciclos de cine  Enseñanza del  iItaliano  Salón de actos  " ;
+	base:tieneTelefono """915 475 205  / 915 478 603 (Centralita)                 
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/InstitutoItalianodeCulturadeMadrid> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: opera (líneas 2, 5, r)  bus: 3, 25, 39, 148 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/InstitutoItalianodeCulturadeMadrid> a base:Posicion ;
+	base:tieneLatitud "4.041.523.808.103.920" ;
+	base:tieneLongitud "-37.127.823.633.086.300" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/InstitutoItalianodeCulturadeMadrid> a base:Direccion ;
+	base:tieneNumero "86" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "MAYOR" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/InstitutoItalianodeCulturadeMadrid> a base:Metro ;
+	base:tieneMetro "opera (líneas 2, 5, r)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/InstitutoItalianodeCulturadeMadrid> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/InstitutoItalianodeCulturadeMadrid> a base:Bus ;
+	base:tieneBus "3, 25, 39, 148 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/MinisteriodeHaciendayAdministracionesPublicas.DireccionGeneraldePatrimoniodelEstado> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Ministerio de Hacienda y Administraciones Públicas. Dirección General de Patrimonio del Estado" ;
+	base:tieneTelefono "915 958 000" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/MinisteriodeHaciendayAdministracionesPublicas.DireccionGeneraldePatrimoniodelEstado> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: sol (líneas 1, 2, 3)  bus: 5, 150   renfe: sol " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/MinisteriodeHaciendayAdministracionesPublicas.DireccionGeneraldePatrimoniodelEstado> a base:Posicion ;
+	base:tieneLatitud "40.417.489.335.230.300" ;
+	base:tieneLongitud "-37.011.604.823.997.800" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/MinisteriodeHaciendayAdministracionesPublicas.DireccionGeneraldePatrimoniodelEstado> a base:Direccion ;
+	base:tieneNumero "9" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "ALCALA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/MinisteriodeHaciendayAdministracionesPublicas.DireccionGeneraldePatrimoniodelEstado> a base:Metro ;
+	base:tieneMetro "sol (líneas 1, 2, 3)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/MinisteriodeHaciendayAdministracionesPublicas.DireccionGeneraldePatrimoniodelEstado> a base:Renfe ;
+	base:tieneRenfe "sol " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/MinisteriodeHaciendayAdministracionesPublicas.DireccionGeneraldePatrimoniodelEstado> a base:Bus ;
+	base:tieneBus "5, 150   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/MinisteriodeHaciendayAdministracionesPublicas.SedecalleAlcala> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Ministerio de Hacienda y Administraciones Públicas. Sede calle Alcalá" ;
+	base:tieneDescripcion " Edificio declarado bien de interés cultural, con categoría de monumento.  Construido por Francisco Sabatini en 1769 para Real Casa de Aduanas. Es uno de los primeros edificios neoclásicos de Madrid. Destaca su fachada romana y escalera que forma el núcleo del edificio, lugar de intersección de toda la circulación dentro de la organización de los tres patios. " ;
+	base:tieneEquipamiento " Biblioteca " ;
+	base:tieneTelefono "915 958 000" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/MinisteriodeHaciendayAdministracionesPublicas.SedecalleAlcala> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: sol (líneas 1, 2, 3), sevilla (línea 5)  bus: 5, 150   renfe: sol " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/MinisteriodeHaciendayAdministracionesPublicas.SedecalleAlcala> a base:Posicion ;
+	base:tieneLatitud "40.417.489.335.230.300" ;
+	base:tieneLongitud "-37.011.604.823.997.800" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/MinisteriodeHaciendayAdministracionesPublicas.SedecalleAlcala> a base:Direccion ;
+	base:tieneNumero "9" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "ALCALA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/MinisteriodeHaciendayAdministracionesPublicas.SedecalleAlcala> a base:Metro ;
+	base:tieneMetro "sol (líneas 1, 2, 3), sevilla (línea 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/MinisteriodeHaciendayAdministracionesPublicas.SedecalleAlcala> a base:Renfe ;
+	base:tieneRenfe "sol " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/MinisteriodeHaciendayAdministracionesPublicas.SedecalleAlcala> a base:Bus ;
+	base:tieneBus "5, 150   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/MinisteriodeJusticia> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Ministerio de Justicia" ;
+	base:tieneDescripcion "Edificio construido por el arquitecto Evaristo del Castillo para la Marquesa de Sonora en 1797, sobre el solar donde se encontraba la casa de Don Bernardo Grimaldo, destruida en un incendio en 1789. En 1851 pasa a ser propiedad del Estado y entre 1942 y 1947 es transformado por Javier Barroso, que le da el estilo nacionalista - herreriano, introduciendo las torres con sus chapiteles y revistiendo éstas con piedra. " ;
+	base:tieneHorario " Atención telefónica:  de lunes a viernes  de 9 a 17 horas" ;
+	base:tieneTelefono """913 902 000 (Centralita)               
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/MinisteriodeJusticia> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: noviciado (línea 2), plaza de españa (líneas 3, 10)  bus: 147 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/MinisteriodeJusticia> a base:Posicion ;
+	base:tieneLatitud "4.042.412.618.887.780" ;
+	base:tieneLongitud "-3.707.536.103.996.870" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/MinisteriodeJusticia> a base:Direccion ;
+	base:tieneNumero "45" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28015" ;
+	base:tieneCalle "SAN BERNARDO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/MinisteriodeJusticia> a base:Metro ;
+	base:tieneMetro "noviciado (línea 2), plaza de españa (líneas 3, 10)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/MinisteriodeJusticia> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/MinisteriodeJusticia> a base:Bus ;
+	base:tieneBus "147 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/MonasteriodelasDescalzasReales> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Monasterio de las Descalzas Reales" ;
+	base:tieneDescripcion " Convento fundado por la Princesa Juana de Austria, transformando un antiguo palacio de su madre Isabel de Portugal. " ;
+	base:tieneHorario " Sólo con visita guiada.    De martes a sábado de 10 a 14 horas y de 16 a 18:30 horas  Domingos y festivos, de 10 a 15 horas. Cerrado los lunes  Cierre de taquillas una hora antes  Cerrado:   Enero: días 1, 6.  Abril: del 1 al 4 inclusive, semana santa.  Mayo: día 1.  Diciembre: 24, 25 y 31 de diciembre.    El  7 de diciembre  abierto en horario de mañana y tarde.     Atención telefónica:    De lunes a sábados de 9:30 a 17 horas  Domingos y festivos de 9 a 14 horas  " ;
+	base:tieneTelefono """914 548 700                                                      
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/MonasteriodelasDescalzasReales> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: callao (líneas 3, 5) , santo domingo (línea 2) , sol (líneas 1, 2, 3) gran vía (líneas 1, 5)  bus: 1, 2, 3, 5, 15, 20, 25, 39, 40, 44, 46, 50, 51, 52, 53, 74, 75, 133, 146, 147, 148, 149, 150, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/MonasteriodelasDescalzasReales> a base:Posicion ;
+	base:tieneLatitud "40.418.233.359.889.400" ;
+	base:tieneLongitud "-3.706.213.134.639.160" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/MonasteriodelasDescalzasReales> a base:Direccion ;
+	base:tieneNumero "3" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "DESCALZAS" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/MonasteriodelasDescalzasReales> a base:Metro ;
+	base:tieneMetro "callao (líneas 3, 5) , santo domingo (línea 2) , sol (líneas 1, 2, 3) gran vía (líneas 1, 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/MonasteriodelasDescalzasReales> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/MonasteriodelasDescalzasReales> a base:Bus ;
+	base:tieneBus "1, 2, 3, 5, 15, 20, 25, 39, 40, 44, 46, 50, 51, 52, 53, 74, 75, 133, 146, 147, 148, 149, 150, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/MonasteriodeSanPlacido> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Monasterio de San Plácido" ;
+	base:tieneTelefono "915 317 999" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/MonasteriodeSanPlacido> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: noviciado (línea 2)  bus: 3, 147 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/MonasteriodeSanPlacido> a base:Posicion ;
+	base:tieneLatitud "40.422.820.373.636.300" ;
+	base:tieneLongitud "-3.704.504.689.941.360" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/MonasteriodeSanPlacido> a base:Direccion ;
+	base:tieneNumero "9" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004" ;
+	base:tieneCalle "SAN ROQUE" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/MonasteriodeSanPlacido> a base:Metro ;
+	base:tieneMetro "noviciado (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/MonasteriodeSanPlacido> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/MonasteriodeSanPlacido> a base:Bus ;
+	base:tieneBus "3, 147 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/MonumentoHomenajealasVictimasdel11demarzo> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Monumento Homenaje a las Víctimas del 11 de marzo" ;
+	base:tieneHorario " De martes a domingos, de 11 a 14 horas y de 17 a 19 horas. Lunes Cerrado. " ;
+	base:tieneEquipamiento "Acceso para personas discapacitadas" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/MonumentoHomenajealasVictimasdel11demarzo> a base:TransportePublico .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/MonumentoHomenajealasVictimasdel11demarzo> a base:Posicion ;
+	base:tieneLatitud "4.040.774.080.279.230" ;
+	base:tieneLongitud "-36.892.974.870.165.900" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/MonumentoHomenajealasVictimasdel11demarzo> a base:Direccion ;
+	base:tieneDistrito "RETIRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "Emperador Carlos V" ;
+	base:tieneTipoVia "GLORIETA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/MonumentoHomenajealasVictimasdel11demarzo> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/MonumentoHomenajealasVictimasdel11demarzo> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/MonumentoHomenajealasVictimasdel11demarzo> a base:Bus .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/MuseodeHistoriadeMadrid> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Museo de Historia de Madrid" ;
+	base:tieneHorario "   Exposición    &quot;Cervantes a la luz: imágenes del hallazgo&quot;:   de martes a domingo de 10:00 a 20 horas.   Salas de exposición permanente y de Cartografía y maquetas : de martes a domingo de 10:00 a 20 horas.  Cerrado : todos los lunes y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre.   " ;
+	base:tieneEquipamiento "  Biblioteca de investigación  Servicio de documentación  Guardarropa  Zona wifi  " ;
+	base:tieneTelefono "917 011 863" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/MuseodeHistoriadeMadrid> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: tribunal (líneas 1 y 10), bilbao (líneas 1 y 4), alonso martínez (4, 5, 10)  bus: 3, 21, 37, 40, 147, 149" .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/MuseodeHistoriadeMadrid> a base:Posicion ;
+	base:tieneLatitud "4.042.577.054.821.340" ;
+	base:tieneLongitud "-3.700.845.660.719.600" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/MuseodeHistoriadeMadrid> a base:Direccion ;
+	base:tieneNumero "78" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004" ;
+	base:tieneCalle "FUENCARRAL" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/MuseodeHistoriadeMadrid> a base:Metro ;
+	base:tieneMetro "tribunal (líneas 1 y 10), bilbao (líneas 1 y 4), alonso martínez (4, 5, 10)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/MuseodeHistoriadeMadrid> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/MuseodeHistoriadeMadrid> a base:Bus ;
+	base:tieneBus "3, 21, 37, 40, 147, 149" .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/MuseodelaRealAcademiadeBellasArtesdeSanFernando> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Museo de la Real Academia de Bellas Artes de San Fernando" ;
+	base:tieneDescripcion "Construido inicialmente para palacio de D. Juan de Goyeneche, el edificio fue adquirido por la Academia de Bellas Artes en 1773 y reformado bajo la dirección de Fernando Chueca Goitia en 1973 y la fachada por Diego de Villanueva en 1774." ;
+	base:tieneHorario "  Colección permanente:  de martes a domingos de 10 a 15 horas., incluyendo festivos. Lunes cerrado.      Exposiciones temporales:  consultar telefónicamente  Cerrado mes de agosto y días 1 y 6 de enero, 1 y 30 de mayo, 9 de noviembre; 24, 25 y 31 de diciembre.  " ;
+	base:tieneEquipamiento "Sala de exposiciones - Accesible a personas con minusvalía (física)." ;
+	base:tieneTelefono """915 240 864 (Centralita)                                    
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/MuseodelaRealAcademiadeBellasArtesdeSanFernando> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: sol (línea 3), sevilla (línea 2)  bus: 3, 5, 15, 20, 50, 51, 55, 53, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/MuseodelaRealAcademiadeBellasArtesdeSanFernando> a base:Posicion ;
+	base:tieneLatitud "4.041.764.548.040.700" ;
+	base:tieneLongitud "-3.700.667.044.636.170" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/MuseodelaRealAcademiadeBellasArtesdeSanFernando> a base:Direccion ;
+	base:tieneNumero "13" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "ALCALA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/MuseodelaRealAcademiadeBellasArtesdeSanFernando> a base:Metro ;
+	base:tieneMetro "sol (línea 3), sevilla (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/MuseodelaRealAcademiadeBellasArtesdeSanFernando> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/MuseodelaRealAcademiadeBellasArtesdeSanFernando> a base:Bus ;
+	base:tieneBus "3, 5, 15, 20, 50, 51, 55, 53, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/MuseodelFerrocarrildeMadrid> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Museo del Ferrocarril de Madrid" ;
+	base:tieneDescripcion "Edificio de caracter monumental. Construido como cabecera de la línea Madrid - Extremadura - Portugal en el año 1880 por E. Cachelievre." ;
+	base:tieneHorario "  De martes a viernes de 9:30 a 15 horas.   Sábados de 10 a 15 horas.   Domingos de 10 a 15 horas.   Cerrado los lunes (incluidos festivos), del 16 al 31 de agosto (ambos inclusive), y los días 1 y 6 de enero, 1 de mayo y 25 de diciembre.  " ;
+	base:tieneEquipamiento "  Tienda  Teatro  Librería  Cafetería  Archivo y Biblioteca  Parque ferroviario  Salas de Tracción, de Modelismo Ferroviario, de Infraestructura y de Relojes    Actividades    Feria de coleccionismo &lsquo;La Estación&rsquo; (los primeros sábados de cada mes, excepto en agosto)  Mercadillo de modelismo (primeros domingos de cada mes, excepto en agosto)   Actividades para escolares  Teatro familiar (todos los sábados, domingos y festivos, excepto julio y agosto)  Trenes de jardín (todos los domingos, excepto julio y agosto)    " ;
+	base:tieneTelefono """902 228 822                                                                                           
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/MuseodelFerrocarrildeMadrid> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: delicias (línea 3)  bus: 8, 19, 45, 47, 59, 85, 86  renfe: delicias " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/MuseodelFerrocarrildeMadrid> a base:Posicion ;
+	base:tieneLatitud "40.400.281.290.485.500" ;
+	base:tieneLongitud "-3.693.817.192.160.560" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/MuseodelFerrocarrildeMadrid> a base:Direccion ;
+	base:tieneNumero "61" ;
+	base:tieneDistrito "ARGANZUELA" ;
+	base:tieneCodigoPostal "28045" ;
+	base:tieneCalle "DELICIAS" ;
+	base:tieneTipoVia "PASEO" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/MuseodelFerrocarrildeMadrid> a base:Metro ;
+	base:tieneMetro "delicias (línea 3)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/MuseodelFerrocarrildeMadrid> a base:Renfe ;
+	base:tieneRenfe "delicias " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/MuseodelFerrocarrildeMadrid> a base:Bus ;
+	base:tieneBus "8, 19, 45, 47, 59, 85, 86  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/MuseoLazaroGaldiano> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Museo Lázaro Galdiano" ;
+	base:tieneHorario "  Martes a sábados de 10 a 16:30 horas.  Domingos de 10 a 15 horas.  Cerrado todos los lunes, 1 y 6 de enero, 28 y 29 de marzo, 1 y 15 de mayo, 15 de agosto, 1 de noviembre y 24, 25 y 31 de diciembre.    Visitas guiadas  al Museo fuera de horario: de 17:30 a 18:45 horas, previa reserva telefónica en el 915 616 084 (extensión 101).    Horario para reserva telefónica: de lunes a jueves, de 8:30 a 16:30 horas, viernes hasta las 14 horas.   Importe: 2 euros (entrada al museo).   Miércoles y jueves: para grupos previamente constituidos.   Viernes para visitantes individuales reunidos para la visita.   " ;
+	base:tieneTelefono "915 616 084" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/MuseoLazaroGaldiano> a base:TransportePublico ;
+	base:tieneTransportePublico " bus: 9, 12, 16, 19, 51, 61  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/MuseoLazaroGaldiano> a base:Posicion ;
+	base:tieneLatitud "40.436.750.328.725.900" ;
+	base:tieneLongitud "-36.861.980.129.207.800" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/MuseoLazaroGaldiano> a base:Direccion ;
+	base:tieneNumero "122" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28006" ;
+	base:tieneCalle "SERRANO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/MuseoLazaroGaldiano> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/MuseoLazaroGaldiano> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/MuseoLazaroGaldiano> a base:Bus ;
+	base:tieneBus "9, 12, 16, 19, 51, 61  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/MuseoNacionaldeArtesDecorativas> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Museo Nacional de Artes Decorativas" ;
+	base:tieneDescripcion " Inaugurado en 1912, su sede es un típico palacete madrileño del último tercio del siglo XIX. El museo posee muebles, cerámicas, vidrios, joyas, tejidos, arte oriental, y hasta 30.000 objetos distintos que a lo largo de la historia han servido para embellecer las casas, palacios y los monumentos de distintas culturas.  El museo posee muestras como el Jarrón de Sevres regalo de Napoleón III, la Cocina Valenciana del siglo XVIII compuesta por más de 1.500 azulejos de Manises, la Mesa de plata del siglo XVI o la colección de alfombras españolas de los siglos XV al XVII. " ;
+	base:tieneHorario "  De martes a sábados de 9:30 a 15 horas.   Jueves tarde de 17 a 20 horas.  Cerrado los jueves de julio y agosto.  Domingos y festivos de 10 a 15 horas.   Cerrado: todos los lunes del año, y los días 1 y 6 de enero, 1 y 15 de mayo, 24, 25 y 31 de diciembre.  " ;
+	base:tieneEquipamiento "  Exposición de piezas españolas y de procedencia extranjera.     Visitas guiadas a la colección permanente.   Los guías voluntarios del Museo Nacional de Artes Decorativas ofrecen visitas gratuitas a la colección permanente los domingos a las 11:30 horas para todos los visitantes y de martes a viernes a grupos (previa petición de hora en el 915 326 499 -  Ext.  101).   Visitas guiadas individuales  los domingos a las 11:30 horas    Información y reservas para grupos:  915 326 499.  Ext.  101 (En caso de cancelación de la visita, se ruega avisar telefónicamente) " ;
+	base:tieneTelefono "915 326 499 / 915 326 845" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/MuseoNacionaldeArtesDecorativas> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: banco de españa (línea 2) , retiro (línea 2)  bus: 1, 2, 5, 9, 10, 14, 15, 16, 19, 20, 27, 28, 34, 37, 45, 51, 52, 53, 74, 146, 148, 150  renfe: recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/MuseoNacionaldeArtesDecorativas> a base:Posicion ;
+	base:tieneLatitud "404.178.910.680.573" ;
+	base:tieneLongitud "-3.689.790.044.810.550" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/MuseoNacionaldeArtesDecorativas> a base:Direccion ;
+	base:tieneNumero "12" ;
+	base:tieneDistrito "RETIRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "MONTALBAN" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/MuseoNacionaldeArtesDecorativas> a base:Metro ;
+	base:tieneMetro "banco de españa (línea 2) , retiro (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/MuseoNacionaldeArtesDecorativas> a base:Renfe ;
+	base:tieneRenfe "recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/MuseoNacionaldeArtesDecorativas> a base:Bus ;
+	base:tieneBus "1, 2, 5, 9, 10, 14, 15, 16, 19, 20, 27, 28, 34, 37, 45, 51, 52, 53, 74, 146, 148, 150  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/MuseoNacionaldeCienciasNaturales> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Museo Nacional de Ciencias Naturales" ;
+	base:tieneDescripcion "Construido por Fernando de la Torriente en 1881 con hierro y cristal. De estructura muy similar a los pabellones con destino a exposiciones construídos en la época. Sus jardines albergan un estanque, el monumento a Isabel la Católica y el monumento a la Constitución de 1978." ;
+	base:tieneHorario " De martes a viernes, domingos, festivos y lunes festivos de 10 a 17 horas. Sábados, domingos previos a festivos de 10 a 20 horas. Sábados de julio y agosto de 10 a 15 horas.   Cerrado : todos los lunes no festivos, 1 y 6 de enero, 1 de mayo y 25 de diciembre   Biblioteca : de lunes a viernes de 9 a 15 horas. Julio y agosto: de lunes a viernes de 9 a 14,30 horas   Mediateca  (cerrada por obras). " ;
+	base:tieneEquipamiento " Biblioteca de Zoología, Entomología, Econología, Evolución, Geología y Paleontología (consulta en sala, información y referencia, reprografía, préstamo personal e interbibliotecario), Archivo, publicaciones, consulta y asesoramiento científico y técnico, exposiciones permanentes y temporales, actividades culturales, talleres, cursos, Sala de proyecciones. Librería especializada. " ;
+	base:tieneTelefono "914 111 328 (centralita)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/MuseoNacionaldeCienciasNaturales> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: gregorio marañón (líneas 7, 10)  bus: 7, 12, 14, 27, 40, 45, 147, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/MuseoNacionaldeCienciasNaturales> a base:Posicion ;
+	base:tieneLatitud "4.044.042.943.656.610" ;
+	base:tieneLongitud "-3.690.161.856.630.630" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/MuseoNacionaldeCienciasNaturales> a base:Direccion ;
+	base:tieneNumero "2" ;
+	base:tieneDistrito "CHAMARTIN" ;
+	base:tieneCodigoPostal "28006" ;
+	base:tieneCalle "JOSE GUTIERREZ ABASCAL" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/MuseoNacionaldeCienciasNaturales> a base:Metro ;
+	base:tieneMetro "gregorio marañón (líneas 7, 10)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/MuseoNacionaldeCienciasNaturales> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/MuseoNacionaldeCienciasNaturales> a base:Bus ;
+	base:tieneBus "7, 12, 14, 27, 40, 45, 147, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/MuseoThyssenBornemisza> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Museo Thyssen Bornemisza" ;
+	base:tieneDescripcion " El Palacio donde se ubica la colección fue el antiguo palacio del duque de Villahermosa. Edificación neoclásica. Posteriormente se adapta como entidad bancaria perdiento sus espacios interiores. Más tarde, pasó a formar parte de los edificios del Museo del Prado. Desde principios de los 90 alberga la Colección Thyssen. El museo ofrece un recorrido por la historia de la pintura europea desde sus inicios en el siglo  XIII , hasta finales del siglo  XX.       Horario general:    Colecciones permanentes:  lunes de 12 a 16 horas (acceso gratuito por patrocinio de MasterCard) y de martes a domingo de 10 a 19 horas. Los días 1 de enero, 1 de mayo y 25 de diciembre, el Museo permanecerá cerrado.   Exposiciones temporales:  de martes a domingo de 10 a 19 horas . Sábados de 10 a 21 horas   Exposiciones temporales en verano:  de martes a sábados, de 10 a 22 horas. Lunes y domingos, de 10 a 19 horas.    Montajes expositivos:  lunes de 12 a 16 horas (Carmen en las colecciones españolas y Calles y rostros de Berlín en las colecciones Thyssen- Bornemisza) y de martes a domingo de 10 a 19 horas.  El desalojo de todas las salas tendrá lugar 5 minutos antes del cierre.  " ;
+	base:tieneEquipamiento "  Accesible a personas con discapacidad (física y sensorial)   Folleto y señalización en braille para invidentes  Librería  Tienda  Cafetería  Restaurante  Guardarropa  Servicio de venta anticipada en las taquillas  Servicio de Audio Guía  " ;
+	base:tieneTelefono """902 760 511 (Información general)                                                                                                                                                                                                 
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/MuseoThyssenBornemisza> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: banco de españa (línea 2)  bus: 1, 2,  5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150  renfe: recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/MuseoThyssenBornemisza> a base:Posicion ;
+	base:tieneLatitud "4.041.600.553.697.800" ;
+	base:tieneLongitud "-3.694.744.831.131.070" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/MuseoThyssenBornemisza> a base:Direccion ;
+	base:tieneNumero "8" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "PRADO" ;
+	base:tieneTipoVia "PASEO" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/MuseoThyssenBornemisza> a base:Metro ;
+	base:tieneMetro "banco de españa (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/MuseoThyssenBornemisza> a base:Renfe ;
+	base:tieneRenfe "recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/MuseoThyssenBornemisza> a base:Bus ;
+	base:tieneBus "1, 2,  5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/PalaciodeBuenavista.CuartelGeneraldelEjercito> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Palacio de Buenavista. Cuartel General del Ejército" ;
+	base:tieneDescripcion " El actual Cuartel General del Ejército está formado por un conjunto de edificios entre los cuales destaca por su importancia y tamaño el palacio de Buenavista. Fue construido por el duodécimo duque de Alba, que compró en 1769 una finca situada en el lugar conocido como Altillo de Buenavista, que había tenido varios propietarios, entre ellos la Corona.  En 1847 se amplía con un nuevo cuerpo que se destina a Ministerio de la Guerra. El grupo escultórico de la fachada es obra de Aniceto Marías.  " ;
+	base:tieneHorario " Relevo de la Guardia: último viernes de cada mes, a las 11 horas en la fachada de la calle de Alcala. " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/PalaciodeBuenavista.CuartelGeneraldelEjercito> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: banco de españa (línea 2)  bus: 1, 2, 5, 9, 10, 14, 15, 20, 27, 37, 45, 51, 52, 53, 74, 146, 150, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/PalaciodeBuenavista.CuartelGeneraldelEjercito> a base:Posicion ;
+	base:tieneLatitud "40.419.660.627.134.100" ;
+	base:tieneLongitud "-36.936.744.082.913.000" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/PalaciodeBuenavista.CuartelGeneraldelEjercito> a base:Direccion ;
+	base:tieneNumero "3" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "CIBELES" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/PalaciodeBuenavista.CuartelGeneraldelEjercito> a base:Metro ;
+	base:tieneMetro "banco de españa (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/PalaciodeBuenavista.CuartelGeneraldelEjercito> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/PalaciodeBuenavista.CuartelGeneraldelEjercito> a base:Bus ;
+	base:tieneBus "1, 2, 5, 9, 10, 14, 15, 20, 27, 37, 45, 51, 52, 53, 74, 146, 150, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/PalaciodeCibeles> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Palacio de Cibeles" ;
+	base:tieneEquipamiento "  Sede de la Alcaldía de Madrid  CentroCentro Cibeles de Cultura y Ciudadanía. 5Cs  Cafetería Colección Cibeles (planta 2)  Restaurante Palacio de Cibeles (planta 6)  Galería de cristal   " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/PalaciodeCibeles> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: banco de españa (línea 2)  bus: 1 , 2 , 5 , 9 , 10 , 15 , 20 , 27 , 34 , 45 , 51 , 52 , 53 , 74 , 146 , 150  renfe: recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/PalaciodeCibeles> a base:Posicion ;
+	base:tieneLatitud "40.419.011.767.401.000" ;
+	base:tieneLongitud "-3.692.206.111.679.650" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/PalaciodeCibeles> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "RETIRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "CIBELES" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/PalaciodeCibeles> a base:Metro ;
+	base:tieneMetro "banco de españa (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/PalaciodeCibeles> a base:Renfe ;
+	base:tieneRenfe "recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/PalaciodeCibeles> a base:Bus ;
+	base:tieneBus "1 , 2 , 5 , 9 , 10 , 15 , 20 , 27 , 34 , 45 , 51 , 52 , 53 , 74 , 146 , 150  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/PalaciodeLiria> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Palacio de Liria" ;
+	base:tieneDescripcion " Construído por Ventura Rodríguez entre 1762 y 1780 para el tercer Duque de Berwick y de Liria. De estilo barroco clásico. Destaca su fachada con columnas jónicas y pilastras que descansan sobre un basamento almohadillado.  " ;
+	base:tieneHorario " Viernes: visita guiada a las 10 horas, 11 horas y 12 horas.  Visitas: previa petición de cita por escrito o por fax " ;
+	base:tieneTelefono "91 547 53 02" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/PalaciodeLiria> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: ventura rodríguez (línea 3)  bus: 1, 2, 44, 74, 133, c " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/PalaciodeLiria> a base:Posicion ;
+	base:tieneLatitud "4.042.680.681.645.220" ;
+	base:tieneLongitud "-37.125.979.731.032.400" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/PalaciodeLiria> a base:Direccion ;
+	base:tieneNumero "20" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28008" ;
+	base:tieneCalle "PRINCESA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/PalaciodeLiria> a base:Metro ;
+	base:tieneMetro "ventura rodríguez (línea 3)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/PalaciodeLiria> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/PalaciodeLiria> a base:Bus ;
+	base:tieneBus "1, 2, 44, 74, 133, c " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/PalaciodeSantoña> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Palacio de Santoña" ;
+	base:tieneDescripcion " Es una construcción del siglo  XVI , reformada posteriormente en el siglo  XVIII   por el arquitecto Pedro de Ribera, y en el siglo  XIX  por Antonio Ruiz de Salces. " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/PalaciodeSantoña> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: antón martín (línea 1)  bus: 6, 26, 32, 50, 65 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/PalaciodeSantoña> a base:Posicion ;
+	base:tieneLatitud "40.413.979.743.685.400" ;
+	base:tieneLongitud "-3.700.511.154.527.750" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/PalaciodeSantoña> a base:Direccion ;
+	base:tieneNumero "13" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012" ;
+	base:tieneCalle "HUERTAS" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/PalaciodeSantoña> a base:Metro ;
+	base:tieneMetro "antón martín (línea 1)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/PalaciodeSantoña> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/PalaciodeSantoña> a base:Bus ;
+	base:tieneBus "6, 26, 32, 50, 65 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/PalacioReal> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Palacio Real" ;
+	base:tieneDescripcion " Construido sobre el solar del antiguo Alcázar tras un incendio en 1734. Proyectado por Juvara en 1735 y construido por Sachet de 1738 a 1764 bajo las influencias del clasicismo barroco. A partir de 1770, Sabatini añadió el ala sudeste y realizó la gran escalera. Es de destacar el gran patio que articula el edificio y la fachada principal que aloja el balcón y Escudo Real.  Dentro se encuentra el Museo Real Oficina de Farmacia (cerrado por obras de remodelación). " ;
+	base:tieneHorario "  De octubre a marzo: de 10 a 18 horas.  De abril a septiembre: de 10 a 20 horas.  Cierre taquillas una hora antes.  Cerrado:   Enero: días 1, 6.  Mayo: día 1.  Octubre: día 12.  Diciembre: 25, los días 24 y 31 taquillas 14 horas cerradas y monumento a las 15 horas cerrado.    El  7 de diciembre  abierto horario de mañana y tarde.  " ;
+	base:tieneEquipamiento " Librería. Exposición permanente Cuarteto Real (colección de cinco stradivarius). Visita incluida en el precio de la entrada. Más información: teléfono 91 542 00 59. Accesible a personas con minusvalía (física).   Iluminación del Palacio : todos los días, del atardecer hasta las 2 de la madrugada   Cambio de guardia : primer miércoles de cada mes (si la climatología lo permite) a las 12 horas, en la Plaza de la Armería. Además se producirá un cambio de guardia reducido el resto de miércoles del mes a las 12 horas, en la Puerta del Príncipe (Plaza de Oriente). Sin relevo: en julio, agosto y septiembre.   Archivo General de Palacio     Horario:  lunes, miércoles y viernes de 9 a 14:30 horas; martes y jueves de 9 a 18 horas  " ;
+	base:tieneTelefono "914 548 700 (Información general)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/PalacioReal> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: ópera (líneas 2, 5 y ramal opera norte)  bus: 3, 25, 39, 148 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/PalacioReal> a base:Posicion ;
+	base:tieneLatitud "4.042.075.212.551.190" ;
+	base:tieneLongitud "-3.712.699.107.286.400" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/PalacioReal> a base:Direccion ;
+	base:tieneNumero "0" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "BAILEN" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/PalacioReal> a base:Metro ;
+	base:tieneMetro "ópera (líneas 2, 5 y ramal opera norte)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/PalacioReal> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/PalacioReal> a base:Bus ;
+	base:tieneBus "3, 25, 39, 148 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/PanteondeHombresIlustres> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Panteón de Hombres Ilustres" ;
+	base:tieneDescripcion " La construcción de este edificio responde a dos de las constantes de fines de siglo: la arquitectura historicista y la escultura funeraria. En él reposan trece personajes ilustres de la historia política y militar española. " ;
+	base:tieneHorario "  De martes a sábado de 10 a 14 y de 16 a 18:30 horas  Domingos y festivos de 10 a 15 horas. Lunes cerrado   Cerrado :    Enero los días 1 y 6  Mayo el día 1  Diciembre el día 25 ; los días 24 y 31 (desde las 14:30 horas), monumento cerrado a las 15 horas.    Cierre del acceso al monumento media hora antes.  Nota. El  7 de diciembre  abierto en horario de mañana y tarde.  " ;
+	base:tieneTelefono "914 548 700 (Información general)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/PanteondeHombresIlustres> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: atocha (línea 1)  bus: 10, 14, 24, 32, 37, 54, 57, 141  renfe: atocha " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/PanteondeHombresIlustres> a base:Posicion ;
+	base:tieneLatitud "4.040.622.617.519.110" ;
+	base:tieneLongitud "-3.683.413.041.846.520" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/PanteondeHombresIlustres> a base:Direccion ;
+	base:tieneNumero "3" ;
+	base:tieneDistrito "RETIRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "JULIAN GAYARRE" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/PanteondeHombresIlustres> a base:Metro ;
+	base:tieneMetro "atocha (línea 1)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/PanteondeHombresIlustres> a base:Renfe ;
+	base:tieneRenfe "atocha " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/PanteondeHombresIlustres> a base:Bus ;
+	base:tieneBus "10, 14, 24, 32, 37, 54, 57, 141  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ParroquiaNuestraSeñoradelBuenConsejo> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Parroquia Nuestra Señora del Buen Consejo" ;
+	base:tieneTelefono "913 692 037" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ParroquiaNuestraSeñoradelBuenConsejo> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: la latina (línea 5)   bus: 17, 18, 23, 31, 35, 50, 65 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ParroquiaNuestraSeñoradelBuenConsejo> a base:Posicion ;
+	base:tieneLatitud "40.412.964.921.671.900" ;
+	base:tieneLongitud "-3.707.383.827.213.780" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ParroquiaNuestraSeñoradelBuenConsejo> a base:Direccion ;
+	base:tieneNumero "37" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28005" ;
+	base:tieneCalle "TOLEDO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ParroquiaNuestraSeñoradelBuenConsejo> a base:Metro ;
+	base:tieneMetro "la latina (línea 5)   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ParroquiaNuestraSeñoradelBuenConsejo> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ParroquiaNuestraSeñoradelBuenConsejo> a base:Bus ;
+	base:tieneBus "17, 18, 23, 31, 35, 50, 65 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ParroquiaSanFermindelosNavarros> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Parroquia San Fermín de los Navarros" ;
+	base:tieneTelefono "913 197 148" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ParroquiaSanFermindelosNavarros> a base:TransportePublico ;
+	base:tieneTransportePublico " metro:  rubén darío (línea 5)  bus: 5, 7, 14, 16, 27, 40, 45, 61, 147, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ParroquiaSanFermindelosNavarros> a base:Posicion ;
+	base:tieneLatitud "40.432.757.364.795.800" ;
+	base:tieneLongitud "-3.692.571.049.214.640" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ParroquiaSanFermindelosNavarros> a base:Direccion ;
+	base:tieneNumero "10" ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28010" ;
+	base:tieneCalle "EDUARDO DATO" ;
+	base:tieneTipoVia "PASEO" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ParroquiaSanFermindelosNavarros> a base:Metro ;
+	base:tieneMetro " rubén darío (línea 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ParroquiaSanFermindelosNavarros> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ParroquiaSanFermindelosNavarros> a base:Bus ;
+	base:tieneBus "5, 7, 14, 16, 27, 40, 45, 61, 147, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ParroquiaSanGines> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Parroquia San Ginés" ;
+	base:tieneTelefono "913 664 875" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ParroquiaSanGines> a base:TransportePublico ;
+	base:tieneTransportePublico " metro:  sol (líneas 1, 2, 3) , opera (líneas 2, 5, ramal) , callao (líneas 3, 5)   bus:  3, 25, 39  renfe: sol " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ParroquiaSanGines> a base:Posicion ;
+	base:tieneLatitud "4.041.728.242.858.590" ;
+	base:tieneLongitud "-3.707.028.284.837.050" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ParroquiaSanGines> a base:Direccion ;
+	base:tieneNumero "13" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "ARENAL" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ParroquiaSanGines> a base:Metro ;
+	base:tieneMetro " sol (líneas 1, 2, 3) , opera (líneas 2, 5, ramal) , callao (líneas 3, 5)   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ParroquiaSanGines> a base:Renfe ;
+	base:tieneRenfe "sol " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ParroquiaSanGines> a base:Bus ;
+	base:tieneBus " 3, 25, 39  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ParroquiaSanJose> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Parroquia San José" ;
+	base:tieneTelefono "915 226 784" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ParroquiaSanJose> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: banco de españa (línea 2) ,  gran vía (líneas 1, 5)  bus: 1, 2, 3, 5, 9, 15, 20, 46, 51, 52, 53, 74, 146, 150,   renfe: sol, recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ParroquiaSanJose> a base:Posicion ;
+	base:tieneLatitud "4.041.904.792.380.410" ;
+	base:tieneLongitud "-36.966.856.794.698.700" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ParroquiaSanJose> a base:Direccion ;
+	base:tieneNumero "43" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "ALCALA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ParroquiaSanJose> a base:Metro ;
+	base:tieneMetro "banco de españa (línea 2) ,  gran vía (líneas 1, 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ParroquiaSanJose> a base:Renfe ;
+	base:tieneRenfe "sol, recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ParroquiaSanJose> a base:Bus ;
+	base:tieneBus "1, 2, 3, 5, 9, 15, 20, 46, 51, 52, 53, 74, 146, 150,   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ParroquiaSanManuelySanBenito> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Parroquia San Manuel y San Benito" ;
+	base:tieneTelefono "914 357 682" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ParroquiaSanManuelySanBenito> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: retiro (línea 2), príncipe de vergara (líneas 2, 9)  bus: 1, 2, 9, 15, 19, 20, 28, 51, 52, 74, 146, 203 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ParroquiaSanManuelySanBenito> a base:Posicion ;
+	base:tieneLatitud "4.042.074.217.866.130" ;
+	base:tieneLongitud "-36.860.471.147.515.600" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ParroquiaSanManuelySanBenito> a base:Direccion ;
+	base:tieneNumero "83" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28009" ;
+	base:tieneCalle "ALCALA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ParroquiaSanManuelySanBenito> a base:Metro ;
+	base:tieneMetro "retiro (línea 2), príncipe de vergara (líneas 2, 9)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ParroquiaSanManuelySanBenito> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ParroquiaSanManuelySanBenito> a base:Bus ;
+	base:tieneBus "1, 2, 9, 15, 19, 20, 28, 51, 52, 74, 146, 203 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ParroquiaSanMarcos> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Parroquia San Marcos" ;
+	base:tieneTelefono "915 471 079 " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ParroquiaSanMarcos> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: plaza de españa (líneas 3, 10), noviciado (línea 2)  bus: 1, 2, 3, 44, 46, 74, 75, 133, 138, 148, c1, c2, m2 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ParroquiaSanMarcos> a base:Posicion ;
+	base:tieneLatitud "4.042.476.160.196.840" ;
+	base:tieneLongitud "-37.111.617.863.516.700" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ParroquiaSanMarcos> a base:Direccion ;
+	base:tieneNumero "10" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28015" ;
+	base:tieneCalle "SAN LEONARDO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ParroquiaSanMarcos> a base:Metro ;
+	base:tieneMetro "plaza de españa (líneas 3, 10), noviciado (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ParroquiaSanMarcos> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ParroquiaSanMarcos> a base:Bus ;
+	base:tieneBus "1, 2, 3, 44, 46, 74, 75, 133, 138, 148, c1, c2, m2 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ParroquiaSanMillanySanCayetano> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Parroquia San Millán y San Cayetano" ;
+	base:tieneTelefono "915 270 790" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ParroquiaSanMillanySanCayetano> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: latina (línea 5) tirso de molina (línea 1)  bus: 6 , 17 , 18 , 23 , 26 , 32 , 35 , 41 , 60 , 65 , 148 , c , m-1 (minibús)  renfe: embajadores " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ParroquiaSanMillanySanCayetano> a base:Posicion ;
+	base:tieneLatitud "40.409.461.123.751.500" ;
+	base:tieneLongitud "-3.705.791.428.982.770" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ParroquiaSanMillanySanCayetano> a base:Direccion ;
+	base:tieneNumero "15" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012" ;
+	base:tieneCalle "EMBAJADORES" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ParroquiaSanMillanySanCayetano> a base:Metro ;
+	base:tieneMetro "latina (línea 5) tirso de molina (línea 1)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ParroquiaSanMillanySanCayetano> a base:Renfe ;
+	base:tieneRenfe "embajadores " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ParroquiaSanMillanySanCayetano> a base:Bus ;
+	base:tieneBus "6 , 17 , 18 , 23 , 26 , 32 , 35 , 41 , 60 , 65 , 148 , c , m-1 (minibús)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ParroquiaSanNicolasdeBaridelosServitas> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Parroquia San Nicolás de Bari de los Servitas" ;
+	base:tieneEquipamiento "Parroquia personal de los italianos" ;
+	base:tieneTelefono "915 594 064" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ParroquiaSanNicolasdeBaridelosServitas> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: opera (líneas 2, 5, ramal)  bus: 3, 25, 31, 39, 50, 65, 148 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ParroquiaSanNicolasdeBaridelosServitas> a base:Posicion ;
+	base:tieneLatitud "40.415.793.260.849.800" ;
+	base:tieneLongitud "-37.118.688.527.171.200" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ParroquiaSanNicolasdeBaridelosServitas> a base:Direccion ;
+	base:tieneNumero "6" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "SAN NICOLAS" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ParroquiaSanNicolasdeBaridelosServitas> a base:Metro ;
+	base:tieneMetro "opera (líneas 2, 5, ramal)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ParroquiaSanNicolasdeBaridelosServitas> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ParroquiaSanNicolasdeBaridelosServitas> a base:Bus ;
+	base:tieneBus "3, 25, 31, 39, 50, 65, 148 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ParroquiaSantaBarbara> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Parroquia Santa Bárbara" ;
+	base:tieneTelefono "913 194 811" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ParroquiaSantaBarbara> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: colon (línea 4), alonso martínez (líneas 4, 5, 10)  bus: 3, 5, 14, 21, 27, 37, 45, 53, 150  renfe: recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ParroquiaSantaBarbara> a base:Posicion ;
+	base:tieneLatitud "4.042.428.879.388.520" ;
+	base:tieneLongitud "-36.940.873.878.242.100" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ParroquiaSantaBarbara> a base:Direccion ;
+	base:tieneNumero "2" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004" ;
+	base:tieneCalle "GENERAL CASTA&Ntilde;OS" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ParroquiaSantaBarbara> a base:Metro ;
+	base:tieneMetro "colon (línea 4), alonso martínez (líneas 4, 5, 10)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ParroquiaSantaBarbara> a base:Renfe ;
+	base:tieneRenfe "recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ParroquiaSantaBarbara> a base:Bus ;
+	base:tieneBus "3, 5, 14, 21, 27, 37, 45, 53, 150  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ParroquiaSantaCruz> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Parroquia Santa Cruz" ;
+	base:tieneTelefono "913 691 239" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ParroquiaSantaCruz> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: sol (líneas 1, 2, 3), tirso de molina (línea 1)  bus: 3, 6, 17, 18, 23, 26, 31, 32, 35, 50, 65, m1  renfe: sol " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ParroquiaSantaCruz> a base:Posicion ;
+	base:tieneLatitud "40.414.608.558.946.000" ;
+	base:tieneLongitud "-3.705.255.882.048.690" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ParroquiaSantaCruz> a base:Direccion ;
+	base:tieneNumero "6" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012" ;
+	base:tieneCalle "ATOCHA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ParroquiaSantaCruz> a base:Metro ;
+	base:tieneMetro "sol (líneas 1, 2, 3), tirso de molina (línea 1)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ParroquiaSantaCruz> a base:Renfe ;
+	base:tieneRenfe "sol " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ParroquiaSantaCruz> a base:Bus ;
+	base:tieneBus "3, 6, 17, 18, 23, 26, 31, 32, 35, 50, 65, m1  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ParroquiaSantiagoySanJuanBautista> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Parroquia Santiago y San Juan Bautista" ;
+	base:tieneTelefono "915 480 824" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ParroquiaSantiagoySanJuanBautista> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: ópera (línea 2, 5, ramal)  bus: 3, 25, 39, 148 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ParroquiaSantiagoySanJuanBautista> a base:Posicion ;
+	base:tieneLatitud "4.041.652.031.892.380" ;
+	base:tieneLongitud "-37.108.392.672.110.600" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ParroquiaSantiagoySanJuanBautista> a base:Direccion ;
+	base:tieneNumero "24" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "SANTIAGO" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ParroquiaSantiagoySanJuanBautista> a base:Metro ;
+	base:tieneMetro "ópera (línea 2, 5, ramal)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ParroquiaSantiagoySanJuanBautista> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ParroquiaSantiagoySanJuanBautista> a base:Bus ;
+	base:tieneBus "3, 25, 39, 148 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/PlazadeOriente> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Plaza de Oriente" ;
+	base:tieneDescripcion " Diseñada por González Velázquez. Se empieza a construir en 1816, tomándose como eje el Teatro Real enfrentado al Palacio Real. Su trazado definitivo se realiza en 1850 por Narciso Pascual Colomer. Entre 1994 y 1997 se llevó a cabo la remodelación que integra en un conjunto peatonal el Palacio Real y el Teatro de la Opera, siguiendo el proyecto de los arquitectos Miguel Oriol e Ibarra y Miguel Botella Ruiz-Castillo. Los jardines situados frente al Palacio Real. En el centro de la plaza se encuentra la estatua ecuestre de Felipe IV, obra fundida por Pietro Tacca según cálculos de Galileo Galilei. " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/PlazadeOriente> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: ópera (líneas 2, 5, r)  bus: 3, 25, 33, 39, 148 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/PlazadeOriente> a base:Posicion .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/PlazadeOriente> a base:Direccion ;
+	base:tieneNumero "0" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "ORIENTE" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/PlazadeOriente> a base:Metro ;
+	base:tieneMetro "ópera (líneas 2, 5, r)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/PlazadeOriente> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/PlazadeOriente> a base:Bus ;
+	base:tieneBus "3, 25, 33, 39, 148 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/PlazaMayor> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Plaza Mayor" ;
+	base:tieneDescripcion "Lugar emblemático de Madrid con origen en la antigua Plaza del Arrabal, extramuros del recinto medieval y foco comercial del primitivo Madrid. Tuvo forma irregular debido a su crecimiento espontáneo,  y fue objeto de varios proyectos de regularización. Al ser elegida Madrid como capital, se vio la necesidad de crear una auténtica Plaza Mayor y Felipe  II   se lo encargó a Juan de Herrera. En el siglo  XIX   se colocó la estatua de Felipe  III  a cuyo reinado pertenece la construcción de la plaza. " ;
+	base:tieneEquipamiento " Todos los domingos de 9 a 14 horas se celebra un mercadillo filatélico (sellos) " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/PlazaMayor> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: sol (líneas 1, 2, 3), tirso de molina (línea 1)  bus: 3, 17, 18, 23, 31 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/PlazaMayor> a base:Posicion ;
+	base:tieneLatitud "4.041.498.735.934.110" ;
+	base:tieneLongitud "-3.706.662.448.203.060" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/PlazaMayor> a base:Direccion ;
+	base:tieneNumero "0" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012" ;
+	base:tieneCalle "MAYOR" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/PlazaMayor> a base:Metro ;
+	base:tieneMetro "sol (líneas 1, 2, 3), tirso de molina (línea 1)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/PlazaMayor> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/PlazaMayor> a base:Bus ;
+	base:tieneBus "3, 17, 18, 23, 31 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/PlazaMonumentaldeTorosdelasVentas> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Plaza Monumental de Toros de las Ventas" ;
+	base:tieneDescripcion " De estilo neomudéjar se terminó de construir en el año 1931. Basada en un proyecto de José Espelius, quien murió antes de la conclusión de las obras, fue terminada por Manuel Muñoz Monasterio. El terreno se presenta en talud, salvado desde la Avenida de los Toreros mediante escalinatas que interrumpen el trazado ajardinado. " ;
+	base:tieneHorario "  La plaza de toros de Las Ventas está abierta  todos los días de 10 a 17:30 horas, para realización de visitas guiadas , excepto días de cierre excepcional.   Los días de corrida se cierra 4 horas antes del inicio del espectáculo, que se celebran:   Todos los domingos de finales de marzo hasta principios de octubre  Durante la Feria de San Isidro  Durante la Feria de Otoño en octubre  Días de cierre: 25 de diciembre y 1 de enero     Por motivos de organización, el Tour podrá variar su recorrido y horario informando al visitante antes del acceso. Teléfono de información: 687 73 90 32 " ;
+	base:tieneTelefono "913 562 200 " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/PlazaMonumentaldeTorosdelasVentas> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: ventas (líneas 2, 5)  bus: 12, 21, 38, 53, 106, 110, 146 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/PlazaMonumentaldeTorosdelasVentas> a base:Posicion ;
+	base:tieneLatitud "4.043.117.134.669.580" ;
+	base:tieneLongitud "-36.634.583.301.342.300" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/PlazaMonumentaldeTorosdelasVentas> a base:Direccion ;
+	base:tieneNumero "237" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28028" ;
+	base:tieneCalle "ALCALA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/PlazaMonumentaldeTorosdelasVentas> a base:Metro ;
+	base:tieneMetro "ventas (líneas 2, 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/PlazaMonumentaldeTorosdelasVentas> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/PlazaMonumentaldeTorosdelasVentas> a base:Bus ;
+	base:tieneBus "12, 21, 38, 53, 106, 110, 146 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/PuertadelSol> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Puerta del Sol" ;
+	base:tieneDescripcion "Toma su nombre de un postigo de la antigua muralla medieval que estaba decorado con un Sol y que se derribó en el siglo XVII, el lugar conservó el nombre. En origen fue un punto exterior de la ciudad, aunque debido al crecimiento de Madrid y a su  situación fue convirtiéndose poco a poco en el centro de la capital. En 1857 ,el Ministerio de Fomento  convoca un concurso quedando aprobada la reforma de Lucio del Valle, Juan Rivera y José Morer, que conservaba la alineación de la antigua Casa de Correos en uno de los lados, mientras que el otro adoptaba una forma semicircular." .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/PuertadelSol> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: sol (líneas 1, 2, 3)  bus: 15, 20, 51, 52, 53 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/PuertadelSol> a base:Posicion ;
+	base:tieneLatitud "40.416.887.979.993.900" ;
+	base:tieneLongitud "-37.022.740.027.977.300" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/PuertadelSol> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "PUERTA DEL SOL" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/PuertadelSol> a base:Metro ;
+	base:tieneMetro "sol (líneas 1, 2, 3)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/PuertadelSol> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/PuertadelSol> a base:Bus ;
+	base:tieneBus "15, 20, 51, 52, 53 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/RealAcademiadeCienciasMoralesyPoliticas> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Real Academia de Ciencias Morales y Políticas" ;
+	base:tieneDescripcion "Ubicada en una de las pocas casas-palacio del siglo  XV  conservadas en Madrid. La torre y la casa fueron mandadas construir por Álvaro de Luján antes de 1471. Su planta, de forma irregular, se distribuye en torno a un gran patio central y tiene triple fachada. El edificio ha sufrido múltiples reformas, una de las cuales fue para la instalación de la  Real Academia , llevada a cabo en 1858." ;
+	base:tieneEquipamiento "  Actividades: disertaciones privadas para los académicos. Actos públicos cuando ingresa un nuevo académico.  Biblioteca: acceso restringido a académicos e investigadores.   " ;
+	base:tieneTelefono "915 481 330" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/RealAcademiadeCienciasMoralesyPoliticas> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: sol (líneas 1, 2, 3), ópera (líneas 2, 5)  bus: 3, 25, 31, 39, 50, 65, 148, n16, n26  renfe: sol " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/RealAcademiadeCienciasMoralesyPoliticas> a base:Posicion ;
+	base:tieneLatitud "404.151.547.271.264" ;
+	base:tieneLongitud "-371.022.377.531.515" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/RealAcademiadeCienciasMoralesyPoliticas> a base:Direccion ;
+	base:tieneNumero "2" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28005" ;
+	base:tieneCalle "DE LA VILLA" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/RealAcademiadeCienciasMoralesyPoliticas> a base:Metro ;
+	base:tieneMetro "sol (líneas 1, 2, 3), ópera (líneas 2, 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/RealAcademiadeCienciasMoralesyPoliticas> a base:Renfe ;
+	base:tieneRenfe "sol " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/RealAcademiadeCienciasMoralesyPoliticas> a base:Bus ;
+	base:tieneBus "3, 25, 31, 39, 50, 65, 148, n16, n26  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/RealAcademiadeJurisprudenciayLegislacion> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Real Academia de Jurisprudencia y Legislación" ;
+	base:tieneEquipamiento "  Salón de actos   Biblioteca  Archivo   Sala de conferencias   Actividades: conferencias, seminarios y coloquios  " ;
+	base:tieneTelefono "915 222 069" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/RealAcademiadeJurisprudenciayLegislacion> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: banco de españa (línea 2)  bus: 1, 2, 5, 9, 10, 14, 27, 34, 37, 45, 46, 51, 52, 53, 146, 150, 202, n9, n1, n4,  n10, n11, n12, n13, n14, n15, n17, n25, n26. " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/RealAcademiadeJurisprudenciayLegislacion> a base:Posicion ;
+	base:tieneLatitud "4.041.749.648.159.220" ;
+	base:tieneLongitud "-36.955.027.540.085.200" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/RealAcademiadeJurisprudenciayLegislacion> a base:Direccion ;
+	base:tieneNumero "13" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "MARQUÉS DE CUBAS" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/RealAcademiadeJurisprudenciayLegislacion> a base:Metro ;
+	base:tieneMetro "banco de españa (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/RealAcademiadeJurisprudenciayLegislacion> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/RealAcademiadeJurisprudenciayLegislacion> a base:Bus ;
+	base:tieneBus "1, 2, 5, 9, 10, 14, 27, 34, 37, 45, 46, 51, 52, 53, 146, 150, 202, n9, n1, n4,  n10, n11, n12, n13, n14, n15, n17, n25, n26. " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/RealAcademiaEspañoladeHistoria> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Real Academia Española de Historia" ;
+	base:tieneTelefono "914 290 611 " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/RealAcademiaEspañoladeHistoria> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: antón martín (línea 1), sevilla (línea 2).  bus: 6, 15, 20, 26, 32, m1, n25. " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/RealAcademiaEspañoladeHistoria> a base:Posicion ;
+	base:tieneLatitud "4.041.346.631.071.610" ;
+	base:tieneLongitud "-3.699.008.959.181.700" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/RealAcademiaEspañoladeHistoria> a base:Direccion ;
+	base:tieneNumero "21" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "DE LEÓN" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/RealAcademiaEspañoladeHistoria> a base:Metro ;
+	base:tieneMetro "antón martín (línea 1), sevilla (línea 2).  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/RealAcademiaEspañoladeHistoria> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/RealAcademiaEspañoladeHistoria> a base:Bus ;
+	base:tieneBus "6, 15, 20, 26, 32, m1, n25. " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/RealAcademiaNacionaldeFarmacia> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Real Academia Nacional de Farmacia" ;
+	base:tieneEquipamiento "  Museo de farmacia   Biblioteca  " ;
+	base:tieneTelefono "915 310 307  / 915 223 147" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/RealAcademiaNacionaldeFarmacia> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: chueca (línea 5), tribunal (línea 1 y 10), alonso martínez (línea 4, 5 y 10).  bus: 3, 37, 40, 149, m2.  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/RealAcademiaNacionaldeFarmacia> a base:Posicion ;
+	base:tieneLatitud "40.423.966.629.698.400" ;
+	base:tieneLongitud "-36.997.070.566.405.600" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/RealAcademiaNacionaldeFarmacia> a base:Direccion ;
+	base:tieneNumero "9" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004" ;
+	base:tieneCalle "FARMACIA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/RealAcademiaNacionaldeFarmacia> a base:Metro ;
+	base:tieneMetro "chueca (línea 5), tribunal (línea 1 y 10), alonso martínez (línea 4, 5 y 10).  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/RealAcademiaNacionaldeFarmacia> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/RealAcademiaNacionaldeFarmacia> a base:Bus ;
+	base:tieneBus "3, 37, 40, 149, m2.  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/RealBasilicaSanFranciscoelGrande> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Real Basílica San Francisco el Grande" ;
+	base:tieneDescripcion " Conjunto conventual que sustituyó al monasterio franciscano medieval, construido por Francisco de las Cabezas entre 1761 y 1768, que fue relevado por Antonio Polo y que concluye Francisco Sabatini en 1784 donde se exponen colecciones de pinturas de los siglos  XVII  al  XIX.  " ;
+	base:tieneHorario "  Museo:     De martes a viernes de 10:30 a 12:30 y de 16 a 18 horas  Sábados de 10:30 a 12:30 y de 16 a 18 horas (si no se ofician actos religiosos).   Julio y agosto: de martes a domingo de 10:30 a 12:30 y de 17 a 19 horas.  " ;
+	base:tieneTelefono "913 653 800" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/RealBasilicaSanFranciscoelGrande> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: la latina (línea 5) , puerta de toledo (línea 5)  bus:  3, 17, 18, 23, 31, 35, 36, 41, 50, 60, 65, 148, 749, c1, c2 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/RealBasilicaSanFranciscoelGrande> a base:Posicion ;
+	base:tieneLatitud "4.041.084.005.024.220" ;
+	base:tieneLongitud "-3.714.503.845.728.280" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/RealBasilicaSanFranciscoelGrande> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28005" ;
+	base:tieneCalle "SAN BUENAVENTURA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/RealBasilicaSanFranciscoelGrande> a base:Metro ;
+	base:tieneMetro "la latina (línea 5) , puerta de toledo (línea 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/RealBasilicaSanFranciscoelGrande> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/RealBasilicaSanFranciscoelGrande> a base:Bus ;
+	base:tieneBus " 3, 17, 18, 23, 31, 35, 36, 41, 50, 60, 65, 148, 749, c1, c2 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/RealColegioSantaIsabel-LaAsuncion> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Real Colegio Santa Isabel - La Asunción" ;
+	base:tieneEquipamiento " Horario ampliado - Comedor " ;
+	base:tieneTelefono "915 273 183 - 915 273 181" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/RealColegioSantaIsabel-LaAsuncion> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: atocha , antón martín   bus: 6 , 19 , 26 , 27 , 32 , 34 , 37 , 41 , 45 , 119 , c   renfe: atocha " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/RealColegioSantaIsabel-LaAsuncion> a base:Posicion ;
+	base:tieneLatitud "4.040.962.511.552.300" ;
+	base:tieneLongitud "-36.965.767.139.076.400" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/RealColegioSantaIsabel-LaAsuncion> a base:Direccion ;
+	base:tieneNumero "46" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012" ;
+	base:tieneCalle "SANTA ISABEL" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/RealColegioSantaIsabel-LaAsuncion> a base:Metro ;
+	base:tieneMetro "atocha , antón martín   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/RealColegioSantaIsabel-LaAsuncion> a base:Renfe ;
+	base:tieneRenfe "atocha " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/RealColegioSantaIsabel-LaAsuncion> a base:Bus ;
+	base:tieneBus "6 , 19 , 26 , 27 , 32 , 34 , 37 , 41 , 45 , 119 , c   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/RealFabricadeTapices> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Real Fábrica de Tapices" ;
+	base:tieneHorario " De lunes a viernes de 10 a 14 horas.   Cerrado: sábados, domingos, Semana Santa y agosto. " ;
+	base:tieneEquipamiento "Salones para eventos" ;
+	base:tieneTelefono "914 340 550" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/RealFabricadeTapices> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: menéndez pelayo (línea 1)  bus: 10, 14, 26, 32, c " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/RealFabricadeTapices> a base:Posicion ;
+	base:tieneLatitud "40.406.087.329.011.600" ;
+	base:tieneLongitud "-3.682.515.969.574.070" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/RealFabricadeTapices> a base:Direccion ;
+	base:tieneNumero "2" ;
+	base:tieneDistrito "RETIRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "FUENTERRABIA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/RealFabricadeTapices> a base:Metro ;
+	base:tieneMetro "menéndez pelayo (línea 1)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/RealFabricadeTapices> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/RealFabricadeTapices> a base:Bus ;
+	base:tieneBus "10, 14, 26, 32, c " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/RealJardinBotanico> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Real Jardín Botánico" ;
+	base:tieneDescripcion " Centro de investigación del  CSIC  que alberga cuatro terrazas con plantas de América, Europa y el Pacífico, así como una colección de bonsáis.  " ;
+	base:tieneHorario " El Jardín está abierto al público todos los días del año, excepto los días de Navidad y Año Nuevo.   Enero y febrero: de 10 a 18 horas  Marzo: de 10 a 19 horas  Abril: de 10 a 20 horas  De mayo a agosto de 10 a 21 horas  Septiembre: de 10 a 20 horas  Octubre: de 10 a 19 horas  Noviembre y diciembre: de 10 a 18 horas  " ;
+	base:tieneTelefono "914 203 017 (centralita)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/RealJardinBotanico> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: atocha (línea 1)  bus: 10, 14, 19, 24, 26, 27, 32, 34, 45, 57, 140, circular  renfe: atocha " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/RealJardinBotanico> a base:Posicion ;
+	base:tieneLatitud "4.041.238.214.985.830" ;
+	base:tieneLongitud "-3.692.032.097.926.270" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/RealJardinBotanico> a base:Direccion ;
+	base:tieneNumero "2" ;
+	base:tieneDistrito "RETIRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "MURILLO" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/RealJardinBotanico> a base:Metro ;
+	base:tieneMetro "atocha (línea 1)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/RealJardinBotanico> a base:Renfe ;
+	base:tieneRenfe "atocha " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/RealJardinBotanico> a base:Bus ;
+	base:tieneBus "10, 14, 19, 24, 26, 27, 32, 34, 45, 57, 140, circular  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/RealMonasteriodelaEncarnacion> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Real Monasterio de la Encarnación" ;
+	base:tieneDescripcion " Edificio construído por Juan Gómez de Mora de 1611 a 1616 como monasterio anejo al Alcázar Real, modelo de lo que se ha dado en llamar barroco madrileño. Cuenta con la reliquia de San Pantaleón. " ;
+	base:tieneHorario "  De martes a sábado: de 10 a 14 horas y de 16 a 18:30 horas  Domingos y festivos: de 10 a 15 horas. Tardes cerrado  Cierre taquillas: una hora antes  Cerrado:   Enero: días 1 y 6.  Abril: del 1 al 4 inclusive, semana santa.  Mayo: día 1  Diciembre: 24,25 y 31.  El día  7 de diciembre  abierto horario de mañana y tarde.    " ;
+	base:tieneTelefono "914 548 700 (Información general)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/RealMonasteriodelaEncarnacion> a base:TransportePublico ;
+	base:tieneTransportePublico " metro:  ópera (líneas 2, 5 y ramal ópera príncipe pío), plaza de españa (líneas 3, 10)  bus:  1, 2, 3, 25, 39, 44, 46, 74, 75, 133, 138, 147, 148, c1, c2 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/RealMonasteriodelaEncarnacion> a base:Posicion ;
+	base:tieneLatitud "4.041.967.800.877.380" ;
+	base:tieneLongitud "-3.711.567.962.866.150" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/RealMonasteriodelaEncarnacion> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "ENCARNACION" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/RealMonasteriodelaEncarnacion> a base:Metro ;
+	base:tieneMetro " ópera (líneas 2, 5 y ramal ópera príncipe pío), plaza de españa (líneas 3, 10)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/RealMonasteriodelaEncarnacion> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/RealMonasteriodelaEncarnacion> a base:Bus ;
+	base:tieneBus " 1, 2, 3, 25, 39, 44, 46, 74, 75, 133, 138, 147, 148, c1, c2 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/RealMonasteriodeSantaIsabel> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Real Monasterio de Santa Isabel" ;
+	base:tieneDescripcion " El Real Monasterio de Santa Isabel está situado en Madrid, dentro de la ciudad histórica, en una gran manzana, próxima a Atocha.  Santa Isabel agrupa dos fundaciones, un colegio de niñas, establecido por Felipe II, y un convento de clausura de monjas agustinas recoletas, fundado por la esposa de Felipe III, doña Margarita de Austria.   La arquitectura de la iglesia se debe a Gómez de Mora, de mediados del siglo XVIII. En la clausura se conservan numerosas obras pictóricas de los siglos XVII y XVIII. " ;
+	base:tieneHorario " El acceso al templo sólo es posible en horario de culto " ;
+	base:tieneTelefono "914 548 700 (Información general)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/RealMonasteriodeSantaIsabel> a base:TransportePublico .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/RealMonasteriodeSantaIsabel> a base:Posicion ;
+	base:tieneLatitud "4.041.213.027.498.250" ;
+	base:tieneLongitud "-36.994.547.941.964.900" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/RealMonasteriodeSantaIsabel> a base:Direccion ;
+	base:tieneNumero "48" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012" ;
+	base:tieneCalle "SANTA ISABEL" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/RealMonasteriodeSantaIsabel> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/RealMonasteriodeSantaIsabel> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/RealMonasteriodeSantaIsabel> a base:Bus .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/RealOratoriodelCaballerodeGracia> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Real Oratorio del Caballero de Gracia" ;
+	base:tieneDescripcion " Construído por Juan de Villanueva entre 1786 y 1795 de planta basilical y en un sentir muy cercano al de las iglesias venecianas de Palladio. La fachada es de Custodio Moreno.  Entre 1976 y 1981 el arquitecto Fernando Chueca Goitia emprendió un proyecto de restauración  con polémicos resultados. Los trabajos se interrumpieron durante largos años; convocándose finalmente un concurso de arquitectura que fue ganado en 1987 por Javier Feduchi Benlliure. " ;
+	base:tieneTelefono "915 326 937 / 915 240 664" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/RealOratoriodelCaballerodeGracia> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: gran vía (líneas 1 y 5), sevilla (línea 2), sol (líneas 1, 2, 3)  bus: 1, 2, 3, 46, 74, 146 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/RealOratoriodelCaballerodeGracia> a base:Posicion ;
+	base:tieneLatitud "4.041.953.675.995.830" ;
+	base:tieneLongitud "-3.700.769.178.078.410" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/RealOratoriodelCaballerodeGracia> a base:Direccion ;
+	base:tieneNumero "5" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "CABALLERO DE GRACIA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/RealOratoriodelCaballerodeGracia> a base:Metro ;
+	base:tieneMetro "gran vía (líneas 1 y 5), sevilla (línea 2), sol (líneas 1, 2, 3)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/RealOratoriodelCaballerodeGracia> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/RealOratoriodelCaballerodeGracia> a base:Bus ;
+	base:tieneBus "1, 2, 3, 46, 74, 146 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/RealSitiodeElPardo> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Real Sitio de El Pardo" ;
+	base:tieneDescripcion " Recinto en el que se conserva el Palacio, construido sobre el castillo del siglo  XV , la Casita del Príncipe, del siglo  XVIII  y la Quinta del Duque de Arco (Palacete que fue Casa de Labor y sus tierras). Desde 1983 ha sido adecuado para residencia de Jefes de Estado extranjeros en visita oficial. " ;
+	base:tieneHorario "  De octubre a marzo: todos los días de 10 a 18 horas  De abril a septiembre: todos los días de 10 a 20 horas  Cerrado:    Enero: días 1 y 6.  Mayo: día 1.  Diciembre: 24, 25 y 31.    " ;
+	base:tieneTelefono "914 548 700 (Información general)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/RealSitiodeElPardo> a base:TransportePublico ;
+	base:tieneTransportePublico "bus: 601 (madrid - colonia mingorrubio)" .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/RealSitiodeElPardo> a base:Posicion ;
+	base:tieneLatitud "40.520.522.342.970.100" ;
+	base:tieneLongitud "-37.762.390.614.462.800" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/RealSitiodeElPardo> a base:Direccion ;
+	base:tieneNumero "8" ;
+	base:tieneDistrito "FUENCARRAL-EL PARDO" ;
+	base:tieneCodigoPostal "28048" ;
+	base:tieneCalle "MANUEL ALONSO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/RealSitiodeElPardo> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/RealSitiodeElPardo> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/RealSitiodeElPardo> a base:Bus ;
+	base:tieneBus "601 (madrid - colonia mingorrubio)" .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/SalaCanaldeIsabelII> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Sala Canal de Isabel II" ;
+	base:tieneDescripcion "Singular espacio expositivo ubicado en un antiguo depósito de agua, construido entre 1907 y 1911 por el ingeniero Diego Martín Montalvo y el arquitecto Ramón de Aguinaga, de estilo ecléctico con una estructura exterior de ladrillo en planta circular, restaurado en 1986 por los arquitectos Javier Alau y Antonio Lopera." ;
+	base:tieneHorario " De martes a sábados de 11 a 14 y de 17 a 20:30 horas. Domingos y festivos de 11 a 14 horas. Lunes cerrado.   Consultar horario específico de cada exposición. " ;
+	base:tieneEquipamiento "Exposiciones de fotografía. " ;
+	base:tieneTelefono "915 451 000 (ext. 2505)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/SalaCanaldeIsabelII> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: ríos rosas (línea 1), alonso cano (línea 7)  bus: 3, 5, 12, 37, 45, 149 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/SalaCanaldeIsabelII> a base:Posicion ;
+	base:tieneLatitud "4.043.917.634.033.890" ;
+	base:tieneLongitud "-37.007.844.119.216.200" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/SalaCanaldeIsabelII> a base:Direccion ;
+	base:tieneNumero "125" ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28003" ;
+	base:tieneCalle "SANTA ENGRACIA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/SalaCanaldeIsabelII> a base:Metro ;
+	base:tieneMetro "ríos rosas (línea 1), alonso cano (línea 7)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/SalaCanaldeIsabelII> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/SalaCanaldeIsabelII> a base:Bus ;
+	base:tieneBus "3, 5, 12, 37, 45, 149 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/SaladeexposicioneslasAlhajasdelaFundacionMontemadrid> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Sala de exposiciones las Alhajas de la Fundación Montemadrid" ;
+	base:tieneHorario "De martes a domingo de 10 a 14 y de 16 a 20 horas. Lunes cerrado" ;
+	base:tieneTelefono "913 685 948 " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/SaladeexposicioneslasAlhajasdelaFundacionMontemadrid> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: sol (líneas 1, 2, 3), callao (líneas 3, 5), ópera (líneas r, 2, 5)  bus: 3, 5, 15, 20, 50, 51, 52, 53, 75, 133, 146, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/SaladeexposicioneslasAlhajasdelaFundacionMontemadrid> a base:Posicion ;
+	base:tieneLatitud "4.041.814.767.353.350" ;
+	base:tieneLongitud "-37.069.666.193.996.400" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/SaladeexposicioneslasAlhajasdelaFundacionMontemadrid> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "SAN MARTIN" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/SaladeexposicioneslasAlhajasdelaFundacionMontemadrid> a base:Metro ;
+	base:tieneMetro "sol (líneas 1, 2, 3), callao (líneas 3, 5), ópera (líneas r, 2, 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/SaladeexposicioneslasAlhajasdelaFundacionMontemadrid> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/SaladeexposicioneslasAlhajasdelaFundacionMontemadrid> a base:Bus ;
+	base:tieneBus "3, 5, 15, 20, 50, 51, 52, 53, 75, 133, 146, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/Senado> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Senado" ;
+	base:tieneHorario "  Oficina de información:     De lunes a jueves de 9:30 a 14 horas y de 16 a 18:30 horas   Viernes de 9:30 a 14 horas  " ;
+	base:tieneTelefono "900 103 038 / 915 381 852 / 53 / 54 / " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/Senado> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: plaza españa (líneas 3, 10)  bus: 25, 39, 46, 68, 69, 74, 75, 138, 148 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/Senado> a base:Posicion ;
+	base:tieneLatitud "4.042.145.565.624.760" ;
+	base:tieneLongitud "-3.712.565.078.821.230" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/Senado> a base:Direccion ;
+	base:tieneNumero "3" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "BAILEN" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/Senado> a base:Metro ;
+	base:tieneMetro "plaza españa (líneas 3, 10)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/Senado> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/Senado> a base:Bus ;
+	base:tieneBus "25, 39, 46, 68, 69, 74, 75, 138, 148 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/SociedadGeneraldeAutoresyEditores(SGAE)> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Sociedad General de Autores y Editores (SGAE)" ;
+	base:tieneDescripcion " La SGAE, Sociedad General de Autores y Editores, es una entidad privada dedicada a la  defensa y gestión colectiva de los derechos de propiedad intelectual  de sus más de 106.000 socios. Su misión fundamental es la protección y reparto de la remuneración de los socios por la utilización de sus obras (reproducción, distribución, comunicación pública, transformación y copia privada) y la gestión de licencias entre los clientes para su uso. " ;
+	base:tieneTelefono """913 499 550 / 00          
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/SociedadGeneraldeAutoresyEditores(SGAE)> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: alonso martínez (líneas 4, 5, 10), tribunal (líneas 1, 10)  bus: 3, 37,  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/SociedadGeneraldeAutoresyEditores(SGAE)> a base:Posicion ;
+	base:tieneLatitud "40.425.444.297.155.700" ;
+	base:tieneLongitud "-36.966.927.307.702.500" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/SociedadGeneraldeAutoresyEditores(SGAE)> a base:Direccion ;
+	base:tieneNumero "4" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004" ;
+	base:tieneCalle "FERNANDO VI" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/SociedadGeneraldeAutoresyEditores(SGAE)> a base:Metro ;
+	base:tieneMetro "alonso martínez (líneas 4, 5, 10), tribunal (líneas 1, 10)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/SociedadGeneraldeAutoresyEditores(SGAE)> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/SociedadGeneraldeAutoresyEditores(SGAE)> a base:Bus ;
+	base:tieneBus "3, 37,  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/TemplodeDebod> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Templo de Debod" ;
+	base:tieneDescripcion " Templo egipcio dedicado a Amón de Debod y a Isis, construido entre 185  a. de C.  y el siglo  I  de la Era. Fue donado por Egipto a España en 1968, en agradecimiento por la ayuda en el salvamento de los templos de Abu Simbel. " ;
+	base:tieneHorario "  De 1 de octubre a 31 de marzo   De martes a viernes de 9:45 a 13:45 y de 16:15 a 18:15 horas  Sábados, domingos y festivos de 9:30 a 20 hora    De 1 de abril a 30 de septiembre   De martes a viernes de 10 a 14 y de 18 a 20 horas  Sábados, domingos y festivos de 9:30 a 20 horas.     El templo permanece cerrado los lunes y los festivos 1 de enero, 1 de mayo y 25 de diciembre.  Último pase de visita 15 minutos antes del cierre.  Este horario y la apertura de salas pueden sufrir modificaciones, por favor, confírmelo en el teléfono de información del museo.  " ;
+	base:tieneEquipamiento "  No cuenta con accesos adaptados para minusválidos   Exposición permanente : Debod un templo ptolemaico  Actividades didácticas: talleres para grupos escolares, talleres de profesores, visitas guiadas, talleres para familias.  Se pueden realizar fotografías o grabaciones de vídeo libremente en el exterior o en el interior del templo, siempre y cuando no se utilicen flash o trípode y su fin no sea comercial.  " ;
+	base:tieneTelefono "913 667 415 (Museo de San Isidro / Templo de Debod))" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/TemplodeDebod> a base:TransportePublico ;
+	base:tieneTransportePublico "  metro:  plaza de españa (líneas 3 y 10) y ventura rodríguez (línea 3)   bus: 74, 25, 39, 46, 75, 138, c1, 3, 44, 133, 148, c2, 1, 2, 74, autobús  turístico ruta 1. parada 10 - templo de debod  renfe:  príncipe pío   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/TemplodeDebod> a base:Posicion ;
+	base:tieneLatitud "4.042.425.096.551.590" ;
+	base:tieneLongitud "-3.716.531.855.540.270" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/TemplodeDebod> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "MONCLOA-ARAVACA" ;
+	base:tieneCodigoPostal "28008" ;
+	base:tieneCalle "FERRAZ" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/TemplodeDebod> a base:Metro ;
+	base:tieneMetro " plaza de españa (líneas 3 y 10) y ventura rodríguez (línea 3)   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/TemplodeDebod> a base:Renfe ;
+	base:tieneRenfe " príncipe pío   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/TemplodeDebod> a base:Bus ;
+	base:tieneBus "74, 25, 39, 46, 75, 138, c1, 3, 44, 133, 148, c2, 1, 2, 74, autobús  turístico ruta 1. parada 10 - templo de debod  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/TribunaldeCuentas> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Tribunal de Cuentas" ;
+	base:tieneDescripcion " Supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado, así como del Sector Público, sin perjuicio de su propia jurisdicción. " ;
+	base:tieneTelefono """914 478 701         
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/TribunaldeCuentas> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: tribunal  bus: 3, 40, 149 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/TribunaldeCuentas> a base:Posicion ;
+	base:tieneLatitud "4.042.577.734.085.190" ;
+	base:tieneLongitud "-3.701.211.175.757.090" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/TribunaldeCuentas> a base:Direccion ;
+	base:tieneNumero "81" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004" ;
+	base:tieneCalle "FUENCARRAL" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/TribunaldeCuentas> a base:Metro ;
+	base:tieneMetro "tribunal  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/TribunaldeCuentas> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/TribunaldeCuentas> a base:Bus ;
+	base:tieneBus "3, 40, 149 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/TribunalSupremo> a base:SitioTuristico , base:Monumento ;
+	base:tieneNombre "Tribunal Supremo" ;
+	base:tieneEquipamiento "Sala Civil, Sala Penal, Sala Contencioso- Administrativo, Sala Social, Sala Militar, Secretaría de Gobierno y Gabinete Técnico." ;
+	base:tieneTelefono """913 971 200 (Centralita) / 913 971 050 (Atención al ciudadano) / 913 973 228 (Oficina de Prensa) / 913 971 129 (Archivo) / 913 971 245 (Biblioteca) / 913 971 064 (Registro General)     
+     
+ """ .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/TribunalSupremo> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: colón (línea 4)  bus: 5, 14, 21 , 27, 45, 53, 150  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/TribunalSupremo> a base:Posicion ;
+	base:tieneLatitud "4.042.413.357.076.740" ;
+	base:tieneLongitud "-369.293.054.384.027" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/TribunalSupremo> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004" ;
+	base:tieneCalle "MARQUES DE LA ENSENADA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/TribunalSupremo> a base:Metro ;
+	base:tieneMetro "colón (línea 4)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/TribunalSupremo> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/TribunalSupremo> a base:Bus ;
+	base:tieneBus "5, 14, 21 , 27, 45, 53, 150  " .

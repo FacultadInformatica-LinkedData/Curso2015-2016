@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Web semántica y Linked Data</title>
+</head>
+<body>
+
+<h1>Análisis - Mapa de centros educativos en la Comunidad de Madrid</h1>
+  <li>Tras el refinamiento y el análisis de nuestros datasets, hemos seleccionado la columna "PK" como identificador ya que es un campo único.</li>
+  <li>Hemos refinado nuestros datasets eliminando varias columnas que no contenían datos.</li>
+  <li>Las diversas columnas muestran datos de distintos tipos: textos y datos numéricos. Por ejemplo en el caso del campo "ACCESIBILIDAD" se trata de un rango de 0 a 1 en el que 0 significa NO accesible y 1 completamente accesible</li>
+  <li>La licencia recoge que los datos pueden ser usados para fines comerciales y no comerciales. La URL que recoge los términos de uso es <a href="url">http://datos.madrid.es/portal/site/egob/menuitem.619dfa2990e56405bb8d69f6ecd08a0c/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD</a></li>
+
+  <br>
+
+  <h2>Domain:http://edumadrid.linkeddata.es/</h2>
+    <li>Ontologicaltermspath: http://edumadrid.linkeddata.es/ppc/ontology/EducactionCenters#</li>
+    <li>Individualspath: http://edumadrid.linkeddata.es/ppc/resource/</li>
+    <li>Ontologicaltermspattern: http://edumadrid.linkeddata.es/ppc/ontology/EducactionCenters#<term_name></li>
+      <ul>
+        <li>http://smartcity.linkeddata.es/ppc/ontology/EducactionCenters#locatedIn</li>
+        <li>http://smartcity.linkeddata.es/ppc/ontology/EducactionCenters#address</li>
+        <li>http://smartcity.linkeddata.es/ppc/ontology/EducactionCenters#hasDescription</li>
+        <li>http://smartcity.linkeddata.es/ppc/ontology/EducactionCenters#isAccessible</li>
+        <li>http://smartcity.linkeddata.es/ppc/ontology/EducactionCenters#hasContact</li>
+      </ul>
+    <li>Individualspattern: http://edumadrid.linkeddata.es/ppc/resource/<resource_type>/<resource_name></li>
+    <ul>
+      <li>Example: http://smartcity.linkeddata.es/lcc/resource/College/ETSIInformaticos</li>
+    </ul>
+</body>
+</html>

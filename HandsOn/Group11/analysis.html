@@ -1,0 +1,79 @@
+<h2> An&aacute;lisis realizado sobre el conjunto de datos: </h2>
+
+<ol>
+	<li>La informaci&oacute;n sobre la licencia y posibilidades de uso la hemos encontrado en el siguiente enlace: 
+	http://datos.madrid.es/portal/site/egob/menuitem.619dfa2990e56405bb8d69f6ecd08a0c/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD</li>
+	En el enlace se informa de que los datos pueden ser usados tanto para usos comerciales como personales indistintamente, aunque con las condiciones siguientes:
+		<ul>
+			<li>Citar el origen de los datos.</li>
+			<li>Usar los datos en el contexto al que corresponden.</li>
+			<li>Citar fecha de la &uacute;ltima actualizaci&oacute;n de los datos.</li>
+			<li>Mantener al Ayuntamiento de Madrid al margen del uso realizado.</li>
+			<li>Conservar los metadatos originales.</li>
+			<li>Mantener el anonimato debido a protecci&oacute; de datos personales u otros motivos.</li>
+		</ul>	
+	</li>
+	<li>An&aacute;lisis de los datos:
+		<ul>
+			<li>Separaci&oacute;n de columnas personalizada con ';'.</li>
+			<li>Codificaci&oacute;n de caracteres modificada a ISO-8859-1 por uso de tildes en los datos.</li>
+			<li>Se puede encontrar una descripción más amplia de los rango de valores y la definición de las propiedades en los documentos:
+				<ul>
+					<li>datos.madrid.es/FWProjects/egob/contenidos/datasets/ficheros/Estructura_conjunto_datos_www%20madrid%20es_v7.pdf</li>
+					<li>datos.madrid.es/FWProjects/egob/contenidos/ficheros/Estructura_conjunto_datos_eventos_actividades_v1.doc</li>
+				</ul>
+			<li>201747-0-bibliobuses-bibliotecas.csv
+				<ul>
+					<li>Filtrado realizado:
+						<ul>
+							<li>Descartadas en la faceta filas en blanco.</li>
+							<li>Eliminada la columna Column al no tener contenido.</li>
+							<li>Eliminada la columna DESCRIPCION-ENTIDAD al contener descripci&oacute;n hist&oacute;rica de las bibliotecas, lo cual no es de nuestro 								inter&eacute;s</li>
+							<li>Eliminada columna ORIENTACION al no tener relevancia para nuestra aplicaci&oacute;n.</li>
+							<li>Eliminada columna PLANTA al no tener contenido en niguna de las celdas.</li>
+							<li>Eliminada columna PUERTA al no tener contenido en ninguna de las celdas.</li>
+							<li>Eliminada columna ESCALERAS al no tener contenido en ninguna de las celdas.</li>
+							<li>Incluida faceta en la columna ACCESIBILIDAD para filtrar aquellas bibliotecas/bibliobuses con acceso para minusv&aacute;lidos.</li>
+							<li>Incluida faceta en la columna HORARIO para eliminar aquellas bibliotecas que no incluyen informaci&oacute;n sobre su horario de 							apertura.</li>
+							<li>Incluida faceta en la columna TIPO para incluir s&oacute;lo bibliotecas, excluyendo monumentos y edificios art&iacute;sticos.</li>
+						</ul>
+					</li>
+					<li>Tras el filtro realizado la lista queda en 49 registros con 25 columnas cada uno.</li>
+					<li>Rangos y valores encontrados:
+						<ul>
+							<li>PK: valor num&eacute;rico 0-8100000.</li>
+							<li>NOMBRE: valor textual (49 valores diferentes).</li>
+							<li>HORARIO: valor textual (24 valores diferentes).</li>
+							<li>EQUIPAMIENTO: valor textual (41 valores diferentes).</li>
+							<li>TRANSPORTE: valor textual (49 valores diferentes).</li>
+							<li>DESCRIPCION: valor textual (47 valores diferentes).</li>
+							<li>ACCESIBILIDAD: valor num&eacute;rico 0 o 1 (filtrado a 1-acceso para minusv&aacute;lidos-)</li>
+							<li>CONTENT-URL: valor textual (49 valores diferentes).</li>
+							<li>NOMBRE-VIA: valor textual (46 valores diferentes).</li>
+							<li>CLASE-VIAL: valor textual (6 valores diferentes).</li>
+							<li>TIPO-NUM: valor textual (2 valores diferentes).</li>
+							<li>NUM: valor num&eacute;rico 0-260.</li>
+							<li>LOCALIDAD: valor textual (1 valor-MADRID-).</li>
+							<li>PROVINCIA: valor textual (1 valor-MADRID-).</li>
+							<li>CODIGO-POSTAL: valor num&eacute;rico 28002-28054.</li>
+							<li>BARRIO: valor textual (42 valores diferentes).</li>
+							<li>DISTRITO: valor textual (21 valores diferentes).</li>
+							<li>COORDENADA-X: valor num&eacute;rico 0-450000.</li>
+							<li>COORDENADA-Y: valor num&eacute;rico 0-4500000.</li>
+							<li>LATITUD: valor num&eacute;rico 40.34-40.49.</li>
+							<li>LONGITUD: valor num&eacute;rico (-3.37)-(-3.59).</li>
+							<li>TELEFONO: valor textual (49 valores diferentes).</li>
+							<li>FAX: valor textual (17 valores diferentes).</li>
+							<li>EMAIL: valor textual (49 valores diferentes).</li>
+							<li>TIPO: valor textual (2 valores diferentes-filtrado a 1-).</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>206717-0-agenda-eventos-bibliotecas.csv
+			</li>
+			<li>216619-0-wifi-municipal.csv
+			</li>
+		</ul>
+	</li>
+</ol>

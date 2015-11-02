@@ -6,1026 +6,898 @@
 @prefix onto: <http://www.semanticweb.org/GROUP08/FarmaciasDeGuardia#> .
 
 
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/0> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"1" ;
-	onto:nombre_barrio"PALACIO" ;
-	onto:nombre_barrio_acentuado"PALACIO" ;
-	onto:superficie"1471085"^^xsd:int ;
-	onto:perimetro"5754"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/1> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"2" ;
-	onto:nombre_barrio"IMPERIAL" ;
-	onto:nombre_barrio_acentuado"IMPERIAL" ;
-	onto:superficie"967500"^^xsd:int ;
-	onto:perimetro"4557"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/2> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"3" ;
-	onto:nombre_barrio"PACIFICO" ;
-	onto:nombre_barrio_acentuado"PACÍFICO" ;
-	onto:superficie"750065"^^xsd:int ;
-	onto:perimetro"4005"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/3> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"4" ;
-	onto:nombre_barrio"RECOLETOS" ;
-	onto:nombre_barrio_acentuado"RECOLETOS" ;
-	onto:superficie"870857"^^xsd:int ;
-	onto:perimetro"3927"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/4> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"5" ;
-	onto:nombre_barrio"EL VISO" ;
-	onto:nombre_barrio_acentuado"EL VISO" ;
-	onto:superficie"1708046"^^xsd:int ;
-	onto:perimetro"5269"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/5> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"6" ;
-	onto:nombre_barrio"BELLAS VISTAS" ;
-	onto:nombre_barrio_acentuado"BELLAS VISTAS" ;
-	onto:superficie"716261"^^xsd:int ;
-	onto:perimetro"3443"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/6> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"7" ;
-	onto:nombre_barrio"GAZTAMBIDE" ;
-	onto:nombre_barrio_acentuado"GAZTAMBIDE" ;
-	onto:superficie"506596"^^xsd:int ;
-	onto:perimetro"2969"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/7> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"8" ;
-	onto:nombre_barrio"EL PARDO" ;
-	onto:nombre_barrio_acentuado"EL PARDO" ;
-	onto:superficie"187642916"^^xsd:int ;
-	onto:perimetro"87125"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/8> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"9" ;
-	onto:nombre_barrio"CASA DE CAMPO" ;
-	onto:nombre_barrio_acentuado"CASA DE CAMPO" ;
-	onto:superficie"17470075"^^xsd:int ;
-	onto:perimetro"19233"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/9> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"10" ;
-	onto:nombre_barrio"LOS CARMENES" ;
-	onto:nombre_barrio_acentuado"LOS CÁRMENES" ;
-	onto:superficie"1292235"^^xsd:int ;
-	onto:perimetro"6186"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/10> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"11" ;
-	onto:nombre_barrio"COMILLAS" ;
-	onto:nombre_barrio_acentuado"COMILLAS" ;
-	onto:superficie"665999"^^xsd:int ;
-	onto:perimetro"4257"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/11> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"12" ;
-	onto:nombre_barrio"ORCASITAS" ;
-	onto:nombre_barrio_acentuado"ORCASITAS" ;
-	onto:superficie"1356371"^^xsd:int ;
-	onto:perimetro"4664"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/12> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"13" ;
-	onto:nombre_barrio"ENTREVIAS" ;
-	onto:nombre_barrio_acentuado"ENTREVÍAS" ;
-	onto:superficie"5996932"^^xsd:int ;
-	onto:perimetro"11057"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/13> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"14" ;
-	onto:nombre_barrio"PAVONES" ;
-	onto:nombre_barrio_acentuado"PAVONES" ;
-	onto:superficie"1016979"^^xsd:int ;
-	onto:perimetro"4134"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/14> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"15" ;
-	onto:nombre_barrio"VENTAS" ;
-	onto:nombre_barrio_acentuado"VENTAS" ;
-	onto:superficie"3198045"^^xsd:int ;
-	onto:perimetro"8207"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/15> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"16" ;
-	onto:nombre_barrio"PALOMAS" ;
-	onto:nombre_barrio_acentuado"PALOMAS" ;
-	onto:superficie"1128602"^^xsd:int ;
-	onto:perimetro"4988"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/16> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"17" ;
-	onto:nombre_barrio"SAN ANDRES" ;
-	onto:nombre_barrio_acentuado"SAN ANDRÉS" ;
-	onto:superficie"9192451"^^xsd:int ;
-	onto:perimetro"13710"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/17> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"18" ;
-	onto:nombre_barrio"CASCO H.VALLECAS" ;
-	onto:nombre_barrio_acentuado"CASCO H.VALLECAS" ;
-	onto:superficie"49359337"^^xsd:int ;
-	onto:perimetro"31924"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/18> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"19" ;
-	onto:nombre_barrio"CASCO H.VICALVARO" ;
-	onto:nombre_barrio_acentuado"CASCO H.VICÁLVARO" ;
-	onto:superficie"32924620"^^xsd:int ;
-	onto:perimetro"33326"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/19> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"20" ;
-	onto:nombre_barrio"SIMANCAS" ;
-	onto:nombre_barrio_acentuado"SIMANCAS" ;
-	onto:superficie"2278418"^^xsd:int ;
-	onto:perimetro"6678"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/20> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"1" ;
-	onto:id_distrito"21" ;
-	onto:nombre_barrio"ALAMEDA DE OSUNA" ;
-	onto:nombre_barrio_acentuado"ALAMEDA DE OSUNA" ;
-	onto:superficie"1961904"^^xsd:int ;
-	onto:perimetro"6043"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/21> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"1" ;
-	onto:nombre_barrio"EMBAJADORES" ;
-	onto:nombre_barrio_acentuado"EMBAJADORES" ;
-	onto:superficie"1032822"^^xsd:int ;
-	onto:perimetro"4267"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/22> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"2" ;
-	onto:nombre_barrio"ACACIAS" ;
-	onto:nombre_barrio_acentuado"ACACIAS" ;
-	onto:superficie"1074172"^^xsd:int ;
-	onto:perimetro"3950"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/23> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"3" ;
-	onto:nombre_barrio"ADELFAS" ;
-	onto:nombre_barrio_acentuado"ADELFAS" ;
-	onto:superficie"640692"^^xsd:int ;
-	onto:perimetro"3584"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/24> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"4" ;
-	onto:nombre_barrio"GOYA" ;
-	onto:nombre_barrio_acentuado"GOYA" ;
-	onto:superficie"771228"^^xsd:int ;
-	onto:perimetro"3473"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/25> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"5" ;
-	onto:nombre_barrio"PROSPERIDAD" ;
-	onto:nombre_barrio_acentuado"PROSPERIDAD" ;
-	onto:superficie"1043284"^^xsd:int ;
-	onto:perimetro"5250"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/26> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"6" ;
-	onto:nombre_barrio"CUATRO CAMINOS" ;
-	onto:nombre_barrio_acentuado"CUATRO CAMINOS" ;
-	onto:superficie"1193509"^^xsd:int ;
-	onto:perimetro"4366"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/27> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"7" ;
-	onto:nombre_barrio"ARAPILES" ;
-	onto:nombre_barrio_acentuado"ARAPILES" ;
-	onto:superficie"578534"^^xsd:int ;
-	onto:perimetro"3096"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/28> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"8" ;
-	onto:nombre_barrio"FUENTELARREINA" ;
-	onto:nombre_barrio_acentuado"FUENTELARREINA" ;
-	onto:superficie"1382646"^^xsd:int ;
-	onto:perimetro"7691"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/29> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"9" ;
-	onto:nombre_barrio"ARGUELLES" ;
-	onto:nombre_barrio_acentuado"ARGUELLES" ;
-	onto:superficie"755758"^^xsd:int ;
-	onto:perimetro"5245"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/30> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"10" ;
-	onto:nombre_barrio"PUERTA DEL ANGEL" ;
-	onto:nombre_barrio_acentuado"PUERTA DEL ÁNGEL" ;
-	onto:superficie"1374799"^^xsd:int ;
-	onto:perimetro"5373"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/31> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"11" ;
-	onto:nombre_barrio"OPAÑEL" ;
-	onto:nombre_barrio_acentuado"OPAÑEL" ;
-	onto:superficie"1106597"^^xsd:int ;
-	onto:perimetro"4492"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/32> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"12" ;
-	onto:nombre_barrio"ORCASUR" ;
-	onto:nombre_barrio_acentuado"ORCASUR" ;
-	onto:superficie"1384234"^^xsd:int ;
-	onto:perimetro"5962"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/33> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"13" ;
-	onto:nombre_barrio"SAN DIEGO" ;
-	onto:nombre_barrio_acentuado"SAN DIEGO" ;
-	onto:superficie"1069944"^^xsd:int ;
-	onto:perimetro"4726"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/34> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"14" ;
-	onto:nombre_barrio"HORCAJO" ;
-	onto:nombre_barrio_acentuado"HORCAJO" ;
-	onto:superficie"745503"^^xsd:int ;
-	onto:perimetro"3901"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/35> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"15" ;
-	onto:nombre_barrio"PUEBLO NUEVO" ;
-	onto:nombre_barrio_acentuado"PUEBLO NUEVO" ;
-	onto:superficie"2319230"^^xsd:int ;
-	onto:perimetro"7746"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/36> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"16" ;
-	onto:nombre_barrio"PIOVERA" ;
-	onto:nombre_barrio_acentuado"PIOVERA" ;
-	onto:superficie"3139060"^^xsd:int ;
-	onto:perimetro"7812"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/37> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"17" ;
-	onto:nombre_barrio"SAN CRISTOBAL" ;
-	onto:nombre_barrio_acentuado"SAN CRISTÓBAL" ;
-	onto:superficie"1106718"^^xsd:int ;
-	onto:perimetro"4810"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/38> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"18" ;
-	onto:nombre_barrio"SANTA EUGENIA" ;
-	onto:nombre_barrio_acentuado"SANTA EUGENIA" ;
-	onto:superficie"2070637"^^xsd:int ;
-	onto:perimetro"6831"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/39> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"19" ;
-	onto:nombre_barrio"AMBROZ" ;
-	onto:nombre_barrio_acentuado"AMBROZ" ;
-	onto:superficie"2354258"^^xsd:int ;
-	onto:perimetro"8336"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/40> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"20" ;
-	onto:nombre_barrio"HELLIN" ;
-	onto:nombre_barrio_acentuado"HELLÍN" ;
-	onto:superficie"549031"^^xsd:int ;
-	onto:perimetro"3988"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/41> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"2" ;
-	onto:id_distrito"21" ;
-	onto:nombre_barrio"AEROPUERTO" ;
-	onto:nombre_barrio_acentuado"AEROPUERTO" ;
-	onto:superficie"25132277"^^xsd:int ;
-	onto:perimetro"26448"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/42> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"1" ;
-	onto:nombre_barrio"CORTES" ;
-	onto:nombre_barrio_acentuado"CORTES" ;
-	onto:superficie"592070"^^xsd:int ;
-	onto:perimetro"3731"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/43> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"2" ;
-	onto:nombre_barrio"CHOPERA" ;
-	onto:nombre_barrio_acentuado"CHOPERA" ;
-	onto:superficie"566358"^^xsd:int ;
-	onto:perimetro"3203"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/44> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"3" ;
-	onto:nombre_barrio"ESTRELLA" ;
-	onto:nombre_barrio_acentuado"ESTRELLA" ;
-	onto:superficie"1025805"^^xsd:int ;
-	onto:perimetro"4441"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/45> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"4" ;
-	onto:nombre_barrio"FUENTE DEL BERRO" ;
-	onto:nombre_barrio_acentuado"FUENTE DEL BERRO" ;
-	onto:superficie"852579"^^xsd:int ;
-	onto:perimetro"3886"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/46> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"5" ;
-	onto:nombre_barrio"CIUDAD JARDIN" ;
-	onto:nombre_barrio_acentuado"CIUDAD JARDÍN" ;
-	onto:superficie"762371"^^xsd:int ;
-	onto:perimetro"3915"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/47> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"6" ;
-	onto:nombre_barrio"CASTILLEJOS" ;
-	onto:nombre_barrio_acentuado"CASTILLEJOS" ;
-	onto:superficie"708501"^^xsd:int ;
-	onto:perimetro"3556"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/48> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"7" ;
-	onto:nombre_barrio"TRAFALGAR" ;
-	onto:nombre_barrio_acentuado"TRAFALGAR" ;
-	onto:superficie"611950"^^xsd:int ;
-	onto:perimetro"3505"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/49> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"8" ;
-	onto:nombre_barrio"PEÑA GRANDE" ;
-	onto:nombre_barrio_acentuado"PEÑA GRANDE" ;
-	onto:superficie"2890405"^^xsd:int ;
-	onto:perimetro"7331"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/50> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"9" ;
-	onto:nombre_barrio"CIUDAD UNIVERSITARIA" ;
-	onto:nombre_barrio_acentuado"CIUDAD UNIVERSITARIA" ;
-	onto:superficie"14248243"^^xsd:int ;
-	onto:perimetro"19453"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/51> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"10" ;
-	onto:nombre_barrio"LUCERO" ;
-	onto:nombre_barrio_acentuado"LUCERO" ;
-	onto:superficie"1679450"^^xsd:int ;
-	onto:perimetro"5498"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/52> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"11" ;
-	onto:nombre_barrio"SAN ISIDRO" ;
-	onto:nombre_barrio_acentuado"SAN ISIDRO" ;
-	onto:superficie"1899346"^^xsd:int ;
-	onto:perimetro"6149"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/53> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"12" ;
-	onto:nombre_barrio"SAN FERMIN" ;
-	onto:nombre_barrio_acentuado"SAN FERMÍN" ;
-	onto:superficie"1463692"^^xsd:int ;
-	onto:perimetro"5836"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/54> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"13" ;
-	onto:nombre_barrio"PALOMERAS BAJAS" ;
-	onto:nombre_barrio_acentuado"PALOMERAS BAJAS" ;
-	onto:superficie"1724430"^^xsd:int ;
-	onto:perimetro"5649"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/55> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"14" ;
-	onto:nombre_barrio"MARROQUINA" ;
-	onto:nombre_barrio_acentuado"MARROQUINA" ;
-	onto:superficie"1789256"^^xsd:int ;
-	onto:perimetro"6746"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/56> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"15" ;
-	onto:nombre_barrio"QUINTANA" ;
-	onto:nombre_barrio_acentuado"QUINTANA" ;
-	onto:superficie"722756"^^xsd:int ;
-	onto:perimetro"4440"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/57> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"16" ;
-	onto:nombre_barrio"CANILLAS" ;
-	onto:nombre_barrio_acentuado"CANILLAS" ;
-	onto:superficie"2516943"^^xsd:int ;
-	onto:perimetro"7532"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/58> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"17" ;
-	onto:nombre_barrio"BUTARQUE" ;
-	onto:nombre_barrio_acentuado"BUTARQUE" ;
-	onto:superficie"6425005"^^xsd:int ;
-	onto:perimetro"12719"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/59> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"20" ;
-	onto:nombre_barrio"AMPOSTA" ;
-	onto:nombre_barrio_acentuado"AMPOSTA" ;
-	onto:superficie"370250"^^xsd:int ;
-	onto:perimetro"3097"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/60> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"3" ;
-	onto:id_distrito"21" ;
-	onto:nombre_barrio"CASCO H.BARAJAS" ;
-	onto:nombre_barrio_acentuado"CASCO H.BARAJAS" ;
-	onto:superficie"609202"^^xsd:int ;
-	onto:perimetro"4033"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/61> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"1" ;
-	onto:nombre_barrio"JUSTICIA" ;
-	onto:nombre_barrio_acentuado"JUSTICIA" ;
-	onto:superficie"742034"^^xsd:int ;
-	onto:perimetro"3598"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/62> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"2" ;
-	onto:nombre_barrio"LEGAZPI" ;
-	onto:nombre_barrio_acentuado"LEGAZPI" ;
-	onto:superficie"1396410"^^xsd:int ;
-	onto:perimetro"5120"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/63> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"3" ;
-	onto:nombre_barrio"IBIZA" ;
-	onto:nombre_barrio_acentuado"IBIZA" ;
-	onto:superficie"490863"^^xsd:int ;
-	onto:perimetro"2913"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/64> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"4" ;
-	onto:nombre_barrio"GUINDALERA" ;
-	onto:nombre_barrio_acentuado"GUINDALERA" ;
-	onto:superficie"1598962"^^xsd:int ;
-	onto:perimetro"5194"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/65> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"5" ;
-	onto:nombre_barrio"HISPANOAMERICA" ;
-	onto:nombre_barrio_acentuado"HISPANOAMÉRICA" ;
-	onto:superficie"1707406"^^xsd:int ;
-	onto:perimetro"6068"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/66> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"6" ;
-	onto:nombre_barrio"ALMENARA" ;
-	onto:nombre_barrio_acentuado"ALMENARA" ;
-	onto:superficie"999369"^^xsd:int ;
-	onto:perimetro"4011"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/67> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"7" ;
-	onto:nombre_barrio"ALMAGRO" ;
-	onto:nombre_barrio_acentuado"ALMAGRO" ;
-	onto:superficie"937095"^^xsd:int ;
-	onto:perimetro"4071"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/68> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"8" ;
-	onto:nombre_barrio"EL PILAR" ;
-	onto:nombre_barrio_acentuado"EL PILAR" ;
-	onto:superficie"1359881"^^xsd:int ;
-	onto:perimetro"5155"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/69> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"9" ;
-	onto:nombre_barrio"VALDEZARZA" ;
-	onto:nombre_barrio_acentuado"VALDEZARZA" ;
-	onto:superficie"1397672"^^xsd:int ;
-	onto:perimetro"5352"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/70> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"10" ;
-	onto:nombre_barrio"ALUCHE" ;
-	onto:nombre_barrio_acentuado"ALUCHE" ;
-	onto:superficie"2849829"^^xsd:int ;
-	onto:perimetro"7267"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/71> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"11" ;
-	onto:nombre_barrio"VISTA ALEGRE" ;
-	onto:nombre_barrio_acentuado"VISTA ALEGRE" ;
-	onto:superficie"1589877"^^xsd:int ;
-	onto:perimetro"6433"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/72> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"12" ;
-	onto:nombre_barrio"ALMENDRALES" ;
-	onto:nombre_barrio_acentuado"ALMENDRALES" ;
-	onto:superficie"772281"^^xsd:int ;
-	onto:perimetro"3692"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/73> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"13" ;
-	onto:nombre_barrio"PALOMERAS SURESTE" ;
-	onto:nombre_barrio_acentuado"PALOMERAS SURESTE" ;
-	onto:superficie"3118722"^^xsd:int ;
-	onto:perimetro"7827"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/74> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"14" ;
-	onto:nombre_barrio"MEDIA LEGUA" ;
-	onto:nombre_barrio_acentuado"MEDIA LEGUA" ;
-	onto:superficie"999539"^^xsd:int ;
-	onto:perimetro"4674"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/75> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"15" ;
-	onto:nombre_barrio"CONCEPCION" ;
-	onto:nombre_barrio_acentuado"CONCEPCIÓN" ;
-	onto:superficie"885875"^^xsd:int ;
-	onto:perimetro"5777"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/76> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"16" ;
-	onto:nombre_barrio"PINAR DEL REY" ;
-	onto:nombre_barrio_acentuado"PINAR DEL REY" ;
-	onto:superficie"2632846"^^xsd:int ;
-	onto:perimetro"8271"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/77> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"17" ;
-	onto:nombre_barrio"LOS ROSALES" ;
-	onto:nombre_barrio_acentuado"LOS ROSALES" ;
-	onto:superficie"1510919"^^xsd:int ;
-	onto:perimetro"5442"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/78> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"20" ;
-	onto:nombre_barrio"ARCOS" ;
-	onto:nombre_barrio_acentuado"ARCOS" ;
-	onto:superficie"1305192"^^xsd:int ;
-	onto:perimetro"5074"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/79> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"4" ;
-	onto:id_distrito"21" ;
-	onto:nombre_barrio"TIMON" ;
-	onto:nombre_barrio_acentuado"TIMÓN" ;
-	onto:superficie"9595252"^^xsd:int ;
-	onto:perimetro"15415"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/80> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"1" ;
-	onto:nombre_barrio"UNIVERSIDAD" ;
-	onto:nombre_barrio_acentuado"UNIVERSIDAD" ;
-	onto:superficie"947641"^^xsd:int ;
-	onto:perimetro"4060"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/81> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"2" ;
-	onto:nombre_barrio"DELICIAS" ;
-	onto:nombre_barrio_acentuado"DELICIAS" ;
-	onto:superficie"1057730"^^xsd:int ;
-	onto:perimetro"4755"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/82> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"3" ;
-	onto:nombre_barrio"LOS JERONIMOS" ;
-	onto:nombre_barrio_acentuado"LOS JERÓNIMOS" ;
-	onto:superficie"1900627"^^xsd:int ;
-	onto:perimetro"5259"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/83> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"4" ;
-	onto:nombre_barrio"LISTA" ;
-	onto:nombre_barrio_acentuado"LISTA" ;
-	onto:superficie"520399"^^xsd:int ;
-	onto:perimetro"3232"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/84> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"5" ;
-	onto:nombre_barrio"NUEVA ESPAÑA" ;
-	onto:nombre_barrio_acentuado"NUEVA ESPAÑA" ;
-	onto:superficie"1788654"^^xsd:int ;
-	onto:perimetro"5588"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/85> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"6" ;
-	onto:nombre_barrio"VALDEACEDERAS" ;
-	onto:nombre_barrio_acentuado"VALDEACEDERAS" ;
-	onto:superficie"1163421"^^xsd:int ;
-	onto:perimetro"5024"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/86> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"7" ;
-	onto:nombre_barrio"RIOS ROSAS" ;
-	onto:nombre_barrio_acentuado"RIOS ROSAS" ;
-	onto:superficie"971220"^^xsd:int ;
-	onto:perimetro"4060"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/87> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"8" ;
-	onto:nombre_barrio"LA PAZ" ;
-	onto:nombre_barrio_acentuado"LA PAZ" ;
-	onto:superficie"2159243"^^xsd:int ;
-	onto:perimetro"6347"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/88> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"9" ;
-	onto:nombre_barrio"VALDEMARIN" ;
-	onto:nombre_barrio_acentuado"VALDEMARÍN" ;
-	onto:superficie"3305105"^^xsd:int ;
-	onto:perimetro"8300"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/89> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"10" ;
-	onto:nombre_barrio"CAMPAMENTO" ;
-	onto:nombre_barrio_acentuado"CAMPAMENTO" ;
-	onto:superficie"9157875"^^xsd:int ;
-	onto:perimetro"16619"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/90> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"11" ;
-	onto:nombre_barrio"PUERTA BONITA" ;
-	onto:nombre_barrio_acentuado"PUERTA BONITA" ;
-	onto:superficie"1607994"^^xsd:int ;
-	onto:perimetro"5982"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/91> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"12" ;
-	onto:nombre_barrio"MOSCARDO" ;
-	onto:nombre_barrio_acentuado"MOSCARDÓ" ;
-	onto:superficie"908875"^^xsd:int ;
-	onto:perimetro"4248"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/92> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"13" ;
-	onto:nombre_barrio"PORTAZGO" ;
-	onto:nombre_barrio_acentuado"PORTAZGO" ;
-	onto:superficie"1245274"^^xsd:int ;
-	onto:perimetro"4834"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/93> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"14" ;
-	onto:nombre_barrio"FONTARRON" ;
-	onto:nombre_barrio_acentuado"FONTARRÓN" ;
-	onto:superficie"964574"^^xsd:int ;
-	onto:perimetro"6220"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/94> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"15" ;
-	onto:nombre_barrio"SAN PASCUAL" ;
-	onto:nombre_barrio_acentuado"SAN PASCUAL" ;
-	onto:superficie"1052925"^^xsd:int ;
-	onto:perimetro"4458"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/95> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"16" ;
-	onto:nombre_barrio"APOSTOL SANTIAGO" ;
-	onto:nombre_barrio_acentuado"APÓSTOL SANTIAGO" ;
-	onto:superficie"1204621"^^xsd:int ;
-	onto:perimetro"4726"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/96> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"17" ;
-	onto:nombre_barrio"LOS ANGELES" ;
-	onto:nombre_barrio_acentuado"LOS ÁNGELES" ;
-	onto:superficie"1944811"^^xsd:int ;
-	onto:perimetro"5713"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/97> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"20" ;
-	onto:nombre_barrio"ROSAS" ;
-	onto:nombre_barrio_acentuado"ROSAS" ;
-	onto:superficie"9388024"^^xsd:int ;
-	onto:perimetro"15290"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/98> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"5" ;
-	onto:id_distrito"21" ;
-	onto:nombre_barrio"CORRALEJOS" ;
-	onto:nombre_barrio_acentuado"CORRALEJOS" ;
-	onto:superficie"4633048"^^xsd:int ;
-	onto:perimetro"9753"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/99> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"6" ;
-	onto:id_distrito"1" ;
-	onto:nombre_barrio"SOL" ;
-	onto:nombre_barrio_acentuado"SOL" ;
-	onto:superficie"445128"^^xsd:int ;
-	onto:perimetro"2716"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/100> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"6" ;
-	onto:id_distrito"2" ;
-	onto:nombre_barrio"PALOS DE MOGUER" ;
-	onto:nombre_barrio_acentuado"PALOS DE MOGUER" ;
-	onto:superficie"643542"^^xsd:int ;
-	onto:perimetro"3615"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/101> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"6" ;
-	onto:id_distrito"3" ;
-	onto:nombre_barrio"NIÑO JESUS" ;
-	onto:nombre_barrio_acentuado"NIÑO JESÚS" ;
-	onto:superficie"643202"^^xsd:int ;
-	onto:perimetro"3548"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/102> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"6" ;
-	onto:id_distrito"4" ;
-	onto:nombre_barrio"CASTELLANA" ;
-	onto:nombre_barrio_acentuado"CASTELLANA" ;
-	onto:superficie"773230"^^xsd:int ;
-	onto:perimetro"3745"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/103> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"6" ;
-	onto:id_distrito"5" ;
-	onto:nombre_barrio"CASTILLA" ;
-	onto:nombre_barrio_acentuado"CASTILLA" ;
-	onto:superficie"2160431"^^xsd:int ;
-	onto:perimetro"6783"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/104> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"6" ;
-	onto:id_distrito"6" ;
-	onto:nombre_barrio"BERRUGUETE" ;
-	onto:nombre_barrio_acentuado"BERRUGUETE" ;
-	onto:superficie"607050"^^xsd:int ;
-	onto:perimetro"3417"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/105> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"6" ;
-	onto:id_distrito"7" ;
-	onto:nombre_barrio"VALLEHERMOSO" ;
-	onto:nombre_barrio_acentuado"VALLEHERMOSO" ;
-	onto:superficie"1068709"^^xsd:int ;
-	onto:perimetro"4221"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/106> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"6" ;
-	onto:id_distrito"8" ;
-	onto:nombre_barrio"VALVERDE" ;
-	onto:nombre_barrio_acentuado"VALVERDE" ;
-	onto:superficie"8977802"^^xsd:int ;
-	onto:perimetro"12223"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/107> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"6" ;
-	onto:id_distrito"9" ;
-	onto:nombre_barrio"EL PLANTIO" ;
-	onto:nombre_barrio_acentuado"EL PLANTÍO" ;
-	onto:superficie"3554549"^^xsd:int ;
-	onto:perimetro"9995"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/108> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"6" ;
-	onto:id_distrito"10" ;
-	onto:nombre_barrio"CUATRO VIENTOS" ;
-	onto:nombre_barrio_acentuado"CUATRO VIENTOS" ;
-	onto:superficie"5419612"^^xsd:int ;
-	onto:perimetro"10146"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/109> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"6" ;
-	onto:id_distrito"11" ;
-	onto:nombre_barrio"BUENAVISTA" ;
-	onto:nombre_barrio_acentuado"BUENAVISTA" ;
-	onto:superficie"5613749"^^xsd:int ;
-	onto:perimetro"11612"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/110> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"6" ;
-	onto:id_distrito"12" ;
-	onto:nombre_barrio"ZOFIO" ;
-	onto:nombre_barrio_acentuado"ZOFIO" ;
-	onto:superficie"775103"^^xsd:int ;
-	onto:perimetro"3743"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/111> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"6" ;
-	onto:id_distrito"13" ;
-	onto:nombre_barrio"NUMANCIA" ;
-	onto:nombre_barrio_acentuado"NUMANCIA" ;
-	onto:superficie"1849172"^^xsd:int ;
-	onto:perimetro"5364"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/112> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"6" ;
-	onto:id_distrito"14" ;
-	onto:nombre_barrio"VINATEROS" ;
-	onto:nombre_barrio_acentuado"VINATEROS" ;
-	onto:superficie"593979"^^xsd:int ;
-	onto:perimetro"3721"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/113> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"6" ;
-	onto:id_distrito"15" ;
-	onto:nombre_barrio"SAN JUAN BAUTISTA" ;
-	onto:nombre_barrio_acentuado"SAN JUAN BAUTISTA" ;
-	onto:superficie"1010843"^^xsd:int ;
-	onto:perimetro"4012"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/114> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"6" ;
-	onto:id_distrito"16" ;
-	onto:nombre_barrio"VALDEFUENTES" ;
-	onto:nombre_barrio_acentuado"VALDEFUENTES" ;
-	onto:superficie"16778055"^^xsd:int ;
-	onto:perimetro"18779"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/115> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"6" ;
-	onto:id_distrito"20" ;
-	onto:nombre_barrio"REJAS" ;
-	onto:nombre_barrio_acentuado"REJAS" ;
-	onto:superficie"5007305"^^xsd:int ;
-	onto:perimetro"13360"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/116> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"7" ;
-	onto:id_distrito"2" ;
-	onto:nombre_barrio"ATOCHA" ;
-	onto:nombre_barrio_acentuado"ATOCHA" ;
-	onto:superficie"775561"^^xsd:int ;
-	onto:perimetro"4999"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/117> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"7" ;
-	onto:id_distrito"8" ;
-	onto:nombre_barrio"MIRASIERRA" ;
-	onto:nombre_barrio_acentuado"MIRASIERRA" ;
-	onto:superficie"6975186"^^xsd:int ;
-	onto:perimetro"13135"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/118> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"7" ;
-	onto:id_distrito"9" ;
-	onto:nombre_barrio"ARAVACA" ;
-	onto:nombre_barrio_acentuado"ARAVACA" ;
-	onto:superficie"5855800"^^xsd:int ;
-	onto:perimetro"10853"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/119> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"7" ;
-	onto:id_distrito"10" ;
-	onto:nombre_barrio"LAS AGUILAS" ;
-	onto:nombre_barrio_acentuado"LAS ÁGUILAS" ;
-	onto:superficie"3609338"^^xsd:int ;
-	onto:perimetro"7626"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/120> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"7" ;
-	onto:id_distrito"11" ;
-	onto:nombre_barrio"ABRANTES" ;
-	onto:nombre_barrio_acentuado"ABRANTES" ;
-	onto:superficie"1564207"^^xsd:int ;
-	onto:perimetro"5494"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/121> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"7" ;
-	onto:id_distrito"12" ;
-	onto:nombre_barrio"PRADOLONGO" ;
-	onto:nombre_barrio_acentuado"PRADOLONGO" ;
-	onto:superficie"1095654"^^xsd:int ;
-	onto:perimetro"4785"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/122> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"7" ;
-	onto:id_distrito"15" ;
-	onto:nombre_barrio"COLINA" ;
-	onto:nombre_barrio_acentuado"COLINA" ;
-	onto:superficie"559702"^^xsd:int ;
-	onto:perimetro"3175"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/123> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"7" ;
-	onto:id_distrito"20" ;
-	onto:nombre_barrio"CANILLEJAS" ;
-	onto:nombre_barrio_acentuado"CANILLEJAS" ;
-	onto:superficie"1598075"^^xsd:int ;
-	onto:perimetro"5428"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/124> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"8" ;
-	onto:id_distrito"8" ;
-	onto:nombre_barrio"EL GOLOSO" ;
-	onto:nombre_barrio_acentuado"EL GOLOSO" ;
-	onto:superficie"26509171"^^xsd:int ;
-	onto:perimetro"26489"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/125> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"8" ;
-	onto:id_distrito"15" ;
-	onto:nombre_barrio"ATALAYA" ;
-	onto:nombre_barrio_acentuado"ATALAYA" ;
-	onto:superficie"248887"^^xsd:int ;
-	onto:perimetro"2240"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/126> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"8" ;
-	onto:id_distrito"20" ;
-	onto:nombre_barrio"EL SALVADOR" ;
-	onto:nombre_barrio_acentuado"EL SALVADOR" ;
-	onto:superficie"1881765"^^xsd:int ;
-	onto:perimetro"6571"^^xsd:int .
-
-<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/127> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
-	onto:id_barrio"9" ;
-	onto:id_distrito"15" ;
-	onto:nombre_barrio"COSTILLARES" ;
-	onto:nombre_barrio_acentuado"COSTILLARES" ;
-	onto:superficie"1427052"^^xsd:int ;
-	onto:perimetro"5635"^^xsd:int .
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PALACIO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "PALACIO" ;
+	onto:nombre_barrio_acentuado "PALACIO" ;
+	onto:superficie "1471085"^^xsd:int ;
+	onto:perimetro "5754"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/IMPERIAL> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "IMPERIAL" ;
+	onto:nombre_barrio_acentuado "IMPERIAL" ;
+	onto:superficie "967500"^^xsd:int ;
+	onto:perimetro "4557"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PACIFICO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "PACIFICO" ;
+	onto:nombre_barrio_acentuado "PACÍFICO" ;
+	onto:superficie "750065"^^xsd:int ;
+	onto:perimetro "4005"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/RECOLETOS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "RECOLETOS" ;
+	onto:nombre_barrio_acentuado "RECOLETOS" ;
+	onto:superficie "870857"^^xsd:int ;
+	onto:perimetro "3927"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FEL+VISO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "EL VISO" ;
+	onto:nombre_barrio_acentuado "EL VISO" ;
+	onto:superficie "1708046"^^xsd:int ;
+	onto:perimetro "5269"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FBELLAS+VISTAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "BELLAS VISTAS" ;
+	onto:nombre_barrio_acentuado "BELLAS VISTAS" ;
+	onto:superficie "716261"^^xsd:int ;
+	onto:perimetro "3443"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/GAZTAMBIDE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "GAZTAMBIDE" ;
+	onto:nombre_barrio_acentuado "GAZTAMBIDE" ;
+	onto:superficie "506596"^^xsd:int ;
+	onto:perimetro "2969"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FEL+PARDO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "EL PARDO" ;
+	onto:nombre_barrio_acentuado "EL PARDO" ;
+	onto:superficie "187642916"^^xsd:int ;
+	onto:perimetro "87125"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCASA+DE+CAMPO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "CASA DE CAMPO" ;
+	onto:nombre_barrio_acentuado "CASA DE CAMPO" ;
+	onto:superficie "17470075"^^xsd:int ;
+	onto:perimetro "19233"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FLOS+CARMENES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "LOS CARMENES" ;
+	onto:nombre_barrio_acentuado "LOS CÁRMENES" ;
+	onto:superficie "1292235"^^xsd:int ;
+	onto:perimetro "6186"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/COMILLAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "COMILLAS" ;
+	onto:nombre_barrio_acentuado "COMILLAS" ;
+	onto:superficie "665999"^^xsd:int ;
+	onto:perimetro "4257"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ORCASITAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "ORCASITAS" ;
+	onto:nombre_barrio_acentuado "ORCASITAS" ;
+	onto:superficie "1356371"^^xsd:int ;
+	onto:perimetro "4664"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ENTREVIAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "ENTREVIAS" ;
+	onto:nombre_barrio_acentuado "ENTREVÍAS" ;
+	onto:superficie "5996932"^^xsd:int ;
+	onto:perimetro "11057"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PAVONES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "PAVONES" ;
+	onto:nombre_barrio_acentuado "PAVONES" ;
+	onto:superficie "1016979"^^xsd:int ;
+	onto:perimetro "4134"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VENTAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "VENTAS" ;
+	onto:nombre_barrio_acentuado "VENTAS" ;
+	onto:superficie "3198045"^^xsd:int ;
+	onto:perimetro "8207"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PALOMAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "PALOMAS" ;
+	onto:nombre_barrio_acentuado "PALOMAS" ;
+	onto:superficie "1128602"^^xsd:int ;
+	onto:perimetro "4988"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSAN+ANDRES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "SAN ANDRES" ;
+	onto:nombre_barrio_acentuado "SAN ANDRÉS" ;
+	onto:superficie "9192451"^^xsd:int ;
+	onto:perimetro "13710"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCASCO+H.VALLECAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "CASCO H.VALLECAS" ;
+	onto:nombre_barrio_acentuado "CASCO H.VALLECAS" ;
+	onto:superficie "49359337"^^xsd:int ;
+	onto:perimetro "31924"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCASCO+H.VICALVARO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "CASCO H.VICALVARO" ;
+	onto:nombre_barrio_acentuado "CASCO H.VICÁLVARO" ;
+	onto:superficie "32924620"^^xsd:int ;
+	onto:perimetro "33326"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/SIMANCAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "SIMANCAS" ;
+	onto:nombre_barrio_acentuado "SIMANCAS" ;
+	onto:superficie "2278418"^^xsd:int ;
+	onto:perimetro "6678"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FALAMEDA+DE+OSUNA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "ALAMEDA DE OSUNA" ;
+	onto:nombre_barrio_acentuado "ALAMEDA DE OSUNA" ;
+	onto:superficie "1961904"^^xsd:int ;
+	onto:perimetro "6043"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/EMBAJADORES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "EMBAJADORES" ;
+	onto:nombre_barrio_acentuado "EMBAJADORES" ;
+	onto:superficie "1032822"^^xsd:int ;
+	onto:perimetro "4267"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ACACIAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "ACACIAS" ;
+	onto:nombre_barrio_acentuado "ACACIAS" ;
+	onto:superficie "1074172"^^xsd:int ;
+	onto:perimetro "3950"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ADELFAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "ADELFAS" ;
+	onto:nombre_barrio_acentuado "ADELFAS" ;
+	onto:superficie "640692"^^xsd:int ;
+	onto:perimetro "3584"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/GOYA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "GOYA" ;
+	onto:nombre_barrio_acentuado "GOYA" ;
+	onto:superficie "771228"^^xsd:int ;
+	onto:perimetro "3473"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PROSPERIDAD> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "PROSPERIDAD" ;
+	onto:nombre_barrio_acentuado "PROSPERIDAD" ;
+	onto:superficie "1043284"^^xsd:int ;
+	onto:perimetro "5250"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCUATRO+CAMINOS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "CUATRO CAMINOS" ;
+	onto:nombre_barrio_acentuado "CUATRO CAMINOS" ;
+	onto:superficie "1193509"^^xsd:int ;
+	onto:perimetro "4366"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ARAPILES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "ARAPILES" ;
+	onto:nombre_barrio_acentuado "ARAPILES" ;
+	onto:superficie "578534"^^xsd:int ;
+	onto:perimetro "3096"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/FUENTELARREINA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "FUENTELARREINA" ;
+	onto:nombre_barrio_acentuado "FUENTELARREINA" ;
+	onto:superficie "1382646"^^xsd:int ;
+	onto:perimetro "7691"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ARGUELLES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "ARGUELLES" ;
+	onto:nombre_barrio_acentuado "ARGUELLES" ;
+	onto:superficie "755758"^^xsd:int ;
+	onto:perimetro "5245"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPUERTA+DEL+ANGEL> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "PUERTA DEL ANGEL" ;
+	onto:nombre_barrio_acentuado "PUERTA DEL ÁNGEL" ;
+	onto:superficie "1374799"^^xsd:int ;
+	onto:perimetro "5373"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/OPAÑEL> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "OPAÑEL" ;
+	onto:nombre_barrio_acentuado "OPAÑEL" ;
+	onto:superficie "1106597"^^xsd:int ;
+	onto:perimetro "4492"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ORCASUR> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "ORCASUR" ;
+	onto:nombre_barrio_acentuado "ORCASUR" ;
+	onto:superficie "1384234"^^xsd:int ;
+	onto:perimetro "5962"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSAN+DIEGO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "SAN DIEGO" ;
+	onto:nombre_barrio_acentuado "SAN DIEGO" ;
+	onto:superficie "1069944"^^xsd:int ;
+	onto:perimetro "4726"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/HORCAJO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "HORCAJO" ;
+	onto:nombre_barrio_acentuado "HORCAJO" ;
+	onto:superficie "745503"^^xsd:int ;
+	onto:perimetro "3901"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPUEBLO+NUEVO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "PUEBLO NUEVO" ;
+	onto:nombre_barrio_acentuado "PUEBLO NUEVO" ;
+	onto:superficie "2319230"^^xsd:int ;
+	onto:perimetro "7746"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PIOVERA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "PIOVERA" ;
+	onto:nombre_barrio_acentuado "PIOVERA" ;
+	onto:superficie "3139060"^^xsd:int ;
+	onto:perimetro "7812"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSAN+CRISTOBAL> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "SAN CRISTOBAL" ;
+	onto:nombre_barrio_acentuado "SAN CRISTÓBAL" ;
+	onto:superficie "1106718"^^xsd:int ;
+	onto:perimetro "4810"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSANTA+EUGENIA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "SANTA EUGENIA" ;
+	onto:nombre_barrio_acentuado "SANTA EUGENIA" ;
+	onto:superficie "2070637"^^xsd:int ;
+	onto:perimetro "6831"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/AMBROZ> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "AMBROZ" ;
+	onto:nombre_barrio_acentuado "AMBROZ" ;
+	onto:superficie "2354258"^^xsd:int ;
+	onto:perimetro "8336"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/HELLIN> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "HELLIN" ;
+	onto:nombre_barrio_acentuado "HELLÍN" ;
+	onto:superficie "549031"^^xsd:int ;
+	onto:perimetro "3988"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/AEROPUERTO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "AEROPUERTO" ;
+	onto:nombre_barrio_acentuado "AEROPUERTO" ;
+	onto:superficie "25132277"^^xsd:int ;
+	onto:perimetro "26448"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CORTES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "CORTES" ;
+	onto:nombre_barrio_acentuado "CORTES" ;
+	onto:superficie "592070"^^xsd:int ;
+	onto:perimetro "3731"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CHOPERA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "CHOPERA" ;
+	onto:nombre_barrio_acentuado "CHOPERA" ;
+	onto:superficie "566358"^^xsd:int ;
+	onto:perimetro "3203"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ESTRELLA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "ESTRELLA" ;
+	onto:nombre_barrio_acentuado "ESTRELLA" ;
+	onto:superficie "1025805"^^xsd:int ;
+	onto:perimetro "4441"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FFUENTE+DEL+BERRO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "FUENTE DEL BERRO" ;
+	onto:nombre_barrio_acentuado "FUENTE DEL BERRO" ;
+	onto:superficie "852579"^^xsd:int ;
+	onto:perimetro "3886"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCIUDAD+JARDIN> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "CIUDAD JARDIN" ;
+	onto:nombre_barrio_acentuado "CIUDAD JARDÍN" ;
+	onto:superficie "762371"^^xsd:int ;
+	onto:perimetro "3915"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CASTILLEJOS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "CASTILLEJOS" ;
+	onto:nombre_barrio_acentuado "CASTILLEJOS" ;
+	onto:superficie "708501"^^xsd:int ;
+	onto:perimetro "3556"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/TRAFALGAR> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "TRAFALGAR" ;
+	onto:nombre_barrio_acentuado "TRAFALGAR" ;
+	onto:superficie "611950"^^xsd:int ;
+	onto:perimetro "3505"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPE%C3%91A+GRANDE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "PEÑA GRANDE" ;
+	onto:nombre_barrio_acentuado "PEÑA GRANDE" ;
+	onto:superficie "2890405"^^xsd:int ;
+	onto:perimetro "7331"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCIUDAD+UNIVERSITARIA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "CIUDAD UNIVERSITARIA" ;
+	onto:nombre_barrio_acentuado "CIUDAD UNIVERSITARIA" ;
+	onto:superficie "14248243"^^xsd:int ;
+	onto:perimetro "19453"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/LUCERO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "LUCERO" ;
+	onto:nombre_barrio_acentuado "LUCERO" ;
+	onto:superficie "1679450"^^xsd:int ;
+	onto:perimetro "5498"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSAN+ISIDRO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "SAN ISIDRO" ;
+	onto:nombre_barrio_acentuado "SAN ISIDRO" ;
+	onto:superficie "1899346"^^xsd:int ;
+	onto:perimetro "6149"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSAN+FERMIN> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "SAN FERMIN" ;
+	onto:nombre_barrio_acentuado "SAN FERMÍN" ;
+	onto:superficie "1463692"^^xsd:int ;
+	onto:perimetro "5836"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPALOMERAS+BAJAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "PALOMERAS BAJAS" ;
+	onto:nombre_barrio_acentuado "PALOMERAS BAJAS" ;
+	onto:superficie "1724430"^^xsd:int ;
+	onto:perimetro "5649"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/MARROQUINA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "MARROQUINA" ;
+	onto:nombre_barrio_acentuado "MARROQUINA" ;
+	onto:superficie "1789256"^^xsd:int ;
+	onto:perimetro "6746"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/QUINTANA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "QUINTANA" ;
+	onto:nombre_barrio_acentuado "QUINTANA" ;
+	onto:superficie "722756"^^xsd:int ;
+	onto:perimetro "4440"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CANILLAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "CANILLAS" ;
+	onto:nombre_barrio_acentuado "CANILLAS" ;
+	onto:superficie "2516943"^^xsd:int ;
+	onto:perimetro "7532"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/BUTARQUE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "BUTARQUE" ;
+	onto:nombre_barrio_acentuado "BUTARQUE" ;
+	onto:superficie "6425005"^^xsd:int ;
+	onto:perimetro "12719"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/AMPOSTA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "AMPOSTA" ;
+	onto:nombre_barrio_acentuado "AMPOSTA" ;
+	onto:superficie "370250"^^xsd:int ;
+	onto:perimetro "3097"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCASCO+H.BARAJAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "CASCO H.BARAJAS" ;
+	onto:nombre_barrio_acentuado "CASCO H.BARAJAS" ;
+	onto:superficie "609202"^^xsd:int ;
+	onto:perimetro "4033"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/JUSTICIA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "JUSTICIA" ;
+	onto:nombre_barrio_acentuado "JUSTICIA" ;
+	onto:superficie "742034"^^xsd:int ;
+	onto:perimetro "3598"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/LEGAZPI> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "LEGAZPI" ;
+	onto:nombre_barrio_acentuado "LEGAZPI" ;
+	onto:superficie "1396410"^^xsd:int ;
+	onto:perimetro "5120"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/IBIZA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "IBIZA" ;
+	onto:nombre_barrio_acentuado "IBIZA" ;
+	onto:superficie "490863"^^xsd:int ;
+	onto:perimetro "2913"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/GUINDALERA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "GUINDALERA" ;
+	onto:nombre_barrio_acentuado "GUINDALERA" ;
+	onto:superficie "1598962"^^xsd:int ;
+	onto:perimetro "5194"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/HISPANOAMERICA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "HISPANOAMERICA" ;
+	onto:nombre_barrio_acentuado "HISPANOAMÉRICA" ;
+	onto:superficie "1707406"^^xsd:int ;
+	onto:perimetro "6068"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ALMENARA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "ALMENARA" ;
+	onto:nombre_barrio_acentuado "ALMENARA" ;
+	onto:superficie "999369"^^xsd:int ;
+	onto:perimetro "4011"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ALMAGRO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "ALMAGRO" ;
+	onto:nombre_barrio_acentuado "ALMAGRO" ;
+	onto:superficie "937095"^^xsd:int ;
+	onto:perimetro "4071"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FEL+PILAR> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "EL PILAR" ;
+	onto:nombre_barrio_acentuado "EL PILAR" ;
+	onto:superficie "1359881"^^xsd:int ;
+	onto:perimetro "5155"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VALDEZARZA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "VALDEZARZA" ;
+	onto:nombre_barrio_acentuado "VALDEZARZA" ;
+	onto:superficie "1397672"^^xsd:int ;
+	onto:perimetro "5352"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ALUCHE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "ALUCHE" ;
+	onto:nombre_barrio_acentuado "ALUCHE" ;
+	onto:superficie "2849829"^^xsd:int ;
+	onto:perimetro "7267"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FVISTA+ALEGRE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "VISTA ALEGRE" ;
+	onto:nombre_barrio_acentuado "VISTA ALEGRE" ;
+	onto:superficie "1589877"^^xsd:int ;
+	onto:perimetro "6433"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ALMENDRALES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "ALMENDRALES" ;
+	onto:nombre_barrio_acentuado "ALMENDRALES" ;
+	onto:superficie "772281"^^xsd:int ;
+	onto:perimetro "3692"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPALOMERAS+SURESTE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "PALOMERAS SURESTE" ;
+	onto:nombre_barrio_acentuado "PALOMERAS SURESTE" ;
+	onto:superficie "3118722"^^xsd:int ;
+	onto:perimetro "7827"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FMEDIA+LEGUA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "MEDIA LEGUA" ;
+	onto:nombre_barrio_acentuado "MEDIA LEGUA" ;
+	onto:superficie "999539"^^xsd:int ;
+	onto:perimetro "4674"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CONCEPCION> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "CONCEPCION" ;
+	onto:nombre_barrio_acentuado "CONCEPCIÓN" ;
+	onto:superficie "885875"^^xsd:int ;
+	onto:perimetro "5777"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPINAR+DEL+REY> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "PINAR DEL REY" ;
+	onto:nombre_barrio_acentuado "PINAR DEL REY" ;
+	onto:superficie "2632846"^^xsd:int ;
+	onto:perimetro "8271"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FLOS+ROSALES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "LOS ROSALES" ;
+	onto:nombre_barrio_acentuado "LOS ROSALES" ;
+	onto:superficie "1510919"^^xsd:int ;
+	onto:perimetro "5442"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ARCOS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "ARCOS" ;
+	onto:nombre_barrio_acentuado "ARCOS" ;
+	onto:superficie "1305192"^^xsd:int ;
+	onto:perimetro "5074"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/TIMON> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "TIMON" ;
+	onto:nombre_barrio_acentuado "TIMÓN" ;
+	onto:superficie "9595252"^^xsd:int ;
+	onto:perimetro "15415"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/UNIVERSIDAD> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "UNIVERSIDAD" ;
+	onto:nombre_barrio_acentuado "UNIVERSIDAD" ;
+	onto:superficie "947641"^^xsd:int ;
+	onto:perimetro "4060"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/DELICIAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "DELICIAS" ;
+	onto:nombre_barrio_acentuado "DELICIAS" ;
+	onto:superficie "1057730"^^xsd:int ;
+	onto:perimetro "4755"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FLOS+JERONIMOS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "LOS JERONIMOS" ;
+	onto:nombre_barrio_acentuado "LOS JERÓNIMOS" ;
+	onto:superficie "1900627"^^xsd:int ;
+	onto:perimetro "5259"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/LISTA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "LISTA" ;
+	onto:nombre_barrio_acentuado "LISTA" ;
+	onto:superficie "520399"^^xsd:int ;
+	onto:perimetro "3232"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FNUEVA+ESPA%C3%91A> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "NUEVA ESPAÑA" ;
+	onto:nombre_barrio_acentuado "NUEVA ESPAÑA" ;
+	onto:superficie "1788654"^^xsd:int ;
+	onto:perimetro "5588"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VALDEACEDERAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "VALDEACEDERAS" ;
+	onto:nombre_barrio_acentuado "VALDEACEDERAS" ;
+	onto:superficie "1163421"^^xsd:int ;
+	onto:perimetro "5024"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FRIOS+ROSAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "RIOS ROSAS" ;
+	onto:nombre_barrio_acentuado "RIOS ROSAS" ;
+	onto:superficie "971220"^^xsd:int ;
+	onto:perimetro "4060"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FLA+PAZ> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "LA PAZ" ;
+	onto:nombre_barrio_acentuado "LA PAZ" ;
+	onto:superficie "2159243"^^xsd:int ;
+	onto:perimetro "6347"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VALDEMARIN> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "VALDEMARIN" ;
+	onto:nombre_barrio_acentuado "VALDEMARÍN" ;
+	onto:superficie "3305105"^^xsd:int ;
+	onto:perimetro "8300"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CAMPAMENTO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "CAMPAMENTO" ;
+	onto:nombre_barrio_acentuado "CAMPAMENTO" ;
+	onto:superficie "9157875"^^xsd:int ;
+	onto:perimetro "16619"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPUERTA+BONITA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "PUERTA BONITA" ;
+	onto:nombre_barrio_acentuado "PUERTA BONITA" ;
+	onto:superficie "1607994"^^xsd:int ;
+	onto:perimetro "5982"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/MOSCARDO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "MOSCARDO" ;
+	onto:nombre_barrio_acentuado "MOSCARDÓ" ;
+	onto:superficie "908875"^^xsd:int ;
+	onto:perimetro "4248"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PORTAZGO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "PORTAZGO" ;
+	onto:nombre_barrio_acentuado "PORTAZGO" ;
+	onto:superficie "1245274"^^xsd:int ;
+	onto:perimetro "4834"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/FONTARRON> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "FONTARRON" ;
+	onto:nombre_barrio_acentuado "FONTARRÓN" ;
+	onto:superficie "964574"^^xsd:int ;
+	onto:perimetro "6220"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSAN+PASCUAL> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "SAN PASCUAL" ;
+	onto:nombre_barrio_acentuado "SAN PASCUAL" ;
+	onto:superficie "1052925"^^xsd:int ;
+	onto:perimetro "4458"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FAPOSTOL+SANTIAGO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "APOSTOL SANTIAGO" ;
+	onto:nombre_barrio_acentuado "APÓSTOL SANTIAGO" ;
+	onto:superficie "1204621"^^xsd:int ;
+	onto:perimetro "4726"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FLOS+ANGELES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "LOS ANGELES" ;
+	onto:nombre_barrio_acentuado "LOS ÁNGELES" ;
+	onto:superficie "1944811"^^xsd:int ;
+	onto:perimetro "5713"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ROSAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "ROSAS" ;
+	onto:nombre_barrio_acentuado "ROSAS" ;
+	onto:superficie "9388024"^^xsd:int ;
+	onto:perimetro "15290"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CORRALEJOS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "CORRALEJOS" ;
+	onto:nombre_barrio_acentuado "CORRALEJOS" ;
+	onto:superficie "4633048"^^xsd:int ;
+	onto:perimetro "9753"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/SOL> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "SOL" ;
+	onto:nombre_barrio_acentuado "SOL" ;
+	onto:superficie "445128"^^xsd:int ;
+	onto:perimetro "2716"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPALOS+DE+MOGUER> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "PALOS DE MOGUER" ;
+	onto:nombre_barrio_acentuado "PALOS DE MOGUER" ;
+	onto:superficie "643542"^^xsd:int ;
+	onto:perimetro "3615"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FNI%C3%91O+JESUS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "NIÑO JESUS" ;
+	onto:nombre_barrio_acentuado "NIÑO JESÚS" ;
+	onto:superficie "643202"^^xsd:int ;
+	onto:perimetro "3548"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CASTELLANA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "CASTELLANA" ;
+	onto:nombre_barrio_acentuado "CASTELLANA" ;
+	onto:superficie "773230"^^xsd:int ;
+	onto:perimetro "3745"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CASTILLA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "CASTILLA" ;
+	onto:nombre_barrio_acentuado "CASTILLA" ;
+	onto:superficie "2160431"^^xsd:int ;
+	onto:perimetro "6783"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/BERRUGUETE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "BERRUGUETE" ;
+	onto:nombre_barrio_acentuado "BERRUGUETE" ;
+	onto:superficie "607050"^^xsd:int ;
+	onto:perimetro "3417"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VALLEHERMOSO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "VALLEHERMOSO" ;
+	onto:nombre_barrio_acentuado "VALLEHERMOSO" ;
+	onto:superficie "1068709"^^xsd:int ;
+	onto:perimetro "4221"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VALVERDE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "VALVERDE" ;
+	onto:nombre_barrio_acentuado "VALVERDE" ;
+	onto:superficie "8977802"^^xsd:int ;
+	onto:perimetro "12223"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FEL+PLANTIO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "EL PLANTIO" ;
+	onto:nombre_barrio_acentuado "EL PLANTÍO" ;
+	onto:superficie "3554549"^^xsd:int ;
+	onto:perimetro "9995"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCUATRO+VIENTOS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "CUATRO VIENTOS" ;
+	onto:nombre_barrio_acentuado "CUATRO VIENTOS" ;
+	onto:superficie "5419612"^^xsd:int ;
+	onto:perimetro "10146"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/BUENAVISTA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "BUENAVISTA" ;
+	onto:nombre_barrio_acentuado "BUENAVISTA" ;
+	onto:superficie "5613749"^^xsd:int ;
+	onto:perimetro "11612"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ZOFIO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "ZOFIO" ;
+	onto:nombre_barrio_acentuado "ZOFIO" ;
+	onto:superficie "775103"^^xsd:int ;
+	onto:perimetro "3743"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/NUMANCIA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "NUMANCIA" ;
+	onto:nombre_barrio_acentuado "NUMANCIA" ;
+	onto:superficie "1849172"^^xsd:int ;
+	onto:perimetro "5364"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VINATEROS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "VINATEROS" ;
+	onto:nombre_barrio_acentuado "VINATEROS" ;
+	onto:superficie "593979"^^xsd:int ;
+	onto:perimetro "3721"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSAN+JUAN+BAUTISTA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "SAN JUAN BAUTISTA" ;
+	onto:nombre_barrio_acentuado "SAN JUAN BAUTISTA" ;
+	onto:superficie "1010843"^^xsd:int ;
+	onto:perimetro "4012"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VALDEFUENTES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "VALDEFUENTES" ;
+	onto:nombre_barrio_acentuado "VALDEFUENTES" ;
+	onto:superficie "16778055"^^xsd:int ;
+	onto:perimetro "18779"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/REJAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "REJAS" ;
+	onto:nombre_barrio_acentuado "REJAS" ;
+	onto:superficie "5007305"^^xsd:int ;
+	onto:perimetro "13360"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ATOCHA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "7" ;
+	onto:nombre_barrio "ATOCHA" ;
+	onto:nombre_barrio_acentuado "ATOCHA" ;
+	onto:superficie "775561"^^xsd:int ;
+	onto:perimetro "4999"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/MIRASIERRA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "7" ;
+	onto:nombre_barrio "MIRASIERRA" ;
+	onto:nombre_barrio_acentuado "MIRASIERRA" ;
+	onto:superficie "6975186"^^xsd:int ;
+	onto:perimetro "13135"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ARAVACA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "7" ;
+	onto:nombre_barrio "ARAVACA" ;
+	onto:nombre_barrio_acentuado "ARAVACA" ;
+	onto:superficie "5855800"^^xsd:int ;
+	onto:perimetro "10853"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FLAS+AGUILAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "7" ;
+	onto:nombre_barrio "LAS AGUILAS" ;
+	onto:nombre_barrio_acentuado "LAS ÁGUILAS" ;
+	onto:superficie "3609338"^^xsd:int ;
+	onto:perimetro "7626"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ABRANTES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "7" ;
+	onto:nombre_barrio "ABRANTES" ;
+	onto:nombre_barrio_acentuado "ABRANTES" ;
+	onto:superficie "1564207"^^xsd:int ;
+	onto:perimetro "5494"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PRADOLONGO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "7" ;
+	onto:nombre_barrio "PRADOLONGO" ;
+	onto:nombre_barrio_acentuado "PRADOLONGO" ;
+	onto:superficie "1095654"^^xsd:int ;
+	onto:perimetro "4785"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/COLINA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "7" ;
+	onto:nombre_barrio "COLINA" ;
+	onto:nombre_barrio_acentuado "COLINA" ;
+	onto:superficie "559702"^^xsd:int ;
+	onto:perimetro "3175"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CANILLEJAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "7" ;
+	onto:nombre_barrio "CANILLEJAS" ;
+	onto:nombre_barrio_acentuado "CANILLEJAS" ;
+	onto:superficie "1598075"^^xsd:int ;
+	onto:perimetro "5428"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FEL+GOLOSO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "8" ;
+	onto:nombre_barrio "EL GOLOSO" ;
+	onto:nombre_barrio_acentuado "EL GOLOSO" ;
+	onto:superficie "26509171"^^xsd:int ;
+	onto:perimetro "26489"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ATALAYA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "8" ;
+	onto:nombre_barrio "ATALAYA" ;
+	onto:nombre_barrio_acentuado "ATALAYA" ;
+	onto:superficie "248887"^^xsd:int ;
+	onto:perimetro "2240"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FEL+SALVADOR> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "8" ;
+	onto:nombre_barrio "EL SALVADOR" ;
+	onto:nombre_barrio_acentuado "EL SALVADOR" ;
+	onto:superficie "1881765"^^xsd:int ;
+	onto:perimetro "6571"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/COSTILLARES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "9" ;
+	onto:nombre_barrio "COSTILLARES" ;
+	onto:nombre_barrio_acentuado "COSTILLARES" ;
+	onto:superficie "1427052"^^xsd:int ;
+	onto:perimetro "5635"^^xsd:int .

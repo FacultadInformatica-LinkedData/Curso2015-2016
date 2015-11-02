@@ -1,0 +1,300 @@
+[
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TRANSPORTE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Metro: Pirámides (Linea 5)  Bus: 18, 23 , 34, 35, 36, 116, 118, 119 ",
+          " Metro: Pirámides (línea 5)  Bus: 18 , 23 , 34 , 35 , 36 , 116 , 118 , 119 "
+        ],
+        "to": " Metro: Pirámides (Linea 5)  Bus: 18, 23 , 34, 35, 36, 116, 118, 119 "
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Bus: 22 , 76 , 79 ",
+          "Bus: 22 , 76 , 79 "
+        ],
+        "to": " Bus: 22 , 76 , 79 "
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Metro: Valdebernardo (línea 9)  Bus: 71 ",
+          " Metro: Valdebernardo (línea 9)  Bus: 71  "
+        ],
+        "to": " Metro: Valdebernardo (línea 9)  Bus: 71 "
+      },
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Bus: 66, 137",
+          "Bus: 66, 137 "
+        ],
+        "to": "Bus: 66, 137"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TRANSPORTE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Metro: Nuevos Ministerios (líneas 6, 8 y 10)  RENFE: Nuevos Ministerios  Bus: 5 , 69 y 149  "
+        ],
+        "to": " Metro: Nuevos Ministerios (líneas 6, 8 y 10) Bus: 5 , 69 y 149 RENFE: Nuevos Ministerios "
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TRANSPORTE using expression value.toLowercase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TRANSPORTE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " metro: cuzco (línea 10)  bús: 5, 11, 40, 140, 150 "
+        ],
+        "to": " metro: cuzco (línea 10)  bus: 5, 11, 40, 140, 150 "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TRANSPORTE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " metro: gregorio marañón (líneas 7 y 10)  bús: 7, 12, 14, 27, 40, 45, 147 y 150 "
+        ],
+        "to": " metro: gregorio marañón (líneas 7 y 10)  bus: 7, 12, 14, 27, 40, 45, 147 y 150 "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TRANSPORTE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " bus: 54, 58, 103, 142 y n9  metro: villa de vallecas (línea 1) "
+        ],
+        "to": "metro: villa de vallecas (línea 1) bus: 54, 58, 103, 142 y n9 "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TRANSPORTE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " bus: 132, 44  metro: francos rodríguez (línea 7) "
+        ],
+        "to": "metro: francos rodríguez (línea 7) bus: 132, 44"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TRANSPORTE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "bus: 35 metro: la peseta (línea 11)"
+        ],
+        "to": "metro: la peseta (línea 11) bus: 35"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TRANSPORTE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "bus: 47 , 108 , 118 , 121 , 131 metro: pan bendito (línea 11)"
+        ],
+        "to": "metro: pan bendito (línea 11) bus: 47 , 108 , 118 , 121 , 131"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TRANSPORTE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " metro: villaverde bajo - cruce (línea 3)  autobús: 18, 22, 86, 116 y 130 "
+        ],
+        "to": " metro: villaverde bajo - cruce (línea 3)  bus: 18, 22, 86, 116 y 130 "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TRANSPORTE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "bus: 47 , 81 , 108 , 116 , 121 , 131 , 155 metro: plaza elíptica (línea 6 y 11) , abrantes (línea 11)"
+        ],
+        "to": "metro: plaza elíptica (línea 6 y 11) , abrantes (línea 11) bus: 47 , 81 , 108 , 116 , 121 , 131 , 155"
+      }
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Metro at index 5 based on column TRANSPORTE using expression grel:substring(value,lastIndexOf(value,\"metro:\"), lastIndexOf(value,\"bus:\"))",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Metro",
+    "columnInsertIndex": 5,
+    "baseColumnName": "TRANSPORTE",
+    "expression": "grel:substring(value,lastIndexOf(value,\"metro:\"), lastIndexOf(value,\"bus:\"))",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Metro",
+    "columnName": "Metro"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Metro at index 5 based on column TRANSPORTE using expression grel:substring(value,lastIndexOf(value,\"metro:\")+7, lastIndexOf(value,\"bus:\"))",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Metro",
+    "columnInsertIndex": 5,
+    "baseColumnName": "TRANSPORTE",
+    "expression": "grel:substring(value,lastIndexOf(value,\"metro:\")+7, lastIndexOf(value,\"bus:\"))",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Bus at index 5 based on column TRANSPORTE using expression grel:substring(value,lastIndexOf(value,\"bus:\")+5, lastIndexOf(value,if(value.contains(\"renfe:\"),\"renfe:\",\"\")))",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Bus",
+    "columnInsertIndex": 5,
+    "baseColumnName": "TRANSPORTE",
+    "expression": "grel:substring(value,lastIndexOf(value,\"bus:\")+5, lastIndexOf(value,if(value.contains(\"renfe:\"),\"renfe:\",\"\")))",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Renfe at index 5 based on column TRANSPORTE using expression grel:substring(value,\nif(value.contains(\"renfe:\"),lastIndexOf(value,\"renfe:\")+7,EOF),EOF)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Renfe",
+    "columnInsertIndex": 5,
+    "baseColumnName": "TRANSPORTE",
+    "expression": "grel:substring(value,\nif(value.contains(\"renfe:\"),lastIndexOf(value,\"renfe:\")+7,EOF),EOF)",
+    "onError": "set-to-blank"
+  }
+]

@@ -1,0 +1,186 @@
+<html>
+<head>
+</head>
+<body>
+<h1 align="center">ASSIGMENT 2</h1>
+
+
+
+<h2>ANALYSE DATASET</h2>
+
+<p>Esta primera tabla muestra  el analisis del dataset de los centros deportivos</p><br>
+<table border="1" bordercolor="666633" cellpadding="2" cellspacing="0">
+
+<tbody><tr>
+  <th scope="col"><strong>Columna</strong></th>
+  <th scope="col"><strong>Tipo</strong></th>
+  <th scope="col"><strong>Coment/Range</strong></th>
+  <th scope="col"><strong>Problemas</strong></th>
+</tr>
+ 
+ <tr>
+  <td>PK</td>
+  <td>Integer</td>
+  <td>Unico/ No valores vacios</td>
+  <td></td>
+</tr>
+<tr>
+  <td>NOMBRE</td>
+  <td>String</td>
+  <td>Unico/ No valores vacios</td>
+  <td></td>
+</tr>
+ 
+<tr>
+  <td>TRANSPORTE</td>
+  <td>String</td>
+  <td>No unico/Valores vacios</td>
+  <td>Metro y Autobús</td>
+</tr>
+<tr>
+  <td>CONTENT-URL</td>
+  <td>String</td>
+  <td>Unico/ No valores vacios</td>
+  <td></td>
+</tr>
+<tr>
+  <td>NOMBRE-VIA</td>
+  <td>String</td>
+  <td>Unico/ No valores vacios</td>
+  <td></td>
+</tr>
+<tr>
+  <td>CODIGO-POSTAL</td>
+  <td>Integer</td>
+  <td>No unico/ No valores vacios</td>
+  <td></td>
+</tr>
+<tr>
+  <td>DISTRITO</td>
+  <td>String</td>
+  <td>No unico/ No valores vacios</td>
+  <td></td>
+</tr>
+<tr>
+  <td>COORDENADA-X</td>
+  <td>Integer</td>
+  <td>Unico/ No valores vacios</td>
+  <td></td>
+</tr>
+<tr>
+  <td>COORDENADA-Y</td>
+  <td>Integer</td>
+  <td>Unico/ No valores vacios</td>
+  <td></td>
+</tr>
+<tr>
+  <td>TELEFONO</td>
+  <td>String</td>
+  <td>Unico/ Valores vacios</td>
+  <td></td>
+</tr>
+<tr>
+  <td>EMAIL</td>
+  <td>String</td>
+  <td>Unico/ No valores vacios</td>
+  <td></td>
+</tr>
+
+</tbody></table>
+<br>
+
+<p> Esta tabla muestra el análisis de los eventos deportivos</p><br>
+<table border="1" bordercolor="666633" cellpadding="2" cellspacing="0">
+
+<tbody><tr>
+  <th scope="col"><strong>Columna</strong></th>
+  <th scope="col"><strong>Tipo</strong></th>
+  <th scope="col"><strong>Coment/Range</strong></th>
+  <th scope="col"><strong>Problemas</strong></th>
+</tr>
+ <tr>
+  <td>PK</td>
+  <td>Integer</td>
+  <td>Unico/ No valores vacios</td>
+  <td></td>
+  </tr>
+  <tr>
+  <td>TÍTULO</td>
+  <td>String</td>
+  <td>Unico/ No valores vacios</td>
+  <td></td>
+</tr>
+<tr>
+  <td>FECHA</td>
+  <td>Date</td>
+  <td>No unico/ No valores vacios</td>
+  <td></td>
+</tr>
+<tr>
+  <td>CONTENT-URL</td>
+  <td>String</td>
+  <td>Unico/ No valores vacios</td>
+  <td></td>
+</tr>
+<tr>
+  <td>URL-INSTALACIÓN</td>
+  <td>String</td>
+  <td>Unico/ No valores vacios</td>
+  <td></td>
+</tr>
+<tr>
+  <td>NOMBRE-INSTALACIÓN</td>
+  <td>String</td>
+  <td>No unico/ No valores vacios</td>
+  <td></td>
+</tr>
+<tr>
+  <td>COORDENADA-X</td>
+  <td>Integer</td>
+  <td>Unico/ No valores vacios</td>
+  <td></td>
+</tr>
+<tr>
+  <td>COORDENADA-Y</td>
+  <td>Integer</td>
+  <td>Unico/ No valores vacios</td>
+  <td></td>
+</tr>
+<tr>
+  <td>DISTRITO</td>
+  <td>String</td>
+  <td>No unico/ No valores vacios</td>
+  <td></td>
+</tr>
+
+</tbody></table>
+<p>Estas son las columnas que vamos a usar para la realizacion de la aplicacion. El resto de columnas de los archivos csv se han eliminado.</p>
+
+<p>Tambien se han eliminado los centros deportivos correspondientes a instalaciones deportivas municipales basicas y las instalaciones deportivas de las universidades, ya que estas no aportan informacion relevante para la aplicacion.</p>
+
+<p>Cabe destacar que la columna Transporte, se ha dividido en tres columnas diferentes para poder tener el metro, el autobus y la renfe. Ademas en dichas columnas se han dividido las paradas de metro, autobuses y paradas de renfe, en diferentes rows para poder obtener los datos de manera mas sencilla.</p>
+ 
+<h2>LICENCIA</h2> 
+<p>Esta parte del documento describe la licencia de los datos de ambos datasets y la licencia que se va a utilizar.</p>
+<ul>
+	<li>Who is the publisher and the rightsholder?<br>&nbsp;&nbsp;&nbsp;&nbsp;El publicador de los datos y titular de los derechos es el Ayuntamiento de Madrid.</li>
+
+	<li>What is the license?<br>&nbsp;&nbsp;&nbsp;&nbsp;La licencia permite la reutilización de los documentos y datos sometidos a ellas para fines comerciales y no comerciales.Se entiende por reutilización el uso de documentos que obran en poder del Ayuntamiento de Madrid, con fines comerciales o no comerciales, siempre que dicho uso no constituya una actividad administrativa pública. La reutilización autorizada incluye actividades como la copia, difusión, modificación, adaptación, extracción, reordenación y combinación de la información.</li>
+
+	<li>Which will be the license to be used for generate dataset?<br>&nbsp;&nbsp;&nbsp;&nbsp;Licencia Creative Commons: Reconocimiento - CompartirIgual (by-sa)</li>
+</ul>
+
+
+<h2>RESOURCE NAME STRATEGY</h2>
+<ul>
+<li>Dominio:<a href="http://smartcity.linkeddata.es/"> http://smartcity.linkeddata.es/</a></li>
+<li>Ontological terms path: http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#</li>
+<li>Individual path: http://smartcity.linkeddata.es/lcc/resource/</li>
+<li>Ontological terms pattern: http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#&lt;term_name&gt;</li>
+<li>Individuals pattern: http://smartcity.linkeddata.es/lcc/resource/&lt;resource_type&gt;/&lt;resource_name&gt;</li>
+</ul>
+
+
+
+
+</body></html>

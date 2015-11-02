@@ -10,134 +10,153 @@
 
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3"
+     xml:base="http://www.semanticweb.org/Group08/FarmaciasDeGuardia"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3">
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+     ontologyIRI="http://www.semanticweb.org/Group08/FarmaciasDeGuardia">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
         <Class IRI="#Callejero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clases"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Farmacia"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Barrio"/>
+        <DataProperty IRI="#direccion"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Direccion"/>
+        <DataProperty IRI="#fecha"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Fecha"/>
+        <DataProperty IRI="#horario"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Horario"/>
+        <DataProperty IRI="#id_barrio"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Id_Barrio"/>
+        <DataProperty IRI="#id_distrito"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Id_Distrito"/>
+        <DataProperty IRI="#id_farmacia"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Id_Farmacia"/>
+        <DataProperty IRI="#nombre_barrio"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Perimetro"/>
+        <DataProperty IRI="#nombre_barrio_acentuado"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Superficie"/>
+        <DataProperty IRI="#perimetro"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Telefono"/>
+        <DataProperty IRI="#superficie"/>
     </Declaration>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Barrio"/>
+    <Declaration>
+        <DataProperty IRI="#telefono"/>
+    </Declaration>
+    <SubClassOf>
         <Class IRI="#Callejero"/>
-    </DataPropertyDomain>
+        <Class IRI="#Clases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Farmacia"/>
+        <Class IRI="#Clases"/>
+    </SubClassOf>
     <DataPropertyDomain>
-        <DataProperty IRI="#Barrio"/>
+        <DataProperty IRI="#direccion"/>
         <Class IRI="#Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Direccion"/>
+        <DataProperty IRI="#fecha"/>
         <Class IRI="#Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Fecha"/>
+        <DataProperty IRI="#horario"/>
         <Class IRI="#Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Horario"/>
+        <DataProperty IRI="#id_barrio"/>
+        <Class IRI="#Callejero"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#id_distrito"/>
+        <Class IRI="#Callejero"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#id_farmacia"/>
         <Class IRI="#Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Id_Barrio"/>
+        <DataProperty IRI="#nombre_barrio"/>
+        <Class IRI="#Clases"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre_barrio_acentuado"/>
         <Class IRI="#Callejero"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Id_Distrito"/>
+        <DataProperty IRI="#perimetro"/>
         <Class IRI="#Callejero"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Id_Farmacia"/>
-        <Class IRI="#Farmacia"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Perimetro"/>
+        <DataProperty IRI="#superficie"/>
         <Class IRI="#Callejero"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Superficie"/>
-        <Class IRI="#Callejero"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Telefono"/>
+        <DataProperty IRI="#telefono"/>
         <Class IRI="#Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty IRI="#Barrio"/>
+        <DataProperty IRI="#direccion"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#Direccion"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Fecha"/>
+        <DataProperty IRI="#fecha"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#Horario"/>
+        <DataProperty IRI="#horario"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#Id_Barrio"/>
+        <DataProperty IRI="#id_barrio"/>
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#Id_Distrito"/>
+        <DataProperty IRI="#id_distrito"/>
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#Id_Farmacia"/>
+        <DataProperty IRI="#id_farmacia"/>
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#Perimetro"/>
+        <DataProperty IRI="#nombre_barrio"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombre_barrio_acentuado"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#perimetro"/>
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#Superficie"/>
+        <DataProperty IRI="#superficie"/>
         <Datatype abbreviatedIRI="xsd:double"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#Telefono"/>
+        <DataProperty IRI="#telefono"/>
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
 </Ontology>

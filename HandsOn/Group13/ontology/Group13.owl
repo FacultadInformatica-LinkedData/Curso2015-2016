@@ -10,16 +10,17 @@
 
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/luisgaldo/ontologies/2015/9/Group13"
+     xml:base="http://www.semanticweb.org/Group13/VisitingMadrid"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/luisgaldo/ontologies/2015/9/Group13">
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+     ontologyIRI="http://www.semanticweb.org/Group13/VisitingMadrid">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
         <Class IRI="#Aparcamientos_publicos"/>
     </Declaration>
@@ -28,6 +29,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Cines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Embajadas"/>
@@ -51,1245 +55,268 @@
         <Class IRI="#Teatros"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Todo"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Turismo"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Accesibilidad"/>
+        <DataProperty IRI="#accesibilidad"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Barrio"/>
+        <DataProperty IRI="#barrio"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Clase-Vial"/>
+        <DataProperty IRI="#clase-Vial"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Codigo-Postal"/>
+        <DataProperty IRI="#codigo-Postal"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Content-URL"/>
+        <DataProperty IRI="#content-URL"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Coordenada-X"/>
+        <DataProperty IRI="#coordenada-X"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Coordenada-Y"/>
+        <DataProperty IRI="#coordenada-Y"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Descripcion"/>
+        <DataProperty IRI="#descripcion"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Descripcion_entidad"/>
+        <DataProperty IRI="#descripcion_entidad"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Direccion"/>
+        <DataProperty IRI="#direccion"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Distrito"/>
+        <DataProperty IRI="#distrito"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Equipamiento"/>
+        <DataProperty IRI="#equipamiento"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Escalera"/>
+        <DataProperty IRI="#escalera"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Fax"/>
+        <DataProperty IRI="#fax"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Horario"/>
+        <DataProperty IRI="#horario"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Identificador_Farmacia"/>
+        <DataProperty IRI="#identificador_Farmacia"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Latitud"/>
+        <DataProperty IRI="#latitud"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Localidad"/>
+        <DataProperty IRI="#localidad"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Longitud"/>
+        <DataProperty IRI="#longitud"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Nombre"/>
+        <DataProperty IRI="#nombre"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Nombre-Via"/>
+        <DataProperty IRI="#nombre-Via"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Numero"/>
+        <DataProperty IRI="#numero"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Orientacion"/>
+        <DataProperty IRI="#orientacion"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Planta"/>
+        <DataProperty IRI="#planta"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Provincia"/>
+        <DataProperty IRI="#provincia"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Puerta"/>
+        <DataProperty IRI="#puerta"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Telefono"/>
+        <DataProperty IRI="#telefono"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Tipo"/>
+        <DataProperty IRI="#tipo"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Tipo-Numero"/>
+        <DataProperty IRI="#tipo-Numero"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#Transporte"/>
+        <DataProperty IRI="#transporte"/>
     </Declaration>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#Descripcion"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Accesibilidad"/>
+    <SubClassOf>
         <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Accesibilidad"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Accesibilidad"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Accesibilidad"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+        <Class IRI="#Todo"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Accesibilidad"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Farmacia"/>
+        <Class IRI="#Todo"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Accesibilidad"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Accesibilidad"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Accesibilidad"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Accesibilidad"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Accesibilidad"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Turismo"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#accesibilidad"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Barrio"/>
-        <Class IRI="#Aparcamientos_publicos"/>
+        <DataProperty IRI="#barrio"/>
+        <Class IRI="#Todo"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Barrio"/>
-        <Class IRI="#Centros_de_salud"/>
+        <DataProperty IRI="#clase-Vial"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Barrio"/>
-        <Class IRI="#Cines"/>
+        <DataProperty IRI="#codigo-Postal"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Barrio"/>
-        <Class IRI="#Embajadas"/>
+        <DataProperty IRI="#content-URL"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Barrio"/>
+        <DataProperty IRI="#coordenada-X"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#coordenada-Y"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#descripcion"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#descripcion_entidad"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#direccion"/>
         <Class IRI="#Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Barrio"/>
-        <Class IRI="#Mercadillos"/>
+        <DataProperty IRI="#distrito"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Barrio"/>
-        <Class IRI="#Oficinas_de_turismo"/>
+        <DataProperty IRI="#equipamiento"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Barrio"/>
-        <Class IRI="#Parques_y_jardines"/>
+        <DataProperty IRI="#escalera"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Barrio"/>
-        <Class IRI="#Salas"/>
+        <DataProperty IRI="#fax"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Barrio"/>
-        <Class IRI="#Teatros"/>
+        <DataProperty IRI="#horario"/>
+        <Class IRI="#Todo"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Barrio"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Clase-Vial"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Clase-Vial"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Clase-Vial"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Clase-Vial"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Clase-Vial"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Clase-Vial"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Clase-Vial"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Clase-Vial"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Clase-Vial"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Clase-Vial"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Codigo-Postal"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Codigo-Postal"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Codigo-Postal"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Codigo-Postal"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Codigo-Postal"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Codigo-Postal"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Codigo-Postal"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Codigo-Postal"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Codigo-Postal"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Codigo-Postal"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Content-URL"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Content-URL"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Content-URL"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Content-URL"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Content-URL"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Content-URL"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Content-URL"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Content-URL"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Content-URL"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Content-URL"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-X"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-X"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-X"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-X"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-X"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-X"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-X"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-X"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-X"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-X"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-Y"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-Y"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-Y"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-Y"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-Y"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-Y"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-Y"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-Y"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-Y"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Coordenada-Y"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion_entidad"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion_entidad"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion_entidad"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion_entidad"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion_entidad"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion_entidad"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion_entidad"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion_entidad"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion_entidad"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Descripcion_entidad"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Direccion"/>
+        <DataProperty IRI="#identificador_Farmacia"/>
         <Class IRI="#Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Distrito"/>
-        <Class IRI="#Aparcamientos_publicos"/>
+        <DataProperty IRI="#latitud"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Distrito"/>
-        <Class IRI="#Centros_de_salud"/>
+        <DataProperty IRI="#localidad"/>
+        <Class IRI="#Todo"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Distrito"/>
-        <Class IRI="#Cines"/>
+        <DataProperty IRI="#longitud"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Distrito"/>
-        <Class IRI="#Embajadas"/>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Distrito"/>
-        <Class IRI="#Mercadillos"/>
+        <DataProperty IRI="#nombre-Via"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Distrito"/>
-        <Class IRI="#Oficinas_de_turismo"/>
+        <DataProperty IRI="#numero"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Distrito"/>
-        <Class IRI="#Parques_y_jardines"/>
+        <DataProperty IRI="#orientacion"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Distrito"/>
-        <Class IRI="#Salas"/>
+        <DataProperty IRI="#planta"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Distrito"/>
-        <Class IRI="#Teatros"/>
+        <DataProperty IRI="#provincia"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Distrito"/>
-        <Class IRI="#Turismo"/>
+        <DataProperty IRI="#puerta"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Equipamiento"/>
-        <Class IRI="#Aparcamientos_publicos"/>
+        <DataProperty IRI="#telefono"/>
+        <Class IRI="#Todo"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Equipamiento"/>
-        <Class IRI="#Centros_de_salud"/>
+        <DataProperty IRI="#tipo"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Equipamiento"/>
-        <Class IRI="#Cines"/>
+        <DataProperty IRI="#tipo-Numero"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Equipamiento"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Equipamiento"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Equipamiento"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Equipamiento"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Equipamiento"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Equipamiento"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Equipamiento"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Escalera"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Escalera"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Escalera"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Escalera"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Escalera"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Escalera"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Escalera"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Escalera"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Escalera"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Escalera"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Fax"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Fax"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Fax"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Fax"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Fax"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Fax"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Fax"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Fax"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Fax"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Fax"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Horario"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Horario"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Horario"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Horario"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Horario"/>
-        <Class IRI="#Farmacia"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Horario"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Horario"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Horario"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Horario"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Horario"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Horario"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Identificador_Farmacia"/>
-        <Class IRI="#Farmacia"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Latitud"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Latitud"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Latitud"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Latitud"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Latitud"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Latitud"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Latitud"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Latitud"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Latitud"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Latitud"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Localidad"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Localidad"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Localidad"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Localidad"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Localidad"/>
-        <Class IRI="#Farmacia"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Localidad"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Localidad"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Localidad"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Localidad"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Localidad"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Localidad"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Longitud"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Longitud"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Longitud"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Longitud"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Longitud"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Longitud"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Longitud"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Longitud"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Longitud"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Longitud"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre-Via"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre-Via"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre-Via"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre-Via"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre-Via"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre-Via"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre-Via"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre-Via"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre-Via"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Nombre-Via"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Numero"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Numero"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Numero"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Numero"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Numero"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Numero"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Numero"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Numero"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Numero"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Numero"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Orientacion"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Orientacion"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Orientacion"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Orientacion"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Orientacion"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Orientacion"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Orientacion"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Orientacion"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Orientacion"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Orientacion"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Planta"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Planta"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Planta"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Planta"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Planta"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Planta"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Planta"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Planta"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Planta"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Planta"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Provincia"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Provincia"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Provincia"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Provincia"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Provincia"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Provincia"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Provincia"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Provincia"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Provincia"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Provincia"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Puerta"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Puerta"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Puerta"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Puerta"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Puerta"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Puerta"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Puerta"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Puerta"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Puerta"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Puerta"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Telefono"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Telefono"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Telefono"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Telefono"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Telefono"/>
-        <Class IRI="#Farmacia"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Telefono"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Telefono"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Telefono"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Telefono"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Telefono"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Telefono"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo-Numero"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo-Numero"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo-Numero"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo-Numero"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo-Numero"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo-Numero"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo-Numero"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo-Numero"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo-Numero"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Tipo-Numero"/>
-        <Class IRI="#Turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Transporte"/>
-        <Class IRI="#Aparcamientos_publicos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Transporte"/>
-        <Class IRI="#Centros_de_salud"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Transporte"/>
-        <Class IRI="#Cines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Transporte"/>
-        <Class IRI="#Embajadas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Transporte"/>
-        <Class IRI="#Mercadillos"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Transporte"/>
-        <Class IRI="#Oficinas_de_turismo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Transporte"/>
-        <Class IRI="#Parques_y_jardines"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Transporte"/>
-        <Class IRI="#Salas"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Transporte"/>
-        <Class IRI="#Teatros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#Transporte"/>
-        <Class IRI="#Turismo"/>
+        <DataProperty IRI="#transporte"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
     </DataPropertyDomain>
 </Ontology>
 

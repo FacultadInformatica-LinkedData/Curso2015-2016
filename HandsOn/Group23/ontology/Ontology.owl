@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://edumadrid.linkeddata.es/ppc/ontology/EducactionCenters#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://edumadrid.linkeddata.es/ppc/ontology/EducactionCenters#">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="Accessibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Center"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ChildSchool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="College"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ContactInfo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="District"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Neighborhood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PostalAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PublicSchool"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasAddress"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasContact"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="isAccessible"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="locatedIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="content"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="fax"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="pk"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="postalCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="streetAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="telephone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="title"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="ChildSchool"/>
+        <Class IRI="Center"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="City"/>
+        <Class IRI="Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="College"/>
+        <Class IRI="Center"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="District"/>
+        <Class IRI="City"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Neighborhood"/>
+        <Class IRI="District"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PublicSchool"/>
+        <Class IRI="Center"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasAddress"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="hasAddress"/>
+            <Class IRI="PostalAddress"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasContact"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="hasContact"/>
+            <Class IRI="ContactInfo"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasDescription"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="hasDescription"/>
+            <Class IRI="Description"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="isAccessible"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="isAccessible"/>
+            <Class IRI="Accessibility"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="locatedIn"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="locatedIn"/>
+            <Class IRI="Place"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="content"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="content"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="email"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="email"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="fax"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="fax"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="pk"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="content"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="postalCode"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="content"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="streetAddress"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="streetAddress"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="telephone"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="streetAddress"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="title"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="content"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

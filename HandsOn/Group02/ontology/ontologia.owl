@@ -10,16 +10,17 @@
 
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/jknight/ontologies/2015/9/untitled-ontology-5"
+     xml:base="http://www.semanticweb.org/webSemantica/group02"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/jknight/ontologies/2015/9/untitled-ontology-5">
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+     ontologyIRI="http://www.semanticweb.org/webSemantica/group02">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
         <Class IRI="#Cine"/>
     </Declaration>
@@ -36,76 +37,82 @@
         <Class IRI="#Zona_Wifi"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneAccesibilidad"/>
+        <ObjectProperty IRI="#albergada_en"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneBarrio"/>
+        <ObjectProperty IRI="#tiene"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneCP"/>
+        <DataProperty IRI="#tieneAccesibilidad"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneClaseVial"/>
+        <DataProperty IRI="#tieneBarrio"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneCoordX"/>
+        <DataProperty IRI="#tieneCP"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneCoordY"/>
+        <DataProperty IRI="#tieneClaseVial"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneDescripcion"/>
+        <DataProperty IRI="#tieneCoordX"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneDetalles"/>
+        <DataProperty IRI="#tieneCoordY"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneDistrito"/>
+        <DataProperty IRI="#tieneDescripcion"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneEmail"/>
+        <DataProperty IRI="#tieneDetalles"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneEquipamiento"/>
+        <DataProperty IRI="#tieneDistrito"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneHorario"/>
+        <DataProperty IRI="#tieneEmail"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneLatitud"/>
+        <DataProperty IRI="#tieneEquipamiento"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneLocalidad"/>
+        <DataProperty IRI="#tieneHorario"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneLongitud"/>
+        <DataProperty IRI="#tieneLatitud"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneNombre"/>
+        <DataProperty IRI="#tieneLocalidad"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneNombreVia"/>
+        <DataProperty IRI="#tieneLongitud"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneNum"/>
+        <DataProperty IRI="#tieneNombre"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneOrientacion"/>
+        <DataProperty IRI="#tieneNombreVia"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tienePK"/>
+        <DataProperty IRI="#tieneNum"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneProvincia"/>
+        <DataProperty IRI="#tieneOrientacion"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneTlf"/>
+        <DataProperty IRI="#tienePK"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneTransporte"/>
+        <DataProperty IRI="#tieneProvincia"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneURL"/>
+        <DataProperty IRI="#tieneTelefono"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneTransporte"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneURL"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Cine"/>
@@ -123,270 +130,234 @@
         <Class IRI="#Zona_Wifi"/>
         <Class IRI="#Lugar"/>
     </SubClassOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#albergada_en"/>
+        <ObjectProperty IRI="#tiene"/>
+    </InverseObjectProperties>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneAccesibilidad"/>
-        <Class IRI="#Lugar"/>
+        <ObjectProperty IRI="#albergada_en"/>
+        <Class IRI="#Zona_Wifi"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneBarrio"/>
-        <Class IRI="#Lugar"/>
+        <ObjectProperty IRI="#tiene"/>
+        <Class IRI="#Cine"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneCP"/>
-        <Class IRI="#Lugar"/>
+        <ObjectProperty IRI="#tiene"/>
+        <Class IRI="#Museo"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneClaseVial"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneCoordX"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneCoordY"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneDescripcion"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneDetalles"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneDistrito"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneEmail"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneEquipamiento"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneHorario"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneLatitud"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneLocalidad"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneLongitud"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneNombre"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneNombreVia"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneNum"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneOrientacion"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tienePK"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneProvincia"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneTlf"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneTransporte"/>
-        <Class IRI="#Lugar"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneURL"/>
-        <Class IRI="#Lugar"/>
+        <ObjectProperty IRI="#tiene"/>
+        <Class IRI="#Teatro"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneAccesibilidad"/>
-        <DataSomeValuesFrom>
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:boolean"/>
-        </DataSomeValuesFrom>
+        <ObjectProperty IRI="#albergada_en"/>
+        <Class IRI="#Cine"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneBarrio"/>
-        <DataSomeValuesFrom>
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
+        <ObjectProperty IRI="#albergada_en"/>
+        <Class IRI="#Museo"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneCP"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:integer"/>
-        </DataExactCardinality>
+        <ObjectProperty IRI="#albergada_en"/>
+        <Class IRI="#Teatro"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneClaseVial"/>
-        <DataSomeValuesFrom>
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
+        <ObjectProperty IRI="#tiene"/>
+        <Class IRI="#Zona_Wifi"/>
     </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneCoordX"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:integer"/>
-        </DataExactCardinality>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneCoordY"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:integer"/>
-        </DataExactCardinality>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneDescripcion"/>
-        <DataSomeValuesFrom>
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneDetalles"/>
-        <DataSomeValuesFrom>
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneDistrito"/>
-        <DataSomeValuesFrom>
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneEmail"/>
-        <DataSomeValuesFrom>
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneEquipamiento"/>
-        <DataSomeValuesFrom>
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneHorario"/>
-        <DataSomeValuesFrom>
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneLatitud"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:integer"/>
-        </DataExactCardinality>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneLocalidad"/>
-        <DataSomeValuesFrom>
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneLongitud"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:integer"/>
-        </DataExactCardinality>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneNombre"/>
-        <DataSomeValuesFrom>
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneNombreVia"/>
-        <DataSomeValuesFrom>
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneNum"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:integer"/>
-        </DataExactCardinality>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneOrientacion"/>
-        <DataSomeValuesFrom>
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tienePK"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:integer"/>
-        </DataExactCardinality>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneProvincia"/>
-        <DataSomeValuesFrom>
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneTlf"/>
-        <DataSomeValuesFrom>
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneTransporte"/>
-        <DataSomeValuesFrom>
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneURL"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-            <Datatype abbreviatedIRI="xsd:anyURI"/>
-        </DataExactCardinality>
-    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneAccesibilidad"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneBarrio"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneCP"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneClaseVial"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneCoordX"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneCoordY"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneDescripcion"/>
+        <Class IRI="#Zona_Wifi"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneDetalles"/>
+        <Class IRI="#Zona_Wifi"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneDistrito"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneEmail"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneEquipamiento"/>
+        <Class IRI="#Zona_Wifi"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneHorario"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneLatitud"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneLocalidad"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneLongitud"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneNombre"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneNombreVia"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneNum"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneOrientacion"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tienePK"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneProvincia"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneTelefono"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneTransporte"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneURL"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneAccesibilidad"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneBarrio"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneCP"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneClaseVial"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneCoordX"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneCoordY"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneDescripcion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneDetalles"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneDistrito"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneEmail"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneEquipamiento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneHorario"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneLatitud"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneLocalidad"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneLongitud"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneNombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneNombreVia"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneNum"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneOrientacion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tienePK"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneProvincia"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneTelefono"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneTransporte"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneURL"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
 </Ontology>
 
 

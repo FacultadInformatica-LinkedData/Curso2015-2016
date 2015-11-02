@@ -22,9 +22,6 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#Duración"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Farmacia"/>
     </Declaration>
     <Declaration>
@@ -32,9 +29,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#TurnoDeGuardia"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#tieneDuración"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#tieneTurnoDeGuardia"/>
@@ -46,13 +40,10 @@
         <DataProperty IRI="#tieneDireccion"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#tieneFecha"/>
+        <DataProperty IRI="#tieneFechaFin"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#tieneHoraFin"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#tieneHoraInicio"/>
+        <DataProperty IRI="#tieneFechaInicio"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#tieneID"/>
@@ -65,17 +56,9 @@
         <Class IRI="#Farmacia"/>
     </SubClassOf>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tieneDuración"/>
-        <Class IRI="#TurnoDeGuardia"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#tieneTurnoDeGuardia"/>
         <Class IRI="#FarmaciaDeGuardia"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tieneDuración"/>
-        <Class IRI="#Duración"/>
-    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#tieneTurnoDeGuardia"/>
         <Class IRI="#TurnoDeGuardia"/>
@@ -89,16 +72,12 @@
         <Class IRI="#Farmacia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#tieneFecha"/>
+        <DataProperty IRI="#tieneFechaFin"/>
         <Class IRI="#TurnoDeGuardia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#tieneHoraFin"/>
-        <Class IRI="#Duración"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#tieneHoraInicio"/>
-        <Class IRI="#Duración"/>
+        <DataProperty IRI="#tieneFechaInicio"/>
+        <Class IRI="#TurnoDeGuardia"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#tieneID"/>
@@ -117,15 +96,11 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#tieneFecha"/>
+        <DataProperty IRI="#tieneFechaFin"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#tieneHoraFin"/>
-        <Datatype abbreviatedIRI="xsd:dateTime"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#tieneHoraInicio"/>
+        <DataProperty IRI="#tieneFechaInicio"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>

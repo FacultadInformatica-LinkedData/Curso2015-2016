@@ -1,0 +1,325 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix espdep: <http://www.espaciosdeportivosdemadrid.org/2015/#> .
+
+espdep:espacioDeportivo
+  a rdfs:Class;
+  rdfs:label "Espacio Deportivo"@es ;
+  rdfs:comment "Espacios deportivos de la ciudad de Madrid"@es ;
+
+espdep:contacto
+  a rdfs:Class;
+  rdfs:label "Contacto"@es ;
+  rdfs:comment "Contacto de un espacio deportivo de la ciudad de Madrid"@es ;
+
+espdep:direccion
+  a rdfs:Class;
+  rdfs:label "Direccion"@es ;
+  rdfs:comment "Direccion de un espacio deportivo de la ciudad de Madrid"@es ;
+
+espdep:localizacion
+  a rdfs:Class;
+  rdfs:label "Localizacion"@es ;
+  rdfs:comment "Localizacion de un espacio deportivo de la ciudad de Madrid"@es ;
+
+espdep:actividad
+  a rdfs:Class;
+  rdfs:label "Actividad"@es ;
+  rdfs:comment "Actividad en un espacio deportivo de la ciudad de Madrid"@es ;
+
+#-----Propiedades de la clase "espdep:espacioDeportivo"-----#
+
+espdev:hasPrimaryKey
+  a rdf:property ;
+  rdfs:label "Tiene clave primaria"@es ;
+  rdfs:comment "Clave Primaria del Espacio Deportivo"@es ;
+  rdfs:domain espdep:espacioDeportivo ;
+  rdfs:range LITERAL INT.
+
+espdev:hasPrimaryKey
+  a rdf:property ;
+  rdfs:label "Tiene clave primaria"@es ;
+  rdfs:comment "Clave Primaria del Espacio Deportivo"@es ;
+  rdfs:domain espdep:espacioDeportivo ;
+  rdfs:range xsd:integer.
+
+espdev:hasName
+  a rdf:property ;
+  rdfs:label "Tiene Nombre"@es ;
+  rdfs:comment "Nombre del Espacio Deportivo"@es ;
+  rdfs:domain espdep:espacioDeportivo ;
+  rdfs:range xsd:string .
+
+espdev:hasDescription
+  a rdf:property ;
+  rdfs:label "Tiene Descripcion"@es ;
+  rdfs:comment "Descripcion del Espacio Deportivo"@es ;
+  rdfs:domain espdep:espacioDeportivo ;
+  rdfs:range xsd:string .
+
+espdev:hasSchedule
+  a rdf:property ;
+  rdfs:label "Tiene Horario"@es ;
+  rdfs:comment "Horario de apertura del Espacio Deportivo"@es ;
+  rdfs:domain espdep:espacioDeportivo ;
+  rdfs:range xsd:string .
+
+espdev:hasTransport
+  a rdf:property ;
+  rdfs:label "Tiene Transporte"@es ;
+  rdfs:comment "Transporte publico cercano al Espacio Deportivo"@es ;
+  rdfs:domain espdep:espacioDeportivo ;
+  rdfs:range xsd:string .
+
+espdev:isAccesible
+  a rdf:property ;
+  rdfs:label "Es accesible"@es ;
+  rdfs:comment "Si tiene acceso para discapacitados el Espacio Deportivo"@es ;
+  rdfs:domain espdep:espacioDeportivo ;
+  rdfs:range xsd:boolean.
+
+espdev:hasType
+  a rdf:property ;
+  rdfs:label "Tipo de espacio deportivo "@es ;
+  rdfs:comment "Tipo de Espacio Deportivo"@es ;
+  rdfs:domain espdep:espacioDeportivo ;
+  rdfs:range xsd:string .
+
+espdev:hasContact
+  a rdf:property ;
+  rdfs:label "Tiene informacion de Contacto "@es ;
+  rdfs:comment "Informacion de Contacto del Espacio Deportivo"@es ;
+  rdfs:domain espdep:espacioDeportivo ;
+  rdfs:range espdep:contacto.
+
+espdev:hasLocation
+  a rdf:property ;
+  rdfs:label "Tiene localizacion"@es ;
+  rdfs:comment "Localizacion fisica del Espacio Deportivo"@es ;
+  rdfs:domain espdep:espacioDeportivo ;
+  rdfs:range espdep:localizacion.
+
+espdev:hasAddress
+  a rdf:property ;
+  rdfs:label "Tiene Direccion"@es ;
+  rdfs:comment "Direccion del Espacio Deportivo"@es ;
+  rdfs:domain espdep:espacioDeportivo ;
+  rdfs:range espdep:direccion.
+
+#-----Propiedades de la clase "espdep:contacto"-----#
+
+espdev:hasPhoneNumber
+  a rdf:property ;
+  rdfs:label "Tiene numero de telefono "@es ;
+  rdfs:comment "Numero de telefono de la informacion de contacto"@es ;
+  rdfs:domain espdep:contacto ;
+  rdfs:range xsd:string .
+
+espdev:hasFaxNumber
+  a rdf:property ;
+  rdfs:label "Tiene numero de fax "@es ;
+  rdfs:comment "Numero de fax de la informacion de contacto"@es ;
+  rdfs:domain espdep:contacto ;
+  rdfs:range xsd:string .
+
+espdev:hasEmail
+  a rdf:property ;
+  rdfs:label "Tiene correo electronico "@es ;
+  rdfs:comment "Correo electronico de la informacion de contacto"@es ;
+  rdfs:domain espdep:contacto ;
+  rdfs:range xsd:string .
+
+#-----Propiedades de la clase "espdep:localizacion"-----#
+
+espdev:hasXCoordinate
+  a rdf:property ;
+  rdfs:label "Tiene coordenada X"@es ;
+  rdfs:comment "Coordenada X de la localizacion"@es ;
+  rdfs:domain espdep:localizacion ;
+  rdfs:range xsd:integer.
+
+espdev:hasYCoordinate
+  a rdf:property ;
+  rdfs:label "Tiene coordenada Y"@es ;
+  rdfs:comment "Coordenada Y de la localizacion"@es ;
+  rdfs:domain espdep:localizacion ;
+  rdfs:range xsd:integer.
+
+espdev:hasLatitude
+  a rdf:property ;
+  rdfs:label "Tiene Latitud"@es ;
+  rdfs:comment "Latitud de la localizacion"@es ;
+  rdfs:domain espdep:localizacion ;
+  rdfs:range xsd:double.
+
+espdev:hasLongitude
+  a rdf:property ;
+  rdfs:label "Tiene longitud"@es ;
+  rdfs:comment "Longitud de la localizacion"@es ;
+  rdfs:domain espdep:localizacion ;
+  rdfs:range xsd:double.
+
+#-----Propiedades de la clase "espdep:direccion"-----#
+
+espdev:hasViaName
+  a rdf:property ;
+  rdfs:label "Nombre de la via"@es ;
+  rdfs:comment "Nombre de la via de la direccion"@es ;
+  rdfs:domain espdep:direccion ;
+  rdfs:range xsd:string .
+
+espdev:hasViaClass
+  a rdf:property ;
+  rdfs:label "Tipo de la via"@es ;
+  rdfs:comment "Tipo de la via de la direccion"@es ;
+  rdfs:domain espdep:direccion ;
+  rdfs:range xsd:string .
+
+espdev:hasNumType
+  a rdf:property ;
+  rdfs:label "Tiene Tipo de Numero"@es ;
+  rdfs:comment "Tipo de numero de la direccion"@es ;
+  rdfs:domain espdep:direccion ;
+  rdfs:range xsd:string .
+
+espdev:hasNum
+  a rdf:property ;
+  rdfs:label "Tiene numero"@es ;
+  rdfs:comment "Numero de la localizacion"@es ;
+  rdfs:domain espdep:direccion ;
+  rdfs:range xsd:string .
+
+espdev:hasProvince
+  a rdf:property ;
+  rdfs:label "Tiene Provincia"@es ;
+  rdfs:comment "Provincia de la direccion"@es ;
+  rdfs:domain espdep:direccion ;
+  rdfs:range xsd:string .
+
+espdev:hasLocality
+  a rdf:property ;
+  rdfs:label "Tiene Localidad"@es ;
+  rdfs:comment "Localidad de la direccion"@es ;
+  rdfs:domain espdep:direccion ;
+  rdfs:range xsd:string .
+
+espdev:hasDistrict
+  a rdf:property ;
+  rdfs:label "Tiene Distrito"@es ;
+  rdfs:comment "Distrito de la direccion"@es ;
+  rdfs:domain espdep:direccion ;
+  rdfs:range xsd:string .
+
+espdev:hasSection
+  a rdf:property ;
+  rdfs:label "Tiene Barrio"@es ;
+  rdfs:comment "Barrio de la direccion"@es ;
+  rdfs:domain espdep:direccion ;
+  rdfs:range xsd:string .
+
+espdev:hasDoor
+  a rdf:property ;
+  rdfs:label "Tiene Puerta"@es ;
+  rdfs:comment "Puerta de la direccion"@es ;
+  rdfs:domain espdep:direccion ;
+  rdfs:range xsd:string .
+
+espdev:hasStairs
+  a rdf:property ;
+  rdfs:label "Tiene Escalera"@es ;
+  rdfs:comment "Escalera de la direccion"@es ;
+  rdfs:domain espdep:direccion ;
+  rdfs:range xsd:string .
+
+espdev:hasOrientation
+  a rdf:property ;
+  rdfs:label "Tiene Orientacion"@es ;
+  rdfs:comment "Orientacion de la direccion"@es ;
+  rdfs:domain espdep:direccion ;
+  rdfs:range xsd:string .
+
+#-----Propiedades de la clase "espdep:actividad"-----#
+
+espdev:hasCenter
+  a rdf:property ;
+  rdfs:label "Tiene Espacio Deportivo"@es ;
+  rdfs:comment "Espacio deportivo en el que se celebra la actividad"@es ;
+  rdfs:domain espdep:actividad ;
+  rdfs:range espdep:espacioDeportivo .
+
+espdev:hasEventId
+  a rdf:property ;
+  rdfs:label "Tiene ID de Evento"@es ;
+  rdfs:comment "Identificador de la actividad"@es ;
+  rdfs:domain espdep:actividad ;
+  rdfs:range xsd:string .
+
+espdev:hasPrice
+  a rdf:property ;
+  rdfs:label "Tiene Precio"@es ;
+  rdfs:comment "Precio de la actividad"@es ;
+  rdfs:domain espdep:actividad ;
+  rdfs:range xsd:string .
+
+espdev:isFree
+  a rdf:property ;
+  rdfs:label "Es gratuito"@es ;
+  rdfs:comment "Gratuituidad la actividad"@es ;
+  rdfs:domain espdep:actividad ;
+  rdfs:range xsd:boolean .
+
+espdev:hasPrice
+  a rdf:property ;
+  rdfs:label "Tiene Precio"@es ;
+  rdfs:comment "Precio de la actividad"@es ;
+  rdfs:domain espdep:actividad ;
+  rdfs:range xsd:string .
+
+espdev:hasDuration
+  a rdf:property ;
+  rdfs:label "Tiene duracion"@es ;
+  rdfs:comment "Duracion de la actividad"@es ;
+  rdfs:domain espdep:actividad ;
+  rdfs:range xsd:boolean .
+
+espdev:hasDaysWeek
+  a rdf:property ;
+  rdfs:label "Dias de la semana"@es ;
+  rdfs:comment "Dias de la semana de la actividad"@es ;
+  rdfs:domain espdep:actividad ;
+  rdfs:range xsd:string .
+
+espdev:hasDays
+  a rdf:property ;
+  rdfs:label "Dias del evento"@es ;
+  rdfs:comment "Dias de la actividad"@es ;
+  rdfs:domain espdep:actividad ;
+  rdfs:range xsd:string .
+
+espdev:hasDate
+  a rdf:property ;
+  rdfs:label "Fecha del evento"@es ;
+  rdfs:comment "Fecha de comienzo de la actividad"@es ;
+  rdfs:domain espdep:actividad ;
+  rdfs:range xsd:date .
+
+espdev:hasEndDate
+  a rdf:property ;
+  rdfs:label "Fecha final del evento"@es ;
+  rdfs:comment "Fecha de finalizacion de la actividad"@es ;
+  rdfs:domain espdep:actividad ;
+  rdfs:range xsd:date .
+
+espdev:hasHour
+  a rdf:property ;
+  rdfs:label "Hora del evento"@es ;
+  rdfs:comment "Hora de la actividad"@es ;
+  rdfs:domain espdep:actividad ;
+  rdfs:range xsd:time .
+
+espdev:hasDescription
+  a rdf:property ;
+  rdfs:label "Descripcion del evento"@es ;
+  rdfs:comment "Descripcion de la actividad"@es ;
+  rdfs:domain espdep:actividad ;
+  rdfs:range xsd:string .

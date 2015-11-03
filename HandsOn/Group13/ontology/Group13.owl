@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/Group13/VisitingMadrid"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/Group13/VisitingMadrid">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Aparcamientos_publicos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centros_de_salud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Embajadas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Farmacia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mercadillos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oficinas_de_turismo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parques_y_jardines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teatros"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Todo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turismo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#accesibilidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#barrio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#clase-Vial"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#codigo-Postal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#content-URL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#coordenada-X"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#coordenada-Y"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#descripcion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#descripcion_entidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#direccion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#distrito"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#equipamiento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#escalera"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fax"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#horario"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#identificador_Farmacia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#latitud"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#localidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#longitud"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombre-Via"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numero"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#orientacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#planta"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#provincia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#puerta"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#telefono"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipo-Numero"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#transporte"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Aparcamientos_publicos"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centros_de_salud"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cines"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+        <Class IRI="#Todo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Embajadas"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Farmacia"/>
+        <Class IRI="#Todo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mercadillos"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oficinas_de_turismo"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parques_y_jardines"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salas"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teatros"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Turismo"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </SubClassOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#accesibilidad"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#barrio"/>
+        <Class IRI="#Todo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#clase-Vial"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#codigo-Postal"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#content-URL"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#coordenada-X"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#coordenada-Y"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#descripcion"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#descripcion_entidad"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#direccion"/>
+        <Class IRI="#Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#distrito"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#equipamiento"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#escalera"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fax"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#horario"/>
+        <Class IRI="#Todo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#identificador_Farmacia"/>
+        <Class IRI="#Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#latitud"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#localidad"/>
+        <Class IRI="#Todo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#longitud"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre-Via"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numero"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#orientacion"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#planta"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#provincia"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#puerta"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#telefono"/>
+        <Class IRI="#Todo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipo"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipo-Numero"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#transporte"/>
+        <Class IRI="#Conjunto_sin_Farmacia"/>
+    </DataPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

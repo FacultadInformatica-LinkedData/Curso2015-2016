@@ -1,0 +1,454 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DESCRIPCION-ENTIDAD",
+    "columnName": "DESCRIPCION-ENTIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column HORARIO",
+    "columnName": "HORARIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DESCRIPCION",
+    "columnName": "DESCRIPCION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ACCESIBILIDAD",
+    "columnName": "ACCESIBILIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CLASE-VIAL",
+    "columnName": "CLASE-VIAL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO-NUM",
+    "columnName": "TIPO-NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NUM",
+    "columnName": "NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PLANTA",
+    "columnName": "PLANTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PUERTA",
+    "columnName": "PUERTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ESCALERAS",
+    "columnName": "ESCALERAS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ORIENTACION",
+    "columnName": "ORIENTACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LOCALIDAD",
+    "columnName": "LOCALIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PROVINCIA",
+    "columnName": "PROVINCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column BARRIO",
+    "columnName": "BARRIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LATITUD",
+    "columnName": "LATITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LONGITUD",
+    "columnName": "LONGITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FAX",
+    "columnName": "FAX"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO",
+    "columnName": "TIPO"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column T2 at index 4 based on column TRANSPORTE using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "newColumnName": "T2",
+    "columnInsertIndex": 4,
+    "baseColumnName": "TRANSPORTE",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column T2 by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "T2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Bus",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column T2 2 by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "T2 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Renfe",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/row-flag",
+    "description": "Flag rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Básica",
+          "name": "NOMBRE",
+          "caseSensitive": false,
+          "columnName": "NOMBRE",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "flagged": true
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Básica",
+          "name": "NOMBRE",
+          "caseSensitive": false,
+          "columnName": "NOMBRE",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "record-based"
+    }
+  },
+  {
+    "op": "core/row-flag",
+    "description": "Flag rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Universidad Com",
+          "name": "NOMBRE",
+          "caseSensitive": false,
+          "columnName": "NOMBRE",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "flagged": true
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Universidad Com",
+          "name": "NOMBRE",
+          "caseSensitive": false,
+          "columnName": "NOMBRE",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "record-based"
+    }
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column T2 2 2 by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "T2 2 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ":",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column T2 2 2 1",
+    "columnName": "T2 2 2 1"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column T2 2 1 by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "T2 2 1",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ":",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column T2 2 1 1",
+    "columnName": "T2 2 1 1"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column T2 1 by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "T2 1",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Metro",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column T2 1 1",
+    "columnName": "T2 1 1"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column T2 1 2 by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "T2 1 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ":",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column T2 1 2 1",
+    "columnName": "T2 1 2 1"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column T2 2 1 3",
+    "columnName": "T2 2 1 3"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column T2 1 2 2 to METRO",
+    "oldColumnName": "T2 1 2 2",
+    "newColumnName": "METRO"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column T2 2 1 2 to BUS",
+    "oldColumnName": "T2 2 1 2",
+    "newColumnName": "BUS"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column T2 2 2 2 to RENFE",
+    "oldColumnName": "T2 2 2 2",
+    "newColumnName": "RENFE"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column METRO",
+    "columnName": "METRO",
+    "keyColumnName": "PK",
+    "separator": ", (",
+    "mode": "plain"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column METRO",
+    "columnName": "METRO",
+    "keyColumnName": "PK",
+    "separator": "),",
+    "mode": "plain"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column METRO",
+    "columnName": "METRO",
+    "keyColumnName": "PK",
+    "separator": "),",
+    "mode": "plain"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column METRO",
+    "columnName": "METRO",
+    "keyColumnName": "PK",
+    "separator": "),",
+    "mode": "plain"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column METRO",
+    "columnName": "METRO",
+    "keyColumnName": "PK",
+    "separator": "),",
+    "mode": "plain"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column METRO",
+    "columnName": "METRO",
+    "keyColumnName": "PK",
+    "separator": "),",
+    "mode": "plain"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column METRO",
+    "columnName": "METRO",
+    "keyColumnName": "PK",
+    "separator": "),",
+    "mode": "plain"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column METRO",
+    "columnName": "METRO",
+    "keyColumnName": "PK",
+    "separator": "),",
+    "mode": "plain"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column BUS",
+    "columnName": "BUS",
+    "keyColumnName": "PK",
+    "separator": ",",
+    "mode": "plain"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column BUS",
+    "columnName": "BUS",
+    "keyColumnName": "PK",
+    "separator": "/",
+    "mode": "plain"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column RENFE",
+    "columnName": "RENFE",
+    "keyColumnName": "PK",
+    "separator": ",",
+    "mode": "plain"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column BUS",
+    "columnName": "BUS",
+    "keyColumnName": "PK",
+    "separator": "/",
+    "mode": "plain"
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "pepepepe",
+          "name": "NOMBRE",
+          "type": "text",
+          "columnName": "NOMBRE"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column METRO",
+    "columnName": "METRO",
+    "keyColumnName": "PK",
+    "separator": "),",
+    "mode": "plain"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column BUS",
+    "columnName": "BUS",
+    "keyColumnName": "PK",
+    "separator": "/",
+    "mode": "plain"
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "N",
+          "name": "BUS",
+          "type": "text",
+          "columnName": "BUS"
+        }
+      ]
+    }
+  }
+]

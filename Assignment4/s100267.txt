@@ -1,0 +1,100 @@
+#1
+
+select distinct ?class where{?class a <http://www.w3.org/2000/01/rdf-schema#Class>}
+
+#2
+
+select distinct ?x
+where
+{
+?x rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Establishment>
+}
+LIMIT 100
+
+#3
+
+select distinct ?x 
+where
+{
+?x rdf:type <http://GP-onto.fi.upm.es/exercise2#City>
+}
+LIMIT 100
+
+#4
+
+select distinct ?y
+where
+{
+<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?y
+}
+LIMIT 100
+
+#5
+
+select distinct ?x ?y
+where
+{
+<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?x .
+<http://GP-onto.fi.upm.es/exercise2#Arzua> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?y 
+}
+LIMIT 100
+
+#6
+
+select distinct ?x ?y ?z
+where
+{
+?x <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?y.
+?x rdfs:label ?z
+}
+ORDER BY ?z
+LIMIT 100
+
+#7
+
+select distinct ?x
+where
+{
+?x rdf:type <http://GP-onto.fi.upm.es/exercise2#Locality>
+}
+LIMIT 100
+
+#8 
+
+select distinct ?number,?place where{ ?placeOrd <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?number;
+<http://www.w3.org/2000/01/rdf-schema#label> ?place filter (xsd:integer(?number) > 200000)}
+
+#9 
+
+select distinct ?street,?number,?locality,?province where{<http://GP-onto.fi.upm.es/exercise2#Pazo_Breogan> <http://GP-onto.fi.upm.es/exercise2#isPlacedIn> $placed;
+<http://GP-onto.fi.upm.es/exercise2#hasAddress> $address. $placed <http://www.w3.org/2000/01/rdf-schema#label> ?locality; <http://GP-onto.fi.upm.es/exercise2#inProvince> ?province. $address <http://GP-onto.fi.upm.es/exercise2#hasStreet> ?street;
+<http://GP-onto.fi.upm.es/exercise2#hasNumber> ?number}
+
+#10 
+
+select distinct ?subClass where{?subClass <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://GP-onto.fi.upm.es/exercise2#Location>}
+
+#11
+
+select distinct ?subClass where {?instances <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://GP-onto.fi.upm.es/exercise2#Locality>.?class ?arg ?instances.?class <http://www.w3.org/2000/01/rdf-schema#label> ?subClass }
+
+#12
+
+describe ?resource where {?resource <http://www.w3.org/2000/01/rdf-schema#label>'Madrid' }
+
+#13
+
+construct {?tourist <http://GP-onto.fi.upm.es/exercise2#isIn> ?prov} 
+where {?turist ?arg2 <http://GP-onto.fi.upm.es/exercise2#TouristicLocation>.
+?tourist <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?turist.
+ ?arg <http://GP-onto.fi.upm.es/exercise2#isPlacedIn> ?placed.
+?placed <http://GP-onto.fi.upm.es/exercise2#inProvince>  ?prov} 
+
+#14
+
+select distinct ?x 
+where
+{
+?x rdf:type <http://GP-onto.fi.upm.es/exercise2#Town>
+}
+LIMIT 100

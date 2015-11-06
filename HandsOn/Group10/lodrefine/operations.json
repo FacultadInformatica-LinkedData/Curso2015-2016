@@ -1,0 +1,454 @@
+[
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tel�fono",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value.length()",
+          "to": 6.7,
+          "selectError": true,
+          "selectNumeric": true,
+          "name": "Tel�fono",
+          "selectBlank": true,
+          "columnName": "Tel�fono",
+          "selectNonNumeric": true,
+          "from": 6,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Tel�fono",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "832006"
+        ],
+        "to": "0832006"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tel�fono",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Tel�fono",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "0832006"
+        ],
+        "to": 832006
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tel�fono",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value.length()",
+          "to": 6.96,
+          "selectError": true,
+          "selectNumeric": true,
+          "name": "Tel�fono",
+          "selectBlank": true,
+          "columnName": "Tel�fono",
+          "selectNonNumeric": true,
+          "from": 6,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Tel�fono",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "832006"
+        ],
+        "to": "0832006"
+      }
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column TelefonoCompleto at index 7 based on column Tel�fono using expression grel:if (length(value) == 0, value, \"91\"+value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "newColumnName": "TelefonoCompleto",
+    "columnInsertIndex": 7,
+    "baseColumnName": "Tel�fono",
+    "expression": "grel:if (length(value) == 0, value, \"91\"+value)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Duraci�n",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "Duraci�n",
+          "selectBlank": false,
+          "columnName": "Duraci�n",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "SERVICIO NOCTURNO (DE 23'00 A 9,30)",
+                "l": "SERVICIO NOCTURNO (DE 23'00 A 9,30)"
+              }
+            }
+          ]
+        },
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "HoraFinTurno",
+          "selectBlank": true,
+          "columnName": "HoraFinTurno",
+          "omitBlank": false,
+          "type": "list",
+          "selection": []
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Duraci�n",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SERVICIO NOCTURNO (DE 23'00 A 9,30)"
+        ],
+        "to": "SERVICIO NOCTURNO (DE 23'00 A 9'30)"
+      }
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column HoraInicioTurno at index 6 based on column Duraci�n using expression grel:replace(value.match(/.*DE (\\d{1,}+'\\d{2}).*/)[0], \"'\", \":\")",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "HoraFinTurno",
+          "selectBlank": true,
+          "columnName": "HoraFinTurno",
+          "omitBlank": false,
+          "type": "list",
+          "selection": []
+        }
+      ],
+      "mode": "record-based"
+    },
+    "newColumnName": "HoraInicioTurno",
+    "columnInsertIndex": 6,
+    "baseColumnName": "Duraci�n",
+    "expression": "grel:replace(value.match(/.*DE (\\d{1,}+'\\d{2}).*/)[0], \"'\", \":\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column HoraFinTurno at index 6 based on column Duraci�n using expression grel:replace(value.match(/.*A (\\d{1,}+'\\d{2}).*/)[0], \"'\", \":\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "newColumnName": "HoraFinTurno",
+    "columnInsertIndex": 6,
+    "baseColumnName": "Duraci�n",
+    "expression": "grel:replace(value.match(/.*A (\\d{1,}+'\\d{2}).*/)[0], \"'\", \":\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column HoraFinTurno to position 7",
+    "columnName": "HoraFinTurno",
+    "index": 7
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://linkeddata.es/grupo10/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "font",
+          "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "find",
+          "uri": "http://linkeddata.es/grupo10/resource/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "Farmacia",
+          "rdfTypes": [
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#FarmaciaDeGuardia",
+              "curie": "font:FarmaciaDeGuardia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#perteneceABarrio",
+              "curie": "font:perteneceABarrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneDireccion",
+              "curie": "font:tieneDireccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneID",
+              "curie": "font:tieneID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneTelefono",
+              "curie": "font:tieneTelefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TelefonoCompleto"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneTurnoDeGuardia",
+              "curie": "font:tieneTurnoDeGuardia",
+              "target": {
+                "nodeType": "cell-as-blank",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#TurnoDeGuardia",
+                    "curie": "font:TurnoDeGuardia"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://linkeddata.es/grupo10/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "font",
+          "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "find",
+          "uri": "http://linkeddata.es/grupo10/resource/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "Farmacia",
+          "rdfTypes": [
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#FarmaciaDeGuardia",
+              "curie": "font:FarmaciaDeGuardia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#perteneceABarrio",
+              "curie": "font:perteneceABarrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneDireccion",
+              "curie": "font:tieneDireccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneID",
+              "curie": "font:tieneID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneTelefono",
+              "curie": "font:tieneTelefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TelefonoCompleto"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneTurnoDeGuardia",
+              "curie": "font:tieneTurnoDeGuardia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"farmacia/\" + value + \"/turno/\" + cells[\"Fecha\"].value.toDate(\"dd/MM/yyyy\").toString(\"yyyy-MM-dd\")",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#TurnoDeGuardia",
+                    "curie": "font:TurnoDeGuardia"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneFechaInicio",
+                    "curie": "font:tieneFechaInicio",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "toString(toDate(value+\" \"+cells[\"HoraInicioTurno\"].value,\"dd/MM/yyyy HH:mm\"), \"yyyy-MM-dd'T'HH:mm:ss\")",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                      "columnName": "Fecha"
+                    }
+                  },
+                  {
+                    "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneFechaFin",
+                    "curie": "font:tieneFechaFin",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "toString(if(diff(cells[\"HoraFinTurno\"].value.toDate(\"HH:mm\"),cells[\"HoraInicioTurno\"].value.toDate(\"HH:mm\"),\"seconds\") > 0, inc(toDate(value + \" \" + cells[\"HoraFinTurno\"].value, \"dd/MM/yyyy HH:mm\"), -1, \"seconds\"), inc(inc(toDate(value + \" \" + cells[\"HoraFinTurno\"].value, \"dd/MM/yyyy HH:mm\"), -1, \"seconds\"), 1, \"day\")), \"yyyy-MM-dd'T'HH:mm:ss\")",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                      "columnName": "Fecha"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

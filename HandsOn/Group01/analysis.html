@@ -16,38 +16,38 @@
                 <th>Comentarios</th>
             </tr>
             <tr>
-                <td>Id</td>
+                <td>parkingId</td>
                 <td>int</td>
                 <td>0-n</td>
-                <td></td>
+                <td>campo autogenerado en exel para generar recursos Parking, con su identificador único</td>
             </tr>
 	    <tr>
-                <td>Propietario</td>
+                <td>parkingOwner</td>
                 <td>String</td>
                 <td></td>
                 <td></td>
             </tr>
 	    <tr>
-                <td>Calle</td>
+                <td>parkingAddress</td>
                 <td>String</td>
                 <td></td>
-                <td></td>
+                <td>Nos sirve para lincar los datos. Para seguir el mismo patrón que en el nombre de la calle en el datasheet de "Parking_meters" hemos utilizado la expresion [toLowercase(replace(value," ","_").substring(length(split(value," ")[0]+1),length(value)))] en lodrefine. También hemos sustituidos expresiones "street" por "ST" y "avenue" por "AVE" para seguir la nomenclatura.</td>
             </tr>
 	    <tr>
-                <td>Capacidad</td>
+                <td>parkingCapacity</td>
                 <td>int</td>
                 <td>10-9000</td>
-                <td>Hemos eliminado datos atípicos. Capacidad = 0</td>
+                <td>Hemos eliminado datos atípicos tras analizarlos con lodrefine. Capacidad = 0</td>
             </tr>
 	    <tr>
-                <td>Coordenadas</td>
+                <td>parkingCoordinates</td>
                 <td>String</td>
                 <td></td>
                 <td></td>
             </tr>
         </table> 
 
-	<h4>Parking meters</h4>
+	<h4>Parking_meters</h4>
 	<table border="10" style="width:100%">
             <tr>
                 <th>Columna</th>
@@ -56,167 +56,27 @@
                 <th>Comentarios</th>
             </tr>
             <tr>
-                <td>Id</td>
+                <td>parkimeterId</td>
                 <td>String</td>
                 <td></td>
-                <td></td>
+                <td>Identificador único. Uno por recurso</td>
             </tr>
             <tr>
-                <td>Color</td>
+                <td>parkimeterColor</td>
                 <td>String</td>
                 <td>{Black,Brown,Green,Grey,Purple,Red,Yellow}</td>
                 <td></td>
             </tr>
             <tr>
-                <td>nºCalle</td>
-                <td>int</td>
+                <td>parkimeterAddress</td>
+                <td>String</td>
                 <td></td>
-                <td></td>
+                <td>Nos sirve para lincar los datos. Para seguir el mismo patrón que en el nombre de la calle en el datasheet de "Off-Street parking lots and parking garages" hemos utilizado la expresion [toLowercase(replace(value," ","_"))] en lodrefine.</td>
             </tr>
             <tr>
-                <td>Nombre Calle</td>
+                <td>parkimeterCoordinates</td>
                 <td>String</td>
                 <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Localizacion</td>
-                <td>String</td>
-                <td></td>
-                <td></td>
-            </tr>
-        </table> 
-
-	<h4>Recreation & Park Department Park</h4>
-	<table border="10" style="width:100%">
-            <tr>
-                <th>Columna</th>
-                <th>Tipo</th>
-                <th>Rango</th>
-                <th>Comentarios</th>
-            </tr>
-
-            <tr>
-                <td>Nombre</td>
-                <td>String</td>
-                <td></td>
-                <td></td>
-	    </tr>
-
-	    <tr>
-                <td>Tipo</td>
-                <td>String</td>
-                <td>{Civic Plaza or Square,Community Garden,Concession,Family Camp,Mini Park,Neighborhood Park or Playground,Parkway,Regional Park,Zoological Garden}</td>
-                <td></td>
-	    </tr>
-
-	    <tr>
-                <td>Manager</td>
-                <td>String</td>
-                <td></td>
-                <td></td>
-	    </tr>
-
-	    <tr>
-                <td>email</td>
-                <td>String</td>
-                <td></td>
-                <td></td>
-	    </tr>
-
-	    <tr>
-                <td>Teléfono</td>
-                <td>String</td>
-                <td></td>
-                <td></td>
-	    </tr>
-
-	    <tr>
-                <td>Id</td>
-                <td>int</td>
-                <td></td>
-                <td></td>
-	    </tr>
-	    <tr>
-                <td>Localizacion</td>
-                <td>String</td>
-                <td></td>
-                <td>La dirección hasta el retorno de carro. Después del retorno de carro las coordenadas geográficas</td>
-            </tr>
-        </table> 
-
-	<h4>Film Locations in SF</h4>
-	<table border="10" style="width:100%">
-            <tr>
-                <th>Columna</th>
-                <th>Tipo</th>
-                <th>Rango</th>
-                <th>Comentarios</th>
-            </tr>
-            <tr>
-                <td>Título</td>
-                <td>String</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Año</td>
-                <td>int</td>
-                <td>[1915,2015]</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Localización</td>
-                <td>String</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Compañía de producción</td>
-                <td>String</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Distribuidora</td>
-                <td>String</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Director</td>
-                <td>String</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Escritor</td>
-                <td>String</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Actor 1</td>
-                <td>String</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Actor 2</td>
-                <td>String</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Actor 3</td>
-                <td>String</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>id</td>
-                <td>int</td>
-                <td>1-n</td>
                 <td></td>
             </tr>
         </table> 
@@ -235,29 +95,82 @@
         
         
         <h1>Define Resource Naming Strategy</h1>
+	
+	El nivel superior en nuestra estretegia de nombrado de recursos es: www.linkedDataG1.es
 
 	<table border="10" style="width:100%">
             <tr>
-                <th>Nombre</th>
+                <th>Entities</th>
                 <th>Uri</th>
             </tr>
             <tr>
-                <td>Off-Street parking lots and parking garages</td>
-                <td>www.linkedData/2015-2016/group01/stree_parking_garages</td>
+                <td>Parking</td>
+                <td>www.linkedDataG1.es/resource/Parking/"parkingId"</td>
             </tr>
             <tr>
-                <td>Parking meters</td>
-                <td>www.linkedData/2015-2016/group01/parking_meters</td>
+                <td>Parkimeters</td>
+                <td>www.linkedDataG1.es/resource/Parkimeters/"parkimeterId"</td>
             </tr>
             <tr>
-                <td>Recreation & Park Department Park</td>
-                <td>www.linkedData/2015-2016/group01/recreation_park</td>
+                <td>Street</td>
+                <td>www.linkedDataG1.es/resource/Street/"nombre de la calle" (en minuscula y separado por _ en las uris no puede haber espacios)</td>
+            </tr>
+        </table> 
+
+	<table border="10" style="width:100%">
+            <tr>
+                <th>Object Properties</th>
+                <th>Uri</th>
             </tr>
             <tr>
-                <td>Film Locations in SF</td>
-                <td>www.linkedData/2015-2016/group01/film</td>
+                <td>estaLocalizado</td>
+                <td>www.linkedDataG1.es#estaLocalizado</td>
             </tr>
-        </table> 	
+        </table> 
+
+	<table border="10" style="width:100%">
+            <tr>
+                <th>Data Properties</th>
+                <th>Uri</th>
+            </tr>
+            <tr>
+                <td>parkimeterAddress</td>
+                <td>www.linkedDataG1.es#parkimeterAddress</td>
+            </tr>
+            <tr>
+                <td>parkimeterColor</td>
+                <td>www.linkedDataG1.es#parkimeterColor</td>
+            </tr>
+            <tr>
+                <td>parkimeterCoordinates</td>
+                <td>www.linkedDataG1.es#parkimeterCoordinates</td>
+            </tr>
+            <tr>
+                <td>parkimeterId</td>
+                <td>www.linkedDataG1.es#parkimeterId</td>
+            </tr>
+            <tr>
+                <td>parkingAddress</td>
+                <td>www.linkedDataG1.es#parkingAddress</td>
+            </tr>
+            <tr>
+                <td>parkingCapacity</td>
+                <td>www.linkedDataG1.es#parkingCapacity</td>
+            </tr>
+            <tr>
+                <td>parkingCoordinates</td>
+                <td>www.linkedDataG1.es#parkingCoordinates</td>
+            </tr>
+            <tr>
+                <td>parkingId</td>
+                <td>www.linkedDataG1.es#parkingId</td>
+            </tr>
+            <tr>
+                <td>parkingOwner</td>
+                <td>www.linkedDataG1.es#parkingOwner</td>
+            </tr>
+        </table> 
+	
 	
     </body>
 </html>

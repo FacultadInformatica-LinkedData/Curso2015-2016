@@ -1,0 +1,67 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix world: <http://assignment5.linkeddata.es/world#> .
+@prefix resource: <http://assignment5.linkeddata.es/resource/> .
+@base <http://assignment5.linkeddata.es/> .
+<TriplesMapCity>
+	a rr:TriplesMap;
+	rr:logicalTable [ rr:tableName "City"];
+	rr:subjectMap [ rr:termType rr:IRI;
+	rr:template "http://assignment5.linkeddata.es/resource/City/{ID}";
+	rr:class world:City
+	];
+	rr:predicateObjectMap [
+	rr:predicateMap [ rr:constant world:hasName ];
+	rr:objectMap [ rr:termType rr:Literal; rr:column "Name"; ];
+	];
+	rr:predicateObjectMap [
+	rr:predicateMap [ rr:constant world:hasCountryCode ];
+	rr:objectMap [ rr:termType rr:Literal; rr:column "CountryCode"; ];
+	];
+	rr:predicateObjectMap [
+	rr:predicateMap [ rr:constant world:isInDistrict ];
+	rr:objectMap [ rr:termType rr:Literal; rr:column "District"; ];
+	];
+	rr:predicateObjectMap [
+	rr:predicateMap [ rr:constant world:hasPopulation ];
+	rr:objectMap [ rr:termType rr:Literal; rr:column "Population"; ];
+	].
+
+	<TriplesMapCountry>
+	a rr:TriplesMap;
+	rr:logicalTable [ rr:tableName "Country"];
+	rr:subjectMap [ rr:termType rr:IRI;
+	rr:template "http://assignment5.linkeddata.es/resource/Country/{Code}";
+	rr:class world:Country
+	];
+	rr:predicateObjectMap [
+	rr:predicateMap [ rr:constant world:hasName ];
+	rr:objectMap [ rr:termType rr:Literal; rr:column "Name"; ];
+	];
+	rr:predicateObjectMap [
+	rr:predicateMap [ rr:constant world:isInContinent ];
+	rr:objectMap [ rr:termType rr:Literal; rr:column "Continent"; ];
+	];
+	rr:predicateObjectMap [
+	rr:predicateMap [ rr:constant world:isInRegion ];
+	rr:objectMap [ rr:termType rr:Literal; rr:column "Region"; ];
+	].
+
+	<TriplesMapCountryLanguage>
+	 a rr:TriplesMap;
+	rr:logicalTable [ rr:tableName "CountryLanguage" ];
+	rr:subjectMap [ rr:termType rr:IRI;
+	rr:template "http://assignment5.linkeddata.es/resource/CountryLanguage/{CountryCode}";
+	rr:class world:CountryLanguage
+	];
+	rr:predicateObjectMap [
+	rr:predicateMap [ rr:constant world:hasLanguage ];
+	rr:objectMap [ rr:termType rr:Literal; rr:column "Language"; ];
+	];
+	rr:predicateObjectMap [
+	rr:predicateMap [ rr:constant world:isOfficial ];
+	rr:objectMap [ rr:termType rr:Literal; rr:column "IsOfficial"; ];
+	] ;
+	rr:predicateObjectMap [	
+	rr:predicateMap [ rr:constant world:hasPercentage ];
+	rr:objectMap [ rr:termType rr:Literal; rr:column "Percentage"; ];
+	].

@@ -30,11 +30,11 @@
     
 
 
-    <!-- http:/www.linkedDataG1.es#estaLocalizado -->
+    <!-- http:/www.linkedDataG1.es/estaLocalizado#estaLocalizado -->
 
-    <owl:ObjectProperty rdf:about="http:/www.linkedDataG1.es#estaLocalizado">
-        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Place"/>
-        <rdfs:range rdf:resource="http:/www.linkedDataG1.es#Street"/>
+    <owl:ObjectProperty rdf:about="http:/www.linkedDataG1.es/estaLocalizado#estaLocalizado">
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es/Place#Place"/>
+        <rdfs:range rdf:resource="http:/www.linkedDataG1.es/Street#Street"/>
     </owl:ObjectProperty>
     
 
@@ -50,83 +50,83 @@
     
 
 
-    <!-- http:/www.linkedDataG1.es#parkimeterAddress -->
+    <!-- http:/www.linkedDataG1.es/parkimeterAddress#parkimeterAddress -->
 
-    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es#parkimeterAddress">
+    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es/parkimeterAddress#parkimeterAddress">
         <rdfs:range rdf:resource="&xsd;string"/>
-        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Parkimeters"/>
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es/Parkimeters#Parkimeters"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http:/www.linkedDataG1.es#parkimeterColor -->
+    <!-- http:/www.linkedDataG1.es/parkimeterColor#parkimeterColor -->
 
-    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es#parkimeterColor">
+    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es/parkimeterColor#parkimeterColor">
         <rdfs:range rdf:resource="&xsd;string"/>
-        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Parkimeters"/>
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es/Parkimeters#Parkimeters"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http:/www.linkedDataG1.es#parkimeterCoordinates -->
+    <!-- http:/www.linkedDataG1.es/parkimeterCoordinates#parkimeterCoordinates -->
 
-    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es#parkimeterCoordinates">
+    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es/parkimeterCoordinates#parkimeterCoordinates">
         <rdfs:range rdf:resource="&xsd;string"/>
-        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Parkimeters"/>
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es/Parkimeters#Parkimeters"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http:/www.linkedDataG1.es#parkimeterId -->
+    <!-- http:/www.linkedDataG1.es/parkimeterId#parkimeterId -->
 
-    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es#parkimeterId">
+    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es/parkimeterId#parkimeterId">
         <rdfs:range rdf:resource="&xsd;string"/>
-        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Parkimeters"/>
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es/Parkimeters#Parkimeters"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http:/www.linkedDataG1.es#parkingAddress -->
+    <!-- http:/www.linkedDataG1.es/parkingAddress#parkingAddress -->
 
-    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es#parkingAddress">
+    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es/parkingAddress#parkingAddress">
         <rdfs:range rdf:resource="&xsd;string"/>
-        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Parking"/>
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es/Parking#Parking"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http:/www.linkedDataG1.es#parkingCapacity -->
+    <!-- http:/www.linkedDataG1.es/parkingCapacity#parkingCapacity -->
 
-    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es#parkingCapacity">
+    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es/parkingCapacity#parkingCapacity">
         <rdfs:range rdf:resource="&xsd;int"/>
-        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Parking"/>
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es/Parking#Parking"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http:/www.linkedDataG1.es#parkingCoordinates -->
+    <!-- http:/www.linkedDataG1.es/parkingCoordinates#parkingCoordinates -->
 
-    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es#parkingCoordinates">
+    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es/parkingCoordinates#parkingCoordinates">
         <rdfs:range rdf:resource="&xsd;string"/>
-        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Parking"/>
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es/Parking#Parking"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http:/www.linkedDataG1.es#parkingId -->
+    <!-- http:/www.linkedDataG1.es/parkingId#parkingId -->
 
-    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es#parkingId">
+    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es/parkingId#parkingId">
         <rdfs:range rdf:resource="&xsd;int"/>
-        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Parking"/>
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es/Parking#Parking"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http:/www.linkedDataG1.es#parkingOwner -->
+    <!-- http:/www.linkedDataG1.es/parkingOwner#parkingOwner -->
 
-    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es#parkingOwner">
+    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es/parkingOwner#parkingOwner">
         <rdfs:range rdf:resource="&xsd;string"/>
-        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Parking"/>
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es/Parking#Parking"/>
     </owl:DatatypeProperty>
     
 
@@ -142,31 +142,31 @@
     
 
 
-    <!-- http:/www.linkedDataG1.es#Parkimeters -->
+    <!-- http:/www.linkedDataG1.es/Parkimeters#Parkimeters -->
 
-    <owl:Class rdf:about="http:/www.linkedDataG1.es#Parkimeters">
-        <rdfs:subClassOf rdf:resource="http:/www.linkedDataG1.es#Place"/>
+    <owl:Class rdf:about="http:/www.linkedDataG1.es/Parkimeters#Parkimeters">
+        <rdfs:subClassOf rdf:resource="http:/www.linkedDataG1.es/Place#Place"/>
     </owl:Class>
     
 
 
-    <!-- http:/www.linkedDataG1.es#Parking -->
+    <!-- http:/www.linkedDataG1.es/Parking#Parking -->
 
-    <owl:Class rdf:about="http:/www.linkedDataG1.es#Parking">
-        <rdfs:subClassOf rdf:resource="http:/www.linkedDataG1.es#Place"/>
+    <owl:Class rdf:about="http:/www.linkedDataG1.es/Parking#Parking">
+        <rdfs:subClassOf rdf:resource="http:/www.linkedDataG1.es/Place#Place"/>
     </owl:Class>
     
 
 
-    <!-- http:/www.linkedDataG1.es#Place -->
+    <!-- http:/www.linkedDataG1.es/Place#Place -->
 
-    <owl:Class rdf:about="http:/www.linkedDataG1.es#Place"/>
+    <owl:Class rdf:about="http:/www.linkedDataG1.es/Place#Place"/>
     
 
 
-    <!-- http:/www.linkedDataG1.es#Street -->
+    <!-- http:/www.linkedDataG1.es/Street#Street -->
 
-    <owl:Class rdf:about="http:/www.linkedDataG1.es#Street"/>
+    <owl:Class rdf:about="http:/www.linkedDataG1.es/Street#Street"/>
 </rdf:RDF>
 
 

@@ -1,0 +1,159 @@
+http://sandbox.linkeddata.es/sparql
+1
+select distinct ?concept
+where
+{[] a ?concept}
+LIMIT 100
+
+2
+select distinct ?subclasses
+where
+{?subclasses rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Establishment>}
+
+3
+select distinct ?city
+where
+{?city <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://GP-onto.fi.upm.es/exercise2#City>}
+
+4
+select distinct ?number
+where
+{<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?number }
+
+
+5
+select distinct ?place ?inhabitants_number
+where
+{<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?place . <http://GP-onto.fi.upm.es/exercise2#Arzua> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?inhabitants_number}
+
+6
+select distinct ?places
+where
+{ ?x <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?a.
+?x <http://www.w3.org/2000/01/rdf-schema#label> ?places}
+order by asc(?z)
+
+7
+select distinct ?name ?inhabitants_number
+where
+{ ?z <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://GP-onto.fi.upm.es/exercise2#Locality>.
+?x ?y ?z.
+OPTIONAL {?x <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?inhabitants_number}
+?x <http://www.w3.org/2000/01/rdf-schema#label> ?name
+}
+
+8
+select distinct ?name ?inhabitants_number
+where
+{ ?name <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?inhabitants_number.
+#FILTER(?inhabitants_number > 200000)
+}
+
+9
+select distinct ?street ?number ?locality ?province
+where
+{ <http://GP-onto.fi.upm.es/exercise2#Pazo_Breogan> <http://GP-onto.fi.upm.es/exercise2#hasAddress> ?y.
+?y <http://GP-onto.fi.upm.es/exercise2#hasStreet> ?street.
+?y <http://GP-onto.fi.upm.es/exercise2#hasNumber> ?number.
+<http://GP-onto.fi.upm.es/exercise2#Pazo_Breogan> <http://GP-onto.fi.upm.es/exercise2#isPlacedIn> ?z.
+?z <http://www.w3.org/2000/01/rdf-schema#label> ?locality.
+?z <http://GP-onto.fi.upm.es/exercise2#inProvince> ?province
+}
+
+10
+select distinct ?subclases
+where
+{?subclases <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://GP-onto.fi.upm.es/exercise2#Location>
+}
+
+11
+select distinct ?instances
+where
+{ ?j <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://GP-onto.fi.upm.es/exercise2#Locality>.
+?t <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?j.
+?t <http://www.w3.org/2000/01/rdf-schema#label> ?instances
+}
+
+12
+DESCRIBE ?city
+where
+{ 
+?city rdfs:label "Madrid"
+}
+
+13
+CONSTRUCT {?place <http://GP-onto.fi.upm.es/exercise2#isIn> ?province}
+where
+{
+?a ?b <http://GP-onto.fi.upm.es/exercise2#TouristicLocation>.
+?place <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?a.
+?j <http://GP-onto.fi.upm.es/exercise2#isPlacedIn> ?k.
+?k <http://GP-onto.fi.upm.es/exercise2#inProvince> ?province
+}
+
+14
+ASK{?town <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://GP-onto.fi.upm.es/exercise2#Town>}
+
+
+--------------ADVANCED-----------------
+1.
+select distinct ?propiedades
+where
+{
+?a ?q <http://dbpedia.org/ontology/Politician>.
+?a ?propiedades ?b
+}
+
+2.
+select distinct ?propiedades
+where
+{
+?a ?q <http://dbpedia.org/ontology/Politician>.
+?a ?propiedades ?b
+FILTER(?propiedades != rdf:type)
+} 
+
+3. 
+select count (distinct ?valorinstancia) as ?numerovalores
+where
+{
+?instancias ?q <http://dbpedia.org/ontology/Politician> .
+?instancias ?propiedades ?valorinstancia
+FILTER (?propiedades != rdf:type)
+}
+
+4.
+select ?propiedades count (distinct ?valorinstancia) as ?numerovalores
+where
+{
+?instancias ?q <http://dbpedia.org/ontology/Politician> .
+?instancias ?propiedades ?valorinstancia
+FILTER (?propiedades != rdf:type)
+}
+
+5.
+select avg(?numerovalores) as ?mediavalores
+where
+{
+select ?propiedades count (distinct ?valorinstancia) as ?numerovalores
+where
+{
+?instancias ?q <http://dbpedia.org/ontology/Politician> .
+?instancias ?propiedades ?valorinstancia
+FILTER (?propiedades != rdf:type)
+}
+}
+
+6.
+select ?propiedades max(?numerovalores) as ?total
+where
+{
+select ?propiedades count (distinct ?valorinstancia) as ?numerovalores
+where
+{
+?instancias ?q <http://dbpedia.org/ontology/Politician> .
+?instancias ?propiedades ?valorinstancia
+FILTER (?propiedades != rdf:type)
+}
+}
+ORDER BY DESC(?total)

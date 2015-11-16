@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Analysis</title>
+<style type="text/css">
+table {
+border-width: 1px;
+border-spacing: 0px;
+border-style: outset;
+border-color: black;
+border-collapse: collapse;
+background-color: white;
+}
+table th {
+border-width: 1px;
+padding: 5px;
+border-style: inset;
+border-color: gray;
+background-color: white;
+-moz-border-radius: ;
+}
+table td {
+border-width: 1px;
+padding: 5px;
+border-style: inset;
+border-color: gray;
+background-color: white;
+-moz-border-radius: ;
+}
+</style>
+</head>
+<body>
+<h1>Analisis de Datos</h1>
+<h2>Espacios Deportivos</h2>
+<table>
+<tr>
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Description/Comments</th>
+
+</tr>
+<tr><td>PK</td><td>Entero</td><td>Unico de Madrid</td></tr>
+<tr><td>NOMBRE</td><td>Texto</td><td>Nombre del Espacio Deportivo</td></tr>
+<tr><td>DESCRIPCION-ENTIDAD</td><td>Texto</td><td>Descripcion del Espacio Deportivo, No unico, Valores vacio</td></tr>
+<tr><td>HORARIO</td><td>Texto</td><td>Horario del Espacio Deportivo, No unico, Valores vacios</td></tr>
+<tr><td>EQUIPAMIENTO</td><td>Texto</td><td>Equipamiento disponible en el Espacio Deportivo, No unico, Valores vacios</td></tr>
+<tr><td>TRANSPORTE</td><td>Texto</td><td>Trasnporte publico cercano al Espacio Deportivo, No unico, Valores vacios</td></tr>
+<tr><td>DESCRIPCION</td><td>Texto</td><td>No unico, Valores vacios</td></tr>
+<tr><td>ACCESIBILIDAD</td><td>Booleano</td><td>No unico, Valores 0 o 1</td></tr>
+<tr><td>CONTENT-URL</td><td>URL</td><td>Unico, Valores vacios, define al recurso</td></tr>
+<tr><td>NOMBRE-VIA</td><td>Texto</td><td>No unico, Valores vacios</td></tr>
+<tr><td>CLASE-VIAL</td><td>Texto</td><td>No unico</td></tr>
+<tr><td>TIPO-NUM</td><td>Texto</td><td>No unico, Valores vacios</td></tr>
+<tr><td>NUM</td><td>Texto</td><td>No unico, Valores vacios</td></tr>
+<tr><td>PLANTA</td><td>Texto</td><td>No unico, Valores vacios</td></tr>
+<tr><td>PUERTA</td><td>Texto</td><td>No unico, Valores vacios</td></tr>
+<tr><td>ESCALERAS</td><td>Texto</td><td>No unico, Valores vacios</td></tr>
+<tr><td>ORIENTACION</td><td>Texto</td><td>No unico, Valores vacios</td></tr>
+<tr><td>LOCALIDAD</td><td>Texto</td><td>No unico</td></tr>
+<tr><td>PROVINCIA</td><td>Texto</td><td>No unico</td></tr>
+<tr><td>CODIGO-POSTAL</td><td>Entero</td><td>No unico, Valores vacios</td></tr>
+<tr><td>BARRIO</td><td>Texto</td><td>No unico, Valores vacios</td></tr>
+<tr><td>DISTRITO</td><td>Texto</td><td>No unico, Valores vacios</td></tr>
+<tr><td>COORDENADA-X</td><td>Entero</td><td>No unico/0 to 449770</td></tr>
+<tr><td>COORDENADA-Y</td><td>Entero</td><td>No unico/0 to 4482355</td></tr>
+<tr><td>LATITUD</td><td>Real</td><td>No unico, Valores vacios/-90.0 to 90.0</td></tr>
+<tr><td>LONGITUD</td><td>Real</td><td>No unico, Valores vacios/-90.0 to 90.0</td></tr>
+<tr><td>TELEFONO</td><td>Texto</td><td>Unico</td></tr>
+<tr><td>FAX</td><td>Texto</td><td>No unico, Valores vacios</td></tr>
+<tr><td>EMAIL</td><td>Texto</td><td>Unico, Valores vacios</td></tr>
+<tr><td>TIPO</td><td>Texto</td><td>No unico, Valores vacios, Uri interna Madrid</td></tr>
+</table>
+<h2>Agenda actividades deportivas</h2>
+<table>
+<tr>
+<th>Nombre</th>
+<th>Tipo</th>
+<th>Description/Comments</th>
+
+</tr>
+<tr><td>ID-EVENTO</td><td>Entero</td><td>Unico</td></tr>
+<tr><td>TITULO</td><td>Texto</td><td>No unico</td></tr>
+<tr><td>PRECIO</td><td>Texto</td><td>No unico, por defecto valores vacios</td></tr>
+<tr><td>GRATUITO</td><td>Booleano</td><td>No unico, 0 o 1</td></tr>
+<tr><td>LARGA-DURACION</td><td>Booleano</td><td>No unico, 0 o 1</td></tr>
+<tr><td>DIAS-SEMANA</td><td>Texto</td><td>No unico, por defecto valores vacios. Valores: L,M,X,J,V,S,D</td></tr>
+<tr><td>DIAS-EXCLUIDOS</td><td>Texto</td><td>No unico, por defecto valores vacios</td></tr>
+<tr><td>FECHA</td><td>Timestamp</td><td>No unico</td></tr>
+<tr><td>FECHA-FIN</td><td>Timestamp</td><td>No unico</td></tr>
+<tr><td>HORA</td><td>Time</td><td>No unico</td></tr>
+<tr><td>DESCRIPCION</td><td>Texto</td><td>No unico, por defecto valores vacios.</td></tr>
+<tr><td>CONTENT-URL</td><td>URL</td><td>Unico</td></tr>
+<tr><td>TITULO-ACTIVIDAD</td><td>Texto</td><td>No unico</td></tr>
+<tr><td>URL-ACTIVIDAD</td><td>URL</td><td>No unico</td></tr>
+<tr><td>URL-INSTALACION</td><td>URL</td><td>No unico</td></tr>
+<tr><td>NOMBRE-INSTALACION</td><td>Text</td><td>No unico</td></tr>
+<tr><td>COORDENADA-X</td><td>Entero</td><td>No unico/438909 to 450285. Puede ser vacio.</td></tr>
+<tr><td>COORDENADA-Y</td><td>Entero</td><td>No unico/4471721 to 4479728. Puede ser vacio.</td></tr>
+<tr><td>LATITUD</td><td>Real</td><td>No unico/-90.0 a 90.0; Puede ser vacio.</td></tr>
+<tr><td>LONGITUD</td><td>Real</td><td>No unico/-90.0 a 90.0; Puede ser vacio.</td></tr>
+<tr><td>DISTRITO</td><td>Texto</td><td>No unico</td></tr>
+<tr><td>TIPO</td><td>URI</td><td>No unico, URI interna de Madrid</td></tr>
+</table>
+
+<h2>Espacios Deportivos y Agenda actividades deportivas</h2>
+Las presentes condiciones generales permiten la reutilización de los documentos y datos sometidos a ellas para fines comerciales y no comerciales. Se entiende por reutilización el uso de documentos que obran en poder del Ayuntamiento de Madrid y de los demás organismos y entidades adscritos a él, por personas físicas o jurídicas, con fines comerciales o no comerciales, siempre que dicho uso no constituya una actividad administrativa pública. Por ejemplo, la reutilización autorizada incluye actividades como la copia, difusión, modificación, adaptación, extracción, reordenación y combinación de la información.</br></br>   
+Para más información pinchar aquí: <a href="http://datos.madrid.es/portal/site/egob/menuitem.619dfa2990e56405bb8d69f6ecd08a0c/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD"> Licencia</a>
+</body>
+</html>

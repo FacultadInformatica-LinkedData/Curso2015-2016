@@ -90,9 +90,25 @@
     <!-- http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#código -->
 
     <owl:DatatypeProperty rdf:about="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#código">
-        <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Actividad"/>
-        <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Centro"/>
         <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Dirección"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#código_actividad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#código_actividad">
+        <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Actividad"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#código_centro -->
+
+    <owl:DatatypeProperty rdf:about="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#código_centro">
+        <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Centro"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -101,8 +117,16 @@
     <!-- http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#descripción -->
 
     <owl:DatatypeProperty rdf:about="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#descripción">
-        <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Actividad"/>
         <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Centro"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#descripción_actividad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#descripción_actividad">
+        <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Actividad"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -113,7 +137,6 @@
     <owl:DatatypeProperty rdf:about="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#distrito">
         <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Dirección"/>
         <rdfs:range rdf:resource="&xsd;string"/>
-        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
     </owl:DatatypeProperty>
     
 
@@ -148,8 +171,16 @@
     <!-- http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#horario -->
 
     <owl:DatatypeProperty rdf:about="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#horario">
-        <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Actividad"/>
         <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Centro"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#horario_actividad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#horario_actividad">
+        <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Actividad"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -184,12 +215,19 @@
     
 
 
-    <!-- http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#nombre -->
+    <!-- http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#nombre_actividad -->
 
-    <owl:DatatypeProperty rdf:about="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#nombre">
+    <owl:DatatypeProperty rdf:about="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#nombre_actividad">
         <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Actividad"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#nombre_centro -->
+
+    <owl:DatatypeProperty rdf:about="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#nombre_centro">
         <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Centro"/>
-        <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Dirección"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -216,9 +254,25 @@
     <!-- http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#tipo -->
 
     <owl:DatatypeProperty rdf:about="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#tipo">
-        <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Actividad"/>
-        <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Centro"/>
         <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Dirección"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#tipo_actividad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#tipo_actividad">
+        <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Actividad"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#tipo_centro -->
+
+    <owl:DatatypeProperty rdf:about="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#tipo_centro">
+        <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Centro"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
@@ -236,10 +290,27 @@
     <!-- http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#url -->
 
     <owl:DatatypeProperty rdf:about="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#url">
-        <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Actividad"/>
         <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Centro"/>
         <rdfs:range rdf:resource="&xsd;string"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#url_actividad -->
+
+    <owl:DatatypeProperty rdf:about="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#url_actividad">
+        <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Actividad"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#vía_nombre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#vía_nombre">
+        <rdfs:domain rdf:resource="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Dirección"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
     </owl:DatatypeProperty>
     
 

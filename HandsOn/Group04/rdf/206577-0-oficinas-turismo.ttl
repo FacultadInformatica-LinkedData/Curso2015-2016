@@ -1,0 +1,1715 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix base: <http://puntosinteres.madrid.es/group04/ontology/puntosinteres#> .
+
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/CasadeGalicia> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Casa de Galicia" ;
+	base:tieneHorario "   Atención al ciudadano:  de lunes a viernes de 9 a 14 horas    Oficina de Turismo:    De lunes a jueves de 9 a 14 y de 16 a 19 horas.  Viernes, de 8 a 15 horas.  Agosto: de lunes a viernes de 9 a 14 horas.     Exposiciones:    De lunes a sábado de 10 a 14 y de 16 a 20 horas.  Domingos y festivos de 10 a 14 horas.    " ;
+	base:tieneTelefono "915 954 200 (centralita) / 915 954 214 (turismo)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/CasadeGalicia> a base:TransportePublico ;
+	base:tieneTransportePublico "bus: 10 , 14 , 19 , 27 , 34 , 37 , 45" .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/CasadeGalicia> a base:Posicion ;
+	base:tieneLatitud "40.413.841.115.871.000" ;
+	base:tieneLongitud "-36.906.090.973.201.900" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/CasadeGalicia> a base:Direccion ;
+	base:tieneNumero "8" ;
+	base:tieneDistrito "RETIRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "CASADO DEL ALISAL" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/CasadeGalicia> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/CasadeGalicia> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/CasadeGalicia> a base:Bus ;
+	base:tieneBus "10 , 14 , 19 , 27 , 34 , 37 , 45" .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/CentrodeTurismoColon> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Centro de Turismo Colón" ;
+	base:tieneDescripcion " Se trata del punto de Información turística más grande de Madrid. Situado en una ubicación idónea: junto al Paseo de Recoletos, el famoso Paseo del Arte, el Teatro Fernán Gómez, el Museo Arqueológico y la Biblioteca Nacional consiste en un espacio accesible con zonas de atención al público y salas de reunión en donde se celebran exposiciones temporales y proyecciones turísticas y culturales.  Obra del arquitecto portugués Álvaro Siza, cuenta con 1.017 m2 de superficie dotados con modernas tecnologías para atender las demandas de información turística de los visitantes de Madrid.   Denominación oficial : Centro de Turismo Colón " ;
+	base:tieneHorario " De lunes a domingo de 9:30 a 20:30 horas " ;
+	base:tieneEquipamiento " Centro de turismo.   Atención presencial  Atención especializada  Autoconsulta  Área tecnológica: acceso gratuito a Internet, WIFI  Accesibilidad: mapas en 3D, mostradores adaptados  Certificado  ICTE  de Q de calidad turística Norma  UNE  187003:2008  " ;
+	base:tieneTelefono """914 544 410 (información turística y Programa de Visitas Guiadas Oficiales)                               
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/CentrodeTurismoColon> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: colón (línea 4), serrano (línea 4)  bus: 5 , 14 , 21, 27 , 37, 45 , 53 , 150   renfe: recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/CentrodeTurismoColon> a base:Posicion ;
+	base:tieneLatitud "4.042.500.882.822.320" ;
+	base:tieneLongitud "-36.911.948.422.827.600" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/CentrodeTurismoColon> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28046" ;
+	base:tieneCalle "COLON" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/CentrodeTurismoColon> a base:Metro ;
+	base:tieneMetro "colón (línea 4), serrano (línea 4)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/CentrodeTurismoColon> a base:Renfe ;
+	base:tieneRenfe "recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/CentrodeTurismoColon> a base:Bus ;
+	base:tieneBus "5 , 14 , 21, 27 , 37, 45 , 53 , 150   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/CentrodeTurismoPlazaMayor> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Centro de Turismo Plaza Mayor" ;
+	base:tieneHorario " De lunes a domingo de 9:30 a 21:30 horas.  Venta de entradas para el Programa de Visitas Guiadas Oficiales en el Centro de turismo de lunes a domingo de 9:30 a 20:30 horas. " ;
+	base:tieneEquipamiento "  Atención presencial: especial idiomas asiáticos y ruso  Atención especializada  Autoconsulta  Programa Visitas Guiadas Oficiales  Área tecnológica: audiovisuales, acceso gratuito a Internet, WIFI  Accesibilidad: lengua de signos española, bucle magnético, encaminamientos podotáctiles, rótulos y folletos en braille, asientos ergonómicos, apoyos isquiáticos, mostradores adaptados, guía de turismo accesible  Tienda de Madrid con productos oficiales (tarjeta turística MadridCard y Bus Turístico); libros, camisetas,  CD&rsquo;s , etc.  Certificado  ICTE  de Q de calidad turística Norma  UNE  187003:2008  Certificado  AENOR  de Accesibilidad Universal Norma  UNE  170001-2:2007   " ;
+	base:tieneTelefono """914 544 410 (información turística y Programa Visitas Guiadas Oficiales)                                                               
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/CentrodeTurismoPlazaMayor> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: sol (líneas 1, 2, 3), ópera (línea 2, 5, ramal)  bus: 3, 5, 6, 15, 17, 18, 20, 23, 31, 32, 35, 50, 51, 52, 53, 65, 150  renfe: sol " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/CentrodeTurismoPlazaMayor> a base:Posicion ;
+	base:tieneLatitud "4.041.583.855.082.180" ;
+	base:tieneLongitud "-37.074.257.084.323.600" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/CentrodeTurismoPlazaMayor> a base:Direccion ;
+	base:tieneNumero "27" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012" ;
+	base:tieneCalle "MAYOR" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/CentrodeTurismoPlazaMayor> a base:Metro ;
+	base:tieneMetro "sol (líneas 1, 2, 3), ópera (línea 2, 5, ramal)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/CentrodeTurismoPlazaMayor> a base:Renfe ;
+	base:tieneRenfe "sol " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/CentrodeTurismoPlazaMayor> a base:Bus ;
+	base:tieneBus "3, 5, 6, 15, 17, 18, 20, 23, 31, 32, 35, 50, 51, 52, 53, 65, 150  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/DelegaciondelaGeneralitatdeCataluña.OficinadeTurismo> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Delegación de la Generalitat de Cataluña. Oficina de Turismo" ;
+	base:tieneHorario "De lunes a viernes de 10:30 a 15 y de 16 a 19:30 horas. " ;
+	base:tieneTelefono """915 241 892 (Oficina de turismo)          
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/DelegaciondelaGeneralitatdeCataluña.OficinadeTurismo> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: banco de españa (línea 2)  bus: 5 , 9 , 52 , 53 , 146 , 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/DelegaciondelaGeneralitatdeCataluña.OficinadeTurismo> a base:Posicion ;
+	base:tieneLatitud "404.182.053.857.487" ;
+	base:tieneLongitud "-36.959.697.554.881.800" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/DelegaciondelaGeneralitatdeCataluña.OficinadeTurismo> a base:Direccion ;
+	base:tieneNumero "44" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "ALCALA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/DelegaciondelaGeneralitatdeCataluña.OficinadeTurismo> a base:Metro ;
+	base:tieneMetro "banco de españa (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/DelegaciondelaGeneralitatdeCataluña.OficinadeTurismo> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/DelegaciondelaGeneralitatdeCataluña.OficinadeTurismo> a base:Bus ;
+	base:tieneBus "5 , 9 , 52 , 53 , 146 , 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinaCentraldeReservaseInformaciondelaComunidaddeMadrid> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina Central de Reservas e Información de la Comunidad de Madrid" ;
+	base:tieneHorario "De lunes a viernes de 9 a 14 horas" ;
+	base:tieneTelefono "912 767 478" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinaCentraldeReservaseInformaciondelaComunidaddeMadrid> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: banco de españa (línea 2)  bus: 1, 2, 9, 20, 27, 51, 52, 53, 146, 202, 203 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinaCentraldeReservaseInformaciondelaComunidaddeMadrid> a base:Posicion ;
+	base:tieneLatitud "40.422.504.962.784.700" ;
+	base:tieneLongitud "-3.691.086.697.178.330" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinaCentraldeReservaseInformaciondelaComunidaddeMadrid> a base:Direccion ;
+	base:tieneNumero "14" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001" ;
+	base:tieneCalle "RECOLETOS" ;
+	base:tieneTipoVia "PASEO" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinaCentraldeReservaseInformaciondelaComunidaddeMadrid> a base:Metro ;
+	base:tieneMetro "banco de españa (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinaCentraldeReservaseInformaciondelaComunidaddeMadrid> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinaCentraldeReservaseInformaciondelaComunidaddeMadrid> a base:Bus ;
+	base:tieneBus "1, 2, 9, 20, 27, 51, 52, 53, 146, 202, 203 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeAlemania> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Alemania" ;
+	base:tieneTelefono "914 293 551" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeAlemania> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: antón martín (línea 1), sol (líneas 1, 2, 3)  bus: 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53, 146, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeAlemania> a base:Posicion ;
+	base:tieneLatitud "4.041.515.412.751.350" ;
+	base:tieneLongitud "-3.696.999.116.580.020" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeAlemania> a base:Direccion ;
+	base:tieneNumero "2" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "SAN AGUSTIN" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeAlemania> a base:Metro ;
+	base:tieneMetro "antón martín (línea 1), sol (líneas 1, 2, 3)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeAlemania> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeAlemania> a base:Bus ;
+	base:tieneBus "5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53, 146, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeAndorra> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Andorra" ;
+	base:tieneHorario "Consultar telefónicamente" ;
+	base:tieneTelefono "914 317 453 " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeAndorra> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: retiro (línea 2)  bus: 1, 2, 9, 15, 20, 28, 51, 52, 74, 146, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeAndorra> a base:Posicion ;
+	base:tieneLatitud "40.420.463.872.305.000" ;
+	base:tieneLongitud "-36.873.998.628.244.500" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeAndorra> a base:Direccion ;
+	base:tieneNumero "73" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28009" ;
+	base:tieneCalle "ALCALA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeAndorra> a base:Metro ;
+	base:tieneMetro "retiro (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeAndorra> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeAndorra> a base:Bus ;
+	base:tieneBus "1, 2, 9, 15, 20, 28, 51, 52, 74, 146, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeArgentina> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Argentina" ;
+	base:tieneHorario "Consultar telefónicamente" ;
+	base:tieneTelefono "915 414 447" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeArgentina> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: ventura rodríguez (línea 3), princesa (líneas 3, 10)  bus: 1, 2, 44, 133, 202,  c  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeArgentina> a base:Posicion ;
+	base:tieneLatitud "404.257.710.639.095" ;
+	base:tieneLongitud "-3.712.551.676.224.900" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeArgentina> a base:Direccion ;
+	base:tieneNumero "12" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28008" ;
+	base:tieneCalle "PRINCESA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeArgentina> a base:Metro ;
+	base:tieneMetro "ventura rodríguez (línea 3), princesa (líneas 3, 10)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeArgentina> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeArgentina> a base:Bus ;
+	base:tieneBus "1, 2, 44, 133, 202,  c  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeAustria> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Austria" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeAustria> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: plaza de españa (líneas 3, 10)  bus: 3, 46, 75, 138, 148 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeAustria> a base:Posicion ;
+	base:tieneLatitud "4.042.352.919.018.360" ;
+	base:tieneLongitud "-37.137.893.492.193.200" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeAustria> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "MONCLOA-ARAVACA" ;
+	base:tieneCodigoPostal "28008" ;
+	base:tieneCalle "JUAN ALVAREZ MENDIZABAL" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeAustria> a base:Metro ;
+	base:tieneMetro "plaza de españa (líneas 3, 10)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeAustria> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeAustria> a base:Bus ;
+	base:tieneBus "3, 46, 75, 138, 148 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeBrasil> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Brasil" ;
+	base:tieneHorario " De lunes a viernes de 10:30 a 13:30 horas " ;
+	base:tieneTelefono "917 020 689" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeBrasil> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: alonso martínez (líneas 4, 5, 10), rubén dario (línea 5)  bus: 3, 5, 7, 14, 21, 27, 45, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeBrasil> a base:Posicion ;
+	base:tieneLatitud "4.043.017.960.044.130" ;
+	base:tieneLongitud "-3.692.768.600.492.910" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeBrasil> a base:Direccion ;
+	base:tieneNumero "28" ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28010" ;
+	base:tieneCalle "ALMAGRO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeBrasil> a base:Metro ;
+	base:tieneMetro "alonso martínez (líneas 4, 5, 10), rubén dario (línea 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeBrasil> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeBrasil> a base:Bus ;
+	base:tieneBus "3, 5, 7, 14, 21, 27, 45, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeCastilla-Leon> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Castilla - León" ;
+	base:tieneTelefono "915 780 324" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeCastilla-Leon> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: retiro (línea 2)  bus: 1 , 2 , 15 , 19 , 20 , 28 , 51 , 52 , 74 , 146 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeCastilla-Leon> a base:Posicion ;
+	base:tieneLatitud "4.042.177.018.095.310" ;
+	base:tieneLongitud "-36.828.394.778.643.700" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeCastilla-Leon> a base:Direccion ;
+	base:tieneNumero "105" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28009" ;
+	base:tieneCalle "ALCALÁ" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeCastilla-Leon> a base:Metro ;
+	base:tieneMetro "retiro (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeCastilla-Leon> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeCastilla-Leon> a base:Bus ;
+	base:tieneBus "1 , 2 , 15 , 19 , 20 , 28 , 51 , 52 , 74 , 146 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeChile> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Chile" ;
+	base:tieneHorario " Con cita previa " ;
+	base:tieneTelefono "914 357 834" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeChile> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: nuñez de balboa (líneas 5, 9)  bus: 1, 9, 19, 51, 74  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeChile> a base:Posicion ;
+	base:tieneLatitud "4.042.984.738.903.380" ;
+	base:tieneLongitud "-36.834.988.415.722.300" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeChile> a base:Direccion ;
+	base:tieneNumero "80" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001" ;
+	base:tieneCalle "VELAZQUEZ" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeChile> a base:Metro ;
+	base:tieneMetro "nuñez de balboa (líneas 5, 9)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeChile> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeChile> a base:Bus ;
+	base:tieneBus "1, 9, 19, 51, 74  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeChina> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de China" ;
+	base:tieneTelefono "915 480 011 (información sobre horarios)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeChina> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: callao (línea 3)  bus: 1, 2, 44, 46, 74, 75, 133, 146, 147, 148, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeChina> a base:Posicion ;
+	base:tieneLatitud "4.042.009.464.369.330" ;
+	base:tieneLongitud "-3.705.324.957.516.300" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeChina> a base:Direccion ;
+	base:tieneNumero "39" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "GRAN VIA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeChina> a base:Metro ;
+	base:tieneMetro "callao (línea 3)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeChina> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeChina> a base:Bus ;
+	base:tieneBus "1, 2, 44, 46, 74, 75, 133, 146, 147, 148, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeCroacia> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Croacia" ;
+	base:tieneTelefono "917 815 514 (información sobre horarios)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeCroacia> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: serrano (línea 4)  bus: 1, 9, 19, 51, 74 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeCroacia> a base:Posicion ;
+	base:tieneLatitud "4.042.308.011.875.360" ;
+	base:tieneLongitud "-3.686.789.938.909.180" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeCroacia> a base:Direccion ;
+	base:tieneNumero "22" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001" ;
+	base:tieneCalle "CLAUDIO COELLO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeCroacia> a base:Metro ;
+	base:tieneMetro "serrano (línea 4)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeCroacia> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeCroacia> a base:Bus ;
+	base:tieneBus "1, 9, 19, 51, 74 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeCuba> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Cuba" ;
+	base:tieneHorario "Consultar telefónicamente" ;
+	base:tieneTelefono "914 113 097" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeCuba> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: santiago bernabéu (línea 10)  bus: 14, 27, 40, 43, 120, 126, 147, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeCuba> a base:Posicion ;
+	base:tieneLatitud "404.509.737.804.771" ;
+	base:tieneLongitud "-36.864.959.795.755.200" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeCuba> a base:Direccion ;
+	base:tieneNumero "50" ;
+	base:tieneDistrito "CHAMARTIN" ;
+	base:tieneCodigoPostal "28036" ;
+	base:tieneCalle "HABANA" ;
+	base:tieneTipoVia "PASEO" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeCuba> a base:Metro ;
+	base:tieneMetro "santiago bernabéu (línea 10)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeCuba> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeCuba> a base:Bus ;
+	base:tieneBus "14, 27, 40, 43, 120, 126, 147, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeEcuador> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Ecuador" ;
+	base:tieneTelefono "t.arregui@ecuatropic.es" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeEcuador> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: nuñez de balboa (líneas 5, 9)  bus: 9, 12, 19, 51, 61 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeEcuador> a base:Posicion ;
+	base:tieneLatitud "4.042.890.517.804.670" ;
+	base:tieneLongitud "-3.687.426.857.198.850" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeEcuador> a base:Direccion ;
+	base:tieneNumero "43" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001" ;
+	base:tieneCalle "SERRANO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeEcuador> a base:Metro ;
+	base:tieneMetro "nuñez de balboa (líneas 5, 9)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeEcuador> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeEcuador> a base:Bus ;
+	base:tieneBus "9, 12, 19, 51, 61 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeEgipto> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Egipto" ;
+	base:tieneTelefono "915 592 121 (información sobre horarios)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeEgipto> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: plaza de españa (línea 3)  bus: 1, 2, 3,  44, 46, 74, 75, 133, 138, 148, 202, c " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeEgipto> a base:Posicion ;
+	base:tieneLatitud "4.042.323.552.836.880" ;
+	base:tieneLongitud "-3.710.273.395.725.300" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeEgipto> a base:Direccion ;
+	base:tieneNumero "78" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "GRAN VIA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeEgipto> a base:Metro ;
+	base:tieneMetro "plaza de españa (línea 3)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeEgipto> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeEgipto> a base:Bus ;
+	base:tieneBus "1, 2, 3,  44, 46, 74, 75, 133, 138, 148, 202, c " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeFrancia> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Francia" ;
+	base:tieneHorario "  Horario de septiembre a junio:    Lunes a jueves: de 10 a 14 y de 15 a 17:30 horas  Viernes: de 9:30 a 14:30 horas     Horario julio y agosto:  de 9 a 15 horas " ;
+	base:tieneTelefono """915 489 737 (Información)           
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeFrancia> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: retiro (línea 2), serrrano (línea 2)  bus: 1, 2, 9, 15, 19, 20, 21, 28, 51, 52, 53, 74, 146, 202  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeFrancia> a base:Posicion ;
+	base:tieneLatitud "4.042.603.070.001.690" ;
+	base:tieneLongitud "-368.752.726.535.081" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeFrancia> a base:Direccion ;
+	base:tieneNumero "40" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001" ;
+	base:tieneCalle "SERRANO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeFrancia> a base:Metro ;
+	base:tieneMetro "retiro (línea 2), serrrano (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeFrancia> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeFrancia> a base:Bus ;
+	base:tieneBus "1, 2, 9, 15, 19, 20, 21, 28, 51, 52, 53, 74, 146, 202  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeGranBretaña> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Gran Bretaña" ;
+	base:tieneTelefono "917 146 497" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeGranBretaña> a base:TransportePublico .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeGranBretaña> a base:Posicion ;
+	base:tieneLatitud "4.047.592.404.926.300" ;
+	base:tieneLongitud "-36.872.691.224.974.400" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeGranBretaña> a base:Direccion ;
+	base:tieneNumero "259" ;
+	base:tieneDistrito "FUENCARRAL-EL PARDO" ;
+	base:tieneCodigoPostal "28046" ;
+	base:tieneCalle "CASTELLANA" ;
+	base:tieneTipoVia "PASEO" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeGranBretaña> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeGranBretaña> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeGranBretaña> a base:Bus .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeturismodeGuatemala> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de turismo de Guatemala" ;
+	base:tieneTelefono "913 440 347 / 913 441 417" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeturismodeGuatemala> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: colón (línea 4)  bus: 5, 14, 27, 45, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeturismodeGuatemala> a base:Posicion ;
+	base:tieneLatitud "4.042.811.147.922.810" ;
+	base:tieneLongitud "-369.060.179.113.649" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeturismodeGuatemala> a base:Direccion ;
+	base:tieneNumero "27" ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28010" ;
+	base:tieneCalle "FERNANDO EL SANTO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeturismodeGuatemala> a base:Metro ;
+	base:tieneMetro "colón (línea 4)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeturismodeGuatemala> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeturismodeGuatemala> a base:Bus ;
+	base:tieneBus "5, 14, 27, 45, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeHolanda> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Holanda" ;
+	base:tieneTelefono "917 498 082" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeHolanda> a base:TransportePublico ;
+	base:tieneTransportePublico "bus: 66, 173, 174, 176, 178" .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeHolanda> a base:Posicion ;
+	base:tieneLatitud "4.047.592.404.926.300" ;
+	base:tieneLongitud "-36.872.691.224.974.400" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeHolanda> a base:Direccion ;
+	base:tieneNumero "259" ;
+	base:tieneDistrito "FUENCARRAL-EL PARDO" ;
+	base:tieneCodigoPostal "28046" ;
+	base:tieneCalle "CASTELLANA" ;
+	base:tieneTipoVia "PASEO" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeHolanda> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeHolanda> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeHolanda> a base:Bus ;
+	base:tieneBus "66, 173, 174, 176, 178" .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeHungria> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Hungria" ;
+	base:tieneHorario "Consultar telefónicamente" ;
+	base:tieneTelefono "915 569 348" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeHungria> a base:TransportePublico .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeHungria> a base:Posicion .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeHungria> a base:Direccion ;
+	base:tieneNumero "--" ;
+	base:tieneCalle "--" ;
+	base:tieneTipoVia "--" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeHungria> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeHungria> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeHungria> a base:Bus .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeIrlanda> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Irlanda" ;
+	base:tieneHorario "De lunes a viernes de 10 a 14 horas" ;
+	base:tieneTelefono "917 456 420" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeIrlanda> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: rubén darío (línea 5)  bus: 5, 14, 27, 45, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeIrlanda> a base:Posicion ;
+	base:tieneLatitud "4.043.419.977.951.640" ;
+	base:tieneLongitud "-36.878.816.351.465.000" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeIrlanda> a base:Direccion ;
+	base:tieneNumero "46" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28046" ;
+	base:tieneCalle "CASTELLANA" ;
+	base:tieneTipoVia "PASEO" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeIrlanda> a base:Metro ;
+	base:tieneMetro "rubén darío (línea 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeIrlanda> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeIrlanda> a base:Bus ;
+	base:tieneBus "5, 14, 27, 45, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeIran> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Irán" ;
+	base:tieneEquipamiento "Proporciona información a través de internet, correo y teléfono" ;
+	base:tieneTelefono "915 643 613" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeIran> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: avenida de américa (líneas 4, 6, 7, 9)  bus: 9, 16, 19, 51 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeIran> a base:Posicion ;
+	base:tieneLatitud "404.375.784.193.194" ;
+	base:tieneLongitud "-36.848.033.506.224.900" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeIran> a base:Direccion ;
+	base:tieneNumero "26" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28006" ;
+	base:tieneCalle "MARIA DE MOLINA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeIran> a base:Metro ;
+	base:tieneMetro "avenida de américa (líneas 4, 6, 7, 9)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeIran> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeIran> a base:Bus ;
+	base:tieneBus "9, 16, 19, 51 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeIsrael> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Israel" ;
+	base:tieneTelefono "915 943 211" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeIsrael> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: bilbao (líneas 1, 4), tribunal (líneas 1, 10)  bus: 21, 37, 40, 147, 149  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeIsrael> a base:Posicion ;
+	base:tieneLatitud "4.042.789.840.100.490" ;
+	base:tieneLongitud "-3.702.046.638.888.970" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeIsrael> a base:Direccion ;
+	base:tieneNumero "101" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004" ;
+	base:tieneCalle "FUENCARRAL" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeIsrael> a base:Metro ;
+	base:tieneMetro "bilbao (líneas 1, 4), tribunal (líneas 1, 10)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeIsrael> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeIsrael> a base:Bus ;
+	base:tieneBus "21, 37, 40, 147, 149  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeItalia> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Italia" ;
+	base:tieneTelefono "915 670 670 (información sobre horario)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeItalia> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: gregorio marañón (líneas 7, 10), rubén darío (línea 5)  bus: 12, 16, 19, 9, 51, 61   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeItalia> a base:Posicion ;
+	base:tieneLatitud "40.436.434.892.176.300" ;
+	base:tieneLongitud "-36.862.183.867.739.900" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeItalia> a base:Direccion ;
+	base:tieneNumero "120" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28006" ;
+	base:tieneCalle "SERRANO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeItalia> a base:Metro ;
+	base:tieneMetro "gregorio marañón (líneas 7, 10), rubén darío (línea 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeItalia> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeItalia> a base:Bus ;
+	base:tieneBus "12, 16, 19, 9, 51, 61   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeJordania> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Jordania" ;
+	base:tieneHorario "Consultar telefónicamente" ;
+	base:tieneTelefono "917 813 987" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeJordania> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: retiro (línea 2)  bus: 1, 9, 19, 51, 74 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeJordania> a base:Posicion ;
+	base:tieneLatitud "404.225.708.087.371" ;
+	base:tieneLongitud "-3.687.598.129.527.750" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeJordania> a base:Direccion ;
+	base:tieneNumero "5" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001" ;
+	base:tieneCalle "VILLANUEVA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeJordania> a base:Metro ;
+	base:tieneMetro "retiro (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeJordania> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeJordania> a base:Bus ;
+	base:tieneBus "1, 9, 19, 51, 74 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodelaComunidaddeMadrid.AeropuertodeBarajasTerminal1> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Aeropuerto  de Barajas Terminal 1" ;
+	base:tieneHorario "  De lunes a sábados de 9 a 20 horas.   Domingos y festivos de 9 a 14  horas, excepto 1 de mayo, 25 de diciembre y 1 de enero, que permencerá cerrada.  " ;
+	base:tieneEquipamiento "Proporcionan información turística de la Comunidad de Madrid y de los lugares mas representativos de España" ;
+	base:tieneTelefono "913 058 656 / Información turística y cultural: 902 100 007 " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodelaComunidaddeMadrid.AeropuertodeBarajasTerminal1> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: aeropuerto t1  bus: 101 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodelaComunidaddeMadrid.AeropuertodeBarajasTerminal1> a base:Posicion ;
+	base:tieneLatitud "404.641.393.496.236" ;
+	base:tieneLongitud "-35.698.214.842.707.100" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodelaComunidaddeMadrid.AeropuertodeBarajasTerminal1> a base:Direccion ;
+	base:tieneNumero "0" ;
+	base:tieneDistrito "BARAJAS" ;
+	base:tieneCodigoPostal "28042" ;
+	base:tieneCalle "BARAJAS" ;
+	base:tieneTipoVia "AEROPUERTO" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodelaComunidaddeMadrid.AeropuertodeBarajasTerminal1> a base:Metro ;
+	base:tieneMetro "aeropuerto t1  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodelaComunidaddeMadrid.AeropuertodeBarajasTerminal1> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodelaComunidaddeMadrid.AeropuertodeBarajasTerminal1> a base:Bus ;
+	base:tieneBus "101 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodelaComunidaddeMadrid.AeropuertodeBarajasTerminal4> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Aeropuerto de Barajas Terminal 4" ;
+	base:tieneHorario "  Todos los días de 9 a 20 horas  Cerrado: 1 de mayo, 25 de diciembre y 1 de enero  " ;
+	base:tieneEquipamiento "Proporcionan información turística de la Comunidad de Madrid y de los lugares mas representativos de España" ;
+	base:tieneTelefono """Sala 11: 913 338 247  /     
+Sala 10: 913 338 252      
+Información turística y cultural: 902 100 007             
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodelaComunidaddeMadrid.AeropuertodeBarajasTerminal4> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: línea 8 - estación aeropuerto t-4   bus: línea 201 barajas - aeropuerto t4  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodelaComunidaddeMadrid.AeropuertodeBarajasTerminal4> a base:Posicion ;
+	base:tieneLatitud "4.045.188.738.242.830" ;
+	base:tieneLongitud "-35.859.807.207.200.300" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodelaComunidaddeMadrid.AeropuertodeBarajasTerminal4> a base:Direccion ;
+	base:tieneNumero "2" ;
+	base:tieneDistrito "BARAJAS" ;
+	base:tieneCodigoPostal "28042" ;
+	base:tieneCalle "HISPANIDAD" ;
+	base:tieneTipoVia "AVENIDA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodelaComunidaddeMadrid.AeropuertodeBarajasTerminal4> a base:Metro ;
+	base:tieneMetro "línea 8 - estación aeropuerto t-4   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodelaComunidaddeMadrid.AeropuertodeBarajasTerminal4> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodelaComunidaddeMadrid.AeropuertodeBarajasTerminal4> a base:Bus ;
+	base:tieneBus "línea 201 barajas - aeropuerto t4  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodelaComunidaddeMadrid.CalleAlcala,31> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Calle Alcalá, 31" ;
+	base:tieneHorario "  De lunes a sábados de 9 a 20 horas.   Domingos y festivos de 9 a 14 horas, excepto 1 de mayo, 25 de diciembre y 1 de enero, que permencerá cerrada.  " ;
+	base:tieneTelefono """912 767 187   / Información turística y cultural: 902 100 007            
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodelaComunidaddeMadrid.CalleAlcala,31> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: sevilla (línea 2), banco de españa ( línea 2)  bus: 1, 2, 9, 15, 20, 28, 51, 52, 74, 146, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodelaComunidaddeMadrid.CalleAlcala,31> a base:Posicion ;
+	base:tieneLatitud "4.041.842.560.545.140" ;
+	base:tieneLongitud "-36.982.941.133.384.700" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodelaComunidaddeMadrid.CalleAlcala,31> a base:Direccion ;
+	base:tieneNumero "31" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "ALCALA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodelaComunidaddeMadrid.CalleAlcala,31> a base:Metro ;
+	base:tieneMetro "sevilla (línea 2), banco de españa ( línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodelaComunidaddeMadrid.CalleAlcala,31> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodelaComunidaddeMadrid.CalleAlcala,31> a base:Bus ;
+	base:tieneBus "1, 2, 9, 15, 20, 28, 51, 52, 74, 146, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodelaComunidaddeMadrid.CalleDuquedeMedinaceli> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Calle Duque de Medinaceli" ;
+	base:tieneHorario "  De lunes a sábados de 8 a 15 horas.   Domingos y festivos de 9 a 14 horas  " ;
+	base:tieneEquipamiento "Proporcionan información turística de la Comunidad de Madrid y de los lugares mas representativos de España" ;
+	base:tieneTelefono """Información turística y cultural:  902 100 007  / 914 294 951       
+""" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodelaComunidaddeMadrid.CalleDuquedeMedinaceli> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: antón martín (línea 1), banco de españa (línea 2)  bus: 6, 26, 32, 57 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodelaComunidaddeMadrid.CalleDuquedeMedinaceli> a base:Posicion ;
+	base:tieneLatitud "40.415.295.360.876.800" ;
+	base:tieneLongitud "-36.959.869.173.057.200" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodelaComunidaddeMadrid.CalleDuquedeMedinaceli> a base:Direccion ;
+	base:tieneNumero "2" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "DUQUE DE MEDINACELI" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodelaComunidaddeMadrid.CalleDuquedeMedinaceli> a base:Metro ;
+	base:tieneMetro "antón martín (línea 1), banco de españa (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodelaComunidaddeMadrid.CalleDuquedeMedinaceli> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodelaComunidaddeMadrid.CalleDuquedeMedinaceli> a base:Bus ;
+	base:tieneBus "6, 26, 32, 57 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodelaComunidaddeMadrid.EstaciondeChamartin> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Estación de Chamartín" ;
+	base:tieneHorario "  De lunes a sábados de 8 a 20 horas.   Domingos y festivos de 9 a 14 horas, excepto 1 de mayo, 25 de diciembre y 1 de enero, que permanecerá cerrada  " ;
+	base:tieneEquipamiento "Proporcionan información turística de la Comunidad de Madrid y de los lugares mas representativos de España" ;
+	base:tieneTelefono "913 159 976 / Información turística y cultural: 902 100 007 " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodelaComunidaddeMadrid.EstaciondeChamartin> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: chamartín (líneas 1, 10)  bus: 5, 80, 66, 124   renfe: chamartín " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodelaComunidaddeMadrid.EstaciondeChamartin> a base:Posicion ;
+	base:tieneLatitud "40.471.891.389.559.400" ;
+	base:tieneLongitud "-36.836.654.329.204.500" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodelaComunidaddeMadrid.EstaciondeChamartin> a base:Direccion ;
+	base:tieneNumero "40" ;
+	base:tieneDistrito "CHAMARTIN" ;
+	base:tieneCodigoPostal "28036" ;
+	base:tieneCalle "AGUSTIN DE FOXA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodelaComunidaddeMadrid.EstaciondeChamartin> a base:Metro ;
+	base:tieneMetro "chamartín (líneas 1, 10)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodelaComunidaddeMadrid.EstaciondeChamartin> a base:Renfe ;
+	base:tieneRenfe "chamartín " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodelaComunidaddeMadrid.EstaciondeChamartin> a base:Bus ;
+	base:tieneBus "5, 80, 66, 124   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodelaComunidaddeMadrid.EstacionPuertadeAtocha> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Estación Puerta de Atocha" ;
+	base:tieneHorario "  De lunes a sábados de 8 a 20 horas.   Domingos y festivos de 9 a 20 horas, excepto 1 de mayo, 25 de diciembre y 1 de enero, que permencerá cerrada.  " ;
+	base:tieneTelefono "Información turística y cultural: 902 100 007 / 915 284 630" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodelaComunidaddeMadrid.EstacionPuertadeAtocha> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: atocha (línea 1)  bus: 10 , 14 , 19 , 26 , 32 , 37 , 57   renfe: atocha " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodelaComunidaddeMadrid.EstacionPuertadeAtocha> a base:Posicion ;
+	base:tieneLatitud "404.079.119.564.538" ;
+	base:tieneLongitud "-36.923.163.004.968.900" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodelaComunidaddeMadrid.EstacionPuertadeAtocha> a base:Direccion ;
+	base:tieneNumero "3" ;
+	base:tieneDistrito "ARGANZUELA" ;
+	base:tieneCodigoPostal "28045" ;
+	base:tieneCalle "EMPERADOR CARLOS V" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodelaComunidaddeMadrid.EstacionPuertadeAtocha> a base:Metro ;
+	base:tieneMetro "atocha (línea 1)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodelaComunidaddeMadrid.EstacionPuertadeAtocha> a base:Renfe ;
+	base:tieneRenfe "atocha " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodelaComunidaddeMadrid.EstacionPuertadeAtocha> a base:Bus ;
+	base:tieneBus "10 , 14 , 19 , 26 , 32 , 37 , 57   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodelaComunidaddeMadrid.Ifema.FeriadeMadrid> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Ifema. Feria de Madrid" ;
+	base:tieneHorario "Los días en que se celebren ferias, de 11 a 17 horas" ;
+	base:tieneTelefono "917 210 599 / 917 210 604. Información turística y cultural: 902 100 007 " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodelaComunidaddeMadrid.Ifema.FeriadeMadrid> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: campo de las naciones (línea 8)  bus: 122, 112, 828 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodelaComunidaddeMadrid.Ifema.FeriadeMadrid> a base:Posicion ;
+	base:tieneLatitud "4.046.428.771.594.390" ;
+	base:tieneLongitud "-36.164.023.947.650.800" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodelaComunidaddeMadrid.Ifema.FeriadeMadrid> a base:Direccion ;
+	base:tieneNumero "5" ;
+	base:tieneDistrito "BARAJAS" ;
+	base:tieneCodigoPostal "28042" ;
+	base:tieneCalle "PARTENON" ;
+	base:tieneTipoVia "AVENIDA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodelaComunidaddeMadrid.Ifema.FeriadeMadrid> a base:Metro ;
+	base:tieneMetro "campo de las naciones (línea 8)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodelaComunidaddeMadrid.Ifema.FeriadeMadrid> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodelaComunidaddeMadrid.Ifema.FeriadeMadrid> a base:Bus ;
+	base:tieneBus "122, 112, 828 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodelaRepublicaCheca> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de la República Checa" ;
+	base:tieneTelefono "913 457 112 (información sobre horarios)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodelaRepublicaCheca> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: pío xii (línea 9)  bus: 16, 29, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodelaRepublicaCheca> a base:Posicion ;
+	base:tieneLatitud "40.466.195.029.254.100" ;
+	base:tieneLongitud "-3.674.926.102.930.990" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodelaRepublicaCheca> a base:Direccion ;
+	base:tieneNumero "22 -24" ;
+	base:tieneDistrito "CHAMARTIN" ;
+	base:tieneCodigoPostal "28016" ;
+	base:tieneCalle "PIO XII" ;
+	base:tieneTipoVia "AVENIDA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodelaRepublicaCheca> a base:Metro ;
+	base:tieneMetro "pío xii (línea 9)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodelaRepublicaCheca> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodelaRepublicaCheca> a base:Bus ;
+	base:tieneBus "16, 29, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeLaRioja> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de La Rioja" ;
+	base:tieneHorario "De lunes a viernes de 9 a 21:30 horas (en época de verano, consultar telefónicamente)." ;
+	base:tieneTelefono "915 764 852" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeLaRioja> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: serrano (línea 4).  bus: 1, 5, 9, 14, 19, 21, 27, 45, 51, 53, 74, 150. " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeLaRioja> a base:Posicion ;
+	base:tieneLatitud "40.426.596.411.628.700" ;
+	base:tieneLongitud "-3.687.839.531.572.200" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeLaRioja> a base:Direccion ;
+	base:tieneNumero "25" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001" ;
+	base:tieneCalle "SERRANO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeLaRioja> a base:Metro ;
+	base:tieneMetro "serrano (línea 4).  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeLaRioja> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeLaRioja> a base:Bus ;
+	base:tieneBus "1, 5, 9, 14, 19, 21, 27, 45, 51, 53, 74, 150. " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeMalta> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Malta" ;
+	base:tieneHorario " De lunes a viernes de 9 a 14 horas " ;
+	base:tieneTelefono "913 913 061" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeMalta> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: gregorio marañón   bus: 5, 7, 9, 14, 16, 19, 27, 40, 45, 51, 61, 147, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeMalta> a base:Posicion ;
+	base:tieneLatitud "4.043.569.358.766.220" ;
+	base:tieneLongitud "-3.689.677.189.614.330" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeMalta> a base:Direccion ;
+	base:tieneNumero "45" ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28046" ;
+	base:tieneCalle "CASTELLANA" ;
+	base:tieneTipoVia "PASEO" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeMalta> a base:Metro ;
+	base:tieneMetro "gregorio marañón   " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeMalta> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeMalta> a base:Bus ;
+	base:tieneBus "5, 7, 9, 14, 16, 19, 27, 40, 45, 51, 61, 147, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeMarruecos> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Marruecos" ;
+	base:tieneTelefono "915 412 995 (información sobre horarios)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeMarruecos> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: ventura rodríguez (línea 3), plaza de españa (línea 3)  bus: 1, 2, 3, 44, 46, 74, 75, 133, 138, 148, c " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeMarruecos> a base:Posicion ;
+	base:tieneLatitud "4.042.420.902.572.590" ;
+	base:tieneLongitud "-3.714.574.560.417.800" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeMarruecos> a base:Direccion ;
+	base:tieneNumero "24" ;
+	base:tieneDistrito "MONCLOA-ARAVACA" ;
+	base:tieneCodigoPostal "28008" ;
+	base:tieneCalle "VENTURA RODRIGUEZ" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeMarruecos> a base:Metro ;
+	base:tieneMetro "ventura rodríguez (línea 3), plaza de españa (línea 3)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeMarruecos> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeMarruecos> a base:Bus ;
+	base:tieneBus "1, 2, 3, 44, 46, 74, 75, 133, 138, 148, c " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeMexico> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de México" ;
+	base:tieneTelefono "915 611 827 / 915 613 520" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeMexico> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: sevilla (línea 2)  bus: 10, 14, 27, 34, 37, 45 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeMexico> a base:Posicion ;
+	base:tieneLatitud "4.041.605.298.613.370" ;
+	base:tieneLongitud "-3.697.338.423.479.510" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeMexico> a base:Direccion ;
+	base:tieneNumero "46" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "SAN JERONIMO" ;
+	base:tieneTipoVia "CARRERA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeMexico> a base:Metro ;
+	base:tieneMetro "sevilla (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeMexico> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeMexico> a base:Bus ;
+	base:tieneBus "10, 14, 27, 34, 37, 45 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeNoruega> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Noruega" ;
+	base:tieneEquipamiento "Proporciona información a través de internet, correo y teléfono" ;
+	base:tieneTelefono "913 440 987" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeNoruega> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: colón (línea 4)  bus: 5, 14, 27, 45, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeNoruega> a base:Posicion ;
+	base:tieneLatitud "4.042.567.707.652.300" ;
+	base:tieneLongitud "-36.909.305.470.033.500" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeNoruega> a base:Direccion ;
+	base:tieneNumero "2" ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28046" ;
+	base:tieneCalle "COLON" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeNoruega> a base:Metro ;
+	base:tieneMetro "colón (línea 4)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeNoruega> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeNoruega> a base:Bus ;
+	base:tieneBus "5, 14, 27, 45, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeNuevaYork> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Nueva York" ;
+	base:tieneHorario " De lunes a viernes de 9 a 17:30 horas " ;
+	base:tieneTelefono "914 585 573" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeNuevaYork> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: iglesia ( línea 1)  bus: 16, 37, 61, 149 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeNuevaYork> a base:Posicion ;
+	base:tieneLatitud "4.043.466.453.809.470" ;
+	base:tieneLongitud "-3.700.501.765.839.500" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeNuevaYork> a base:Direccion ;
+	base:tieneNumero "27" ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28010" ;
+	base:tieneCalle "ELOY GONZALO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeNuevaYork> a base:Metro ;
+	base:tieneMetro "iglesia ( línea 1)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeNuevaYork> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeNuevaYork> a base:Bus ;
+	base:tieneBus "16, 37, 61, 149 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodePeru> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Perú" ;
+	base:tieneTelefono "911 937 511" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodePeru> a base:TransportePublico .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodePeru> a base:Posicion ;
+	base:tieneLatitud "40.429.674.007.218.000" ;
+	base:tieneLongitud "-36.792.883.340.980.100" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodePeru> a base:Direccion ;
+	base:tieneNumero "10" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28006" ;
+	base:tieneCalle "MARQUES DE SALAMANCA" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodePeru> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodePeru> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodePeru> a base:Bus .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodePolonia> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Polonia" ;
+	base:tieneTelefono "915 414 808 / 915 414 333" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodePolonia> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: plaza de españa (línea 3)  bus: 1, 2, 3, 44, 46, 74, 75, 133, 138, 148, 202,  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodePolonia> a base:Posicion ;
+	base:tieneLatitud "4.042.474.213.964.730" ;
+	base:tieneLongitud "-37.128.591.034.859.400" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodePolonia> a base:Direccion ;
+	base:tieneNumero "3" ;
+	base:tieneDistrito "MONCLOA-ARAVACA" ;
+	base:tieneCodigoPostal "28008" ;
+	base:tieneCalle "PRINCESA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodePolonia> a base:Metro ;
+	base:tieneMetro "plaza de españa (línea 3)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodePolonia> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodePolonia> a base:Bus ;
+	base:tieneBus "1, 2, 3, 44, 46, 74, 75, 133, 138, 148, 202,  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodePortugal> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Portugal" ;
+	base:tieneTelefono "917 617 230" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodePortugal> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: núñez de balboa (líneas 5, 9)  bus: 1, 9, 19, 51, 74 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodePortugal> a base:Posicion ;
+	base:tieneLatitud "4.042.991.206.232.810" ;
+	base:tieneLongitud "-36.847.491.581.278.600" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodePortugal> a base:Direccion ;
+	base:tieneNumero "88" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001" ;
+	base:tieneCalle "LAGASCA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodePortugal> a base:Metro ;
+	base:tieneMetro "núñez de balboa (líneas 5, 9)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodePortugal> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodePortugal> a base:Bus ;
+	base:tieneBus "1, 9, 19, 51, 74 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodePuertoRico> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Puerto Rico" ;
+	base:tieneTelefono "914 312 128" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodePuertoRico> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: retiro (línea 2)  bus: 1, 2, 9, 15, 20, 28, 51, 52, 74, 146, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodePuertoRico> a base:Posicion ;
+	base:tieneLatitud "4.042.308.011.875.360" ;
+	base:tieneLongitud "-3.686.789.938.909.180" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodePuertoRico> a base:Direccion ;
+	base:tieneNumero "22" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001" ;
+	base:tieneCalle "CLAUDIO COELLO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodePuertoRico> a base:Metro ;
+	base:tieneMetro "retiro (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodePuertoRico> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodePuertoRico> a base:Bus ;
+	base:tieneBus "1, 2, 9, 15, 20, 28, 51, 52, 74, 146, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeRepublicaDominicana> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de República Dominicana" ;
+	base:tieneTelefono "914 177 375" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeRepublicaDominicana> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: rubén darío (línea 5), gregrorio marañón (líneas 7, 10)  bus: 9, 16, 19, 61 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeRepublicaDominicana> a base:Posicion ;
+	base:tieneLatitud "4.043.574.088.970.730" ;
+	base:tieneLongitud "-3.686.270.282.394.150" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeRepublicaDominicana> a base:Direccion ;
+	base:tieneNumero "114" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28006" ;
+	base:tieneCalle "SERRANO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeRepublicaDominicana> a base:Metro ;
+	base:tieneMetro "rubén darío (línea 5), gregrorio marañón (líneas 7, 10)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeRepublicaDominicana> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeRepublicaDominicana> a base:Bus ;
+	base:tieneBus "9, 16, 19, 61 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeRumania> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Rumania" ;
+	base:tieneTelefono "914 014 268" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeRumania> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: lista (línea 4)  bus: 1, 26, 61, 74 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeRumania> a base:Posicion ;
+	base:tieneLatitud "4.043.064.345.216.760" ;
+	base:tieneLongitud "-36.737.334.953.475.200" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeRumania> a base:Direccion ;
+	base:tieneNumero "49" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28006" ;
+	base:tieneCalle "ALCANTARA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeRumania> a base:Metro ;
+	base:tieneMetro "lista (línea 4)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeRumania> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeRumania> a base:Bus ;
+	base:tieneBus "1, 26, 61, 74 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeSeychelles> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Seychelles" ;
+	base:tieneTelefono "917 020 804" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeSeychelles> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: arg&uuml;elles (líneas 3, 4, 6)  bus: 5, 7, 14, 21, 27, 45, 150  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeSeychelles> a base:Posicion ;
+	base:tieneLatitud "40.429.538.155.017.700" ;
+	base:tieneLongitud "-3.715.255.790.482.150" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeSeychelles> a base:Direccion ;
+	base:tieneNumero "40" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28008" ;
+	base:tieneCalle "PRINCESA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeSeychelles> a base:Metro ;
+	base:tieneMetro "arg&uuml;elles (líneas 3, 4, 6)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeSeychelles> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeSeychelles> a base:Bus ;
+	base:tieneBus "5, 7, 14, 21, 27, 45, 150  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeTahiti> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Tahití" ;
+	base:tieneHorario " Consultar telefónicamente  " ;
+	base:tieneTelefono "915 489 747" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeTahiti> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: serrano (línea 4)  bus: 1, 9, 19, 21, 51, 53, 74 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeTahiti> a base:Posicion ;
+	base:tieneLatitud "40.426.021.621.426.400" ;
+	base:tieneLongitud "-3.687.538.961.488.500" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeTahiti> a base:Direccion ;
+	base:tieneNumero "40" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001" ;
+	base:tieneCalle "SERRANO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeTahiti> a base:Metro ;
+	base:tieneMetro "serrano (línea 4)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeTahiti> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeTahiti> a base:Bus ;
+	base:tieneBus "1, 9, 19, 21, 51, 53, 74 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeTurquia> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Turquia" ;
+	base:tieneTelefono "915 597 014 / 915 597 114 " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeTurquia> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: retiro (línea 2)  bus: 1, 2, 3, 44, 46, 74, 75, 133, 138, 148, 202, c " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeTurquia> a base:Posicion ;
+	base:tieneLatitud "40.416.395.587.157.400" ;
+	base:tieneLongitud "-36.897.865.586.854.900" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeTurquia> a base:Direccion ;
+	base:tieneNumero "18" ;
+	base:tieneDistrito "RETIRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "ANTONIO MAURA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeTurquia> a base:Metro ;
+	base:tieneMetro "retiro (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeTurquia> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeTurquia> a base:Bus ;
+	base:tieneBus "1, 2, 3, 44, 46, 74, 75, 133, 138, 148, 202, c " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeTunez> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Túnez" ;
+	base:tieneTelefono "915 481 435" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeTunez> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: san bernardo (líneas 2, 4)  bus: 2, 21, 147, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeTunez> a base:Posicion ;
+	base:tieneLatitud "4.042.967.754.133.070" ;
+	base:tieneLongitud "-37.087.142.557.455.800" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeTunez> a base:Direccion ;
+	base:tieneNumero "11" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28015" ;
+	base:tieneCalle "ALBERTO AGUILERA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeTunez> a base:Metro ;
+	base:tieneMetro "san bernardo (líneas 2, 4)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeTunez> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeTunez> a base:Bus ;
+	base:tieneBus "2, 21, 147, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodeVenezuela> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo de Venezuela" ;
+	base:tieneHorario "Consultar telefonicámente" ;
+	base:tieneTelefono "915 981 200" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodeVenezuela> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: santiago bernabeu (línea 10)  bus: 27, 40, 43, 126, 147 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodeVenezuela> a base:Posicion ;
+	base:tieneLatitud "40.453.269.184.872.100" ;
+	base:tieneLongitud "-36.928.523.641.457.400" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodeVenezuela> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "TETUAN" ;
+	base:tieneCodigoPostal "28020" ;
+	base:tieneCalle "CAPITAN HAYA" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodeVenezuela> a base:Metro ;
+	base:tieneMetro "santiago bernabeu (línea 10)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodeVenezuela> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodeVenezuela> a base:Bus ;
+	base:tieneBus "27, 40, 43, 126, 147 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinadeTurismodelAyuntamientodeMadrid.SectorProfesional> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina de Turismo del Ayuntamiento de Madrid. Sector Profesional" ;
+	base:tieneHorario " De lunes a viernes de 9 a 17 horas (sólo para profesionales de turismo) " ;
+	base:tieneTelefono "917 012 210" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinadeTurismodelAyuntamientodeMadrid.SectorProfesional> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: sol (líneas 1, 2, 3), ópera (línea 2, 5, ramal)  bus: 3, 5, 15, 17, 18, 20, 23, 31, 35, 50, 51, 52, 53, 65, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinadeTurismodelAyuntamientodeMadrid.SectorProfesional> a base:Posicion ;
+	base:tieneLatitud "4.041.583.855.082.180" ;
+	base:tieneLongitud "-37.074.257.084.323.600" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinadeTurismodelAyuntamientodeMadrid.SectorProfesional> a base:Direccion ;
+	base:tieneNumero "27" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012" ;
+	base:tieneCalle "MAYOR" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinadeTurismodelAyuntamientodeMadrid.SectorProfesional> a base:Metro ;
+	base:tieneMetro "sol (líneas 1, 2, 3), ópera (línea 2, 5, ramal)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinadeTurismodelAyuntamientodeMadrid.SectorProfesional> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinadeTurismodelAyuntamientodeMadrid.SectorProfesional> a base:Bus ;
+	base:tieneBus "3, 5, 15, 17, 18, 20, 23, 31, 35, 50, 51, 52, 53, 65, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinaJovenComunidaddeMadrid.TIVE.CalledeFernandoelCatolico> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina Joven Comunidad de Madrid. TIVE. Calle de Fernando el Católico" ;
+	base:tieneHorario " De lunes a viernes de 9 a 14 horas  Desde el 1 de abril hasta el 30 de septiembre de 9 a 19 horas., ininterrumpidamente, para todos los servicios excepto para las inscripciones en actividades organizadas por la Dirección General de Juventud y Deportes, que sólo se realizarán de 9 a 14 horas. " ;
+	base:tieneEquipamiento "  Obtención de carnets internacionales   Estudiante  (ISIC)   Profesor  (ITIC)   International Youth Travel Card (IYTC)  Albergues Juveniles  Carné Joven    Reservas en albergues juveniles internacionales  Cursos de idiomas en el extranjero  Seguros de viajes  Billetes de bus nacional e internacional  Billetes de tren nacional y emisión de billetes interRaíl  Oficina de Información Juvenil  Preinscripciones e inscripciones de participantes en campañas de la Dirección General de Juventud   " ;
+	base:tieneTelefono "915 437 412" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinaJovenComunidaddeMadrid.TIVE.CalledeFernandoelCatolico> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: moncloa (líneas 3, 6)  bus: 1, 16, 44, 46, 61, 82, 83, 132, 133, 160, 161, 162, a, c1, c2, se 796, se 798 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinaJovenComunidaddeMadrid.TIVE.CalledeFernandoelCatolico> a base:Posicion ;
+	base:tieneLatitud "4.043.442.331.966.470" ;
+	base:tieneLongitud "-3.717.795.251.173.150" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinaJovenComunidaddeMadrid.TIVE.CalledeFernandoelCatolico> a base:Direccion ;
+	base:tieneNumero "88" ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28015" ;
+	base:tieneCalle "FERNANDO EL CATOLICO" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinaJovenComunidaddeMadrid.TIVE.CalledeFernandoelCatolico> a base:Metro ;
+	base:tieneMetro "moncloa (líneas 3, 6)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinaJovenComunidaddeMadrid.TIVE.CalledeFernandoelCatolico> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinaJovenComunidaddeMadrid.TIVE.CalledeFernandoelCatolico> a base:Bus ;
+	base:tieneBus "1, 16, 44, 46, 61, 82, 83, 132, 133, 160, 161, 162, a, c1, c2, se 796, se 798 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/OficinaJovenComunidaddeMadrid.TIVE.CalledeRecoletos> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Oficina Joven Comunidad de Madrid. TIVE. Calle de Recoletos" ;
+	base:tieneHorario " De lunes a viernes de 9 a 14 horas " ;
+	base:tieneEquipamiento "  Obtención de carnets internacionales   Estudiante  (ISIC)   Profesor  (ITIC)       International Youth Travel Card   (IYTC)   Albergues Juveniles  Carné Joven    Oficina de Información Juvenil    " ;
+	base:tieneTelefono "901 510 610 / 912 767 563" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/OficinaJovenComunidaddeMadrid.TIVE.CalledeRecoletos> a base:TransportePublico ;
+	base:tieneTransportePublico " bus: 1, 5, 9, 14, 19, 27, 37, 45, 51, 53, 74, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/OficinaJovenComunidaddeMadrid.TIVE.CalledeRecoletos> a base:Posicion ;
+	base:tieneLatitud "4.042.232.563.847.620" ;
+	base:tieneLongitud "-36.909.434.067.579.500" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/OficinaJovenComunidaddeMadrid.TIVE.CalledeRecoletos> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001" ;
+	base:tieneCalle "RECOLETOS" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/OficinaJovenComunidaddeMadrid.TIVE.CalledeRecoletos> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/OficinaJovenComunidaddeMadrid.TIVE.CalledeRecoletos> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/OficinaJovenComunidaddeMadrid.TIVE.CalledeRecoletos> a base:Bus ;
+	base:tieneBus "1, 5, 9, 14, 19, 27, 37, 45, 51, 53, 74, 150 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/PuntodeInformacionTuristicaAeropuertoAdolfoSuarezMadrid-BarajasTerminal2> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid -  Barajas Terminal 2" ;
+	base:tieneHorario "De lunes a domingo de 9 a 20 horas" ;
+	base:tieneEquipamiento "  Punto de información sobre la oferta turística y cultural de Madrid.  Atención presencial  Autoconsulta  Audiovisuales  Certificado  ICTE  de  Q de calidad turística  Norma  UNE  187003:2008  " ;
+	base:tieneTelefono "914 544 410 (nformación turística y Programa de Visitas Guiadas Oficiales)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/PuntodeInformacionTuristicaAeropuertoAdolfoSuarezMadrid-BarajasTerminal2> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: aeropuerto t2 (línea 8)  bus: 200 y autobús express aeropuerto " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/PuntodeInformacionTuristicaAeropuertoAdolfoSuarezMadrid-BarajasTerminal2> a base:Posicion ;
+	base:tieneLatitud "4.045.188.738.242.830" ;
+	base:tieneLongitud "-35.859.807.207.200.300" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/PuntodeInformacionTuristicaAeropuertoAdolfoSuarezMadrid-BarajasTerminal2> a base:Direccion ;
+	base:tieneNumero "0" ;
+	base:tieneDistrito "BARAJAS" ;
+	base:tieneCodigoPostal "28042" ;
+	base:tieneCalle "HISPANIDAD" ;
+	base:tieneTipoVia "AVENIDA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/PuntodeInformacionTuristicaAeropuertoAdolfoSuarezMadrid-BarajasTerminal2> a base:Metro ;
+	base:tieneMetro "aeropuerto t2 (línea 8)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/PuntodeInformacionTuristicaAeropuertoAdolfoSuarezMadrid-BarajasTerminal2> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/PuntodeInformacionTuristicaAeropuertoAdolfoSuarezMadrid-BarajasTerminal2> a base:Bus ;
+	base:tieneBus "200 y autobús express aeropuerto " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/PuntodeInformacionTuristicaAeropuertoAdolfoSuarezMadrid-BarajasTerminal4> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid - Barajas Terminal 4" ;
+	base:tieneHorario "De lunes a domingo de 9 a 20 horas" ;
+	base:tieneEquipamiento "  Punto de información sobre la oferta turística y cultural de Madrid.  Atención presencial  Autoconsulta  Audiovisuales  Accesibilidad: mostrador adaptado  Certificados  ICTE  de Q de calidad turística Norma  UNE  187003:2008  " ;
+	base:tieneTelefono "914 544 410 (información turística y Programa Visitas Guiadas Oficiales)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/PuntodeInformacionTuristicaAeropuertoAdolfoSuarezMadrid-BarajasTerminal4> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: aeropuerto t 4 (línea 8)  bus: 200 y exprés aeropuerto  renfe: aeropuerto t 4 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/PuntodeInformacionTuristicaAeropuertoAdolfoSuarezMadrid-BarajasTerminal4> a base:Posicion ;
+	base:tieneLatitud "4.045.188.738.242.830" ;
+	base:tieneLongitud "-35.859.807.207.200.300" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/PuntodeInformacionTuristicaAeropuertoAdolfoSuarezMadrid-BarajasTerminal4> a base:Direccion ;
+	base:tieneNumero "0" ;
+	base:tieneDistrito "BARAJAS" ;
+	base:tieneCodigoPostal "28042" ;
+	base:tieneCalle "HISPANIDAD" ;
+	base:tieneTipoVia "AVENIDA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/PuntodeInformacionTuristicaAeropuertoAdolfoSuarezMadrid-BarajasTerminal4> a base:Metro ;
+	base:tieneMetro "aeropuerto t 4 (línea 8)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/PuntodeInformacionTuristicaAeropuertoAdolfoSuarezMadrid-BarajasTerminal4> a base:Renfe ;
+	base:tieneRenfe "aeropuerto t 4 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/PuntodeInformacionTuristicaAeropuertoAdolfoSuarezMadrid-BarajasTerminal4> a base:Bus ;
+	base:tieneBus "200 y exprés aeropuerto  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/PuntodeInformacionTuristicaCallao(enremodelacion)> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Punto de Información Turística Callao (en remodelación)" ;
+	base:tieneHorario "De lunes a domingo de 9:30 a 20:30 horas" ;
+	base:tieneEquipamiento "  Punto de información sobre la oferta turística y cultural de Madrid.  Atención presencial  Autoconsulta  Certificado  ICTE  de  Q de calidad turística  Norma  UNE  187003:2008  " ;
+	base:tieneTelefono "914 544 410 (información turística y Programa Visitas Guiadas Oficiales)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/PuntodeInformacionTuristicaCallao(enremodelacion)> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: callao (líneas 1, 3, 5)  bus: 1, 2, 44, 46, 74, 75, 146, 147, 148, 133 y 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/PuntodeInformacionTuristicaCallao(enremodelacion)> a base:Posicion ;
+	base:tieneLatitud "4.041.974.735.763.760" ;
+	base:tieneLongitud "-37.061.346.665.078.800" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/PuntodeInformacionTuristicaCallao(enremodelacion)> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "CALLAO" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/PuntodeInformacionTuristicaCallao(enremodelacion)> a base:Metro ;
+	base:tieneMetro "callao (líneas 1, 3, 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/PuntodeInformacionTuristicaCallao(enremodelacion)> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/PuntodeInformacionTuristicaCallao(enremodelacion)> a base:Bus ;
+	base:tieneBus "1, 2, 44, 46, 74, 75, 146, 147, 148, 133 y 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/PuntodeInformacionTuristicaCibeles> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Punto de Información Turística Cibeles" ;
+	base:tieneHorario "De lunes a domingo de 9:30 a 20:30 horas" ;
+	base:tieneEquipamiento "  Punto de información sobre la oferta turística y cultural de Madrid.  Atención presencial  Certificado  ICTE  de  Q de calidad turística  Norma  UNE  187003:2008  " ;
+	base:tieneTelefono "914 544 410 (información turística y Programa Visitas Guiadas Oficiales)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/PuntodeInformacionTuristicaCibeles> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: banco de españa (línea 2)  bus: 1, 2, 5, 9, 10, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150, 202  renfe: recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/PuntodeInformacionTuristicaCibeles> a base:Posicion ;
+	base:tieneLatitud "40.419.011.767.401.000" ;
+	base:tieneLongitud "-3.692.206.111.679.650" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/PuntodeInformacionTuristicaCibeles> a base:Direccion ;
+	base:tieneDistrito "RETIRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "CIBELES" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/PuntodeInformacionTuristicaCibeles> a base:Metro ;
+	base:tieneMetro "banco de españa (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/PuntodeInformacionTuristicaCibeles> a base:Renfe ;
+	base:tieneRenfe "recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/PuntodeInformacionTuristicaCibeles> a base:Bus ;
+	base:tieneBus "1, 2, 5, 9, 10, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150, 202  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/PuntodeInformacionTuristicaPaseodelArte> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Punto de Información Turística Paseo del Arte" ;
+	base:tieneHorario "De lunes a domingo de 9:30 a 20:30 horas. " ;
+	base:tieneEquipamiento "  Punto de información sobre la oferta turística y cultural de Madrid.  Atención presencial  Autoconsulta  Accesibilidad: acceso adaptado  Certificado  ICTE  de  Q de calidad turística  Norma  UNE  187003:2008  " ;
+	base:tieneTelefono "914 544 410 (información turística y Programa Visitas Guiadas Oficiales)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/PuntodeInformacionTuristicaPaseodelArte> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: atocha (línea 1)  bus: 6, 10 , 14, 19, 26, 27, 32, 34, 37, 54, 57, 69  renfe: atocha " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/PuntodeInformacionTuristicaPaseodelArte> a base:Posicion ;
+	base:tieneLatitud "4.041.213.027.498.250" ;
+	base:tieneLongitud "-36.994.547.941.964.900" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/PuntodeInformacionTuristicaPaseodelArte> a base:Direccion ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012" ;
+	base:tieneCalle "SANTA ISABEL" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/PuntodeInformacionTuristicaPaseodelArte> a base:Metro ;
+	base:tieneMetro "atocha (línea 1)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/PuntodeInformacionTuristicaPaseodelArte> a base:Renfe ;
+	base:tieneRenfe "atocha " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/PuntodeInformacionTuristicaPaseodelArte> a base:Bus ;
+	base:tieneBus "6, 10 , 14, 19, 26, 27, 32, 34, 37, 54, 57, 69  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/PuntodeInformacionTuristica.Centrocentro> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Punto de Información Turística. Centrocentro" ;
+	base:tieneHorario "  De martes a domingo de 10 a 20 horas  Cerrado todos los lunes, 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre  " ;
+	base:tieneEquipamiento "  Punto de información sobre la oferta turística y cultural de Madrid  Atención presencial  Autoconsulta  Audiovisuales  Accesibilidad: acceso adaptado  " ;
+	base:tieneTelefono "914 544 410 (información turística y Programa Visitas Guiadas Oficiales)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/PuntodeInformacionTuristica.Centrocentro> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: banco de españa (línea 2)  bus: 1, 2, 5, 9, 10, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150, 202  renfe: recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/PuntodeInformacionTuristica.Centrocentro> a base:Posicion ;
+	base:tieneLatitud "40.419.011.767.401.000" ;
+	base:tieneLongitud "-3.692.206.111.679.650" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/PuntodeInformacionTuristica.Centrocentro> a base:Direccion ;
+	base:tieneNumero "1" ;
+	base:tieneDistrito "RETIRO" ;
+	base:tieneCodigoPostal "28014" ;
+	base:tieneCalle "CIBELES" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/PuntodeInformacionTuristica.Centrocentro> a base:Metro ;
+	base:tieneMetro "banco de españa (línea 2)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/PuntodeInformacionTuristica.Centrocentro> a base:Renfe ;
+	base:tieneRenfe "recoletos " .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/PuntodeInformacionTuristica.Centrocentro> a base:Bus ;
+	base:tieneBus "1, 2, 5, 9, 10, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150, 202  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ServiciodeAtencionalTuristaExtranjero(SATE).ComisariadeCentro> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Servicio de Atención al Turista Extranjero (SATE). Comisaría de Centro" ;
+	base:tieneDescripcion " El Servicio de Atención al Turista Extranjero - SATE - es un servicio especializado gestionado por la Empresa Municipal Madrid Destino, Cultura, Turismo y Negocio, S.A en colaboración con la Policia Nacional que tiene por finalidad atender al turista que, durante su estancia en Madrid, haya vivido una situación excepcional y requiera de apoyo policial " ;
+	base:tieneHorario "Todos los días de 9 a 24 horas" ;
+	base:tieneTelefono "902 102 112 (denuncias 24 horas. Policía)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ServiciodeAtencionalTuristaExtranjero(SATE).ComisariadeCentro> a base:TransportePublico ;
+	base:tieneTransportePublico " metro: plaza de españa (líneas 3, 10), santo domingo (línea 2), callao (líneas 3, 5)  bus: 1, 2, 25, 39, 44, 46, 74, 75, 138, 148, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ServiciodeAtencionalTuristaExtranjero(SATE).ComisariadeCentro> a base:Posicion ;
+	base:tieneLatitud "40.421.578.408.057.800" ;
+	base:tieneLongitud "-37.101.852.392.954.300" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ServiciodeAtencionalTuristaExtranjero(SATE).ComisariadeCentro> a base:Direccion ;
+	base:tieneNumero "19" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013" ;
+	base:tieneCalle "LEGANITOS" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ServiciodeAtencionalTuristaExtranjero(SATE).ComisariadeCentro> a base:Metro ;
+	base:tieneMetro "plaza de españa (líneas 3, 10), santo domingo (línea 2), callao (líneas 3, 5)  " .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ServiciodeAtencionalTuristaExtranjero(SATE).ComisariadeCentro> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ServiciodeAtencionalTuristaExtranjero(SATE).ComisariadeCentro> a base:Bus ;
+	base:tieneBus "1, 2, 25, 39, 44, 46, 74, 75, 138, 148, 202 " .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/ServicioNoPresencialdeInformacionTuristicadeMadrid> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Servicio No Presencial de Información Turística de Madrid" ;
+	base:tieneDescripcion "Información turística telefónica, por correo postal, correo electrónico y a través de la aplicación de chat de la página web  http://www.esmadrid.com/ " ;
+	base:tieneHorario "De lunes a domingo de 9:30 a 20:30 horas" ;
+	base:tieneEquipamiento "  Atiende aquellas consultas sobre la oferta turística de la ciudad, recibidas a través de teléfono, correo postal, correo electrónico y servicio de chat de la página  www.esmadrid.com.   Certificado  ICTE  de Q de calidad turística Norma  UNE  187003:2008   " ;
+	base:tieneTelefono "914 544 410 (información turística y Programa Visitas Guiadas Oficiales)" .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/ServicioNoPresencialdeInformacionTuristicadeMadrid> a base:TransportePublico .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/ServicioNoPresencialdeInformacionTuristicadeMadrid> a base:Posicion ;
+	base:tieneLatitud "4.041.583.855.082.180" ;
+	base:tieneLongitud "-37.074.257.084.323.600" .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/ServicioNoPresencialdeInformacionTuristicadeMadrid> a base:Direccion ;
+	base:tieneNumero "27" ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012" ;
+	base:tieneCalle "MAYOR" ;
+	base:tieneTipoVia "PLAZA" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/ServicioNoPresencialdeInformacionTuristicadeMadrid> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/ServicioNoPresencialdeInformacionTuristicadeMadrid> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/ServicioNoPresencialdeInformacionTuristicadeMadrid> a base:Bus .
+
+<http://puntosinteres.madrid.es/group04/resource/Parque/UnidadMovildeinformacionturisticadeMadrid> a base:SitioTuristico , base:OficinaTurismo ;
+	base:tieneNombre "Unidad Móvil de información turística de Madrid" ;
+	base:tieneHorario "De 9:30 a 20:30 horas." ;
+	base:tieneEquipamiento "  Punto itinerante de información turística de la ciudad de Madrid con atención presencial y personalizada en varios idiomas  Durante todo el año se sitúa junto a monumentos y edificios de gran afluencia turística como el Palacio Real, el Museo del Prado, Puerta del Sol y presta un servicio informativo de apoyo a los Servicios de Atención e Información Turística en las campañas especiales que se llevan a cabo con motivo de las diferentes celebraciones que tienen lugar en nuestra ciudad (Día del Libro, Semana del Orgullo Gay, Noche en Blanco, Día Mundial del Turismo, Festival Internacional de Jazz, ...)  Servicios   Atención presencial  Autoconsulta  Bucle magnético  Acceso adaptado    Certificado  ICTE  de Q de calidad turística Norma  UNE  187003:2008   " .
+
+<http://puntosinteres.madrid.es/group04/resource/TransportePublico/UnidadMovildeinformacionturisticadeMadrid> a base:TransportePublico .
+
+<http://puntosinteres.madrid.es/group04/resource/Posicion/UnidadMovildeinformacionturisticadeMadrid> a base:Posicion .
+
+<http://puntosinteres.madrid.es/group04/resource/Direccion/UnidadMovildeinformacionturisticadeMadrid> a base:Direccion ;
+	base:tieneTipoVia "Punto itinerante" .
+
+<http://puntosinteres.madrid.es/group04/resource/Metro/UnidadMovildeinformacionturisticadeMadrid> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/resource/Renfe/UnidadMovildeinformacionturisticadeMadrid> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/resource/Bus/UnidadMovildeinformacionturisticadeMadrid> a base:Bus .

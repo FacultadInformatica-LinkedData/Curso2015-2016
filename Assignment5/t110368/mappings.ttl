@@ -1,0 +1,72 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> . 
+@prefix vocabulario: <http://example.linkeddata.es/t110368#> . 
+@prefix instancias: <http://example.linkeddata.es/instancias/> . 
+@base <http://example.linkeddata.es/> . 
+
+<TriplesMapCity>
+	a rr:TriplesMap;
+
+	rr:logicalTable [ rr:tableName "City"];
+
+	rr:subjectMap [ rr:termType rr:IRI;
+		rr:template "http://example.linkeddata.es/instancias/City/{ID}";
+		rr:class vocabulario:City
+	];
+
+	rr:predicateObjectMap [
+		 rr:predicateMap [ rr:constant vocabulario:hasName ];
+		 rr:objectMap    [ rr:termType rr:Literal; rr:column "Name"; ];
+	];
+
+	rr:predicateObjectMap [
+		 rr:predicateMap [ rr:constant vocabulario:hasPopulation ];
+		 rr:objectMap    [ rr:termType rr:Literal; rr:column "Population"; ];
+	];
+
+	rr:predicateObjectMap [
+		 rr:predicateMap [ rr:constant vocabulario:hasDistrict ];
+		 rr:objectMap    [ rr:termType rr:Literal; rr:column "District"; ];
+	]
+.
+
+<TriplesMapCountry>
+	a rr:TriplesMap;
+
+	rr:logicalTable [ rr:tableName ”Country”];
+
+	rr:subjectMap [
+		rr:template "http://example.linkeddata.es/instancias/Country/{Code}";
+		rr:class vocabulario:Country
+	];
+
+	rr:predicateObjectMap [
+		 rr:predicateMap [ rr:constant vocabulario:hasName ];
+		 rr:objectMap    [ rr:termType rr:Literal; rr:column "Name"; ];
+	];
+
+	rr:predicateObjectMap [
+		 rr:predicateMap [ rr:constant vocabulario:hasPopulation ];
+		 rr:objectMap    [ rr:termType rr:Literal; rr:column "Population"; ];
+	];
+.
+
+<TriplesMapCountryLanguage>
+	a rr:TriplesMap;
+
+	rr:logicalTable [ rr:tableName ”CountryLanguage”];
+
+	rr:subjectMap [ rr:termType rr:IRI;
+		rr:template "http://example.linkeddata.es/instancias/CountryLanguage/{Language}";
+		rr:class vocabulario:City
+	];
+
+	rr:predicateObjectMap [
+		 rr:predicateMap [ rr:constant vocabulario:isOfficialLanguage ];
+		 rr:objectMap    [ rr:termType rr:Literal; rr:column "IsOfficial"; ];
+	];
+
+	rr:predicateObjectMap [
+		 rr:predicateMap [ rr:constant vocabulario:hasPercentage ];
+		 rr:objectMap    [ rr:termType rr:Literal; rr:column "Percentage"; ];
+	]
+.

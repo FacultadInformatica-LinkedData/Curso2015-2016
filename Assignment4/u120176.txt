@@ -1,0 +1,124 @@
+David López Concha u120176
+
+1.Obtener todas las clases:
+
+SELECT DISTINCT ?Class WHERE {
+?Class a rdfs:Class.
+}
+
+2.Obtener las subclases de la clase Establishment:
+
+PREFIX pr: <http://GP-onto.fi.upm.es/exercise2#> 
+
+SELECT DISTINCT ?subClass WHERE { 
+ ?subClass rdfs:subClassOf pr:Establishment. 
+}
+
+3. Obtener las instancias de la clase City:
+
+PREFIX pr: <http://GP-onto.fi.upm.es/exercise2#> 
+
+SELECT DISTINCT ?instancias WHERE { 
+ ?instancias a  pr:City. 
+}
+
+4. Obtener el numero de habitantes de Santiago de Compostela:
+
+PREFIX pr: <http://GP-onto.fi.upm.es/exercise2#>
+
+SELECT ?numero WHERE {
+ pr:Santiago_de_Compostela pr:hasInhabitantNumber ?numero. }
+ 
+5.Obtener el numero de habitantes de Santiago de Compostela y de Arzua
+
+PREFIX pr: <http://GP-onto.fi.upm.es/exercise2#>
+
+SELECT ?numero WHERE {
+ {pr:Santiago_de_Compostela pr:hasInhabitantNumber ?numero.} 
+ UNION 
+ {pr:Arzua pr:hasInhabitantNumber ?numero.}
+}
+
+6. Obtener distintos lugares con numero de habitantes, ordenar los resultados por el nombre del lugar (ascendente):
+
+PREFIX pr: <http://GP-onto.fi.upm.es/exercise2#>
+
+SELECT ?lugar, ?numero WHERE {
+ {?lugar pr:hasInhabitantNumber ?numero.} 
+}ORDER BY ASC(?lugar)
+
+
+7. Obtener todas las instancias de Locality con su numero de habitantes:
+
+PREFIX pr: <http://GP-onto.fi.upm.es/exercise2#>
+
+select ?instancias ?numHab where {
+?instancias a ?instancia.
+?instancia rdfs:subClassOf pr:Locality.
+OPTIONAL{?instancias pr:hasInhabitantNumber ?numHab}
+}
+
+8.Obtener todos los sitios con mas de 200000 habitantes:
+
+PREFIX pr: <http://GP-onto.fi.upm.es/exercise2#>
+
+select ?lugares  ?numHab where {
+?lugares pr:hasInhabitantNumber ?numHab
+FILTER(xsd:integer(?numHab)>200000)
+}	
+
+9.Obtener los datos postales de Pazo_Breogan (Calle, numero, localidad,provincia):
+
+
+PREFIX pr: <http://GP-onto.fi.upm.es/exercise2#>
+
+SELECT ?calle ?numero ?localidad ?provincia WHERE { 
+ pr:Pazo_Breogan pr:hasAddress ?direccion.
+ pr:Pazo_Breogan pr:isPlacedIn ?localidad.
+ ?direccion pr:hasStreet ?calle.
+ ?direccion pr:hasNumber ?numero.
+ ?localidad pr:inProvince ?provincia. 
+}
+
+10.Obtener las subclases de la clase Location:
+
+PREFIX pr: <http://GP-onto.fi.upm.es/exercise2#> 
+
+SELECT ?subclases WHERE { 
+ ?subclases rdfs:subClassOf pr:Location. 
+}
+
+11. Obtener las instancias de la clase Locality:
+
+PREFIX pr: <http://GP-onto.fi.upm.es/exercise2#>
+ 
+SELECT ?instancias  WHERE { 
+ ?instancias a pr:Locality.
+}
+
+12.Describir el recurso con rdfs:label "Madrid":
+
+PREFIX pr: <http://GP-onto.fi.upm.es/exercise2#>
+
+DESCRIBE ?recurso WHERE{
+?recurso rdfs:label "Madrid"
+}
+
+13. Construir el grafo RDF(S) que relaciona directamente todos los lugares 
+turísticos con sus respectivas provincias, usando una nueva propiedad llamada 
+”isIn”:
+
+PREFIX pr: <http://GP-onto.fi.upm.es/exercise2#> 
+
+CONSTRUCT {?lugar pr:isIn ?provincia} where {
+ ?lugar pr:isPlacedIn ?lugar2.
+ ?lugar2 pr:inProvince ?provincia
+}
+
+14. Preguntar si hay alguna instancia de Town:
+
+PREFIX pr: <http://GP-onto.fi.upm.es/exercise2#> 
+
+ASK WHERE {
+ ?instance a pr:Town
+}

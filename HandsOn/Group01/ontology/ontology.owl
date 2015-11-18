@@ -1,92 +1,175 @@
-Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
-Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
-Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
-Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
-Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+<?xml version="1.0"?>
 
 
-Ontology(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF>
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
 
-Declaration(Class(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#Parkimeters>))
-Declaration(Class(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#Parking>))
-Declaration(Class(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#RecreationPark>))
-Declaration(Class(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#Street>))
-Declaration(Class(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#filmLocations>))
-Declaration(ObjectProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#parkimetersOnStreet>))
-Declaration(ObjectProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#parkingOnStreet>))
-Declaration(ObjectProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#recreationParkOnStreet>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#actorsFilm>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#capacidad>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#companyFilm>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#directorFilm>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#emailRecreationPark>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#escritorFilm>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#hasColor>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#hasLocation>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#idParkimeter>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#idParking>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#idRecreationPark>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#idStreet>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#nameRecreationPark>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#parkingType>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#propietarioParking>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#propietarioRecreationPark>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#recreationParkType>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#telefonoRecreationPark>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#tituloFilm>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#typeRecreationPark>))
-Declaration(DataProperty(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#yearFilm>))
-ObjectPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#parkimetersOnStreet> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#Parkimeters>)
-ObjectPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#parkimetersOnStreet> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#Street>)
-ObjectPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#parkingOnStreet> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#Parking>)
-ObjectPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#parkingOnStreet> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#Street>)
-ObjectPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#recreationParkOnStreet> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#RecreationPark>)
-ObjectPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#recreationParkOnStreet> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#Street>)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#actorsFilm> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#filmLocations>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#actorsFilm> xsd:string)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#capacidad> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#Parking>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#capacidad> xsd:int)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#companyFilm> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#filmLocations>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#companyFilm> xsd:string)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#directorFilm> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#filmLocations>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#directorFilm> xsd:string)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#emailRecreationPark> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#RecreationPark>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#emailRecreationPark> xsd:string)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#escritorFilm> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#filmLocations>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#escritorFilm> xsd:string)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#hasColor> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#Parkimeters>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#hasColor> xsd:string)
-AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#hasLocation> "2 decimal numbers to GPS location")
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#hasLocation> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#Parkimeters>)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#hasLocation> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#Parking>)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#hasLocation> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#RecreationPark>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#hasLocation> xsd:string)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#idParkimeter> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#Parkimeters>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#idParkimeter> xsd:string)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#idParking> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#Parking>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#idParking> xsd:string)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#idRecreationPark> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#RecreationPark>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#idRecreationPark> xsd:string)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#idStreet> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#Parkimeters>)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#idStreet> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#Street>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#idStreet> xsd:string)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#nameRecreationPark> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#RecreationPark>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#nameRecreationPark> xsd:string)
-AnnotationAssertion(rdfs:comment <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#parkingType> "Tipo de parking, publico, de pago...")
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#parkingType> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#Parking>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#parkingType> xsd:string)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#propietarioParking> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#Parking>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#propietarioParking> xsd:string)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#propietarioRecreationPark> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#RecreationPark>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#propietarioRecreationPark> xsd:string)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#recreationParkType> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#RecreationPark>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#recreationParkType> xsd:string)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#telefonoRecreationPark> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#RecreationPark>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#telefonoRecreationPark> xsd:string)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#tituloFilm> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#filmLocations>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#tituloFilm> xsd:string)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#typeRecreationPark> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#RecreationPark>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#typeRecreationPark> xsd:string)
-DataPropertyDomain(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#yearFilm> <http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#filmLocations>)
-DataPropertyRange(<http://www.semanticweb.org/dell/ontologies/2015/9/parkingSF#yearFilm> xsd:int)
-)
+
+<rdf:RDF xmlns="http:/www.linkedDataG1.es#"
+     xml:base="http:/www.linkedDataG1.es"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http:/www.linkedDataG1.es"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http:/www.linkedDataG1.es#estaLocalizado -->
+
+    <owl:ObjectProperty rdf:about="http:/www.linkedDataG1.es#estaLocalizado">
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Place"/>
+        <rdfs:range rdf:resource="http:/www.linkedDataG1.es#Street"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http:/www.linkedDataG1.es#parkimeterAddress -->
+
+    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es#parkimeterAddress">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Parkimeters"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http:/www.linkedDataG1.es#parkimeterColor -->
+
+    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es#parkimeterColor">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Parkimeters"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http:/www.linkedDataG1.es#parkimeterCoordinates -->
+
+    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es#parkimeterCoordinates">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Parkimeters"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http:/www.linkedDataG1.es#parkimeterId -->
+
+    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es#parkimeterId">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Parkimeters"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http:/www.linkedDataG1.es#parkingAddress -->
+
+    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es#parkingAddress">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Parking"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http:/www.linkedDataG1.es#parkingCapacity -->
+
+    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es#parkingCapacity">
+        <rdfs:range rdf:resource="&xsd;int"/>
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Parking"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http:/www.linkedDataG1.es#parkingCoordinates -->
+
+    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es#parkingCoordinates">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Parking"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http:/www.linkedDataG1.es#parkingId -->
+
+    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es#parkingId">
+        <rdfs:range rdf:resource="&xsd;int"/>
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Parking"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http:/www.linkedDataG1.es#parkingOwner -->
+
+    <owl:DatatypeProperty rdf:about="http:/www.linkedDataG1.es#parkingOwner">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="http:/www.linkedDataG1.es#Parking"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http:/www.linkedDataG1.es#Parkimeters -->
+
+    <owl:Class rdf:about="http:/www.linkedDataG1.es#Parkimeters">
+        <rdfs:subClassOf rdf:resource="http:/www.linkedDataG1.es#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http:/www.linkedDataG1.es#Parking -->
+
+    <owl:Class rdf:about="http:/www.linkedDataG1.es#Parking">
+        <rdfs:subClassOf rdf:resource="http:/www.linkedDataG1.es#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http:/www.linkedDataG1.es#Place -->
+
+    <owl:Class rdf:about="http:/www.linkedDataG1.es#Place"/>
+    
+
+
+    <!-- http:/www.linkedDataG1.es#Street -->
+
+    <owl:Class rdf:about="http:/www.linkedDataG1.es#Street"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

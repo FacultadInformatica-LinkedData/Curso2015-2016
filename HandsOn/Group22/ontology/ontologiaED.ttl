@@ -241,6 +241,22 @@
 
 
 
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey
+
+:hasIdKey rdf:type owl:ObjectProperty ;
+          
+          rdfs:label "Tiene Clave Id" ;
+          
+          rdfs:domain :Actividad ,
+                      :EspacioDeportivo ;
+          
+          rdfs:range [ rdf:type owl:Restriction ;
+                       owl:onProperty owl:topDataProperty ;
+                       owl:someValuesFrom xsd:int
+                     ] .
+
+
+
 ###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasLatitude
 
 :hasLatitude rdf:type owl:ObjectProperty ;

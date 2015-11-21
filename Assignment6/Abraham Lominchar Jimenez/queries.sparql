@@ -1,0 +1,62 @@
+- How many accidents were there in Madrid in 2013?
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+select (SUM(?accidentes) AS ?nAccidentes)
+where {
+    ?obs a qb:Observation ;
+    mv:numberOfAccidents ?accidents. 
+}
+
+-Give me the number of accidents in Usera for each type of accident.
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT ?x (xsd:integer(?y) AS ?nAccidents) WHERE {
+?obs a qb:Observation;
+ mv:relatedDistrict "USERA";
+ mv:hasAccidentType ?x;
+ mv:numberOfAccidents ?y.
+}
+
+-Give me the number of multiple collisions for each district
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT ?x (xsd:integer(?y) AS ?nCollisions) WHERE {
+?obs a qb:Observation;
+ mv:relatedDistrict ?x;
+ mv:hasAccidentType mv:MultipleCollision;
+ mv:numberOfAccidents ?y.
+}
+
+-Which is the district where the number of bicycle falls was higher in 2013?
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT ?x WHERE {
+?obs a qb:Observation;
+ mv:relatedDistrict ?x;
+ mv:hasAccidentType mv:BicycleFall;
+ mv:numberOfAccidents ?y.
+} ORDER BY DESC(?y) LIMIT 1
+
+-Give me the districts with more than 500 accidents in 2013
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT ?x ?nAccidents WHERE {
+ {
+  SELECT ?x SUM(xsd:integer(?y)) AS ?nAccidents WHERE {
+   ?obs a qb:Observation;
+   mv:relatedDistrict ?x;
+   mv:numberOfAccidents ?y.
+  }
+ } FILTER (?nAccidents > 500)
+}

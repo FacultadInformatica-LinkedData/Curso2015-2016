@@ -1,0 +1,110 @@
+#Query 1
+prefix mn:<http://example.org/resources/>
+prefix mv:<http://example.org/myVocabulary#>
+prefix qb:<http://purl.org/linked-data/cube#>
+SELECT (SUM(?x) AS ?total) WHERE {
+?obs a qb:Observation ;
+	mv:relatedDistrict ?district ;
+	mv:hasAccidentType ?type ;
+	mv:numberOfAccidents ?x ;
+	qb:dataSet mn:MyDataset .
+} LIMIT 100
+
+#Resultados
+total
+11749
+
+
+
+#Query 2
+prefix mn:<http://example.org/resources/>
+prefix mv:<http://example.org/myVocabulary#>
+prefix qb:<http://purl.org/linked-data/cube#>
+SELECT ?type ?x WHERE {
+?obs a qb:Observation ;
+	mv:relatedDistrict "USERA" ;
+	mv:hasAccidentType ?type ;
+	mv:numberOfAccidents ?x ;
+	qb:dataSet mn:MyDataset .
+} LIMIT 100
+
+#Resultados
+type							x
+http://example.org/myVocabulary#DoubleCollision		"204"^^<http://www.w3.org/2001/XMLSchema#int>
+http://example.org/myVocabulary#MultipleCollision	"28"^^<http://www.w3.org/2001/XMLSchema#int>
+http://example.org/myVocabulary#CollisionWithObject	"70"^^<http://www.w3.org/2001/XMLSchema#int>
+http://example.org/myVocabulary#RunOver			"59"^^<http://www.w3.org/2001/XMLSchema#int>
+http://example.org/myVocabulary#Overturn		"2"^^<http://www.w3.org/2001/XMLSchema#int>
+http://example.org/myVocabulary#MotorcycleFall		"13"^^<http://www.w3.org/2001/XMLSchema#int>
+http://example.org/myVocabulary#MopedFall		"5"^^<http://www.w3.org/2001/XMLSchema#int>
+http://example.org/myVocabulary#BicycleFall		"1"^^<http://www.w3.org/2001/XMLSchema#int>
+http://example.org/myVocabulary#BusPassengerFall	"3"^^<http://www.w3.org/2001/XMLSchema#int>
+http://example.org/myVocabulary#OtherCause		"2"^^<http://www.w3.org/2001/XMLSchema#int>
+
+
+
+#Query 3
+prefix mn:<http://example.org/resources/>
+prefix mv:<http://example.org/myVocabulary#>
+prefix qb:<http://purl.org/linked-data/cube#>
+SELECT ?district ?x WHERE {
+?obs a qb:Observation ;
+	mv:relatedDistrict ?district ;
+	mv:hasAccidentType mv:MultipleCollision ;
+	mv:numberOfAccidents ?x ;
+	qb:dataSet mn:MyDataset .
+} LIMIT 100
+
+#Resultados
+district		x
+ARGANZUELA		"50"^^<http://www.w3.org/2001/XMLSchema#int>
+BARAJAS			"4"^^<http://www.w3.org/2001/XMLSchema#int>
+CARABANCHEL		"40"^^<http://www.w3.org/2001/XMLSchema#int>
+CENTRO			"33"^^<http://www.w3.org/2001/XMLSchema#int>
+CHAMARTIN		"82"^^<http://www.w3.org/2001/XMLSchema#int>
+CHAMBERI		"30"^^<http://www.w3.org/2001/XMLSchema#int>
+CIUDAD LINEAL		"52"^^<http://www.w3.org/2001/XMLSchema#int>
+FUENCARRAL-EL PARDO	"42"^^<http://www.w3.org/2001/XMLSchema#int>
+HORTALEZA		"18"^^<http://www.w3.org/2001/XMLSchema#int>
+LATINA			"29"^^<http://www.w3.org/2001/XMLSchema#int>
+MONCLOA-ARAVACA		"65"^^<http://www.w3.org/2001/XMLSchema#int>
+MORATALAZ		"14"^^<http://www.w3.org/2001/XMLSchema#int>
+PUENTE DE VALLECAS	"37"^^<http://www.w3.org/2001/XMLSchema#int>
+RETIRO			"59"^^<http://www.w3.org/2001/XMLSchema#int>
+SALAMANCA		"70"^^<http://www.w3.org/2001/XMLSchema#int>
+SAN BLAS		"16"^^<http://www.w3.org/2001/XMLSchema#int>
+TETUAN			"35"^^<http://www.w3.org/2001/XMLSchema#int>
+USERA			"28"^^<http://www.w3.org/2001/XMLSchema#int>
+VICALVARO		"4"^^<http://www.w3.org/2001/XMLSchema#int>
+VILLA DE VALLECAS	"4"^^<http://www.w3.org/2001/XMLSchema#int>
+VILLAVERDE		"11"^^<http://www.w3.org/2001/XMLSchema#int>
+
+
+
+#Query 4
+prefix mn:<http://example.org/resources/>
+prefix mv:<http://example.org/myVocabulary#>
+prefix qb:<http://purl.org/linked-data/cube#>
+SELECT ?districtMax WHERE {
+?obsMax a qb:Observation ;
+   mv:relatedDistrict ?districtMax ;
+   mv:hasAccidentType  mv:BicycleFall;
+   mv:numberOfAccidents ?max ;
+   qb:dataSet mn:MyDataset .
+   {
+      SELECT (MAX(?x) AS ?max) WHERE {
+      ?obs a qb:Observation ;
+   	   mv:relatedDistrict ?district ;
+   	   mv:hasAccidentType mv:BicycleFall ;
+	   mv:numberOfAccidents ?x ;
+	   qb:dataSet mn:MyDataset .
+      } LIMIT 100
+   }
+} LIMIT 100
+
+#Resultados
+districtMax
+FUENCARRAL-EL PARDO
+MONCLOA-ARAVACA
+SAN BLAS
+

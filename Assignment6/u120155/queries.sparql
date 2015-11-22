@@ -1,0 +1,73 @@
+
+#Prefix
+
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+prefix sdmx: <http://purl.org/linked-data/sdmx#> 
+prefix mn: <http://example.org/resources/> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix mv: <http://example.org/myVocabulary#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix qb: <http://purl.org/linked-data/cube#> 
+prefix skos: <http://www.w3.org/2004/02/skos/core#> 
+
+
+
+
+#Query 1 - How many accidents were there in Madrid in 2013?
+
+SELECT (SUM(?n)) WHERE {
+?obs a qb:Observation;
+    mv:numberOfAccidents ?n .
+} 
+
+
+
+
+#Query 2 - Give me the number of accidents in Usera for each type of accident
+
+SELECT ?n ?tipo WHERE {
+?obs a qb:Observation;
+    mv:numberOfAccidents ?n ;
+    mv:hasAccidentType ?tipo ;
+    mv:relatedDistrict "USERA"  .
+} 
+
+
+
+
+#Query 3 - Give me the number of multiple collisions for each district 
+
+SELECT ?n ?distrito WHERE {
+?obs a qb:Observation;
+    mv:numberOfAccidents ?n ;
+    mv:hasAccidentType mv:MultipleCollision ;
+    mv:relatedDistrict ?distrito  .
+} 
+
+
+
+
+#Query 4 - Which is the district were the number of bicycle falls was higher in 2013? 
+
+SELECT ?distrito MAX(?n) WHERE {
+?obs a qb:Observation;
+    mv:numberOfAccidents ?n;
+    mv:hasAccidentType mv:BicycleFall ;
+    mv:relatedDistrict ?distrito .
+} ORDER BY DESC(?n) LIMIT 1
+
+
+
+
+#Query 5 - Give me the districts with more than 500 accidents in 2013
+
+SELECT ?distrito
+WHERE{
+   	?obs a qb:Observation;
+   	mv:relatedDistrict ?distrito;
+   	mv:numberOfAccidents ?n.
+   	FILTER(? > 500).
+}

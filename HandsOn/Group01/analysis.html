@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Hand-on_Assignment2</title>
+  </head>
+    <body>
+    	<h1>Analyse Data Set</h1>
+
+	<h4>Off-Street parking lots and parking garages</h4>
+	<table border="10" style="width:100%">
+            <tr>
+                <th>Columna</th>
+                <th>Tipo</th>
+                <th>Rango</th>
+                <th>Comentarios</th>
+            </tr>
+            <tr>
+                <td>parkingId</td>
+                <td>int</td>
+                <td>0-n</td>
+                <td>campo autogenerado en exel para generar recursos Parking, con su identificador único</td>
+            </tr>
+	    <tr>
+                <td>parkingOwner</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+	    <tr>
+                <td>parkingAddress</td>
+                <td>String</td>
+                <td></td>
+                <td>Nos sirve para lincar los datos. Para seguir el mismo patrón que en el nombre de la calle en el datasheet de "Parking_meters" hemos utilizado la expresion [toLowercase(replace(value," ","_").substring(length(split(value," ")[0]+1),length(value)))] en lodrefine. También hemos sustituidos expresiones "street" por "ST" y "avenue" por "AVE" para seguir la nomenclatura.</td>
+            </tr>
+	    <tr>
+                <td>parkingCapacity</td>
+                <td>int</td>
+                <td>10-9000</td>
+                <td>Hemos eliminado datos atípicos tras analizarlos con lodrefine. Capacidad = 0</td>
+            </tr>
+	    <tr>
+                <td>parkingCoordinates</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table> 
+
+	<h4>Parking_meters</h4>
+	<table border="10" style="width:100%">
+            <tr>
+                <th>Columna</th>
+                <th>Tipo</th>
+                <th>Rango</th>
+                <th>Comentarios</th>
+            </tr>
+            <tr>
+                <td>parkimeterId</td>
+                <td>String</td>
+                <td></td>
+                <td>Identificador único. Uno por recurso</td>
+            </tr>
+            <tr>
+                <td>parkimeterColor</td>
+                <td>String</td>
+                <td>{Black,Brown,Green,Grey,Purple,Red,Yellow}</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>parkimeterAddress</td>
+                <td>String</td>
+                <td></td>
+                <td>Nos sirve para lincar los datos. Para seguir el mismo patrón que en el nombre de la calle en el datasheet de "Off-Street parking lots and parking garages" hemos utilizado la expresion [toLowercase(replace(value," ","_"))] en lodrefine.</td>
+            </tr>
+            <tr>
+                <td>parkimeterCoordinates</td>
+                <td>String</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table> 
+
+		
+        <h1>Analyse Licensing of the Data Source</h1>
+
+	Estos datasheet pertecen a una organización liderada por Joy Bonaguro. Se puede obtener más información acerca de los miembros de la organización en el siguiente 		link: <a target="_blank" href="http://datasf.org/about/">Info Organización</a><br><br>
+	
+        La licencia de los datos que vamos a utilizar en nuestro proyecto es "Creative Commons 1.0 Universal". Es una licencia de datos abiertos.<br>
+	La persona que ha asociado una obra a ésta licencia ha dedicado la misma al dominio publico, liberándola de forma mundial y en la medida que lo permita la ley, 	de todos sus derechos de propiedad intelectual, incluyendo todos los derechos conexos.<br> 
+	Esta licencia permite  distribuir, usar, mezclar, modificar y construir a partir de dicho  objeto,  también  con  fines  comerciales,  siempre  que  se reconozca 		la autoría de la creación original.<br><br>
+
+	Una vez finalizado nuestro proyecto la idea es seleccionar una licencia de datos abiertos. 
+
+        
+        
+        <h1>Define Resource Naming Strategy</h1>
+	
+	El nivel superior en nuestra estretegia de nombrado de recursos es: www.linkedDataG1.es<br></br>
+ 	
+	Para el nombrado de recursos, utilizamos en la generación de la uri el id, debido a que la uri tiene que ser única, y los demás campos del datashet se repiten en diferentes filas. 
+
+	<table border="10" style="width:100%">
+            <tr>
+                <th>Entities</th>
+                <th>Uri</th>
+            </tr>
+            <tr>
+                <td>Parking</td>
+                <td>www.linkedDataG1.es/resource/Parking/"parkingId"</td>
+            </tr>
+            <tr>
+                <td>Parkimeters</td>
+                <td>www.linkedDataG1.es/resource/Parkimeters/"parkimeterId"</td>
+            </tr>
+            <tr>
+                <td>Street</td>
+                <td>www.linkedDataG1.es/resource/Street/"nombre de la calle" (en minuscula y separado por _ en las uris no puede haber espacios)</td>
+            </tr>
+        </table> 
+
+	<table border="10" style="width:100%">
+            <tr>
+                <th>Object Properties</th>
+                <th>Uri</th>
+            </tr>
+            <tr>
+                <td>estaLocalizado</td>
+                <td>www.linkedDataG1.es/estaLocalizado#estaLocalizado</td>
+            </tr>
+        </table> 
+
+	<table border="10" style="width:100%">
+            <tr>
+                <th>Data Properties</th>
+                <th>Uri</th>
+            </tr>
+            <tr>
+                <td>parkimeterAddress</td>
+                <td>www.linkedDataG1.es/parkimeterAddress#parkimeterAddress</td>
+            </tr>
+            <tr>
+                <td>parkimeterColor</td>
+                <td>www.linkedDataG1.es/parkimeterColor#parkimeterColor</td>
+            </tr>
+            <tr>
+                <td>parkimeterCoordinates</td>
+                <td>www.linkedDataG1.es/parkimeterCoordinates#parkimeterCoordinates</td>
+            </tr>
+            <tr>
+                <td>parkimeterId</td>
+                <td>www.linkedDataG1.es/parkimeterId#parkimeterId</td>
+            </tr>
+            <tr>
+                <td>parkingAddress</td>
+                <td>www.linkedDataG1.es/parkingAddress#parkingAddress</td>
+            </tr>
+            <tr>
+                <td>parkingCapacity</td>
+                <td>www.linkedDataG1.es/parkingCapacity#parkingCapacity</td>
+            </tr>
+            <tr>
+                <td>parkingCoordinates</td>
+                <td>www.linkedDataG1.es/parkingCoordinates#parkingCoordinates</td>
+            </tr>
+            <tr>
+                <td>parkingId</td>
+                <td>www.linkedDataG1.es/parkingId#parkingId</td>
+            </tr>
+            <tr>
+                <td>parkingOwner</td>
+                <td>www.linkedDataG1.es/parkingOwner#parkingOwner</td>
+            </tr>
+        </table> 
+	
+	
+    </body>
+</html>

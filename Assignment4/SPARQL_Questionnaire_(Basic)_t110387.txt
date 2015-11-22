@@ -1,0 +1,146 @@
+AUTOR: BORJA PEIRO VILLANUEVA
+
+Provide the SPARQL query and the result for the following queries expressed in natural language.
+
+-Get all the classes
+***********************************************************************************************
+select distinct ?Concept 
+where 
+{
+?x a ?Concept
+} LIMIT 100
+-----------------------------------------------------------------------------------------------
+
+-Get all the subclasses of the class Establishment
+***********************************************************************************************
+PREFIX org: <http://GP-onto.fi.upm.es/exercise2#>
+SELECT distinct ?subclasses 
+WHERE
+{
+?subclasses rdfs:subClassOf org:Establishment
+} LIMIT 100
+-----------------------------------------------------------------------------------------------
+
+-Get all instances of the class City
+***********************************************************************************************
+PREFIX org: <http://GP-onto.fi.upm.es/exercise2#> 
+SELECT distinct ?Ciudades 
+WHERE 
+{
+?Ciudades rdf:type org:City
+} LIMIT 100
+-----------------------------------------------------------------------------------------------
+
+-Get the number of inhabitants of Santiago de Compostela
+***********************************************************************************************
+PREFIX org: <http://GP-onto.fi.upm.es/exercise2#> 
+SELECT distinct ?numero_habitantes_Santiago_de_Compostela 
+WHERE 
+{
+org:Santiago_de_Compostela org:hasInhabitantNumber ?numero_habitantes_Santiago_de_Compostela
+} LIMIT 100
+-----------------------------------------------------------------------------------------------
+
+-Get the number of inhabitants of Santiago de Compostela and Arzua
+***********************************************************************************************
+PREFIX org: <http://GP-onto.fi.upm.es/exercise2#> 
+SELECT distinct ?numero_habitantes_Santiago_de_Compostela ?numero_habitantes_Arzua
+WHERE 
+{
+org:Santiago_de_Compostela org:hasInhabitantNumber ?numero_habitantes_Santiago_de_Compostela.
+org:Arzua org:hasInhabitantNumber ?numero_habitantes_Arzua
+} LIMIT 100
+-----------------------------------------------------------------------------------------------
+
+-Get all places, together with the number of inhabitants, ordered by the place name (ascending)
+***********************************************************************************************
+PREFIX org: <http://GP-onto.fi.upm.es/exercise2#> 
+SELECT distinct ?sitios ?habitantes
+WHERE 
+{
+?sitios org:hasInhabitantNumber ?habitantes
+} ORDER BY ASC(?sitios)
+-----------------------------------------------------------------------------------------------
+
+-Get all instances of Locality together with their number of inhabitants (if this information exists)
+***********************************************************************************************
+PREFIX org: <http://GP-onto.fi.upm.es/exercise2#> 
+SELECT distinct ?lugares ?habitantes
+WHERE 
+{
+?sitios rdfs:subClassOf org:Locality.
+?lugares rdf:type ?sitios
+OPTIONAL{?lugares org:hasInhabitantNumber ?habitantes}
+} LIMIT 100
+-----------------------------------------------------------------------------------------------
+
+-Get all places with more than 200.000 inhabitants
+***********************************************************************************************
+PREFIX org: <http://GP-onto.fi.upm.es/exercise2#> 
+SELECT distinct ?sitios ?habitantes 
+WHERE 
+{
+?sitios org:hasInhabitantNumber ?habitantes.
+FILTER ( xsd:integer(?habitantes) > xsd:integer("200000"))
+} 
+-----------------------------------------------------------------------------------------------
+
+-Get postal address data for Pazo_Breogan (street, number, locality, province)
+***********************************************************************************************
+PREFIX org: <http://GP-onto.fi.upm.es/exercise2#> 
+SELECT ?calle ?numero ?localidad ?provincia
+WHERE { 
+org:Pazo_Breogan org:hasAddress ?dir; 
+org:isPlacedIn ?localidad. 
+?localidad org:inProvince ?provincia. 
+?dir org:hasStreet ?calle; 
+org:hasNumber ?numero.
+}
+-----------------------------------------------------------------------------------------------
+
+-Get all subclasses of class Location
+***********************************************************************************************
+select distinct ?subclasses_Location
+where 
+{
+?subclasses_Location rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Location>.
+
+} LIMIT 100
+-----------------------------------------------------------------------------------------------
+
+-Get all instances of class Locality
+***********************************************************************************************
+select distinct ?instancia_Locality 
+where 
+{
+?subclasses_Location rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Locality>.
+?instancia_Locality rdf:type ?subclasses_Location
+} LIMIT 100
+-----------------------------------------------------------------------------------------------
+
+-Describe the resource with rdfs:label "Madrid”
+***********************************************************************************************
+select distinct ?recurso_Madrid 
+where 
+{
+?recurso_Madrid rdfs:label "Madrid"
+} LIMIT 100
+-----------------------------------------------------------------------------------------------
+
+-Construct a graph that relates directly all touristic places with their provinces, using a new property called ”isIn”
+***********************************************************************************************
+PREFIX org: <http://GP-onto.fi.upm.es/exercise2#>
+
+CONSTRUCT {?sitio org:isIn ?provincia}
+WHERE{
+    ?sitio org:isPlacedIn ?localidad.
+    ?localidad org:inProvince ?provincia.
+}
+-----------------------------------------------------------------------------------------------
+
+-Check whether there is any instance of Town
+***********************************************************************************************
+ASK {?instancia a <http://GP-onto.fi.upm.es/exercise2#Town>}
+-----------------------------------------------------------------------------------------------
+
+-The endpoint that you can use for this exercise is: http://sandbox.linkeddata.es/sparql and the graph is http://sandbox.linkeddata.es/Grado_20122013

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>An&aacute;lisis</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta name="title" content=""/>
+    <meta name="author" content="Grupo13"/>
+    <meta name="description" content=""/>
+    <style type="text/css">
+	body{
+		padding: 0 15px;
+	}
+	li{
+		padding-top:10px;
+		margin-left:40px;
+		
+	}
+    </style>
+  </head>
+  <body>
+      <div id="content">
+        <h1 class="title">Group 13</h1>
+        <div id="table-of-contents">
+          <h2>&Iacute;ndice</h2>
+          <div id="">
+            <ul>
+              <li><a href="#sec-1">1 An&aacute;lisis</a></li>
+              <li><a href="#sec-2">2 Licencia</a></li>
+              <li><a href="#sec-3">3 Estrategia</a></li>
+            </ul>
+          </div>
+        </div>
+    <div id="sec-1">
+     <h2>1. An&aacute;lisis</h2>	
+	 <ul>Del total de datasets a utilizar, hay dos tipos diferentes. 
+	 <li>Por un lado, est&aacute;n los siguientes datasets: </li>
+	 <li>200761-0-parques-jardines.csv - Parques y jardines </li>
+	 <li>201105-0-turismo.csv - Oficinas de turismo </li>
+	 <li>201132-0-turismo.csv - Museos </li>
+	 <li>208862-7650180-ocio_salas.csv - Salas varias </li>
+	 <li>208862-7650164-ocio_salas.csv - Cines </li>
+	 <li>208862-7650046-ocio_salas.csv - Teatros </li>
+	 <li>202105-0-mercadillos.csv - Mercadillos </li>
+	 <li>201544-0-centros-salud.csv - Centros m&eacute;dicos de salud </li>
+	 <li>202625-0-aparcamientos-publicos.csv - Parkings p&uacute;blicos </li>
+	 <li>206577-0-oficinas-turismo.csv - Embajadas y edificios del estilo </li>
+	 </ul>
+	 <ul>Todos estos datasets tienen la misma informaci&oacute;n: 
+	 <li>PK NOMBRE DESCRICION-ENTIDAD HORARIO EQUIPAMIENTO TRANSPORTE DESCRIPCION ACCESIBILIDAD CONTENT-URL NOMBRE-VIA CLASE-VIAL TIPO-NUM NUM PLANTA PUERTA ESCALERAS ORIENTACION LOCALIDAD PROVINCIA CODIGO-POSTAL BARRIO DISTRITO COORDENADA-X COORDENADA-Y LATITUD LONGITUD TELEFONO FAX EMAIL TIPO</li>
+ </ul>
+	 <ul>Por otro lado, est&aacute; este otro dataset:
+	 <li>turnosmadrid_guardia.csv - Farmacias y sus turnos de guardia </li>
+	 </ul>
+	 <ul>Con la siguiente informaci&oacute;n: 
+	 <li>Localidad Barrio Fecha Farmacia Direccion Duracion Telefono </li>
+	 </ul>
+	 <ul>A continuaci&oacute;n se procede a analizar los tipos de datos y sus posibles valores:
+	 <li>PK es la clave primaria.</li>
+	 <li>Nompe muestra el nompe del edificio, parque, etc.</li>
+	 <li>Descripci&oacute;n-Entidad y Descripci&oacute;n aportan informaci&oacute;n acerca del lugar.</li>
+	 <li>Horario y Duracion que indican los horarios de apertura.</li>
+	 <li>Equipamiento aporta informaci&oacute;n tambi&eacute;n acerca del lugar y su utilidad.</li>
+	 <li>Tranporte indica como llegar al sitio en transporte p&uacute;blico.</li>
+	 <li>Accesibilidad no muestra ninguna informaci&oacute;n relevante.</li>
+	 <li>Content-URL es un enlace a una p&aacute;gina web donde se muestra informaci&oacute;n acerca del lugar o edificio.</li>
+	 <li>Nompe-Via indica el nompe de la v&iacute;a.</li>
+	 <li>Clase-Vial indica el tipo de v&iacute;a.</li>
+	 <li>Tipo-Num indica el tipo de n&uacute;mero. Hay dos tipos: V para los portales y T para las direcciones de carreteras
+	 <li>Num indica el n&uacute;mero de la calle.</li>
+	 <li>Planta, puerta y escaleras aportan m&aacute;s informaci&oacute;n.</li>
+	 <li>Orientaci&oacute;n aporta una ligera descripci&oacute;n sope la direcci&oacute;n.</li>
+	 <li>Localidad, provincia, c&oacute;digo postal, barrio y distrito aporta informaci&oacute;n sope la situaci&oacute;n del lugar.</li>
+	 <li>Las coordenadas y la latitud y la longitud aportan informaci&oacute;n tambi&eacute;n sope la localizaci&oacute;n.</li>
+	 <li>Tel&eacute;fono y fax aportan lo que el nompe indica.</li>
+	 <li>Email aporta una direcci&oacute;n de correo de contacto.</li>
+	 <li>Tipo explica de que tipo de edificio se trata.</li>
+ </div>
+ 	<div id="sec-2">
+  	<h2>2. Licencia</h2>
+  	<p> El editor de la base de datos el titular de derechos y de la licencia de los conjuntos de datos es el Ayuntamiendo de Madrid.</p>
+  	<ul>Condiciones generales para la reutilizaci&oacute;n de los datos:
+  	  	<li>Est&aacute; prohibido desnaturalizar el sentido de la informaci&oacute;n.</li>
+  		<li>Debe citarse la fuente de los documentos objeto de la reutilizaci&oacute;n. Esta cita podr&aacute; realizarse de la siguiente manera "Origen de los datos: Ayuntamiento de Madrid (o, en su caso, &oacute;rgano administrativo, organismo o entidad de que se trate)"</li>
+  		<li>Debe mencionarse la fecha de la &uacute;ltima actualizaci&oacute;n de los documentos objeto de la reutilizaci&oacute;n, siempre y cuando estuviera incluida en el documento original.</li>
+  		<li>No se podr&aacute; indicar, insinuar o sugerir que el Ayuntamiento de Madrid participa, patrocina o apoya la reutilizaci&oacute;n que se lleve a cabo con la informaci&oacute;n.</li>
+  		<li>Deben conservarse, no alterarse ni suprimirse los metadatos sobre la fecha de actualizaci&oacute;n y las condiciones de reutilizaci&oacute;n aplicables incluidos, en su caso, en el documento puesto a disposici&oacute;n para su reutilizaci&oacute;n.</li>
+  		<li>En caso de informaci&oacute;n anonimizada por protecci&oacute;n de datos personales u otros motivos, est&aacute; expresamente prohibido realizar labores de re-identificaci&oacute;n de personas a partir de estos datos y otras fuentes de datos e informaci&oacute;n posibles, pasadas, actuales o futuras.</li>
+  	</ul>
+	</div>
+	
+ 	<div id="sec-3">
+  	<h2>3. Estrategia</h2>
+  	Hash URIs for ontological terms, slash URIs for individuals
+  	<p>Domain: http://datos.madrid.es/ </p>
+  	<ul>Ontological terms path: 
+  	<li>http://www.semanticweb.org/Group13/VisitingMadrid# </li>
+	</ul>
+  	<ul>Individuals path: 
+  	<li>http://www.semanticweb.org/Group13/resource/ </li>
+	</ul>
+  	<ul> Ontological terms pattern: 
+  	<li>http://www.semanticweb.org/Group13/VisitingMadrid#&ltterm_name> </li>
+  	</ul>
+	<ul>Individuals pattern:
+  	<li>http://www.semanticweb.org/Group13/resource/&ltresource_type>/&ltresource_name> </li>
+	</ul>
+	</div>
+	
+  </body>

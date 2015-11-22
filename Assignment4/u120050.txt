@@ -1,0 +1,195 @@
+#Autor: Pablo Armando Rodríguez Codes
+#Nº de matrícula: u120050
+
+#Consulta 1:
+select distinct ?class
+where {
+?x a ?class
+} LIMIT 100
+
+class
+http://www.w3.org/2000/01/rdf-schema#Class
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://GP-onto.fi.upm.es/exercise2#Road
+http://GP-onto.fi.upm.es/exercise2#Stretch
+http://GP-onto.fi.upm.es/exercise2#City
+http://GP-onto.fi.upm.es/exercise2#PhysicalPoint
+http://GP-onto.fi.upm.es/exercise2#Town
+http://GP-onto.fi.upm.es/exercise2#Stage
+http://GP-onto.fi.upm.es/exercise2#Location
+http://GP-onto.fi.upm.es/exercise2#Bicycle
+http://GP-onto.fi.upm.es/exercise2#Route
+http://GP-onto.fi.upm.es/exercise2#Cathedral
+http://GP-onto.fi.upm.es/exercise2#PostalAddress
+http://GP-onto.fi.upm.es/exercise2#RestaurationService
+http://GP-onto.fi.upm.es/exercise2#Palace
+
+
+#Consulta 2:
+select distinct ?subclass
+where {
+?subclass rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Establishment>
+} LIMIT 100
+
+subclass
+http://GP-onto.fi.upm.es/exercise2#Hostel
+http://GP-onto.fi.upm.es/exercise2#GuestHouse
+http://GP-onto.fi.upm.es/exercise2#Hotel
+
+
+#Consulta 3:
+select distinct ?city
+where {
+?city a <http://GP-onto.fi.upm.es/exercise2#City>
+} LIMIT 100
+
+city
+http://GP-onto.fi.upm.es/exercise2#ACoruC1a
+http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela
+http://GP-onto.fi.upm.es/exercise2#Madrid
+
+
+#Consulta 4:
+prefix e2:<http://GP-onto.fi.upm.es/exercise2#>
+select ?x
+where {
+e2:Santiago_de_Compostela e2:hasInhabitantNumber ?x
+} LIMIT 100
+
+x
+" 300000 "^^<http://www.w3.org/2001/XMLSchema#integer>
+
+
+#Consulta 5:
+prefix e2:<http://GP-onto.fi.upm.es/exercise2#>
+select ?x
+where {
+{e2:Santiago_de_Compostela e2:hasInhabitantNumber ?x}
+UNION
+{e2:Arzua e2:hasInhabitantNumber ?x}
+} LIMIT 100
+
+x
+" 300000 "^^<http://www.w3.org/2001/XMLSchema#integer>
+" 38900 "^^<http://www.w3.org/2001/XMLSchema#integer>
+
+
+#Consulta 6:
+prefix e2:<http://GP-onto.fi.upm.es/exercise2#>
+select ?place ?number
+where {
+?place e2:hasInhabitantNumber ?number .
+?place rdfs:label ?name
+} ORDER BY ?name ASC(?place)
+LIMIT 100
+
+place								number
+http://GP-onto.fi.upm.es/exercise2#Arzua			" 38900 "^^<http://www.w3.org/2001/XMLSchema#integer>
+http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela	" 300000 "^^<http://www.w3.org/2001/XMLSchema#integer>
+
+#Consulta 7:
+prefix e2:<http://GP-onto.fi.upm.es/exercise2#>
+select ?locality ?number
+where {
+{?locality a e2:Locality} UNION
+{?locality a ?subclass .
+?subclass rdfs:subClassOf e2:Locality} .
+OPTIONAL {?locality e2:hasInhabitantNumber ?number}
+} LIMIT 100
+
+locality							number
+http://GP-onto.fi.upm.es/exercise2#ACoruC1a	
+http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela	" 300000 "^^<http://www.w3.org/2001/XMLSchema#integer>
+http://GP-onto.fi.upm.es/exercise2#Madrid	
+http://GP-onto.fi.upm.es/exercise2#Arzua			" 38900 "^^<http://www.w3.org/2001/XMLSchema#integer>
+
+
+#Consulta 8:
+prefix e2:<http://GP-onto.fi.upm.es/exercise2#>
+select ?place
+where {
+?place e2:hasInhabitantNumber ?number .
+FILTER (xsd:integer(?number) > 200000)
+} LIMIT 100
+
+place
+http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela
+
+
+#Consulta 9:
+prefix e2:<http://GP-onto.fi.upm.es/exercise2#>
+select ?street ?number ?locality ?province
+where {
+e2:Pazo_Breogan e2:hasAddress ?address .
+?address e2:hasStreet ?street .
+?address e2:hasNumber ?number .
+e2:Pazo_Breogan e2:isPlacedIn ?locality .
+?locality e2:inProvince ?province
+} LIMIT 100
+
+street	number	locality					province
+C/Mayor	5	http://GP-onto.fi.upm.es/exercise2#Arzua	Pontevedra
+
+
+#Consulta 10:
+prefix e2:<http://GP-onto.fi.upm.es/exercise2#>
+select distinct ?subclass
+where {
+?subclass rdfs:subClassOf e2:Location
+} LIMIT 100
+
+subclass
+http://GP-onto.fi.upm.es/exercise2#LocationOfInterest
+
+
+#Consulta 11:
+prefix e2:<http://GP-onto.fi.upm.es/exercise2#>
+select distinct ?instance
+where {
+?instance a e2:Locality
+} LIMIT 100
+
+instance
+
+
+#Consulta 12:
+prefix e2:<http://GP-onto.fi.upm.es/exercise2#>
+describe ?resource
+where {
+?resource rdfs:label "Madrid"
+} LIMIT 100
+
+@prefix ns0:	<http://GP-onto.fi.upm.es/exercise2#> .
+ns0:GP_Santiago_Instance_72	ns0:hasEnd	ns0:Madrid .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+ns0:Madrid	rdf:type	ns0:City .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+ns0:Madrid	rdfs:label	"Madrid" ;
+	ns0:isLocatedAtPoint	ns0:GP_Santiago_Instance_74 ;
+	ns0:inProvince	"Madrid" .
+
+
+#Consulta 13:
+prefix e2:<http://GP-onto.fi.upm.es/exercise2#>
+construct {?touristicPlace e2:isIn ?province}
+where {
+{?touristicPlace a e2:TouristicLocation}
+UNION
+{?touristicPlace a ?subclass .
+ ?subclass rdfs:subClassOf e2:TouristicLocation} .
+?touristicPlace e2:isPlacedIn ?locality .
+?locality e2:inProvince ?province
+} LIMIT 100
+
+@prefix ns0:	<http://GP-onto.fi.upm.es/exercise2#> .
+ns0:Cathedral_Santiago_Compostela	ns0:isIn	"Pontevedra" .
+ns0:Pazo_Breogan	ns0:isIn	"Pontevedra" .
+
+
+#Consulta 14:
+prefix e2:<http://GP-onto.fi.upm.es/exercise2#>
+ask
+where { ?instance a e2:Town }
+
+true
+

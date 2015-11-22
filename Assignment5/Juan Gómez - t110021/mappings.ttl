@@ -1,0 +1,68 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix world: <http://semanticweb.linkeddata.es/world#> .
+@prefix my_instances: <http://semanticweb.linkeddata.es/instances/> .
+@base <http://semanticweb.linkeddata.es/> .
+
+<TriplesMapCity>
+	a rr:TriplesMap;
+
+	rr:logicalTable [ rr:tableName "City"];
+
+	rr:subjectMap [ rr:termType rr:IRI;
+		rr:template "http://semanticweb.linkeddata.es/instances/City/{ID}";
+		rr:class world:City
+	];
+
+	rr:predicateObjectMap [
+		 rr:predicateMap [ rr:constant world:hasName ];
+		 rr:objectMap    [ rr:termType rr:Literal; rr:column "Name"; ];
+	];
+
+	rr:predicateObjectMap [
+		 rr:predicateMap [ rr:constant world:hasPopulation ];
+		 rr:objectMap    [ rr:termType rr:Literal; rr:column "Population"; ];
+	];
+
+	rr:predicateObjectMap [
+		 rr:predicateMap [ rr:constant world:inDistrict ];
+		 rr:objectMap    [ rr:termType rr:Literal; rr:column "District"; ];
+	]
+.
+
+<TriplesMapCountry>
+	a rr:TriplesMap;
+
+	rr:logicalTable [ rr:tableName "Country"];
+
+	rr:subjectMap [ rr:termType rr:IRI;
+		rr:template "http://semanticweb.linkeddata.es/instances/Country/{Code}";
+		rr:class world:Country
+	];
+
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant world:hasName ];
+		rr:objectMap    [ rr:termType rr:Literal; rr:column "Name"; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant world:inContinent ];
+		rr:objectMap    [ rr:termType rr:Literal; rr:column "Continent"; ];
+	]
+.
+
+<TriplesMapCountry2>
+	a rr:TriplesMap;
+
+	rr:logicalTable [ rr:sqlQuery "SELECT Language,CountryCode FROM CountryLanguage"];
+
+
+	rr:subjectMap [ rr:termType rr:IRI;
+		rr:template "http://semanticweb.linkeddata.es/instances/Country/{CountryCode}";
+		rr:class world:Language
+	];
+
+	rr:predicateObjectMap [
+		rr:predicateMap [ rr:constant world:hasLanguage ];
+		rr:objectMap    [ rr:termType rr:Literal; rr:column "Language"; ];
+	]
+.

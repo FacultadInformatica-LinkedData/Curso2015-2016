@@ -1,0 +1,131 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+
+
+Ontology: <http://semanticweb.linkeddata.es/world#>
+
+
+Datatype: xsd:long
+
+    
+Datatype: xsd:float
+
+    
+Datatype: xsd:string
+
+    
+Datatype: xsd:boolean
+
+    
+ObjectProperty: <http://semanticweb.linkeddata.es/world#isLocated>
+
+    Domain: 
+        <http://semanticweb.linkeddata.es/world#isLocated> some <http://semanticweb.linkeddata.es/world#Country>
+    
+    
+DataProperty: <http://semanticweb.linkeddata.es/world#ID>
+
+    Domain: 
+        <http://semanticweb.linkeddata.es/world#City>
+    
+    Range: 
+        xsd:long
+    
+    
+DataProperty: <http://semanticweb.linkeddata.es/world#Language>
+
+    Domain: 
+        <http://semanticweb.linkeddata.es/world#CountryLanguage>
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: <http://semanticweb.linkeddata.es/world#Capital>
+
+    
+DataProperty: <http://semanticweb.linkeddata.es/world#District>
+
+    Domain: 
+        <http://semanticweb.linkeddata.es/world#City>
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: <http://semanticweb.linkeddata.es/world#IsOfficial>
+
+    Domain: 
+        <http://semanticweb.linkeddata.es/world#CountryLanguage>
+    
+    Range: 
+        xsd:boolean
+    
+    
+DataProperty: <http://semanticweb.linkeddata.es/world#Percentage>
+
+    Domain: 
+        <http://semanticweb.linkeddata.es/world#CountryLanguage>
+    
+    Range: 
+        xsd:float
+    
+    
+DataProperty: <http://semanticweb.linkeddata.es/world#CountryName>
+
+    Domain: 
+        <http://semanticweb.linkeddata.es/world#Country>
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: <http://semanticweb.linkeddata.es/world#CountryCode>
+
+    Domain: 
+        <http://semanticweb.linkeddata.es/world#CountryLanguage>
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: <http://semanticweb.linkeddata.es/world#Population>
+
+    Domain: 
+        <http://semanticweb.linkeddata.es/world#City>
+    
+    Range: 
+        xsd:long
+    
+    
+DataProperty: <http://semanticweb.linkeddata.es/world#Name>
+
+    Domain: 
+        <http://semanticweb.linkeddata.es/world#City>
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: <http://semanticweb.linkeddata.es/world#Code>
+
+    Domain: 
+        <http://semanticweb.linkeddata.es/world#Country>
+    
+    Range: 
+        xsd:string
+    
+    
+Class: <http://semanticweb.linkeddata.es/world#Country>
+
+    
+Class: <http://semanticweb.linkeddata.es/world#CountryLanguage>
+
+    
+Class: <http://semanticweb.linkeddata.es/world#City>
+
+    

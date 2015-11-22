@@ -1,0 +1,56 @@
+﻿<html lang="es">
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+	<title>Analysis</title>
+
+<body>
+<div id='titleGroup'> Analysis </div>
+</br>
+<div id='callejero'> Callejero </div>
+	<div id='contentGroupCallejero'> 
+		<ul>
+      <li> Nombre dataset: <a href='./csv/CALLEJERO_VIGENTE_BARRIOS_201510.csv'>CALLEJERO_VIGENTE_BARRIOS_201510</a> fecha: 12/03/2014</li>
+      	<li> Origen de datos:  <a href='http://datos.madrid.es/'>Ayuntamiento de Madrid</a>  <a href='http://datos.madrid.es/portal/site/egob/menuitem.619dfa2990e56405bb8d69f6ecd08a0c/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD'>Licencia</a></li>
+    </ul>
+		</ul>
+
+<table >
+      <tr ><th>Nombre Columna</th><th>Tipo</th><th>Rango</th><th>Comentarios</th><th>Problemas</th></tr>
+      <tr ><td>Codigo de barrio</td><td>String</td><td>1-9</td><td>Campo no unico </td><td>NA</td></tr>
+      <tr ><td>Codigo de distrito al que pertenece</td><td>String</td><td>1-21</td><td>Campo no unico</td><td>NA</td></tr>
+      <tr ><td>Nombre de barrio</td><td>String</td><td>NA</td><td>Campo unico, se puede utilizar como ID</td><td>NA</td></tr>
+      <tr ><td>Nombre acentuado del barrio</td><td>String</td><td>NA</td><td>Campo unico, se puede utilizar como ID</td><td>NA</td></tr>
+      <tr ><td>Superficie (m2)</td><td>Number</td><td>0 - 190.000.000</td><td>Campo no unico</td><td>Los valores normales van de 0-50.000.000 y supone un 99% el resto 1% presenta un valor de 187.642.916</td></tr>
+      <tr ><td>Perimetro (m)</td><td>Number</td><td>2.000-35.000</td><td>Campo no unico</td><td>NA</td></tr>
+    </table>
+
+
+	</div>
+
+	<div id='farmacias'> Farmacias 24h </div>
+	<div id='contentGroupFarmacias'> 
+		<ul>
+      <li> Nombre dataset: <a href='./csv/turnosmadrid_guardia.csv'>turnosmadrid_guardia</a> fecha: 04/05/2015</li>
+      	<li> Origen de datos:  <a href='http://datos.madrid.es/'>Ayuntamiento de Madrid</a>  <a href='http://datos.madrid.es/portal/site/egob/menuitem.619dfa2990e56405bb8d69f6ecd08a0c/?vgnextoid=b4c412b9ace9f310VgnVCM100000171f5a0aRCRD'>Licencia</a></li>
+    </ul>
+		</ul>
+
+<table >
+      <tr ><th>Nombre Columna</th><th>Tipo</th><th>Rango</th><th>Comentarios</th><th>Problemas</th></tr>
+      <tr ><td>Localidad</td><td>String</td><td>1</td><td>Campo unico valor MADRID</td><td>NA</td></tr>
+      <tr ><td>Barrio</td><td>String</td><td>NA</td><td>Campo no unico</td><td>NA</td></tr>
+      <tr ><td>Fecha</td><td>Date</td><td>01/10/2015-31/10/2015/td><td>Campo no unico</td><td>NA</td></tr>
+      <tr ><td>Farmacia</td><td>Number</td><td>NA</td><td>Campo no unico</td><td>El 99% de los valores estan entre el 0-3000 y el 1% se concentra en el 91.000 y 92.000</td></tr>
+      <tr ><td>Direccion</td><td>String</td><td>NA</td><td>Campo no unico</td><td>NA</td></tr>
+       <tr ><td>Duración</td><td>String</td><td>NA</td><td>Campo no unico</td><td>NA</td></tr>
+        <tr ><td>Teléfono</td><td>Number</td><td>2.000-35.000</td><td>Campo no unico</td><td>El 99% tienen valor pero el 1% es blank</td></tr>
+    </table>
+No hay ningun campo que pueda utilizarse como clave pero el identificador creado puede ser indicando la fecha con la farmacia.
+Este dataset tiene 
+
+	</div>
+
+</body>
+
+</html>

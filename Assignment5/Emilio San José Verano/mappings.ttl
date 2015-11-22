@@ -1,0 +1,106 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1#> .
+@prefix rev: <http://purl.org/stuff/rev#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1#> .
+@prefix ex: <http://example.com> .
+
+@base <http://mappingpedia.org/rdb2rdf/r2rml/tc/> .
+
+<#TriplesMap1>
+	a rr:TriplesMap;
+
+	rr:logicalTable [ 
+		rr:tableName "Country"; 
+	];
+
+	rr:subjectMap [
+		rr:template "http://example.com/Country/{Code}";
+		rr:termType rr:IRI;
+		rr:class <http://example.com/Country>;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://example.com/Country#code>;
+		rr:objectMap [ rr:column "Code"; rr:datatype xsd:string; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://example.com/Country#name>;
+		rr:objectMap [ rr:column "Name"; rr:datatype xsd:string; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://example.com/Country#continent>;
+		rr:objectMap [ rr:column "Continent"; rr:datatype ex:unknownDataType; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://example.com/Country#region>;
+		rr:objectMap [ rr:column "Region"; rr:datatype xsd:string; ];
+	].
+
+<#TriplesMap2>
+	a rr:TriplesMap;
+
+	rr:logicalTable [ 
+		rr:tableName "City"; 
+	];
+
+	rr:subjectMap [
+		rr:template "http://example.com/City/{ID}";
+		rr:termType rr:IRI;
+		rr:class <http://example.com/City>;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://example.com/City#id>;
+		rr:objectMap [ rr:column "ID"; rr:datatype xsd:integer; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://example.com/City#name>;
+		rr:objectMap [ rr:column "Name"; rr:datatype xsd:string; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://example.com/City#countrycode>;
+		rr:objectMap [ rr:column "CountryCode"; rr:datatype xsd:string; ];
+	].
+
+<#TriplesMap3>
+	a rr:TriplesMap;
+
+	rr:logicalTable [ 
+		rr:tableName "CountryLanguage"; 
+	];
+
+	rr:subjectMap [
+		rr:template "http://example.com/CountryLanguage/{CountryCode}/CountryLanguage/{Language}";
+		rr:termType rr:IRI;
+		rr:class <http://example.com/CountryLanguage>;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://example.com/CountryLanguage#countrycode>;
+		rr:objectMap [ rr:column "CountryCode"; rr:datatype xsd:string; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://example.com/CountryLanguage#language>;
+		rr:objectMap [ rr:column "Language"; rr:datatype xsd:string; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://example.com/CountryLanguage#isofficial>;
+		rr:objectMap [ rr:column "IsOfficial"; rr:datatype ex:unknownDataType; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://example.com/CountryLanguage#percentage>;
+		rr:objectMap [ rr:column "Percentage"; rr:datatype xsd:double; ];
+	].

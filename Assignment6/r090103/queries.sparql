@@ -1,0 +1,69 @@
+#1.- How many accidents were there in Madrid in 2013?
+
+PREFIX property: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>  
+SELECT (SUM(?x) AS ?accidentInMadrid) WHERE { 
+   ?obs a qb:Observation ; 
+   property:numberOfAccidents ?x. 
+} 
+
+#2.- Give me the number of accidents in Usera for each type of
+accident
+
+PREFIX property: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>  
+SELECT (SUM(xsd:int(?x)) AS ?accidentsInUsera) ?accidentType WHERE {  
+  ?obs a qb:Observation ; 
+  property:hasAccidentType ?accidentType;
+  property:relatedDistrict "USERA";
+  property:numberOfAccidents ?x.
+} 
+
+#3.- Give me the number of multiple collisions for each district
+
+PREFIX property: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>  
+SELECT (SUM(xsd:int(?x)) AS ?multipleCollisionsDistrict) ?districtType WHERE {  
+  ?obs a qb:Observation ; 
+  property:relatedDistrict ?districtType;
+  property:hasAccidentType property:MultipleCollision;
+  property:numberOfAccidents ?x.
+} GROUP BY (?districtType)
+
+#4.- Which is the district were the number of bicycle falls was
+higher in 2013?
+
+PREFIX property: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT (SUM(xsd:int(?x)) AS ?numBicycleFalls) ?distritType WHERE { 
+  ?obs a qb:Observation ; 
+  property:relatedDistrict ?distritType; 
+  property:hasAccidentType property:BicycleFall ;
+  property:numberOfAccidents ?x. 
+  {
+    SELECT (MAX(?numBicycleFalls) AS ?maxBicycleFalls) WHERE {
+    {
+      SELECT (SUM(xsd:int(?y)) AS ?numBicycleFalls) WHERE { 
+        ?obs a qb:Observation ; 
+          property:relatedDistrict ?distritType; 
+          property:hasAccidentType property:BicycleFall ;
+          property:numberOfAccidents ?y. 
+      }GROUP BY (?distritType)
+    }    
+  }
+}FILTER (?x=?maxBicycleFalls)
+}GROUP BY (?distritType)
+
+#5.- Give me the districts with more than 500 accidents in 2013
+
+PREFIX property: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT ?districtType ?numAccidents WHERE {
+{
+  SELECT (SUM(xsd:int(?numAccidents)) AS ?numAccidents) ?districtType WHERE {
+    ?obs a qb:Observation ;
+    property:numberOfAccidents ?numAccidents;
+    property:relatedDistrict ?districtType.
+    }
+  }FILTER(?numAccidents > 500)	
+}

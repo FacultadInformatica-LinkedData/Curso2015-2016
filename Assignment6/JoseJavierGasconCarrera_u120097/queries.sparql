@@ -1,0 +1,60 @@
+#0) Prefijus común a las queries:
+PREFIX exmv: <http://example.org/myVocabulary#> 
+PREFIX cube: <http://purl.org/linked-data/cube#>  
+
+
+#1) How many accidents were there in Madrid in 2013?:
+
+SELECT SUM(?acc) as ?accidentes
+WHERE {
+	?typeAcc exmv:numberOfAccidents ?acc
+}
+
+
+#2) Give me the number of accidents in Usera for each type of accident:
+
+SELECT (?tipoAccidente) (xsd:int(?n) as ?nAccidentes)
+WHERE {
+	?tipoAccidente exmv:relatedDistrict "USERA".
+	?tipoAccidente exmv:numberOfAccidents ?n.
+}
+
+
+#3) Give me the number of multiple collisions for each district
+
+SELECT (?d as ?distrito) (xsd:int(?n) as ?nColisionesMultiples)
+WHERE {
+	?o a cube:Observation;
+		exmv:hasAccidentType exmv:MultipleCollision;
+		exmv:relatedDistrict ?d;
+		exmv:numberOfAccidents ?n.
+}
+
+
+#4) - Which is the district were the number of bicycle falls was higher in 2013? 
+
+SELECT (?d as ?distrito)
+WHERE {
+	?o a cube:Observation;
+		exmv:relatedDistrict ?d;
+		exmv:hasAccidentType exmv:BicycleFall;
+		exmv:numberOfAccidents ?n.
+		{ 	SELECT (MAX(?nAcc) as ?n)
+			WHERE {
+				?o a cube:Observation;
+					exmv:relatedDistrict ?d;
+					exmv:hasAccidentType exmv:BicycleFall;
+					exmv:numberOfAccidents ?nAcc.
+			}
+		}
+}
+
+#5) Give me the districts with more than 500 accidents in 2013:
+
+SELECT (?d as ?distrito)
+WHERE {
+	?o a cube:Observation;
+		exmv:relatedDistrict ?d;
+		exmv:numberOfAccidents ?n.
+	FILTER(xsd:int(?n) > 500)
+}

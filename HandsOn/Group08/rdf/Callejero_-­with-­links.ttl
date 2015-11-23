@@ -1,0 +1,575 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix onto: <http://www.semanticweb.org/GROUP08/FarmaciasDeGuardia#> .
+
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PALACIO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "PALACIO" ;
+	onto:nombre_barrio_acentuado "PALACIO" ;
+	onto:superficie "1471085"^^xsd:int ;
+	onto:perimetro "5754"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Episcopal_Palace,_Astorga> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/IMPERIAL> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "IMPERIAL" ;
+	onto:nombre_barrio_acentuado "IMPERIAL" ;
+	onto:superficie "967500"^^xsd:int ;
+	onto:perimetro "4557"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Imperial_District> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/RECOLETOS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "RECOLETOS" ;
+	onto:nombre_barrio_acentuado "RECOLETOS" ;
+	onto:superficie "870857"^^xsd:int ;
+	onto:perimetro "3927"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Recoletos_(Madrid)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FEL+VISO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "EL VISO" ;
+	onto:nombre_barrio_acentuado "EL VISO" ;
+	onto:superficie "1708046"^^xsd:int ;
+	onto:perimetro "5269"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Cerro_del_Viso> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/GAZTAMBIDE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "GAZTAMBIDE" ;
+	onto:nombre_barrio_acentuado "GAZTAMBIDE" ;
+	onto:superficie "506596"^^xsd:int ;
+	onto:perimetro "2969"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Gaztambide_(Madrid)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FEL+PARDO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "EL PARDO" ;
+	onto:nombre_barrio_acentuado "EL PARDO" ;
+	onto:superficie "187642916"^^xsd:int ;
+	onto:perimetro "87125"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/El_Pardo> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCASA+DE+CAMPO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "CASA DE CAMPO" ;
+	onto:nombre_barrio_acentuado "CASA DE CAMPO" ;
+	onto:superficie "17470075"^^xsd:int ;
+	onto:perimetro "19233"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Casa_de_Campo_(Madrid)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/COMILLAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "COMILLAS" ;
+	onto:nombre_barrio_acentuado "COMILLAS" ;
+	onto:superficie "665999"^^xsd:int ;
+	onto:perimetro "4257"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Comillas_(Madrid)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ORCASITAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "ORCASITAS" ;
+	onto:nombre_barrio_acentuado "ORCASITAS" ;
+	onto:superficie "1356371"^^xsd:int ;
+	onto:perimetro "4664"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Estación_de_Orcasitas> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VENTAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "VENTAS" ;
+	onto:nombre_barrio_acentuado "VENTAS" ;
+	onto:superficie "3198045"^^xsd:int ;
+	onto:perimetro "8207"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Las_Ventas> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PALOMAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "1" ;
+	onto:nombre_barrio "PALOMAS" ;
+	onto:nombre_barrio_acentuado "PALOMAS" ;
+	onto:superficie "1128602"^^xsd:int ;
+	onto:perimetro "4988"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Arroyo_Palomas> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/EMBAJADORES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "EMBAJADORES" ;
+	onto:nombre_barrio_acentuado "EMBAJADORES" ;
+	onto:superficie "1032822"^^xsd:int ;
+	onto:perimetro "4267"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Embajadores_(Madrid)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ACACIAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "ACACIAS" ;
+	onto:nombre_barrio_acentuado "ACACIAS" ;
+	onto:superficie "1074172"^^xsd:int ;
+	onto:perimetro "3950"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Acacias-Embajadores_(Madrid_Metro)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/GOYA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "GOYA" ;
+	onto:nombre_barrio_acentuado "GOYA" ;
+	onto:superficie "771228"^^xsd:int ;
+	onto:perimetro "3473"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Bidania-Goiatz> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PROSPERIDAD> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "PROSPERIDAD" ;
+	onto:nombre_barrio_acentuado "PROSPERIDAD" ;
+	onto:superficie "1043284"^^xsd:int ;
+	onto:perimetro "5250"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Prosperidad_(Madrid)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCUATRO+CAMINOS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "CUATRO CAMINOS" ;
+	onto:nombre_barrio_acentuado "CUATRO CAMINOS" ;
+	onto:superficie "1193509"^^xsd:int ;
+	onto:perimetro "4366"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Estación_de_Cuatro_Caminos> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ORCASUR> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "ORCASUR" ;
+	onto:nombre_barrio_acentuado "ORCASUR" ;
+	onto:superficie "1384234"^^xsd:int ;
+	onto:perimetro "5962"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Estación_de_San_Fermín-Orcasur> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSAN+DIEGO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "SAN DIEGO" ;
+	onto:nombre_barrio_acentuado "SAN DIEGO" ;
+	onto:superficie "1069944"^^xsd:int ;
+	onto:perimetro "4726"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Amaya_Drive_(San_Diego_Trolley_station)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/HORCAJO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "HORCAJO" ;
+	onto:nombre_barrio_acentuado "HORCAJO" ;
+	onto:superficie "745503"^^xsd:int ;
+	onto:perimetro "3901"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Horcajo_de_Montemayor> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPUEBLO+NUEVO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "PUEBLO NUEVO" ;
+	onto:nombre_barrio_acentuado "PUEBLO NUEVO" ;
+	onto:superficie "2319230"^^xsd:int ;
+	onto:perimetro "7746"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Estadio_Polideportivo_de_Pueblo_Nuevo> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSANTA+EUGENIA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "SANTA EUGENIA" ;
+	onto:nombre_barrio_acentuado "SANTA EUGENIA" ;
+	onto:superficie "2070637"^^xsd:int ;
+	onto:perimetro "6831"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Santa_Eugenia_(Madrid)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/AMBROZ> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "AMBROZ" ;
+	onto:nombre_barrio_acentuado "AMBROZ" ;
+	onto:superficie "2354258"^^xsd:int ;
+	onto:perimetro "8336"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Valle_del_Ambroz> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/HELLIN> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "HELLIN" ;
+	onto:nombre_barrio_acentuado "HELLÍN" ;
+	onto:superficie "549031"^^xsd:int ;
+	onto:perimetro "3988"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Hellinikon_Olympic_Softball_Stadium> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/AEROPUERTO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "2" ;
+	onto:nombre_barrio "AEROPUERTO" ;
+	onto:nombre_barrio_acentuado "AEROPUERTO" ;
+	onto:superficie "25132277"^^xsd:int ;
+	onto:perimetro "26448"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Adolfo_Su%C3%A1rez_Madrid%E2%80%93Barajas_Airport> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CORTES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "CORTES" ;
+	onto:nombre_barrio_acentuado "CORTES" ;
+	onto:superficie "592070"^^xsd:int ;
+	onto:perimetro "3731"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Cortes_(Burgos)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CHOPERA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "CHOPERA" ;
+	onto:nombre_barrio_acentuado "CHOPERA" ;
+	onto:superficie "566358"^^xsd:int ;
+	onto:perimetro "3203"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/La_Chopera> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ESTRELLA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "ESTRELLA" ;
+	onto:nombre_barrio_acentuado "ESTRELLA" ;
+	onto:superficie "1025805"^^xsd:int ;
+	onto:perimetro "4441"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/La_Estrella,_Spain> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/TRAFALGAR> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "TRAFALGAR" ;
+	onto:nombre_barrio_acentuado "TRAFALGAR" ;
+	onto:superficie "611950"^^xsd:int ;
+	onto:perimetro "3505"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Tómbolo_de_Trafalgar> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCIUDAD+UNIVERSITARIA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "CIUDAD UNIVERSITARIA" ;
+	onto:nombre_barrio_acentuado "CIUDAD UNIVERSITARIA" ;
+	onto:superficie "14248243"^^xsd:int ;
+	onto:perimetro "19453"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Estación_de_Ciudad_Universitaria> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/LUCERO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "LUCERO" ;
+	onto:nombre_barrio_acentuado "LUCERO" ;
+	onto:superficie "1679450"^^xsd:int ;
+	onto:perimetro "5498"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Alto_Lucero> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSAN+ISIDRO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "SAN ISIDRO" ;
+	onto:nombre_barrio_acentuado "SAN ISIDRO" ;
+	onto:superficie "1899346"^^xsd:int ;
+	onto:perimetro "6149"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/San_Isidro_District,_Lima> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/QUINTANA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "QUINTANA" ;
+	onto:nombre_barrio_acentuado "QUINTANA" ;
+	onto:superficie "722756"^^xsd:int ;
+	onto:perimetro "4440"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Alfoz_de_Quintanadue%C3%B1as> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CANILLAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "CANILLAS" ;
+	onto:nombre_barrio_acentuado "CANILLAS" ;
+	onto:superficie "2516943"^^xsd:int ;
+	onto:perimetro "7532"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Canillas_de_Abajo> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/BUTARQUE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "3" ;
+	onto:nombre_barrio "BUTARQUE" ;
+	onto:nombre_barrio_acentuado "BUTARQUE" ;
+	onto:superficie "6425005"^^xsd:int ;
+	onto:perimetro "12719"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Arroyo_Butarque> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/JUSTICIA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "JUSTICIA" ;
+	onto:nombre_barrio_acentuado "JUSTICIA" ;
+	onto:superficie "742034"^^xsd:int ;
+	onto:perimetro "3598"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Palacio_de_Justicia_(Toluca)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/HISPANOAMERICA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "HISPANOAMERICA" ;
+	onto:nombre_barrio_acentuado "HISPANOAMÉRICA" ;
+	onto:superficie "1707406"^^xsd:int ;
+	onto:perimetro "6068"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Museo_de_Arte_Hispanoamericano_Isaac_Fern%C3%A1ndez_Blanco> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ALMENARA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "ALMENARA" ;
+	onto:nombre_barrio_acentuado "ALMENARA" ;
+	onto:superficie "999369"^^xsd:int ;
+	onto:perimetro "4011"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Almenara,_Castell%C3%B3n> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ALMAGRO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "ALMAGRO" ;
+	onto:nombre_barrio_acentuado "ALMAGRO" ;
+	onto:superficie "937095"^^xsd:int ;
+	onto:perimetro "4071"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Almagro,_Ciudad_Real> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FEL+PILAR> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "EL PILAR" ;
+	onto:nombre_barrio_acentuado "EL PILAR" ;
+	onto:superficie "1359881"^^xsd:int ;
+	onto:perimetro "5155"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Pilar_Partido> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FVISTA+ALEGRE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "VISTA ALEGRE" ;
+	onto:nombre_barrio_acentuado "VISTA ALEGRE" ;
+	onto:superficie "1589877"^^xsd:int ;
+	onto:perimetro "6433"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Vista_Alegre_(Asunci%C3%B3n)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ALMENDRALES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "ALMENDRALES" ;
+	onto:nombre_barrio_acentuado "ALMENDRALES" ;
+	onto:superficie "772281"^^xsd:int ;
+	onto:perimetro "3692"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Almendrales_(Madrid_Metro)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FLOS+ROSALES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "LOS ROSALES" ;
+	onto:nombre_barrio_acentuado "LOS ROSALES" ;
+	onto:superficie "1510919"^^xsd:int ;
+	onto:perimetro "5442"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Estación_de_Los_Rosales> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ARCOS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "ARCOS" ;
+	onto:nombre_barrio_acentuado "ARCOS" ;
+	onto:superficie "1305192"^^xsd:int ;
+	onto:perimetro "5074"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Arches_National_Park> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/TIMON> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "4" ;
+	onto:nombre_barrio "TIMON" ;
+	onto:nombre_barrio_acentuado "TIMÓN" ;
+	onto:superficie "9595252"^^xsd:int ;
+	onto:perimetro "15415"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Vatimont> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/UNIVERSIDAD> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "UNIVERSIDAD" ;
+	onto:nombre_barrio_acentuado "UNIVERSIDAD" ;
+	onto:superficie "947641"^^xsd:int ;
+	onto:perimetro "4060"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Estadio_Neza_86> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/DELICIAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "DELICIAS" ;
+	onto:nombre_barrio_acentuado "DELICIAS" ;
+	onto:superficie "1057730"^^xsd:int ;
+	onto:perimetro "4755"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Delicias_(municipio)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CAMPAMENTO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "CAMPAMENTO" ;
+	onto:nombre_barrio_acentuado "CAMPAMENTO" ;
+	onto:superficie "9157875"^^xsd:int ;
+	onto:perimetro "16619"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Campamento,_Uruguay> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPUERTA+BONITA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "PUERTA BONITA" ;
+	onto:nombre_barrio_acentuado "PUERTA BONITA" ;
+	onto:superficie "1607994"^^xsd:int ;
+	onto:perimetro "5982"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Barrio_de_Puerta_Bonita> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PORTAZGO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "PORTAZGO" ;
+	onto:nombre_barrio_acentuado "PORTAZGO" ;
+	onto:superficie "1245274"^^xsd:int ;
+	onto:perimetro "4834"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Estación_de_Portazgo> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSAN+PASCUAL> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "SAN PASCUAL" ;
+	onto:nombre_barrio_acentuado "SAN PASCUAL" ;
+	onto:superficie "1052925"^^xsd:int ;
+	onto:perimetro "4458"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Obando_Church> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FLOS+ANGELES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "LOS ANGELES" ;
+	onto:nombre_barrio_acentuado "LOS ÁNGELES" ;
+	onto:superficie "1944811"^^xsd:int ;
+	onto:perimetro "5713"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Lake_Los_Angeles,_California> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ROSAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "5" ;
+	onto:nombre_barrio "ROSAS" ;
+	onto:nombre_barrio_acentuado "ROSAS" ;
+	onto:superficie "9388024"^^xsd:int ;
+	onto:perimetro "15290"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Gulf_of_Roses> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/SOL> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "SOL" ;
+	onto:nombre_barrio_acentuado "SOL" ;
+	onto:superficie "445128"^^xsd:int ;
+	onto:perimetro "2716"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Argen%C3%A7ola> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPALOS+DE+MOGUER> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "PALOS DE MOGUER" ;
+	onto:nombre_barrio_acentuado "PALOS DE MOGUER" ;
+	onto:superficie "643542"^^xsd:int ;
+	onto:perimetro "3615"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Palos_de_Moguer_(Madrid)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CASTELLANA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "CASTELLANA" ;
+	onto:nombre_barrio_acentuado "CASTELLANA" ;
+	onto:superficie "773230"^^xsd:int ;
+	onto:perimetro "3745"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/La_Castellana_(TransMilenio)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/BERRUGUETE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "BERRUGUETE" ;
+	onto:nombre_barrio_acentuado "BERRUGUETE" ;
+	onto:superficie "607050"^^xsd:int ;
+	onto:perimetro "3417"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Berruguete_(Madrid)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VALVERDE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "VALVERDE" ;
+	onto:nombre_barrio_acentuado "VALVERDE" ;
+	onto:superficie "8977802"^^xsd:int ;
+	onto:perimetro "12223"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Valverde_de_Alcal%C3%A1> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCUATRO+VIENTOS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "CUATRO VIENTOS" ;
+	onto:nombre_barrio_acentuado "CUATRO VIENTOS" ;
+	onto:superficie "5419612"^^xsd:int ;
+	onto:perimetro "10146"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Parque_de_Cuatro_Vientos> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/BUENAVISTA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "BUENAVISTA" ;
+	onto:nombre_barrio_acentuado "BUENAVISTA" ;
+	onto:superficie "5613749"^^xsd:int ;
+	onto:perimetro "11612"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Buenavista,_Quind%C3%ADo> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/NUMANCIA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "NUMANCIA" ;
+	onto:nombre_barrio_acentuado "NUMANCIA" ;
+	onto:superficie "1849172"^^xsd:int ;
+	onto:perimetro "5364"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Numancia_de_la_Sagra> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VINATEROS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "VINATEROS" ;
+	onto:nombre_barrio_acentuado "VINATEROS" ;
+	onto:superficie "593979"^^xsd:int ;
+	onto:perimetro "3721"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Estación_de_Vinateros> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSAN+JUAN+BAUTISTA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "SAN JUAN BAUTISTA" ;
+	onto:nombre_barrio_acentuado "SAN JUAN BAUTISTA" ;
+	onto:superficie "1010843"^^xsd:int ;
+	onto:perimetro "4012"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Sant_Joan_de_Labritja> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VALDEFUENTES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "VALDEFUENTES" ;
+	onto:nombre_barrio_acentuado "VALDEFUENTES" ;
+	onto:superficie "16778055"^^xsd:int ;
+	onto:perimetro "18779"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Valdefuentes_(Cáceres)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/REJAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "6" ;
+	onto:nombre_barrio "REJAS" ;
+	onto:nombre_barrio_acentuado "REJAS" ;
+	onto:superficie "5007305"^^xsd:int ;
+	onto:perimetro "13360"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Las_Parejas> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ATOCHA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "7" ;
+	onto:nombre_barrio "ATOCHA" ;
+	onto:nombre_barrio_acentuado "ATOCHA" ;
+	onto:superficie "775561"^^xsd:int ;
+	onto:perimetro "4999"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Estadio_de_Atocha> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/MIRASIERRA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "7" ;
+	onto:nombre_barrio "MIRASIERRA" ;
+	onto:nombre_barrio_acentuado "MIRASIERRA" ;
+	onto:superficie "6975186"^^xsd:int ;
+	onto:perimetro "13135"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Castaño-Mirasierra> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ABRANTES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "7" ;
+	onto:nombre_barrio "ABRANTES" ;
+	onto:nombre_barrio_acentuado "ABRANTES" ;
+	onto:superficie "1564207"^^xsd:int ;
+	onto:perimetro "5494"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Fontes_(Abrantes)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/COLINA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "7" ;
+	onto:nombre_barrio "COLINA" ;
+	onto:nombre_barrio_acentuado "COLINA" ;
+	onto:superficie "559702"^^xsd:int ;
+	onto:perimetro "3175"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/Barrios_de_Colina> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CANILLEJAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "7" ;
+	onto:nombre_barrio "CANILLEJAS" ;
+	onto:nombre_barrio_acentuado "CANILLEJAS" ;
+	onto:superficie "1598075"^^xsd:int ;
+	onto:perimetro "5428"^^xsd:int ;
+	owl:sameAs <http://dbpedia.org/resource/San_Blas_(Madrid)> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FEL+GOLOSO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "8" ;
+	onto:nombre_barrio "EL GOLOSO" ;
+	onto:nombre_barrio_acentuado "EL GOLOSO" ;
+	onto:superficie "26509171"^^xsd:int ;
+	onto:perimetro "26489"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Estación_de_El_Goloso> .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ATALAYA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	onto:id_barrio "8" ;
+	onto:nombre_barrio "ATALAYA" ;
+	onto:nombre_barrio_acentuado "ATALAYA" ;
+	onto:superficie "248887"^^xsd:int ;
+	onto:perimetro "2240"^^xsd:int ;
+	owl:sameAs <http://es.dbpedia.org/resource/Distrito_de_Atalaya> .

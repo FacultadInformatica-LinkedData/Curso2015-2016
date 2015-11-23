@@ -1,0 +1,53 @@
+PREFIX mn: <http://example.org/resources/> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+#QUERY 1: Numero de accidentes de Madrid
+
+SELECT (SUM(?x) AS ?numero) WHERE {
+	?obs a qb:Observation ;
+	mv:relatedDistrict ?z ;
+	mv:hasAccidentType ?y ;
+	mv:numberOfAccidents ?x ;
+	qb:dataSet mn:MyDataset .
+}
+
+#QUERY 2: Numero de accidentes en Usera para cada tipo de accidente
+
+SELECT ?y ?x WHERE {
+	?obs a qb:Observation ;
+	mv:relatedDistrict "USERA" ;
+	mv:hasAccidentType ?y ;
+	mv:numberOfAccidents ?x ;
+	qb:dataSet mn:MyDataset .
+}
+
+#QUERY 3: Numero de colisiones de cada distrito
+
+SELECT ?z ?x WHERE {
+	?obs a qb:Observation ;
+	mv:relatedDistrict ?z ;
+	mv:hasAccidentType mv:MultipleCollision ;
+	mv:numberOfAccidents ?x ;
+	qb:dataSet mn:MyDataset .
+}
+
+#QUERY 4: Distrito con el numero mas alto de accidentes en 2013
+
+SELECT ?distrito (MAX(?x) AS ?numero) WHERE {
+    ?obs a qb:Observation ;
+   	mv:relatedDistrict ?distrito ;
+   	mv:hasAccidentType mv:BicycleFall ;
+	mv:numberOfAccidents ?x ;
+	qb:dataSet mn:MyDataset .
+} 
+
+#QUERY 5: Distritos con mas de 500 accidentes en 2013
+
+SELECT ?z WHERE {
+	?obs a qb:Observation ;
+	mv:relatedDistrict  ?z ;
+	mv:hasAccidentType  ?y ;
+	qb:dataSet mn:MyDataset ;
+	mv:numberOfAccidents ?x . FILTER (?x > 500)
+}

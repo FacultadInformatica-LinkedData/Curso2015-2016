@@ -1,0 +1,90 @@
+# queries.sparl
+# Universidad Politécnica de Madrid
+# Escuela Técnica Superior de Ingenieros Informáticos
+# Web Semántica y Linked Data
+# Juan Pablo Romero Aguirre
+#
+#• SPARQL endpoint
+#- http://sandbox.linkeddata.es/sparql
+#- Graph: http://sandbox.linkeddata.es/graph/accidentes
+
+# Concept
+#   select distinct ?Concept 
+#   where {?variable a ?Concept} 
+#   LIMIT 100
+# http://purl.org/linked-data/cube#MeasureProperty
+# http://purl.org/linked-data/cube#DimensionProperty
+# http://www.w3.org/2004/02/skos/core#ConceptScheme
+# http://purl.org/linked-data/sdmx#CodeList
+# http://www.w3.org/2002/07/owl#Class
+# http://www.w3.org/2004/02/skos/core#Concept
+# http://example.org/myVocabulary#AccidentType
+# http://purl.org/linked-data/cube#DataSet
+# http://purl.org/linked-data/cube#DataStructureDefinition
+# http://purl.org/linked-data/cube#Observation
+
+PREFIX cube: <http://purl.org/linked-data/cube#>
+PREFIX property: <http://example.org/myVocabulary#>
+
+#• Queries
+#- How many accidents were there in Madrid in 2013?
+SELECT SUM(?accidents) AS ?total 
+WHERE {
+    ?Observation a cube:Observation;
+    property:numberOfAccidents ?accidents.
+}
+
+# - Give me the number of accidents in Usera for each type of
+# accident
+SELECT ?AccidentType ?Accidents 
+WHERE {
+    ?Observation a cube:Observation;
+    property:relatedDistrict "USERA";
+    property:hasAccidentType ?AccidentType;
+    property:numberOfAccidents ?Accidents.
+}
+ORDER BY DESC 2
+
+# - Give me the number of multiple collisions for each district
+SELECT ?District ?Accidents 
+WHERE {
+    ?Observation a cube:Observation;
+    property:relatedDistrict ?District;
+    property:hasAccidentType property:MultipleCollision;
+    property:numberOfAccidents ?Accidents.
+}
+ORDER BY DESC 2
+
+# - Which is the district were the number of bicycle falls was
+# higher in 2013?
+SELECT ?District ?maxNumAccidents 
+WHERE {
+    ?Observation a cube:Observation;
+    property:relatedDistrict ?District;
+    property:hasAccidentType property:BicycleFall;
+    property:numberOfAccidents ?maxNumAccidents 
+    {
+        SELECT MAX(?accidents) AS ?maxNumAccidents
+        WHERE {
+            ?Observation a cube:Observation;
+            property:relatedDistrict ?District;
+            property:hasAccidentType property:BicycleFall;
+            property:numberOfAccidents ?accidents.
+        }
+    }
+} 
+
+# - Give me the districts with more than 500 accidents in 2013 
+SELECT ?District ?AccidentsDistrict{
+    {
+    SELECT ?District (SUM(xsd:double(?accidents)) AS ?AccidentsDistrict )
+    WHERE {
+        ?Observation a cube:Observation;
+        property:relatedDistrict ?District;
+        property:numberOfAccidents ?accidents.
+    } 
+    GROUP BY ?District
+    }
+FILTER (?AccidentsDistrict > 500)
+    } 
+ORDER BY DESC 2

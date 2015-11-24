@@ -30,6 +30,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#hasDireccion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#hasDireccion">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#Direccion"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#Zona"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#ocurre_en -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#ocurre_en">
@@ -53,8 +62,9 @@
     <!-- http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#hasClaseVial -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#hasClaseVial">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#hasDireccion"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#Direccion"/>
         <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
     </owl:DatatypeProperty>
     
 
@@ -65,14 +75,6 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#Zona"/>
         <rdfs:range rdf:resource="&xsd;string"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#hasDireccion -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#hasDireccion">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#Zona"/>
     </owl:DatatypeProperty>
     
 
@@ -97,8 +99,9 @@
     <!-- http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#hasNombreVia -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#hasNombreVia">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#hasDireccion"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#Direccion"/>
         <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
     </owl:DatatypeProperty>
     
 
@@ -106,8 +109,9 @@
     <!-- http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#hasNumVia -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#hasNumVia">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#hasDireccion"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#Direccion"/>
         <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
     </owl:DatatypeProperty>
     
 
@@ -128,6 +132,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#Direccion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juan/ontologies/2015/10/untitled-ontology-8#Direccion"/>
     
 
 

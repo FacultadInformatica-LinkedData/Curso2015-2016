@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl"
+     versionIRI="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl/2.0.0">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="linkedculture" IRI="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#"/>
+    <Prefix name="linkedculture2" IRI="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl/2.0.0#"/>
+    <Declaration>
+        <Class IRI="#Actividad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centro"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInstalacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCodigo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDescripcion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDireccion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEmail"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEquipamiento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasGratuito"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasHorario"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLargaDuracion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNumero"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTelefono"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTipo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTitulo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTransporte"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasURL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasUbicacion"/>
+    </Declaration>
+    <DisjointClasses>
+        <Class IRI="#Actividad"/>
+        <Class IRI="#Centro"/>
+    </DisjointClasses>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInstalacion"/>
+        <Class IRI="#Actividad"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInstalacion"/>
+        <Class IRI="#Centro"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasURL"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasUbicacion"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCodigo"/>
+        <Class IRI="#Actividad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCodigo"/>
+        <Class IRI="#Centro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDescripcion"/>
+        <Class IRI="#Actividad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDescripcion"/>
+        <Class IRI="#Centro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDireccion"/>
+        <Class IRI="#Centro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEmail"/>
+        <Class IRI="#Centro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEquipamiento"/>
+        <Class IRI="#Centro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasGratuito"/>
+        <Class IRI="#Actividad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasHorario"/>
+        <Class IRI="#Actividad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasHorario"/>
+        <Class IRI="#Centro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasLargaDuracion"/>
+        <Class IRI="#Actividad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNombre"/>
+        <Class IRI="#Actividad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNombre"/>
+        <Class IRI="#Centro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNumero"/>
+        <Class IRI="#Centro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTelefono"/>
+        <Class IRI="#Centro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTipo"/>
+        <Class IRI="#Actividad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTipo"/>
+        <Class IRI="#Centro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTitulo"/>
+        <Class IRI="#Actividad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTransporte"/>
+        <Class IRI="#Centro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasURL"/>
+        <Class IRI="#Actividad"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasURL"/>
+        <Class IRI="#Centro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasUbicacion"/>
+        <Class IRI="#Centro"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCodigo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDescripcion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDireccion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEmail"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEquipamiento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasGratuito"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasHorario"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasLargaDuracion"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNumero"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTelefono"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTelefono"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTipo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTitulo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTransporte"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasURL"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasUbicacion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

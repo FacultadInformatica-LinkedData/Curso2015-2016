@@ -17,7 +17,9 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:base="http://puntosinteres.madrid.es/group04/ontology/puntointeres#">
-    <Ontology rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#"/>
+    <Ontology rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#">
+        <imports rdf:resource="file:/C:/Users/dlopecon/Documents/GitHub/Curso2015-2016/HandsOn/Group04/rdf/200761-0-parques-jardines-csv.ttl"/>
+    </Ontology>
     
 
 

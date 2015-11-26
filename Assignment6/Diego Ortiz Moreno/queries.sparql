@@ -1,0 +1,37 @@
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+prefix sdmx: <http://purl.org/linked-data/sdmx#> 
+prefix mn: <http://example.org/resources/> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix mv: <http://example.org/myVocabulary#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+prefix qb: <http://purl.org/linked-data/cube#> 
+prefix skos: <http://www.w3.org/2004/02/skos/core#> 
+
+SELECT (SUM(?num)) WHERE {
+?obs a qb:Observation;
+    mv:numberOfAccidents ?num .
+} 
+
+SELECT ?num ?type WHERE {
+?obs a qb:Observation;
+    mv:numberOfAccidents ?num ;
+    mv:hasAccidentType ?type ;
+    mv:relatedDistrict "USERA"  .
+} 
+
+SELECT ?num ?dist WHERE {
+?obs a qb:Observation;
+    mv:numberOfAccidents ?num ;
+    mv:hasAccidentType mv:MultipleCollision ;
+    mv:relatedDistrict ?dist  .
+} 
+
+SELECT ?dist MAX(?num) WHERE {
+?obs a qb:Observation;
+    mv:numberOfAccidents ?num;
+    mv:hasAccidentType mv:BicycleFall ;
+    mv:relatedDistrict ?dist .
+} ORDER BY DESC(?num) LIMIT 1

@@ -20,6 +20,8 @@ find:Aravaca a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1295> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1295/turno/2015-10-01> .
 
+find:Aravaca owl:sameAs <http://es.dbpedia.org/resource/Moncloa-Aravaca> .
+
 <http://linkeddata.es/grupo10/resource/farmacia/1198> a font:FarmaciaDeGuardia ;
 	font:perteneceADistrito find:Aravaca ;
 	font:tieneDireccion "AV VALDEMARIN, 165 LC 4-2" ;
@@ -71,9 +73,13 @@ find:Barajas a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/19> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/19/turno/2015-10-01> .
 
+find:Barajas owl:sameAs <http://es.dbpedia.org/resource/Barajas> .
+
 find:Alameda_De_Osuna a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/19> font:perteneceADistrito find:Alameda_De_Osuna .
+
+find:Alameda_De_Osuna owl:sameAs <http://es.dbpedia.org/resource/Alameda_de_Osuna> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/677> a font:FarmaciaDeGuardia ;
 	font:perteneceADistrito find:Barajas ;
@@ -142,9 +148,13 @@ find:Carabanchel a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2274> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2274/turno/2015-10-01> .
 
+find:Carabanchel owl:sameAs <http://es.dbpedia.org/resource/Carabanchel> .
+
 find:Latina a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2274> font:perteneceADistrito find:Latina .
+
+find:Latina owl:sameAs <http://es.dbpedia.org/resource/Latina_(Madrid)> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1301> a font:FarmaciaDeGuardia ;
 	font:perteneceADistrito find:Carabanchel ;
@@ -199,6 +209,8 @@ find:Centro a font:Distrito .
 	font:tieneFechaFin "2015-10-02T09:29:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/331> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/331/turno/2015-10-01> .
+
+find:Centro owl:sameAs <http://es.dbpedia.org/resource/Centro_(Madrid)> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/46> a font:FarmaciaDeGuardia ;
 	font:perteneceADistrito find:Centro ;
@@ -315,6 +327,8 @@ find:Hortaleza a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/95> font:perteneceADistrito find:Hortaleza .
 
+find:Hortaleza owl:sameAs <http://es.dbpedia.org/resource/Hortaleza> .
+
 <http://linkeddata.es/grupo10/resource/farmacia/624> a font:FarmaciaDeGuardia ;
 	font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "PZ SAGRADOS CORAZONES,   4 (Esquina a C. Espina, 5)" ;
@@ -325,8 +339,11 @@ find:Hortaleza a font:Distrito .
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-02T09:29:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/624> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/624/turno/2015-10-01> ;
-	font:perteneceADistrito find:Hortaleza .
+<http://linkeddata.es/grupo10/resource/farmacia/624> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/624/turno/2015-10-01> .
+
+find:Chamartin owl:sameAs <http://es.dbpedia.org/resource/Chamartín> .
+
+<http://linkeddata.es/grupo10/resource/farmacia/624> font:perteneceADistrito find:Hortaleza .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1274> a font:FarmaciaDeGuardia ;
 	font:perteneceADistrito find:Chamartin ;
@@ -438,6 +455,8 @@ find:Moncloa a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/136> font:perteneceADistrito find:Moncloa .
 
+find:Moncloa owl:sameAs <http://es.dbpedia.org/resource/Moncloa-Aravaca> .
+
 <http://linkeddata.es/grupo10/resource/farmacia/535> a font:FarmaciaDeGuardia ;
 	font:perteneceADistrito find:Chamberi ;
 	font:tieneDireccion "CL ELOY GONZALO,  31" ;
@@ -448,8 +467,11 @@ find:Moncloa a font:Distrito .
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-02T09:29:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/535> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/535/turno/2015-10-01> ;
-	font:perteneceADistrito find:Moncloa .
+<http://linkeddata.es/grupo10/resource/farmacia/535> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/535/turno/2015-10-01> .
+
+find:Chamberi owl:sameAs <http://es.dbpedia.org/resource/Chamberí> .
+
+<http://linkeddata.es/grupo10/resource/farmacia/535> font:perteneceADistrito find:Moncloa .
 
 <http://linkeddata.es/grupo10/resource/farmacia/509> a font:FarmaciaDeGuardia ;
 	font:perteneceADistrito find:Chamberi ;
@@ -505,6 +527,8 @@ find:Ciudad_Lineal a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/886> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/886/turno/2015-10-01> .
 
+find:Ciudad_Lineal owl:sameAs <http://es.dbpedia.org/resource/Ciudad_Lineal> .
+
 find:San_Blas a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/886> font:perteneceADistrito find:San_Blas .
@@ -521,6 +545,8 @@ find:San_Blas a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1077> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1077/turno/2015-10-01> ;
 	font:perteneceADistrito find:San_Blas .
+
+find:San_Blas owl:sameAs <http://es.dbpedia.org/resource/San_Blas-Canillejas> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/589> a font:FarmaciaDeGuardia ;
 	font:perteneceADistrito find:Ciudad_Lineal ;
@@ -576,6 +602,8 @@ find:Fuencarral a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1870> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1870/turno/2015-10-01> .
 
+find:Fuencarral owl:sameAs <http://es.dbpedia.org/resource/Fuencarral-El_Pardo> .
+
 find:Barrio_Del_Pilar a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1870> font:perteneceADistrito find:Barrio_Del_Pilar .
@@ -592,6 +620,8 @@ find:Barrio_Del_Pilar a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/999> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/999/turno/2015-10-01> ;
 	font:perteneceADistrito find:Barrio_Del_Pilar .
+
+find:Barrio_Del_Pilar owl:sameAs <http://es.dbpedia.org/resource/El_Pilar_(Madrid)> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2314> a font:FarmaciaDeGuardia ;
 	font:perteneceADistrito find:Fuencarral ;
@@ -647,6 +677,8 @@ find:Moratalaz a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1088> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1088/turno/2015-10-01> .
 
+find:Moratalaz owl:sameAs <http://es.dbpedia.org/resource/Moratalaz> .
+
 <http://linkeddata.es/grupo10/resource/farmacia/751> a font:FarmaciaDeGuardia .
 
 find:Pueblo_De_Vallecas a font:Distrito .
@@ -673,6 +705,8 @@ find:Pueblo_De_Vallecas a font:Distrito .
 	font:tieneFechaFin "2015-10-02T09:29:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1890> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1890/turno/2015-10-01> .
+
+find:Pueblo_De_Vallecas owl:sameAs <http://es.dbpedia.org/resource/Vallecas> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/139> a font:FarmaciaDeGuardia ;
 	font:perteneceADistrito find:Pueblo_De_Vallecas ;
@@ -701,6 +735,8 @@ find:Puente_De_Vallecas a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/515> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/515/turno/2015-10-01> .
 
+find:Puente_De_Vallecas owl:sameAs <http://es.dbpedia.org/resource/Puente_de_Vallecas> .
+
 find:Entrevias a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/515> font:perteneceADistrito find:Entrevias .
@@ -717,6 +753,8 @@ find:Entrevias a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1764> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1764/turno/2015-10-01> ;
 	font:perteneceADistrito find:Entrevias .
+
+find:Entrevias owl:sameAs <http://es.dbpedia.org/resource/Entrevías> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/124> a font:FarmaciaDeGuardia ;
 	font:perteneceADistrito find:Puente_De_Vallecas ;
@@ -746,9 +784,13 @@ find:Retiro a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2360> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2360/turno/2015-10-01> .
 
+find:Retiro owl:sameAs <http://es.dbpedia.org/resource/Retiro_(Madrid)> .
+
 find:Arganzuela a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2360> font:perteneceADistrito find:Arganzuela .
+
+find:Arganzuela owl:sameAs <http://es.dbpedia.org/resource/Arganzuela> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1418> a font:FarmaciaDeGuardia ;
 	font:perteneceADistrito find:Retiro ;
@@ -856,9 +898,13 @@ find:Salamanca a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/892> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/892/turno/2015-10-01> .
 
+find:Salamanca owl:sameAs <http://es.dbpedia.org/resource/Salamanca_(Madrid)> .
+
 find:Ventas a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/892> font:perteneceADistrito find:Ventas .
+
+find:Ventas owl:sameAs <http://es.dbpedia.org/resource/Ventas_(Madrid)> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/524> a font:FarmaciaDeGuardia ;
 	font:perteneceADistrito find:Salamanca ;
@@ -970,6 +1016,8 @@ find:Cuatro_Caminos a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1346> font:perteneceADistrito find:Cuatro_Caminos .
 
+find:Cuatro_Caminos owl:sameAs <http://es.dbpedia.org/resource/Cuatro_Caminos_(Madrid)> .
+
 <http://linkeddata.es/grupo10/resource/farmacia/706> a font:FarmaciaDeGuardia ;
 	font:perteneceADistrito find:Tetuan ;
 	font:tieneDireccion "AV ASTURIAS, 34 (.)" ;
@@ -980,8 +1028,11 @@ find:Cuatro_Caminos a font:Distrito .
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/706> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/706/turno/2015-10-01> ;
-	font:perteneceADistrito find:Cuatro_Caminos .
+<http://linkeddata.es/grupo10/resource/farmacia/706> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/706/turno/2015-10-01> .
+
+find:Tetuan owl:sameAs <http://es.dbpedia.org/resource/Tetuán_(Madrid)> .
+
+<http://linkeddata.es/grupo10/resource/farmacia/706> font:perteneceADistrito find:Cuatro_Caminos .
 
 <http://linkeddata.es/grupo10/resource/farmacia/317> a font:FarmaciaDeGuardia ;
 	font:perteneceADistrito find:Tetuan ;
@@ -1024,9 +1075,13 @@ find:Usera a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/123> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/123/turno/2015-10-01> .
 
+find:Usera owl:sameAs <http://es.dbpedia.org/resource/Usera> .
+
 find:Villaverde a font:Distrito .
 
 <http://linkeddata.es/grupo10/resource/farmacia/123> font:perteneceADistrito find:Villaverde .
+
+find:Villaverde owl:sameAs <http://es.dbpedia.org/resource/Villaverde_(Madrid)> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/493> a font:FarmaciaDeGuardia ;
 	font:perteneceADistrito find:Usera ;
@@ -1055,6 +1110,8 @@ find:Vicalvaro a font:Distrito .
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1455> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1455/turno/2015-10-01> .
+
+find:Vicalvaro owl:sameAs <http://es.dbpedia.org/resource/Vicálvaro> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/91088> a font:FarmaciaDeGuardia ;
 	font:perteneceADistrito find:Vicalvaro ;

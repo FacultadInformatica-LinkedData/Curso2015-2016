@@ -22,6 +22,9 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
+        <Class IRI="#Distrito"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Farmacia"/>
     </Declaration>
     <Declaration>
@@ -31,10 +34,10 @@
         <Class IRI="#TurnoDeGuardia"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tieneTurnoDeGuardia"/>
+        <ObjectProperty IRI="#perteneceADistrito"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#perteneceABarrio"/>
+        <ObjectProperty IRI="#tieneTurnoDeGuardia"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#tieneDireccion"/>
@@ -56,17 +59,21 @@
         <Class IRI="#Farmacia"/>
     </SubClassOf>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#perteneceADistrito"/>
+        <Class IRI="#Farmacia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#tieneTurnoDeGuardia"/>
         <Class IRI="#FarmaciaDeGuardia"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#perteneceADistrito"/>
+        <Class IRI="#Distrito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#tieneTurnoDeGuardia"/>
         <Class IRI="#TurnoDeGuardia"/>
     </ObjectPropertyRange>
-    <DataPropertyDomain>
-        <DataProperty IRI="#perteneceABarrio"/>
-        <Class IRI="#Farmacia"/>
-    </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#tieneDireccion"/>
         <Class IRI="#Farmacia"/>
@@ -87,10 +94,6 @@
         <DataProperty IRI="#tieneTelefono"/>
         <Class IRI="#Farmacia"/>
     </DataPropertyDomain>
-    <DataPropertyRange>
-        <DataProperty IRI="#perteneceABarrio"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#tieneDireccion"/>
         <Datatype abbreviatedIRI="xsd:string"/>

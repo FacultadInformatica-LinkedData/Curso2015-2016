@@ -1,0 +1,2939 @@
+[
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE to type http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+    "columnName": "NOMBRE",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+        "name": "geo:SpatialThing"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Estación de Parque de las Avenidas (http://dbpedia.org/resource/Parque_de_las_Avenidas_(Madrid_Metro)) for cells containing \"Parque de las Avenidas\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "NOMBRE: best candidate's score",
+          "from": 0.439,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Parque de las Avenidas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Parque_de_las_Avenidas_(Madrid_Metro)",
+      "name": "Estación de Parque de las Avenidas",
+      "score": 0.6470588445663452,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE to type http://dbpedia.org/class/yago/BuildingsAndStructuresInMadrid",
+    "columnName": "NOMBRE",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/class/yago/BuildingsAndStructuresInMadrid",
+        "name": "yago:BuildingsAndStructuresInMadrid"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "NOMBRE: best candidate's score",
+          "from": 0.439,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "NOMBRE"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE to type http://www.wikidata.org/ontology#Item",
+    "columnName": "NOMBRE",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.wikidata.org/ontology#Item",
+        "name": "http://www.wikidata.org/ontology#Item"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Estación de Parque de las Avenidas (http://www.wikidata.org/entity/Q2480862) for cells containing \"Parque de las Avenidas\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "NOMBRE: best candidate's score",
+          "from": 0.34800000000000003,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Parque de las Avenidas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q2480862",
+      "name": "Estación de Parque de las Avenidas",
+      "score": 0.6470588445663452,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Parque Félix Rodríguez de la Fuente (Madrid) (http://www.wikidata.org/entity/Q6062214) for cells containing \"Parque Félix Rodríguez de la Fuente\" in column NOMBRE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "NOMBRE: best candidate's score",
+          "from": 0.34800000000000003,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "NOMBRE"
+        }
+      ]
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Parque Félix Rodríguez de la Fuente",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q6062214",
+      "name": "Parque Félix Rodríguez de la Fuente (Madrid)",
+      "score": 0.7954545617103577,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column BARRIO to type http://www.wikidata.org/ontology#Item",
+    "columnName": "BARRIO",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.wikidata.org/ontology#Item",
+        "name": "http://www.wikidata.org/ontology#Item"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"PALACIO\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "PALACIO"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"CASTILLEJOS\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "CASTILLEJOS"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"ALMAGRO\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "ALMAGRO"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"JUSTICIA\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "JUSTICIA"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"TRAFALGAR\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "TRAFALGAR"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"NUEVA ESPAÑA\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "NUEVA ESPAÑA"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"HISPANOAMERICA\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "HISPANOAMERICA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Lista odcinków serialu Czarna lista (http://www.wikidata.org/entity/Q15728095) for cells containing \"LISTA\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "LISTA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q15728095",
+      "name": "Lista odcinków serialu Czarna lista",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"LISTA\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "LISTA"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"MARROQUINA\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "MARROQUINA"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"MOSCARDO\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "MOSCARDO"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column LOCALIDAD to type http://www.wikidata.org/entity/Q5",
+    "columnName": "LOCALIDAD",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.wikidata.org/entity/Q5",
+        "name": "http://www.wikidata.org/entity/Q5"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Madrid, Madrid (http://dbpedia.org/resource/Madrid,_Madrid) for cells containing \"MADRID\" in column LOCALIDAD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "LOCALIDAD",
+    "similarValue": "MADRID",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Madrid,_Madrid",
+      "name": "Madrid, Madrid",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column PROVINCIA to type http://www.wikidata.org/entity/Q5",
+    "columnName": "PROVINCIA",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.wikidata.org/entity/Q5",
+        "name": "http://www.wikidata.org/entity/Q5"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Madrid (http://dbpedia.org/resource/Madrid) for cells containing \"MADRID\" in column PROVINCIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "PROVINCIA",
+    "similarValue": "MADRID",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Madrid",
+      "name": "Madrid",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Madrid, Spain (http://dbpedia.org/resource/Madrid,_Spain) for cells containing \"MADRID\" in column LOCALIDAD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "LOCALIDAD",
+    "similarValue": "MADRID",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Madrid,_Spain",
+      "name": "Madrid, Spain",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Madrid, Madrid (http://dbpedia.org/resource/Madrid,_Madrid) for cells containing \"MADRID\" in column LOCALIDAD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "LOCALIDAD",
+    "similarValue": "MADRID",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Madrid,_Madrid",
+      "name": "Madrid, Madrid",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Maria Jesus Madrid Madrid (http://www.wikidata.org/entity/Q14083176) for cells containing \"MADRID\" in column PROVINCIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "PROVINCIA",
+    "similarValue": "MADRID",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q14083176",
+      "name": "Maria Jesus Madrid Madrid",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Madrid, Spain (http://dbpedia.org/resource/Madrid,_Spain) for cells containing \"MADRID\" in column PROVINCIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "PROVINCIA",
+    "similarValue": "MADRID",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Madrid,_Spain",
+      "name": "Madrid, Spain",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ciudad Universitaria (http://www.wikidata.org/entity/Q3319235) for cells containing \"CIUDAD UNIVERSITARIA\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "CIUDAD UNIVERSITARIA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q3319235",
+      "name": "Ciudad Universitaria",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Acacias (Madrid) (http://dbpedia.org/resource/Las_Acacias_(Madrid)) for cells containing \"ACACIAS\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "ACACIAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Las_Acacias_(Madrid)",
+      "name": "Acacias (Madrid)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"NIÑO JESUS\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "NIÑO JESUS"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"LAS AGUILAS\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "LAS AGUILAS"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Canillejas (http://dbpedia.org/resource/Canillejas) for cells containing \"CANILLEJAS\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "CANILLEJAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Canillejas",
+      "name": "Canillejas",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"PAVONES\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "PAVONES"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"ROSAS\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "ROSAS"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"VALVERDE\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "VALVERDE"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Alameda de Osuna (http://www.wikidata.org/entity/Q2403543) for cells containing \"ALAMEDA DE OSUNA\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "ALAMEDA DE OSUNA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q2403543",
+      "name": "Alameda de Osuna",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"SANTA EUGENIA\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "SANTA EUGENIA"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"NUMANCIA\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "NUMANCIA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Moncloa-Aravaca (http://www.wikidata.org/entity/Q2017682) for cells containing \"ARAVACA\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "ARAVACA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q2017682",
+      "name": "Moncloa-Aravaca",
+      "score": 0.46666663885116577,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"AMBROZ\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "AMBROZ"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ciudad Jardin (http://dbpedia.org/resource/Ciudad_Jardin) for cells containing \"CIUDAD JARDIN\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "CIUDAD JARDIN",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ciudad_Jardin",
+      "name": "Ciudad Jardin",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"GUINDALERA\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "GUINDALERA"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"COMILLAS\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "COMILLAS"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"VALLEHERMOSO\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "VALLEHERMOSO"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"PINAR DEL REY\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "PINAR DEL REY"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Los Rosales (Madrid) (http://www.wikidata.org/entity/Q11933975) for cells containing \"LOS ROSALES\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "LOS ROSALES",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q11933975",
+      "name": "Los Rosales (Madrid)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"BUENAVISTA\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "BUENAVISTA"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"LA PAZ\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "LA PAZ"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Almenara (Madrid) (http://dbpedia.org/resource/Almenara_(Madrid)) for cells containing \"ALMENARA\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "ALMENARA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Almenara_(Madrid)",
+      "name": "Almenara (Madrid)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"DELICIAS\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "DELICIAS"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"SAN ANDRES\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "SAN ANDRES"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"CANILLAS\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "CANILLAS"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"ATALAYA\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "ATALAYA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Abrantes (http://dbpedia.org/resource/Abrantes) for cells containing \"ABRANTES\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "ABRANTES",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Abrantes",
+      "name": "Abrantes",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"VISTA ALEGRE\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "VISTA ALEGRE"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"PROSPERIDAD\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "PROSPERIDAD"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"ADELFAS\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "ADELFAS"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"VALDEFUENTES\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "VALDEFUENTES"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"ARGUELLES\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "ARGUELLES"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"ESTRELLA\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "ESTRELLA"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"HELLIN\" in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "BARRIO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "BARRIO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "BARRIO: best candidate's score",
+          "from": 0.10200000000000001,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "BARRIO"
+        }
+      ]
+    },
+    "columnName": "BARRIO",
+    "similarValue": "HELLIN"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column DISTRITO to type http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+        "name": "geo:SpatialThing"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Retiro (Madrid) (http://dbpedia.org/resource/Retiro_(Madrid)) for cells containing \"RETIRO\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "DISTRITO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "DISTRITO: best candidate's score",
+          "from": 0.20600000000000002,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "DISTRITO"
+        }
+      ]
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "RETIRO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Retiro_(Madrid)",
+      "name": "Retiro (Madrid)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Tetuan (Madrid) (http://dbpedia.org/resource/Tetuan_(Madrid)) for cells containing \"TETUAN\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "DISTRITO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "DISTRITO: best candidate's score",
+          "from": 0.20600000000000002,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "DISTRITO"
+        }
+      ]
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "TETUAN",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Tetuan_(Madrid)",
+      "name": "Tetuan (Madrid)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"CENTRO\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "DISTRITO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "DISTRITO: best candidate's score",
+          "from": 0.20600000000000002,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "DISTRITO"
+        }
+      ]
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "CENTRO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Latina (Madrid) (http://dbpedia.org/resource/Latina_(Madrid)) for cells containing \"LATINA\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "DISTRITO"
+        },
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "DISTRITO: best candidate's score",
+          "from": 0.23,
+          "to": 1.002,
+          "type": "range",
+          "columnName": "DISTRITO"
+        }
+      ]
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "LATINA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Latina_(Madrid)",
+      "name": "Latina (Madrid)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Chamberi (Madrid) (http://dbpedia.org/resource/Chamberi_(Madrid)) for cells containing \"CHAMBERI\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "CHAMBERI",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Chamberi_(Madrid)",
+      "name": "Chamberi (Madrid)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Madrid Chamartin (http://dbpedia.org/resource/Madrid_Chamartin) for cells containing \"CHAMARTIN\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "CHAMARTIN",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Madrid_Chamartin",
+      "name": "Madrid Chamartin",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column DISTRITO to type http://dbpedia.org/class/yago/DistrictsOfMadrid",
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/class/yago/DistrictsOfMadrid",
+        "name": "yago:DistrictsOfMadrid"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column BARRIO to type http://dbpedia.org/ontology/Location",
+    "columnName": "BARRIO",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Location",
+        "name": "dbo:Location"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Retiro (Madrid) (http://dbpedia.org/resource/Retiro_(Madrid)) for cells containing \"RETIRO\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "DISTRITO"
+        }
+      ]
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "RETIRO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Retiro_(Madrid)",
+      "name": "Retiro (Madrid)",
+      "score": 0.3999999761581421,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Retiro (Madrid) (http://dbpedia.org/resource/Retiro_(Madrid)) for cells containing \"RETIRO\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "DISTRITO"
+        }
+      ]
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "RETIRO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Retiro_(Madrid)",
+      "name": "Retiro (Madrid)",
+      "score": 0.3999999761581421,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Retiro (Madrid) (http://dbpedia.org/resource/Retiro_(Madrid)) for cells containing \"RETIRO\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "DISTRITO"
+        }
+      ]
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "RETIRO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Retiro_(Madrid)",
+      "name": "Retiro (Madrid)",
+      "score": 0.3999999761581421,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Chamberi (Madrid) (http://dbpedia.org/resource/Chamberi_(Madrid)) for cells containing \"CHAMBERI\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "DISTRITO"
+        }
+      ]
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "CHAMBERI",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Chamberi_(Madrid)",
+      "name": "Chamberi (Madrid)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Tetuan (Madrid) (http://dbpedia.org/resource/Tetuan_(Madrid)) for cells containing \"TETUAN\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "DISTRITO"
+        }
+      ]
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "TETUAN",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Tetuan_(Madrid)",
+      "name": "Tetuan (Madrid)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Centro (Madrid) (http://dbpedia.org/resource/Centro_(Madrid)) for cells containing \"CENTRO\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "DISTRITO"
+        }
+      ]
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "CENTRO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Centro_(Madrid)",
+      "name": "Centro (Madrid)",
+      "score": 0.3999999761581421,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Salamanca (Madrid) (http://dbpedia.org/resource/Salamanca_(Madrid)) for cells containing \"SALAMANCA\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "DISTRITO"
+        }
+      ]
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "SALAMANCA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Salamanca_(Madrid)",
+      "name": "Salamanca (Madrid)",
+      "score": 0.5,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Latina (Madrid) (http://dbpedia.org/resource/Latina_(Madrid)) for cells containing \"LATINA\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "DISTRITO"
+        }
+      ]
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "LATINA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Latina_(Madrid)",
+      "name": "Latina (Madrid)",
+      "score": 0.3999999761581421,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"VICALVARO\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "DISTRITO"
+        }
+      ]
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "VICALVARO"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Madrid Chamartin (http://dbpedia.org/resource/Madrid_Chamartin) for cells containing \"CHAMARTIN\" in column DISTRITO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "DISTRITO"
+        }
+      ]
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "CHAMARTIN",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Madrid_Chamartin",
+      "name": "Madrid Chamartin",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column URI del lugar de DBpedia at index 1 based on column NOMBRE using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "URI del lugar de DBpedia",
+    "columnInsertIndex": 1,
+    "baseColumnName": "NOMBRE",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column URI de Localidad de DBpedia at index 17 based on column LOCALIDAD using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "URI de Localidad de DBpedia",
+    "columnInsertIndex": 17,
+    "baseColumnName": "LOCALIDAD",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column URI de provincia de DBpedia at index 19 based on column PROVINCIA using expression grel:call.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "URI de provincia de DBpedia",
+    "columnInsertIndex": 19,
+    "baseColumnName": "PROVINCIA",
+    "expression": "grel:call.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Madrid, Madrid (http://dbpedia.org/resource/Madrid,_Madrid) for cells containing \"MADRID\" in column PROVINCIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PROVINCIA",
+    "similarValue": "MADRID",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Madrid,_Madrid",
+      "name": "Madrid, Madrid",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column URI de provincia de DBpedia at index 19 based on column PROVINCIA using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "URI de provincia de DBpedia",
+    "columnInsertIndex": 19,
+    "baseColumnName": "PROVINCIA",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column URI de Barrio de DBpedia at index 22 based on column BARRIO using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "URI de Barrio de DBpedia",
+    "columnInsertIndex": 22,
+    "baseColumnName": "BARRIO",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column URI de Distrito de DBpedia at index 24 based on column DISTRITO using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "URI de Distrito de DBpedia",
+    "columnInsertIndex": 24,
+    "baseColumnName": "DISTRITO",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  }
+]

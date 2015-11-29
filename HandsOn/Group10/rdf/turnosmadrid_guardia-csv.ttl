@@ -5,8 +5,11 @@
 @prefix find: <http://linkeddata.es/grupo10/resource/> .
 
 
-<http://linkeddata.es/grupo10/resource/farmacia/1295> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "ARAVACA" ;
+<http://linkeddata.es/grupo10/resource/farmacia/1295> a font:FarmaciaDeGuardia .
+
+find:Aravaca a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/1295> font:perteneceADistrito find:Aravaca ;
 	font:tieneDireccion "CL BLANCA DE CASTILLA,  11" ;
 	font:tieneID "1295" ;
 	font:tieneTelefono "913576914" .
@@ -18,7 +21,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1295> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1295/turno/2015-10-01> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1198> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "ARAVACA" ;
+	font:perteneceADistrito find:Aravaca ;
 	font:tieneDireccion "AV VALDEMARIN, 165 LC 4-2" ;
 	font:tieneID "1198" ;
 	font:tieneTelefono "913070836" .
@@ -30,7 +33,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1198> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1198/turno/2015-10-01> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/601> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "ARAVACA" ;
+	font:perteneceADistrito find:Aravaca ;
 	font:tieneDireccion "AV EUROPA, 30 (ARAVACA)" ;
 	font:tieneID "601" ;
 	font:tieneTelefono "913513312" .
@@ -42,7 +45,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/601> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/601/turno/2015-10-01> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2619> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "ARAVACA" ;
+	font:perteneceADistrito find:Aravaca ;
 	font:tieneDireccion "AV VICTORIA, S/N CEN COM SEXTA AVENIDA" ;
 	font:tieneID "2619" ;
 	font:tieneTelefono "913728818" .
@@ -53,8 +56,11 @@
 
 <http://linkeddata.es/grupo10/resource/farmacia/2619> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2619/turno/2015-10-01> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/19> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "BARAJAS-ALAMEDA DE OSUNA" ;
+<http://linkeddata.es/grupo10/resource/farmacia/19> a font:FarmaciaDeGuardia .
+
+find:Barajas a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/19> font:perteneceADistrito find:Barajas ;
 	font:tieneDireccion "AV GENERAL,   1 (BARAJAS)" ;
 	font:tieneID "19" ;
 	font:tieneTelefono "913054120" .
@@ -65,8 +71,12 @@
 
 <http://linkeddata.es/grupo10/resource/farmacia/19> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/19/turno/2015-10-01> .
 
+find:Alameda_De_Osuna a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/19> font:perteneceADistrito find:Alameda_De_Osuna .
+
 <http://linkeddata.es/grupo10/resource/farmacia/677> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "BARAJAS-ALAMEDA DE OSUNA" ;
+	font:perteneceADistrito find:Barajas ;
 	font:tieneDireccion "CL AUTOGIRO,   2 ESQ. CL ALAR DEL REY" ;
 	font:tieneID "677" ;
 	font:tieneTelefono "913676575" .
@@ -75,10 +85,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/677> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/677/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/677> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/677/turno/2015-10-01> ;
+	font:perteneceADistrito find:Alameda_De_Osuna .
 
 <http://linkeddata.es/grupo10/resource/farmacia/657> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "BARAJAS-ALAMEDA DE OSUNA" ;
+	font:perteneceADistrito find:Barajas ;
 	font:tieneDireccion "T4 AEROPUERTO BARAJAS LC.T2.15" ;
 	font:tieneID "657" ;
 	font:tieneTelefono "913338357" .
@@ -87,10 +98,11 @@
 	font:tieneFechaInicio "2015-10-01T07:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/657> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/657/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/657> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/657/turno/2015-10-01> ;
+	font:perteneceADistrito find:Alameda_De_Osuna .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1326> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "BARAJAS-ALAMEDA DE OSUNA" ;
+	font:perteneceADistrito find:Barajas ;
 	font:tieneDireccion "AEROPUERTO BARAJAS BULEVAR TERMINAL T2 (Antiguo Terminal Nacional)" ;
 	font:tieneID "1326" ;
 	font:tieneTelefono "913054623" .
@@ -99,10 +111,11 @@
 	font:tieneFechaInicio "2015-10-01T07:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1326> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1326/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/1326> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1326/turno/2015-10-01> ;
+	font:perteneceADistrito find:Alameda_De_Osuna .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2514> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "BARAJAS-ALAMEDA DE OSUNA" ;
+	font:perteneceADistrito find:Barajas ;
 	font:tieneDireccion "AEROPUERTO BARAJAS, TERM INTER LC 4096-N" ;
 	font:tieneID "2514" ;
 	font:tieneTelefono "913055203" .
@@ -111,10 +124,14 @@
 	font:tieneFechaInicio "2015-10-01T07:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/2514> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2514/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/2514> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2514/turno/2015-10-01> ;
+	font:perteneceADistrito find:Alameda_De_Osuna .
 
-<http://linkeddata.es/grupo10/resource/farmacia/2274> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CARABANCHEL-LATINA" ;
+<http://linkeddata.es/grupo10/resource/farmacia/2274> a font:FarmaciaDeGuardia .
+
+find:Carabanchel a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/2274> font:perteneceADistrito find:Carabanchel ;
 	font:tieneDireccion "AV LOS POBLADOS,  58 C.C.PLAZA ALUCHE LC B1-B2" ;
 	font:tieneID "2274" ;
 	font:tieneTelefono "915094389" .
@@ -125,8 +142,12 @@
 
 <http://linkeddata.es/grupo10/resource/farmacia/2274> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2274/turno/2015-10-01> .
 
+find:Latina a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/2274> font:perteneceADistrito find:Latina .
+
 <http://linkeddata.es/grupo10/resource/farmacia/1301> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CARABANCHEL-LATINA" ;
+	font:perteneceADistrito find:Carabanchel ;
 	font:tieneDireccion "CL LAS CUEVAS DE ALTAMIRA,  27-29 POR C/P. HUMA.10 (Poblado Dirigido Fuencarral)" ;
 	font:tieneID "1301" ;
 	font:tieneTelefono "915083485" .
@@ -135,10 +156,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1301> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1301/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/1301> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1301/turno/2015-10-01> ;
+	font:perteneceADistrito find:Latina .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1358> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CARABANCHEL-LATINA" ;
+	font:perteneceADistrito find:Carabanchel ;
 	font:tieneDireccion "AV PADRE PIQUER,   8 (Metro Campamento)" ;
 	font:tieneID "1358" ;
 	font:tieneTelefono "917113442" .
@@ -147,10 +169,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1358> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1358/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/1358> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1358/turno/2015-10-01> ;
+	font:perteneceADistrito find:Latina .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1248> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CARABANCHEL-LATINA" ;
+	font:perteneceADistrito find:Carabanchel ;
 	font:tieneDireccion "CL OCA,  17 (Metro Oporto-salida Oca)" ;
 	font:tieneID "1248" ;
 	font:tieneTelefono "914714773" .
@@ -159,10 +182,14 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1248> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1248/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/1248> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1248/turno/2015-10-01> ;
+	font:perteneceADistrito find:Latina .
 
-<http://linkeddata.es/grupo10/resource/farmacia/331> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+<http://linkeddata.es/grupo10/resource/farmacia/331> a font:FarmaciaDeGuardia .
+
+find:Centro a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/331> font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "CL MAYOR,  13" ;
 	font:tieneID "331" ;
 	font:tieneTelefono "913664616" .
@@ -174,7 +201,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/331> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/331/turno/2015-10-01> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/46> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+	font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "PZ DEL ANGEL,  14 (Entre Pz Benavente y Santa Ana)" ;
 	font:tieneID "46" ;
 	font:tieneTelefono "913692318" .
@@ -186,7 +213,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/46> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/46/turno/2015-10-01> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/913> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+	font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "PS ACACIAS,  69 (Esquina Glorieta Piramides)" ;
 	font:tieneID "913" ;
 	font:tieneTelefono "914744782" .
@@ -198,7 +225,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/913> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/913/turno/2015-10-01> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/439> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+	font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "CL GRAN VIA,  26" ;
 	font:tieneID "439" ;
 	font:tieneTelefono "915213148" .
@@ -210,7 +237,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/439> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/439/turno/2015-10-01> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/116> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+	font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "CL PRECIADOS,  14" ;
 	font:tieneID "116" ;
 	font:tieneTelefono "915213183" .
@@ -222,7 +249,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/116> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/116/turno/2015-10-01> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/102> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+	font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "PZ PUERTA DEL SOL,  14" ;
 	font:tieneID "102" ;
 	font:tieneTelefono "915312514" .
@@ -234,7 +261,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/102> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/102/turno/2015-10-01> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/430> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+	font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "CL GRAN VIA,  56" ;
 	font:tieneID "430" ;
 	font:tieneTelefono "915472625" .
@@ -246,7 +273,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/430> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/430/turno/2015-10-01> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/350> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+	font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "CL TOLEDO,  46 (Metro La Latina)" ;
 	font:tieneID "350" ;
 	font:tieneTelefono "913653458" .
@@ -258,7 +285,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/350> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/350/turno/2015-10-01> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/180> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+	font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "CL ARENAL,  15" ;
 	font:tieneID "180" ;
 	font:tieneTelefono "915484513" .
@@ -269,8 +296,11 @@
 
 <http://linkeddata.es/grupo10/resource/farmacia/180> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/180/turno/2015-10-01> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/95> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMARTIN-HORTALEZA" ;
+<http://linkeddata.es/grupo10/resource/farmacia/95> a font:FarmaciaDeGuardia .
+
+find:Chamartin a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/95> font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "AV MACHUPICHU,  37 LC 2 Y 3" ;
 	font:tieneID "95" ;
 	font:tieneTelefono "913887588" .
@@ -281,8 +311,12 @@
 
 <http://linkeddata.es/grupo10/resource/farmacia/95> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/95/turno/2015-10-01> .
 
+find:Hortaleza a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/95> font:perteneceADistrito find:Hortaleza .
+
 <http://linkeddata.es/grupo10/resource/farmacia/624> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMARTIN-HORTALEZA" ;
+	font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "PZ SAGRADOS CORAZONES,   4 (Esquina a C. Espina, 5)" ;
 	font:tieneID "624" ;
 	font:tieneTelefono "915649284" .
@@ -291,10 +325,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-02T09:29:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/624> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/624/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/624> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/624/turno/2015-10-01> ;
+	font:perteneceADistrito find:Hortaleza .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1274> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMARTIN-HORTALEZA" ;
+	font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "CL VICTOR DE LA SERNA,   1 (FRENTE PARQUE DE BERLIN)" ;
 	font:tieneID "1274" ;
 	font:tieneTelefono "915199116" .
@@ -303,10 +338,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1274> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1274/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/1274> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1274/turno/2015-10-01> ;
+	font:perteneceADistrito find:Hortaleza .
 
 <http://linkeddata.es/grupo10/resource/farmacia/967> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMARTIN-HORTALEZA" ;
+	font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "CL ARTURO SORIA, 142 (Entrada General Ricardos, 163 - Metro Oporto)" ;
 	font:tieneID "967" ;
 	font:tieneTelefono "915106511" .
@@ -315,10 +351,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/967> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/967/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/967> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/967/turno/2015-10-01> ;
+	font:perteneceADistrito find:Hortaleza .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1773> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMARTIN-HORTALEZA" ;
+	font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "CL MAR MENOR,  13 (Virgen de la Salud)" ;
 	font:tieneID "1773" ;
 	font:tieneTelefono "913818236" .
@@ -327,10 +364,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1773> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1773/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/1773> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1773/turno/2015-10-01> ;
+	font:perteneceADistrito find:Hortaleza .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1102> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMARTIN-HORTALEZA" ;
+	font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "PS HABANA,   7 (Semiesq. Ps Castellana 124)" ;
 	font:tieneID "1102" ;
 	font:tieneTelefono "915612244" .
@@ -339,10 +377,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1102> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1102/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/1102> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1102/turno/2015-10-01> ;
+	font:perteneceADistrito find:Hortaleza .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2001> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMARTIN-HORTALEZA" ;
+	font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "VESTIBULO ESTACION CHAMARTIN" ;
 	font:tieneID "2001" ;
 	font:tieneTelefono "917331056" .
@@ -351,10 +390,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/2001> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2001/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/2001> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2001/turno/2015-10-01> ;
+	font:perteneceADistrito find:Hortaleza .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1915> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMARTIN-HORTALEZA" ;
+	font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "AV PIO XII,   2 LC 21-29 CC ALCAMPO" ;
 	font:tieneID "1915" ;
 	font:tieneTelefono "913593662" .
@@ -363,10 +403,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1915> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1915/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/1915> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1915/turno/2015-10-01> ;
+	font:perteneceADistrito find:Hortaleza .
 
 <http://linkeddata.es/grupo10/resource/farmacia/412> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMARTIN-HORTALEZA" ;
+	font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "CL VALDETORRES DEL JARAMA,  31 (Frente Cen. Com. Gran Via de Hortaleza)" ;
 	font:tieneID "412" ;
 	font:tieneTelefono "913818898" .
@@ -375,10 +416,14 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/412> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/412/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/412> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/412/turno/2015-10-01> ;
+	font:perteneceADistrito find:Hortaleza .
 
-<http://linkeddata.es/grupo10/resource/farmacia/136> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMBERI-MONCLOA" ;
+<http://linkeddata.es/grupo10/resource/farmacia/136> a font:FarmaciaDeGuardia .
+
+find:Chamberi a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/136> font:perteneceADistrito find:Chamberi ;
 	font:tieneDireccion "CL CEA BERMUDEZ,  15" ;
 	font:tieneID "136" ;
 	font:tieneTelefono "915335849" .
@@ -389,8 +434,12 @@
 
 <http://linkeddata.es/grupo10/resource/farmacia/136> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/136/turno/2015-10-01> .
 
+find:Moncloa a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/136> font:perteneceADistrito find:Moncloa .
+
 <http://linkeddata.es/grupo10/resource/farmacia/535> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMBERI-MONCLOA" ;
+	font:perteneceADistrito find:Chamberi ;
 	font:tieneDireccion "CL ELOY GONZALO,  31" ;
 	font:tieneID "535" ;
 	font:tieneTelefono "914489932" .
@@ -399,10 +448,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-02T09:29:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/535> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/535/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/535> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/535/turno/2015-10-01> ;
+	font:perteneceADistrito find:Moncloa .
 
 <http://linkeddata.es/grupo10/resource/farmacia/509> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMBERI-MONCLOA" ;
+	font:perteneceADistrito find:Chamberi ;
 	font:tieneDireccion "CL BLASCO DE GARAY,   5 (Semiesquina Alberto Aguilera)" ;
 	font:tieneID "509" ;
 	font:tieneTelefono "915474731" .
@@ -411,10 +461,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/509> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/509/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/509> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/509/turno/2015-10-01> ;
+	font:perteneceADistrito find:Moncloa .
 
 <http://linkeddata.es/grupo10/resource/farmacia/55> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMBERI-MONCLOA" ;
+	font:perteneceADistrito find:Chamberi ;
 	font:tieneDireccion "CL FERRAZ,  13" ;
 	font:tieneID "55" ;
 	font:tieneTelefono "915470572" .
@@ -423,10 +474,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/55> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/55/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/55> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/55/turno/2015-10-01> ;
+	font:perteneceADistrito find:Moncloa .
 
 <http://linkeddata.es/grupo10/resource/farmacia/287> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMBERI-MONCLOA" ;
+	font:perteneceADistrito find:Chamberi ;
 	font:tieneDireccion "CL PRINCESA,  72 (Esq.Hilarion Eslava)" ;
 	font:tieneID "287" ;
 	font:tieneTelefono "915439463" .
@@ -435,10 +487,14 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/287> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/287/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/287> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/287/turno/2015-10-01> ;
+	font:perteneceADistrito find:Moncloa .
 
-<http://linkeddata.es/grupo10/resource/farmacia/886> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CIUDAD LINEAL-SAN BLAS" ;
+<http://linkeddata.es/grupo10/resource/farmacia/886> a font:FarmaciaDeGuardia .
+
+find:Ciudad_Lineal a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/886> font:perteneceADistrito find:Ciudad_Lineal ;
 	font:tieneDireccion "CL HERMANOS GARCIA NOBLEJAS,  21" ;
 	font:tieneID "886" ;
 	font:tieneTelefono "914080164" .
@@ -449,8 +505,12 @@
 
 <http://linkeddata.es/grupo10/resource/farmacia/886> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/886/turno/2015-10-01> .
 
+find:San_Blas a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/886> font:perteneceADistrito find:San_Blas .
+
 <http://linkeddata.es/grupo10/resource/farmacia/1077> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CIUDAD LINEAL-SAN BLAS" ;
+	font:perteneceADistrito find:Ciudad_Lineal ;
 	font:tieneDireccion "AV DONOSTIARRA,  22 (Barrio Concepcion)" ;
 	font:tieneID "1077" ;
 	font:tieneTelefono "914039654" .
@@ -459,10 +519,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-02T09:29:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1077> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1077/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/1077> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1077/turno/2015-10-01> ;
+	font:perteneceADistrito find:San_Blas .
 
 <http://linkeddata.es/grupo10/resource/farmacia/589> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CIUDAD LINEAL-SAN BLAS" ;
+	font:perteneceADistrito find:Ciudad_Lineal ;
 	font:tieneDireccion "CL ALCALA, 321" ;
 	font:tieneID "589" ;
 	font:tieneTelefono "914511284" .
@@ -471,10 +532,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-02T09:29:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/589> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/589/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/589> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/589/turno/2015-10-01> ;
+	font:perteneceADistrito find:San_Blas .
 
 <http://linkeddata.es/grupo10/resource/farmacia/743> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CIUDAD LINEAL-SAN BLAS" ;
+	font:perteneceADistrito find:Ciudad_Lineal ;
 	font:tieneDireccion "CL SAN TELESFORO,  45-47" ;
 	font:tieneID "743" ;
 	font:tieneTelefono "913043416" .
@@ -483,10 +545,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/743> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/743/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/743> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/743/turno/2015-10-01> ;
+	font:perteneceADistrito find:San_Blas .
 
 <http://linkeddata.es/grupo10/resource/farmacia/286> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CIUDAD LINEAL-SAN BLAS" ;
+	font:perteneceADistrito find:Ciudad_Lineal ;
 	font:tieneDireccion "CL SAN ROMUALDO,  51" ;
 	font:tieneID "286" ;
 	font:tieneTelefono "913759068" .
@@ -495,10 +558,14 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/286> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/286/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/286> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/286/turno/2015-10-01> ;
+	font:perteneceADistrito find:San_Blas .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1870> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "FUENCARRAL-BARRIO DEL PILAR" ;
+<http://linkeddata.es/grupo10/resource/farmacia/1870> a font:FarmaciaDeGuardia .
+
+find:Fuencarral a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/1870> font:perteneceADistrito find:Fuencarral ;
 	font:tieneDireccion "AV BETANZOS,  61 LC 416 TDA 3 (Barrio del Pilar)" ;
 	font:tieneID "1870" ;
 	font:tieneTelefono "913862393" .
@@ -509,8 +576,12 @@
 
 <http://linkeddata.es/grupo10/resource/farmacia/1870> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1870/turno/2015-10-01> .
 
+find:Barrio_Del_Pilar a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/1870> font:perteneceADistrito find:Barrio_Del_Pilar .
+
 <http://linkeddata.es/grupo10/resource/farmacia/999> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "FUENCARRAL-BARRIO DEL PILAR" ;
+	font:perteneceADistrito find:Fuencarral ;
 	font:tieneDireccion "CL MONASTERIO DE ARLANZA,  20 (Proximo Reina Victoria)" ;
 	font:tieneID "999" ;
 	font:tieneTelefono "917508042" .
@@ -519,10 +590,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/999> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/999/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/999> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/999/turno/2015-10-01> ;
+	font:perteneceADistrito find:Barrio_Del_Pilar .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2314> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "FUENCARRAL-BARRIO DEL PILAR" ;
+	font:perteneceADistrito find:Fuencarral ;
 	font:tieneDireccion "CL MONASTERIO MONTESCLAROS, 7-B C/V A MO. ESCORIAL" ;
 	font:tieneID "2314" ;
 	font:tieneTelefono "914275329" .
@@ -531,10 +603,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/2314> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2314/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/2314> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2314/turno/2015-10-01> ;
+	font:perteneceADistrito find:Barrio_Del_Pilar .
 
 <http://linkeddata.es/grupo10/resource/farmacia/841> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "FUENCARRAL-BARRIO DEL PILAR" ;
+	font:perteneceADistrito find:Fuencarral ;
 	font:tieneDireccion "CL MELCHOR FERNANDEZ ALMAGRO,   8 (Barrio del Pilar)" ;
 	font:tieneID "841" ;
 	font:tieneTelefono "913145644" .
@@ -543,10 +616,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/841> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/841/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/841> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/841/turno/2015-10-01> ;
+	font:perteneceADistrito find:Barrio_Del_Pilar .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1408> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "FUENCARRAL-BARRIO DEL PILAR" ;
+	font:perteneceADistrito find:Fuencarral ;
 	font:tieneDireccion "CL MELCHOR FERNANDEZ ALMAGRO,  84 (Semiesq. Av Betanzos)" ;
 	font:tieneID "1408" ;
 	font:tieneTelefono "917384208" .
@@ -555,10 +629,14 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1408> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1408/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/1408> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1408/turno/2015-10-01> ;
+	font:perteneceADistrito find:Barrio_Del_Pilar .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1088> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "MORATALAZ" ;
+<http://linkeddata.es/grupo10/resource/farmacia/1088> a font:FarmaciaDeGuardia .
+
+find:Moratalaz a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/1088> font:perteneceADistrito find:Moratalaz ;
 	font:tieneDireccion "CL FUENTE CARRANTONA, 47-49 (FINAL C/DR.GARCIA TAPIA)" ;
 	font:tieneID "1088" ;
 	font:tieneTelefono "913014702" .
@@ -569,8 +647,11 @@
 
 <http://linkeddata.es/grupo10/resource/farmacia/1088> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1088/turno/2015-10-01> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/751> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "PUEBLO DE VALLECAS" ;
+<http://linkeddata.es/grupo10/resource/farmacia/751> a font:FarmaciaDeGuardia .
+
+find:Pueblo_De_Vallecas a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/751> font:perteneceADistrito find:Pueblo_De_Vallecas ;
 	font:tieneDireccion "CL PUENTEDEY, 10 (.)" ;
 	font:tieneID "751" ;
 	font:tieneTelefono "914944536" .
@@ -582,7 +663,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/751> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/751/turno/2015-10-01> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1890> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "PUEBLO DE VALLECAS" ;
+	font:perteneceADistrito find:Pueblo_De_Vallecas ;
 	font:tieneDireccion "CL REAL DE ARGANDA,  40 (Vallecas Villa)" ;
 	font:tieneID "1890" ;
 	font:tieneTelefono "913013297" .
@@ -594,7 +675,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1890> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1890/turno/2015-10-01> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/139> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "PUEBLO DE VALLECAS" ;
+	font:perteneceADistrito find:Pueblo_De_Vallecas ;
 	font:tieneDireccion "PS FEDERICO GARCIA LORCA,  19 (Antes A. de los Caidos)" ;
 	font:tieneID "139" ;
 	font:tieneTelefono "913320826" .
@@ -605,8 +686,11 @@
 
 <http://linkeddata.es/grupo10/resource/farmacia/139> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/139/turno/2015-10-01> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/515> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "PUENTE DE VALLECAS-ENTREVIAS" ;
+<http://linkeddata.es/grupo10/resource/farmacia/515> a font:FarmaciaDeGuardia .
+
+find:Puente_De_Vallecas a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/515> font:perteneceADistrito find:Puente_De_Vallecas ;
 	font:tieneDireccion "AV MONTE IGUELDO,  14" ;
 	font:tieneID "515" ;
 	font:tieneTelefono "914339315" .
@@ -617,8 +701,12 @@
 
 <http://linkeddata.es/grupo10/resource/farmacia/515> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/515/turno/2015-10-01> .
 
+find:Entrevias a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/515> font:perteneceADistrito find:Entrevias .
+
 <http://linkeddata.es/grupo10/resource/farmacia/1764> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "PUENTE DE VALLECAS-ENTREVIAS" ;
+	font:perteneceADistrito find:Puente_De_Vallecas ;
 	font:tieneDireccion "AV PABLO NERUDA,  91-97 CEN COM MADRID SUR" ;
 	font:tieneID "1764" ;
 	font:tieneTelefono "915079484" .
@@ -627,10 +715,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-02T09:29:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1764> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1764/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/1764> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1764/turno/2015-10-01> ;
+	font:perteneceADistrito find:Entrevias .
 
 <http://linkeddata.es/grupo10/resource/farmacia/124> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "PUENTE DE VALLECAS-ENTREVIAS" ;
+	font:perteneceADistrito find:Puente_De_Vallecas ;
 	font:tieneDireccion "AV PABLO NERUDA,  87" ;
 	font:tieneID "124" ;
 	font:tieneTelefono "915073257" .
@@ -639,10 +728,14 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/124> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/124/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/124> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/124/turno/2015-10-01> ;
+	font:perteneceADistrito find:Entrevias .
 
-<http://linkeddata.es/grupo10/resource/farmacia/2360> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "RETIRO-ARGANZUELA" ;
+<http://linkeddata.es/grupo10/resource/farmacia/2360> a font:FarmaciaDeGuardia .
+
+find:Retiro a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/2360> font:perteneceADistrito find:Retiro ;
 	font:tieneDireccion "PS DELICIAS,   5 (Altura 41 Ps Yeserias)" ;
 	font:tieneID "2360" ;
 	font:tieneTelefono "914740702" .
@@ -653,8 +746,12 @@
 
 <http://linkeddata.es/grupo10/resource/farmacia/2360> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2360/turno/2015-10-01> .
 
+find:Arganzuela a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/2360> font:perteneceADistrito find:Arganzuela .
+
 <http://linkeddata.es/grupo10/resource/farmacia/1418> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "RETIRO-ARGANZUELA" ;
+	font:perteneceADistrito find:Retiro ;
 	font:tieneDireccion "CL EMBAJADORES, 197" ;
 	font:tieneID "1418" ;
 	font:tieneTelefono "915306087" .
@@ -663,10 +760,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-02T09:29:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1418> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1418/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/1418> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1418/turno/2015-10-01> ;
+	font:perteneceADistrito find:Arganzuela .
 
 <http://linkeddata.es/grupo10/resource/farmacia/187> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "RETIRO-ARGANZUELA" ;
+	font:perteneceADistrito find:Retiro ;
 	font:tieneDireccion "AV MENENDEZ PELAYO,  45" ;
 	font:tieneID "187" ;
 	font:tieneTelefono "914095759" .
@@ -675,10 +773,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-02T09:29:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/187> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/187/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/187> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/187/turno/2015-10-01> ;
+	font:perteneceADistrito find:Arganzuela .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1023> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "RETIRO-ARGANZUELA" ;
+	font:perteneceADistrito find:Retiro ;
 	font:tieneDireccion "CL MENDEZ ALVARO CON CL RETAMA, EST. SUR AUTOBUSES" ;
 	font:tieneID "1023" ;
 	font:tieneTelefono "910832006" .
@@ -687,10 +786,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1023> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1023/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/1023> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1023/turno/2015-10-01> ;
+	font:perteneceADistrito find:Arganzuela .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1454> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "RETIRO-ARGANZUELA" ;
+	font:perteneceADistrito find:Retiro ;
 	font:tieneDireccion "AV MEDITERRANEO,  22" ;
 	font:tieneID "1454" ;
 	font:tieneTelefono "914337580" .
@@ -699,10 +799,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1454> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1454/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/1454> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1454/turno/2015-10-01> ;
+	font:perteneceADistrito find:Arganzuela .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2336> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "RETIRO-ARGANZUELA" ;
+	font:perteneceADistrito find:Retiro ;
 	font:tieneDireccion "PS SANTA MARIA DE LA CABEZA,  64 LC II" ;
 	font:tieneID "2336" ;
 	font:tieneTelefono "914730672" .
@@ -711,10 +812,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/2336> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2336/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/2336> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2336/turno/2015-10-01> ;
+	font:perteneceADistrito find:Arganzuela .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1035> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "RETIRO-ARGANZUELA" ;
+	font:perteneceADistrito find:Retiro ;
 	font:tieneDireccion "CL MENDEZ ALVARO,  64 A" ;
 	font:tieneID "1035" ;
 	font:tieneTelefono "914677535" .
@@ -723,10 +825,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1035> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1035/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/1035> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1035/turno/2015-10-01> ;
+	font:perteneceADistrito find:Arganzuela .
 
 <http://linkeddata.es/grupo10/resource/farmacia/909> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "RETIRO-ARGANZUELA" ;
+	font:perteneceADistrito find:Retiro ;
 	font:tieneDireccion "CL IBIZA,  66" ;
 	font:tieneID "909" ;
 	font:tieneTelefono "915731435" .
@@ -735,10 +838,14 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/909> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/909/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/909> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/909/turno/2015-10-01> ;
+	font:perteneceADistrito find:Arganzuela .
 
-<http://linkeddata.es/grupo10/resource/farmacia/892> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "SALAMANCA-VENTAS" ;
+<http://linkeddata.es/grupo10/resource/farmacia/892> a font:FarmaciaDeGuardia .
+
+find:Salamanca a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/892> font:perteneceADistrito find:Salamanca ;
 	font:tieneDireccion "CL FRANCISCO SILVELA,  36" ;
 	font:tieneID "892" ;
 	font:tieneTelefono "913563573" .
@@ -749,8 +856,12 @@
 
 <http://linkeddata.es/grupo10/resource/farmacia/892> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/892/turno/2015-10-01> .
 
+find:Ventas a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/892> font:perteneceADistrito find:Ventas .
+
 <http://linkeddata.es/grupo10/resource/farmacia/524> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "SALAMANCA-VENTAS" ;
+	font:perteneceADistrito find:Salamanca ;
 	font:tieneDireccion "CL GOYA,  89" ;
 	font:tieneID "524" ;
 	font:tieneTelefono "914354958" .
@@ -759,10 +870,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-02T09:29:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/524> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/524/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/524> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/524/turno/2015-10-01> ;
+	font:perteneceADistrito find:Ventas .
 
 <http://linkeddata.es/grupo10/resource/farmacia/279> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "SALAMANCA-VENTAS" ;
+	font:perteneceADistrito find:Salamanca ;
 	font:tieneDireccion "CL VELAZQUEZ,  70" ;
 	font:tieneID "279" ;
 	font:tieneTelefono "914351347" .
@@ -771,10 +883,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-02T09:29:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/279> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/279/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/279> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/279/turno/2015-10-01> ;
+	font:perteneceADistrito find:Ventas .
 
 <http://linkeddata.es/grupo10/resource/farmacia/333> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "SALAMANCA-VENTAS" ;
+	font:perteneceADistrito find:Salamanca ;
 	font:tieneDireccion "CL ALCALA, 173 (Esquina a Montesa)" ;
 	font:tieneID "333" ;
 	font:tieneTelefono "914013639" .
@@ -783,10 +896,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/333> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/333/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/333> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/333/turno/2015-10-01> ;
+	font:perteneceADistrito find:Ventas .
 
 <http://linkeddata.es/grupo10/resource/farmacia/289> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "SALAMANCA-VENTAS" ;
+	font:perteneceADistrito find:Salamanca ;
 	font:tieneDireccion "CL ALCALA, 172 (Entre Manuel Becerra y Ventas)" ;
 	font:tieneID "289" ;
 	font:tieneTelefono "911626491" .
@@ -795,10 +909,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/289> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/289/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/289> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/289/turno/2015-10-01> ;
+	font:perteneceADistrito find:Ventas .
 
 <http://linkeddata.es/grupo10/resource/farmacia/119> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "SALAMANCA-VENTAS" ;
+	font:perteneceADistrito find:Salamanca ;
 	font:tieneDireccion "CL NARVAEZ,   3 (Esquina a Goya)" ;
 	font:tieneID "119" ;
 	font:tieneTelefono "915770032" .
@@ -807,10 +922,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/119> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/119/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/119> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/119/turno/2015-10-01> ;
+	font:perteneceADistrito find:Ventas .
 
 <http://linkeddata.es/grupo10/resource/farmacia/363> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "SALAMANCA-VENTAS" ;
+	font:perteneceADistrito find:Salamanca ;
 	font:tieneDireccion "CL CONDE DE PE/ALVER,  27 (Metro Goya)" ;
 	font:tieneID "363" ;
 	font:tieneTelefono "914024301" .
@@ -819,10 +935,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/363> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/363/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/363> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/363/turno/2015-10-01> ;
+	font:perteneceADistrito find:Ventas .
 
 <http://linkeddata.es/grupo10/resource/farmacia/5> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "SALAMANCA-VENTAS" ;
+	font:perteneceADistrito find:Salamanca ;
 	font:tieneDireccion "CL ALCALA,  98" ;
 	font:tieneID "5" ;
 	font:tieneTelefono "915753123" .
@@ -831,10 +948,14 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/5> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/5/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/5> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/5/turno/2015-10-01> ;
+	font:perteneceADistrito find:Ventas .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1346> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "TETUAN-CUATRO CAMINOS" ;
+<http://linkeddata.es/grupo10/resource/farmacia/1346> a font:FarmaciaDeGuardia .
+
+find:Tetuan a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/1346> font:perteneceADistrito find:Tetuan ;
 	font:tieneDireccion "PS CASTELLANA, 181" ;
 	font:tieneID "1346" ;
 	font:tieneTelefono "915704891" .
@@ -845,8 +966,12 @@
 
 <http://linkeddata.es/grupo10/resource/farmacia/1346> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1346/turno/2015-10-01> .
 
+find:Cuatro_Caminos a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/1346> font:perteneceADistrito find:Cuatro_Caminos .
+
 <http://linkeddata.es/grupo10/resource/farmacia/706> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "TETUAN-CUATRO CAMINOS" ;
+	font:perteneceADistrito find:Tetuan ;
 	font:tieneDireccion "AV ASTURIAS, 34 (.)" ;
 	font:tieneID "706" ;
 	font:tieneTelefono "912810332" .
@@ -855,10 +980,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/706> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/706/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/706> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/706/turno/2015-10-01> ;
+	font:perteneceADistrito find:Cuatro_Caminos .
 
 <http://linkeddata.es/grupo10/resource/farmacia/317> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "TETUAN-CUATRO CAMINOS" ;
+	font:perteneceADistrito find:Tetuan ;
 	font:tieneDireccion "CL BRAVO MURILLO, 108 (Cuatro Caminos)" ;
 	font:tieneID "317" ;
 	font:tieneTelefono "915331219" .
@@ -867,10 +993,11 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/317> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/317/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/317> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/317/turno/2015-10-01> ;
+	font:perteneceADistrito find:Cuatro_Caminos .
 
 <http://linkeddata.es/grupo10/resource/farmacia/487> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "TETUAN-CUATRO CAMINOS" ;
+	font:perteneceADistrito find:Tetuan ;
 	font:tieneDireccion "CL JUAN DE OLIAS, 1 (Semiesq.Bravo Murillo 170 - metro Estrecho)" ;
 	font:tieneID "487" ;
 	font:tieneTelefono "915793034" .
@@ -879,10 +1006,14 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-01T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/487> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/487/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/487> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/487/turno/2015-10-01> ;
+	font:perteneceADistrito find:Cuatro_Caminos .
 
-<http://linkeddata.es/grupo10/resource/farmacia/123> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "USERA-VILLAVERDE" ;
+<http://linkeddata.es/grupo10/resource/farmacia/123> a font:FarmaciaDeGuardia .
+
+find:Usera a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/123> font:perteneceADistrito find:Usera ;
 	font:tieneDireccion "ESQ AV LOS POBLADOS (AV ANDALUCIA, KM 6,4)" ;
 	font:tieneID "123" ;
 	font:tieneTelefono "917237731" .
@@ -893,8 +1024,12 @@
 
 <http://linkeddata.es/grupo10/resource/farmacia/123> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/123/turno/2015-10-01> .
 
+find:Villaverde a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/123> font:perteneceADistrito find:Villaverde .
+
 <http://linkeddata.es/grupo10/resource/farmacia/493> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "USERA-VILLAVERDE" ;
+	font:perteneceADistrito find:Usera ;
 	font:tieneDireccion "CL MARCELO USERA, 114" ;
 	font:tieneID "493" ;
 	font:tieneTelefono "914756729" .
@@ -903,10 +1038,14 @@
 	font:tieneFechaInicio "2015-10-01T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-02T09:29:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/493> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/493/turno/2015-10-01> .
+<http://linkeddata.es/grupo10/resource/farmacia/493> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/493/turno/2015-10-01> ;
+	font:perteneceADistrito find:Villaverde .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1455> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "VICALVARO" ;
+<http://linkeddata.es/grupo10/resource/farmacia/1455> a font:FarmaciaDeGuardia .
+
+find:Vicalvaro a font:Distrito .
+
+<http://linkeddata.es/grupo10/resource/farmacia/1455> font:perteneceADistrito find:Vicalvaro ;
 	font:tieneDireccion "CL MERCURIO,  10" ;
 	font:tieneID "1455" ;
 	font:tieneTelefono "917764023" .
@@ -918,9 +1057,10 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1455> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1455/turno/2015-10-01> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/91088> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "VICALVARO" ;
+	font:perteneceADistrito find:Vicalvaro ;
 	font:tieneDireccion "CL FUENTE CARRANTONA, 47-49 (.)" ;
-	font:tieneID "91088" .
+	font:tieneID "91088" ;
+	font:tieneTelefono "917764023" .
 
 <http://linkeddata.es/grupo10/resource/farmacia/91088/turno/2015-10-01> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-01T23:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -929,7 +1069,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/91088> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/91088/turno/2015-10-01> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1473> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "VICALVARO" ;
+	font:perteneceADistrito find:Vicalvaro ;
 	font:tieneDireccion "CL SAN CIPRIANO,  39 (VICALVARO) (Junto a metro San Cipriano)" ;
 	font:tieneID "1473" ;
 	font:tieneTelefono "917765026" .
@@ -941,7 +1081,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1473> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1473/turno/2015-10-01> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/931> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "VICALVARO" ;
+	font:perteneceADistrito find:Vicalvaro ;
 	font:tieneDireccion "CL BULEVAR JOSE PRAT,  35 LC.B-26" ;
 	font:tieneID "931" ;
 	font:tieneTelefono "917739994" .
@@ -953,7 +1093,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/931> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/931/turno/2015-10-01> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1566> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "VICALVARO" ;
+	font:perteneceADistrito find:Vicalvaro ;
 	font:tieneDireccion "CL CAMPO DE LA TORRE,   1 (APE Valderribas-Vicalvaro)" ;
 	font:tieneID "1566" ;
 	font:tieneTelefono "917750011" .
@@ -965,7 +1105,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1566> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1566/turno/2015-10-01> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1533> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "VICALVARO" ;
+	font:perteneceADistrito find:Vicalvaro ;
 	font:tieneDireccion "AV GRAN VIA DEL ESTE,  16 Y 18 (METRO PUERTA ARGANDA)" ;
 	font:tieneID "1533" ;
 	font:tieneTelefono "917753024" .
@@ -1121,7 +1261,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/95> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/95/turno/2015-10-02> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/666> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMARTIN-HORTALEZA" ;
+	font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "CL JOAQUIN COSTA,  47 (Esquina a c/Velazquez)" ;
 	font:tieneID "666" ;
 	font:tieneTelefono "915635916" .
@@ -1130,7 +1270,8 @@
 	font:tieneFechaInicio "2015-10-02T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-02T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/666> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/666/turno/2015-10-02> .
+<http://linkeddata.es/grupo10/resource/farmacia/666> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/666/turno/2015-10-02> ;
+	font:perteneceADistrito find:Hortaleza .
 
 <http://linkeddata.es/grupo10/resource/farmacia/136/turno/2015-10-02> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-02T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -1217,7 +1358,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1088> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1088/turno/2015-10-02> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1371> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "MORATALAZ" ;
+	font:perteneceADistrito find:Moratalaz ;
 	font:tieneDireccion "CL CORREGIDOR JUAN BOBADILLA,  10 (Entrada por Camino Vinateros,119)" ;
 	font:tieneID "1371" ;
 	font:tieneTelefono "917732074" .
@@ -1613,7 +1754,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/136> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/136/turno/2015-10-03> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1412> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMBERI-MONCLOA" ;
+	font:perteneceADistrito find:Chamberi ;
 	font:tieneDireccion "CL MELENDEZ VALDES,  68" ;
 	font:tieneID "1412" ;
 	font:tieneTelefono "915434248" .
@@ -1622,7 +1763,8 @@
 	font:tieneFechaInicio "2015-10-03T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-03T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1412> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1412/turno/2015-10-03> .
+<http://linkeddata.es/grupo10/resource/farmacia/1412> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1412/turno/2015-10-03> ;
+	font:perteneceADistrito find:Moncloa .
 
 <http://linkeddata.es/grupo10/resource/farmacia/886/turno/2015-10-03> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-03T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -1895,7 +2037,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/677> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/677/turno/2015-10-04> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1801> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "BARAJAS-ALAMEDA DE OSUNA" ;
+	font:perteneceADistrito find:Barajas ;
 	font:tieneDireccion "CL ALAGON,  11 CO CIERVA (Detras Hotel Barajas)" ;
 	font:tieneID "1801" ;
 	font:tieneTelefono "917477180" .
@@ -1904,7 +2046,8 @@
 	font:tieneFechaInicio "2015-10-04T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-04T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1801> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1801/turno/2015-10-04> .
+<http://linkeddata.es/grupo10/resource/farmacia/1801> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1801/turno/2015-10-04> ;
+	font:perteneceADistrito find:Alameda_De_Osuna .
 
 <http://linkeddata.es/grupo10/resource/farmacia/19/turno/2015-10-04> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-04T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -2021,7 +2164,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/624> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/624/turno/2015-10-04> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/766> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMARTIN-HORTALEZA" ;
+	font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "CL ALBERTO ALCOCER,  22 (Semiesquina Padre Damian)" ;
 	font:tieneID "766" ;
 	font:tieneTelefono "914572131" .
@@ -2030,7 +2173,8 @@
 	font:tieneFechaInicio "2015-10-04T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-04T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/766> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/766/turno/2015-10-04> .
+<http://linkeddata.es/grupo10/resource/farmacia/766> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/766/turno/2015-10-04> ;
+	font:perteneceADistrito find:Hortaleza .
 
 <http://linkeddata.es/grupo10/resource/farmacia/136/turno/2015-10-04> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-04T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -2261,7 +2405,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/317> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/317/turno/2015-10-04> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/86> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "TETUAN-CUATRO CAMINOS" ;
+	font:perteneceADistrito find:Tetuan ;
 	font:tieneDireccion "CL MARQUES DE VIANA,   3 (Tetuan)" ;
 	font:tieneID "86" ;
 	font:tieneTelefono "915795461" .
@@ -2270,7 +2414,8 @@
 	font:tieneFechaInicio "2015-10-04T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-04T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/86> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/86/turno/2015-10-04> .
+<http://linkeddata.es/grupo10/resource/farmacia/86> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/86/turno/2015-10-04> ;
+	font:perteneceADistrito find:Cuatro_Caminos .
 
 <http://linkeddata.es/grupo10/resource/farmacia/123/turno/2015-10-04> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-04T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -2603,7 +2748,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1088> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1088/turno/2015-10-05> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/641> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "MORATALAZ" ;
+	font:perteneceADistrito find:Moratalaz ;
 	font:tieneDireccion "CL FUENTE CARRANTONA,  29" ;
 	font:tieneID "641" ;
 	font:tieneTelefono "915616041" .
@@ -2753,7 +2898,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1346> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1346/turno/2015-10-05> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2612> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "TETUAN-CUATRO CAMINOS" ;
+	font:perteneceADistrito find:Tetuan ;
 	font:tieneDireccion "AV PABLO IGLESIAS,  93" ;
 	font:tieneID "2612" ;
 	font:tieneTelefono "913115270" .
@@ -2762,7 +2907,8 @@
 	font:tieneFechaInicio "2015-10-05T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-05T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/2612> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2612/turno/2015-10-05> .
+<http://linkeddata.es/grupo10/resource/farmacia/2612> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2612/turno/2015-10-05> ;
+	font:perteneceADistrito find:Cuatro_Caminos .
 
 <http://linkeddata.es/grupo10/resource/farmacia/123/turno/2015-10-05> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-05T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -2909,7 +3055,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/913> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/913/turno/2015-10-06> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/381> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+	font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "CL FUENCARRAL,  83 (Metro Tribunal)" ;
 	font:tieneID "381" ;
 	font:tieneTelefono "914478714" .
@@ -3335,7 +3481,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/913> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/913/turno/2015-10-07> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/159> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+	font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "CL ESPOZ Y MINA,   9" ;
 	font:tieneID "159" ;
 	font:tieneTelefono "915226782" .
@@ -3359,7 +3505,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/95> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/95/turno/2015-10-07> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1068> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMARTIN-HORTALEZA" ;
+	font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "CL NU/EZ MORGADO,  11 (Pz Castilla)" ;
 	font:tieneID "1068" ;
 	font:tieneTelefono "913153008" .
@@ -3368,7 +3514,8 @@
 	font:tieneFechaInicio "2015-10-07T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-07T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1068> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1068/turno/2015-10-07> .
+<http://linkeddata.es/grupo10/resource/farmacia/1068> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1068/turno/2015-10-07> ;
+	font:perteneceADistrito find:Hortaleza .
 
 <http://linkeddata.es/grupo10/resource/farmacia/136/turno/2015-10-07> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-07T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -3773,7 +3920,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/331> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/331/turno/2015-10-08> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+	font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "PZ DOS DE MAYO,   6" ;
 	font:tieneID "2" ;
 	font:tieneTelefono "915227658" .
@@ -3797,7 +3944,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/624> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/624/turno/2015-10-08> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/694> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMARTIN-HORTALEZA" ;
+	font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "CL COSTA RICA,  28" ;
 	font:tieneID "694" ;
 	font:tieneTelefono "913593649" .
@@ -3806,7 +3953,8 @@
 	font:tieneFechaInicio "2015-10-08T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-08T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/694> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/694/turno/2015-10-08> .
+<http://linkeddata.es/grupo10/resource/farmacia/694> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/694/turno/2015-10-08> ;
+	font:perteneceADistrito find:Hortaleza .
 
 <http://linkeddata.es/grupo10/resource/farmacia/136/turno/2015-10-08> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-08T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -3875,7 +4023,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1870> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1870/turno/2015-10-08> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1867> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "FUENCARRAL-BARRIO DEL PILAR" ;
+	font:perteneceADistrito find:Fuencarral ;
 	font:tieneDireccion "CL ISLA DE AROSA,  21 (C/V SANTIAGO COMPOSTELA)" ;
 	font:tieneID "1867" ;
 	font:tieneTelefono "917385940" .
@@ -3884,7 +4032,8 @@
 	font:tieneFechaInicio "2015-10-08T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-08T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1867> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1867/turno/2015-10-08> .
+<http://linkeddata.es/grupo10/resource/farmacia/1867> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1867/turno/2015-10-08> ;
+	font:perteneceADistrito find:Barrio_Del_Pilar .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1088/turno/2015-10-08> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-08T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -4775,7 +4924,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/535> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/535/turno/2015-10-10> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1684> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMBERI-MONCLOA" ;
+	font:perteneceADistrito find:Chamberi ;
 	font:tieneDireccion "CL JUAN DE AUSTRIA,   1 (Semiesquina a Luchana)" ;
 	font:tieneID "1684" ;
 	font:tieneTelefono "914467973" .
@@ -4784,7 +4933,8 @@
 	font:tieneFechaInicio "2015-10-10T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-10T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1684> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1684/turno/2015-10-10> .
+<http://linkeddata.es/grupo10/resource/farmacia/1684> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1684/turno/2015-10-10> ;
+	font:perteneceADistrito find:Moncloa .
 
 <http://linkeddata.es/grupo10/resource/farmacia/886/turno/2015-10-10> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-10T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -4955,7 +5105,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1346> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1346/turno/2015-10-10> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/937> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "TETUAN-CUATRO CAMINOS" ;
+	font:perteneceADistrito find:Tetuan ;
 	font:tieneDireccion "PS CASTELLANA, 113" ;
 	font:tieneID "937" ;
 	font:tieneTelefono "915555781" .
@@ -4964,7 +5114,8 @@
 	font:tieneFechaInicio "2015-10-10T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-10T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/937> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/937/turno/2015-10-10> .
+<http://linkeddata.es/grupo10/resource/farmacia/937> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/937/turno/2015-10-10> ;
+	font:perteneceADistrito find:Cuatro_Caminos .
 
 <http://linkeddata.es/grupo10/resource/farmacia/493/turno/2015-10-10> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-10T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -4979,7 +5130,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/123> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/123/turno/2015-10-10> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2011> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "USERA-VILLAVERDE" ;
+	font:perteneceADistrito find:Usera ;
 	font:tieneDireccion "CL EDUARDO BARREIROS, 153 (PUENTE ALCOCER)" ;
 	font:tieneID "2011" ;
 	font:tieneTelefono "917955667" .
@@ -4988,7 +5139,8 @@
 	font:tieneFechaInicio "2015-10-10T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-10T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/2011> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2011/turno/2015-10-10> .
+<http://linkeddata.es/grupo10/resource/farmacia/2011> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2011/turno/2015-10-10> ;
+	font:perteneceADistrito find:Villaverde .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1455/turno/2015-10-10> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-10T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -5123,7 +5275,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/913> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/913/turno/2015-10-11> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1964> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+	font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "CL CONDE DUQUE,  42" ;
 	font:tieneID "1964" ;
 	font:tieneTelefono "914489376" .
@@ -5549,7 +5701,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/624> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/624/turno/2015-10-12> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2605> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMARTIN-HORTALEZA" ;
+	font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "CL CONCHITA MONTES, LOCAL 8 (Barrio Las Carcabas)" ;
 	font:tieneID "2605" ;
 	font:tieneTelefono "913825033" .
@@ -5558,7 +5710,8 @@
 	font:tieneFechaInicio "2015-10-12T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-12T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/2605> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2605/turno/2015-10-12> .
+<http://linkeddata.es/grupo10/resource/farmacia/2605> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2605/turno/2015-10-12> ;
+	font:perteneceADistrito find:Hortaleza .
 
 <http://linkeddata.es/grupo10/resource/farmacia/535/turno/2015-10-12> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-12T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -5867,7 +6020,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1295> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1295/turno/2015-10-13> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/606> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "ARAVACA" ;
+	font:perteneceADistrito find:Aravaca ;
 	font:tieneDireccion "AV OSA MAYOR,  73 (ARAVACA)" ;
 	font:tieneID "606" ;
 	font:tieneTelefono "913070059" .
@@ -5951,7 +6104,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/913> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/913/turno/2015-10-13> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/107> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+	font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "CL ATOCHA, 110" ;
 	font:tieneID "107" ;
 	font:tieneTelefono "915391799" .
@@ -6113,7 +6266,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1764> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1764/turno/2015-10-13> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1799> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "PUENTE DE VALLECAS-ENTREVIAS" ;
+	font:perteneceADistrito find:Puente_De_Vallecas ;
 	font:tieneDireccion "AV PABLO NERUDA,   4" ;
 	font:tieneID "1799" ;
 	font:tieneTelefono "913037214" .
@@ -6122,7 +6275,8 @@
 	font:tieneFechaInicio "2015-10-13T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-13T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1799> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1799/turno/2015-10-13> .
+<http://linkeddata.es/grupo10/resource/farmacia/1799> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1799/turno/2015-10-13> ;
+	font:perteneceADistrito find:Entrevias .
 
 <http://linkeddata.es/grupo10/resource/farmacia/187/turno/2015-10-13> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-13T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -6353,7 +6507,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/331> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/331/turno/2015-10-14> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/235> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+	font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "CL LEON,  13" ;
 	font:tieneID "235" ;
 	font:tieneTelefono "914295158" .
@@ -6833,7 +6987,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/439> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/439/turno/2015-10-15> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1188> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMARTIN-HORTALEZA" ;
+	font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "CL SANTA HORTENSIA,  20 (Entrada Lopez de Hoyos, 166)" ;
 	font:tieneID "1188" ;
 	font:tieneTelefono "914157443" .
@@ -6842,7 +6996,8 @@
 	font:tieneFechaInicio "2015-10-15T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-16T09:29:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1188> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1188/turno/2015-10-15> .
+<http://linkeddata.es/grupo10/resource/farmacia/1188> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1188/turno/2015-10-15> ;
+	font:perteneceADistrito find:Hortaleza .
 
 <http://linkeddata.es/grupo10/resource/farmacia/95/turno/2015-10-15> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-15T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -6869,7 +7024,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/136> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/136/turno/2015-10-15> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/546> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMBERI-MONCLOA" ;
+	font:perteneceADistrito find:Chamberi ;
 	font:tieneDireccion "CL PONZANO,   9 (Semiesquina a Santa Engracia)" ;
 	font:tieneID "546" ;
 	font:tieneTelefono "914483737" .
@@ -6878,7 +7033,8 @@
 	font:tieneFechaInicio "2015-10-15T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-15T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/546> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/546/turno/2015-10-15> .
+<http://linkeddata.es/grupo10/resource/farmacia/546> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/546/turno/2015-10-15> ;
+	font:perteneceADistrito find:Moncloa .
 
 <http://linkeddata.es/grupo10/resource/farmacia/886/turno/2015-10-15> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-15T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -7253,7 +7409,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/331> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/331/turno/2015-10-16> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/327> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+	font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "CL MIGUEL SERVET,   1" ;
 	font:tieneID "327" ;
 	font:tieneTelefono "915277793" .
@@ -7385,7 +7541,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1870> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1870/turno/2015-10-16> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2582> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "FUENCARRAL-BARRIO DEL PILAR" ;
+	font:perteneceADistrito find:Fuencarral ;
 	font:tieneDireccion "CL PUENTE LA REINA,  12" ;
 	font:tieneID "2582" ;
 	font:tieneTelefono "914274823" .
@@ -7394,7 +7550,8 @@
 	font:tieneFechaInicio "2015-10-16T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-16T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/2582> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2582/turno/2015-10-16> .
+<http://linkeddata.es/grupo10/resource/farmacia/2582> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2582/turno/2015-10-16> ;
+	font:perteneceADistrito find:Barrio_Del_Pilar .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1088/turno/2015-10-16> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-16T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -7439,7 +7596,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1764> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1764/turno/2015-10-16> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1437> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "PUENTE DE VALLECAS-ENTREVIAS" ;
+	font:perteneceADistrito find:Puente_De_Vallecas ;
 	font:tieneDireccion "CL PONT DE MOLINS,  68 (Detras Av Pablo Neruda)" ;
 	font:tieneID "1437" ;
 	font:tieneTelefono "917777257" .
@@ -7448,7 +7605,8 @@
 	font:tieneFechaInicio "2015-10-16T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-16T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1437> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1437/turno/2015-10-16> .
+<http://linkeddata.es/grupo10/resource/farmacia/1437> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1437/turno/2015-10-16> ;
+	font:perteneceADistrito find:Entrevias .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1418/turno/2015-10-16> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-16T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -8189,7 +8347,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/95> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/95/turno/2015-10-18> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/911> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMARTIN-HORTALEZA" ;
+	font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "CL CORAZON DE MARIA,  19 (Paralela a Clara del Rey)" ;
 	font:tieneID "911" ;
 	font:tieneTelefono "914164344" .
@@ -8198,7 +8356,8 @@
 	font:tieneFechaInicio "2015-10-18T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-18T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/911> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/911/turno/2015-10-18> .
+<http://linkeddata.es/grupo10/resource/farmacia/911> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/911/turno/2015-10-18> ;
+	font:perteneceADistrito find:Hortaleza .
 
 <http://linkeddata.es/grupo10/resource/farmacia/136/turno/2015-10-18> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-18T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -8327,7 +8486,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/515> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/515/turno/2015-10-18> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1899> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "PUENTE DE VALLECAS-ENTREVIAS" ;
+	font:perteneceADistrito find:Puente_De_Vallecas ;
 	font:tieneDireccion "CL CAMPI/A,  12 (Junto comisaria Entrevias)" ;
 	font:tieneID "1899" ;
 	font:tieneTelefono "917860176" .
@@ -8336,7 +8495,8 @@
 	font:tieneFechaInicio "2015-10-18T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-18T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1899> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1899/turno/2015-10-18> .
+<http://linkeddata.es/grupo10/resource/farmacia/1899> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1899/turno/2015-10-18> ;
+	font:perteneceADistrito find:Entrevias .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1418/turno/2015-10-18> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-18T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -8639,7 +8799,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/95> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/95/turno/2015-10-19> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/984> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMARTIN-HORTALEZA" ;
+	font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "CL SERRANO, 222 (Frente Hospital San Rafael)" ;
 	font:tieneID "984" ;
 	font:tieneTelefono "915649733" .
@@ -8648,7 +8808,8 @@
 	font:tieneFechaInicio "2015-10-19T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-19T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/984> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/984/turno/2015-10-19> .
+<http://linkeddata.es/grupo10/resource/farmacia/984> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/984/turno/2015-10-19> ;
+	font:perteneceADistrito find:Hortaleza .
 
 <http://linkeddata.es/grupo10/resource/farmacia/136/turno/2015-10-19> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-19T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -8663,7 +8824,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/535> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/535/turno/2015-10-19> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/211> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMBERI-MONCLOA" ;
+	font:perteneceADistrito find:Chamberi ;
 	font:tieneDireccion "CL FUENCARRAL, 114 (Esquina Glorieta de Bilbao)" ;
 	font:tieneID "211" ;
 	font:tieneTelefono "914472374" .
@@ -8672,7 +8833,8 @@
 	font:tieneFechaInicio "2015-10-19T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-19T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/211> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/211/turno/2015-10-19> .
+<http://linkeddata.es/grupo10/resource/farmacia/211> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/211/turno/2015-10-19> ;
+	font:perteneceADistrito find:Moncloa .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1077/turno/2015-10-19> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-19T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -9281,7 +9443,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1418> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1418/turno/2015-10-20> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1240> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "RETIRO-ARGANZUELA" ;
+	font:perteneceADistrito find:Retiro ;
 	font:tieneDireccion "EDIF ANTIGUO ESTACION ATOCHA, LC 2" ;
 	font:tieneID "1240" ;
 	font:tieneTelefono "915393444" .
@@ -9290,7 +9452,8 @@
 	font:tieneFechaInicio "2015-10-20T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-20T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1240> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1240/turno/2015-10-20> .
+<http://linkeddata.es/grupo10/resource/farmacia/1240> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1240/turno/2015-10-20> ;
+	font:perteneceADistrito find:Arganzuela .
 
 <http://linkeddata.es/grupo10/resource/farmacia/524/turno/2015-10-20> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-20T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -9617,7 +9780,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/287> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/287/turno/2015-10-21> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/18> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMBERI-MONCLOA" ;
+	font:perteneceADistrito find:Chamberi ;
 	font:tieneDireccion "CL PONZANO,  31" ;
 	font:tieneID "18" ;
 	font:tieneTelefono "914414529" .
@@ -9626,7 +9789,8 @@
 	font:tieneFechaInicio "2015-10-21T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-21T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/18> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/18/turno/2015-10-21> .
+<http://linkeddata.es/grupo10/resource/farmacia/18> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/18/turno/2015-10-21> ;
+	font:perteneceADistrito find:Moncloa .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1077/turno/2015-10-21> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-21T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -9755,7 +9919,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1418> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1418/turno/2015-10-21> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/895> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "RETIRO-ARGANZUELA" ;
+	font:perteneceADistrito find:Retiro ;
 	font:tieneDireccion "CL DOCE DE OCTUBRE,   2 (Semiesquina a Menendez Pelayo, 63)" ;
 	font:tieneID "895" ;
 	font:tieneTelefono "915737673" .
@@ -9764,7 +9928,8 @@
 	font:tieneFechaInicio "2015-10-21T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-21T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/895> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/895/turno/2015-10-21> .
+<http://linkeddata.es/grupo10/resource/farmacia/895> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/895/turno/2015-10-21> ;
+	font:perteneceADistrito find:Arganzuela .
 
 <http://linkeddata.es/grupo10/resource/farmacia/892/turno/2015-10-21> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-21T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -9965,7 +10130,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/116> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/116/turno/2015-10-22> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/498> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+	font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "CL ATOCHA,  46 PZ ANTON MARTIN" ;
 	font:tieneID "498" ;
 	font:tieneTelefono "913692000" .
@@ -10301,7 +10466,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/123> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/123/turno/2015-10-22> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/387> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "USERA-VILLAVERDE" ;
+	font:perteneceADistrito find:Usera ;
 	font:tieneDireccion "PZ MAYOR DE VILLAVERDE, S/N (Villaverde Alto - Esq. Oxigeno)" ;
 	font:tieneID "387" ;
 	font:tieneTelefono "917971424" .
@@ -10310,7 +10475,8 @@
 	font:tieneFechaInicio "2015-10-22T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-22T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/387> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/387/turno/2015-10-22> .
+<http://linkeddata.es/grupo10/resource/farmacia/387> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/387/turno/2015-10-22> ;
+	font:perteneceADistrito find:Villaverde .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1455/turno/2015-10-22> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-22T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -10763,7 +10929,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/123> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/123/turno/2015-10-23> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2824> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "USERA-VILLAVERDE" ;
+	font:perteneceADistrito find:Usera ;
 	font:tieneDireccion "CL SAHARA,  60" ;
 	font:tieneID "2824" ;
 	font:tieneTelefono "917988564" .
@@ -10772,7 +10938,8 @@
 	font:tieneFechaInicio "2015-10-23T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-23T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/2824> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2824/turno/2015-10-23> .
+<http://linkeddata.es/grupo10/resource/farmacia/2824> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2824/turno/2015-10-23> ;
+	font:perteneceADistrito find:Villaverde .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1455/turno/2015-10-23> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-23T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -10871,7 +11038,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/2274> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2274/turno/2015-10-24> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/45> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CARABANCHEL-LATINA" ;
+	font:perteneceADistrito find:Carabanchel ;
 	font:tieneDireccion "CL GENERAL RICARDOS, 183 (Frente Mercado)" ;
 	font:tieneID "45" ;
 	font:tieneTelefono "914628325" .
@@ -10880,7 +11047,8 @@
 	font:tieneFechaInicio "2015-10-24T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-24T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/45> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/45/turno/2015-10-24> .
+<http://linkeddata.es/grupo10/resource/farmacia/45> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/45/turno/2015-10-24> ;
+	font:perteneceADistrito find:Latina .
 
 <http://linkeddata.es/grupo10/resource/farmacia/46/turno/2015-10-24> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-24T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -10937,7 +11105,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/180> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/180/turno/2015-10-24> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/578> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMARTIN-HORTALEZA" ;
+	font:perteneceADistrito find:Chamartin ;
 	font:tieneDireccion "CL PRINCIPE DE VERGARA, 270" ;
 	font:tieneID "578" ;
 	font:tieneTelefono "914574630" .
@@ -10946,7 +11114,8 @@
 	font:tieneFechaInicio "2015-10-24T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-25T09:29:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/578> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/578/turno/2015-10-24> .
+<http://linkeddata.es/grupo10/resource/farmacia/578> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/578/turno/2015-10-24> ;
+	font:perteneceADistrito find:Hortaleza .
 
 <http://linkeddata.es/grupo10/resource/farmacia/136/turno/2015-10-24> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-24T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -11477,7 +11646,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/886> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/886/turno/2015-10-25> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/910> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CIUDAD LINEAL-SAN BLAS" ;
+	font:perteneceADistrito find:Ciudad_Lineal ;
 	font:tieneDireccion "CL HERMANOS GARCIA NOBLEJAS,   7 (Cruz de los Caidos)" ;
 	font:tieneID "910" ;
 	font:tieneTelefono "913671810" .
@@ -11486,7 +11655,8 @@
 	font:tieneFechaInicio "2015-10-25T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-25T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/910> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/910/turno/2015-10-25> .
+<http://linkeddata.es/grupo10/resource/farmacia/910> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/910/turno/2015-10-25> ;
+	font:perteneceADistrito find:San_Blas .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1870/turno/2015-10-25> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-25T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -11783,7 +11953,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/2274> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2274/turno/2015-10-26> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1063> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CARABANCHEL-LATINA" ;
+	font:perteneceADistrito find:Carabanchel ;
 	font:tieneDireccion "CL ALGORTA,  13 (Semiesquina c/ General Ricardos, 128)" ;
 	font:tieneID "1063" ;
 	font:tieneTelefono "914717007" .
@@ -11792,7 +11962,8 @@
 	font:tieneFechaInicio "2015-10-26T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-26T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1063> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1063/turno/2015-10-26> .
+<http://linkeddata.es/grupo10/resource/farmacia/1063> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1063/turno/2015-10-26> ;
+	font:perteneceADistrito find:Latina .
 
 <http://linkeddata.es/grupo10/resource/farmacia/913/turno/2015-10-26> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-26T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -11999,7 +12170,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1088> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1088/turno/2015-10-26> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1490> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "MORATALAZ" ;
+	font:perteneceADistrito find:Moratalaz ;
 	font:tieneDireccion "AV MORATALAZ, 101 (Frente parque Darwin)" ;
 	font:tieneID "1490" ;
 	font:tieneTelefono "914371022" .
@@ -12407,7 +12578,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/535> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/535/turno/2015-10-27> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/138> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMBERI-MONCLOA" ;
+	font:perteneceADistrito find:Chamberi ;
 	font:tieneDireccion "GL QUEVEDO,   6" ;
 	font:tieneID "138" ;
 	font:tieneTelefono "914489691" .
@@ -12416,7 +12587,8 @@
 	font:tieneFechaInicio "2015-10-27T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-27T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/138> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/138/turno/2015-10-27> .
+<http://linkeddata.es/grupo10/resource/farmacia/138> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/138/turno/2015-10-27> ;
+	font:perteneceADistrito find:Moncloa .
 
 <http://linkeddata.es/grupo10/resource/farmacia/886/turno/2015-10-27> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-27T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -12701,7 +12873,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/2274> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2274/turno/2015-10-28> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2195> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CARABANCHEL-LATINA" ;
+	font:perteneceADistrito find:Carabanchel ;
 	font:tieneDireccion "CL GUARE�A, 8 (Final Av Padre Piquer, detras Bomberos)" ;
 	font:tieneID "2195" ;
 	font:tieneTelefono "917052799" .
@@ -12710,7 +12882,8 @@
 	font:tieneFechaInicio "2015-10-28T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-28T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/2195> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2195/turno/2015-10-28> .
+<http://linkeddata.es/grupo10/resource/farmacia/2195> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2195/turno/2015-10-28> ;
+	font:perteneceADistrito find:Latina .
 
 <http://linkeddata.es/grupo10/resource/farmacia/331/turno/2015-10-28> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-28T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -12827,7 +13000,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1870> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1870/turno/2015-10-28> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1917> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "FUENCARRAL-BARRIO DEL PILAR" ;
+	font:perteneceADistrito find:Fuencarral ;
 	font:tieneDireccion "CL MELCHOR FERNANDEZ ALMAGRO,  12 (Esquina con Villa de Marin)" ;
 	font:tieneID "1917" ;
 	font:tieneTelefono "913145243" .
@@ -12836,7 +13009,8 @@
 	font:tieneFechaInicio "2015-10-28T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-28T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1917> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1917/turno/2015-10-28> .
+<http://linkeddata.es/grupo10/resource/farmacia/1917> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1917/turno/2015-10-28> ;
+	font:perteneceADistrito find:Barrio_Del_Pilar .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1088/turno/2015-10-28> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-28T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -13139,7 +13313,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/46> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/46/turno/2015-10-29> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/103> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+	font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "CL LUNA,   6" ;
 	font:tieneID "103" ;
 	font:tieneTelefono "915317732" .
@@ -13151,7 +13325,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/103> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/103/turno/2015-10-29> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/463> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CENTRO" ;
+	font:perteneceADistrito find:Centro ;
 	font:tieneDireccion "CL TOLEDO, 105" ;
 	font:tieneID "463" ;
 	font:tieneTelefono "913653236" .
@@ -13229,7 +13403,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/535> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/535/turno/2015-10-29> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/215> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMBERI-MONCLOA" ;
+	font:perteneceADistrito find:Chamberi ;
 	font:tieneDireccion "CL SANTA ENGRACIA, 163" ;
 	font:tieneID "215" ;
 	font:tieneTelefono "915333136" .
@@ -13238,7 +13412,8 @@
 	font:tieneFechaInicio "2015-10-29T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-29T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/215> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/215/turno/2015-10-29> .
+<http://linkeddata.es/grupo10/resource/farmacia/215> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/215/turno/2015-10-29> ;
+	font:perteneceADistrito find:Moncloa .
 
 <http://linkeddata.es/grupo10/resource/farmacia/886/turno/2015-10-29> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-29T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -13361,7 +13536,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1418> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1418/turno/2015-10-29> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/93> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "RETIRO-ARGANZUELA" ;
+	font:perteneceADistrito find:Retiro ;
 	font:tieneDireccion "CL NARVAEZ,  50" ;
 	font:tieneID "93" ;
 	font:tieneTelefono "915741219" .
@@ -13370,7 +13545,8 @@
 	font:tieneFechaInicio "2015-10-29T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-29T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/93> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/93/turno/2015-10-29> .
+<http://linkeddata.es/grupo10/resource/farmacia/93> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/93/turno/2015-10-29> ;
+	font:perteneceADistrito find:Arganzuela .
 
 <http://linkeddata.es/grupo10/resource/farmacia/892/turno/2015-10-29> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-29T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -13919,7 +14095,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/1346> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1346/turno/2015-10-30> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1329> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "TETUAN-CUATRO CAMINOS" ;
+	font:perteneceADistrito find:Tetuan ;
 	font:tieneDireccion "CL BRAVO MURILLO, 365" ;
 	font:tieneID "1329" ;
 	font:tieneTelefono "915791436" .
@@ -13928,7 +14104,8 @@
 	font:tieneFechaInicio "2015-10-30T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-30T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/1329> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1329/turno/2015-10-30> .
+<http://linkeddata.es/grupo10/resource/farmacia/1329> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1329/turno/2015-10-30> ;
+	font:perteneceADistrito find:Cuatro_Caminos .
 
 <http://linkeddata.es/grupo10/resource/farmacia/123/turno/2015-10-30> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-30T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -14141,7 +14318,7 @@
 <http://linkeddata.es/grupo10/resource/farmacia/535> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/535/turno/2015-10-31> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/145> a font:FarmaciaDeGuardia ;
-	font:perteneceABarrio "CHAMBERI-MONCLOA" ;
+	font:perteneceADistrito find:Chamberi ;
 	font:tieneDireccion "CL RODRIGUEZ SAN PEDRO,  47 (Esquina c/Guzman el Bueno)" ;
 	font:tieneID "145" ;
 	font:tieneTelefono "915432482" .
@@ -14150,7 +14327,8 @@
 	font:tieneFechaInicio "2015-10-31T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	font:tieneFechaFin "2015-10-31T22:59:59"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 
-<http://linkeddata.es/grupo10/resource/farmacia/145> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/145/turno/2015-10-31> .
+<http://linkeddata.es/grupo10/resource/farmacia/145> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/145/turno/2015-10-31> ;
+	font:perteneceADistrito find:Moncloa .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1077/turno/2015-10-31> a font:TurnoDeGuardia ;
 	font:tieneFechaInicio "2015-10-31T09:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;

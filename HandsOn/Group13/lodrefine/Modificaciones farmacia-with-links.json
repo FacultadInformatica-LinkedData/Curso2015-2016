@@ -1,0 +1,150 @@
+[
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Localidad to type http://www.wikidata.org/entity/Q5",
+    "columnName": "Localidad",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.wikidata.org/entity/Q5",
+        "name": "http://www.wikidata.org/entity/Q5"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Madrid, Madrid (http://dbpedia.org/resource/Madrid,_Madrid) for cells containing \"Madrid\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Localidad",
+    "similarValue": "Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Madrid,_Madrid",
+      "name": "Madrid, Madrid",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Barrio to type http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+    "columnName": "Barrio",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+        "name": "geo:SpatialThing"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Moncloa-Aravaca (http://dbpedia.org/resource/Moncloa-Aravaca) for cells containing \"ARAVACA\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Barrio",
+    "similarValue": "ARAVACA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Moncloa-Aravaca",
+      "name": "Moncloa-Aravaca",
+      "score": 0.46666663885116577,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Alameda de Osuna (http://www.wikidata.org/entity/Q2403543) for cells containing \"BARAJAS-ALAMEDA DE OSUNA\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Barrio",
+    "similarValue": "BARAJAS-ALAMEDA DE OSUNA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.wikidata.org/entity/Q2403543",
+      "name": "Alameda de Osuna",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Carabanchel (http://dbpedia.org/resource/Carabanchel) for cells containing \"CARABANCHEL-LATINA\" in column Barrio",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Barrio",
+    "similarValue": "CARABANCHEL-LATINA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Carabanchel",
+      "name": "Carabanchel",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column URI de Localidad de DBpedia at index 1 based on column Localidad using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "URI de Localidad de DBpedia",
+    "columnInsertIndex": 1,
+    "baseColumnName": "Localidad",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column URI de Barrio de DBpedia at index 3 based on column Barrio using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "URI de Barrio de DBpedia",
+    "columnInsertIndex": 3,
+    "baseColumnName": "Barrio",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  }
+]

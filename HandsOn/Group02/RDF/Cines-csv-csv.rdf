@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	xmlns:gp02="http://www.semanticweb.org/webSemantica/group02#">
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:gp02="http://www.semanticweb.org/webSemantica/group02#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
 <rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCentro+Comercial+y+Palacio+de+Hielo+Dreams">
 	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
@@ -17,8 +17,8 @@
 	<gp02:tieneNombreVia>SILVANO</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28043</gp02:tieneCP>
 	<gp02:tieneBarrio>CANILLAS</gp02:tieneBarrio>
 	<gp02:tieneDistrito>HORTALEZA</gp02:tieneDistrito>
@@ -39,8 +39,8 @@
 	<gp02:tieneNombreVia>MONTERA</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28013</gp02:tieneCP>
 	<gp02:tieneBarrio>SOL</gp02:tieneBarrio>
 	<gp02:tieneDistrito>CENTRO</gp02:tieneDistrito>
@@ -61,8 +61,8 @@
 	<gp02:tieneNombreVia>ALCALA</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">414</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28027</gp02:tieneCP>
 	<gp02:tieneBarrio>PUEBLO NUEVO</gp02:tieneBarrio>
 	<gp02:tieneDistrito>CIUDAD LINEAL</gp02:tieneDistrito>
@@ -84,8 +84,8 @@
 	<gp02:tieneNombreVia>CIGARRERAS</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28005</gp02:tieneCP>
 	<gp02:tieneBarrio>ACACIAS</gp02:tieneBarrio>
 	<gp02:tieneDistrito>ARGANZUELA</gp02:tieneDistrito>
@@ -105,8 +105,8 @@
 	<gp02:tieneNombreVia>CALLAO</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>PLAZA</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28013</gp02:tieneCP>
 	<gp02:tieneBarrio>SOL</gp02:tieneBarrio>
 	<gp02:tieneDistrito>CENTRO</gp02:tieneDistrito>
@@ -127,8 +127,8 @@
 	<gp02:tieneNombreVia>GRAN VIA</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">41</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28013</gp02:tieneCP>
 	<gp02:tieneBarrio>PALACIO</gp02:tieneBarrio>
 	<gp02:tieneDistrito>CENTRO</gp02:tieneDistrito>
@@ -149,8 +149,8 @@
 	<gp02:tieneNombreVia>ADOLFO BIOY CASARES</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28051</gp02:tieneCP>
 	<gp02:tieneBarrio>CASCO H.VALLECAS</gp02:tieneBarrio>
 	<gp02:tieneDistrito>VILLA DE VALLECAS</gp02:tieneDistrito>
@@ -172,8 +172,8 @@
 	<gp02:tieneNombreVia>GUADALAJARA</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>AVENIDA</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28032</gp02:tieneCP>
 	<gp02:tieneBarrio>ARCOS</gp02:tieneBarrio>
 	<gp02:tieneDistrito>SAN BLAS-CANILLEJAS</gp02:tieneDistrito>
@@ -194,8 +194,8 @@
 	<gp02:tieneNombreVia>ACANTO</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28045</gp02:tieneCP>
 	<gp02:tieneBarrio>ATOCHA</gp02:tieneBarrio>
 	<gp02:tieneDistrito>ARGANZUELA</gp02:tieneDistrito>
@@ -216,8 +216,8 @@
 	<gp02:tieneNombreVia>FLORIDA</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>PASEO</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28008</gp02:tieneCP>
 	<gp02:tieneBarrio>CASA DE CAMPO</gp02:tieneBarrio>
 	<gp02:tieneDistrito>MONCLOA-ARAVACA</gp02:tieneDistrito>
@@ -238,8 +238,8 @@
 	<gp02:tieneNombreVia>FUENCARRAL</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">136</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28010</gp02:tieneCP>
 	<gp02:tieneBarrio>TRAFALGAR</gp02:tieneBarrio>
 	<gp02:tieneDistrito>CHAMBERI</gp02:tieneDistrito>
@@ -260,8 +260,8 @@
 	<gp02:tieneNombreVia>ALBERTO AGUILERA</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</gp02:tieneCP>
 	<gp02:tieneBarrio>ARAPILES</gp02:tieneBarrio>
 	<gp02:tieneDistrito>CHAMBERI</gp02:tieneDistrito>
@@ -282,8 +282,8 @@
 	<gp02:tieneNombreVia>GOYA</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">67</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28001</gp02:tieneCP>
 	<gp02:tieneBarrio>GOYA</gp02:tieneBarrio>
 	<gp02:tieneDistrito>SALAMANCA</gp02:tieneDistrito>
@@ -305,8 +305,8 @@
 	<gp02:tieneNombreVia>SANTA ENGRACIA</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">132</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28003</gp02:tieneCP>
 	<gp02:tieneBarrio>RIOS ROSAS</gp02:tieneBarrio>
 	<gp02:tieneDistrito>CHAMBERI</gp02:tieneDistrito>
@@ -327,8 +327,8 @@
 	<gp02:tieneNombreVia>SILVANO</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28043</gp02:tieneCP>
 	<gp02:tieneBarrio>CANILLAS</gp02:tieneBarrio>
 	<gp02:tieneDistrito>HORTALEZA</gp02:tieneDistrito>
@@ -348,8 +348,8 @@
 	<gp02:tieneNombreVia>ALCALA</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28014</gp02:tieneCP>
 	<gp02:tieneBarrio>CORTES</gp02:tieneBarrio>
 	<gp02:tieneDistrito>CENTRO</gp02:tieneDistrito>
@@ -370,8 +370,8 @@
 	<gp02:tieneNombreVia>SANTIAGO DE COMPOSTELA</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28034</gp02:tieneCP>
 	<gp02:tieneBarrio>LA PAZ</gp02:tieneBarrio>
 	<gp02:tieneDistrito>FUENCARRAL-EL PARDO</gp02:tieneDistrito>
@@ -391,8 +391,8 @@
 	<gp02:tieneNombreVia>CALLAO</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>PLAZA</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28013</gp02:tieneCP>
 	<gp02:tieneBarrio>SOL</gp02:tieneBarrio>
 	<gp02:tieneDistrito>CENTRO</gp02:tieneDistrito>
@@ -413,8 +413,8 @@
 	<gp02:tieneNombreVia>LUCHANA</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28010</gp02:tieneCP>
 	<gp02:tieneBarrio>TRAFALGAR</gp02:tieneBarrio>
 	<gp02:tieneDistrito>CHAMBERI</gp02:tieneDistrito>
@@ -435,8 +435,8 @@
 	<gp02:tieneNombreVia>FUENCARRAL</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">125</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28010</gp02:tieneCP>
 	<gp02:tieneBarrio>TRAFALGAR</gp02:tieneBarrio>
 	<gp02:tieneDistrito>CHAMBERI</gp02:tieneDistrito>
@@ -457,8 +457,8 @@
 	<gp02:tieneNombreVia>PRINCESA</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28008</gp02:tieneCP>
 	<gp02:tieneBarrio>ARGUELLES</gp02:tieneBarrio>
 	<gp02:tieneDistrito>MONCLOA-ARAVACA</gp02:tieneDistrito>
@@ -480,8 +480,8 @@
 	<gp02:tieneNombreVia>MARTIN DE LOS HEROS</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28008</gp02:tieneCP>
 	<gp02:tieneBarrio>ARGUELLES</gp02:tieneBarrio>
 	<gp02:tieneDistrito>MONCLOA-ARAVACA</gp02:tieneDistrito>
@@ -503,8 +503,8 @@
 	<gp02:tieneNombreVia>NARVAEZ</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28009</gp02:tieneCP>
 	<gp02:tieneBarrio>IBIZA</gp02:tieneBarrio>
 	<gp02:tieneDistrito>RETIRO</gp02:tieneDistrito>
@@ -526,8 +526,8 @@
 	<gp02:tieneNombreVia>ANDRES MELLADO</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">53</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</gp02:tieneCP>
 	<gp02:tieneBarrio>GAZTAMBIDE</gp02:tieneBarrio>
 	<gp02:tieneDistrito>CHAMBERI</gp02:tieneDistrito>
@@ -547,8 +547,8 @@
 	<gp02:tieneNombreVia>BRAVO MURILLO</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</gp02:tieneCP>
 	<gp02:tieneBarrio>TRAFALGAR</gp02:tieneBarrio>
 	<gp02:tieneDistrito>CHAMBERI</gp02:tieneDistrito>
@@ -570,8 +570,8 @@
 	<gp02:tieneNombreVia>FRANCISCO SILVELA</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">48</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28028</gp02:tieneCP>
 	<gp02:tieneBarrio>GUINDALERA</gp02:tieneBarrio>
 	<gp02:tieneDistrito>SALAMANCA</gp02:tieneDistrito>
@@ -592,8 +592,8 @@
 	<gp02:tieneNombreVia>CALDERILLA</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28054</gp02:tieneCP>
 	<gp02:tieneBarrio>BUENAVISTA</gp02:tieneBarrio>
 	<gp02:tieneDistrito>CARABANCHEL</gp02:tieneDistrito>
@@ -613,8 +613,8 @@
 	<gp02:tieneNombreVia>MANOTERAS</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>AVENIDA</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28050</gp02:tieneCP>
 	<gp02:tieneBarrio>VALDEFUENTES</gp02:tieneBarrio>
 	<gp02:tieneDistrito>HORTALEZA</gp02:tieneDistrito>
@@ -636,8 +636,8 @@
 	<gp02:tieneNombreVia>CHOPERA</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>PASEO</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28045</gp02:tieneCP>
 	<gp02:tieneBarrio>CHOPERA</gp02:tieneBarrio>
 	<gp02:tieneDistrito>ARGANZUELA</gp02:tieneDistrito>
@@ -659,8 +659,8 @@
 	<gp02:tieneNombreVia>SANTA ISABEL</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28012</gp02:tieneCP>
 	<gp02:tieneBarrio>EMBAJADORES</gp02:tieneBarrio>
 	<gp02:tieneDistrito>CENTRO</gp02:tieneDistrito>
@@ -681,8 +681,8 @@
 	<gp02:tieneNombreVia>MAGALLANES</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</gp02:tieneCP>
 	<gp02:tieneBarrio>ARAPILES</gp02:tieneBarrio>
 	<gp02:tieneDistrito>CHAMBERI</gp02:tieneDistrito>
@@ -703,8 +703,8 @@
 	<gp02:tieneNombreVia>DOCTOR CORTEZO</gp02:tieneNombreVia>
 	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
 	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</gp02:tieneNum>
-	<gp02:tieneLocalidad>MADRID</gp02:tieneLocalidad>
-	<gp02:tieneProvincia>MADRID</gp02:tieneProvincia>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
 	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28012</gp02:tieneCP>
 	<gp02:tieneBarrio>EMBAJADORES</gp02:tieneBarrio>
 	<gp02:tieneDistrito>CENTRO</gp02:tieneDistrito>

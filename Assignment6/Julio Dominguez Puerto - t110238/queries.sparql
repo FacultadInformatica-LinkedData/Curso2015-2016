@@ -1,0 +1,41 @@
+******************
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT SUM(?b) where{
+?obs a qb:Observation.
+?obs <http://example.org/myVocabulary#numberOfAccidents> ?b
+}
+******************
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT ?d ?e where{
+?obs a qb:Observation.
+?obs <http://example.org/myVocabulary#relatedDistrict> "USERA".
+?obs <http://example.org/myVocabulary#hasAccidentType> ?c.
+?c <http://www.w3.org/2004/02/skos/core#prefLabel> ?d.
+?obs <http://example.org/myVocabulary#numberOfAccidents> ?e.
+FILTER (lang(?d)="es")	
+}
+******************
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT ?b ?d where{
+?obs a qb:Observation.
+?obs <http://example.org/myVocabulary#relatedDistrict> ?b.
+?obs <http://example.org/myVocabulary#hasAccidentType> <http://example.org/myVocabulary#MultipleCollision>.
+?obs <http://example.org/myVocabulary#numberOfAccidents> ?d.
+}
+******************
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT  MAX(?d) where{
+?obs a qb:Observation.
+?obs <http://example.org/myVocabulary#relatedDistrict> ?b.
+?obs <http://example.org/myVocabulary#hasAccidentType> <http://example.org/myVocabulary#BicycleFall>.
+?obs <http://example.org/myVocabulary#numberOfAccidents> ?d.
+}
+*******************
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT ?b ?d where{
+?obs a qb:Observation.
+?obs <http://example.org/myVocabulary#relatedDistrict> ?b.
+?obs <http://example.org/myVocabulary#hasAccidentType> ?c.
+?obs <http://example.org/myVocabulary#numberOfAccidents> ?d.
+FILTER (?d > 500)
+}

@@ -1,0 +1,46 @@
+PREFIX property: <http://geo.linkeddata.es/stats/property#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+select (SUM(?accidents) as ?total) WHERE {?obs a qb:Observation;
+						mv:relatedDistrict ?district;
+						mv:hasAccidentType ?type ;
+						mv:numberOfAccidents ?accidents ;
+						qb:dataSet mn:MyDataset . } 
+
+PREFIX property: <http://geo.linkeddata.es/stats/property#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+select ?type ?accidents WHERE {?obs a qb:Observation;
+	mv:relatedDistrict  "USERA";
+	mv:hasAccidentType ?type ;
+	mv:numberOfAccidents ?accidents ;
+	qb:dataSet mn:MyDataset . } GROUP BY ?type
+
+PREFIX property: <http://geo.linkeddata.es/stats/property#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+select ?district ?accidents WHERE {?obs a qb:Observation;
+	mv:relatedDistrict  ?district;
+	mv:hasAccidentType mv:MultipleCollision ;
+	mv:numberOfAccidents ?accidents ;
+	qb:dataSet mn:MyDataset . } GROUP BY ?district
+	
+PREFIX property: <http://geo.linkeddata.es/stats/property#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+select ?district WHERE {?obs a qb:Observation;
+	mv:relatedDistrict  ?district;
+	mv:hasAccidentType  ?type ;
+	qb:dataSet mn:MyDataset;
+	mv:numberOfAccidents ?accidents . FILTER (?accidents > 500) }

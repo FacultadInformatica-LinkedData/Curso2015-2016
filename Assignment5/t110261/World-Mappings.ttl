@@ -1,0 +1,953 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1#> .
+@prefix rev: <http://purl.org/stuff/rev#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1#> .
+@prefix ex: <http://world.net> .
+
+@base <http://mappingpedia.org/rdb2rdf/r2rml/tc/> .
+
+<#TriplesMap1>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:tableName "country";
+	];
+
+	rr:subjectMap [
+		rr:template "http://world.net/country/{Code}";
+		rr:termType rr:IRI;
+		rr:class <http://world.net/Country>;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Country#code>;
+		rr:objectMap [ rr:column "Code"; rr:datatype xsd:string; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Country#name>;
+		rr:objectMap [ rr:column "Name"; rr:datatype xsd:string; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Country#continent>;
+		rr:objectMap [ rr:column "Continent"; rr:datatype ex:unknownDataType; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Country#region>;
+		rr:objectMap [ rr:column "Region"; rr:datatype xsd:string; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Country#surfacearea>;
+		rr:objectMap [ rr:column "SurfaceArea"; rr:datatype xsd:double; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Country#indepyear>;
+		rr:objectMap [ rr:column "IndepYear"; rr:datatype xsd:integer; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Country#population>;
+		rr:objectMap [ rr:column "Population"; rr:datatype xsd:integer; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Country#lifeexpectancy>;
+		rr:objectMap [ rr:column "LifeExpectancy"; rr:datatype xsd:double; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Country#gnp>;
+		rr:objectMap [ rr:column "GNP"; rr:datatype xsd:double; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Country#gnpold>;
+		rr:objectMap [ rr:column "GNPOld"; rr:datatype xsd:double; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Country#localname>;
+		rr:objectMap [ rr:column "LocalName"; rr:datatype xsd:string; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Country#governmentform>;
+		rr:objectMap [ rr:column "GovernmentForm"; rr:datatype xsd:string; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Country#headofstate>;
+		rr:objectMap [ rr:column "HeadOfState"; rr:datatype xsd:string; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Country#capital>;
+		rr:objectMap [ rr:column "Capital"; rr:datatype xsd:integer; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Country#code2>;
+		rr:objectMap [ rr:column "Code2"; rr:datatype xsd:string; ];
+	].
+
+<#TriplesMap2>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Country#code>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:string ];
+	].
+
+<#TriplesMap3>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Country#name>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:string ];
+	].
+
+<#TriplesMap4>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Country#continent>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant ex:unknownDataType ];
+	].
+
+<#TriplesMap5>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Country#region>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:string ];
+	].
+
+<#TriplesMap6>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Country#surfacearea>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:double ];
+	].
+
+<#TriplesMap7>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Country#indepyear>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:integer ];
+	].
+
+<#TriplesMap8>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Country#population>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:integer ];
+	].
+
+<#TriplesMap9>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Country#lifeexpectancy>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:double ];
+	].
+
+<#TriplesMap10>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Country#gnp>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:double ];
+	].
+
+<#TriplesMap11>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Country#gnpold>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:double ];
+	].
+
+<#TriplesMap12>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Country#localname>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:string ];
+	].
+
+<#TriplesMap13>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Country#governmentform>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:string ];
+	].
+
+<#TriplesMap14>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Country#headofstate>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:string ];
+	].
+
+<#TriplesMap15>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Country#capital>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:integer ];
+	].
+
+<#TriplesMap16>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Country#code2>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:string ];
+	].
+
+<#TriplesMap17>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Country>;
+		rr:termType rr:IRI;
+		rr:class owl:Class;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:subClassOf;
+		rr:objectMap [ rr:constant owl:Thing ];
+	].
+
+<#TriplesMap18>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:tableName "city";
+	];
+
+	rr:subjectMap [
+		rr:template "http://world.net/city/{ID}";
+		rr:termType rr:IRI;
+		rr:class <http://world.net/City>;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/City#id>;
+		rr:objectMap [ rr:column "ID"; rr:datatype xsd:integer; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/City#name>;
+		rr:objectMap [ rr:column "Name"; rr:datatype xsd:string; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/City#countrycode>;
+		rr:objectMap [ rr:column "CountryCode"; rr:datatype xsd:string; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/City#district>;
+		rr:objectMap [ rr:column "District"; rr:datatype xsd:string; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/City#population>;
+		rr:objectMap [ rr:column "Population"; rr:datatype xsd:integer; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/City#ref-CountryCode>;
+		rr:objectMap [
+			rr:parentTriplesMap <#TriplesMap1>;
+			rr:joinCondition [
+				rr:child "CountryCode";
+				rr:parent "Code";
+			];
+		];
+	].
+
+<#TriplesMap19>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/City>;
+		rr:termType rr:IRI;
+		rr:class owl:Class;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:subClassOf;
+		rr:objectMap [ rr:constant owl:Thing ];
+	].
+
+<#TriplesMap20>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/City#id>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/City> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:integer ];
+	].
+
+<#TriplesMap21>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/City#name>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/City> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:string ];
+	].
+
+<#TriplesMap22>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/City#countrycode>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/City> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:string ];
+	].
+
+<#TriplesMap23>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/City#district>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/City> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:string ];
+	].
+
+<#TriplesMap24>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/City#population>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/City> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:integer ];
+	].
+
+<#TriplesMap25>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/CountryHasCity>;
+		rr:termType rr:IRI;
+		rr:class owl:ObjectProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant <http://world.net/City> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate owl:inverseOf;
+		rr:objectMap [ rr:constant <http://world.net/CityBelongsToCountry> ];
+	].
+
+<#TriplesMap26>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT DISTINCT t_10361.Code FROM (country AS t_10361 JOIN city AS t_72461 ON ((t_10361.Code=t_72461.CountryCode)))"
+	];
+
+	rr:subjectMap [
+		rr:template "http://world.net/Country/{Code}";
+		rr:termType rr:IRI;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/CountryHasCity>;
+		rr:objectMap [ rr:template "http://world.net/City/{Code}" ];
+	].
+
+<#TriplesMap27>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/CityBelongsToCountry>;
+		rr:termType rr:IRI;
+		rr:class owl:ObjectProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/City> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	].
+
+<#TriplesMap28>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Country>;
+		rr:termType rr:IRI;
+		rr:class owl:Class;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:subClassOf;
+		rr:objectMap [ rr:constant owl:Thing ];
+	].
+
+<#TriplesMap29>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:tableName "countrylanguage";
+	];
+
+	rr:subjectMap [
+		rr:template "http://world.net/countrylanguage/{CountryCode}/countrylanguage/{Language}";
+		rr:termType rr:IRI;
+		rr:class <http://world.net/Countrylanguage>;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Countrylanguage#countrycode>;
+		rr:objectMap [ rr:column "CountryCode"; rr:datatype xsd:string; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Countrylanguage#language>;
+		rr:objectMap [ rr:column "Language"; rr:datatype xsd:string; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Countrylanguage#isofficial>;
+		rr:objectMap [ rr:column "IsOfficial"; rr:datatype ex:unknownDataType; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Countrylanguage#percentage>;
+		rr:objectMap [ rr:column "Percentage"; rr:datatype xsd:double; ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/Countrylanguage#ref-CountryCode>;
+		rr:objectMap [
+			rr:parentTriplesMap <#TriplesMap1>;
+			rr:joinCondition [
+				rr:child "CountryCode";
+				rr:parent "Code";
+			];
+		];
+	].
+
+<#TriplesMap30>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Countrylanguage>;
+		rr:termType rr:IRI;
+		rr:class owl:Class;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:subClassOf;
+		rr:objectMap [ rr:constant owl:Thing ];
+	].
+
+<#TriplesMap31>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Countrylanguage#countrycode>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Countrylanguage> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:string ];
+	].
+
+<#TriplesMap32>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Countrylanguage#language>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Countrylanguage> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:string ];
+	].
+
+<#TriplesMap33>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Countrylanguage#isofficial>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Countrylanguage> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant ex:unknownDataType ];
+	].
+
+<#TriplesMap34>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/Countrylanguage#percentage>;
+		rr:termType rr:IRI;
+		rr:class owl:DatatypeProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Countrylanguage> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant xsd:double ];
+	].
+
+<#TriplesMap35>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/CountryHasCountrylanguage>;
+		rr:termType rr:IRI;
+		rr:class owl:ObjectProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant <http://world.net/Countrylanguage> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate owl:inverseOf;
+		rr:objectMap [ rr:constant <http://world.net/CountrylanguageBelongsToCountry> ];
+	].
+
+<#TriplesMap36>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT DISTINCT t_71816.Code FROM (country AS t_71816 JOIN countrylanguage AS t_34172 ON ((t_71816.Code=t_34172.CountryCode)))"
+	];
+
+	rr:subjectMap [
+		rr:template "http://world.net/Country/{Code}";
+		rr:termType rr:IRI;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate <http://world.net/CountryHasCountrylanguage>;
+		rr:objectMap [ rr:template "http://world.net/Countrylanguage/{Code}" ];
+	].
+
+<#TriplesMap37>
+	a rr:TriplesMap;
+
+	rr:logicalTable [
+		rr:sqlQuery "SELECT 1 FROM INFORMATION_SCHEMA.TABLES LIMIT 1"
+	];
+
+	rr:subjectMap [
+		rr:constant <http://world.net/CountrylanguageBelongsToCountry>;
+		rr:termType rr:IRI;
+		rr:class owl:ObjectProperty;
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:domain;
+		rr:objectMap [ rr:constant <http://world.net/Countrylanguage> ];
+	];
+
+	rr:predicateObjectMap [
+		rr:predicate rdfs:range;
+		rr:objectMap [ rr:constant <http://world.net/Country> ];
+	].

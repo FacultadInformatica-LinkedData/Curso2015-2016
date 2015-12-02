@@ -1,0 +1,64 @@
+
+# QUERY 1
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv:<http://example.org/myVocabulary#>
+
+SELECT (SUM(?acc) AS ?total) 
+WHERE { 
+    ?obs a qb:Observation;
+    mv:numberOfAccidents ?acc.
+} 
+
+# QUERY 2
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv:<http://example.org/myVocabulary#>
+
+SELECT ?tipoAcc ?num 
+WHERE {  
+    ?obs a qb:Observation;
+    mv:relatedDistrict 'USERA';
+    mv:numberOfAccidents ?num;
+    mv:hasAccidentType ?tipoAcc.
+} 
+
+# QUERY 3
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv:<http://example.org/myVocabulary#>
+
+SELECT ?distrito ?num 
+WHERE { 
+    ?obs a qb:Observation;
+    mv:relatedDistrict ?distrito;
+    mv:numberOfAccidents ?num;
+    mv:hasAccidentType mv:MultipleCollision.
+} 
+
+
+# QUERY 4
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv:<http://example.org/myVocabulary#>
+
+SELECT ?distrito ?num 
+WHERE { 
+ ?obs a qb:Observation;
+ mv:relatedDistrict ?distrito;
+ mv:numberOfAccidents ?num;
+ mv:hasAccidentType mv:BicycleFall.
+} ORDER BY DESC(?num) LIMIT 5
+
+# QUERY 5
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv:<http://example.org/myVocabulary#>
+
+SELECT ?num ?distrito   
+WHERE{
+      ?obs a qb:Observation;
+      mv:relatedDistrict ?distrito;
+      mv:numberOfAccidents ?num.
+      FILTER (?x >500)
+} ORDER BY DESC (?x)

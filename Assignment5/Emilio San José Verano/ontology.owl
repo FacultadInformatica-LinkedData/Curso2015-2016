@@ -1,0 +1,97 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+
+Datatype: xsd:integer
+    
+Datatype: xsd:double
+    
+Datatype: xsd:string
+    
+	
+DataProperty: <http://example.com/CountryLanguage#percentage>
+
+    Domain: 
+       <http://example.com/CountryLanguage>
+    
+    Range: 
+        xsd:double
+    
+DataProperty: <http://example.com/CountryLanguage#language>
+
+    Domain: 
+        <http://example.com/CountryLanguage>
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: <http://example.com/CCountryLanguage#countrycode>
+
+    Domain: 
+       <http://example.com/CountryLanguage>
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: <http://example.com/Country#countrycode>
+
+    Domain: 
+       <http://example.com/City>
+    
+    Range: 
+        xsd:string
+    
+	
+DataProperty: <http://example.com/Country#Name>
+
+    Domain: 
+       <http://example.com/City>
+    
+    Range: 
+        xsd:string
+    
+DataProperty: <http://example.com/Country#id>
+
+    Domain: 
+        <http://example.com/City>
+    
+    Range: 
+        xsd:integer
+    
+    
+DataProperty: <http://example.com/Country#region>
+
+    Domain: 
+       <http://example.com/Country>
+    
+    Range: 
+        xsd:string
+    
+	
+DataProperty: <http://example.com/Country#name>
+
+    Domain: 
+       <http://example.com/Country>
+    
+    Range: 
+        xsd:string
+    
+DataProperty: <http://example.com/Country#code>
+
+    Domain: 
+        <http://example.com/Country>
+    
+    Range: 
+        xsd:string
+    
+    
+Class: <http://example.com/world#Country>
+
+Class: <http://example.com/world#CountryLanguage>
+
+Class: <http://example.com/world#City>

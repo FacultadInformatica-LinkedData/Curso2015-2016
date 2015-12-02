@@ -1,0 +1,79 @@
+1.How many accidents were there in Madrid in 2013? 
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT (SUM(?x) AS ?total) WHERE {
+?obs a qb:Observation ;
+ mv:numberOfAccidents ?x .
+} 
+
+2.Give me the number of accidents in Usera for each type of
+accident 
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+select distinct ?Type xsd:integer(?NumeroAcc) 
+where
+{
+?obs a qb:Observation ;
+mv:relatedDistrict "USERA" ;
+mv:hasAccidentType ?Type;
+ mv:numberOfAccidents ?NumeroAcc .
+}
+ORDER BY ?Type
+LIMIT 100
+
+3.Give me the number of multiple collisions for each district 
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+select distinct ?Lugar xsd:integer(?NumeroAcc) 
+where
+{
+?obs a qb:Observation ;
+mv:relatedDistrict ?Lugar ;
+mv:hasAccidentType  mv:MultipleCollision;
+ mv:numberOfAccidents ?NumeroAcc .
+}
+ORDER BY ?Lugar
+LIMIT 100
+
+4.- Which is the district were the number of bicycle falls was
+higher in 2013? 
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+select distinct ?Lugar xsd:integer(?NumeroAcc) 
+where
+{
+?obs a qb:Observation ;
+mv:relatedDistrict ?Lugar ;
+mv:hasAccidentType  mv:BicycleFall;
+ mv:numberOfAccidents ?NumeroAcc .
+}
+ORDER BY DESC (?NumeroAcc)
+LIMIT 1
+
+5.Give me the districts with more than 500 accidents in 2013
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+select distinct ?Lugar ?NumerAcc 
+where
+{
+?obs a qb:Observation ;
+mv:relatedDistrict ?Lugar ;
+mv:numberOfAccidents ?NumerAcc  .
+Filter(xsd:integer(?NumerAcc ) > 500)
+}
+LIMIT 100

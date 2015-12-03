@@ -49,16 +49,16 @@
         <Class IRI="http://schema.org/Pharmacy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.w3.org/2006/time/Instant"/>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.w3.org/2006/time/Interval"/>
+        <Class IRI="http://www.w3.org/2006/time#Interval"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.w3.org/2006/time/ProperInterval"/>
+        <Class IRI="http://www.w3.org/2006/time#ProperInterval"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.w3.org/2006/time/TemporalEntity"/>
+        <Class IRI="http://www.w3.org/2006/time#TemporalEntity"/>
     </Declaration>
     <Declaration>
         <Class IRI="https://schema.org/MedicalOrganization"/>
@@ -73,10 +73,10 @@
         <ObjectProperty IRI="#tieneTurnoDeGuardia"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.w3.org/2006/time/hasBeginning"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#hasBeginning"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://www.w3.org/2006/time/hasEnd"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#hasEnd"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="https://schema.org/containedInPlace"/>
@@ -91,7 +91,7 @@
         <DataProperty IRI="http://schema.org/telephone"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.w3.org/2006/time/inXSDDateTime"/>
+        <DataProperty IRI="http://www.w3.org/2006/time#inXSDDateTime"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://dbpedia.org/ontology/AdministrativeRegion"/>
@@ -119,7 +119,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TurnoDeGuardia"/>
-        <Class IRI="http://www.w3.org/2006/time/ProperInterval"/>
+        <Class IRI="http://www.w3.org/2006/time#ProperInterval"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://schema.org/LocalBusiness"/>
@@ -134,16 +134,16 @@
         <Class IRI="https://schema.org/MedicalOrganization"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.w3.org/2006/time/Instant"/>
-        <Class IRI="http://www.w3.org/2006/time/TemporalEntity"/>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
+        <Class IRI="http://www.w3.org/2006/time#TemporalEntity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.w3.org/2006/time/Interval"/>
-        <Class IRI="http://www.w3.org/2006/time/TemporalEntity"/>
+        <Class IRI="http://www.w3.org/2006/time#Interval"/>
+        <Class IRI="http://www.w3.org/2006/time#TemporalEntity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://www.w3.org/2006/time/ProperInterval"/>
-        <Class IRI="http://www.w3.org/2006/time/Interval"/>
+        <Class IRI="http://www.w3.org/2006/time#ProperInterval"/>
+        <Class IRI="http://www.w3.org/2006/time#Interval"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="https://schema.org/MedicalOrganization"/>
@@ -158,12 +158,12 @@
         <Class IRI="#FarmaciaDeGuardia"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.w3.org/2006/time/hasBeginning"/>
-        <Class IRI="http://www.w3.org/2006/time/TemporalEntity"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#hasBeginning"/>
+        <Class IRI="http://www.w3.org/2006/time#TemporalEntity"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.w3.org/2006/time/hasEnd"/>
-        <Class IRI="http://www.w3.org/2006/time/TemporalEntity"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#hasEnd"/>
+        <Class IRI="http://www.w3.org/2006/time#TemporalEntity"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="https://schema.org/containedInPlace"/>
@@ -174,12 +174,12 @@
         <Class IRI="#TurnoDeGuardia"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.w3.org/2006/time/hasBeginning"/>
-        <Class IRI="http://www.w3.org/2006/time/Instant"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#hasBeginning"/>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.w3.org/2006/time/hasEnd"/>
-        <Class IRI="http://www.w3.org/2006/time/Instant"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/time#hasEnd"/>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="https://schema.org/containedInPlace"/>
@@ -210,8 +210,8 @@
         <Class IRI="https://schema.org/Place"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.w3.org/2006/time/inXSDDateTime"/>
-        <Class IRI="http://www.w3.org/2006/time/Instant"/>
+        <DataProperty IRI="http://www.w3.org/2006/time#inXSDDateTime"/>
+        <Class IRI="http://www.w3.org/2006/time#Instant"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="http://schema.org/address"/>
@@ -226,7 +226,7 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.w3.org/2006/time/inXSDDateTime"/>
+        <DataProperty IRI="http://www.w3.org/2006/time#inXSDDateTime"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
 </Ontology>

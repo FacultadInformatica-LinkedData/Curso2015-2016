@@ -1,0 +1,490 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column",
+    "columnName": "Column"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PLANTA",
+    "columnName": "PLANTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ESCALERAS",
+    "columnName": "ESCALERAS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PUERTA",
+    "columnName": "PUERTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ORIENTACION",
+    "columnName": "ORIENTACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FAX",
+    "columnName": "FAX"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TIPO using expression grel:value.replace('/contenido/entidadesYorganismos/','')",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TIPO",
+    "expression": "grel:value.replace('/contenido/entidadesYorganismos/','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ACCESIBILIDAD",
+    "columnName": "ACCESIBILIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO-NUM",
+    "columnName": "TIPO-NUM"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NOMBRE-VIA using expression grel:cells['CLASE-VIAL'].value + ' ' + value + ' ' + cells['NUM'].value + '. ' +  cells['LOCALIDAD'].value + ', ' + cells['PROVINCIA'].value + ' ' + cells['CODIGO-POSTAL'].value + '. ' + cells['BARRIO'].value + ', ' + cells['DISTRITO'].value + '.'",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "grel:cells['CLASE-VIAL'].value + ' ' + value + ' ' + cells['NUM'].value + '. ' +  cells['LOCALIDAD'].value + ', ' + cells['PROVINCIA'].value + ' ' + cells['CODIGO-POSTAL'].value + '. ' + cells['BARRIO'].value + ', ' + cells['DISTRITO'].value + '.'",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column NOMBRE-VIA to UBICACIÓN",
+    "oldColumnName": "NOMBRE-VIA",
+    "newColumnName": "UBICACIÓN"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CLASE-VIAL",
+    "columnName": "CLASE-VIAL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NUM",
+    "columnName": "NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LOCALIDAD",
+    "columnName": "LOCALIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PROVINCIA",
+    "columnName": "PROVINCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CODIGO-POSTAL",
+    "columnName": "CODIGO-POSTAL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column BARRIO",
+    "columnName": "BARRIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DISTRITO",
+    "columnName": "DISTRITO"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column COORDENADA-X using expression grel:'Coordenadas: '+ value + ', ' + cells['COORDENADA-Y'].value + '. ' + 'Lat/long: '+ cells['LATITUD'].value + ', '+cells['LONGITUD'].value + '. '",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "COORDENADA-X",
+    "expression": "grel:'Coordenadas: '+ value + ', ' + cells['COORDENADA-Y'].value + '. ' + 'Lat/long: '+ cells['LATITUD'].value + ', '+cells['LONGITUD'].value + '. '",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORDENADA-Y",
+    "columnName": "COORDENADA-Y"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LATITUD",
+    "columnName": "LATITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LONGITUD",
+    "columnName": "LONGITUD"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column UBICACIÓN to Dirección",
+    "oldColumnName": "UBICACIÓN",
+    "newColumnName": "Dirección"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column COORDENADA-X to UBICACION",
+    "oldColumnName": "COORDENADA-X",
+    "newColumnName": "UBICACION"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Dirección to DIRECCION",
+    "oldColumnName": "Dirección",
+    "newColumnName": "DIRECCION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DESCRIPCION-ENTIDAD",
+    "columnName": "DESCRIPCION-ENTIDAD"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.linkedculture.org/resources/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "linkedculture",
+          "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Centro",
+              "curie": "linkedculture:Centro"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasCodigo",
+              "curie": "linkedculture:hasCodigo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "PK"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasNombre",
+              "curie": "linkedculture:hasNombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasHorario",
+              "curie": "linkedculture:hasHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasEquipamiento",
+              "curie": "linkedculture:hasEquipamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasTransporte",
+              "curie": "linkedculture:hasTransporte",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasDescripcion",
+              "curie": "linkedculture:hasDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasURL",
+              "curie": "linkedculture:hasURL",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasDireccion",
+              "curie": "linkedculture:hasDireccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasUbicacion",
+              "curie": "linkedculture:hasUbicacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "UBICACION"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasTelefono",
+              "curie": "linkedculture:hasTelefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasEmail",
+              "curie": "linkedculture:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasTipo",
+              "curie": "linkedculture:hasTipo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.linkedculture.org/resources/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "linkedculture",
+          "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Centro",
+              "curie": "linkedculture:Centro"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasCodigo",
+              "curie": "linkedculture:hasCodigo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "PK"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasNombre",
+              "curie": "linkedculture:hasNombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasHorario",
+              "curie": "linkedculture:hasHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasEquipamiento",
+              "curie": "linkedculture:hasEquipamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasTransporte",
+              "curie": "linkedculture:hasTransporte",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasDescripcion",
+              "curie": "linkedculture:hasDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasURL",
+              "curie": "linkedculture:hasURL",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasDireccion",
+              "curie": "linkedculture:hasDireccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIRECCION"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasUbicacion",
+              "curie": "linkedculture:hasUbicacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "UBICACION"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasTelefono",
+              "curie": "linkedculture:hasTelefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasEmail",
+              "curie": "linkedculture:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasTipo",
+              "curie": "linkedculture:hasTipo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,1951 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix base: <http://puntosinteres.madrid.es/group04/ontology/puntosinteres#> .
+
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/CasadeGalicia> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Casa de Galicia" ;
+	base:tieneHorario "Atención al ciudadano:  de lunes a viernes de 9 a 14 horas    Oficina de Turismo:    De lunes a jueves de 9 a 14 y de 16 a 19 horas.  Viernes, de 8 a 15 horas.  Agosto: de lunes a viernes de 9 a 14 horas.     Exposiciones:    De lunes a sábado de 10 a 14 y de 16 a 20 horas.  Domingos y festivos de 10 a 14 horas." ;
+	base:tieneTelefono "915 954 200 (centralita) / 915 954 214 (turismo)" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CasadeGalicia> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasadeGalicia> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CasadeGalicia> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CasadeGalicia> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/CasadeGalicia> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/CasadeGalicia> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CasadeGalicia> a base:TransportePublico ;
+	base:hayTransportePublico "bus: 10 , 14 , 19 , 27 , 34 , 37 , 45" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CasadeGalicia> a base:Posicion ;
+	base:tieneLatitud "40.413.841.115.871.000"^^xsd:long ;
+	base:tieneLongitud "-36.906.090.973.201.900"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasadeGalicia> a base:Direccion ;
+	base:tieneNumero "8"^^xsd:int ;
+	base:tieneDistrito "RETIRO" ;
+	base:tieneCodigoPostal "28014"^^xsd:int ;
+	base:tieneCalle "CASADO DEL ALISAL" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CasadeGalicia> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/CasadeGalicia> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/CasadeGalicia> a base:Bus ;
+	base:hayBus "10 , 14 , 19 , 27 , 34 , 37 , 45" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/CentrodeTurismoColon> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Centro de Turismo Colón" ;
+	base:tieneDescripcion "Se trata del punto de Información turística más grande de Madrid. Situado en una ubicación idónea: junto al Paseo de Recoletos, el famoso Paseo del Arte, el Teatro Fernán Gómez, el Museo Arqueológico y la Biblioteca Nacional consiste en un espacio accesible con zonas de atención al público y salas de reunión en donde se celebran exposiciones temporales y proyecciones turísticas y culturales.  Obra del arquitecto portugués Álvaro Siza, cuenta con 1.017 m2 de superficie dotados con modernas tecnologías para atender las demandas de información turística de los visitantes de Madrid.   Denominación oficial : Centro de Turismo Colón" ;
+	base:tieneHorario "De lunes a domingo de 9:30 a 20:30 horas" ;
+	base:tieneEquipamiento "Centro de turismo.   Atención presencial  Atención especializada  Autoconsulta  Área tecnológica: acceso gratuito a Internet, WIFI  Accesibilidad: mapas en 3D, mostradores adaptados  Certificado  ICTE  de Q de calidad turística Norma  UNE  187003:2008" ;
+	base:tieneTelefono """914 544 410 (información turística y Programa de Visitas Guiadas Oficiales)                               
+""" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeTurismoColon> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeTurismoColon> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentrodeTurismoColon> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CentrodeTurismoColon> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/CentrodeTurismoColon> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/CentrodeTurismoColon> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentrodeTurismoColon> a base:TransportePublico ;
+	base:hayTransportePublico "metro: colón (línea 4), serrano (línea 4)  bus: 5 , 14 , 21, 27 , 37, 45 , 53 , 150   renfe: recoletos" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeTurismoColon> a base:Posicion ;
+	base:tieneLatitud "4.042.500.882.822.320"^^xsd:long ;
+	base:tieneLongitud "-36.911.948.422.827.600"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeTurismoColon> a base:Direccion ;
+	base:tieneNumero "1"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28046"^^xsd:int ;
+	base:tieneCalle "COLON" ;
+	base:tieneTipoVia "PLAZA" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CentrodeTurismoColon> a base:Metro ;
+	base:hayMetro "colón (línea 4), serrano (línea 4)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/CentrodeTurismoColon> a base:Renfe ;
+	base:hayRenfe "recoletos" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Estación_de_Recoletos> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/CentrodeTurismoColon> a base:Bus ;
+	base:hayBus "5 , 14 , 21, 27 , 37, 45 , 53 , 150   " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/CentrodeTurismoPlazaMayor> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Centro de Turismo Plaza Mayor" ;
+	base:tieneHorario "De lunes a domingo de 9:30 a 21:30 horas.  Venta de entradas para el Programa de Visitas Guiadas Oficiales en el Centro de turismo de lunes a domingo de 9:30 a 20:30 horas." ;
+	base:tieneEquipamiento "Atención presencial: especial idiomas asiáticos y ruso  Atención especializada  Autoconsulta  Programa Visitas Guiadas Oficiales  Área tecnológica: audiovisuales, acceso gratuito a Internet, WIFI  Accesibilidad: lengua de signos española, bucle magnético, encaminamientos podotáctiles, rótulos y folletos en braille, asientos ergonómicos, apoyos isquiáticos, mostradores adaptados, guía de turismo accesible  Tienda de Madrid con productos oficiales (tarjeta turística MadridCard y Bus Turístico); libros, camisetas,  CD&rsquo;s , etc.  Certificado  ICTE  de Q de calidad turística Norma  UNE  187003:2008  Certificado  AENOR  de Accesibilidad Universal Norma  UNE  170001-2:2007" ;
+	base:tieneTelefono """914 544 410 (información turística y Programa Visitas Guiadas Oficiales)                                                               
+""" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeTurismoPlazaMayor> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeTurismoPlazaMayor> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentrodeTurismoPlazaMayor> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CentrodeTurismoPlazaMayor> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/CentrodeTurismoPlazaMayor> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/CentrodeTurismoPlazaMayor> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentrodeTurismoPlazaMayor> a base:TransportePublico ;
+	base:hayTransportePublico "metro: sol (líneas 1, 2, 3), ópera (línea 2, 5, ramal)  bus: 3, 5, 6, 15, 17, 18, 20, 23, 31, 32, 35, 50, 51, 52, 53, 65, 150  renfe: sol" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeTurismoPlazaMayor> a base:Posicion ;
+	base:tieneLatitud "4.041.583.855.082.180"^^xsd:long ;
+	base:tieneLongitud "-37.074.257.084.323.600"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeTurismoPlazaMayor> a base:Direccion ;
+	base:tieneNumero "27"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "MAYOR" ;
+	base:tieneTipoVia "PLAZA" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CentrodeTurismoPlazaMayor> a base:Metro ;
+	base:hayMetro "sol (líneas 1, 2, 3), ópera (línea 2, 5, ramal)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/CentrodeTurismoPlazaMayor> a base:Renfe ;
+	base:hayRenfe "sol" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Puerta_del_Sol_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/CentrodeTurismoPlazaMayor> a base:Bus ;
+	base:hayBus "3, 5, 6, 15, 17, 18, 20, 23, 31, 32, 35, 50, 51, 52, 53, 65, 150  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/DelegaciondelaGeneralitat> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Delegación de la Generalitat de Cataluña. Oficina de Turismo" ;
+	base:tieneHorario "De lunes a viernes de 10:30 a 15 y de 16 a 19:30 horas." ;
+	base:tieneTelefono """915 241 892 (Oficina de turismo)          
+""" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/DelegaciondelaGeneralitat> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/DelegaciondelaGeneralitat> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/DelegaciondelaGeneralitat> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/DelegaciondelaGeneralitat> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/DelegaciondelaGeneralitat> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/DelegaciondelaGeneralitat> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/DelegaciondelaGeneralitat> a base:TransportePublico ;
+	base:hayTransportePublico "metro: banco de españa (línea 2)  bus: 5 , 9 , 52 , 53 , 146 , 150" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/DelegaciondelaGeneralitat> a base:Posicion ;
+	base:tieneLatitud "404.182.053.857.487"^^xsd:long ;
+	base:tieneLongitud "-36.959.697.554.881.800"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/DelegaciondelaGeneralitat> a base:Direccion ;
+	base:tieneNumero "44"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014"^^xsd:int ;
+	base:tieneCalle "ALCALA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/DelegaciondelaGeneralitat> a base:Metro ;
+	base:hayMetro "banco de españa (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/DelegaciondelaGeneralitat> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/DelegaciondelaGeneralitat> a base:Bus ;
+	base:hayBus "5 , 9 , 52 , 53 , 146 , 150 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinaCentraldeReservase> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina Central de Reservas e Información de la Comunidad de Madrid" ;
+	base:tieneHorario "De lunes a viernes de 9 a 14 horas" ;
+	base:tieneTelefono "912 767 478" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinaCentraldeReservase> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinaCentraldeReservase> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinaCentraldeReservase> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinaCentraldeReservase> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinaCentraldeReservase> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinaCentraldeReservase> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinaCentraldeReservase> a base:TransportePublico ;
+	base:hayTransportePublico "metro: banco de españa (línea 2)  bus: 1, 2, 9, 20, 27, 51, 52, 53, 146, 202, 203" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinaCentraldeReservase> a base:Posicion ;
+	base:tieneLatitud "40.422.504.962.784.700"^^xsd:long ;
+	base:tieneLongitud "-3.691.086.697.178.330"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinaCentraldeReservase> a base:Direccion ;
+	base:tieneNumero "14"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001"^^xsd:int ;
+	base:tieneCalle "RECOLETOS" ;
+	base:tieneTipoVia "PASEO" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinaCentraldeReservase> a base:Metro ;
+	base:hayMetro "banco de españa (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinaCentraldeReservase> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinaCentraldeReservase> a base:Bus ;
+	base:hayBus "1, 2, 9, 20, 27, 51, 52, 53, 146, 202, 203 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeAlemani> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Alemania" ;
+	base:tieneTelefono "914 293 551" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeAlemani> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeAlemani> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeAlemani> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeAlemani> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeAlemani> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeAlemani> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeAlemani> a base:TransportePublico ;
+	base:hayTransportePublico "metro: antón martín (línea 1), sol (líneas 1, 2, 3)  bus: 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53, 146, 150" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeAlemani> a base:Posicion ;
+	base:tieneLatitud "4.041.515.412.751.350"^^xsd:long ;
+	base:tieneLongitud "-3.696.999.116.580.020"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeAlemani> a base:Direccion ;
+	base:tieneNumero "2"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014"^^xsd:int ;
+	base:tieneCalle "SAN AGUSTIN" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeAlemani> a base:Metro ;
+	base:hayMetro "antón martín (línea 1), sol (líneas 1, 2, 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeAlemani> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeAlemani> a base:Bus ;
+	base:hayBus "5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53, 146, 150 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeAndorra> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Andorra" ;
+	base:tieneHorario "Consultar telefónicamente" ;
+	base:tieneTelefono "914 317 453 " ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeAndorra> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeAndorra> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeAndorra> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeAndorra> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeAndorra> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeAndorra> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeAndorra> a base:TransportePublico ;
+	base:hayTransportePublico "metro: retiro (línea 2)  bus: 1, 2, 9, 15, 20, 28, 51, 52, 74, 146, 202" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeAndorra> a base:Posicion ;
+	base:tieneLatitud "40.420.463.872.305.000"^^xsd:long ;
+	base:tieneLongitud "-36.873.998.628.244.500"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeAndorra> a base:Direccion ;
+	base:tieneNumero "73"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28009"^^xsd:int ;
+	base:tieneCalle "ALCALA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeAndorra> a base:Metro ;
+	base:hayMetro "retiro (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeAndorra> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeAndorra> a base:Bus ;
+	base:hayBus "1, 2, 9, 15, 20, 28, 51, 52, 74, 146, 202 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeArgenti> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Argentina" ;
+	base:tieneHorario "Consultar telefónicamente" ;
+	base:tieneTelefono "915 414 447" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeArgenti> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeArgenti> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeArgenti> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeArgenti> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeArgenti> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeArgenti> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeArgenti> a base:TransportePublico ;
+	base:hayTransportePublico "metro: ventura rodríguez (línea 3), princesa (líneas 3, 10)  bus: 1, 2, 44, 133, 202,  c" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeArgenti> a base:Posicion ;
+	base:tieneLatitud "404.257.710.639.095"^^xsd:long ;
+	base:tieneLongitud "-3.712.551.676.224.900"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeArgenti> a base:Direccion ;
+	base:tieneNumero "12"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28008"^^xsd:int ;
+	base:tieneCalle "PRINCESA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeArgenti> a base:Metro ;
+	base:hayMetro "ventura rodríguez (línea 3), princesa (líneas 3, 10)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeArgenti> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeArgenti> a base:Bus ;
+	base:hayBus "1, 2, 44, 133, 202,  c  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeAustria> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Austria" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeAustria> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeAustria> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeAustria> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeAustria> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeAustria> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeAustria> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeAustria> a base:TransportePublico ;
+	base:hayTransportePublico "metro: plaza de españa (líneas 3, 10)  bus: 3, 46, 75, 138, 148" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeAustria> a base:Posicion ;
+	base:tieneLatitud "4.042.352.919.018.360"^^xsd:long ;
+	base:tieneLongitud "-37.137.893.492.193.200"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeAustria> a base:Direccion ;
+	base:tieneNumero "1"^^xsd:int ;
+	base:tieneDistrito "MONCLOA-ARAVACA" ;
+	base:tieneCodigoPostal "28008"^^xsd:int ;
+	base:tieneCalle "JUAN ALVAREZ MENDIZABAL" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeAustria> a base:Metro ;
+	base:hayMetro "plaza de españa (líneas 3, 10)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeAustria> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeAustria> a base:Bus ;
+	base:hayBus "3, 46, 75, 138, 148 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeBrasil> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Brasil" ;
+	base:tieneHorario "De lunes a viernes de 10:30 a 13:30 horas" ;
+	base:tieneTelefono "917 020 689" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeBrasil> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeBrasil> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeBrasil> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeBrasil> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeBrasil> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeBrasil> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeBrasil> a base:TransportePublico ;
+	base:hayTransportePublico "metro: alonso martínez (líneas 4, 5, 10), rubén dario (línea 5)  bus: 3, 5, 7, 14, 21, 27, 45, 150" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeBrasil> a base:Posicion ;
+	base:tieneLatitud "4.043.017.960.044.130"^^xsd:long ;
+	base:tieneLongitud "-3.692.768.600.492.910"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeBrasil> a base:Direccion ;
+	base:tieneNumero "28"^^xsd:int ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28010"^^xsd:int ;
+	base:tieneCalle "ALMAGRO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberi_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeBrasil> a base:Metro ;
+	base:hayMetro "alonso martínez (líneas 4, 5, 10), rubén dario (línea 5)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeBrasil> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeBrasil> a base:Bus ;
+	base:hayBus "3, 5, 7, 14, 21, 27, 45, 150 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeCastill> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Castilla - León" ;
+	base:tieneTelefono "915 780 324" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeCastill> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeCastill> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeCastill> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeCastill> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeCastill> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeCastill> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeCastill> a base:TransportePublico ;
+	base:hayTransportePublico "metro: retiro (línea 2)  bus: 1 , 2 , 15 , 19 , 20 , 28 , 51 , 52 , 74 , 146" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeCastill> a base:Posicion ;
+	base:tieneLatitud "4.042.177.018.095.310"^^xsd:long ;
+	base:tieneLongitud "-36.828.394.778.643.700"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeCastill> a base:Direccion ;
+	base:tieneNumero "105"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28009"^^xsd:int ;
+	base:tieneCalle "ALCALÁ" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeCastill> a base:Metro ;
+	base:hayMetro "retiro (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeCastill> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeCastill> a base:Bus ;
+	base:hayBus "1 , 2 , 15 , 19 , 20 , 28 , 51 , 52 , 74 , 146 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeChile> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Chile" ;
+	base:tieneHorario "Con cita previa" ;
+	base:tieneTelefono "914 357 834" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeChile> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeChile> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeChile> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeChile> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeChile> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeChile> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeChile> a base:TransportePublico ;
+	base:hayTransportePublico "metro: nuñez de balboa (líneas 5, 9)  bus: 1, 9, 19, 51, 74" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeChile> a base:Posicion ;
+	base:tieneLatitud "4.042.984.738.903.380"^^xsd:long ;
+	base:tieneLongitud "-36.834.988.415.722.300"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeChile> a base:Direccion ;
+	base:tieneNumero "80"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001"^^xsd:int ;
+	base:tieneCalle "VELAZQUEZ" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeChile> a base:Metro ;
+	base:hayMetro "nuñez de balboa (líneas 5, 9)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeChile> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeChile> a base:Bus ;
+	base:hayBus "1, 9, 19, 51, 74  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeChina> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de China" ;
+	base:tieneTelefono "915 480 011 (información sobre horarios)" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeChina> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeChina> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeChina> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeChina> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeChina> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeChina> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeChina> a base:TransportePublico ;
+	base:hayTransportePublico "metro: callao (línea 3)  bus: 1, 2, 44, 46, 74, 75, 133, 146, 147, 148, 202" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeChina> a base:Posicion ;
+	base:tieneLatitud "4.042.009.464.369.330"^^xsd:long ;
+	base:tieneLongitud "-3.705.324.957.516.300"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeChina> a base:Direccion ;
+	base:tieneNumero "39"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013"^^xsd:int ;
+	base:tieneCalle "GRAN VIA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeChina> a base:Metro ;
+	base:hayMetro "callao (línea 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeChina> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeChina> a base:Bus ;
+	base:hayBus "1, 2, 44, 46, 74, 75, 133, 146, 147, 148, 202 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeCroacia> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Croacia" ;
+	base:tieneTelefono "917 815 514 (información sobre horarios)" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeCroacia> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeCroacia> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeCroacia> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeCroacia> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeCroacia> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeCroacia> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeCroacia> a base:TransportePublico ;
+	base:hayTransportePublico "metro: serrano (línea 4)  bus: 1, 9, 19, 51, 74" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeCroacia> a base:Posicion ;
+	base:tieneLatitud "4.042.308.011.875.360"^^xsd:long ;
+	base:tieneLongitud "-3.686.789.938.909.180"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeCroacia> a base:Direccion ;
+	base:tieneNumero "22"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001"^^xsd:int ;
+	base:tieneCalle "CLAUDIO COELLO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeCroacia> a base:Metro ;
+	base:hayMetro "serrano (línea 4)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeCroacia> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeCroacia> a base:Bus ;
+	base:hayBus "1, 9, 19, 51, 74 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeCuba> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Cuba" ;
+	base:tieneHorario "Consultar telefónicamente" ;
+	base:tieneTelefono "914 113 097" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeCuba> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeCuba> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeCuba> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeCuba> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeCuba> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeCuba> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeCuba> a base:TransportePublico ;
+	base:hayTransportePublico "metro: santiago bernabéu (línea 10)  bus: 14, 27, 40, 43, 120, 126, 147, 150" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeCuba> a base:Posicion ;
+	base:tieneLatitud "404.509.737.804.771"^^xsd:long ;
+	base:tieneLongitud "-36.864.959.795.755.200"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeCuba> a base:Direccion ;
+	base:tieneNumero "50"^^xsd:int ;
+	base:tieneDistrito "CHAMARTIN" ;
+	base:tieneCodigoPostal "28036"^^xsd:int ;
+	base:tieneCalle "HABANA" ;
+	base:tieneTipoVia "PASEO" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid_Chamartin> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeCuba> a base:Metro ;
+	base:hayMetro "santiago bernabéu (línea 10)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeCuba> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeCuba> a base:Bus ;
+	base:hayBus "14, 27, 40, 43, 120, 126, 147, 150 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeEcuador> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Ecuador" ;
+	base:tieneTelefono "t.arregui@ecuatropic.es" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeEcuador> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeEcuador> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeEcuador> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeEcuador> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeEcuador> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeEcuador> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeEcuador> a base:TransportePublico ;
+	base:hayTransportePublico "metro: nuñez de balboa (líneas 5, 9)  bus: 9, 12, 19, 51, 61" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeEcuador> a base:Posicion ;
+	base:tieneLatitud "4.042.890.517.804.670"^^xsd:long ;
+	base:tieneLongitud "-3.687.426.857.198.850"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeEcuador> a base:Direccion ;
+	base:tieneNumero "43"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001"^^xsd:int ;
+	base:tieneCalle "SERRANO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeEcuador> a base:Metro ;
+	base:hayMetro "nuñez de balboa (líneas 5, 9)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeEcuador> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeEcuador> a base:Bus ;
+	base:hayBus "9, 12, 19, 51, 61 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeEgipto> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Egipto" ;
+	base:tieneTelefono "915 592 121 (información sobre horarios)" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeEgipto> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeEgipto> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeEgipto> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeEgipto> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeEgipto> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeEgipto> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeEgipto> a base:TransportePublico ;
+	base:hayTransportePublico "metro: plaza de españa (línea 3)  bus: 1, 2, 3,  44, 46, 74, 75, 133, 138, 148, 202, c" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeEgipto> a base:Posicion ;
+	base:tieneLatitud "4.042.323.552.836.880"^^xsd:long ;
+	base:tieneLongitud "-3.710.273.395.725.300"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeEgipto> a base:Direccion ;
+	base:tieneNumero "78"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013"^^xsd:int ;
+	base:tieneCalle "GRAN VIA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeEgipto> a base:Metro ;
+	base:hayMetro "plaza de españa (línea 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeEgipto> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeEgipto> a base:Bus ;
+	base:hayBus "1, 2, 3,  44, 46, 74, 75, 133, 138, 148, 202, c " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeFrancia> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Francia" ;
+	base:tieneHorario "Horario de septiembre a junio:    Lunes a jueves: de 10 a 14 y de 15 a 17:30 horas  Viernes: de 9:30 a 14:30 horas     Horario julio y agosto:  de 9 a 15 horas" ;
+	base:tieneTelefono """915 489 737 (Información)           
+""" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeFrancia> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeFrancia> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeFrancia> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeFrancia> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeFrancia> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeFrancia> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeFrancia> a base:TransportePublico ;
+	base:hayTransportePublico "metro: retiro (línea 2), serrrano (línea 2)  bus: 1, 2, 9, 15, 19, 20, 21, 28, 51, 52, 53, 74, 146, 202" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeFrancia> a base:Posicion ;
+	base:tieneLatitud "4.042.603.070.001.690"^^xsd:long ;
+	base:tieneLongitud "-368.752.726.535.081"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeFrancia> a base:Direccion ;
+	base:tieneNumero "40"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001"^^xsd:int ;
+	base:tieneCalle "SERRANO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeFrancia> a base:Metro ;
+	base:hayMetro "retiro (línea 2), serrrano (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeFrancia> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeFrancia> a base:Bus ;
+	base:hayBus "1, 2, 9, 15, 19, 20, 21, 28, 51, 52, 53, 74, 146, 202  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeGranBre> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Gran Bretaña" ;
+	base:tieneTelefono "917 146 497" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeGranBre> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeGranBre> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeGranBre> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeGranBre> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeGranBre> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeGranBre> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeGranBre> a base:TransportePublico .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeGranBre> a base:Posicion ;
+	base:tieneLatitud "4.047.592.404.926.300"^^xsd:long ;
+	base:tieneLongitud "-36.872.691.224.974.400"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeGranBre> a base:Direccion ;
+	base:tieneNumero "259"^^xsd:int ;
+	base:tieneDistrito "FUENCARRAL-EL PARDO" ;
+	base:tieneCodigoPostal "28046"^^xsd:int ;
+	base:tieneCalle "CASTELLANA" ;
+	base:tieneTipoVia "PASEO" ;
+	owl:sameAs <http://dbpedia.org/resource/Fuencarral-El_Pardo> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeGranBre> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeGranBre> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeGranBre> a base:Bus .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeturismodeGuatema> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de turismo de Guatemala" ;
+	base:tieneTelefono "913 440 347 / 913 441 417" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeturismodeGuatema> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeturismodeGuatema> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeturismodeGuatema> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeturismodeGuatema> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeturismodeGuatema> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeturismodeGuatema> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeturismodeGuatema> a base:TransportePublico ;
+	base:hayTransportePublico "metro: colón (línea 4)  bus: 5, 14, 27, 45, 150" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeturismodeGuatema> a base:Posicion ;
+	base:tieneLatitud "4.042.811.147.922.810"^^xsd:long ;
+	base:tieneLongitud "-369.060.179.113.649"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeturismodeGuatema> a base:Direccion ;
+	base:tieneNumero "27"^^xsd:int ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28010"^^xsd:int ;
+	base:tieneCalle "FERNANDO EL SANTO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberi_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeturismodeGuatema> a base:Metro ;
+	base:hayMetro "colón (línea 4)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeturismodeGuatema> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeturismodeGuatema> a base:Bus ;
+	base:hayBus "5, 14, 27, 45, 150 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeHolanda> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Holanda" ;
+	base:tieneTelefono "917 498 082" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeHolanda> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeHolanda> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeHolanda> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeHolanda> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeHolanda> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeHolanda> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeHolanda> a base:TransportePublico ;
+	base:hayTransportePublico "bus: 66, 173, 174, 176, 178" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeHolanda> a base:Posicion ;
+	base:tieneLatitud "4.047.592.404.926.300"^^xsd:long ;
+	base:tieneLongitud "-36.872.691.224.974.400"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeHolanda> a base:Direccion ;
+	base:tieneNumero "259"^^xsd:int ;
+	base:tieneDistrito "FUENCARRAL-EL PARDO" ;
+	base:tieneCodigoPostal "28046"^^xsd:int ;
+	base:tieneCalle "CASTELLANA" ;
+	base:tieneTipoVia "PASEO" ;
+	owl:sameAs <http://dbpedia.org/resource/Fuencarral-El_Pardo> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeHolanda> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeHolanda> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeHolanda> a base:Bus ;
+	base:hayBus "66, 173, 174, 176, 178" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeHungria> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Hungria" ;
+	base:tieneHorario "Consultar telefónicamente" ;
+	base:tieneTelefono "915 569 348" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeHungria> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeHungria> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeHungria> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeHungria> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeHungria> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeHungria> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeHungria> a base:TransportePublico .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeHungria> a base:Posicion .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeHungria> a base:Direccion ;
+	base:tieneNumero "--"^^xsd:int ;
+	base:tieneCalle "--" ;
+	base:tieneTipoVia "--" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeHungria> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeHungria> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeHungria> a base:Bus .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeIrlanda> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Irlanda" ;
+	base:tieneHorario "De lunes a viernes de 10 a 14 horas" ;
+	base:tieneTelefono "917 456 420" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeIrlanda> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeIrlanda> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeIrlanda> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeIrlanda> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeIrlanda> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeIrlanda> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeIrlanda> a base:TransportePublico ;
+	base:hayTransportePublico "metro: rubén darío (línea 5)  bus: 5, 14, 27, 45, 150" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeIrlanda> a base:Posicion ;
+	base:tieneLatitud "4.043.419.977.951.640"^^xsd:long ;
+	base:tieneLongitud "-36.878.816.351.465.000"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeIrlanda> a base:Direccion ;
+	base:tieneNumero "46"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28046"^^xsd:int ;
+	base:tieneCalle "CASTELLANA" ;
+	base:tieneTipoVia "PASEO" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeIrlanda> a base:Metro ;
+	base:hayMetro "rubén darío (línea 5)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeIrlanda> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeIrlanda> a base:Bus ;
+	base:hayBus "5, 14, 27, 45, 150 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeIran> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Irán" ;
+	base:tieneEquipamiento "Proporciona información a través de internet, correo y teléfono" ;
+	base:tieneTelefono "915 643 613" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeIran> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeIran> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeIran> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeIran> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeIran> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeIran> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeIran> a base:TransportePublico ;
+	base:hayTransportePublico "metro: avenida de américa (líneas 4, 6, 7, 9)  bus: 9, 16, 19, 51" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeIran> a base:Posicion ;
+	base:tieneLatitud "404.375.784.193.194"^^xsd:long ;
+	base:tieneLongitud "-36.848.033.506.224.900"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeIran> a base:Direccion ;
+	base:tieneNumero "26"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28006"^^xsd:int ;
+	base:tieneCalle "MARIA DE MOLINA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeIran> a base:Metro ;
+	base:hayMetro "avenida de américa (líneas 4, 6, 7, 9)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeIran> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeIran> a base:Bus ;
+	base:hayBus "9, 16, 19, 51 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeIsrael> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Israel" ;
+	base:tieneTelefono "915 943 211" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeIsrael> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeIsrael> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeIsrael> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeIsrael> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeIsrael> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeIsrael> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeIsrael> a base:TransportePublico ;
+	base:hayTransportePublico "metro: bilbao (líneas 1, 4), tribunal (líneas 1, 10)  bus: 21, 37, 40, 147, 149" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeIsrael> a base:Posicion ;
+	base:tieneLatitud "4.042.789.840.100.490"^^xsd:long ;
+	base:tieneLongitud "-3.702.046.638.888.970"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeIsrael> a base:Direccion ;
+	base:tieneNumero "101"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004"^^xsd:int ;
+	base:tieneCalle "FUENCARRAL" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeIsrael> a base:Metro ;
+	base:hayMetro "bilbao (líneas 1, 4), tribunal (líneas 1, 10)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeIsrael> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeIsrael> a base:Bus ;
+	base:hayBus "21, 37, 40, 147, 149  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeItalia> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Italia" ;
+	base:tieneTelefono "915 670 670 (información sobre horario)" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeItalia> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeItalia> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeItalia> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeItalia> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeItalia> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeItalia> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeItalia> a base:TransportePublico ;
+	base:hayTransportePublico "metro: gregorio marañón (líneas 7, 10), rubén darío (línea 5)  bus: 12, 16, 19, 9, 51, 61" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeItalia> a base:Posicion ;
+	base:tieneLatitud "40.436.434.892.176.300"^^xsd:long ;
+	base:tieneLongitud "-36.862.183.867.739.900"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeItalia> a base:Direccion ;
+	base:tieneNumero "120"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28006"^^xsd:int ;
+	base:tieneCalle "SERRANO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeItalia> a base:Metro ;
+	base:hayMetro "gregorio marañón (líneas 7, 10), rubén darío (línea 5)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeItalia> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeItalia> a base:Bus ;
+	base:hayBus "12, 16, 19, 9, 51, 61   " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeJordani> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Jordania" ;
+	base:tieneHorario "Consultar telefónicamente" ;
+	base:tieneTelefono "917 813 987" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeJordani> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeJordani> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeJordani> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeJordani> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeJordani> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeJordani> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeJordani> a base:TransportePublico ;
+	base:hayTransportePublico "metro: retiro (línea 2)  bus: 1, 9, 19, 51, 74" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeJordani> a base:Posicion ;
+	base:tieneLatitud "404.225.708.087.371"^^xsd:long ;
+	base:tieneLongitud "-3.687.598.129.527.750"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeJordani> a base:Direccion ;
+	base:tieneNumero "5"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001"^^xsd:int ;
+	base:tieneCalle "VILLANUEVA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeJordani> a base:Metro ;
+	base:hayMetro "retiro (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeJordani> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeJordani> a base:Bus ;
+	base:hayBus "1, 9, 19, 51, 74 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodelaComun> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Aeropuerto  de Barajas Terminal 1" ;
+	base:tieneHorario "De lunes a sábados de 9 a 20 horas.   Domingos y festivos de 9 a 14  horas, excepto 1 de mayo, 25 de diciembre y 1 de enero, que permencerá cerrada." ;
+	base:tieneEquipamiento "Proporcionan información turística de la Comunidad de Madrid y de los lugares mas representativos de España" ;
+	base:tieneTelefono "913 058 656 / Información turística y cultural: 902 100 007 " ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodelaComun> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodelaComun> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodelaComun> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> a base:TransportePublico ;
+	base:hayTransportePublico "metro: aeropuerto t1  bus: 101" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> a base:Posicion ;
+	base:tieneLatitud "404.641.393.496.236"^^xsd:long ;
+	base:tieneLongitud "-35.698.214.842.707.100"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> a base:Direccion ;
+	base:tieneNumero "0"^^xsd:int ;
+	base:tieneDistrito "BARAJAS" ;
+	base:tieneCodigoPostal "28042"^^xsd:int ;
+	base:tieneCalle "BARAJAS" ;
+	base:tieneTipoVia "AEROPUERTO" ;
+	owl:sameAs <http://dbpedia.org/resource/Barajas_(district)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodelaComun> a base:Metro ;
+	base:hayMetro "aeropuerto t1" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodelaComun> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodelaComun> a base:Bus ;
+	base:hayBus "101 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodelaComun> base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Aeropuerto de Barajas Terminal 4" ;
+	base:tieneHorario "Todos los días de 9 a 20 horas  Cerrado: 1 de mayo, 25 de diciembre y 1 de enero" ;
+	base:tieneTelefono """Sala 11: 913 338 247  /     
+Sala 10: 913 338 252      
+Información turística y cultural: 902 100 007             
+""" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> base:hayTransportePublico "metro: línea 8 - estación aeropuerto t-4   bus: línea 201 barajas - aeropuerto t4" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> base:tieneLatitud "4.045.188.738.242.830"^^xsd:long ;
+	base:tieneLongitud "-35.859.807.207.200.300"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> base:tieneNumero "2"^^xsd:int ;
+	base:tieneCalle "HISPANIDAD" ;
+	base:tieneTipoVia "AVENIDA" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodelaComun> base:hayMetro "línea 8 - estación aeropuerto t-4" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodelaComun> base:hayBus "línea 201 barajas - aeropuerto t4  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodelaComun> base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Calle Alcalá, 31" ;
+	base:tieneHorario "De lunes a sábados de 9 a 20 horas.   Domingos y festivos de 9 a 14 horas, excepto 1 de mayo, 25 de diciembre y 1 de enero, que permencerá cerrada." ;
+	base:tieneTelefono """912 767 187   / Información turística y cultural: 902 100 007            
+""" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> base:hayTransportePublico "metro: sevilla (línea 2), banco de españa ( línea 2)  bus: 1, 2, 9, 15, 20, 28, 51, 52, 74, 146, 202" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> base:tieneLatitud "4.041.842.560.545.140"^^xsd:long ;
+	base:tieneLongitud "-36.982.941.133.384.700"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> base:tieneNumero "31"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014"^^xsd:int ;
+	base:tieneCalle "ALCALA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodelaComun> base:hayMetro "sevilla (línea 2), banco de españa ( línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodelaComun> base:hayBus "1, 2, 9, 15, 20, 28, 51, 52, 74, 146, 202 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodelaComun> base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Calle Duque de Medinaceli" ;
+	base:tieneHorario "De lunes a sábados de 8 a 15 horas.   Domingos y festivos de 9 a 14 horas" ;
+	base:tieneTelefono """Información turística y cultural:  902 100 007  / 914 294 951       
+""" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> base:hayTransportePublico "metro: antón martín (línea 1), banco de españa (línea 2)  bus: 6, 26, 32, 57" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> base:tieneLatitud "40.415.295.360.876.800"^^xsd:long ;
+	base:tieneLongitud "-36.959.869.173.057.200"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> base:tieneCalle "DUQUE DE MEDINACELI" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodelaComun> base:hayMetro "antón martín (línea 1), banco de españa (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodelaComun> base:hayBus "6, 26, 32, 57 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodelaComun> base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Estación de Chamartín" ;
+	base:tieneHorario "De lunes a sábados de 8 a 20 horas.   Domingos y festivos de 9 a 14 horas, excepto 1 de mayo, 25 de diciembre y 1 de enero, que permanecerá cerrada" ;
+	base:tieneTelefono "913 159 976 / Información turística y cultural: 902 100 007 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> base:hayTransportePublico "metro: chamartín (líneas 1, 10)  bus: 5, 80, 66, 124   renfe: chamartín" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> base:tieneLatitud "40.471.891.389.559.400"^^xsd:long ;
+	base:tieneLongitud "-36.836.654.329.204.500"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> base:tieneNumero "40"^^xsd:int ;
+	base:tieneDistrito "CHAMARTIN" ;
+	base:tieneCodigoPostal "28036"^^xsd:int ;
+	base:tieneCalle "AGUSTIN DE FOXA" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid_Chamartin> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodelaComun> base:hayMetro "chamartín (líneas 1, 10)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodelaComun> base:hayRenfe "chamartín" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Estación_de_Madrid-Chamartín> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodelaComun> base:hayBus "5, 80, 66, 124   " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodelaComun> base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Estación Puerta de Atocha" ;
+	base:tieneHorario "De lunes a sábados de 8 a 20 horas.   Domingos y festivos de 9 a 20 horas, excepto 1 de mayo, 25 de diciembre y 1 de enero, que permencerá cerrada." ;
+	base:tieneTelefono "Información turística y cultural: 902 100 007 / 915 284 630" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> base:hayTransportePublico "metro: atocha (línea 1)  bus: 10 , 14 , 19 , 26 , 32 , 37 , 57   renfe: atocha" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> base:tieneLatitud "404.079.119.564.538"^^xsd:long ;
+	base:tieneLongitud "-36.923.163.004.968.900"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> base:tieneNumero "3"^^xsd:int ;
+	base:tieneDistrito "ARGANZUELA" ;
+	base:tieneCodigoPostal "28045"^^xsd:int ;
+	base:tieneCalle "EMPERADOR CARLOS V" ;
+	base:tieneTipoVia "PLAZA" ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodelaComun> base:hayMetro "atocha (línea 1)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodelaComun> base:hayRenfe "atocha" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Estación_de_Atocha-Cercanías> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodelaComun> base:hayBus "10 , 14 , 19 , 26 , 32 , 37 , 57   " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodelaComun> base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Ifema. Feria de Madrid" ;
+	base:tieneHorario "Los días en que se celebren ferias, de 11 a 17 horas" ;
+	base:tieneTelefono "917 210 599 / 917 210 604. Información turística y cultural: 902 100 007 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> base:hayTransportePublico "metro: campo de las naciones (línea 8)  bus: 122, 112, 828" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> base:tieneLatitud "4.046.428.771.594.390"^^xsd:long ;
+	base:tieneLongitud "-36.164.023.947.650.800"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> base:tieneNumero "5"^^xsd:int ;
+	base:tieneCalle "PARTENON" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodelaComun> base:hayMetro "campo de las naciones (línea 8)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodelaComun> base:hayBus "122, 112, 828 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodelaRepub> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de la República Checa" ;
+	base:tieneTelefono "913 457 112 (información sobre horarios)" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaRepub> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaRepub> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaRepub> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodelaRepub> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodelaRepub> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodelaRepub> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaRepub> a base:TransportePublico ;
+	base:hayTransportePublico "metro: pío xii (línea 9)  bus: 16, 29, 150" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaRepub> a base:Posicion ;
+	base:tieneLatitud "40.466.195.029.254.100"^^xsd:long ;
+	base:tieneLongitud "-3.674.926.102.930.990"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaRepub> a base:Direccion ;
+	base:tieneNumero "22 -24"^^xsd:int ;
+	base:tieneDistrito "CHAMARTIN" ;
+	base:tieneCodigoPostal "28016"^^xsd:int ;
+	base:tieneCalle "PIO XII" ;
+	base:tieneTipoVia "AVENIDA" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid_Chamartin> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodelaRepub> a base:Metro ;
+	base:hayMetro "pío xii (línea 9)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodelaRepub> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodelaRepub> a base:Bus ;
+	base:hayBus "16, 29, 150 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeLaRioja> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de La Rioja" ;
+	base:tieneHorario "De lunes a viernes de 9 a 21:30 horas (en época de verano, consultar telefónicamente)." ;
+	base:tieneTelefono "915 764 852" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeLaRioja> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeLaRioja> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeLaRioja> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeLaRioja> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeLaRioja> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeLaRioja> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeLaRioja> a base:TransportePublico ;
+	base:hayTransportePublico "metro: serrano (línea 4).  bus: 1, 5, 9, 14, 19, 21, 27, 45, 51, 53, 74, 150." .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeLaRioja> a base:Posicion ;
+	base:tieneLatitud "40.426.596.411.628.700"^^xsd:long ;
+	base:tieneLongitud "-3.687.839.531.572.200"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeLaRioja> a base:Direccion ;
+	base:tieneNumero "25"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001"^^xsd:int ;
+	base:tieneCalle "SERRANO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeLaRioja> a base:Metro ;
+	base:hayMetro "serrano (línea 4)." .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeLaRioja> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeLaRioja> a base:Bus ;
+	base:hayBus "1, 5, 9, 14, 19, 21, 27, 45, 51, 53, 74, 150. " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeMalta> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Malta" ;
+	base:tieneHorario "De lunes a viernes de 9 a 14 horas" ;
+	base:tieneTelefono "913 913 061" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeMalta> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeMalta> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeMalta> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeMalta> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeMalta> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeMalta> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeMalta> a base:TransportePublico ;
+	base:hayTransportePublico "metro: gregorio marañón   bus: 5, 7, 9, 14, 16, 19, 27, 40, 45, 51, 61, 147, 150" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeMalta> a base:Posicion ;
+	base:tieneLatitud "4.043.569.358.766.220"^^xsd:long ;
+	base:tieneLongitud "-3.689.677.189.614.330"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeMalta> a base:Direccion ;
+	base:tieneNumero "45"^^xsd:int ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28046"^^xsd:int ;
+	base:tieneCalle "CASTELLANA" ;
+	base:tieneTipoVia "PASEO" ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberi_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeMalta> a base:Metro ;
+	base:hayMetro "gregorio marañón" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeMalta> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeMalta> a base:Bus ;
+	base:hayBus "5, 7, 9, 14, 16, 19, 27, 40, 45, 51, 61, 147, 150 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeMarruec> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Marruecos" ;
+	base:tieneTelefono "915 412 995 (información sobre horarios)" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeMarruec> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeMarruec> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeMarruec> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeMarruec> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeMarruec> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeMarruec> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeMarruec> a base:TransportePublico ;
+	base:hayTransportePublico "metro: ventura rodríguez (línea 3), plaza de españa (línea 3)  bus: 1, 2, 3, 44, 46, 74, 75, 133, 138, 148, c" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeMarruec> a base:Posicion ;
+	base:tieneLatitud "4.042.420.902.572.590"^^xsd:long ;
+	base:tieneLongitud "-3.714.574.560.417.800"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeMarruec> a base:Direccion ;
+	base:tieneNumero "24"^^xsd:int ;
+	base:tieneDistrito "MONCLOA-ARAVACA" ;
+	base:tieneCodigoPostal "28008"^^xsd:int ;
+	base:tieneCalle "VENTURA RODRIGUEZ" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeMarruec> a base:Metro ;
+	base:hayMetro "ventura rodríguez (línea 3), plaza de españa (línea 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeMarruec> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeMarruec> a base:Bus ;
+	base:hayBus "1, 2, 3, 44, 46, 74, 75, 133, 138, 148, c " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeMexico> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de México" ;
+	base:tieneTelefono "915 611 827 / 915 613 520" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeMexico> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeMexico> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeMexico> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeMexico> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeMexico> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeMexico> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeMexico> a base:TransportePublico ;
+	base:hayTransportePublico "metro: sevilla (línea 2)  bus: 10, 14, 27, 34, 37, 45" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeMexico> a base:Posicion ;
+	base:tieneLatitud "4.041.605.298.613.370"^^xsd:long ;
+	base:tieneLongitud "-3.697.338.423.479.510"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeMexico> a base:Direccion ;
+	base:tieneNumero "46"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014"^^xsd:int ;
+	base:tieneCalle "SAN JERONIMO" ;
+	base:tieneTipoVia "CARRERA" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeMexico> a base:Metro ;
+	base:hayMetro "sevilla (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeMexico> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeMexico> a base:Bus ;
+	base:hayBus "10, 14, 27, 34, 37, 45 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeNoruega> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Noruega" ;
+	base:tieneEquipamiento "Proporciona información a través de internet, correo y teléfono" ;
+	base:tieneTelefono "913 440 987" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeNoruega> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeNoruega> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeNoruega> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeNoruega> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeNoruega> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeNoruega> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeNoruega> a base:TransportePublico ;
+	base:hayTransportePublico "metro: colón (línea 4)  bus: 5, 14, 27, 45, 150" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeNoruega> a base:Posicion ;
+	base:tieneLatitud "4.042.567.707.652.300"^^xsd:long ;
+	base:tieneLongitud "-36.909.305.470.033.500"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeNoruega> a base:Direccion ;
+	base:tieneNumero "2"^^xsd:int ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28046"^^xsd:int ;
+	base:tieneCalle "COLON" ;
+	base:tieneTipoVia "PLAZA" ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberi_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeNoruega> a base:Metro ;
+	base:hayMetro "colón (línea 4)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeNoruega> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeNoruega> a base:Bus ;
+	base:hayBus "5, 14, 27, 45, 150 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeNuevaYo> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Nueva York" ;
+	base:tieneHorario "De lunes a viernes de 9 a 17:30 horas" ;
+	base:tieneTelefono "914 585 573" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeNuevaYo> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeNuevaYo> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeNuevaYo> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeNuevaYo> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeNuevaYo> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeNuevaYo> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeNuevaYo> a base:TransportePublico ;
+	base:hayTransportePublico "metro: iglesia ( línea 1)  bus: 16, 37, 61, 149" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeNuevaYo> a base:Posicion ;
+	base:tieneLatitud "4.043.466.453.809.470"^^xsd:long ;
+	base:tieneLongitud "-3.700.501.765.839.500"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeNuevaYo> a base:Direccion ;
+	base:tieneNumero "27"^^xsd:int ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28010"^^xsd:int ;
+	base:tieneCalle "ELOY GONZALO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberi_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeNuevaYo> a base:Metro ;
+	base:hayMetro "iglesia ( línea 1)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeNuevaYo> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeNuevaYo> a base:Bus ;
+	base:hayBus "16, 37, 61, 149 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodePeru> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Perú" ;
+	base:tieneTelefono "911 937 511" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodePeru> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePeru> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodePeru> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodePeru> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodePeru> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodePeru> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodePeru> a base:TransportePublico .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodePeru> a base:Posicion ;
+	base:tieneLatitud "40.429.674.007.218.000"^^xsd:long ;
+	base:tieneLongitud "-36.792.883.340.980.100"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePeru> a base:Direccion ;
+	base:tieneNumero "10"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28006"^^xsd:int ;
+	base:tieneCalle "MARQUES DE SALAMANCA" ;
+	base:tieneTipoVia "PLAZA" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodePeru> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodePeru> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodePeru> a base:Bus .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodePolonia> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Polonia" ;
+	base:tieneTelefono "915 414 808 / 915 414 333" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodePolonia> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePolonia> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodePolonia> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodePolonia> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodePolonia> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodePolonia> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodePolonia> a base:TransportePublico ;
+	base:hayTransportePublico "metro: plaza de españa (línea 3)  bus: 1, 2, 3, 44, 46, 74, 75, 133, 138, 148, 202," .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodePolonia> a base:Posicion ;
+	base:tieneLatitud "4.042.474.213.964.730"^^xsd:long ;
+	base:tieneLongitud "-37.128.591.034.859.400"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePolonia> a base:Direccion ;
+	base:tieneNumero "3"^^xsd:int ;
+	base:tieneDistrito "MONCLOA-ARAVACA" ;
+	base:tieneCodigoPostal "28008"^^xsd:int ;
+	base:tieneCalle "PRINCESA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodePolonia> a base:Metro ;
+	base:hayMetro "plaza de españa (línea 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodePolonia> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodePolonia> a base:Bus ;
+	base:hayBus "1, 2, 3, 44, 46, 74, 75, 133, 138, 148, 202,  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodePortuga> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Portugal" ;
+	base:tieneTelefono "917 617 230" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodePortuga> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePortuga> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodePortuga> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodePortuga> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodePortuga> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodePortuga> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodePortuga> a base:TransportePublico ;
+	base:hayTransportePublico "metro: núñez de balboa (líneas 5, 9)  bus: 1, 9, 19, 51, 74" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodePortuga> a base:Posicion ;
+	base:tieneLatitud "4.042.991.206.232.810"^^xsd:long ;
+	base:tieneLongitud "-36.847.491.581.278.600"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePortuga> a base:Direccion ;
+	base:tieneNumero "88"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001"^^xsd:int ;
+	base:tieneCalle "LAGASCA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodePortuga> a base:Metro ;
+	base:hayMetro "núñez de balboa (líneas 5, 9)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodePortuga> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodePortuga> a base:Bus ;
+	base:hayBus "1, 9, 19, 51, 74 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodePuertoR> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Puerto Rico" ;
+	base:tieneTelefono "914 312 128" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodePuertoR> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePuertoR> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodePuertoR> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodePuertoR> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodePuertoR> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodePuertoR> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodePuertoR> a base:TransportePublico ;
+	base:hayTransportePublico "metro: retiro (línea 2)  bus: 1, 2, 9, 15, 20, 28, 51, 52, 74, 146, 202" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodePuertoR> a base:Posicion ;
+	base:tieneLatitud "4.042.308.011.875.360"^^xsd:long ;
+	base:tieneLongitud "-3.686.789.938.909.180"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePuertoR> a base:Direccion ;
+	base:tieneNumero "22"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001"^^xsd:int ;
+	base:tieneCalle "CLAUDIO COELLO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodePuertoR> a base:Metro ;
+	base:hayMetro "retiro (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodePuertoR> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodePuertoR> a base:Bus ;
+	base:hayBus "1, 2, 9, 15, 20, 28, 51, 52, 74, 146, 202 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeRepubli> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de República Dominicana" ;
+	base:tieneTelefono "914 177 375" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeRepubli> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeRepubli> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeRepubli> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeRepubli> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeRepubli> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeRepubli> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeRepubli> a base:TransportePublico ;
+	base:hayTransportePublico "metro: rubén darío (línea 5), gregrorio marañón (líneas 7, 10)  bus: 9, 16, 19, 61" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeRepubli> a base:Posicion ;
+	base:tieneLatitud "4.043.574.088.970.730"^^xsd:long ;
+	base:tieneLongitud "-3.686.270.282.394.150"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeRepubli> a base:Direccion ;
+	base:tieneNumero "114"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28006"^^xsd:int ;
+	base:tieneCalle "SERRANO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeRepubli> a base:Metro ;
+	base:hayMetro "rubén darío (línea 5), gregrorio marañón (líneas 7, 10)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeRepubli> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeRepubli> a base:Bus ;
+	base:hayBus "9, 16, 19, 61 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeRumania> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Rumania" ;
+	base:tieneTelefono "914 014 268" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeRumania> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeRumania> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeRumania> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeRumania> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeRumania> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeRumania> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeRumania> a base:TransportePublico ;
+	base:hayTransportePublico "metro: lista (línea 4)  bus: 1, 26, 61, 74" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeRumania> a base:Posicion ;
+	base:tieneLatitud "4.043.064.345.216.760"^^xsd:long ;
+	base:tieneLongitud "-36.737.334.953.475.200"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeRumania> a base:Direccion ;
+	base:tieneNumero "49"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28006"^^xsd:int ;
+	base:tieneCalle "ALCANTARA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeRumania> a base:Metro ;
+	base:hayMetro "lista (línea 4)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeRumania> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeRumania> a base:Bus ;
+	base:hayBus "1, 26, 61, 74 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeSeychel> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Seychelles" ;
+	base:tieneTelefono "917 020 804" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeSeychel> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeSeychel> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeSeychel> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeSeychel> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeSeychel> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeSeychel> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeSeychel> a base:TransportePublico ;
+	base:hayTransportePublico "metro: arg&uuml;elles (líneas 3, 4, 6)  bus: 5, 7, 14, 21, 27, 45, 150" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeSeychel> a base:Posicion ;
+	base:tieneLatitud "40.429.538.155.017.700"^^xsd:long ;
+	base:tieneLongitud "-3.715.255.790.482.150"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeSeychel> a base:Direccion ;
+	base:tieneNumero "40"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28008"^^xsd:int ;
+	base:tieneCalle "PRINCESA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeSeychel> a base:Metro ;
+	base:hayMetro "arg&uuml;elles (líneas 3, 4, 6)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeSeychel> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeSeychel> a base:Bus ;
+	base:hayBus "5, 7, 14, 21, 27, 45, 150  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeTahiti> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Tahití" ;
+	base:tieneHorario "Consultar telefónicamente" ;
+	base:tieneTelefono "915 489 747" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeTahiti> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeTahiti> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeTahiti> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeTahiti> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeTahiti> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeTahiti> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeTahiti> a base:TransportePublico ;
+	base:hayTransportePublico "metro: serrano (línea 4)  bus: 1, 9, 19, 21, 51, 53, 74" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeTahiti> a base:Posicion ;
+	base:tieneLatitud "40.426.021.621.426.400"^^xsd:long ;
+	base:tieneLongitud "-3.687.538.961.488.500"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeTahiti> a base:Direccion ;
+	base:tieneNumero "40"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001"^^xsd:int ;
+	base:tieneCalle "SERRANO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeTahiti> a base:Metro ;
+	base:hayMetro "serrano (línea 4)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeTahiti> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeTahiti> a base:Bus ;
+	base:hayBus "1, 9, 19, 21, 51, 53, 74 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeTurquia> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Turquia" ;
+	base:tieneTelefono "915 597 014 / 915 597 114 " ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeTurquia> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeTurquia> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeTurquia> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeTurquia> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeTurquia> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeTurquia> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeTurquia> a base:TransportePublico ;
+	base:hayTransportePublico "metro: retiro (línea 2)  bus: 1, 2, 3, 44, 46, 74, 75, 133, 138, 148, 202, c" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeTurquia> a base:Posicion ;
+	base:tieneLatitud "40.416.395.587.157.400"^^xsd:long ;
+	base:tieneLongitud "-36.897.865.586.854.900"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeTurquia> a base:Direccion ;
+	base:tieneNumero "18"^^xsd:int ;
+	base:tieneDistrito "RETIRO" ;
+	base:tieneCodigoPostal "28014"^^xsd:int ;
+	base:tieneCalle "ANTONIO MAURA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeTurquia> a base:Metro ;
+	base:hayMetro "retiro (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeTurquia> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeTurquia> a base:Bus ;
+	base:hayBus "1, 2, 3, 44, 46, 74, 75, 133, 138, 148, 202, c " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeTunez> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Túnez" ;
+	base:tieneTelefono "915 481 435" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeTunez> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeTunez> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeTunez> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeTunez> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeTunez> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeTunez> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeTunez> a base:TransportePublico ;
+	base:hayTransportePublico "metro: san bernardo (líneas 2, 4)  bus: 2, 21, 147, 202" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeTunez> a base:Posicion ;
+	base:tieneLatitud "4.042.967.754.133.070"^^xsd:long ;
+	base:tieneLongitud "-37.087.142.557.455.800"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeTunez> a base:Direccion ;
+	base:tieneNumero "11"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28015"^^xsd:int ;
+	base:tieneCalle "ALBERTO AGUILERA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeTunez> a base:Metro ;
+	base:hayMetro "san bernardo (líneas 2, 4)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeTunez> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeTunez> a base:Bus ;
+	base:hayBus "2, 21, 147, 202 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodeVenezue> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo de Venezuela" ;
+	base:tieneHorario "Consultar telefonicámente" ;
+	base:tieneTelefono "915 981 200" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeVenezue> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeVenezue> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeVenezue> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeVenezue> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeVenezue> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeVenezue> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeVenezue> a base:TransportePublico ;
+	base:hayTransportePublico "metro: santiago bernabeu (línea 10)  bus: 27, 40, 43, 126, 147" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeVenezue> a base:Posicion ;
+	base:tieneLatitud "40.453.269.184.872.100"^^xsd:long ;
+	base:tieneLongitud "-36.928.523.641.457.400"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeVenezue> a base:Direccion ;
+	base:tieneNumero "1"^^xsd:int ;
+	base:tieneDistrito "TETUAN" ;
+	base:tieneCodigoPostal "28020"^^xsd:int ;
+	base:tieneCalle "CAPITAN HAYA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Tetuan_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeVenezue> a base:Metro ;
+	base:hayMetro "santiago bernabeu (línea 10)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodeVenezue> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodeVenezue> a base:Bus ;
+	base:hayBus "27, 40, 43, 126, 147 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinadeTurismodelAyunta> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina de Turismo del Ayuntamiento de Madrid. Sector Profesional" ;
+	base:tieneHorario "De lunes a viernes de 9 a 17 horas (sólo para profesionales de turismo)" ;
+	base:tieneTelefono "917 012 210" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelAyunta> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelAyunta> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelAyunta> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodelAyunta> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodelAyunta> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodelAyunta> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelAyunta> a base:TransportePublico ;
+	base:hayTransportePublico "metro: sol (líneas 1, 2, 3), ópera (línea 2, 5, ramal)  bus: 3, 5, 15, 17, 18, 20, 23, 31, 35, 50, 51, 52, 53, 65, 150" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelAyunta> a base:Posicion ;
+	base:tieneLatitud "4.041.583.855.082.180"^^xsd:long ;
+	base:tieneLongitud "-37.074.257.084.323.600"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelAyunta> a base:Direccion ;
+	base:tieneNumero "27"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "MAYOR" ;
+	base:tieneTipoVia "PLAZA" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodelAyunta> a base:Metro ;
+	base:hayMetro "sol (líneas 1, 2, 3), ópera (línea 2, 5, ramal)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinadeTurismodelAyunta> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinadeTurismodelAyunta> a base:Bus ;
+	base:hayBus "3, 5, 15, 17, 18, 20, 23, 31, 35, 50, 51, 52, 53, 65, 150 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinaJovenComunidaddeMa> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Oficina Joven Comunidad de Madrid. TIVE. Calle de Fernando el Católico" ;
+	base:tieneHorario "De lunes a viernes de 9 a 14 horas  Desde el 1 de abril hasta el 30 de septiembre de 9 a 19 horas., ininterrumpidamente, para todos los servicios excepto para las inscripciones en actividades organizadas por la Dirección General de Juventud y Deportes, que sólo se realizarán de 9 a 14 horas." ;
+	base:tieneEquipamiento "Obtención de carnets internacionales   Estudiante  (ISIC)   Profesor  (ITIC)   International Youth Travel Card (IYTC)  Albergues Juveniles  Carné Joven    Reservas en albergues juveniles internacionales  Cursos de idiomas en el extranjero  Seguros de viajes  Billetes de bus nacional e internacional  Billetes de tren nacional y emisión de billetes interRaíl  Oficina de Información Juvenil  Preinscripciones e inscripciones de participantes en campañas de la Dirección General de Juventud" ;
+	base:tieneTelefono "915 437 412" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinaJovenComunidaddeMa> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinaJovenComunidaddeMa> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinaJovenComunidaddeMa> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinaJovenComunidaddeMa> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinaJovenComunidaddeMa> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinaJovenComunidaddeMa> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinaJovenComunidaddeMa> a base:TransportePublico ;
+	base:hayTransportePublico "metro: moncloa (líneas 3, 6)  bus: 1, 16, 44, 46, 61, 82, 83, 132, 133, 160, 161, 162, a, c1, c2, se 796, se 798" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinaJovenComunidaddeMa> a base:Posicion ;
+	base:tieneLatitud "4.043.442.331.966.470"^^xsd:long ;
+	base:tieneLongitud "-3.717.795.251.173.150"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinaJovenComunidaddeMa> a base:Direccion ;
+	base:tieneNumero "88"^^xsd:int ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28015"^^xsd:int ;
+	base:tieneCalle "FERNANDO EL CATOLICO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberi_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinaJovenComunidaddeMa> a base:Metro ;
+	base:hayMetro "moncloa (líneas 3, 6)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OficinaJovenComunidaddeMa> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinaJovenComunidaddeMa> a base:Bus ;
+	base:hayBus "1, 16, 44, 46, 61, 82, 83, 132, 133, 160, 161, 162, a, c1, c2, se 796, se 798 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OficinaJovenComunidaddeMa> base:tieneNombre "Oficina Joven Comunidad de Madrid. TIVE. Calle de Recoletos" ;
+	base:tieneHorario "De lunes a viernes de 9 a 14 horas" ;
+	base:tieneEquipamiento "Obtención de carnets internacionales   Estudiante  (ISIC)   Profesor  (ITIC)       International Youth Travel Card   (IYTC)   Albergues Juveniles  Carné Joven    Oficina de Información Juvenil" ;
+	base:tieneTelefono "901 510 610 / 912 767 563" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinaJovenComunidaddeMa> base:hayTransportePublico "bus: 1, 5, 9, 14, 19, 27, 37, 45, 51, 53, 74, 150" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinaJovenComunidaddeMa> base:tieneLatitud "4.042.232.563.847.620"^^xsd:long ;
+	base:tieneLongitud "-36.909.434.067.579.500"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinaJovenComunidaddeMa> base:tieneNumero "1"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001"^^xsd:int ;
+	base:tieneCalle "RECOLETOS" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinaJovenComunidaddeMa> base:hayBus "1, 5, 9, 14, 19, 27, 37, 45, 51, 53, 74, 150 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/PuntodeInformacionTuristi> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid -  Barajas Terminal 2" ;
+	base:tieneHorario "De lunes a domingo de 9 a 20 horas" ;
+	base:tieneEquipamiento "Punto de información sobre la oferta turística y cultural de Madrid.  Atención presencial  Autoconsulta  Audiovisuales  Certificado  ICTE  de  Q de calidad turística  Norma  UNE  187003:2008" ;
+	base:tieneTelefono "914 544 410 (nformación turística y Programa de Visitas Guiadas Oficiales)" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PuntodeInformacionTuristi> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PuntodeInformacionTuristi> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/PuntodeInformacionTuristi> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PuntodeInformacionTuristi> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/PuntodeInformacionTuristi> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/PuntodeInformacionTuristi> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/PuntodeInformacionTuristi> a base:TransportePublico ;
+	base:hayTransportePublico "metro: aeropuerto t2 (línea 8)  bus: 200 y autobús express aeropuerto" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PuntodeInformacionTuristi> a base:Posicion ;
+	base:tieneLatitud "4.045.188.738.242.830"^^xsd:long ;
+	base:tieneLongitud "-35.859.807.207.200.300"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PuntodeInformacionTuristi> a base:Direccion ;
+	base:tieneNumero "0"^^xsd:int ;
+	base:tieneDistrito "BARAJAS" ;
+	base:tieneCodigoPostal "28042"^^xsd:int ;
+	base:tieneCalle "HISPANIDAD" ;
+	base:tieneTipoVia "AVENIDA" ;
+	owl:sameAs <http://dbpedia.org/resource/Barajas_(district)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PuntodeInformacionTuristi> a base:Metro ;
+	base:hayMetro "aeropuerto t2 (línea 8)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/PuntodeInformacionTuristi> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/PuntodeInformacionTuristi> a base:Bus ;
+	base:hayBus "200 y autobús express aeropuerto " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/PuntodeInformacionTuristi> base:tieneNombre "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid - Barajas Terminal 4" ;
+	base:tieneEquipamiento "Punto de información sobre la oferta turística y cultural de Madrid.  Atención presencial  Autoconsulta  Audiovisuales  Accesibilidad: mostrador adaptado  Certificados  ICTE  de Q de calidad turística Norma  UNE  187003:2008" ;
+	base:tieneTelefono "914 544 410 (información turística y Programa Visitas Guiadas Oficiales)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/PuntodeInformacionTuristi> base:hayTransportePublico "metro: aeropuerto t 4 (línea 8)  bus: 200 y exprés aeropuerto  renfe: aeropuerto t 4" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PuntodeInformacionTuristi> base:hayMetro "aeropuerto t 4 (línea 8)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/PuntodeInformacionTuristi> base:hayRenfe "aeropuerto t 4" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Estacion_aeropuerto_t4> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/PuntodeInformacionTuristi> base:hayBus "200 y exprés aeropuerto  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/PuntodeInformacionTuristi> base:tieneNombre "Punto de Información Turística Callao (en remodelación)" ;
+	base:tieneHorario "De lunes a domingo de 9:30 a 20:30 horas" ;
+	base:tieneEquipamiento "Punto de información sobre la oferta turística y cultural de Madrid.  Atención presencial  Autoconsulta  Certificado  ICTE  de  Q de calidad turística  Norma  UNE  187003:2008" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/PuntodeInformacionTuristi> base:hayTransportePublico "metro: callao (líneas 1, 3, 5)  bus: 1, 2, 44, 46, 74, 75, 146, 147, 148, 133 y 202" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PuntodeInformacionTuristi> base:tieneLatitud "4.041.974.735.763.760"^^xsd:long ;
+	base:tieneLongitud "-37.061.346.665.078.800"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PuntodeInformacionTuristi> base:tieneNumero "1"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013"^^xsd:int ;
+	base:tieneCalle "CALLAO" ;
+	base:tieneTipoVia "PLAZA" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PuntodeInformacionTuristi> base:hayMetro "callao (líneas 1, 3, 5)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/PuntodeInformacionTuristi> base:hayBus "1, 2, 44, 46, 74, 75, 146, 147, 148, 133 y 202 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/PuntodeInformacionTuristi> base:tieneNombre "Punto de Información Turística Cibeles" ;
+	base:tieneEquipamiento "Punto de información sobre la oferta turística y cultural de Madrid.  Atención presencial  Certificado  ICTE  de  Q de calidad turística  Norma  UNE  187003:2008" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/PuntodeInformacionTuristi> base:hayTransportePublico "metro: banco de españa (línea 2)  bus: 1, 2, 5, 9, 10, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150, 202  renfe: recoletos" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PuntodeInformacionTuristi> base:tieneLatitud "40.419.011.767.401.000"^^xsd:long ;
+	base:tieneLongitud "-3.692.206.111.679.650"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PuntodeInformacionTuristi> base:tieneDistrito "RETIRO" ;
+	base:tieneCodigoPostal "28014"^^xsd:int ;
+	base:tieneCalle "CIBELES" ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PuntodeInformacionTuristi> base:hayMetro "banco de españa (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/PuntodeInformacionTuristi> base:hayRenfe "recoletos" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Estación_de_Recoletos> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/PuntodeInformacionTuristi> base:hayBus "1, 2, 5, 9, 10, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150, 202  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/PuntodeInformacionTuristi> base:tieneNombre "Punto de Información Turística Paseo del Arte" ;
+	base:tieneHorario "De lunes a domingo de 9:30 a 20:30 horas." ;
+	base:tieneEquipamiento "Punto de información sobre la oferta turística y cultural de Madrid.  Atención presencial  Autoconsulta  Accesibilidad: acceso adaptado  Certificado  ICTE  de  Q de calidad turística  Norma  UNE  187003:2008" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/PuntodeInformacionTuristi> base:hayTransportePublico "metro: atocha (línea 1)  bus: 6, 10 , 14, 19, 26, 27, 32, 34, 37, 54, 57, 69  renfe: atocha" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PuntodeInformacionTuristi> base:tieneLatitud "4.041.213.027.498.250"^^xsd:long ;
+	base:tieneLongitud "-36.994.547.941.964.900"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PuntodeInformacionTuristi> base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "SANTA ISABEL" ;
+	base:tieneTipoVia "CALLE" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PuntodeInformacionTuristi> base:hayMetro "atocha (línea 1)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/PuntodeInformacionTuristi> base:hayRenfe "atocha" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Estación_de_Atocha-Cercanías> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/PuntodeInformacionTuristi> base:hayBus "6, 10 , 14, 19, 26, 27, 32, 34, 37, 54, 57, 69  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/PuntodeInformacionTuristi> base:tieneNombre "Punto de Información Turística. Centrocentro" ;
+	base:tieneHorario "De martes a domingo de 10 a 20 horas  Cerrado todos los lunes, 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre" ;
+	base:tieneEquipamiento "Punto de información sobre la oferta turística y cultural de Madrid  Atención presencial  Autoconsulta  Audiovisuales  Accesibilidad: acceso adaptado" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/ServiciodeAtencionalTuris> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Servicio de Atención al Turista Extranjero (SATE). Comisaría de Centro" ;
+	base:tieneDescripcion "El Servicio de Atención al Turista Extranjero - SATE - es un servicio especializado gestionado por la Empresa Municipal Madrid Destino, Cultura, Turismo y Negocio, S.A en colaboración con la Policia Nacional que tiene por finalidad atender al turista que, durante su estancia en Madrid, haya vivido una situación excepcional y requiera de apoyo policial" ;
+	base:tieneHorario "Todos los días de 9 a 24 horas" ;
+	base:tieneTelefono "902 102 112 (denuncias 24 horas. Policía)" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ServiciodeAtencionalTuris> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ServiciodeAtencionalTuris> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ServiciodeAtencionalTuris> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ServiciodeAtencionalTuris> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/ServiciodeAtencionalTuris> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/ServiciodeAtencionalTuris> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ServiciodeAtencionalTuris> a base:TransportePublico ;
+	base:hayTransportePublico "metro: plaza de españa (líneas 3, 10), santo domingo (línea 2), callao (líneas 3, 5)  bus: 1, 2, 25, 39, 44, 46, 74, 75, 138, 148, 202" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ServiciodeAtencionalTuris> a base:Posicion ;
+	base:tieneLatitud "40.421.578.408.057.800"^^xsd:long ;
+	base:tieneLongitud "-37.101.852.392.954.300"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ServiciodeAtencionalTuris> a base:Direccion ;
+	base:tieneNumero "19"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013"^^xsd:int ;
+	base:tieneCalle "LEGANITOS" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ServiciodeAtencionalTuris> a base:Metro ;
+	base:hayMetro "plaza de españa (líneas 3, 10), santo domingo (línea 2), callao (líneas 3, 5)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/ServiciodeAtencionalTuris> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/ServiciodeAtencionalTuris> a base:Bus ;
+	base:hayBus "1, 2, 25, 39, 44, 46, 74, 75, 138, 148, 202 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/ServicioNoPresencialdeInf> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Servicio No Presencial de Información Turística de Madrid" ;
+	base:tieneDescripcion "Información turística telefónica, por correo postal, correo electrónico y a través de la aplicación de chat de la página web  http://www.esmadrid.com/" ;
+	base:tieneHorario "De lunes a domingo de 9:30 a 20:30 horas" ;
+	base:tieneEquipamiento "Atiende aquellas consultas sobre la oferta turística de la ciudad, recibidas a través de teléfono, correo postal, correo electrónico y servicio de chat de la página  www.esmadrid.com.   Certificado  ICTE  de Q de calidad turística Norma  UNE  187003:2008" ;
+	base:tieneTelefono "914 544 410 (información turística y Programa Visitas Guiadas Oficiales)" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ServicioNoPresencialdeInf> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ServicioNoPresencialdeInf> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ServicioNoPresencialdeInf> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ServicioNoPresencialdeInf> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/ServicioNoPresencialdeInf> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/ServicioNoPresencialdeInf> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ServicioNoPresencialdeInf> a base:TransportePublico .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ServicioNoPresencialdeInf> a base:Posicion ;
+	base:tieneLatitud "4.041.583.855.082.180"^^xsd:long ;
+	base:tieneLongitud "-37.074.257.084.323.600"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ServicioNoPresencialdeInf> a base:Direccion ;
+	base:tieneNumero "27"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "MAYOR" ;
+	base:tieneTipoVia "PLAZA" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ServicioNoPresencialdeInf> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/ServicioNoPresencialdeInf> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/ServicioNoPresencialdeInf> a base:Bus .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/UnidadMovildeinformaciont> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Unidad Móvil de información turística de Madrid" ;
+	base:tieneHorario "De 9:30 a 20:30 horas." ;
+	base:tieneEquipamiento "Punto itinerante de información turística de la ciudad de Madrid con atención presencial y personalizada en varios idiomas  Durante todo el año se sitúa junto a monumentos y edificios de gran afluencia turística como el Palacio Real, el Museo del Prado, Puerta del Sol y presta un servicio informativo de apoyo a los Servicios de Atención e Información Turística en las campañas especiales que se llevan a cabo con motivo de las diferentes celebraciones que tienen lugar en nuestra ciudad (Día del Libro, Semana del Orgullo Gay, Noche en Blanco, Día Mundial del Turismo, Festival Internacional de Jazz, ...)  Servicios   Atención presencial  Autoconsulta  Bucle magnético  Acceso adaptado    Certificado  ICTE  de Q de calidad turística Norma  UNE  187003:2008" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/UnidadMovildeinformaciont> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/UnidadMovildeinformaciont> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/UnidadMovildeinformaciont> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/UnidadMovildeinformaciont> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/UnidadMovildeinformaciont> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/UnidadMovildeinformaciont> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/UnidadMovildeinformaciont> a base:TransportePublico .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/UnidadMovildeinformaciont> a base:Posicion .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/UnidadMovildeinformaciont> a base:Direccion ;
+	base:tieneTipoVia "Punto itinerante" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/UnidadMovildeinformaciont> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/UnidadMovildeinformaciont> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/UnidadMovildeinformaciont> a base:Bus .

@@ -1,11 +1,6 @@
 [
   {
     "op": "core/column-removal",
-    "description": "Remove column DBpedia Spotlight",
-    "columnName": "DBpedia Spotlight"
-  },
-  {
-    "op": "core/column-removal",
     "description": "Remove column Column",
     "columnName": "Column"
   },
@@ -295,5 +290,182 @@
         }
       ]
     }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TITULO using expression grel:replace(value, \"'\", \"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TITULO",
+    "expression": "grel:replace(value, \"'\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.linkedculture.org/resources/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "linkedculture",
+          "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replace(value, \"'\", '')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Actividad",
+              "curie": "linkedculture:Actividad"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasCodigo",
+              "curie": "linkedculture:hasCodigo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasTitulo",
+              "curie": "linkedculture:hasTitulo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasGratuito",
+              "curie": "linkedculture:hasGratuito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasHorario",
+              "curie": "linkedculture:hasHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasDescripcion",
+              "curie": "linkedculture:hasDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasURL",
+              "curie": "linkedculture:hasURL",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasTitulo",
+              "curie": "linkedculture:hasTitulo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO-ACTIVIDAD"
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasInstalacion",
+              "curie": "linkedculture:hasInstalacion",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#Centro",
+                    "curie": "linkedculture:Centro"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#hasTipo",
+              "curie": "linkedculture:hasTipo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column HORARIO using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "HORARIO",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column DESCRIPCION using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DESCRIPCION",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   }
 ]

@@ -70,13 +70,13 @@
         <Class IRI="https://schema.org/Place"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasBeginning"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasEnd"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#tieneTurnoDeGuardia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2006/time/hasBeginning"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2006/time/hasEnd"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="https://schema.org/containedInPlace"/>
@@ -154,32 +154,32 @@
         <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasBeginning"/>
-        <Class IRI="http://www.w3.org/2006/time/TemporalEntity"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasEnd"/>
-        <Class IRI="http://www.w3.org/2006/time/TemporalEntity"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#tieneTurnoDeGuardia"/>
         <Class IRI="#FarmaciaDeGuardia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/2006/time/hasBeginning"/>
+        <Class IRI="http://www.w3.org/2006/time/TemporalEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/2006/time/hasEnd"/>
+        <Class IRI="http://www.w3.org/2006/time/TemporalEntity"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="https://schema.org/containedInPlace"/>
         <Class IRI="https://schema.org/Place"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasBeginning"/>
-        <Class IRI="http://www.w3.org/2006/time/Instant"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasEnd"/>
-        <Class IRI="http://www.w3.org/2006/time/Instant"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#tieneTurnoDeGuardia"/>
         <Class IRI="#TurnoDeGuardia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/2006/time/hasBeginning"/>
+        <Class IRI="http://www.w3.org/2006/time/Instant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/2006/time/hasEnd"/>
+        <Class IRI="http://www.w3.org/2006/time/Instant"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="https://schema.org/containedInPlace"/>

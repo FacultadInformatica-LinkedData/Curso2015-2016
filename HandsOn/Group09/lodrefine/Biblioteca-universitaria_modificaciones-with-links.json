@@ -1357,5 +1357,2385 @@
     "similarValue": "LA HABANA",
     "judgment": "new",
     "shareNewTopics": true
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/gupo09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "grupo09",
+          "uri": "http://www.semanticweb.org/gupo09"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/gupo09#Biblioteca",
+              "curie": "grupo09:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tienePK",
+              "curie": "grupo09:tienePK",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "PK"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNombre",
+              "curie": "grupo09:tieneNombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneDescripcion",
+              "curie": "grupo09:tieneDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneHorario",
+              "curie": "grupo09:tieneHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneURL",
+              "curie": "grupo09:tieneURL",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNombreVia",
+              "curie": "grupo09:tieneNombreVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tipoVia",
+              "curie": "grupo09:tipoVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tipoNum",
+              "curie": "grupo09:tipoNum",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO-NUM"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNumero",
+              "curie": "grupo09:tieneNumero",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#perteneceALocalidad",
+              "curie": "grupo09:perteneceALocalidad",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "http://www.semanticweb.org/gupo09#Localidad",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#perteneceAProvincia",
+              "curie": "grupo09:perteneceAProvincia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "http://www.semanticweb.org/gupo09#Provincia",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneCodigoPostal",
+              "curie": "grupo09:tieneCodigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#coordenadaX",
+              "curie": "grupo09:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#coordenadaY",
+              "curie": "grupo09:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#latitud",
+              "curie": "grupo09:latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#longitud",
+              "curie": "grupo09:longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/gupo09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "grupo09",
+          "uri": "http://www.semanticweb.org/gupo09"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/gupo09#Biblioteca",
+              "curie": "grupo09:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tienePK",
+              "curie": "grupo09:tienePK",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "PK"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNombre",
+              "curie": "grupo09:tieneNombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneDescripcion",
+              "curie": "grupo09:tieneDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneHorario",
+              "curie": "grupo09:tieneHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneURL",
+              "curie": "grupo09:tieneURL",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNombreVia",
+              "curie": "grupo09:tieneNombreVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tipoVia",
+              "curie": "grupo09:tipoVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tipoNum",
+              "curie": "grupo09:tipoNum",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO-NUM"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNumero",
+              "curie": "grupo09:tieneNumero",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#perteneceALocalidad",
+              "curie": "grupo09:perteneceALocalidad",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "http://www.semanticweb.org/gupo09#Localidad",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#perteneceAProvincia",
+              "curie": "grupo09:perteneceAProvincia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "http://www.semanticweb.org/gupo09#Provincia",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneCodigoPostal",
+              "curie": "grupo09:tieneCodigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#coordenadaX",
+              "curie": "grupo09:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#coordenadaY",
+              "curie": "grupo09:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#latitud",
+              "curie": "grupo09:latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#longitud",
+              "curie": "grupo09:longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"LA HABANA\" in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE-VIA: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE-VIA"
+        }
+      ]
+    },
+    "columnName": "NOMBRE-VIA",
+    "similarValue": "LA HABANA",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Nombrevia_dbpedia at index 6 based on column NOMBRE-VIA using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Nombrevia_dbpedia",
+    "columnInsertIndex": 6,
+    "baseColumnName": "NOMBRE-VIA",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Localidad_dbpedia at index 11 based on column LOCALIDAD using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Localidad_dbpedia",
+    "columnInsertIndex": 11,
+    "baseColumnName": "LOCALIDAD",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Provincia_dbpedia at index 13 based on column PROVINCIA using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Provincia_dbpedia",
+    "columnInsertIndex": 13,
+    "baseColumnName": "PROVINCIA",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/gupo09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "grupo09",
+          "uri": "http://www.semanticweb.org/gupo09"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/gupo09#Biblioteca",
+              "curie": "grupo09:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tienePK",
+              "curie": "grupo09:tienePK",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "PK"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNombre",
+              "curie": "grupo09:tieneNombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneDescripcion",
+              "curie": "grupo09:tieneDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneHorario",
+              "curie": "grupo09:tieneHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneURL",
+              "curie": "grupo09:tieneURL",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNombreVia",
+              "curie": "grupo09:tieneNombreVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tipoVia",
+              "curie": "grupo09:tipoVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tipoNum",
+              "curie": "grupo09:tipoNum",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO-NUM"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNumero",
+              "curie": "grupo09:tieneNumero",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#perteneceALocalidad",
+              "curie": "grupo09:perteneceALocalidad",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "http://www.semanticweb.org/gupo09#Localidad",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Localidad_dbpedia"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#perteneceAProvincia",
+              "curie": "grupo09:perteneceAProvincia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "http://www.semanticweb.org/gupo09#Provincia",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Provincia_dbpedia"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneCodigoPostal",
+              "curie": "grupo09:tieneCodigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#coordenadaX",
+              "curie": "grupo09:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#coordenadaY",
+              "curie": "grupo09:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#latitud",
+              "curie": "grupo09:latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#longitud",
+              "curie": "grupo09:longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/gupo09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "grupo09",
+          "uri": "http://www.semanticweb.org/gupo09"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/gupo09#Biblioteca",
+              "curie": "grupo09:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tienePK",
+              "curie": "grupo09:tienePK",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "PK"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNombre",
+              "curie": "grupo09:tieneNombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneDescripcion",
+              "curie": "grupo09:tieneDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneHorario",
+              "curie": "grupo09:tieneHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneURL",
+              "curie": "grupo09:tieneURL",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNombreVia",
+              "curie": "grupo09:tieneNombreVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tipoVia",
+              "curie": "grupo09:tipoVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tipoNum",
+              "curie": "grupo09:tipoNum",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO-NUM"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNumero",
+              "curie": "grupo09:tieneNumero",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#perteneceALocalidad",
+              "curie": "grupo09:perteneceALocalidad",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "http://www.semanticweb.org/gupo09#Localidad",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Localidad_dbpedia"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#perteneceAProvincia",
+              "curie": "grupo09:perteneceAProvincia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "http://www.semanticweb.org/gupo09#Provincia",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Provincia_dbpedia"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneCodigoPostal",
+              "curie": "grupo09:tieneCodigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#coordenadaX",
+              "curie": "grupo09:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#coordenadaY",
+              "curie": "grupo09:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#latitud",
+              "curie": "grupo09:latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#longitud",
+              "curie": "grupo09:longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/gupo09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "grupo09",
+          "uri": "http://www.semanticweb.org/gupo09"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/gupo09#Biblioteca",
+              "curie": "grupo09:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tienePK",
+              "curie": "grupo09:tienePK",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "PK"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNombre",
+              "curie": "grupo09:tieneNombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneDescripcion",
+              "curie": "grupo09:tieneDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneHorario",
+              "curie": "grupo09:tieneHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneURL",
+              "curie": "grupo09:tieneURL",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNombreVia",
+              "curie": "grupo09:tieneNombreVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tipoVia",
+              "curie": "grupo09:tipoVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tipoNum",
+              "curie": "grupo09:tipoNum",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO-NUM"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNumero",
+              "curie": "grupo09:tieneNumero",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#perteneceALocalidad",
+              "curie": "grupo09:perteneceALocalidad",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "http://www.semanticweb.org/gupo09#Localidad",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Localidad_dbpedia"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#perteneceAProvincia",
+              "curie": "grupo09:perteneceAProvincia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "http://www.semanticweb.org/gupo09#Provincia",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Provincia_dbpedia"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneCodigoPostal",
+              "curie": "grupo09:tieneCodigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#coordenadaX",
+              "curie": "grupo09:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#coordenadaY",
+              "curie": "grupo09:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#latitud",
+              "curie": "grupo09:latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#longitud",
+              "curie": "grupo09:longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/gupo09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "grupo09",
+          "uri": "http://www.semanticweb.org/gupo09"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/gupo09#Biblioteca",
+              "curie": "grupo09:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tienePK",
+              "curie": "grupo09:tienePK",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "PK"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNombre",
+              "curie": "grupo09:tieneNombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneDescripcion",
+              "curie": "grupo09:tieneDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneHorario",
+              "curie": "grupo09:tieneHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneURL",
+              "curie": "grupo09:tieneURL",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNombreVia",
+              "curie": "grupo09:tieneNombreVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tipoVia",
+              "curie": "grupo09:tipoVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tipoNum",
+              "curie": "grupo09:tipoNum",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO-NUM"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNumero",
+              "curie": "grupo09:tieneNumero",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#perteneceALocalidad",
+              "curie": "grupo09:perteneceALocalidad",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "http://www.semanticweb.org/gupo09#Localidad",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Localidad_dbpedia"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#perteneceAProvincia",
+              "curie": "grupo09:perteneceAProvincia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "http://www.semanticweb.org/gupo09#Provincia",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Provincia_dbpedia"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneCodigoPostal",
+              "curie": "grupo09:tieneCodigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#coordenadaX",
+              "curie": "grupo09:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#coordenadaY",
+              "curie": "grupo09:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#latitud",
+              "curie": "grupo09:latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#longitud",
+              "curie": "grupo09:longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MARINA ESPA&Ntilde;OLA"
+        ],
+        "to": "MARINA ESPANOLA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NOMBRE-VIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE-VIA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SANTIAGO RUSI&Ntilde;OL"
+        ],
+        "to": "SANTIAGO RUSINOL"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DESCRIPCION-ENTIDAD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DESCRIPCION-ENTIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Biblioteca del anterior Ministerio de Agricultura, Pesca y AlimentaciÃ³n (MAPA), especializada en temas de agricultura, pesca, alimentaciÃ³n y desarrollo rural, contiene publicaciones desde 1604. Ha incorporado bibliotecas de unidades suprimidas con competencia agropecuaria y de donaciones particulares."
+        ],
+        "to": "Biblioteca del anterior Ministerio de Agricultura, Pesca y Alimentacion (MAPA), especializada en temas de agricultura, pesca, alimentacion y desarrollo rural, contiene publicaciones desde 1604. Ha incorporado bibliotecas de unidades suprimidas con competencia agropecuaria y de donaciones particulares."
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DESCRIPCION-ENTIDAD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DESCRIPCION-ENTIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Centro de DocumentaciÃ³n Ambiental y Biblioteca General del antiguo Ministerio de Medio Ambiente, tiene su origen en un Centro del Programa de Naciones Unidas para el Medio Ambiente radicado en Madrid. estÃ¡ especializada en la informaciÃ³n ambiental producida en EspaÃ±a, en otros paÃ­ses y por organismos internacionales. "
+        ],
+        "to": " Centro de Documentacion Ambiental y Biblioteca General del antiguo Ministerio de Medio Ambiente, tiene su origen en un Centro del Programa de Naciones Unidas para el Medio Ambiente radicado en Madrid. esta especializada en la informacion ambiental producida en Espana, en otros pai­ses y por organismos internacionales. "
+      }
+    ]
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/gupo09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "grupo09",
+          "uri": "http://www.semanticweb.org/gupo09"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/gupo09#Biblioteca",
+              "curie": "grupo09:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tienePK",
+              "curie": "grupo09:tienePK",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "PK"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNombre",
+              "curie": "grupo09:tieneNombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneDescripcion",
+              "curie": "grupo09:tieneDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneHorario",
+              "curie": "grupo09:tieneHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneURL",
+              "curie": "grupo09:tieneURL",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNombreVia",
+              "curie": "grupo09:tieneNombreVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tipoVia",
+              "curie": "grupo09:tipoVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tipoNum",
+              "curie": "grupo09:tipoNum",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO-NUM"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNumero",
+              "curie": "grupo09:tieneNumero",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneCodigoPostal",
+              "curie": "grupo09:tieneCodigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#coordenadaX",
+              "curie": "grupo09:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#coordenadaY",
+              "curie": "grupo09:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#latitud",
+              "curie": "grupo09:latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#longitud",
+              "curie": "grupo09:longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#perteneceALocalidad",
+              "curie": "grupo09:perteneceALocalidad",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Localidad_dbpedia",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#perteneceAProvincia",
+              "curie": "grupo09:perteneceAProvincia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Provincia_dbpedia",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/gupo09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "grupo09",
+          "uri": "http://www.semanticweb.org/gupo09"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/gupo09#Biblioteca",
+              "curie": "grupo09:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tienePK",
+              "curie": "grupo09:tienePK",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "PK"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNombre",
+              "curie": "grupo09:tieneNombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneDescripcion",
+              "curie": "grupo09:tieneDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneHorario",
+              "curie": "grupo09:tieneHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneURL",
+              "curie": "grupo09:tieneURL",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNombreVia",
+              "curie": "grupo09:tieneNombreVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tipoVia",
+              "curie": "grupo09:tipoVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tipoNum",
+              "curie": "grupo09:tipoNum",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO-NUM"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNumero",
+              "curie": "grupo09:tieneNumero",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneCodigoPostal",
+              "curie": "grupo09:tieneCodigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#coordenadaX",
+              "curie": "grupo09:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#coordenadaY",
+              "curie": "grupo09:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#latitud",
+              "curie": "grupo09:latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#longitud",
+              "curie": "grupo09:longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#perteneceALocalidad",
+              "curie": "grupo09:perteneceALocalidad",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Localidad_dbpedia",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#perteneceAProvincia",
+              "curie": "grupo09:perteneceAProvincia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Provincia_dbpedia",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column HORARIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "HORARIO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Lunes a Viernes, de 9 a 21 horas (peticiones hasta 20:30 horas) Del 2 al 31 de julio y del 1 al 15 de septiembre: de 9 a 20:30 horas (peticiones hasta las 20 horas) Agosto: Lunes a Viernes, de 9 a 14 horas (peticiones hasta las 13:30 horas) Recogida de reprografi­a: Lunes a Viernes de 9 a 14 horas. Cerrado festivos y los dias 24 y 31 diciembre. "
+        ],
+        "to": " Lunes a Viernes, de 9 a 21 horas (peticiones hasta 20:30 horas) Del 2 al 31 de julio y del 1 al 15 de septiembre: de 9 a 20:30 horas (peticiones hasta las 20 horas) "
+      }
+    ]
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/gupo09/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "grupo09",
+          "uri": "http://www.semanticweb.org/gupo09"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/gupo09#Biblioteca",
+              "curie": "grupo09:Biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tienePK",
+              "curie": "grupo09:tienePK",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "PK"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNombre",
+              "curie": "grupo09:tieneNombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneDescripcion",
+              "curie": "grupo09:tieneDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneHorario",
+              "curie": "grupo09:tieneHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneURL",
+              "curie": "grupo09:tieneURL",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNombreVia",
+              "curie": "grupo09:tieneNombreVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tipoVia",
+              "curie": "grupo09:tipoVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tipoNum",
+              "curie": "grupo09:tipoNum",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO-NUM"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneNumero",
+              "curie": "grupo09:tieneNumero",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#tieneCodigoPostal",
+              "curie": "grupo09:tieneCodigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#coordenadaX",
+              "curie": "grupo09:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#coordenadaY",
+              "curie": "grupo09:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#latitud",
+              "curie": "grupo09:latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#longitud",
+              "curie": "grupo09:longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#perteneceALocalidad",
+              "curie": "grupo09:perteneceALocalidad",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Localidad_dbpedia",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/gupo09#perteneceAProvincia",
+              "curie": "grupo09:perteneceAProvincia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Provincia_dbpedia",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
   }
 ]

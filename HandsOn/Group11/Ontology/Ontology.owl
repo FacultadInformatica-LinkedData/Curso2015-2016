@@ -30,159 +30,169 @@
         <Class IRI="#LibraryEvent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#URL"/>
+        <ObjectProperty IRI="#URL"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Wifi"/>
+        <ObjectProperty IRI="#Wifi"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#description"/>
+        <ObjectProperty IRI="#description"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#disabledAccess"/>
+        <ObjectProperty IRI="#disabledAccess"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#district"/>
+        <ObjectProperty IRI="#district"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#email"/>
+        <ObjectProperty IRI="#email"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#equipment"/>
+        <ObjectProperty IRI="#fax"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#fax"/>
+        <ObjectProperty IRI="#hasEvent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#hasEvent"/>
+        <ObjectProperty IRI="#latitude"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#latitude"/>
+        <ObjectProperty IRI="#locality"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#locality"/>
+        <ObjectProperty IRI="#longitude"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#longitude"/>
+        <ObjectProperty IRI="#name"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#name"/>
+        <ObjectProperty IRI="#neighbourhood"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#neighbourhood"/>
+        <ObjectProperty IRI="#phone"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#phone"/>
+        <ObjectProperty IRI="#province"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#province"/>
+        <ObjectProperty IRI="#publicTransport"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#publicTransport"/>
+        <ObjectProperty IRI="#quipment"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#roadName"/>
+        <ObjectProperty IRI="#roadName"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#roadNumber"/>
+        <ObjectProperty IRI="#roadNumber"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#roadType"/>
+        <ObjectProperty IRI="#roadType"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#timetable"/>
+        <ObjectProperty IRI="#timetable"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#zipCode"/>
+        <ObjectProperty IRI="#zipCode"/>
     </Declaration>
-    <SubClassOf>
-        <Class IRI="#URL"/>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name1"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#URL"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Wifi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wifi"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#description"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#description"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#disabledAccess"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#disabledAccess"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#district"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#district"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#email"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#email"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#equipment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#fax"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#fax"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEvent"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#hasEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#latitude"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#latitude"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#locality"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#locality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#longitude"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#longitude"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#name"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#name"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#neighbourhood"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#neighbourhood"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#phone"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#phone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#province"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#province"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#publicTransport"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#publicTransport"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quipment"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#roadName"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#roadName"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#roadNumber"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#roadNumber"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#roadType"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#roadType"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#timetable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#timetable"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#zipCode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#zipCode"/>
         <Class IRI="#Library"/>
-    </SubClassOf>
+    </ObjectPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name1"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
 </Ontology>
 
 

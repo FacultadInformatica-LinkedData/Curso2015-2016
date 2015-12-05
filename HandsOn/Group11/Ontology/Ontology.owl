@@ -10,49 +10,178 @@
 
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/borja/ontologies/2015/11/untitled-ontology-6"
+     xml:base="http://www.semanticweb.org/borja/ontologies/2015/11/untitled-ontology-8"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/borja/ontologies/2015/11/untitled-ontology-6">
+     ontologyIRI="http://www.semanticweb.org/borja/ontologies/2015/11/untitled-ontology-8">
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Declaration>
-        <Class IRI="#library"/>
+        <Class IRI="#Library"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LibraryBus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LibraryEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#URL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wifi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#disabledAccess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#district"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#email"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hasEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#latitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#locality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#longitude"/>
     </Declaration>
     <Declaration>
         <Class IRI="#name"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#neighbourhood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#phone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#province"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#publicTransport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#roadName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#roadNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#roadType"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#timetable"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PK:equipment"/>
+        <Class IRI="#zipCode"/>
     </Declaration>
-    <Declaration>
-        <Class IRI="#PK:publicTransport"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#libraries:PK"/>
-    </Declaration>
+    <SubClassOf>
+        <Class IRI="#URL"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wifi"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#description"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#disabledAccess"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#district"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#email"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#equipment"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fax"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hasEvent"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#latitude"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#locality"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#longitude"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#name"/>
-        <Class IRI="#libraries:PK"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neighbourhood"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phone"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#province"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#publicTransport"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roadName"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roadNumber"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roadType"/>
+        <Class IRI="#Library"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#timetable"/>
-        <Class IRI="#libraries:PK"/>
+        <Class IRI="#Library"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#PK:equipment"/>
-        <Class IRI="#libraries:PK"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PK:publicTransport"/>
-        <Class IRI="#libraries:PK"/>
+        <Class IRI="#zipCode"/>
+        <Class IRI="#Library"/>
     </SubClassOf>
 </Ontology>
 

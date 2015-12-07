@@ -16,10 +16,11 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/borja/ontologies/2015/11/untitled-ontology-8">
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
         <Class IRI="#Library"/>
     </Declaration>
@@ -36,6 +37,12 @@
         <ObjectProperty IRI="#Wifi"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#activityTitle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#daysExcluded"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#description"/>
     </Declaration>
     <Declaration>
@@ -51,7 +58,19 @@
         <ObjectProperty IRI="#fax"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#finishDate"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFree"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lastLong"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#latitude"/>
@@ -90,7 +109,19 @@
         <ObjectProperty IRI="#roadType"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#startDate"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#timetable"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#title"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#weekDays"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#zipCode"/>
@@ -106,88 +137,220 @@
         <Class IRI="#Library"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#URL"/>
+        <Class IRI="#LibraryBus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#URL"/>
+        <Class IRI="#LibraryEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#Wifi"/>
         <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wifi"/>
+        <Class IRI="#LibraryBus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#activityTitle"/>
+        <Class IRI="#LibraryEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#daysExcluded"/>
+        <Class IRI="#LibraryEvent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#description"/>
         <Class IRI="#Library"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#description"/>
+        <Class IRI="#LibraryBus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#description"/>
+        <Class IRI="#LibraryEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#disabledAccess"/>
         <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#disabledAccess"/>
+        <Class IRI="#LibraryBus"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#district"/>
         <Class IRI="#Library"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#district"/>
+        <Class IRI="#LibraryBus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#email"/>
         <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#email"/>
+        <Class IRI="#LibraryBus"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#fax"/>
         <Class IRI="#Library"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#fax"/>
+        <Class IRI="#LibraryBus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#finishDate"/>
+        <Class IRI="#LibraryEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasEvent"/>
         <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hour"/>
+        <Class IRI="#LibraryEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFree"/>
+        <Class IRI="#LibraryEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#lastLong"/>
+        <Class IRI="#LibraryEvent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#latitude"/>
         <Class IRI="#Library"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#latitude"/>
+        <Class IRI="#LibraryBus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#locality"/>
         <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#locality"/>
+        <Class IRI="#LibraryBus"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#longitude"/>
         <Class IRI="#Library"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#longitude"/>
+        <Class IRI="#LibraryBus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#name"/>
         <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#name"/>
+        <Class IRI="#LibraryBus"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#neighbourhood"/>
         <Class IRI="#Library"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#neighbourhood"/>
+        <Class IRI="#LibraryBus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#phone"/>
         <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#phone"/>
+        <Class IRI="#LibraryBus"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#province"/>
         <Class IRI="#Library"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#province"/>
+        <Class IRI="#LibraryBus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#publicTransport"/>
         <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#publicTransport"/>
+        <Class IRI="#LibraryBus"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#quipment"/>
         <Class IRI="#Library"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quipment"/>
+        <Class IRI="#LibraryBus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#roadName"/>
         <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#roadName"/>
+        <Class IRI="#LibraryBus"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#roadNumber"/>
         <Class IRI="#Library"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#roadNumber"/>
+        <Class IRI="#LibraryBus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#roadType"/>
         <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#roadType"/>
+        <Class IRI="#LibraryBus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#startDate"/>
+        <Class IRI="#LibraryEvent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#timetable"/>
         <Class IRI="#Library"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#timetable"/>
+        <Class IRI="#LibraryBus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#title"/>
+        <Class IRI="#LibraryEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#type"/>
+        <Class IRI="#LibraryEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#weekDays"/>
+        <Class IRI="#LibraryEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#zipCode"/>
         <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#zipCode"/>
+        <Class IRI="#LibraryBus"/>
     </ObjectPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#name1"/>

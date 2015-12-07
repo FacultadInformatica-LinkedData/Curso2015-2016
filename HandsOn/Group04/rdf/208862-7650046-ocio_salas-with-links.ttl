@@ -1,0 +1,2699 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix base: <http://puntosinteres.madrid.es/group04/ontology/puntosinteres#> .
+
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/Bululu2120> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Bululú 2120" ;
+	base:tieneTelefono "913 600 193 (Información y reservas) " ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/Bululu2120> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/Bululu2120> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/Bululu2120> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/Bululu2120> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/Bululu2120> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/Bululu2120> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/Bululu2120> a base:TransportePublico ;
+	base:hayTransportePublico "metro: palos de la frontera (línea 3)  bus: 6, 8, 19, 45, 47, 55, 59, 85, 86, 247  renfe: delicias y atocha" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/Bululu2120> a base:Posicion ;
+	base:tieneLatitud "40.401.958.738.062.300"^^xsd:long ;
+	base:tieneLongitud "-36.965.212.526.388.800"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/Bululu2120> a base:Direccion ;
+	base:tieneNumero "16"^^xsd:int ;
+	base:tieneDistrito "ARGANZUELA" ;
+	base:tieneCodigoPostal "28045"^^xsd:int ;
+	base:tieneCalle "CANARIAS" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/Bululu2120> a base:Metro ;
+	base:hayMetro "palos de la frontera (línea 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/Bululu2120> a base:Renfe ;
+	base:hayRenfe "delicias y atocha" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Estación_de_Atocha-Atocha_Renfe" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/Bululu2120> a base:Bus ;
+	base:hayBus "6, 8, 19, 45, 47, 55, 59, 85, 86, 247  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/CentrodeEnsenanzaReplikaT> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Centro de Enseñanza Réplika Teatro. Academia del Actor" ;
+	base:tieneEquipamiento "Cursos de interpretación y canto  Talleres de teatro para niños" ;
+	base:tieneTelefono "915 350 570" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeEnsenanzaReplikaT> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeEnsenanzaReplikaT> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentrodeEnsenanzaReplikaT> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CentrodeEnsenanzaReplikaT> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/CentrodeEnsenanzaReplikaT> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/CentrodeEnsenanzaReplikaT> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentrodeEnsenanzaReplikaT> a base:TransportePublico ;
+	base:hayTransportePublico "metro: guzmán el bueno  (líneas 6, 7)  bus: 44, 45, 127, c1, c2, f" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeEnsenanzaReplikaT> a base:Posicion ;
+	base:tieneLatitud "40.448.692.123.387.000"^^xsd:long ;
+	base:tieneLongitud "-37.122.040.788.250.800"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeEnsenanzaReplikaT> a base:Direccion ;
+	base:tieneNumero "8"^^xsd:int ;
+	base:tieneDistrito "MONCLOA-ARAVACA" ;
+	base:tieneCodigoPostal "28040"^^xsd:int ;
+	base:tieneCalle "PEDRO JUSTO DORADO DELLMANS" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CentrodeEnsenanzaReplikaT> a base:Metro ;
+	base:hayMetro "guzmán el bueno  (líneas 6, 7)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/CentrodeEnsenanzaReplikaT> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/CentrodeEnsenanzaReplikaT> a base:Bus ;
+	base:hayBus "44, 45, 127, c1, c2, f " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/CentrodeNuevosCreadores,S> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Centro de Nuevos Creadores (Sala Mirador)" ;
+	base:tieneDescripcion "El Centro de Nuevos Creadores cuenta desde el año 1985 con producciones propias y con un espacio de exhibición: El Teatro CNC- Sala Mirador. Este teatro ofrece una programación estable durante todo el año que combina teatro, danza, música, proyecciones audiovisuales y muestras de jóvenes estudiantes." ;
+	base:tieneHorario "Días de cierre: domingo" ;
+	base:tieneTelefono "915 289 504" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeNuevosCreadores,S> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeNuevosCreadores,S> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentrodeNuevosCreadores,S> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CentrodeNuevosCreadores,S> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/CentrodeNuevosCreadores,S> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/CentrodeNuevosCreadores,S> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentrodeNuevosCreadores,S> a base:TransportePublico ;
+	base:hayTransportePublico "metro: lavapiés (línea 3), embajadores (línea 3)  bus: 27, 34, 36, 41, 119, c1, c2, e1, m1  renfe: embajadores" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeNuevosCreadores,S> a base:Posicion ;
+	base:tieneLatitud "4.040.706.148.755.640"^^xsd:long ;
+	base:tieneLongitud "-36.989.073.365.849.700"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeNuevosCreadores,S> a base:Direccion ;
+	base:tieneNumero "31"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "DOCTOR FOURQUET" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CentrodeNuevosCreadores,S> a base:Metro ;
+	base:hayMetro "lavapiés (línea 3), embajadores (línea 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/CentrodeNuevosCreadores,S> a base:Renfe ;
+	base:hayRenfe "embajadores" ;
+	owl:sameAs "http://dbpedia.org/resource/Acacias-Embajadores_(Madrid_Metro)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/CentrodeNuevosCreadores,S> a base:Bus ;
+	base:hayBus "27, 34, 36, 41, 119, c1, c2, e1, m1  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/DTEspacioEscenico> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "DT Espacio Escénico" ;
+	base:tieneDescripcion "DT Espacio Escénico es un lugar para exhibir espectáculos con lenguaje escénico mixto y utilización de escenarios no convencionales. Ofrece una programación continuada y varios ciclos de teatro, danza y cabaret" ;
+	base:tieneTelefono "915 217 155 " ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/DTEspacioEscenico> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/DTEspacioEscenico> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/DTEspacioEscenico> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/DTEspacioEscenico> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/DTEspacioEscenico> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/DTEspacioEscenico> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/DTEspacioEscenico> a base:TransportePublico ;
+	base:hayTransportePublico "metro: gran vía (líneas 1, 3)  bus: 1, 2, 3, 46, 74, 146, m2" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/DTEspacioEscenico> a base:Posicion ;
+	base:tieneLatitud "4.042.040.457.289.980"^^xsd:long ;
+	base:tieneLongitud "-3.700.283.103.997.510"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/DTEspacioEscenico> a base:Direccion ;
+	base:tieneNumero "9"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004"^^xsd:int ;
+	base:tieneCalle "REINA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/DTEspacioEscenico> a base:Metro ;
+	base:hayMetro "gran vía (líneas 1, 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/DTEspacioEscenico> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/DTEspacioEscenico> a base:Bus ;
+	base:hayBus "1, 2, 3, 46, 74, 146, m2 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/EscuelaySaladeteatro.LaUs> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Escuela y Sala de teatro. La Usina" ;
+	base:tieneDescripcion "Este local es a su vez una sala teatral y un espacio de formación donde todos sus profesores son profesionales del ámbito teatral, ya sean actores, directores o dramaturgos. Se caracteriza por ser un lugar de creación e investigación, donde los alumnos pueden desarrollar con libertad y autonomía sus propios proyectos teatrales, y en su programación ocupan un lugar destacado las obras dedicadas al público infantil." ;
+	base:tieneTelefono "914 684 754" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/EscuelaySaladeteatro.LaUs> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/EscuelaySaladeteatro.LaUs> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/EscuelaySaladeteatro.LaUs> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/EscuelaySaladeteatro.LaUs> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/EscuelaySaladeteatro.LaUs> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/EscuelaySaladeteatro.LaUs> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/EscuelaySaladeteatro.LaUs> a base:TransportePublico ;
+	base:hayTransportePublico "metro: embajadores (línea 3)  bus: 6, 55, 59, 60, 78, 85, 148, e1  renfe: embajadores" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/EscuelaySaladeteatro.LaUs> a base:Posicion ;
+	base:tieneLatitud "4.040.262.160.672.360"^^xsd:long ;
+	base:tieneLongitud "-3.700.134.139.930.530"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/EscuelaySaladeteatro.LaUs> a base:Direccion ;
+	base:tieneNumero "4"^^xsd:int ;
+	base:tieneDistrito "ARGANZUELA" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "PALOS DE LA FRONTERA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/EscuelaySaladeteatro.LaUs> a base:Metro ;
+	base:hayMetro "embajadores (línea 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/EscuelaySaladeteatro.LaUs> a base:Renfe ;
+	base:hayRenfe "embajadores" ;
+	owl:sameAs "http://dbpedia.org/resource/Acacias-Embajadores_(Madrid_Metro)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/EscuelaySaladeteatro.LaUs> a base:Bus ;
+	base:hayBus "6, 55, 59, 60, 78, 85, 148, e1  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/EspacioLabruc> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Espacio Labruc" ;
+	base:tieneDescripcion "Espacio Labruc es un lugar de creación, experimentación, investigación y formación escénica y visual ubicado en el barrio madrileño de Malasaña que nace con la intención de difundir la creación y el pensamiento contemporáneos. Centra su actividad en el comisariado de artes escénicas y visuales como plataforma de exhibición de piezas de pequeño formato, sin dejar de lado la performance, los conciertos acústicos o la danza contemporánea." ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/EspacioLabruc> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/EspacioLabruc> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/EspacioLabruc> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/EspacioLabruc> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/EspacioLabruc> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/EspacioLabruc> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/EspacioLabruc> a base:TransportePublico ;
+	base:hayTransportePublico "metro: bilbao (líneas 1, 4), alonso martínez (líneas 4, 5, 10)  bus: 40, 149, m2" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/EspacioLabruc> a base:Posicion ;
+	base:tieneLatitud "40.426.279.583.153.400"^^xsd:long ;
+	base:tieneLongitud "-37.030.672.051.282.800"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/EspacioLabruc> a base:Direccion ;
+	base:tieneNumero "18"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004"^^xsd:int ;
+	base:tieneCalle "PALMA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/EspacioLabruc> a base:Metro ;
+	base:hayMetro "bilbao (líneas 1, 4), alonso martínez (líneas 4, 5, 10)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/EspacioLabruc> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/EspacioLabruc> a base:Bus ;
+	base:hayBus "40, 149, m2 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/ExtensionAVAM.MataderoMad> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Extensión AVAM. Matadero Madrid" ;
+	base:tieneDescripcion "La Asociación de Artistas Visuales de Madrid dispone de un espacio en Matadero destinado a  la participación, debate y visibilidad de las producciones de los artistas." ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ExtensionAVAM.MataderoMad> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ExtensionAVAM.MataderoMad> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ExtensionAVAM.MataderoMad> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ExtensionAVAM.MataderoMad> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/ExtensionAVAM.MataderoMad> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/ExtensionAVAM.MataderoMad> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ExtensionAVAM.MataderoMad> a base:TransportePublico ;
+	base:hayTransportePublico "metro :  legazpi (líneas 6, 3)  bus: 6 , 8 , 18 , 19 , 45 , 78 , 148  renfe: embajadores" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ExtensionAVAM.MataderoMad> a base:Posicion ;
+	base:tieneLatitud "4.039.241.367.848.800"^^xsd:long ;
+	base:tieneLongitud "-3.697.259.467.865.360"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ExtensionAVAM.MataderoMad> a base:Direccion ;
+	base:tieneNumero "14"^^xsd:int ;
+	base:tieneDistrito "ARGANZUELA" ;
+	base:tieneCodigoPostal "28045"^^xsd:int ;
+	base:tieneCalle "CHOPERA" ;
+	base:tieneTipoVia "PASEO" ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ExtensionAVAM.MataderoMad> a base:Metro ;
+	base:hayMetro ":  legazpi (líneas 6, 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/ExtensionAVAM.MataderoMad> a base:Renfe ;
+	base:hayRenfe "embajadores" ;
+	owl:sameAs "http://dbpedia.org/resource/Acacias-Embajadores_(Madrid_Metro)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/ExtensionAVAM.MataderoMad> a base:Bus ;
+	base:hayBus "6 , 8 , 18 , 19 , 45 , 78 , 148  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/Factoriacultural.Matadero> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Factoría cultural. Matadero Madrid" ;
+	base:tieneDescripcion "El nuevo vivero de industrias creativas, con capacidad para más de 100 puestos de trabajo, ofrece a los emprendedores creativos la posibilidad de llevar a cabo sus proyectos en un espacio flexible y multidisciplinar, en el entorno privilegiado de Matadero Madrid." ;
+	base:tieneTelefono """636 54 68 50                                
+""" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/Factoriacultural.Matadero> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/Factoriacultural.Matadero> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/Factoriacultural.Matadero> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/Factoriacultural.Matadero> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/Factoriacultural.Matadero> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/Factoriacultural.Matadero> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/Factoriacultural.Matadero> a base:TransportePublico ;
+	base:hayTransportePublico "metro :  legazpi (líneas 6, 3)  bus: 6 , 8 , 18 , 19 , 45 , 78 , 148  renfe: embajadores" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/Factoriacultural.Matadero> a base:Posicion ;
+	base:tieneLatitud "4.039.241.367.848.800"^^xsd:long ;
+	base:tieneLongitud "-3.697.259.467.865.360"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/Factoriacultural.Matadero> a base:Direccion ;
+	base:tieneNumero "14"^^xsd:int ;
+	base:tieneDistrito "ARGANZUELA" ;
+	base:tieneCodigoPostal "28045"^^xsd:int ;
+	base:tieneCalle "CHOPERA" ;
+	base:tieneTipoVia "PASEO" ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/Factoriacultural.Matadero> a base:Metro ;
+	base:hayMetro ":  legazpi (líneas 6, 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/Factoriacultural.Matadero> a base:Renfe ;
+	base:hayRenfe "embajadores" ;
+	owl:sameAs "http://dbpedia.org/resource/Acacias-Embajadores_(Madrid_Metro)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/Factoriacultural.Matadero> a base:Bus ;
+	base:hayBus "6 , 8 , 18 , 19 , 45 , 78 , 148  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/FernanGomez.CentroCultura> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Fernán Gómez. Centro Cultural de la Villa" ;
+	base:tieneHorario "Atención general:  de 9 a 15 y de 16 a 21 horas.   Oficinas:  de lunes a viernes de 9:30 a 14:30 y de 17 a 19 horas.   Venta anticipada de entradas en taquillas:  de martes a domingo de 11 a 13:30 y de 17 a 19 horas. Lunes cerrado   Exposiciones:  varia según la exposición, consultar en la  página web del Centro" ;
+	base:tieneEquipamiento "Sala Guirau (aforo 689 personas)  Sala Jardiel Poncela (aforo desde 95 hasta 175 personas, depende de la disposición de la obra que represente)  Sala de exposiciones (1500  m2 )  Espacios exteriores (21.402  m2 )  Cafe Colón  Venta de catálogos de exposiciones y de libros editados por el Teatro   En todas las salas y en las taquillas del teatro se dispone del sistema de Bucle Inductivo de audio, para que las personas con problemas de audición puedan comprar sus entradas y disfrutar de los espectáculos en programación.  Las personas con movilidad reducida, deben comunicarlo antes de adquirir sus localidades." ;
+	base:tieneTelefono """914 362 540 Ext. 200 (Información general) / Ext. 208 (precios grupos, Amigos del Fernán Gómez y promociones)                         
+""" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/FernanGomez.CentroCultura> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/FernanGomez.CentroCultura> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/FernanGomez.CentroCultura> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/FernanGomez.CentroCultura> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/FernanGomez.CentroCultura> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/FernanGomez.CentroCultura> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/FernanGomez.CentroCultura> a base:TransportePublico ;
+	base:hayTransportePublico "metro: colón (línea 4), serrano (línea 4)  bus: 1, 5, 9, 14, 19, 21, 27, 45,  51, 53,  74, 150  renfe: recoletos" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/FernanGomez.CentroCultura> a base:Posicion ;
+	base:tieneLatitud "40.424.926.347.610.700"^^xsd:long ;
+	base:tieneLongitud "-36.899.208.519.663.400"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/FernanGomez.CentroCultura> a base:Direccion ;
+	base:tieneNumero "4"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28001"^^xsd:int ;
+	base:tieneCalle "COLON" ;
+	base:tieneTipoVia "PLAZA" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/FernanGomez.CentroCultura> a base:Metro ;
+	base:hayMetro "colón (línea 4), serrano (línea 4)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/FernanGomez.CentroCultura> a base:Renfe ;
+	base:hayRenfe "recoletos" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Estación_de_Recoletos" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/FernanGomez.CentroCultura> a base:Bus ;
+	base:hayBus "1, 5, 9, 14, 19, 21, 27, 45,  51, 53,  74, 150  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/KarpasTeatro> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Karpas Teatro" ;
+	base:tieneDescripcion "Karpas es una pequeña sala, con 60 butacas, que ofrece producciones propias y de compañías invitadas. Además, colabora y participa en certámenes y festivales. Nace como teatro de cámara independiente en los años 70. Sus fundadores fueron Julio Pascual y Javier Franquelo, dos profesionales del mimo. Su escuela-taller forma cada año en el arte de la interpretación a jóvenes actores." ;
+	base:tieneHorario "Días de cierre: lunes" ;
+	base:tieneEquipamiento "Objetos perdidos" ;
+	base:tieneTelefono "915 396 236" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/KarpasTeatro> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/KarpasTeatro> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/KarpasTeatro> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/KarpasTeatro> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/KarpasTeatro> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/KarpasTeatro> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/KarpasTeatro> a base:TransportePublico ;
+	base:hayTransportePublico "metro: anton martín (línea 1), atocha (línea 1)  bus: 6, 26, 32" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/KarpasTeatro> a base:Posicion ;
+	base:tieneLatitud "4.041.045.615.490.080"^^xsd:long ;
+	base:tieneLongitud "-36.977.049.393.895.800"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/KarpasTeatro> a base:Direccion ;
+	base:tieneNumero "19"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "SANTA ISABEL" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/KarpasTeatro> a base:Metro ;
+	base:hayMetro "anton martín (línea 1), atocha (línea 1)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/KarpasTeatro> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/KarpasTeatro> a base:Bus ;
+	base:hayBus "6, 26, 32 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/KubikFabrik> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Kubik Fabrik" ;
+	base:tieneDescripcion "&shy;&shy;&shy;Situada en una antigua nave industrial en el barrio de Usera,  la sala de teatro Kubik Fabrik es un espacio innovador que acoge proyectos de carácter local realizados por compañías y artistas alternativos. Por su escenario han pasado espectáculos recién salidos del horno y que más tarde se han ido estrenando en otras salas de la capital.   Además, la sala es un espacio que fomenta la integración a través de la exhibición de obras de compañías que trabajan con personas discapacitadas como La fundación de psicoballet Maite León.  Kubik Fabrik también ha producido sus propias obras entre las que destacan Metro cúbico, El gran atasco o Los mundos posibles." ;
+	base:tieneTelefono "917 921 025" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/KubikFabrik> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/KubikFabrik> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/KubikFabrik> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/KubikFabrik> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/KubikFabrik> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/KubikFabrik> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/KubikFabrik> a base:TransportePublico ;
+	base:hayTransportePublico "metro. plaza elíptica (líneas 6, 11)  bus: 6, 60, 81  renfe: hospital 12 de octubre" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/KubikFabrik> a base:Posicion ;
+	base:tieneLatitud "4.038.091.743.834.920"^^xsd:long ;
+	base:tieneLongitud "-37.092.161.504.993.100"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/KubikFabrik> a base:Direccion ;
+	base:tieneNumero "5"^^xsd:int ;
+	base:tieneDistrito "USERA" ;
+	base:tieneCodigoPostal "28026"^^xsd:int ;
+	base:tieneCalle "PRIMITIVA GA&Ntilde;AN" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Usera> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/KubikFabrik> a base:Metro ;
+	base:hayMetro "plaza elíptica (líneas 6, 11)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/KubikFabrik> a base:Renfe ;
+	base:hayRenfe "hospital 12 de octubre" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Estación_de_Hospital_12_de_Octubre" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/KubikFabrik> a base:Bus ;
+	base:hayBus "6, 60, 81  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/MicroteatroPorDinero> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Microteatro Por Dinero" ;
+	base:tieneDescripcion "Un nuevo concepto de formato teatral: micro obras de entre diez y quince minutos, sobre un mismo tema, representadas en espacios pequeños para menos de quince espectadores por pase y seis sesiones al día. De esta forma, el espectador puede elegir tanto el tiempo que quiere pasar en el teatro, según el número de obras que quiera ver, como el precio que quiere pagar, ya que cada visita a una sala se paga de forma individual. Microteatro es también un espacio multifuncional en el centro de Madrid donde también se puede asistir a microteatro infantil, conciertos, proyección de películas inéditas, arte, experimentación, alquiler de espacios para todo tipo de eventos, un bar... todo esto en un local que en su día fue un burdel y que ahora es un centro para la cultura y el ocio." ;
+	base:tieneEquipamiento "Tienda  Restauración" ;
+	base:tieneTelefono "915 218 874" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MicroteatroPorDinero> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MicroteatroPorDinero> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MicroteatroPorDinero> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MicroteatroPorDinero> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/MicroteatroPorDinero> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/MicroteatroPorDinero> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MicroteatroPorDinero> a base:TransportePublico ;
+	base:hayTransportePublico "metro: callao (líneas 3, 5), gran vía (líneas 1, 5), santo domingo (línea 2)  bus: 1, 2, 3, 44, 46, 74, 75, 133, 147, 148" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MicroteatroPorDinero> a base:Posicion ;
+	base:tieneLatitud "4.042.152.574.011.690"^^xsd:long ;
+	base:tieneLongitud "-37.040.668.231.939.400"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MicroteatroPorDinero> a base:Direccion ;
+	base:tieneNumero "9"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004"^^xsd:int ;
+	base:tieneCalle "LORETO Y CHICOTE" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MicroteatroPorDinero> a base:Metro ;
+	base:hayMetro "callao (líneas 3, 5), gran vía (líneas 1, 5), santo domingo (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/MicroteatroPorDinero> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/MicroteatroPorDinero> a base:Bus ;
+	base:hayBus "1, 2, 3, 44, 46, 74, 75, 133, 147, 148 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/MultiespacioLaStrada> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Multiespacio La Strada" ;
+	base:tieneEquipamiento "Actividades en familia  Teatro, cuentacuentos, danza para niños" ;
+	base:tieneTelefono """914 464 849   
+""" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MultiespacioLaStrada> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MultiespacioLaStrada> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MultiespacioLaStrada> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MultiespacioLaStrada> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/MultiespacioLaStrada> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/MultiespacioLaStrada> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MultiespacioLaStrada> a base:TransportePublico ;
+	base:hayTransportePublico "metro: quevedo (línea 2)  bus: 16, 61, 149" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MultiespacioLaStrada> a base:Posicion ;
+	base:tieneLatitud "40.435.344.224.129.600"^^xsd:long ;
+	base:tieneLongitud "-3.705.767.250.398.430"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MultiespacioLaStrada> a base:Direccion ;
+	base:tieneNumero "23"^^xsd:int ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28015"^^xsd:int ;
+	base:tieneCalle "MAGALLANES" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberi_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MultiespacioLaStrada> a base:Metro ;
+	base:hayMetro "quevedo (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/MultiespacioLaStrada> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/MultiespacioLaStrada> a base:Bus ;
+	base:hayBus "16, 61, 149 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/NavesdelEspanol> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Naves del Español" ;
+	base:tieneDescripcion "Espacio escénico ubicado en el  Matadero Madrid,  gestionado por el Teatro Español y concebido por el creador de espacios escénicos Jean Guy Lecat. Las naves forman un conjunto dotado de gran flexibilidad, que permite el funcionamiento autónomo de tres espacios interconectados." ;
+	base:tieneEquipamiento "Servicio de bar abierto media hora antes del inicio de la función  Los asientos están instalados sobre gradas  Las personas con movilidad reducida deben comunicarlo al adquirir su localidades  Salas   Sala Fernando Arrabal: especio escénico inaugurado en 2006. La sala es totalmente polivalente, lo cual permite realizar espectáculos con diferente planteamiento esec&acute;nico  Sala Max Aub: incorpora 2.500 m/2 al complejo escénico  Café teatro: funciona como vestíbulo del conjunto del complejo ese&acute;cnico, constituyendo un espacio de cogida, con cafetería y con la posibilidad de ofrecer cierto tipo de espectáculos de aforo reducido: caf&ccedil;e concert, música en vivo, muic hall, espectáculos de pequeño formato, etc." ;
+	base:tieneTelefono """914 730 957 (taquilla)                                
+""" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/NavesdelEspanol> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/NavesdelEspanol> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/NavesdelEspanol> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/NavesdelEspanol> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/NavesdelEspanol> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/NavesdelEspanol> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/NavesdelEspanol> a base:TransportePublico ;
+	base:hayTransportePublico "metro :  legazpi (líneas 6, 3)  bus: 6 , 8 , 18 , 19 , 45 , 78 , 148  renfe: embajadores" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/NavesdelEspanol> a base:Posicion ;
+	base:tieneLatitud "4.039.241.367.848.800"^^xsd:long ;
+	base:tieneLongitud "-3.697.259.467.865.360"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/NavesdelEspanol> a base:Direccion ;
+	base:tieneNumero "14"^^xsd:int ;
+	base:tieneDistrito "ARGANZUELA" ;
+	base:tieneCodigoPostal "28045"^^xsd:int ;
+	base:tieneCalle "CHOPERA" ;
+	base:tieneTipoVia "PASEO" ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/NavesdelEspanol> a base:Metro ;
+	base:hayMetro ":  legazpi (líneas 6, 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/NavesdelEspanol> a base:Renfe ;
+	base:hayRenfe "embajadores" ;
+	owl:sameAs "http://dbpedia.org/resource/Acacias-Embajadores_(Madrid_Metro)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/NavesdelEspanol> a base:Bus ;
+	base:hayBus "6 , 8 , 18 , 19 , 45 , 78 , 148  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/NuevoTeatroAlcala> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Nuevo Teatro Alcalá" ;
+	base:tieneDescripcion "La sala nació bajo el nombre de Coliseo Pardiñas en 1927 y fue obra de Luis Ferrero. Posteriormente se llamó Coliseo Alcalá  y transcurridos unos años Teatro Alcalá Palace.  Bajo este último nombre el teatro vivió años de esplendor  y por su programación no faltaban importantes zarzuelas y más destacadas figuras del flamenco. Durante la década de los 70 se estrenó el musical &quot;Jesucristo Superstar&quot;, exitoso a la vez que polémico.  En los años ochenta tuvo que cerrar y no fue abierto hasta el año 2001.  Después de catorce años el empresario Alejandro Romay, junto con la arquitecta Margarita Massó, levantó el actual Nuevo Teatro Alcalá donde antes se erguía el antiguo Teatro Alcalá Palace.  El nuevo teatro cuenta con dos salas. La más importante es la más grande con su estilo y disposición tradicional a la italiana, su gran patio de butacas y la distribución de los espacios la convierten en un sala única con buena visibilidad en todos sus ángulos. La siguiente sala es un espacio polivalente de teatro y está ubicada en el subsuelo del edificio. Tiene una disposición y estilo más modernos, perfecta para acoger obras de corte más vanguardista." ;
+	base:tieneHorario "Cerrado el lunes" ;
+	base:tieneEquipamiento "Restaurante  Objetos perdidos  Ascensor   Consigna /guardarropa" ;
+	base:tieneTelefono "914 264 779 " ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/NuevoTeatroAlcala> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/NuevoTeatroAlcala> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/NuevoTeatroAlcala> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/NuevoTeatroAlcala> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/NuevoTeatroAlcala> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/NuevoTeatroAlcala> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/NuevoTeatroAlcala> a base:TransportePublico ;
+	base:hayTransportePublico "metro: príncipe de vergara (líneas 2, 9), goya (líneas 2, 4)  bus: 2, 15, 28, 29, 30, 43, 63, 146, c1" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/NuevoTeatroAlcala> a base:Posicion ;
+	base:tieneLatitud "4.042.340.075.550.410"^^xsd:long ;
+	base:tieneLongitud "-3.678.258.596.986.860"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/NuevoTeatroAlcala> a base:Direccion ;
+	base:tieneNumero "62"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28009"^^xsd:int ;
+	base:tieneCalle "JORGE JUAN" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/NuevoTeatroAlcala> a base:Metro ;
+	base:hayMetro "príncipe de vergara (líneas 2, 9), goya (líneas 2, 4)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/NuevoTeatroAlcala> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/NuevoTeatroAlcala> a base:Bus ;
+	base:hayBus "2, 15, 28, 29, 30, 43, 63, 146, c1 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/OffdelaLatina> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Off de la Latina" ;
+	base:tieneDescripcion "Este espacio cultural se encuentra situado en pleno corazón de Madrid, en el barrio de La Latina. En él se puede disfrutar de diferentes espectáculos de teatro, danza y música, en especial jazz y flamenco. El local tiene una superficie de 320 metros cuadrados repartidos en tres zonas bien diferenciadas: la planta principal, donde se encuentra en bar, la cava alta donde se sitúa el teatro, y la cava baja, antigua carbonería del siglo XVII reservada para los eventos más íntimos y especiales." ;
+	base:tieneHorario "Días de cierre: lunes y martes" ;
+	base:tieneTelefono "911 691 419" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OffdelaLatina> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OffdelaLatina> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OffdelaLatina> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OffdelaLatina> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OffdelaLatina> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OffdelaLatina> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OffdelaLatina> a base:TransportePublico ;
+	base:hayTransportePublico "metro: la latina (línea 5)  bus: 3, 31, 50, 60, 65, 148" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OffdelaLatina> a base:Posicion ;
+	base:tieneLatitud "4.041.204.479.812.580"^^xsd:long ;
+	base:tieneLongitud "-37.119.825.698.992.800"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OffdelaLatina> a base:Direccion ;
+	base:tieneNumero "4"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28005"^^xsd:int ;
+	base:tieneCalle "MANCEBOS" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OffdelaLatina> a base:Metro ;
+	base:hayMetro "la latina (línea 5)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/OffdelaLatina> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OffdelaLatina> a base:Bus ;
+	base:hayBus "3, 31, 50, 60, 65, 148 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/SalaAzarte> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Sala Azarte" ;
+	base:tieneTelefono "915 226 768 (reserva de localidades)" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaAzarte> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaAzarte> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaAzarte> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaAzarte> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaAzarte> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaAzarte> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaAzarte> a base:TransportePublico ;
+	base:hayTransportePublico "metro: chueca (línea 5)  bus: 1, 2, 3, 46, 74, 146, m2" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaAzarte> a base:Posicion ;
+	base:tieneLatitud "4.042.140.719.770.070"^^xsd:long ;
+	base:tieneLongitud "-3.698.360.306.512.040"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaAzarte> a base:Direccion ;
+	base:tieneNumero "19"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004"^^xsd:int ;
+	base:tieneCalle "SAN MARCOS" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaAzarte> a base:Metro ;
+	base:hayMetro "chueca (línea 5)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaAzarte> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaAzarte> a base:Bus ;
+	base:hayBus "1, 2, 3, 46, 74, 146, m2 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/SalaClan> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Sala Clan" ;
+	base:tieneEquipamiento "Restaurante   Bar de copas" ;
+	base:tieneTelefono "915 288 401" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaClan> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaClan> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaClan> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaClan> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaClan> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaClan> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaClan> a base:TransportePublico ;
+	base:hayTransportePublico "metro: acacias (línea 5), embajadores (línea 3)  bus: 34, 36, 41, 60, 62, 116, 118, 119, 148, c1, c2  renfe: embajadores" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaClan> a base:Posicion ;
+	base:tieneLatitud "40.405.455.383.460.900"^^xsd:long ;
+	base:tieneLongitud "-3.706.727.738.985.040"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaClan> a base:Direccion ;
+	base:tieneNumero "20"^^xsd:int ;
+	base:tieneDistrito "ARGANZUELA" ;
+	base:tieneCodigoPostal "28005"^^xsd:int ;
+	base:tieneCalle "TOLEDO" ;
+	base:tieneTipoVia "RONDA" ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaClan> a base:Metro ;
+	base:hayMetro "acacias (línea 5), embajadores (línea 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaClan> a base:Renfe ;
+	base:hayRenfe "embajadores" ;
+	owl:sameAs "http://dbpedia.org/resource/Acacias-Embajadores_(Madrid_Metro)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaClan> a base:Bus ;
+	base:hayBus "34, 36, 41, 60, 62, 116, 118, 119, 148, c1, c2  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/SalaelMontacargas> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Sala el Montacargas" ;
+	base:tieneDescripcion "Sala de teatro alternativo" ;
+	base:tieneTelefono "915 261 173" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaelMontacargas> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaelMontacargas> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaelMontacargas> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaelMontacargas> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaelMontacargas> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaelMontacargas> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaelMontacargas> a base:TransportePublico ;
+	base:hayTransportePublico "metro: puerta del ángel (línea 6)  bus: 31, 33, 36, 39, 65, 138" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaelMontacargas> a base:Posicion ;
+	base:tieneLatitud "40.411.774.419.017.800"^^xsd:long ;
+	base:tieneLongitud "-3.727.914.502.030.770"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaelMontacargas> a base:Direccion ;
+	base:tieneNumero "19"^^xsd:int ;
+	base:tieneDistrito "LATINA" ;
+	base:tieneCodigoPostal "28011"^^xsd:int ;
+	base:tieneCalle "ANTILLON" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Latina_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaelMontacargas> a base:Metro ;
+	base:hayMetro "puerta del ángel (línea 6)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaelMontacargas> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaelMontacargas> a base:Bus ;
+	base:hayBus "31, 33, 36, 39, 65, 138 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/SalaLaEscaleradeJacob> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Sala La Escalera de Jacob" ;
+	base:tieneDescripcion "Situado en Lavapiés, es un espacio con vocación intercultural en el que tienen cabida todo tipo de expresiones artísticas concebidas para un público exigente y alejadas de los circuitos convencionales. Teatro, cine, conciertos, exposiciones, etc." ;
+	base:tieneEquipamiento "Bar" ;
+	base:tieneTelefono "695 263 509" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaLaEscaleradeJacob> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaLaEscaleradeJacob> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaLaEscaleradeJacob> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaLaEscaleradeJacob> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaLaEscaleradeJacob> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaLaEscaleradeJacob> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaLaEscaleradeJacob> a base:TransportePublico ;
+	base:hayTransportePublico "metro: tirso de molina (línea 1), antón martín (línea 1), lavapiés (línea 3)  bus: 6, 26, 32, 65, m1" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaLaEscaleradeJacob> a base:Posicion ;
+	base:tieneLatitud "4.041.121.799.500.780"^^xsd:long ;
+	base:tieneLongitud "-37.028.161.421.960.300"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaLaEscaleradeJacob> a base:Direccion ;
+	base:tieneNumero "11"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "LAVAPIES" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaLaEscaleradeJacob> a base:Metro ;
+	base:hayMetro "tirso de molina (línea 1), antón martín (línea 1), lavapiés (línea 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaLaEscaleradeJacob> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaLaEscaleradeJacob> a base:Bus ;
+	base:hayBus "6, 26, 32, 65, m1 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/SalaLaPensiondelasPulgas> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Sala La Pensión de las Pulgas" ;
+	base:tieneHorario "De lunes a domingo de 11 a 14 y de 17 a 20 horas" ;
+	base:tieneTelefono "638 752 812" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaLaPensiondelasPulgas> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaLaPensiondelasPulgas> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaLaPensiondelasPulgas> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaLaPensiondelasPulgas> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaLaPensiondelasPulgas> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaLaPensiondelasPulgas> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaLaPensiondelasPulgas> a base:TransportePublico ;
+	base:hayTransportePublico "metro: antón martín (línea 1)  bus: 6, 26, 32" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaLaPensiondelasPulgas> a base:Posicion ;
+	base:tieneLatitud "40.413.234.253.652.100"^^xsd:long ;
+	base:tieneLongitud "-36.971.561.016.982.700"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaLaPensiondelasPulgas> a base:Direccion ;
+	base:tieneNumero "48"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014"^^xsd:int ;
+	base:tieneCalle "HUERTAS" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaLaPensiondelasPulgas> a base:Metro ;
+	base:hayMetro "antón martín (línea 1)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaLaPensiondelasPulgas> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaLaPensiondelasPulgas> a base:Bus ;
+	base:hayBus "6, 26, 32 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/SalaLaPuertaEstrecha> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Sala La Puerta Estrecha" ;
+	base:tieneTelefono "914 672 224" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaLaPuertaEstrecha> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaLaPuertaEstrecha> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaLaPuertaEstrecha> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaLaPuertaEstrecha> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaLaPuertaEstrecha> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaLaPuertaEstrecha> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaLaPuertaEstrecha> a base:TransportePublico ;
+	base:hayTransportePublico "metro: lavapiés (línea 3), embajadores (líneas 3)  bus: 27, 34, 36, 41, 60, 78, 116, 118, 119, 148, c1, c2, e1, m1  renfe: embajadores" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaLaPuertaEstrecha> a base:Posicion ;
+	base:tieneLatitud "40.406.339.903.345.900"^^xsd:long ;
+	base:tieneLongitud "-3.700.538.007.164.600"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaLaPuertaEstrecha> a base:Direccion ;
+	base:tieneNumero "94"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "AMPARO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaLaPuertaEstrecha> a base:Metro ;
+	base:hayMetro "lavapiés (línea 3), embajadores (líneas 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaLaPuertaEstrecha> a base:Renfe ;
+	base:hayRenfe "embajadores" ;
+	owl:sameAs "http://dbpedia.org/resource/Acacias-Embajadores_(Madrid_Metro)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaLaPuertaEstrecha> a base:Bus ;
+	base:hayBus "27, 34, 36, 41, 60, 78, 116, 118, 119, 148, c1, c2, e1, m1  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/SalaMaravillasClub> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Sala Maravillas Club" ;
+	base:tieneDescripcion "La antigua sala Nasty, en pleno barrio de Malasaña, es hoy un local dedicado a las artes escénicas. Mientras su Espacio Artefacto ofrece microteatro, clásicos indies o teatro para niños y adolescentes, el espacio Stand The Pace programa música en vivo, con actuaciones de grupos de rock y pop indie, y conciertos en formato íntimo de solistas y dúos. Esta sala también ofrece sesiones temáticas de música como PartyMonster, MarnieClub, Viva Las Vegas, Hard Candy (BCN) o Gran Ganga." ;
+	base:tieneEquipamiento "Servicios complementarios    Espectáculo  Guardarropa" ;
+	base:tieneTelefono "674 256 152" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaMaravillasClub> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaMaravillasClub> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaMaravillasClub> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaMaravillasClub> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaMaravillasClub> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaMaravillasClub> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaMaravillasClub> a base:TransportePublico ;
+	base:hayTransportePublico "metro: noviciado (línea 2), tribunal (línea 1, 10)  bus: 3, 40, 147, 149, m2" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaMaravillasClub> a base:Posicion ;
+	base:tieneLatitud "4.042.576.743.226.590"^^xsd:long ;
+	base:tieneLongitud "-3.704.323.244.994.760"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaMaravillasClub> a base:Direccion ;
+	base:tieneNumero "33"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004"^^xsd:int ;
+	base:tieneCalle "SAN VICENTE FERRER" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaMaravillasClub> a base:Metro ;
+	base:hayMetro "noviciado (línea 2), tribunal (línea 1, 10)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaMaravillasClub> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaMaravillasClub> a base:Bus ;
+	base:hayBus "3, 40, 147, 149, m2 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/SalaMilagros> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Sala Milagros" ;
+	base:tieneDescripcion "Esta sala se ha especializado en teatro radiofónico por lo que cuidan especialmente el sonido con una amplia gama de micrófonos y también con una cúpula de sonido envolvente para los conciertos en directo, que hace que los espectadores sientan que están dentro de la banda de música.  Desde La Sala Milagros buscan apoyar a los nuevos creadores produciendo espectáculos originales y novedosos. Aquí se quieren apoyar nuevas propuestas y ese es el empeño de esta sala que nace con el respaldo de Tholma, la emisora de radio por internet Aire y también de una asociación de vecinos." ;
+	base:tieneTelefono "600 402 818" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaMilagros> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaMilagros> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaMilagros> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaMilagros> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaMilagros> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaMilagros> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaMilagros> a base:TransportePublico ;
+	base:hayTransportePublico "bus: 23, 116" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaMilagros> a base:Posicion ;
+	base:tieneLatitud "4.039.176.330.264.340"^^xsd:long ;
+	base:tieneLongitud "-37.123.227.018.660.000"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaMilagros> a base:Direccion ;
+	base:tieneNumero "35"^^xsd:int ;
+	base:tieneDistrito "CARABANCHEL" ;
+	base:tieneCodigoPostal "28019"^^xsd:int ;
+	base:tieneCalle "INMACULADA CONCEPCION" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Carabanchel> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaMilagros> a base:Metro .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaMilagros> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaMilagros> a base:Bus ;
+	base:hayBus "23, 116 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/SalaNave73> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Sala Nave 73" ;
+	base:tieneDescripcion "Espacio multicultural, situado en el barrio de Embajadores, que ofrece una programación variada de conciertos que van desde el jazz o el blues hasta el indie. Cuenta además con una pequeña galeria de exposiciones donde se muestra la obra de autores nacionales e internacionales." ;
+	base:tieneEquipamiento "Cafetería" ;
+	base:tieneTelefono "917 049 583" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaNave73> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaNave73> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaNave73> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaNave73> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaNave73> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaNave73> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaNave73> a base:TransportePublico ;
+	base:hayTransportePublico "metro: embajadores (línea 3), palos de la frontera (línea 3)  bus: 8, 19, 45, 47, 60, 78, 86, 148" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaNave73> a base:Posicion ;
+	base:tieneLatitud "4.040.316.180.456.700"^^xsd:long ;
+	base:tieneLongitud "-36.987.020.172.137.400"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaNave73> a base:Direccion ;
+	base:tieneNumero "5"^^xsd:int ;
+	base:tieneDistrito "ARGANZUELA" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "PALOS DE LA FRONTERA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaNave73> a base:Metro ;
+	base:hayMetro "embajadores (línea 3), palos de la frontera (línea 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaNave73> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaNave73> a base:Bus ;
+	base:hayBus "8, 19, 45, 47, 60, 78, 86, 148 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/SalaTarambana> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Sala Tarambana" ;
+	base:tieneDescripcion "La compañía Tarambana ofrece en su sala todo tipo de espectáculos y producciones para todo tipo de público, con música, danza o teatro infantil." ;
+	base:tieneTelefono "914 618 334" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaTarambana> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaTarambana> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaTarambana> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaTarambana> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaTarambana> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaTarambana> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaTarambana> a base:TransportePublico ;
+	base:hayTransportePublico "metro: carabanchel (línea 5)  bus: 17, 34, 35" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaTarambana> a base:Posicion ;
+	base:tieneLatitud "4.038.580.301.942.370"^^xsd:long ;
+	base:tieneLongitud "-37.432.218.183.125.800"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaTarambana> a base:Direccion ;
+	base:tieneNumero "31"^^xsd:int ;
+	base:tieneDistrito "CARABANCHEL" ;
+	base:tieneCodigoPostal "28025"^^xsd:int ;
+	base:tieneCalle "DOLORES ARMENGOT" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Carabanchel> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaTarambana> a base:Metro ;
+	base:hayMetro "carabanchel (línea 5)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaTarambana> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaTarambana> a base:Bus ;
+	base:hayBus "17, 34, 35 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/SalaTriangulo> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Sala Triángulo" ;
+	base:tieneDescripcion "Espacio escénico para la comunicación, creación, formación y difusión de la cultura, el arte y el ocio alternativos, actual (en tiempo y acción) y abierto. Es sede y referencia obligada para todas aquellas compañias de pequeño y mediando formato, nacionales e internacionales, que quieran trabajar en Madrid." ;
+	base:tieneHorario "Cerrado los lunes" ;
+	base:tieneTelefono "915 306 891" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaTriangulo> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaTriangulo> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaTriangulo> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaTriangulo> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaTriangulo> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaTriangulo> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaTriangulo> a base:TransportePublico ;
+	base:hayTransportePublico "metro: lavapiés (línea 3), antón martín (línea 1)  bus: 10, 26, 27, 36, 37, 57, 119" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaTriangulo> a base:Posicion ;
+	base:tieneLatitud "4.040.967.281.072.630"^^xsd:long ;
+	base:tieneLongitud "-3.699.122.921.978.140"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaTriangulo> a base:Direccion ;
+	base:tieneNumero "20"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "ZURITA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaTriangulo> a base:Metro ;
+	base:hayMetro "lavapiés (línea 3), antón martín (línea 1)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaTriangulo> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaTriangulo> a base:Bus ;
+	base:hayBus "10, 26, 27, 36, 37, 57, 119 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/SalaTu> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Sala Tú" ;
+	base:tieneDescripcion "Esta sala de teatro dedicada a los espectáculos de pequeño y mediano formato, está situada en el corazón de Malasaña y es gestionada de manera privada por  profesionales de las artes escénicas. El espacio cuenta con una pequeña sala para las representaciones y un café-ambigú donde tomar algo después.  Además de una programación regular de obras de teatro y diversos espectáculos tanto para público adulto como infantil, SALA TÚ ofrece formación para actores  a través de cursos trimestrales y &lsquo;master classes' de interpretación, canto o danza." ;
+	base:tieneTelefono "910 176 802 " ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaTu> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaTu> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaTu> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaTu> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaTu> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaTu> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaTu> a base:TransportePublico ;
+	base:hayTransportePublico "metro: tribunal (líneas 1, 10), bilbao (líneas 1, 4), noviciado (línea 2)  bus: 3, 21, 40, 147, 149" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaTu> a base:Posicion ;
+	base:tieneLatitud "4.042.680.028.110.070"^^xsd:long ;
+	base:tieneLongitud "-3.703.367.344.935.000"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaTu> a base:Direccion ;
+	base:tieneNumero "15"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004"^^xsd:int ;
+	base:tieneCalle "VELARDE" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaTu> a base:Metro ;
+	base:hayMetro "tribunal (líneas 1, 10), bilbao (líneas 1, 4), noviciado (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/SalaTu> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/SalaTu> a base:Bus ;
+	base:hayBus "3, 21, 40, 147, 149 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TablaoFlamencoCafedeChini> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Tablao Flamenco Café de Chinitas" ;
+	base:tieneDescripcion "Descendiente del malagueño primer Café Chinitas del siglo pasado, este local ofrece un novísimo tablao flamenco acompañado con una cocina selecta" ;
+	base:tieneHorario "De lunes a sábado de 19 horas a 00 horas   Actuaciones    Dos actuaciones de lunes a sábado a las 20:15 horas y 22:30 horas" ;
+	base:tieneEquipamiento "Tablao flamenco  Restaurante" ;
+	base:tieneTelefono "915 595 135" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TablaoFlamencoCafedeChini> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TablaoFlamencoCafedeChini> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TablaoFlamencoCafedeChini> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TablaoFlamencoCafedeChini> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TablaoFlamencoCafedeChini> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TablaoFlamencoCafedeChini> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TablaoFlamencoCafedeChini> a base:TransportePublico ;
+	base:hayTransportePublico "metro: santo domingo (línea 2), ópera (líneas 2, 5)  bus: 1, 2, 3, 25, 39, 44, 46, 74, 75, 133, 138, 146, 147, 148, c1, c2" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TablaoFlamencoCafedeChini> a base:Posicion ;
+	base:tieneLatitud "404.207.390.288.608"^^xsd:long ;
+	base:tieneLongitud "-37.104.357.404.041.300"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TablaoFlamencoCafedeChini> a base:Direccion ;
+	base:tieneNumero "7"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013"^^xsd:int ;
+	base:tieneCalle "TORIJA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TablaoFlamencoCafedeChini> a base:Metro ;
+	base:hayMetro "santo domingo (línea 2), ópera (líneas 2, 5)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TablaoFlamencoCafedeChini> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TablaoFlamencoCafedeChini> a base:Bus ;
+	base:hayBus "1, 2, 3, 25, 39, 44, 46, 74, 75, 133, 138, 146, 147, 148, c1, c2 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TablaoFlamencoCasaPatas> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Tablao Flamenco Casa Patas" ;
+	base:tieneHorario "Cerrado los domingos   Actuaciones :    De lunes a jueves a las 22:30 horas  Viernes y sábado a las 21 y a las 24 horas" ;
+	base:tieneEquipamiento "Tablao flamenco, restaurante" ;
+	base:tieneTelefono "913 690 496" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TablaoFlamencoCasaPatas> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TablaoFlamencoCasaPatas> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TablaoFlamencoCasaPatas> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TablaoFlamencoCasaPatas> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TablaoFlamencoCasaPatas> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TablaoFlamencoCasaPatas> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TablaoFlamencoCasaPatas> a base:TransportePublico ;
+	base:hayTransportePublico "metro: tirso de molina (línea 1), sol (líneas 1, 2, 3)  bus: 6, 26, 32, 50, 65, m1" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TablaoFlamencoCasaPatas> a base:Posicion ;
+	base:tieneLatitud "40.412.729.068.876.000"^^xsd:long ;
+	base:tieneLongitud "-37.017.357.416.661.100"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TablaoFlamencoCasaPatas> a base:Direccion ;
+	base:tieneNumero "10"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "CA&Ntilde;IZARES" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TablaoFlamencoCasaPatas> a base:Metro ;
+	base:hayMetro "tirso de molina (línea 1), sol (líneas 1, 2, 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TablaoFlamencoCasaPatas> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TablaoFlamencoCasaPatas> a base:Bus ;
+	base:hayBus "6, 26, 32, 50, 65, m1 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TablaoflamencoLasTablas> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Tablao flamenco Las Tablas" ;
+	base:tieneDescripcion "Espacio escénico: flamenco, jazz, blues, teatro y actuaciones para niños..." ;
+	base:tieneTelefono "915 420 520" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TablaoflamencoLasTablas> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TablaoflamencoLasTablas> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TablaoflamencoLasTablas> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TablaoflamencoLasTablas> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TablaoflamencoLasTablas> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TablaoflamencoLasTablas> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TablaoflamencoLasTablas> a base:TransportePublico ;
+	base:hayTransportePublico "metro: plaza de españa (líneas 3, 10)  bus: 3, 25, 39, 46, 74, 75, 138, 148, c1, c2, se730" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TablaoflamencoLasTablas> a base:Posicion ;
+	base:tieneLatitud "4.042.198.032.023.040"^^xsd:long ;
+	base:tieneLongitud "-3.713.678.674.361.510"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TablaoflamencoLasTablas> a base:Direccion ;
+	base:tieneNumero "9"^^xsd:int ;
+	base:tieneDistrito "MONCLOA-ARAVACA" ;
+	base:tieneCodigoPostal "28008"^^xsd:int ;
+	base:tieneCalle "ESPAÑA" ;
+	base:tieneTipoVia "PLAZA" ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TablaoflamencoLasTablas> a base:Metro ;
+	base:hayMetro "plaza de españa (líneas 3, 10)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TablaoflamencoLasTablas> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TablaoflamencoLasTablas> a base:Bus ;
+	base:hayBus "3, 25, 39, 46, 74, 75, 138, 148, c1, c2, se730 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroAlfil> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Alfil" ;
+	base:tieneDescripcion "Es una sala con más de medio siglo de historia. Actualmente, se encuentra a mitad de camino entre lo comercial y lo alternativo. El escenario es de reducidas dimensiones y carece de 'peine', por lo que no permite montar escenografías aparatosas, pero los espectadores gozan de completa visibilidad desde cualquier localidad y los artistas trabajan con sensación de cercanía al público." ;
+	base:tieneEquipamiento "Objetos perdidos  Restaurante" ;
+	base:tieneTelefono "915 214 541" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroAlfil> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroAlfil> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroAlfil> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroAlfil> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroAlfil> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroAlfil> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroAlfil> a base:TransportePublico ;
+	base:hayTransportePublico "metro: noviciado (líneas 2, 3, 10)  bus: 1, 2, 44, 46, 74, 75, 133, 147, 148" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroAlfil> a base:Posicion ;
+	base:tieneLatitud "404.231.448.936.827"^^xsd:long ;
+	base:tieneLongitud "-37.044.727.114.319.800"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroAlfil> a base:Direccion ;
+	base:tieneNumero "10"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004"^^xsd:int ;
+	base:tieneCalle "PEZ" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroAlfil> a base:Metro ;
+	base:hayMetro "noviciado (líneas 2, 3, 10)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroAlfil> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroAlfil> a base:Bus ;
+	base:hayBus "1, 2, 44, 46, 74, 75, 133, 147, 148 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroAmaya> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Amaya" ;
+	base:tieneDescripcion "Alberga además de grandes producciones teatrales, exposiciones de pintura, fotografía, etc. Busca de esta manera, abrir una puerta más a la cultura de la ciudad." ;
+	base:tieneHorario "Cerrado los lunes" ;
+	base:tieneEquipamiento "Restaurante  Consigna / guardarropa" ;
+	base:tieneTelefono "915 934 005 (Taquillas)" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroAmaya> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroAmaya> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroAmaya> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroAmaya> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroAmaya> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroAmaya> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroAmaya> a base:TransportePublico ;
+	base:hayTransportePublico "metro: iglesia (línea 1)  bus: 16, 53, 61" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroAmaya> a base:Posicion ;
+	base:tieneLatitud "4.043.513.498.732.230"^^xsd:long ;
+	base:tieneLongitud "-3.697.193.610.846.830"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroAmaya> a base:Direccion ;
+	base:tieneNumero "9"^^xsd:int ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28010"^^xsd:int ;
+	base:tieneCalle "GENERAL MARTINEZ CAMPOS" ;
+	base:tieneTipoVia "PASEO" ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberi_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroAmaya> a base:Metro ;
+	base:hayMetro "iglesia (línea 1)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroAmaya> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroAmaya> a base:Bus ;
+	base:hayBus "16, 53, 61 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroArlequinGranVia> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Arlequín Gran Vía" ;
+	base:tieneDescripcion "Fue proyectado por  Enrique López-Izquierdo . Está situado muy  cerca de la Gran Vía , en el bajo de un gran edificio conocido como Los Sótanos. El Arlequín, como el Bellas Artes y el Príncipe, tiene la singularidad de estar bajo el nivel de la calle. Es actualmente una sala con capacidad para unos  350 espectadores , confortable, de planta rectangular. La mayor parte de su aforo se ubica en el patio de butacas, aunque tiene un pequeño anfiteatro. Tanto el escenario como los camerinos han sido totalmente  reconstruidos y dotados de comodidades.  Viene a ser como un hermano pequeño de los enormes cines y teatros que lo rodean en las manzanas vecinas de la Gran Vía." ;
+	base:tieneEquipamiento "Consigna, guardarropa" ;
+	base:tieneTelefono "915 470 430 " ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroArlequinGranVia> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroArlequinGranVia> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroArlequinGranVia> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroArlequinGranVia> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroArlequinGranVia> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroArlequinGranVia> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroArlequinGranVia> a base:TransportePublico ;
+	base:hayTransportePublico "metro: santo domingo (línea 2), callao (líneas 3, 5)  bus: 1, 2, 3, 44, 46, 74, 75, 133, 146, 147, 148" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroArlequinGranVia> a base:Posicion ;
+	base:tieneLatitud "40.421.022.372.676.000"^^xsd:long ;
+	base:tieneLongitud "-37.083.051.475.459.900"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroArlequinGranVia> a base:Direccion ;
+	base:tieneNumero "5"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013"^^xsd:int ;
+	base:tieneCalle "SAN BERNARDO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroArlequinGranVia> a base:Metro ;
+	base:hayMetro "santo domingo (línea 2), callao (líneas 3, 5)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroArlequinGranVia> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroArlequinGranVia> a base:Bus ;
+	base:hayBus "1, 2, 3, 44, 46, 74, 75, 133, 146, 147, 148 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroArteriaColiseum> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Arteria Coliseum" ;
+	base:tieneDescripcion "Situado en el Gran Vía madrileña, el Teatro Coliseum tiene más de ochenta años de historia. Desde el año 2000 ha acogido importantes producciones." ;
+	base:tieneEquipamiento "Restaurante  Objetos perdidos  Tienda  Ascensor" ;
+	base:tieneTelefono "915 476 612" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroArteriaColiseum> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroArteriaColiseum> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroArteriaColiseum> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroArteriaColiseum> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroArteriaColiseum> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroArteriaColiseum> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroArteriaColiseum> a base:TransportePublico ;
+	base:hayTransportePublico "metro: plaza de españa (líneas 2, 3, 10)  bus: 1, 2, 3, 25, 33, 39, 40, 41, 44, 46, 74, 75, 133, 138, 146, 147, 148, 149, 202" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroArteriaColiseum> a base:Posicion ;
+	base:tieneLatitud "40.423.271.055.213.300"^^xsd:long ;
+	base:tieneLongitud "-37.103.562.860.569.200"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroArteriaColiseum> a base:Direccion ;
+	base:tieneNumero "78"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013"^^xsd:int ;
+	base:tieneCalle "GRAN VIA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroArteriaColiseum> a base:Metro ;
+	base:hayMetro "plaza de españa (líneas 2, 3, 10)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroArteriaColiseum> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroArteriaColiseum> a base:Bus ;
+	base:hayBus "1, 2, 3, 25, 33, 39, 40, 41, 44, 46, 74, 75, 133, 138, 146, 147, 148, 149, 202 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroBellasArtes> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Bellas Artes" ;
+	base:tieneDescripcion "Presenta una completa programación que combina espectáculos de empresas privadas con teatro público, textos clásicos con contemporáneos, juventud frente a veteranía, tanto de actrices, actores, directores de escena, etc." ;
+	base:tieneHorario "Cerrado los lunes" ;
+	base:tieneTelefono "915 324 437 / 915 324 438" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroBellasArtes> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroBellasArtes> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroBellasArtes> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroBellasArtes> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroBellasArtes> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroBellasArtes> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroBellasArtes> a base:TransportePublico ;
+	base:hayTransportePublico "metro: banco de españa (línea 2), sevilla (línea 2)  bus: 1, 2, 3, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 46, 51, 52, 53, 74, 146, 202" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroBellasArtes> a base:Posicion ;
+	base:tieneLatitud "4.041.832.880.748.660"^^xsd:long ;
+	base:tieneLongitud "-36.964.189.422.517.200"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroBellasArtes> a base:Direccion ;
+	base:tieneNumero "2"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014"^^xsd:int ;
+	base:tieneCalle "MARQUES DE CASA RIERA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroBellasArtes> a base:Metro ;
+	base:hayMetro "banco de españa (línea 2), sevilla (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroBellasArtes> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroBellasArtes> a base:Bus ;
+	base:hayBus "1, 2, 3, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 46, 51, 52, 53, 74, 146, 202 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroCalderon> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Calderón" ;
+	base:tieneTelefono "914 203 797" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroCalderon> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroCalderon> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroCalderon> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroCalderon> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroCalderon> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroCalderon> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroCalderon> a base:TransportePublico ;
+	base:hayTransportePublico "metro : tirso de molina (línea 1), sol (líneas 1, 2, 3)   bus : 6, 26, 32, 50, 65" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroCalderon> a base:Posicion ;
+	base:tieneLatitud "4.041.396.242.769.230"^^xsd:long ;
+	base:tieneLongitud "-3.703.363.300.804.260"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroCalderon> a base:Direccion ;
+	base:tieneNumero "18"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "ATOCHA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroCalderon> a base:Metro ;
+	base:hayMetro ": tirso de molina (línea 1), sol (líneas 1, 2, 3)   bus : 6, 26, 32, 50, 6" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroCalderon> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroCalderon> a base:Bus ;
+	base:hayBus "ro : tirso de molina (línea 1), sol (líneas 1, 2, 3)   bus : 6, 26, 32, 50, 65" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroCircoPrice> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Circo Price" ;
+	base:tieneDescripcion "Toma su nombre del que existió, durante casi un siglo, en el Paseo de Recoletos. A comienzos del 2000, el ayuntamiento recuperó el antiguo edificio industrial de una fábrica, de estilo neomudéjar, para ubicar el nuevo Teatro Circo Price que desde 2007 ofrece una variada programación de circo, música y teatro.   Teléfono de taquilla: 915 288 122" ;
+	base:tieneHorario "Taquilla    De martes a viernes   Desde las 18 horas hasta las 21 horas   Lunes, festivos y fines de semana   Desde 2 horas antes del espectáculo hasta el comienzo del mismo." ;
+	base:tieneEquipamiento "Aparcamiento propio y vigilado, entrada por la  Juan Sebastián Elcano, 25, de uso exclusivo para los espectadores y con horario limitado sujeto al espectáculo. Precio único de tique de aparcamiento.  Cafetería  Tienda  Guardarropa" ;
+	base:tieneTelefono "915 279 865 " ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroCircoPrice> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroCircoPrice> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroCircoPrice> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroCircoPrice> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroCircoPrice> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroCircoPrice> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroCircoPrice> a base:TransportePublico ;
+	base:hayTransportePublico "metro: embajadores (línea 3) , lavapiés (línea 3), atocha (línea 1)  bus: c, 27, 34, 36, 41, 119  renfe: embajadores" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroCircoPrice> a base:Posicion ;
+	base:tieneLatitud "4.040.596.423.138.830"^^xsd:long ;
+	base:tieneLongitud "-3.698.601.359.753.860"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroCircoPrice> a base:Direccion ;
+	base:tieneNumero "35"^^xsd:int ;
+	base:tieneDistrito "ARGANZUELA" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "ATOCHA" ;
+	base:tieneTipoVia "RONDA" ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroCircoPrice> a base:Metro ;
+	base:hayMetro "embajadores (línea 3) , lavapiés (línea 3), atocha (línea 1)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroCircoPrice> a base:Renfe ;
+	base:hayRenfe "embajadores" ;
+	owl:sameAs "http://dbpedia.org/resource/Acacias-Embajadores_(Madrid_Metro)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroCircoPrice> a base:Bus ;
+	base:hayBus "c, 27, 34, 36, 41, 119  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroCofidisAlcazar> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Cofidis Alcázar" ;
+	base:tieneDescripcion "Fue construido en 1921. En sus comienzos era conocido como Palacio de Recreos. Tiene una espectacular fachada, restaurada en el 2004." ;
+	base:tieneHorario "Cerrado los lunes" ;
+	base:tieneTelefono "915 320 616 (Taquilla)" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroCofidisAlcazar> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroCofidisAlcazar> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroCofidisAlcazar> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroCofidisAlcazar> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroCofidisAlcazar> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroCofidisAlcazar> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroCofidisAlcazar> a base:TransportePublico ;
+	base:hayTransportePublico "metro: sevilla (línea 2)  bus: 3, 5, 9, 15, 20, 51, 52, 52, 150" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroCofidisAlcazar> a base:Posicion ;
+	base:tieneLatitud "4.041.779.939.064.290"^^xsd:long ;
+	base:tieneLongitud "-3.699.053.803.017.360"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroCofidisAlcazar> a base:Direccion ;
+	base:tieneNumero "20"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014"^^xsd:int ;
+	base:tieneCalle "ALCALA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroCofidisAlcazar> a base:Metro ;
+	base:hayMetro "sevilla (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroCofidisAlcazar> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroCofidisAlcazar> a base:Bus ;
+	base:hayBus "3, 5, 9, 15, 20, 51, 52, 52, 150 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroCompacGranVia,Peque> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Compac Gran Vía (Pequeño teatro Gran Vía)" ;
+	base:tieneHorario "Cerrado los lunes." ;
+	base:tieneEquipamiento "Aparcamiento de pago" ;
+	base:tieneTelefono "915 415 569" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroCompacGranVia,Peque> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroCompacGranVia,Peque> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroCompacGranVia,Peque> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroCompacGranVia,Peque> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroCompacGranVia,Peque> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroCompacGranVia,Peque> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroCompacGranVia,Peque> a base:TransportePublico ;
+	base:hayTransportePublico "metro: plaza de españa (líneas 3, 10), santo domingo (línea 2), callao (línea 5)  bus: 1, 2, 3, 44, 46, 74, 75, 133, 143" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroCompacGranVia,Peque> a base:Posicion ;
+	base:tieneLatitud "4.042.240.577.324.940"^^xsd:long ;
+	base:tieneLongitud "-37.089.562.066.882.300"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroCompacGranVia,Peque> a base:Direccion ;
+	base:tieneNumero "66"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013"^^xsd:int ;
+	base:tieneCalle "GRAN VIA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroCompacGranVia,Peque> a base:Metro ;
+	base:hayMetro "plaza de españa (líneas 3, 10), santo domingo (línea 2), callao (línea 5)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroCompacGranVia,Peque> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroCompacGranVia,Peque> a base:Bus ;
+	base:hayBus "1, 2, 3, 44, 46, 74, 75, 133, 143 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatrodeCamaraCervantes> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro de Cámara Cervantes" ;
+	base:tieneDescripcion "Nace en el 2008 impulsado por la Sociedad Cervantina con la intención de recueprar para el público de hoy obras teatrales de uno de los mejores autores de la lengua española, Miguel de Cervantes.  También quiere ser un espacio de investigación escénica desde donde apoyar a los jóvenes talentos del teatro español." ;
+	base:tieneTelefono "914 203 437" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatrodeCamaraCervantes> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatrodeCamaraCervantes> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatrodeCamaraCervantes> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatrodeCamaraCervantes> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatrodeCamaraCervantes> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatrodeCamaraCervantes> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatrodeCamaraCervantes> a base:TransportePublico ;
+	base:hayTransportePublico "metro: antón martín (línea 1)  bus: 6, 26, 32" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatrodeCamaraCervantes> a base:Posicion ;
+	base:tieneLatitud "4.041.137.942.819.410"^^xsd:long ;
+	base:tieneLongitud "-36.969.837.415.117.800"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatrodeCamaraCervantes> a base:Direccion ;
+	base:tieneNumero "87"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "ATOCHA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatrodeCamaraCervantes> a base:Metro ;
+	base:hayMetro "antón martín (línea 1)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatrodeCamaraCervantes> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatrodeCamaraCervantes> a base:Bus ;
+	base:hayBus "6, 26, 32 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatrodeCamaraChejov> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro de Cámara Chéjov" ;
+	base:tieneDescripcion "El teatro de Cámara Chéjov es un centro estable de producción teatral y de formación artística, además de sala abierta al público con una programación continuada. Se presenta como foco difusor y aglutinador de arte, cultura y pensamiento." ;
+	base:tieneTelefono "915 270 954" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatrodeCamaraChejov> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatrodeCamaraChejov> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatrodeCamaraChejov> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatrodeCamaraChejov> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatrodeCamaraChejov> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatrodeCamaraChejov> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatrodeCamaraChejov> a base:TransportePublico ;
+	base:hayTransportePublico "metro: ventilla (línea 9)  bus: 42, 177" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatrodeCamaraChejov> a base:Posicion ;
+	base:tieneLatitud "4.047.140.264.085.200"^^xsd:long ;
+	base:tieneLongitud "-36.931.212.805.993.800"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatrodeCamaraChejov> a base:Direccion ;
+	base:tieneNumero "68"^^xsd:int ;
+	base:tieneDistrito "TETUAN" ;
+	base:tieneCodigoPostal "28029"^^xsd:int ;
+	base:tieneCalle "MARTIRES DE LA VENTILLA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Tetuan_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatrodeCamaraChejov> a base:Metro ;
+	base:hayMetro "ventilla (línea 9)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatrodeCamaraChejov> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatrodeCamaraChejov> a base:Bus ;
+	base:hayBus "42, 177 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatrodelaAbadia> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro de la Abadía" ;
+	base:tieneDescripcion "El Teatro de La Abadía es una casa de teatro y estudios que aspira a incidir en la vida social y cultural a través del teatro. Aquí se aspira a aunar la creación y exhibición de espectáculos con la búsqueda artística y humana mediante talleres y encuentros, todo ello bajo la dirección de José Luis Gómez que, en la tradición de los teatros de arte europeos, ha configurado un equipo teatral." ;
+	base:tieneHorario "Día de cierre: lunes" ;
+	base:tieneEquipamiento "Audioguías  Tiendas" ;
+	base:tieneTelefono "914 481 181" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatrodelaAbadia> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatrodelaAbadia> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatrodelaAbadia> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatrodelaAbadia> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatrodelaAbadia> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatrodelaAbadia> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatrodelaAbadia> a base:TransportePublico ;
+	base:hayTransportePublico "metro: quevedo (línea 2), canal (líneas 2, 7)  bus: 2, 16, 61" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatrodelaAbadia> a base:Posicion ;
+	base:tieneLatitud "4.043.522.406.333.120"^^xsd:long ;
+	base:tieneLongitud "-3.709.208.726.699.300"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatrodelaAbadia> a base:Direccion ;
+	base:tieneNumero "42"^^xsd:int ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28015"^^xsd:int ;
+	base:tieneCalle "FERNANDEZ DE LOS RIOS" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberi_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatrodelaAbadia> a base:Metro ;
+	base:hayMetro "quevedo (línea 2), canal (líneas 2, 7)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatrodelaAbadia> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatrodelaAbadia> a base:Bus ;
+	base:hayBus "2, 16, 61 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatrodelaComedia.Compani> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro de la Comedia. Compañía Nacional de Teatro Clásico" ;
+	base:tieneTelefono "915 327 927 / 915 282 819 (taquilla)" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatrodelaComedia.Compani> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatrodelaComedia.Compani> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatrodelaComedia.Compani> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatrodelaComedia.Compani> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatrodelaComedia.Compani> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatrodelaComedia.Compani> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatrodelaComedia.Compani> a base:TransportePublico ;
+	base:hayTransportePublico "metro: sevilla (línea 2)  bus: 3, 5, 6, 9, 15, 20, 26, 32, 51, 52, 53, 57, 65, 150" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatrodelaComedia.Compani> a base:Posicion ;
+	base:tieneLatitud "4.041.566.504.361.920"^^xsd:long ;
+	base:tieneLongitud "-37.004.107.649.636.100"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatrodelaComedia.Compani> a base:Direccion ;
+	base:tieneNumero "14"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "PRINCIPE" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatrodelaComedia.Compani> a base:Metro ;
+	base:hayMetro "sevilla (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatrodelaComedia.Compani> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatrodelaComedia.Compani> a base:Bus ;
+	base:hayBus "3, 5, 6, 9, 15, 20, 26, 32, 51, 52, 53, 57, 65, 150 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatrodelaZarzuela> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro de la Zarzuela" ;
+	base:tieneDescripcion "El Teatro de la Zarzuela es el primer y único teatro de la lírica española. Situado en pleno centro, detrás de las Cortes, en él siempre se ha cultivado la música del género lírico español, y actualmente se siguen cantando y oyendo las mejores obras de su repertorio." ;
+	base:tieneEquipamiento "Aparcamiento de pago  Consigna, guardarroopa  Restauración" ;
+	base:tieneTelefono "915 245 400" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatrodelaZarzuela> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatrodelaZarzuela> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatrodelaZarzuela> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatrodelaZarzuela> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatrodelaZarzuela> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatrodelaZarzuela> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatrodelaZarzuela> a base:TransportePublico ;
+	base:hayTransportePublico "metro: banco de españa (línea 2), sevilla (línea 2)  bus: 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 53, 150, 203, m1, m2" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatrodelaZarzuela> a base:Posicion ;
+	base:tieneLatitud "404.171.909.688.133"^^xsd:long ;
+	base:tieneLongitud "-36.968.669.041.846.700"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatrodelaZarzuela> a base:Direccion ;
+	base:tieneNumero "4"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014"^^xsd:int ;
+	base:tieneCalle "JOVELLANOS" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatrodelaZarzuela> a base:Metro ;
+	base:hayMetro "banco de españa (línea 2), sevilla (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatrodelaZarzuela> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatrodelaZarzuela> a base:Bus ;
+	base:hayBus "5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 53, 150, 203, m1, m2 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatrodelArte> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro del Arte" ;
+	base:tieneDescripcion "Sala de teatro alternativo situada en el centro de Madrid, en el barrio de Lavapiés, una zona que destaca por el espíritu independiente en muchas de sus propuestas culturales. El objetivo de esta sala es conseguir una programación de calidad, a través de la representación de obras de teatro contemporáneas y comprometidas." ;
+	base:tieneTelefono "915 284 536" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatrodelArte> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatrodelArte> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatrodelArte> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatrodelArte> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatrodelArte> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatrodelArte> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatrodelArte> a base:TransportePublico ;
+	base:hayTransportePublico "metro: lavapies (línea 3), antón martín (línea 1)  bus: 6, 26, 32" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatrodelArte> a base:Posicion ;
+	base:tieneLatitud "40.409.373.215.131.000"^^xsd:long ;
+	base:tieneLongitud "-3.698.011.968.601.930"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatrodelArte> a base:Direccion ;
+	base:tieneNumero "3"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "SAN COSME Y SAN DAMIAN" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatrodelArte> a base:Metro ;
+	base:hayMetro "lavapies (línea 3), antón martín (línea 1)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatrodelArte> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatrodelArte> a base:Bus ;
+	base:hayBus "6, 26, 32 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatrodelBarrio> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro del Barrio" ;
+	base:tieneDescripcion "La sala alternativa Triángulo ha dado paso a El Teatro del Barrio. Un proyecto que nace con la vocación de saber qué está pasando y con la intención de ser una asamblea permanente mediante el teatro, la poesía, el baile, los talleres y la Universidad del Barrio." ;
+	base:tieneTelefono "910 843 692" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatrodelBarrio> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatrodelBarrio> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatrodelBarrio> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatrodelBarrio> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatrodelBarrio> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatrodelBarrio> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatrodelBarrio> a base:TransportePublico ;
+	base:hayTransportePublico "metro: lavapiés (línea 3), antón martín (línea 1)  bus: 6, 26, 32, m1  renfe: embajadores" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatrodelBarrio> a base:Posicion ;
+	base:tieneLatitud "40.409.681.819.217.600"^^xsd:long ;
+	base:tieneLongitud "-3.699.123.015.201.170"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatrodelBarrio> a base:Direccion ;
+	base:tieneNumero "20"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "ZURITA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatrodelBarrio> a base:Metro ;
+	base:hayMetro "lavapiés (línea 3), antón martín (línea 1)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatrodelBarrio> a base:Renfe ;
+	base:hayRenfe "embajadores" ;
+	owl:sameAs "http://dbpedia.org/resource/Acacias-Embajadores_(Madrid_Metro)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatrodelBarrio> a base:Bus ;
+	base:hayBus "6, 26, 32, m1  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroEspanol> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Español" ;
+	base:tieneDescripcion "Denominado, hasta 1849, Teatro del Principe ampliamente reformado en los últimos años del siglo XIX.   Es uno de los teatros madrileños mas emblemáticos, con una trayectoria, casi ininterrumpida, de programación durante mas de 400 años" ;
+	base:tieneEquipamiento "Servicio de bar   Venta de publicaciones del Teatro Español abierto media hora antes de la función.   Salas   Principal: sala por la que el Teatro Español existe, antiguo corral de comedias, lleva 400 años en activo. Actualmente alberga 740 espectadores cada función  Margarita Xirgú: espacio inaugurado en 2005. Consta de un aforo de 107 butacas situadas sobre gradas, de este modo el espectador se sitúa con gran proximidad al espacio escénico  Sala de exposiciones: polivalente, utilizada para exposiciones, conferenciasy ruedas de prensa  Salón de té: en otro tiempo verdadero ambígú del Teatro Español, es actualmente una sala que se utiliza para la convocatoria de ruedas de prensa     Las personas con movilidad reducida deben comunicarlo al adquirir sus localidades" ;
+	base:tieneTelefono "913 601 480 (centralita) /  913 601 484 (taquilla)" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroEspanol> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroEspanol> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroEspanol> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroEspanol> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroEspanol> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroEspanol> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroEspanol> a base:TransportePublico ;
+	base:hayTransportePublico "metro: sevilla (línea 2), sol (líneas 1, 2, 3)  bus: 3, 5, 6, 9, 15, 20, 26, 32, 51, 52, 53, 57, 65, 150  renfe: sol" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroEspanol> a base:Posicion ;
+	base:tieneLatitud "4.041.482.868.269.550"^^xsd:long ;
+	base:tieneLongitud "-37.001.663.599.562.100"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroEspanol> a base:Direccion ;
+	base:tieneNumero "25"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "PRINCIPE" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroEspanol> a base:Metro ;
+	base:hayMetro "sevilla (línea 2), sol (líneas 1, 2, 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroEspanol> a base:Renfe ;
+	base:hayRenfe "sol" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Puerta_del_Sol_(Madrid)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroEspanol> a base:Bus ;
+	base:hayBus "3, 5, 6, 9, 15, 20, 26, 32, 51, 52, 53, 57, 65, 150  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroFigaro-AdolfoMarsil> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Fígaro - Adolfo Marsillach" ;
+	base:tieneDescripcion "Situado en la zona céntrica y turística de Madrid: el barrio de las Letras. Acoge lo mejor de la comedia actual nacional e internacional." ;
+	base:tieneHorario "Cerrado los lunes y los martes" ;
+	base:tieneEquipamiento "Restaurante" ;
+	base:tieneTelefono "913 600 829 " ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroFigaro-AdolfoMarsil> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroFigaro-AdolfoMarsil> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroFigaro-AdolfoMarsil> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroFigaro-AdolfoMarsil> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroFigaro-AdolfoMarsil> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroFigaro-AdolfoMarsil> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroFigaro-AdolfoMarsil> a base:TransportePublico ;
+	base:hayTransportePublico "metro: tirso de molina (línea 1), sol (líneas 1, 2, 3)  bus: 6, 26, 32, 50, 65" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroFigaro-AdolfoMarsil> a base:Posicion ;
+	base:tieneLatitud "4.041.345.601.671.210"^^xsd:long ;
+	base:tieneLongitud "-3.703.676.260.061.590"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroFigaro-AdolfoMarsil> a base:Direccion ;
+	base:tieneNumero "5"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "DOCTOR CORTEZO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroFigaro-AdolfoMarsil> a base:Metro ;
+	base:hayMetro "tirso de molina (línea 1), sol (líneas 1, 2, 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroFigaro-AdolfoMarsil> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroFigaro-AdolfoMarsil> a base:Bus ;
+	base:hayBus "6, 26, 32, 50, 65 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroGalileo> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Galileo" ;
+	base:tieneDescripcion "Se encuentra dentro del Centro Cultural Galileo del Ayuntamiento de Madrid, gestionado por el Grupo Smedia. Una sala, dedicada a la representación de obras de teatro de arte y ensayo y al teatro familiar durante los fines de semana, ubicada en el distrito de Chamberí." ;
+	base:tieneEquipamiento "Aparcamiento de pago  Ascensor" ;
+	base:tieneTelefono "915 913 901" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroGalileo> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroGalileo> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroGalileo> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroGalileo> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroGalileo> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroGalileo> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroGalileo> a base:TransportePublico ;
+	base:hayTransportePublico "metro: quevedo (línea 2), arg&uuml;elles (líneas 3, 4, 6)  bus: 2, 16, 21 , 61" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroGalileo> a base:Posicion ;
+	base:tieneLatitud "4.043.371.190.964.790"^^xsd:long ;
+	base:tieneLongitud "-37.104.543.597.957.700"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroGalileo> a base:Direccion ;
+	base:tieneNumero "39"^^xsd:int ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28015"^^xsd:int ;
+	base:tieneCalle "GALILEO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberi_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroGalileo> a base:Metro ;
+	base:hayMetro "quevedo (línea 2), arg&uuml;elles (líneas 3, 4, 6)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroGalileo> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroGalileo> a base:Bus ;
+	base:hayBus "2, 16, 21 , 61 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroGuindalera> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Guindalera" ;
+	base:tieneDescripcion "Con un aforo de 75 localidades, esta sala apuesta por recuperar un teatro de arte y ensayo, punto de encuentro y de reflexión. En ella se reivindica la imaginación compartida con el espectador. Frente al despliegue de medios y frente a los grandes espacios se busca el acercamiento y un ambiente íntimo." ;
+	base:tieneHorario "Cerrado lunes y martes" ;
+	base:tieneEquipamiento "Objetos perdidos" ;
+	base:tieneTelefono "913 615 521" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroGuindalera> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroGuindalera> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroGuindalera> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroGuindalera> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroGuindalera> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroGuindalera> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroGuindalera> a base:TransportePublico ;
+	base:hayTransportePublico "metro: diego de león (líneas 4, 5, 6)  bus: 1, 12, 43, 48, 56, 74, c1, c2" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroGuindalera> a base:Posicion ;
+	base:tieneLatitud "4.043.339.686.680.230"^^xsd:long ;
+	base:tieneLongitud "-36.696.580.993.972.800"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroGuindalera> a base:Direccion ;
+	base:tieneNumero "20"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28028"^^xsd:int ;
+	base:tieneCalle "MARTINEZ IZQUIERDO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroGuindalera> a base:Metro ;
+	base:hayMetro "diego de león (líneas 4, 5, 6)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroGuindalera> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroGuindalera> a base:Bus ;
+	base:hayBus "1, 12, 43, 48, 56, 74, c1, c2 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroInfantaIsabel> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Infanta Isabel" ;
+	base:tieneDescripcion "El Teatro Infanta Isabel, conocido antes como 'Cinema Nacional' o 'Petit Palais', es una de las salas de teatro más antiguas de la ciudad, está situado en la calle Barquillo muy cerca de la Gran Vía." ;
+	base:tieneHorario "Días de cierre: lunes." ;
+	base:tieneEquipamiento "Aparcamiento de pago." ;
+	base:tieneTelefono "915 210 212" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroInfantaIsabel> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroInfantaIsabel> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroInfantaIsabel> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroInfantaIsabel> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroInfantaIsabel> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroInfantaIsabel> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroInfantaIsabel> a base:TransportePublico ;
+	base:hayTransportePublico "metro: banco de españa (línea 2), chueca (línea 5)  bus: 3, 5, 14, 37, 45, 53, 146, 150  renfe: recoletos" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroInfantaIsabel> a base:Posicion ;
+	base:tieneLatitud "4.042.221.671.356.560"^^xsd:long ;
+	base:tieneLongitud "-36.955.867.306.586.300"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroInfantaIsabel> a base:Direccion ;
+	base:tieneNumero "24"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004"^^xsd:int ;
+	base:tieneCalle "BARQUILLO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroInfantaIsabel> a base:Metro ;
+	base:hayMetro "banco de españa (línea 2), chueca (línea 5)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroInfantaIsabel> a base:Renfe ;
+	base:hayRenfe "recoletos" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Estación_de_Recoletos" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroInfantaIsabel> a base:Bus ;
+	base:hayBus "3, 5, 14, 37, 45, 53, 146, 150  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatrolaLatina> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro la Latina" ;
+	base:tieneDescripcion "Con casi un siglo de actividad escénica, desde que en 1919 fuera inaugurado como cinematógrafo, ha sido estirpe de artistas que forman parte del patrimonio teatral español, sede de empresarios, centro de trabajo de miles de profesionales y receptor de los aplausos de millones de espectadores.  Obra del arquitecto Pedro Muguruza. Ha sido uno de los escenarios más importantes para la representación de comedia y revista en la historia del teatro a lo largo del siglo  XX .   Debe su nombre a Beatriz Galindo, llamda 'la Latina', escritora y humanista española del siglo  XV ." ;
+	base:tieneHorario "Cerrado: los lunes." ;
+	base:tieneEquipamiento "Objetos perdidos  Restauración" ;
+	base:tieneTelefono "913 652 835" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatrolaLatina> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatrolaLatina> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatrolaLatina> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatrolaLatina> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatrolaLatina> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatrolaLatina> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatrolaLatina> a base:TransportePublico ;
+	base:hayTransportePublico "metro: la latina (línea 5)  bus: 17, 18, 23, 31, 35, 50, 60, 61, m1" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatrolaLatina> a base:Posicion ;
+	base:tieneLatitud "40.411.397.795.053"^^xsd:long ;
+	base:tieneLongitud "-3.708.781.739.576.840"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatrolaLatina> a base:Direccion ;
+	base:tieneNumero "2"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28005"^^xsd:int ;
+	base:tieneCalle "CEBADA" ;
+	base:tieneTipoVia "PLAZA" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatrolaLatina> a base:Metro ;
+	base:hayMetro "la latina (línea 5)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatrolaLatina> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatrolaLatina> a base:Bus ;
+	base:hayBus "17, 18, 23, 31, 35, 50, 60, 61, m1 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroLagrada> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Lagrada" ;
+	base:tieneDescripcion "Sala de teatro alternativo, situada en la zona de Embajadores, donde se apuesta por la mezcla de diferentes manifestaciones artísticas como la fotografía, la música, la pintura y el propio teatro, haciendo especial hincapié en la representación de obras de nuevos autores.   Además de ser un espacio de representación artística, también lo es de formación, ya que, cuenta con una academia de actores donde se trabajan la interpretación, el entrenamiento corporal y vocal, la música y el canto." ;
+	base:tieneTelefono "915 179 698" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroLagrada> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroLagrada> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroLagrada> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroLagrada> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroLagrada> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroLagrada> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroLagrada> a base:TransportePublico ;
+	base:hayTransportePublico "metro: embajadores (línea 3)  bus: 34, 36, 60, 62, 78, 116, 118, 119, 148, e1  renfe: embajadores" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroLagrada> a base:Posicion ;
+	base:tieneLatitud "4.040.268.595.360.090"^^xsd:long ;
+	base:tieneLongitud "-370.289.238.039.068"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroLagrada> a base:Direccion ;
+	base:tieneNumero "20"^^xsd:int ;
+	base:tieneDistrito "ARGANZUELA" ;
+	base:tieneCodigoPostal "28005"^^xsd:int ;
+	base:tieneCalle "ERCILLA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroLagrada> a base:Metro ;
+	base:hayMetro "embajadores (línea 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroLagrada> a base:Renfe ;
+	base:hayRenfe "embajadores" ;
+	owl:sameAs "http://dbpedia.org/resource/Acacias-Embajadores_(Madrid_Metro)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroLagrada> a base:Bus ;
+	base:hayBus "34, 36, 60, 62, 78, 116, 118, 119, 148, e1  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroLara> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Lara" ;
+	base:tieneDescripcion "Es un espacio plural que da cabida a la música, a la poesía o a cualquier expresión artística, y que congrega a un público fiel y exigente.   Fue construido en 1879 e inaugurado el 3 de septiembre del año siguiente. Es uno de los teatros más llamativos de la Comunidad de Madrid desde el punto de vista arquitectónico." ;
+	base:tieneTelefono "915 239 027" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroLara> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroLara> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroLara> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroLara> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroLara> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroLara> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroLara> a base:TransportePublico ;
+	base:hayTransportePublico "metro: callao (líneas 3, 5), santo domingo (línea 2)  bus: 1, 2, 44, 46, 74, 75, 133, 146, 147, 148, m2" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroLara> a base:Posicion ;
+	base:tieneLatitud "4.042.208.196.713.360"^^xsd:long ;
+	base:tieneLongitud "-37.044.498.348.290.200"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroLara> a base:Direccion ;
+	base:tieneNumero "15"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004"^^xsd:int ;
+	base:tieneCalle "CORREDERA BAJA DE SAN PABLO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroLara> a base:Metro ;
+	base:hayMetro "callao (líneas 3, 5), santo domingo (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroLara> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroLara> a base:Bus ;
+	base:hayBus "1, 2, 44, 46, 74, 75, 133, 146, 147, 148, m2 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroLopedeVega> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Lope de Vega" ;
+	base:tieneDescripcion "Se trata de un escenario legendario especializado en musicales de gran formato y montajes espectaculares. Su privilegiada ubicación en la Gran Vía y la ambición de sus producciones hacen de ella una de las salas más significativas y reconocidas del circuito madrileño." ;
+	base:tieneEquipamiento "Ascensor  Restauración" ;
+	base:tieneTelefono "915 472 011" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroLopedeVega> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroLopedeVega> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroLopedeVega> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroLopedeVega> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroLopedeVega> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroLopedeVega> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroLopedeVega> a base:TransportePublico ;
+	base:hayTransportePublico "metro: santo domingo (línea 2), plaza de españa (línea 3, 10), callao (líneas 3, 5)  bus: 1, 2, 3, 44, 46, 74, 75, 133, 138, 146, 147, 148, c1, c2" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroLopedeVega> a base:Posicion ;
+	base:tieneLatitud "4.042.189.272.510.080"^^xsd:long ;
+	base:tieneLongitud "-37.088.800.933.302.700"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroLopedeVega> a base:Direccion ;
+	base:tieneNumero "57"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013"^^xsd:int ;
+	base:tieneCalle "GRAN VÍA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroLopedeVega> a base:Metro ;
+	base:hayMetro "santo domingo (línea 2), plaza de españa (línea 3, 10), callao (líneas 3, 5)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroLopedeVega> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroLopedeVega> a base:Bus ;
+	base:hayBus "1, 2, 3, 44, 46, 74, 75, 133, 138, 146, 147, 148, c1, c2 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroMaravillas> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Maravillas" ;
+	base:tieneDescripcion "Situado en el céntrico barrio de Malasaña. Inaugurado en 1886, tras cinco años de obras, vuelve a abrir sus puertas en el 2005, ." ;
+	base:tieneHorario "Días de cierre: lunes y martes" ;
+	base:tieneEquipamiento "Ascensor" ;
+	base:tieneTelefono "914 468 405" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroMaravillas> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroMaravillas> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroMaravillas> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroMaravillas> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroMaravillas> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroMaravillas> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroMaravillas> a base:TransportePublico ;
+	base:hayTransportePublico "metro: bilbao (línea 1, 4), san bernardo (línea 2, 4)  bus: 3, 21, 40, 147, 149" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroMaravillas> a base:Posicion ;
+	base:tieneLatitud "40.428.675.760.717.700"^^xsd:long ;
+	base:tieneLongitud "-3.703.103.946.758.170"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroMaravillas> a base:Direccion ;
+	base:tieneNumero "6"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004"^^xsd:int ;
+	base:tieneCalle "MANUELA MALASAÑA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroMaravillas> a base:Metro ;
+	base:hayMetro "bilbao (línea 1, 4), san bernardo (línea 2, 4)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroMaravillas> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroMaravillas> a base:Bus ;
+	base:hayBus "3, 21, 40, 147, 149 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroMariaGuerrero.Centr> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro María Guerrero. Centro Dramático Nacional" ;
+	base:tieneDescripcion "El teatro María Guerrero fue inaugurado en 1885 como teatro de la Princesa y declarado por el Ministerio de Cultura en 1996 Bien de Interés Cultural. En la actualidad cuenta con un segundo espacio para espectáculos de pequeño formato, con una capacidad máxima de 120 espectadores." ;
+	base:tieneEquipamiento "Ascensor  Tienda  Consigna / guardarropa  Visitas guiadas" ;
+	base:tieneTelefono "913 101 500" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroMariaGuerrero.Centr> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroMariaGuerrero.Centr> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroMariaGuerrero.Centr> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroMariaGuerrero.Centr> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroMariaGuerrero.Centr> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroMariaGuerrero.Centr> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroMariaGuerrero.Centr> a base:TransportePublico ;
+	base:hayTransportePublico "metro: colón (línea 4), banco de españa (línea 2), chueca (línea 5).  bus: 5, 14, 27, 37, 45, 53, 150.  renfe: recoletos." .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroMariaGuerrero.Centr> a base:Posicion ;
+	base:tieneLatitud "4.042.288.948.179.910"^^xsd:long ;
+	base:tieneLongitud "-3.693.071.021.887.210"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroMariaGuerrero.Centr> a base:Direccion ;
+	base:tieneNumero "4"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004"^^xsd:int ;
+	base:tieneCalle "TAMAYO Y BAUS" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroMariaGuerrero.Centr> a base:Metro ;
+	base:hayMetro "colón (línea 4), banco de españa (línea 2), chueca (línea 5)." .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroMariaGuerrero.Centr> a base:Renfe ;
+	base:hayRenfe "recoletos." ;
+	owl:sameAs "http://es.dbpedia.org/resource/Estación_de_Recoletos" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroMariaGuerrero.Centr> a base:Bus ;
+	base:hayBus "5, 14, 27, 37, 45, 53, 150.  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroMarquina> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Marquina" ;
+	base:tieneDescripcion "Inaugurado en 1962. En 1996 fue derribado para levantarlo nuevamente con más adelantos. Dos años más tarde se reinauguró." ;
+	base:tieneHorario "Cerrado los lunes." ;
+	base:tieneTelefono "915 328 554" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroMarquina> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroMarquina> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroMarquina> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroMarquina> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroMarquina> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroMarquina> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroMarquina> a base:TransportePublico ;
+	base:hayTransportePublico "metro: banco de españa (línea 2), chueca (línea 5).  bus: 5, 14, 27, 37, 45, 53, 150.  renfe: recoletos." .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroMarquina> a base:Posicion ;
+	base:tieneLatitud "4.042.195.750.772.570"^^xsd:long ;
+	base:tieneLongitud "-36.937.451.531.542.600"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroMarquina> a base:Direccion ;
+	base:tieneNumero "11"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004"^^xsd:int ;
+	base:tieneCalle "PRIM" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroMarquina> a base:Metro ;
+	base:hayMetro "banco de españa (línea 2), chueca (línea 5)." .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroMarquina> a base:Renfe ;
+	base:hayRenfe "recoletos." ;
+	owl:sameAs "http://es.dbpedia.org/resource/Estación_de_Recoletos" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroMarquina> a base:Bus ;
+	base:hayBus "5, 14, 27, 37, 45, 53, 150.  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroMonumental> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Monumental" ;
+	base:tieneDescripcion "Es el teatro donde la Orquesta y el Coro de Radio Televisión Española realiza sus actuaciones desde los años 60" ;
+	base:tieneHorario "Día de cierre: lunes" ;
+	base:tieneEquipamiento "Aparcamiento de pago" ;
+	base:tieneTelefono "914 291 281" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroMonumental> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroMonumental> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroMonumental> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroMonumental> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroMonumental> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroMonumental> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroMonumental> a base:TransportePublico ;
+	base:hayTransportePublico "metro: antón martín (línea 1)  bus: 6, 26, 32, m1" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroMonumental> a base:Posicion ;
+	base:tieneLatitud "4.041.248.331.678.500"^^xsd:long ;
+	base:tieneLongitud "-36.991.755.805.601.400"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroMonumental> a base:Direccion ;
+	base:tieneNumero "65"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "ATOCHA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroMonumental> a base:Metro ;
+	base:hayMetro "antón martín (línea 1)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroMonumental> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroMonumental> a base:Bus ;
+	base:hayBus "6, 26, 32, m1 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroMunicipaldeTiteresd> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Municipal de Títeres de El Retiro al Aire Libre" ;
+	base:tieneDescripcion "Dentro del parque de El Retiro, muy cerca de la entrada desde la plaza de la Independencia, donde se encuentra la Puerta de Alcalá, está el Teatro de Títeres, toda una institución para el público infantil madrileño.   Este teatro permanente de títeres ofrece casi todos los sábados y domingos un espectáculo en el que las artes plásticas, la interpretación, la música y la literatura se conjugan de manera magistral." ;
+	base:tieneTelefono "670 723 360 / 917 924 112 (sólo mañanas) (Asociación Cultural Titirilandia) " ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroMunicipaldeTiteresd> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroMunicipaldeTiteresd> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroMunicipaldeTiteresd> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroMunicipaldeTiteresd> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroMunicipaldeTiteresd> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroMunicipaldeTiteresd> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroMunicipaldeTiteresd> a base:TransportePublico ;
+	base:hayTransportePublico "metro: retiro (línea 2).  bus: 1, 2, 9, 15, 19, 20, 28, 51, 52, 79, 146 y 202." .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroMunicipaldeTiteresd> a base:Posicion ;
+	base:tieneLatitud "4.041.878.362.561.590"^^xsd:long ;
+	base:tieneLongitud "-36.866.519.471.003.600"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroMunicipaldeTiteresd> a base:Direccion ;
+	base:tieneNumero "4"^^xsd:int ;
+	base:tieneDistrito "RETIRO" ;
+	base:tieneCodigoPostal "28009"^^xsd:int ;
+	base:tieneCalle "MÉXICO" ;
+	base:tieneTipoVia "AVENIDA" ;
+	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroMunicipaldeTiteresd> a base:Metro ;
+	base:hayMetro "retiro (línea 2)." .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroMunicipaldeTiteresd> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroMunicipaldeTiteresd> a base:Bus ;
+	base:hayBus "1, 2, 9, 15, 19, 20, 28, 51, 52, 79, 146 y 202. " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroMunozSeca> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Muñoz Seca" ;
+	base:tieneDescripcion "El teatro Muñoz Seca se encuentra en pleno centro de Madrid, en una ubicación privilegiada y muy turística. La sala ofrece una amplia variedad de obras teatrales." ;
+	base:tieneHorario "Cerrado los lunes." ;
+	base:tieneTelefono "915 232 128 " ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroMunozSeca> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroMunozSeca> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroMunozSeca> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroMunozSeca> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroMunozSeca> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroMunozSeca> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroMunozSeca> a base:TransportePublico ;
+	base:hayTransportePublico "metro: sol (línea 1, 2, 3), gran vía (línea 1, 5).  bus: 1 , 2 , 3, 46, 50, 51, 74, 146, m2.  renfe: sol." .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroMunozSeca> a base:Posicion ;
+	base:tieneLatitud "4.041.840.439.358.010"^^xsd:long ;
+	base:tieneLongitud "-37.032.798.991.593.800"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroMunozSeca> a base:Direccion ;
+	base:tieneNumero "1"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013"^^xsd:int ;
+	base:tieneCalle "CARMEN" ;
+	base:tieneTipoVia "PLAZA" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroMunozSeca> a base:Metro ;
+	base:hayMetro "sol (línea 1, 2, 3), gran vía (línea 1, 5)." .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroMunozSeca> a base:Renfe ;
+	base:hayRenfe "sol." ;
+	owl:sameAs "http://es.dbpedia.org/resource/Puerta_del_Sol_(Madrid)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroMunozSeca> a base:Bus ;
+	base:hayBus "1 , 2 , 3, 46, 50, 51, 74, 146, m2.  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroNuevoApolo> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Nuevo Apolo" ;
+	base:tieneDescripcion "El teatro Nuevo Apolo, con 1000 butacas, es el teatro musical por excelencia de la ciudad. Situado en la zona centro, en la plaza de Tirso de Molina, en él se han representado grandes producciones como Los Miserables o Chicago. También tienen lugar espectáculos de humor y danza." ;
+	base:tieneHorario "Cerrado los lunes." ;
+	base:tieneEquipamiento "Objetos perdidos  Aparcamiento de pago  Restauración" ;
+	base:tieneTelefono "918 554 162" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroNuevoApolo> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroNuevoApolo> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroNuevoApolo> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroNuevoApolo> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroNuevoApolo> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroNuevoApolo> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroNuevoApolo> a base:TransportePublico ;
+	base:hayTransportePublico "metro: tirso de molina (línea 1).  bus: 6, 26, 32, 65, m1." .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroNuevoApolo> a base:Posicion ;
+	base:tieneLatitud "4.041.234.075.831.110"^^xsd:long ;
+	base:tieneLongitud "-3.703.369.987.899.470"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroNuevoApolo> a base:Direccion ;
+	base:tieneNumero "1"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "TIRSO DE MOLINA" ;
+	base:tieneTipoVia "PLAZA" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroNuevoApolo> a base:Metro ;
+	base:hayMetro "tirso de molina (línea 1)." .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroNuevoApolo> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroNuevoApolo> a base:Bus ;
+	base:hayBus "6, 26, 32, 65, m1. " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroPavon,CompaniaNacio> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Pavón (Compañía Nacional de Teatro Clásico)" ;
+	base:tieneDescripcion "El teatro Pavón, inaugurado en 1925, vivió una época de decadencia y cerró durante unos años. Fue reinaugurado en el año 2000. Este escenario acoge temporalmente los montajes de la Compañía Nacional de Teatro Clásico, con representaciones de obras de autores clásicos como Tirso de Molina, Lope de Vega, Rojas Zorrilla o Calderón de la Barca." ;
+	base:tieneEquipamiento "Objetos perdidos  Tienda" ;
+	base:tieneTelefono "915 282 819 (taquilla)" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroPavon,CompaniaNacio> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroPavon,CompaniaNacio> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroPavon,CompaniaNacio> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroPavon,CompaniaNacio> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroPavon,CompaniaNacio> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroPavon,CompaniaNacio> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroPavon,CompaniaNacio> a base:TransportePublico ;
+	base:hayTransportePublico "metro: latina (línea 5)  bus: 17, 18, 23, 35, m1" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroPavon,CompaniaNacio> a base:Posicion ;
+	base:tieneLatitud "40.410.026.211.183.400"^^xsd:long ;
+	base:tieneLongitud "-37.061.980.491.148.600"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroPavon,CompaniaNacio> a base:Direccion ;
+	base:tieneNumero "9"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "EMBAJADORES" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroPavon,CompaniaNacio> a base:Metro ;
+	base:hayMetro "latina (línea 5)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroPavon,CompaniaNacio> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroPavon,CompaniaNacio> a base:Bus ;
+	base:hayBus "17, 18, 23, 35, m1 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroPradillo> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Pradillo" ;
+	base:tieneDescripcion "Teatro Pradillo reabrió sus puertas como centro de investigación y creación en abril de 2012 con la intención de ofrecerse como un espacio vivo que aspira a incidir en la vida pública y cultural, y a estar permanentemente conectado con la sociedad de la que forma parte ." ;
+	base:tieneEquipamiento "Tienda." ;
+	base:tieneTelefono "914 169 011" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroPradillo> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroPradillo> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroPradillo> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroPradillo> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroPradillo> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroPradillo> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroPradillo> a base:TransportePublico ;
+	base:hayTransportePublico "metro: concha espina (línea 9).  bus: 9, 16, 19, 29, 52, 73." .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroPradillo> a base:Posicion ;
+	base:tieneLatitud "4.044.856.560.554.620"^^xsd:long ;
+	base:tieneLongitud "-36.747.261.219.408.600"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroPradillo> a base:Direccion ;
+	base:tieneNumero "12"^^xsd:int ;
+	base:tieneDistrito "CHAMARTIN" ;
+	base:tieneCodigoPostal "28002"^^xsd:int ;
+	base:tieneCalle "PRADILLO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Madrid_Chamartin> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroPradillo> a base:Metro ;
+	base:hayMetro "concha espina (línea 9)." .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroPradillo> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroPradillo> a base:Bus ;
+	base:hayBus "9, 16, 19, 29, 52, 73. " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroPrincipeGranVia> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Príncipe Gran Vía" ;
+	base:tieneDescripcion "Este teatro madrileño lleva en su nombre el de la calle con la que prácticamente hace esquina, llamándose: Príncipe Gran Vía. Está especializado en comedia." ;
+	base:tieneHorario "Cerrado los lunes." ;
+	base:tieneEquipamiento "Restauración  Consigna  Objetos perdidos" ;
+	base:tieneTelefono "915 318 514" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroPrincipeGranVia> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroPrincipeGranVia> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroPrincipeGranVia> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroPrincipeGranVia> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroPrincipeGranVia> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroPrincipeGranVia> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroPrincipeGranVia> a base:TransportePublico ;
+	base:hayTransportePublico "metro: gran vía (líneas 1, 5), callao (líneas 3, 5), sol (líneas 1, 2, 3).  bus: 1, 2, 3, 46, 74, 146, m2.  renfe: sol." .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroPrincipeGranVia> a base:Posicion ;
+	base:tieneLatitud "4.041.941.656.735.490"^^xsd:long ;
+	base:tieneLongitud "-3.702.760.005.318.700"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroPrincipeGranVia> a base:Direccion ;
+	base:tieneNumero "8"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013"^^xsd:int ;
+	base:tieneCalle "TRES CRUCES" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroPrincipeGranVia> a base:Metro ;
+	base:hayMetro "gran vía (líneas 1, 5), callao (líneas 3, 5), sol (líneas 1, 2, 3)." .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroPrincipeGranVia> a base:Renfe ;
+	base:hayRenfe "sol." ;
+	owl:sameAs "http://es.dbpedia.org/resource/Puerta_del_Sol_(Madrid)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroPrincipeGranVia> a base:Bus ;
+	base:hayBus "1, 2, 3, 46, 74, 146, m2.  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroQuevedo> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Quevedo" ;
+	base:tieneDescripcion "El Teatro Quevedo es una apuesta personal del productor Luis Antonio Rodríguez.  El teatro cuenta con 150 butacas y, además de las artes escénicas, tiene otro protagonista, el microcine. El nombre de este espacio hace referencia a uno de los literatos más importantes del Siglo de Oro, Francisco de Quevedo, y aprovecha su proximidad de la glorieta dedicada al mismo." ;
+	base:tieneHorario "Taquillas:   Mañanas: miércoles a domingos de 11 a 15 horas   Tardes:  2 horas antes de cada función" ;
+	base:tieneTelefono """914 457 193                  
+                       
+""" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroQuevedo> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroQuevedo> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroQuevedo> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroQuevedo> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroQuevedo> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroQuevedo> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroQuevedo> a base:TransportePublico ;
+	base:hayTransportePublico "metro: quevedo (línea 2), canal (líneas 2, 7)  bus: 3, 16, 37, 61, 149" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroQuevedo> a base:Posicion ;
+	base:tieneLatitud "4.043.560.652.525.370"^^xsd:long ;
+	base:tieneLongitud "-3.704.119.358.317.500"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroQuevedo> a base:Direccion ;
+	base:tieneNumero "18"^^xsd:int ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28015"^^xsd:int ;
+	base:tieneCalle "BRAVO MURILLO" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberi_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroQuevedo> a base:Metro ;
+	base:hayMetro "quevedo (línea 2), canal (líneas 2, 7)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroQuevedo> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroQuevedo> a base:Bus ;
+	base:hayBus "3, 16, 37, 61, 149 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroReinaVictoria> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Reina Victoria" ;
+	base:tieneDescripcion "Inaugurado el 10 de junio de 1916, fue construido según los planos del arquitecto José Espelius. Para la apertura, presidida por los reyes don Alfonso XIII y doña Victoria Eugenia, se eligió la obra El capricho de las damas.   La fachada es una de las más singulares de los teatros madrileños, con vidrieras de Maumejean y mosaicos de Talavera.  Tiene capacidad para más de 600 espectadores. De la decoración original del interior no queda ningún elemento. Sobre el patio de butacas se ve una claraboya que en sus primeros años se abría para ventilar la sala.  Durante la II República se llamó simplemente Victoria y en octubre de 1936 fue rebautizado con el nombre del dramaturgo Joaquín Dicenta. Aunque en su primera etapa produjo numerosos espectáculos musicales, acabó por ser uno de los teatros especializados en alta comedia. Y así sigue, dirigido actualmente por el empresario Enrique Cornejo." ;
+	base:tieneHorario "Días de cierre: lunes" ;
+	base:tieneTelefono "913 692 288" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroReinaVictoria> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroReinaVictoria> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroReinaVictoria> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroReinaVictoria> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroReinaVictoria> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroReinaVictoria> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroReinaVictoria> a base:TransportePublico ;
+	base:hayTransportePublico "metro: sol (líneas 1, 2 , 3) , sevilla (línea 2)  bus: 3, 5, 9, 15, 20, 46, 51, 52, 53, 150, m1, m2  renfe: sol" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroReinaVictoria> a base:Posicion ;
+	base:tieneLatitud "4.041.651.548.060.070"^^xsd:long ;
+	base:tieneLongitud "-3.699.818.451.104.120"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroReinaVictoria> a base:Direccion ;
+	base:tieneNumero "24"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28014"^^xsd:int ;
+	base:tieneCalle "SAN JERONIMO" ;
+	base:tieneTipoVia "CARRERA" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroReinaVictoria> a base:Metro ;
+	base:hayMetro "sol (líneas 1, 2 , 3) , sevilla (línea 2)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroReinaVictoria> a base:Renfe ;
+	base:hayRenfe "sol" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Puerta_del_Sol_(Madrid)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroReinaVictoria> a base:Bus ;
+	base:hayBus "3, 5, 9, 15, 20, 46, 51, 52, 53, 150, m1, m2  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroRialto> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Rialto" ;
+	base:tieneDescripcion "El teatro, situado en pleno corazón de la Gran Vía, tiene una capacidad para 1000 espectadores y es resultado de las obras de transformación del antiguo cine en un moderno escenario teatral." ;
+	base:tieneTelefono "910 839 500 (Taquilla)" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroRialto> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroRialto> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroRialto> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroRialto> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroRialto> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroRialto> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroRialto> a base:TransportePublico ;
+	base:hayTransportePublico "metro: santo domingo (línea 2) , callao (líneas 3, 5), gran via (líneas 1, 5), plaza de españa (líneas 3, 10)  bus: 1, 2, 3, 44, 46, 74, 75, 133, 146, 147, 148" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroRialto> a base:Posicion ;
+	base:tieneLatitud "4.042.138.841.205.710"^^xsd:long ;
+	base:tieneLongitud "-3.707.377.753.413.240"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroRialto> a base:Direccion ;
+	base:tieneNumero "54"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28013"^^xsd:int ;
+	base:tieneCalle "GRAN VIA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroRialto> a base:Metro ;
+	base:hayMetro "santo domingo (línea 2) , callao (líneas 3, 5), gran via (líneas 1, 5), plaza de españa (líneas 3, 10)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroRialto> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroRialto> a base:Bus ;
+	base:hayBus "1, 2, 3, 44, 46, 74, 75, 133, 146, 147, 148 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroSalaCuartaPared> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Sala Cuarta Pared" ;
+	base:tieneDescripcion "Centro de formación, investigación y producción teatral independiente creado en 1985 por un grupo de personas de diferentes procedencias teatrales. Entonces apostaron por una línea de continuidad frente a proyectos efímeros de mero interés económico. Su objetivo era convertirse en un núcleo dinamizador en una situación teatral con síntomas de parálisis. Hoy en día es un lugar de encuentro para todos los que pretenden vivir y conocer el teatro de una forma diferente." ;
+	base:tieneEquipamiento "Equipamientos:    Objetos perdidos  Restauración    Servicios:    Exhibición de espectáculos  Cursos de formación  Campañas de teatro para escolares  Escuela de teatro para niños y jóvenes" ;
+	base:tieneTelefono "915 172 317" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroSalaCuartaPared> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroSalaCuartaPared> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroSalaCuartaPared> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroSalaCuartaPared> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroSalaCuartaPared> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroSalaCuartaPared> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroSalaCuartaPared> a base:TransportePublico ;
+	base:hayTransportePublico "metro: embajadores (línea 3), acacias (línea 5)  bus: 27, 34, 36, 41, 60, 78, 116, 118, 119, 148, c  renfe: embajadores" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroSalaCuartaPared> a base:Posicion ;
+	base:tieneLatitud "40.402.777.112.937.400"^^xsd:long ;
+	base:tieneLongitud "-37.027.165.608.127.700"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroSalaCuartaPared> a base:Direccion ;
+	base:tieneNumero "17"^^xsd:int ;
+	base:tieneDistrito "ARGANZUELA" ;
+	base:tieneCodigoPostal "28005"^^xsd:int ;
+	base:tieneCalle "ERCILLA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroSalaCuartaPared> a base:Metro ;
+	base:hayMetro "embajadores (línea 3), acacias (línea 5)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroSalaCuartaPared> a base:Renfe ;
+	base:hayRenfe "embajadores" ;
+	owl:sameAs "http://dbpedia.org/resource/Acacias-Embajadores_(Madrid_Metro)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroSalaCuartaPared> a base:Bus ;
+	base:hayBus "27, 34, 36, 41, 60, 78, 116, 118, 119, 148, c  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroSanpol> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Sanpol" ;
+	base:tieneDescripcion "El teatro Sanpol es pionero en España al dedicarse en exclusiva al público infantil y juvenil. Dispone de una programación anual estable, que va de septiembre a junio." ;
+	base:tieneEquipamiento "Sala de lactancia  Objetos perdidos  Restauración" ;
+	base:tieneTelefono "915 419 089" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroSanpol> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroSanpol> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroSanpol> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroSanpol> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroSanpol> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroSanpol> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroSanpol> a base:TransportePublico ;
+	base:hayTransportePublico "metro: príncipe pío (líneas 6, 10, r)  bus: 41, 46, 75  renfe: príncipe pío" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroSanpol> a base:Posicion ;
+	base:tieneLatitud "404.239.449.097.705"^^xsd:long ;
+	base:tieneLongitud "-37.265.957.347.882.100"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroSanpol> a base:Direccion ;
+	base:tieneNumero "1"^^xsd:int ;
+	base:tieneDistrito "MONCLOA-ARAVACA" ;
+	base:tieneCodigoPostal "28008"^^xsd:int ;
+	base:tieneCalle "SAN POL DE MAR" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroSanpol> a base:Metro ;
+	base:hayMetro "príncipe pío (líneas 6, 10, r)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroSanpol> a base:Renfe ;
+	base:hayRenfe "príncipe pío" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Estación_de_Príncipe_Pío" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroSanpol> a base:Bus ;
+	base:hayBus "41, 46, 75  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroTribuene> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Tribueñe" ;
+	base:tieneDescripcion "De la mano del joven director y artista Hugo Pérez Rodríguez de la Pica y de la directora ucraniana Irina Kouberskaya , nace el Teatro Tribueñe en 2003. Un antiguo almacén de ferretería convertido en espacio teatral.  Se trata de una sencilla y acogedora sala, situada en los alrededores de la plaza de toros de las Ventas, cuya programación combina textos dramáticos con algunas obras más innovadoras y actuales.  Algunas de las obras representadas en el teatro han sido:  La casa de Bernarda Alba,   Por los ojos de Raquel Meller ,  Bodas de sangre ,  Dónde mira el ruiseñor cuando cruje una rama,  entre otras. Tanto Hugo Pérez como Irina Kouberskaya han recibido galardones como  El Ojo Crítico  de  RNE  en 2012 y el premio a la Mejor Dirección por  La casa de Bernarda Alba  de Federico García Lorca, entre otros." ;
+	base:tieneTelefono "912 427 727 / 913 553 390" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroTribuene> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroTribuene> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroTribuene> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroTribuene> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroTribuene> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroTribuene> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroTribuene> a base:TransportePublico ;
+	base:hayTransportePublico "metro: ventas (líneas 2, 5), manuel becerra (líneas 2, 6)  bus: 12, 110, 210" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroTribuene> a base:Posicion ;
+	base:tieneLatitud "40.425.569.368.259.800"^^xsd:long ;
+	base:tieneLongitud "-36.615.996.399.032.000"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroTribuene> a base:Direccion ;
+	base:tieneNumero "31"^^xsd:int ;
+	base:tieneDistrito "SALAMANCA" ;
+	base:tieneCodigoPostal "28028"^^xsd:int ;
+	base:tieneCalle "SANCHO DAVILA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroTribuene> a base:Metro ;
+	base:hayMetro "ventas (líneas 2, 5), manuel becerra (líneas 2, 6)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroTribuene> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroTribuene> a base:Bus ;
+	base:hayBus "12, 110, 210 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroValleInclan.CentroD> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Valle Inclán. Centro Drámatico Nacional" ;
+	base:tieneDescripcion "Antiguo edificio del Teatro Olimpia, que se inauguró en 1926 para inmediatamente después funcionar como sala cinematográfica. En 1974 se estrenó como sala de teatro y treinta años después pasa a depender del Centro Dramático Nacional. Tras una intensa remodelación y modernización de las instalaciones, en 2006 se reinaugura como Teatro Valle-Inclán en el barrio de Lavapiés.  Cuenta con dos modernos escenarios, el principal con aforo de 510 butacas y la denominada Sala Francisco Neiva, con disposición a la italiana y 150 butacas. Funciona como segunda sede del Centro Dramático Nacional y acoge la representación de la mitad de las obras de su programa, así como la visita de compañías extranjeras." ;
+	base:tieneEquipamiento "Objetos perdidos  Aparcamiento de pago" ;
+	base:tieneTelefono "915 058 801 " ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroValleInclan.CentroD> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroValleInclan.CentroD> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroValleInclan.CentroD> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroValleInclan.CentroD> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroValleInclan.CentroD> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroValleInclan.CentroD> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroValleInclan.CentroD> a base:TransportePublico ;
+	base:hayTransportePublico "metro: lavapiés (línea 3)  bus: 27, 34, 36, 41, 78, 119, c1, c2, e1, m1  renfe: embajadores" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroValleInclan.CentroD> a base:Posicion ;
+	base:tieneLatitud "4.040.800.690.285.840"^^xsd:long ;
+	base:tieneLongitud "-37.004.845.788.684.900"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroValleInclan.CentroD> a base:Direccion ;
+	base:tieneNumero "1"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28012"^^xsd:int ;
+	base:tieneCalle "VALENCIA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroValleInclan.CentroD> a base:Metro ;
+	base:hayMetro "lavapiés (línea 3)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroValleInclan.CentroD> a base:Renfe ;
+	base:hayRenfe "embajadores" ;
+	owl:sameAs "http://dbpedia.org/resource/Acacias-Embajadores_(Madrid_Metro)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroValleInclan.CentroD> a base:Bus ;
+	base:hayBus "27, 34, 36, 41, 78, 119, c1, c2, e1, m1  " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatroVictoria> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro Victoria" ;
+	base:tieneDescripcion "El Teatro Victoria, situado en el barrio de  Malasaña , ofrece una cuidada selección de obras de teatro; comedias, monólogos, musicales y teatro infantil. Pretende rescatar obras clásicas intentando aportar en ellas las nuevas técnicas y aportaciones artísticas que ofrece la modernidad" ;
+	base:tieneHorario "Días de cierre: lunes y martes" ;
+	base:tieneEquipamiento "Aparcamiento de pago" ;
+	base:tieneTelefono "915 228 730 " ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroVictoria> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroVictoria> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroVictoria> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroVictoria> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroVictoria> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroVictoria> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatroVictoria> a base:TransportePublico ;
+	base:hayTransportePublico "metro: noviciado (línea 2) santo domingo (línea 2), plaza de españa (líneas 2, 3, 10)  bus: 1, 2, 3, 44, 46, 74, 75, 133, 146, 147, 148, m2" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatroVictoria> a base:Posicion ;
+	base:tieneLatitud "4.042.378.660.181.590"^^xsd:long ;
+	base:tieneLongitud "-3.705.611.071.847.050"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatroVictoria> a base:Direccion ;
+	base:tieneNumero "17"^^xsd:int ;
+	base:tieneDistrito "CENTRO" ;
+	base:tieneCodigoPostal "28004"^^xsd:int ;
+	base:tieneCalle "PEZ" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatroVictoria> a base:Metro ;
+	base:hayMetro "noviciado (línea 2) santo domingo (línea 2), plaza de españa (líneas 2, 3, 10)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatroVictoria> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatroVictoria> a base:Bus ;
+	base:hayBus "1, 2, 3, 44, 46, 74, 75, 133, 146, 147, 148, m2 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/Teatro.ArtEspacioPlotPoin> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatro. ArtEspacio Plot Point" ;
+	base:tieneDescripcion "Plot Point tiene su propia compañía teatral y ofrece un programa muy completo de representaciones. Además de sala de  espectáculos, también es escuela de teatro, cine y televisión donde los nuevos talentos pueden desarrollarse y vivir la interpretación de forma apasionada." ;
+	base:tieneTelefono "914 749 765" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/Teatro.ArtEspacioPlotPoin> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/Teatro.ArtEspacioPlotPoin> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/Teatro.ArtEspacioPlotPoin> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/Teatro.ArtEspacioPlotPoin> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/Teatro.ArtEspacioPlotPoin> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/Teatro.ArtEspacioPlotPoin> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/Teatro.ArtEspacioPlotPoin> a base:TransportePublico ;
+	base:hayTransportePublico "metro: embajadores (línea 3), acacias (línea 5)  bus: 34, 36, 55, 60, 78, 116, 118, 119, 148" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/Teatro.ArtEspacioPlotPoin> a base:Posicion ;
+	base:tieneLatitud "4.040.192.531.437.170"^^xsd:long ;
+	base:tieneLongitud "-37.020.477.784.084.700"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/Teatro.ArtEspacioPlotPoin> a base:Direccion ;
+	base:tieneNumero "29"^^xsd:int ;
+	base:tieneDistrito "ARGANZUELA" ;
+	base:tieneCodigoPostal "28005"^^xsd:int ;
+	base:tieneCalle "ERCILLA" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/Teatro.ArtEspacioPlotPoin> a base:Metro ;
+	base:hayMetro "embajadores (línea 3), acacias (línea 5)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/Teatro.ArtEspacioPlotPoin> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/Teatro.ArtEspacioPlotPoin> a base:Bus ;
+	base:hayBus "34, 36, 55, 60, 78, 116, 118, 119, 148 " .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Parque/TeatrosdelCanal> a base:SitioTuristico , base:Parque ;
+	base:tieneNombre "Teatros del Canal" ;
+	base:tieneDescripcion "Moderno complejo de 35.200 metros cuadrados dedicados a las artes escénicas. El edificio, Premio Nacional de Arquitectura, es obra del arquitecto Juan Navarro Baldeweg y fue inaugurado en 2009 con las últimas novedades tecnológicas en el barrio de Chamberí.   Se compone de dos modernos teatros (Sala Roja y Sala Verde), una sala de ensayos (Sala Negra) y el Centro Danza Canal.  Su programación apuesta por la calidad técnica y la excelencia artística. La sala acoge desde textos clásicos y piezas modernas hasta conciertos, danza, flamenco, zarzuela, ópera, circo o cabaret." ;
+	base:tieneHorario "Taquillas  (Calle Cea Bermúdez, 1): de 14:30 h a 21 horas., todos los días. La taquilla estará cerrada del 6 de julio al 5 de agosto (inclusive)." ;
+	base:tieneEquipamiento "Espacios escénicos:  los Teatros del Canal acogen dos grandes teatros abiertos al público, la Sala Roja y la Sala Verde, que, desde su apertura en febrero de 2009  han recibido a más de 600.000 espectadores, más de 1.500 representaciones y  331 montajes. Además, los Teatros disponen de una Sala Negra o de Ensayos, de uso interno, cuyo escenario reproduce las dimensiones de la Sala Roja.    Sala Roja     Aforo: 863 localidades (platea, 595; anfiteatro, 248 y palcos, 20)  Aforo con foso de orquesta: 799 localidades     Sala Verde     Aforo máximo: 777 localidades   Configuración clásica: 441 localidades   Configuración con público en laterales de escenario: 605 localidades  Configuración con público en 4 lados del escenario: 777 localidades     Sala Negra     Superficie escenario: 22 x 8 metros  Aforo: 180 localidades    Centro Danza Canal:  es un  espacio artístico dedicado a la creación y difusión de la danza en todas sus variedades, lenguajes y estilos. Entre sus objetivos principales, se encuentra el de apoyar a las compañías de danza, dinamizando su actividad y ofreciendo el entorno de trabajo más apropiado a sus profesionales." ;
+	base:tieneTelefono """913 089 999  / 913 089 950                  
+                  
+""" ;
+	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatrosdelCanal> ;
+	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatrosdelCanal> ;
+	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatrosdelCanal> ;
+	base:tieneMetro <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatrosdelCanal> ;
+	base:tieneBus <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatrosdelCanal> ;
+	base:tieneRenfe <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatrosdelCanal> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TeatrosdelCanal> a base:TransportePublico ;
+	base:hayTransportePublico "metro: canal (líneas 2, 7)  bus: 3, 12, 37, 149" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TeatrosdelCanal> a base:Posicion ;
+	base:tieneLatitud "4.043.854.675.141.600"^^xsd:long ;
+	base:tieneLongitud "-3.705.057.921.443.050"^^xsd:long .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TeatrosdelCanal> a base:Direccion ;
+	base:tieneNumero "1"^^xsd:int ;
+	base:tieneDistrito "CHAMBERI" ;
+	base:tieneCodigoPostal "28003"^^xsd:int ;
+	base:tieneCalle "CEA BERMUDEZ" ;
+	base:tieneTipoVia "CALLE" ;
+	owl:sameAs <http://dbpedia.org/resource/Chamberi_(Madrid)> .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TeatrosdelCanal> a base:Metro ;
+	base:hayMetro "canal (líneas 2, 7)" .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Renfe/TeatrosdelCanal> a base:Renfe .
+
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/TeatrosdelCanal> a base:Bus ;
+	base:hayBus "3, 12, 37, 149 " .

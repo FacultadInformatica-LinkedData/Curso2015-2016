@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="www.worldstuff.org/world.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="www.worldstuff.org/world.owl">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CountryLanguage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CoLa_hasCountryCode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CoLa_hasLanguage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#cit_hasCountryCode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#cit_hasID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#co_hasCapital"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#co_hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CoLa_CountryCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CoLa_IsOfficial"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CoLa_Language"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CoLa_Percentage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Co_Capital"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Co_Code"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Co_Code2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Co_Continent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Co_GNP"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Co_GNPOld"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Co_GovernmentForm"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Co_HeadOfState"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Co_IndepYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Co_LifeExpectancy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Co_LocalName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Co_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Co_Population"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Co_Region"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Co_SurfaceArea"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cit_CountryCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cit_District"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cit_ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cit_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cit_Population"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CoLa_hasCountryCode"/>
+        <Class IRI="#CountryLanguage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CoLa_hasLanguage"/>
+        <Class IRI="#CountryLanguage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#cit_hasCountryCode"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#cit_hasID"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#co_hasCapital"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#co_hasName"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CoLa_hasCountryCode"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CoLa_hasLanguage"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#cit_hasCountryCode"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#co_hasCapital"/>
+        <Class IRI="#City"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CoLa_CountryCode"/>
+        <Class IRI="#CountryLanguage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CoLa_IsOfficial"/>
+        <Class IRI="#CountryLanguage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CoLa_Language"/>
+        <Class IRI="#CountryLanguage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CoLa_Percentage"/>
+        <Class IRI="#CountryLanguage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Co_Capital"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Co_Code"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Co_Code2"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Co_Continent"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Co_GNP"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Co_GNPOld"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Co_GovernmentForm"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Co_HeadOfState"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Co_IndepYear"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Co_LifeExpectancy"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Co_LocalName"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Co_Name"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Co_Population"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Co_Region"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Co_SurfaceArea"/>
+        <Class IRI="#Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cit_CountryCode"/>
+        <Class IRI="#City"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cit_District"/>
+        <Class IRI="#City"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cit_ID"/>
+        <Class IRI="#City"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cit_Name"/>
+        <Class IRI="#City"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cit_Population"/>
+        <Class IRI="#City"/>
+    </DataPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

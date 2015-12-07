@@ -1,0 +1,51 @@
+#Viviana A. Vazquez Goncalves u120063
+
+#1
+
+SELECT (SUM(?y) AS ?result) WHERE {
+	?obs a qb:Observation ;
+	mv:relatedDistrict ?z ;
+	mv:hasAccidentType ?x ;
+	mv:numberOfAccidents ?y ;
+	qb:dataSet mn:MyDataset .
+}
+
+#2
+
+SELECT ?x ?y WHERE {
+	?obs a qb:Observation ;
+	mv:relatedDistrict "USERA" ;
+	mv:hasAccidentType ?x ;
+	mv:numberOfAccidents ?y ;
+	qb:dataSet mn:MyDataset .
+}
+
+#3
+
+SELECT ?z ?y WHERE {
+	?obs a qb:Observation ;
+	mv:relatedDistrict ?z ;
+	mv:hasAccidentType mv:MultipleCollision ;
+	mv:numberOfAccidents ?y ;
+	qb:dataSet mn:MyDataset .
+}
+
+#4
+
+SELECT ?maxD (MAX(?x) AS ?maxN) WHERE {
+    ?obs a qb:Observation ;
+   	mv:relatedDistrict ?maxD ;
+   	mv:hasAccidentType mv:BicycleFall ;
+	mv:numberOfAccidents ?x ;
+	qb:dataSet mn:MyDataset .
+} 
+
+#5
+
+SELECT ?z WHERE {
+	?obs a qb:Observation ;
+	mv:relatedDistrict  ?z ;
+	mv:hasAccidentType  ?x ;
+	qb:dataSet mn:MyDataset ;
+	mv:numberOfAccidents ?y . FILTER (?y > 500)
+}

@@ -1,0 +1,72 @@
+##### Jorge Munioz Pedrazuela s100104 #####
+
+1)
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+select (SUM(?accidents) AS ?Accidents)
+where {
+    ?objects a qb:Observation;
+    mv:numberOfAccidents ?accidents .
+}
+
+
+2)
+PREFIX property: <http://geo.linkeddata.es/stats/property#>
+PREFIX mn: <http://example.org/resources/>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+
+select ?tipos ?accidents WHERE {
+  ?objects a qb:Observation;
+	mv:relatedDistrict  "USERA";
+	mv:hasAccidentType ?type ;
+	mv:numberOfAccidents ?accidents ;
+	qb:dataSet mn:MyDataset . }
+
+
+3)
+PREFIX property: <http://geo.linkeddata.es/stats/property#>
+PREFIX mn: <http://example.org/resources/>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+
+select ?district ?accidents WHERE {
+  ?objects a qb:Observation;
+	mv:relatedDistrict ?district;
+	mv:hasAccidentType mv:MultipleCollision ;
+	mv:numberOfAccidents ?accidents ;
+	qb:dataSet mn:MyDataset . }
+
+
+4)
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT ?dis WHERE {
+  ?objects a qb:Observation ;
+  mv:relatedDistrict ?dis ;
+  mv:hasAccidentType mv:BicycleFall ;
+  mv:numberOfAccidents ?y . }
+  ORDER BY DESC(?y) LIMIT 1
+
+
+5)
+PREFIX mn: <http://example.org/resources/>
+PREFIX property: <http://geo.linkeddata.es/stats/property#>
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+
+select ?district WHERE {
+  ?objects a qb:Observation ;
+	mv:relatedDistrict ?district;
+	mv:hasAccidentType ?type ;
+	qb:dataSet mn:MyDataset ;
+	mv:numberOfAccidents ?accidents .
+  FILTER (?accidents > 500) }
+
+

@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/borja/ontologies/2015/11/untitled-ontology-8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/borja/ontologies/2015/11/untitled-ontology-8">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#Library"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LibraryBus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LibraryEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#URL"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Wifi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#disabledAccess"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#district"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#email"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fax"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#latitude"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#locality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#longitude"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#neighbourhood"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#phone"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#province"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#publicTransport"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quipment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#roadName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#roadNumber"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#roadType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#timetable"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#zipCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name1"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#URL"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Wifi"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#description"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#disabledAccess"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#district"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#email"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#fax"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEvent"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#latitude"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#locality"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#longitude"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#name"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#neighbourhood"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#phone"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#province"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#publicTransport"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quipment"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#roadName"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#roadNumber"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#roadType"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#timetable"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#zipCode"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name1"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

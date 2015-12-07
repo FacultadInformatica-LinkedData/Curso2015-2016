@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://websemantica.es"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://websemantica.es"
+     versionIRI="http://websemantica.es">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="/world#City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/world#Idioma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/world#Pais"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/Pais/PerteneceAPais"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/Pais/TieneCapital"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/City/Codigo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/City/Distrito"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/City/ID"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/City/Nombre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/City/Poblacion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Idioma/EsOficial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Idioma/Idioma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Idioma/Pais"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Idioma/Porcentaje"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Pais/AnioIndependencia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Pais/AreaSuperficie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Pais/Capital"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Pais/Code2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Pais/Codigo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Pais/Continente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Pais/EsperanzaVida"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Pais/FormaDeGobierno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Pais/GNP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Pais/GNPold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Pais/Nombre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Pais/NombreLocal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Pais/Poblacion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Pais/PrimerMinistro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Pais/Region"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="/world#City"/>
+        <NamedIndividual IRI="/City/Codigo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#City"/>
+        <NamedIndividual IRI="/City/Distrito"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#City"/>
+        <NamedIndividual IRI="/City/ID"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#City"/>
+        <NamedIndividual IRI="/City/Nombre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#City"/>
+        <NamedIndividual IRI="/City/Poblacion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Idioma"/>
+        <NamedIndividual IRI="/Idioma/EsOficial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Idioma"/>
+        <NamedIndividual IRI="/Idioma/Idioma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Idioma"/>
+        <NamedIndividual IRI="/Idioma/Pais"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Idioma"/>
+        <NamedIndividual IRI="/Idioma/Porcentaje"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Pais"/>
+        <NamedIndividual IRI="/Pais/AnioIndependencia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Pais"/>
+        <NamedIndividual IRI="/Pais/AreaSuperficie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Pais"/>
+        <NamedIndividual IRI="/Pais/Capital"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Pais"/>
+        <NamedIndividual IRI="/Pais/Code2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Pais"/>
+        <NamedIndividual IRI="/Pais/Codigo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Pais"/>
+        <NamedIndividual IRI="/Pais/Continente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Pais"/>
+        <NamedIndividual IRI="/Pais/EsperanzaVida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Pais"/>
+        <NamedIndividual IRI="/Pais/FormaDeGobierno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Pais"/>
+        <NamedIndividual IRI="/Pais/GNP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Pais"/>
+        <NamedIndividual IRI="/Pais/GNPold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Pais"/>
+        <NamedIndividual IRI="/Pais/Nombre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Pais"/>
+        <NamedIndividual IRI="/Pais/NombreLocal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Pais"/>
+        <NamedIndividual IRI="/Pais/Poblacion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Pais"/>
+        <NamedIndividual IRI="/Pais/PrimerMinistro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/world#Pais"/>
+        <NamedIndividual IRI="/Pais/Region"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/Pais/PerteneceAPais"/>
+        <Class IRI="/world#City"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/Pais/PerteneceAPais"/>
+        <Class IRI="/world#Idioma"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/Pais/TieneCapital"/>
+        <Class IRI="/world#Pais"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/Pais/PerteneceAPais"/>
+        <Class IRI="/world#Pais"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/Pais/TieneCapital"/>
+        <Class IRI="/world#City"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,497 @@
+<html>
+	<body>
+	
+	<h1>Analisis CSV</h1>
+	
+	<h2>Accesibilidad en Madrid</h2>
+	<h3>202584 0 aparcamientos residentes csv.csv</h3>
+	<table>
+		<tr>
+			<th>Column</th>
+			<th>Type</th>
+			<th>Comments/Range</th>
+			<th>Problems</th>
+		</tr>
+		<tr>
+			<td>PK</td>
+			<td>Numeric</td>
+			<td>13457 - 8087180</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Nombre</td>
+			<td>Text</td>
+			<td>Not null</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Descripcion-Entidad</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Horario</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Equipamiento</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Transporte</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Descripción</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Accesibilidad</td>
+			<td>Numeric</td>
+			<td>[0,1]</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Content-url</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Nombre-via</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Clase-vial</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Tipo-num</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Num</td>
+			<td>Number</td>
+			<td>0-205</td>
+			<td>Hay problemas porque algunas columnas llevan guiones y/o letras</td>
+		</tr>
+		<tr>
+			<td>Planta</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Puerta</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Escaleras</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Orientacion</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Localidad</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Provincia</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Codigo-postal</td>
+			<td>Numeric</td>
+			<td>28001-28053</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Barrio</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Distrito</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Coordenada-x</td>
+			<td>Numeric</td>
+			<td>0-450628</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Coordenada-y</td>
+			<td>Numeric</td>
+			<td>0-4483030</td>
+			<td>Hay una columna con coordenada x 0</td>
+		</tr>
+		<tr>
+			<td>Coordenada-y</td>
+			<td>Numeric</td>
+			<td>0-4483030</td>
+			<td>Hay una fila a 0</td>
+		</tr>
+		<tr>
+			<td>Latitud</td>
+			<td>Numeric</td>
+			<td>0-4483030</td>
+			<td>Hay una fila a 0</td>
+		</tr>
+		<tr>
+			<td>Latitud</td>
+			<td>Numeric</td>
+			<td>40.34275979067738-40.49390694682075</td>
+			<td>Hay una fila vacía</td>
+		</tr>
+		<tr>
+			<td>Longitud</td>
+			<td>Numeric</td>
+			<td>[-3.78317943069732, 
+-3.5836170692241147]</td>
+			<td>Hay una fila vacía</td>
+		</tr>
+		<tr>
+			<td>Telefono</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>FAX</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+	</table>
+
+	<h3>estacionamiento_personas_movilidad_reducida.csv</h3>
+
+	<table>
+		<tr>
+			<th>Column</th>
+			<th>Type</th>
+			<th>Comments/Range</th>
+			<th>Problems</th>
+		</tr>
+		<tr>
+			<td>Gis_X</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>Hay números almacenados como texto</td>
+		</tr>
+		<tr>
+			<td>Gis_Y</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>Hay números almacenados como texto</td>
+		</tr>
+		<tr>
+			<td>Distrito</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Barrio</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Calle</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Numero de finca</td>
+			<td>Numeric</td>
+			<td>1-2099</td>
+			<td>Hay texto en vez de números</td>
+		</tr>
+		<tr>
+			<td>Numero de plazas</td>
+			<td>Numeric</td>
+			<td>[1-2]</td>
+			<td>No hay problemas</td>
+		</tr>
+	</table>
+
+	<h3>ubicacion pasos peatones con avisadores acusticos.csv</h3>
+	
+	<table>
+		<tr>
+			<th>Column</th>
+			<th>Type</th>
+			<th>Comments/Range</th>
+			<th>Problems</th>
+		</tr>
+		<tr>
+			<td>IDELEM</td>
+			<td>Numeric</td>
+			<td>2-8117</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>LOCALIACI</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Num</td>
+			<td>Numeric</td>
+			<td>0-1050</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Tipo</td>
+			<td>Numeric</td>
+			<td>[501-502]</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>Observ</td>
+			<td>Text</td>
+			<td></td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>lon0</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>Numeros insertados como texto</td>
+		</tr>
+	</table>
+
+	<h3>205712-0-servicios-sociales.csv</h3>
+	
+	<table>
+		<tr>
+			<th>Column</th>
+			<th>Type</th>
+			<th>Comments/Range</th>
+			<th>Problems</th>
+		</tr>
+		<tr>
+			<td>PK</td>
+			<td>Numeric</td>
+			<td>1143-7828344</td>
+			<td>No hay problema</td>
+		</tr>
+		<tr>
+			<td>Nombre</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problema</td>
+		</tr>
+		<tr>
+			<td>DESCRIPCION-ENTIDAD</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problema</td>
+		</tr>
+		<tr>
+			<td>HORARIO</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problema</td>
+		</tr>
+		<tr>
+			<td>EQUIPAMIENTO</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problema</td>
+		</tr>
+		<tr>
+			<td>TRANSPORTE</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problema</td>
+		</tr>
+		<tr>
+			<td>DESCRIPCION</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problema</td>
+		</tr>
+		<tr>
+			<td>ACCESIBILIDAD</td>
+			<td>NUMERIC</td>
+			<td>[0,1]</td>
+			<td>No hay problema</td>
+		</tr>
+		<tr>
+			<td>CONTENT-URL</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problema</td>
+		</tr>
+		<tr>
+			<td>NOMBRE-VIA</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problema</td>
+		</tr>
+		<tr>
+			<td>CLASE-VIAL</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problema</td>
+		</tr>
+		<tr>
+			<td>TIPO-NUM</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problema</td>
+		</tr>
+		<tr>
+			<td>NUM</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>Hay numeros en alguna filas</td>
+		</tr>
+		<tr>
+			<td>PUERTA</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>ESCALERA</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>ORIENTACION</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>LOCALIDAD</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>PROVINCIA</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>CODIGO-POSTAL</td>
+			<td>Numeric</td>
+			<td>0-28054</td>
+			<td>Hay filas con 0</td>
+		</tr>
+		<tr>
+			<td>barrio</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>DISTRITO</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>COORDENADAS-X</td>
+			<td>Numeric</td>
+			<td>430242-453347</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>COORDENADAS-Y</td>
+			<td>Numeric</td>
+			<td>4465998-4490699</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>LATITUD</td>
+			<td>Numeric</td>
+			<td>4046211235641-40499795345175500</td>
+			<td>Hay filas vacías</td>
+		</tr>
+		<tr>
+			<td>LONGITUD</td>
+			<td>Numeric</td>
+			<td> 
+[-38242111422888800,
+-367467246143936]</td>
+			<td>Hay filas vacías</td>
+		</tr>
+		<tr>
+			<td>TELEFONO</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>FAX</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>DISTRITO</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>EMAIL</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+		<tr>
+			<td>TIPO</td>
+			<td>Text</td>
+			<td>-</td>
+			<td>No hay problemas</td>
+		</tr>
+	</body>
+</html>
+

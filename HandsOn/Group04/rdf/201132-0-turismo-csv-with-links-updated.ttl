@@ -1,3 +1,4 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -19,8 +20,8 @@
 	base:hayTransportePublico "metro: rubén darío (línea 5)  bus: 5, 14, 27, 45, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ArtePublico,MuseoalAireLi> a base:Posicion ;
-	base:tieneLatitud "40.433.219.398.671.100"^^xsd:long ;
-	base:tieneLongitud "-36.876.122.680.805.900"^^xsd:long .
+	geo:lat "40.433.219.398.671.100"^^xsd:double ;
+	geo:long "-36.876.122.680.805.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ArtePublico,MuseoalAireLi> a base:Direccion ;
 	base:tieneNumero "40"^^xsd:int ;
@@ -57,8 +58,8 @@
 	base:hayTransportePublico "metro: sol (líneas: 1, 2 y 3)  bus: 3, 50" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/Casa-MuseodelRatoncitoPer> a base:Posicion ;
-	base:tieneLatitud "4.041.704.834.412.290"^^xsd:long ;
-	base:tieneLongitud "-37.055.288.844.865.200"^^xsd:long .
+	geo:lat "4.041.704.834.412.290"^^xsd:double ;
+	geo:long "-37.055.288.844.865.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/Casa-MuseodelRatoncitoPer> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
@@ -95,8 +96,8 @@
 	base:hayTransportePublico "metro: antón martín (línea 1)   bus: 6, 9, 10, 14, 26, 27, 32, 34, 37, 45, 57" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CasaMuseoLopedeVega> a base:Posicion ;
-	base:tieneLatitud "40.414.358.466.555.200"^^xsd:long ;
-	base:tieneLongitud "-36.974.741.545.860.000"^^xsd:long .
+	geo:lat "40.414.358.466.555.200"^^xsd:double ;
+	geo:long "-36.974.741.545.860.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasaMuseoLopedeVega> a base:Direccion ;
 	base:tieneNumero "11"^^xsd:int ;
@@ -131,8 +132,8 @@
 	base:hayTransportePublico "metro: alameda de osuna (línea 5), el capricho (línea 5)  bus: 101, 105, 112, 114, 115 y 151" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CastillodelaAlameda> a base:Posicion ;
-	base:tieneLatitud "4.045.835.460.563.490"^^xsd:long ;
-	base:tieneLongitud "-35.932.903.820.278.700"^^xsd:long .
+	geo:lat "4.045.835.460.563.490"^^xsd:double ;
+	geo:long "-35.932.903.820.278.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CastillodelaAlameda> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -169,8 +170,8 @@
 	base:hayTransportePublico "metro: atocha (línea 1)  bus: 19, 10, 14, 27, 34, 37, 45  renfe: atocha" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CasondelBuenRetiro> a base:Posicion ;
-	base:tieneLatitud "40.415.263.749.471.500"^^xsd:long ;
-	base:tieneLongitud "-3.689.232.811.717.630"^^xsd:long .
+	geo:lat "40.415.263.749.471.500"^^xsd:double ;
+	geo:long "-3.689.232.811.717.630"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasondelBuenRetiro> a base:Direccion ;
 	base:tieneNumero "28"^^xsd:int ;
@@ -211,8 +212,8 @@
 	base:hayTransportePublico "metro: embajadores (línea 3), lavapies (línea 3), atocha (línea 1)   bus: 27, 34, 36, 41, 68, 69, 119   renfe: embajadores" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocialyCulturallaCa> a base:Posicion ;
-	base:tieneLatitud "4.040.595.710.517.700"^^xsd:long ;
-	base:tieneLongitud "-3.699.779.793.558.760"^^xsd:long .
+	geo:lat "4.040.595.710.517.700"^^xsd:double ;
+	geo:long "-3.699.779.793.558.760"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocialyCulturallaCa> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -249,8 +250,8 @@
 	base:hayTransportePublico "metro: príncipe pío (líneas 5, 10 y ramal ópera - príncipe pío)  bus: 41, 46 y 75 (intercambiador príncipe pío)  renfe: príncipe pío" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ErmitadeSanAntoniodelaFlo> a base:Posicion ;
-	base:tieneLatitud "40.425.256.682.855.800"^^xsd:long ;
-	base:tieneLongitud "-3.725.725.718.176.110"^^xsd:long .
+	geo:lat "40.425.256.682.855.800"^^xsd:double ;
+	geo:long "-3.725.725.718.176.110"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ErmitadeSanAntoniodelaFlo> a base:Direccion ;
 	base:tieneNumero "5"^^xsd:int ;
@@ -289,8 +290,8 @@
 	base:hayTransportePublico "metro: gran vía (líneas 1, 5)  bus: 1, 2, 46, 74, 146, 202" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/EspacioFundacionTelefonic> a base:Posicion ;
-	base:tieneLatitud "4.042.041.458.612.880"^^xsd:long ;
-	base:tieneLongitud "-37.016.034.186.955.000"^^xsd:long .
+	geo:lat "4.042.041.458.612.880"^^xsd:double ;
+	geo:long "-37.016.034.186.955.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/EspacioFundacionTelefonic> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
@@ -323,8 +324,8 @@
 	base:hayTransportePublico "bus: 161, i" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/FundacionAMYC,ArteModerno> a base:Posicion ;
-	base:tieneLatitud "4.045.546.180.290.310"^^xsd:long ;
-	base:tieneLongitud "-37.705.836.264.842.500"^^xsd:long .
+	geo:lat "4.045.546.180.290.310"^^xsd:double ;
+	geo:long "-37.705.836.264.842.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/FundacionAMYC,ArteModerno> a base:Direccion ;
 	base:tieneNumero "11"^^xsd:int ;
@@ -357,8 +358,8 @@
 	base:hayTransportePublico "metro: callao (líneas 3, 5) , santo domingo (línea 2) , sol (líneas 1, 2, 3) gran vía (líneas 1, 5)  bus: 1, 2, 3, 5, 15, 20, 25, 39, 40, 44, 46, 50, 51, 52, 53, 74, 75, 133, 146, 147, 148, 149, 150, 202" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MonasteriodelasDescalzasR> a base:Posicion ;
-	base:tieneLatitud "40.418.233.359.889.400"^^xsd:long ;
-	base:tieneLongitud "-3.706.213.134.639.160"^^xsd:long .
+	geo:lat "40.418.233.359.889.400"^^xsd:double ;
+	geo:long "-3.706.213.134.639.160"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MonasteriodelasDescalzasR> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
@@ -391,8 +392,8 @@
 	base:hayTransportePublico "metro: san bernardo (líneas 2, 4), noviciado (línea 2), ventura rodríguez (línea 3), plaza de españa (líneas 3, 10)  bus: m2, 3, 147" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoABC> a base:Posicion ;
-	base:tieneLatitud "4.042.740.213.531.280"^^xsd:long ;
-	base:tieneLongitud "-370.955.095.379.701"^^xsd:long .
+	geo:lat "4.042.740.213.531.280"^^xsd:double ;
+	geo:long "-370.955.095.379.701"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoABC> a base:Direccion ;
 	base:tieneNumero "29"^^xsd:int ;
@@ -425,8 +426,8 @@
 	base:hayTransportePublico "bus: 11, 70, 114, 115, 122, 200" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoAfricanoMundoNegro> a base:Posicion ;
-	base:tieneLatitud "40.449.455.579.055.800"^^xsd:long ;
-	base:tieneLongitud "-3.651.503.432.956.760"^^xsd:long .
+	geo:lat "40.449.455.579.055.800"^^xsd:double ;
+	geo:long "-3.651.503.432.956.760"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoAfricanoMundoNegro> a base:Direccion ;
 	base:tieneNumero "101"^^xsd:int ;
@@ -465,8 +466,8 @@
 	base:hayTransportePublico "metro: serrano (línea 4), colón (línea 4), velázquez (línea 4)  bus: 1, 2, 5, 9, 14, 15, 19, 20, 21, 27, 28, 37, 45, 51, 52, 53, 74, 146, 150, 203  renfe: recoletos (línea c-1, c-2, c-7, c-8 y c-10)" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoArqueologicoNacional> a base:Posicion ;
-	base:tieneLatitud "4.042.326.842.040.790"^^xsd:long ;
-	base:tieneLongitud "-36.884.539.762.461.900"^^xsd:long .
+	geo:lat "4.042.326.842.040.790"^^xsd:double ;
+	geo:long "-36.884.539.762.461.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoArqueologicoNacional> a base:Direccion ;
 	base:tieneNumero "13"^^xsd:int ;
@@ -503,8 +504,8 @@
 	base:hayTransportePublico "metro: o&acute;donnell (línea 6)  bus: 2, 28, 30, 56, 71, 143, c" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoCasadelaMoneda> a base:Posicion ;
-	base:tieneLatitud "4.042.258.896.520.150"^^xsd:long ;
-	base:tieneLongitud "-36.691.501.169.061.000"^^xsd:long .
+	geo:lat "4.042.258.896.520.150"^^xsd:double ;
+	geo:long "-36.691.501.169.061.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoCasadelaMoneda> a base:Direccion ;
 	base:tieneNumero "36"^^xsd:int ;
@@ -538,8 +539,8 @@
 	base:hayTransportePublico "metro: ventura rodríguez (línea 3), plaza de españa (líneas 3, 10)  bus: 1, 2, 3, 25, 39, 44, 46, 74, 75, 133, 138, 148, 202, 749, c1, c2" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoCerralbo> a base:Posicion ;
-	base:tieneLatitud "4.042.376.732.078.650"^^xsd:long ;
-	base:tieneLongitud "-37.146.170.388.153.400"^^xsd:long .
+	geo:lat "4.042.376.732.078.650"^^xsd:double ;
+	geo:long "-37.146.170.388.153.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoCerralbo> a base:Direccion ;
 	base:tieneNumero "17"^^xsd:int ;
@@ -573,8 +574,8 @@
 	base:hayTransportePublico "metro: banco de españa (línea 2) , sevilla (línea 2)  bus: 5, 9, 15, 10, 14, 27, 34, 37, 45, 51, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoColeccionesdelInstit> a base:Posicion ;
-	base:tieneLatitud "4.041.675.330.128.860"^^xsd:long ;
-	base:tieneLongitud "-36.977.346.235.068.300"^^xsd:long .
+	geo:lat "4.041.675.330.128.860"^^xsd:double ;
+	geo:long "-36.977.346.235.068.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoColeccionesdelInstit> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
@@ -608,8 +609,8 @@
 	base:hayTransportePublico "metro: cuatro vientos (línea 10)  bus: 518, 521, 522, 523" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeAeronauticayAstron> a base:Posicion ;
-	base:tieneLatitud "403.733.013.700.739"^^xsd:long ;
-	base:tieneLongitud "-3.798.200.034.372.680"^^xsd:long .
+	geo:lat "403.733.013.700.739"^^xsd:double ;
+	geo:long "-3.798.200.034.372.680"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeAeronauticayAstron> a base:Direccion ;
 	base:tieneNumero "10.5"^^xsd:int ;
@@ -647,8 +648,8 @@
 	base:hayTransportePublico "metro: moncloa (líneas 3, 6) bus: 1, 12, 44, 82, 132" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeAmerica> a base:Posicion ;
-	base:tieneLatitud "4.043.797.469.898.850"^^xsd:long ;
-	base:tieneLongitud "-3.721.841.843.311.360"^^xsd:long .
+	geo:lat "4.043.797.469.898.850"^^xsd:double ;
+	geo:long "-3.721.841.843.311.360"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeAmerica> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
@@ -680,8 +681,8 @@
 	base:hayTransportePublico "metro: ventura rodríguez (línea 3), plaza de españa líneas 3, 10), san bernardo (líneas 2, 4), noviciado (línea 7, 10)  bus: 1, 2, 21, 44, 74, 133, c, m2  renfe: príncipe pío" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeArteContemporaneod> a base:Posicion ;
-	base:tieneLatitud "4.042.737.760.210.630"^^xsd:long ;
-	base:tieneLongitud "-37.106.116.887.809.800"^^xsd:long .
+	geo:lat "4.042.737.760.210.630"^^xsd:double ;
+	geo:long "-37.106.116.887.809.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeArteContemporaneod> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
@@ -717,8 +718,8 @@
 	base:hayTransportePublico "metro: la latina (línea 5)  bus: 41, 60, 148 y circular  renfe: embajadores /atocha" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeArtesyTradicionesP> a base:Posicion ;
-	base:tieneLatitud "40.408.814.891.299.500"^^xsd:long ;
-	base:tieneLongitud "-37.083.421.466.389.100"^^xsd:long .
+	geo:lat "40.408.814.891.299.500"^^xsd:double ;
+	geo:long "-37.083.421.466.389.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeArtesyTradicionesP> a base:Direccion ;
 	base:tieneNumero "03-may"^^xsd:int ;
@@ -752,8 +753,8 @@
 	base:hayTransportePublico "bus: 82 , f , 132 , i , g" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeAstronomiayGeodesi> a base:Posicion ;
-	base:tieneLatitud "4.044.942.472.705.850"^^xsd:long ;
-	base:tieneLongitud "-37.262.214.898.219.100"^^xsd:long .
+	geo:lat "4.044.942.472.705.850"^^xsd:double ;
+	geo:long "-37.262.214.898.219.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeAstronomiayGeodesi> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
@@ -787,8 +788,8 @@
 	base:hayTransportePublico "metro : l1- buenos aires  bus : 141 y 143" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeBomberos> a base:Posicion ;
-	base:tieneLatitud "4.039.453.171.263.190"^^xsd:long ;
-	base:tieneLongitud "-36.539.313.207.612.200"^^xsd:long .
+	geo:lat "4.039.453.171.263.190"^^xsd:double ;
+	geo:long "-36.539.313.207.612.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeBomberos> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -826,8 +827,8 @@
 	base:hayTransportePublico "metro: sol (líneas 1, 2, 3), sevilla (línea 2)  bus: 5, 15, 20, 51, 52, 53, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeCalcografiaNaciona> a base:Posicion ;
-	base:tieneLatitud "4.041.764.548.040.700"^^xsd:long ;
-	base:tieneLongitud "-3.700.667.044.636.170"^^xsd:long .
+	geo:lat "4.041.764.548.040.700"^^xsd:double ;
+	geo:long "-3.700.667.044.636.170"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeCalcografiaNaciona> a base:Direccion ;
 	base:tieneNumero "13"^^xsd:int ;
@@ -860,8 +861,8 @@
 	base:hayTransportePublico "metro: colón (línea 4)  bus: 5, 14, 21, 27, 45, 53, 15  renfe: recoletos" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeCera> a base:Posicion ;
-	base:tieneLatitud "40.424.403.779.665.300"^^xsd:long ;
-	base:tieneLongitud "-36.914.362.030.084.800"^^xsd:long .
+	geo:lat "40.424.403.779.665.300"^^xsd:double ;
+	geo:long "-36.914.362.030.084.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeCera> a base:Direccion ;
 	base:tieneNumero "41"^^xsd:int ;
@@ -897,8 +898,8 @@
 	base:hayTransportePublico "metro: embajadores (línea 3)  bus: 6, 27, 34, 36, 41, 55, 59, 60, 78, 85, 116, 118, 119, 148, c2. e1  renfe :  embajadores" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeFarmaciaMilitar> a base:Posicion ;
-	base:tieneLatitud "40.403.202.661.477.100"^^xsd:long ;
-	base:tieneLongitud "-37.008.825.895.813.100"^^xsd:long .
+	geo:lat "40.403.202.661.477.100"^^xsd:double ;
+	geo:long "-37.008.825.895.813.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeFarmaciaMilitar> a base:Direccion ;
 	base:tieneNumero "75"^^xsd:int ;
@@ -934,8 +935,8 @@
 	base:hayTransportePublico "metro: iglesia (línea 1)  bus: 5, 12, 16, 37, 61, 149" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeHistoriadelaComuni> a base:Posicion ;
-	base:tieneLatitud "4.043.534.317.115.620"^^xsd:long ;
-	base:tieneLongitud "-3.700.013.620.203.680"^^xsd:long .
+	geo:lat "4.043.534.317.115.620"^^xsd:double ;
+	geo:long "-3.700.013.620.203.680"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeHistoriadelaComuni> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
@@ -972,8 +973,8 @@
 	base:hayTransportePublico "metro: tribunal (líneas 1 y 10), bilbao (líneas 1 y 4), alonso martínez (4, 5, 10)  bus: 3, 21, 37, 40, 147, 149" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeHistoriadeMadrid> a base:Posicion ;
-	base:tieneLatitud "4.042.577.054.821.340"^^xsd:long ;
-	base:tieneLongitud "-3.700.845.660.719.600"^^xsd:long .
+	geo:lat "4.042.577.054.821.340"^^xsd:double ;
+	geo:long "-3.700.845.660.719.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeHistoriadeMadrid> a base:Direccion ;
 	base:tieneNumero "78"^^xsd:int ;
@@ -1008,8 +1009,8 @@
 	base:hayTransportePublico "metro: colón, serrano (línea 4)  bus: 1, 5, 9, 14, 19, 21, 27, 37, 45, 51, 53, 74, 150  renfe: recoletos" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelaBibliotecaNacion> a base:Posicion ;
-	base:tieneLatitud "4.042.299.290.045.960"^^xsd:long ;
-	base:tieneLongitud "-3.690.844.141.741.060"^^xsd:long .
+	geo:lat "4.042.299.290.045.960"^^xsd:double ;
+	geo:long "-3.690.844.141.741.060"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelaBibliotecaNacion> a base:Direccion ;
 	base:tieneNumero "20"^^xsd:int ;
@@ -1043,8 +1044,8 @@
 	base:hayTransportePublico "bus: 3, 148, l3" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelaCatedraldelaAlmu> a base:Posicion ;
-	base:tieneLatitud "40.415.538.770.017.400"^^xsd:long ;
-	base:tieneLongitud "-37.136.931.154.460.500"^^xsd:long .
+	geo:lat "40.415.538.770.017.400"^^xsd:double ;
+	geo:long "-37.136.931.154.460.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelaCatedraldelaAlmu> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
@@ -1076,8 +1077,8 @@
 	base:hayTransportePublico "metro: ciudad universitaria  bus: 82 , 132 , g" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelaFarmaciaHispana> a base:Posicion ;
-	base:tieneLatitud "404.445.328.804.645"^^xsd:long ;
-	base:tieneLongitud "-37.262.160.043.788.100"^^xsd:long .
+	geo:lat "404.445.328.804.645"^^xsd:double ;
+	geo:long "-37.262.160.043.788.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelaFarmaciaHispana> a base:Direccion ;
 	base:tieneNumero "0"^^xsd:int ;
@@ -1110,8 +1111,8 @@
 	base:hayTransportePublico "metro: guzmán el bueno (línea 6, 7)  bus: 2,  44, 45, c1, c2" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelaGuardiaCivil> a base:Posicion ;
-	base:tieneLatitud "4.044.454.745.648.480"^^xsd:long ;
-	base:tieneLongitud "-37.122.900.396.933.800"^^xsd:long .
+	geo:lat "4.044.454.745.648.480"^^xsd:double ;
+	geo:long "-37.122.900.396.933.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelaGuardiaCivil> a base:Direccion ;
 	base:tieneNumero "110"^^xsd:int ;
@@ -1146,8 +1147,8 @@
 	base:hayTransportePublico "metro: sol (línea 3), sevilla (línea 2)  bus: 3, 5, 15, 20, 50, 51, 55, 53, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelaRealAcademiadeBe> a base:Posicion ;
-	base:tieneLatitud "4.041.764.548.040.700"^^xsd:long ;
-	base:tieneLongitud "-3.700.667.044.636.170"^^xsd:long .
+	geo:lat "4.041.764.548.040.700"^^xsd:double ;
+	geo:long "-3.700.667.044.636.170"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelaRealAcademiadeBe> a base:Direccion ;
 	base:tieneNumero "13"^^xsd:int ;
@@ -1218,8 +1219,8 @@
 	base:hayTransportePublico "metro: latina , tirso de molina  bus: 3 , 17 , 18 , 23 , 35 , 60 , 65 , 148" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeSanIsidro.Losorige> a base:Posicion ;
-	base:tieneLatitud "40.412.069.631.779.300"^^xsd:long ;
-	base:tieneLongitud "-3.710.874.934.826.830"^^xsd:long .
+	geo:lat "40.412.069.631.779.300"^^xsd:double ;
+	geo:long "-3.710.874.934.826.830"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeSanIsidro.Losorige> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -1252,8 +1253,8 @@
 	base:hayTransportePublico "metro: chamartín (líneas 1, 10), plaza de castilla (1, 9, 10)  bus: 67, 124, 134, 135, 147  renfe: chamartín" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeSanidadeHigienePub> a base:Posicion ;
-	base:tieneLatitud "4.047.546.597.881.760"^^xsd:long ;
-	base:tieneLongitud "-36.900.603.941.123.100"^^xsd:long .
+	geo:lat "4.047.546.597.881.760"^^xsd:double ;
+	geo:long "-36.900.603.941.123.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeSanidadeHigienePub> a base:Direccion ;
 	base:tieneNumero "5"^^xsd:int ;
@@ -1288,8 +1289,8 @@
 	base:hayTransportePublico "metro: pirámides (línea 5), marqués de vadillo (línea 5)  bus: 23, 34, 35, 36, 50, 116, 118, 119" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelAtleticodeMadrid> a base:Posicion ;
-	base:tieneLatitud "40.401.455.987.482.600"^^xsd:long ;
-	base:tieneLongitud "-3.721.215.933.848.040"^^xsd:long .
+	geo:lat "40.401.455.987.482.600"^^xsd:double ;
+	geo:long "-3.721.215.933.848.040"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelAtleticodeMadrid> a base:Direccion ;
 	base:tieneNumero "67"^^xsd:int ;
@@ -1324,8 +1325,8 @@
 	base:hayTransportePublico "metro: delicias (línea 3)  bus: 8, 19, 45, 47, 59, 85, 86  renfe: delicias" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelFerrocarrildeMadr> a base:Posicion ;
-	base:tieneLatitud "40.400.281.290.485.500"^^xsd:long ;
-	base:tieneLongitud "-3.693.817.192.160.560"^^xsd:long .
+	geo:lat "40.400.281.290.485.500"^^xsd:double ;
+	geo:long "-3.693.817.192.160.560"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelFerrocarrildeMadr> a base:Direccion ;
 	base:tieneNumero "61"^^xsd:int ;
@@ -1361,8 +1362,8 @@
 	base:hayTransportePublico "metro: atocha (línea 1), banco de españa (línea 2), retiro (línea 2)  bus: 9, 10, 14, 19, 27, 34, 37, 45  renfe: atocha" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelPrado> a base:Posicion ;
-	base:tieneLatitud "4.041.357.557.281.160"^^xsd:long ;
-	base:tieneLongitud "-36.913.253.533.221.800"^^xsd:long .
+	geo:lat "4.041.357.557.281.160"^^xsd:double ;
+	geo:long "-36.913.253.533.221.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelPrado> a base:Direccion ;
 	base:tieneNumero "23"^^xsd:int ;
@@ -1397,8 +1398,8 @@
 	base:hayTransportePublico "metro: banco de españa (línea 2), sevilla (línea 2)  bus: 1, 2, 3, 5, 9, 15, 20, 46, 51, 52, 53, 74, 146, 150, m2" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelRelojGrassy> a base:Posicion ;
-	base:tieneLatitud "4.041.913.869.883.690"^^xsd:long ;
-	base:tieneLongitud "-36.980.657.388.420.200"^^xsd:long .
+	geo:lat "4.041.913.869.883.690"^^xsd:double ;
+	geo:long "-36.980.657.388.420.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelRelojGrassy> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -1432,8 +1433,8 @@
 	base:hayTransportePublico "metro: san bernardo (líneas 2, 4)  bus: 3, 21, 147" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelRobot> a base:Posicion ;
-	base:tieneLatitud "4.042.949.061.464.900"^^xsd:long ;
-	base:tieneLongitud "-37.068.731.815.207.000"^^xsd:long .
+	geo:lat "4.042.949.061.464.900"^^xsd:double ;
+	geo:long "-37.068.731.815.207.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelRobot> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -1466,8 +1467,8 @@
 	base:hayTransportePublico "metro: tribunal (líneas 1, 10), alonso martínez (líneas 4, 5, 10)  bus: 3, 37, 40, 149  renfe: recoletos" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelRomanticismo> a base:Posicion ;
-	base:tieneLatitud "4.042.585.510.296.790"^^xsd:long ;
-	base:tieneLongitud "-36.987.835.425.963.000"^^xsd:long .
+	geo:lat "4.042.585.510.296.790"^^xsd:double ;
+	geo:long "-36.987.835.425.963.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelRomanticismo> a base:Direccion ;
 	base:tieneNumero "13"^^xsd:int ;
@@ -1504,8 +1505,8 @@
 	base:hayTransportePublico "metro: colón (línea 4)  bus: 5, 14, 21, 27, 37, 45, 53, 150  renfe: recoletos" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelSeguro.FundacionM> a base:Posicion ;
-	base:tieneLatitud "4.042.388.355.388.780"^^xsd:long ;
-	base:tieneLongitud "-3.694.059.645.939.100"^^xsd:long .
+	geo:lat "4.042.388.355.388.780"^^xsd:double ;
+	geo:long "-3.694.059.645.939.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelSeguro.FundacionM> a base:Direccion ;
 	base:tieneNumero "14"^^xsd:int ;
@@ -1541,8 +1542,8 @@
 	base:hayTransportePublico "metro: moncloa (líneas 3, 6), ciudad universitaria (línea 6)  bus: 46, 82, 83, 132, 133, g" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelTraje.CentrodeInv> a base:Posicion ;
-	base:tieneLatitud "40.439.657.822.278.500"^^xsd:long ;
-	base:tieneLongitud "-37.278.378.564.088.200"^^xsd:long .
+	geo:lat "40.439.657.822.278.500"^^xsd:double ;
+	geo:long "-37.278.378.564.088.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelTraje.CentrodeInv> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -1575,8 +1576,8 @@
 	base:hayTransportePublico "metro: ríos rosas (línea 1)  bus: 3, 5, 12, 37, 45, 149" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoGeominero> a base:Posicion ;
-	base:tieneLatitud "4.044.205.696.051.330"^^xsd:long ;
-	base:tieneLongitud "-36.996.705.622.841.400"^^xsd:long .
+	geo:lat "4.044.205.696.051.330"^^xsd:double ;
+	geo:long "-36.996.705.622.841.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoGeominero> a base:Direccion ;
 	base:tieneNumero "23"^^xsd:int ;
@@ -1610,8 +1611,8 @@
 	base:hayTransportePublico "metro: ríos rosas (línea 1)  bus: 3, 12, 37, 45, 149" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoHistoricoMineroDonFe> a base:Posicion ;
-	base:tieneLatitud "4.044.207.963.042.670"^^xsd:long ;
-	base:tieneLongitud "-37.003.900.716.027.700"^^xsd:long .
+	geo:lat "4.044.207.963.042.670"^^xsd:double ;
+	geo:long "-37.003.900.716.027.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoHistoricoMineroDonFe> a base:Direccion ;
 	base:tieneNumero "21"^^xsd:int ;
@@ -1643,8 +1644,8 @@
 	base:hayTransportePublico "metro: ópera (líneas 2, 5 y ramal)." .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoLosCanosdelPeral.Est> a base:Posicion ;
-	base:tieneLatitud "4.041.775.560.280.740"^^xsd:long ;
-	base:tieneLongitud "-3.709.202.070.089.530"^^xsd:long .
+	geo:lat "4.041.775.560.280.740"^^xsd:double ;
+	geo:long "-3.709.202.070.089.530"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoLosCanosdelPeral.Est> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -1676,8 +1677,8 @@
 	base:hayTransportePublico "bus: 9, 12, 16, 19, 51, 61" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoLazaroGaldiano> a base:Posicion ;
-	base:tieneLatitud "40.436.750.328.725.900"^^xsd:long ;
-	base:tieneLongitud "-36.861.980.129.207.800"^^xsd:long .
+	geo:lat "40.436.750.328.725.900"^^xsd:double ;
+	geo:long "-36.861.980.129.207.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoLazaroGaldiano> a base:Direccion ;
 	base:tieneNumero "122"^^xsd:int ;
@@ -1711,8 +1712,8 @@
 	base:hayTransportePublico "metro: atocha (línea 1)  bus:  6 , 8 , 10 , 14 , 19 , 24 , 26 , 27 , 32 , 34 , 36 , 37 , 41 , 45 , 47 , 54 , 55 , 57 , 59 , 60 , 78 , 85 , 86 , 102 , 116 , 118 , 119 , 141 , 148 , 247 , e3 , circular  renfe: c2, c3, c4, c5, c7, c8, c10" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoNacionalCentrodeArte> a base:Posicion ;
-	base:tieneLatitud "4.040.853.230.723.720"^^xsd:long ;
-	base:tieneLongitud "-36.940.315.586.451.400"^^xsd:long .
+	geo:lat "4.040.853.230.723.720"^^xsd:double ;
+	geo:long "-36.940.315.586.451.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNacionalCentrodeArte> a base:Direccion ;
 	base:tieneNumero "52"^^xsd:int ;
@@ -1749,8 +1750,8 @@
 	base:hayTransportePublico "metro: atocha  bus: 6, 7,10, 14, 19, 24, 26, 27, 32, 34, 37, 45, 85, 150, c  renfe: atocha" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoNacionaldeAntropolog> a base:Posicion ;
-	base:tieneLatitud "4.040.788.746.746.480"^^xsd:long ;
-	base:tieneLongitud "-36.888.747.083.604.800"^^xsd:long .
+	geo:lat "4.040.788.746.746.480"^^xsd:double ;
+	geo:long "-36.888.747.083.604.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNacionaldeAntropolog> a base:Direccion ;
 	base:tieneNumero "68"^^xsd:int ;
@@ -1786,8 +1787,8 @@
 	base:hayTransportePublico "metro: banco de españa (línea 2) , retiro (línea 2)  bus: 1, 2, 5, 9, 10, 14, 15, 16, 19, 20, 27, 28, 34, 37, 45, 51, 52, 53, 74, 146, 148, 150  renfe: recoletos" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoNacionaldeArtesDecor> a base:Posicion ;
-	base:tieneLatitud "404.178.910.680.573"^^xsd:long ;
-	base:tieneLongitud "-3.689.790.044.810.550"^^xsd:long .
+	geo:lat "404.178.910.680.573"^^xsd:double ;
+	geo:long "-3.689.790.044.810.550"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNacionaldeArtesDecor> a base:Direccion ;
 	base:tieneNumero "12"^^xsd:int ;
@@ -1823,8 +1824,8 @@
 	base:hayTransportePublico "metro: gregorio marañón (líneas 7, 10)  bus: 7, 12, 14, 27, 40, 45, 147, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoNacionaldeCienciasNa> a base:Posicion ;
-	base:tieneLatitud "4.044.042.943.656.610"^^xsd:long ;
-	base:tieneLongitud "-3.690.161.856.630.630"^^xsd:long .
+	geo:lat "4.044.042.943.656.610"^^xsd:double ;
+	geo:long "-3.690.161.856.630.630"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNacionaldeCienciasNa> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -1861,8 +1862,8 @@
 	base:hayTransportePublico "metro: banco de españa (línea 2)  bus: 1, 2, 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoNaval> a base:Posicion ;
-	base:tieneLatitud "4.041.751.289.873.050"^^xsd:long ;
-	base:tieneLongitud "-3.692.768.317.427.530"^^xsd:long .
+	geo:lat "4.041.751.289.873.050"^^xsd:double ;
+	geo:long "-3.692.768.317.427.530"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNaval> a base:Direccion ;
 	base:tieneNumero "5"^^xsd:int ;
@@ -1895,8 +1896,8 @@
 	base:hayTransportePublico "bus: 161" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoPostalyTelegrafico> a base:Posicion ;
-	base:tieneLatitud "40.467.706.026.917.400"^^xsd:long ;
-	base:tieneLongitud "-37.690.721.403.206.700"^^xsd:long .
+	geo:lat "40.467.706.026.917.400"^^xsd:double ;
+	geo:long "-37.690.721.403.206.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoPostalyTelegrafico> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
@@ -1928,8 +1929,8 @@
 	base:hayTransportePublico "metro: iglesia (línea 1), rubén darío (línea 5), gregorio marañón (líneas 7, 10)  bus: 5, 7, 14, 16, 27, 40, 45, 61, 147 y 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoSorolla> a base:Posicion ;
-	base:tieneLatitud "4.043.557.863.874.970"^^xsd:long ;
-	base:tieneLongitud "-36.923.288.211.390.000"^^xsd:long .
+	geo:lat "4.043.557.863.874.970"^^xsd:double ;
+	geo:long "-36.923.288.211.390.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoSorolla> a base:Direccion ;
 	base:tieneNumero "37"^^xsd:int ;
@@ -1963,8 +1964,8 @@
 	base:hayTransportePublico "metro: ventas (líneas 2, 5)  bus: 12, 21, 38, 53, 106, 110, 146" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoTaurinodelaPlazadela> a base:Posicion ;
-	base:tieneLatitud "4.043.157.110.306.010"^^xsd:long ;
-	base:tieneLongitud "-3.662.872.780.933.850"^^xsd:long .
+	geo:lat "4.043.157.110.306.010"^^xsd:double ;
+	geo:long "-3.662.872.780.933.850"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoTaurinodelaPlazadela> a base:Direccion ;
 	base:tieneNumero "237"^^xsd:int ;
@@ -1998,8 +1999,8 @@
 	base:hayTransportePublico "metro: banco de españa (línea 2)  bus: 1, 2,  5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150  renfe: recoletos" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoThyssenBornemisza> a base:Posicion ;
-	base:tieneLatitud "4.041.600.553.697.800"^^xsd:long ;
-	base:tieneLongitud "-3.694.744.831.131.070"^^xsd:long .
+	geo:lat "4.041.600.553.697.800"^^xsd:double ;
+	geo:long "-3.694.744.831.131.070"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoThyssenBornemisza> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
@@ -2035,8 +2036,8 @@
 	base:hayTransportePublico "metro: estrecho  bus: 3, 42, 64, 66, 124, 127" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoTiflologico> a base:Posicion ;
-	base:tieneLatitud "4.045.519.790.204.090"^^xsd:long ;
-	base:tieneLongitud "-37.001.960.485.997.500"^^xsd:long .
+	geo:lat "4.045.519.790.204.090"^^xsd:double ;
+	geo:long "-37.001.960.485.997.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoTiflologico> a base:Direccion ;
 	base:tieneNumero "18"^^xsd:int ;
@@ -2073,8 +2074,8 @@
 	base:hayTransportePublico "metro: ventura rodríguez (línea 3)  bus: 1, 2, 44, 74, 133, c" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PalaciodeLiria> a base:Posicion ;
-	base:tieneLatitud "4.042.680.681.645.220"^^xsd:long ;
-	base:tieneLongitud "-37.125.979.731.032.400"^^xsd:long .
+	geo:lat "4.042.680.681.645.220"^^xsd:double ;
+	geo:long "-37.125.979.731.032.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PalaciodeLiria> a base:Direccion ;
 	base:tieneNumero "20"^^xsd:int ;
@@ -2108,8 +2109,8 @@
 	base:hayTransportePublico "metro: ópera (líneas 2, 5 y ramal opera norte)  bus: 3, 25, 39, 148" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PalacioReal> a base:Posicion ;
-	base:tieneLatitud "4.042.075.212.551.190"^^xsd:long ;
-	base:tieneLongitud "-3.712.699.107.286.400"^^xsd:long .
+	geo:lat "4.042.075.212.551.190"^^xsd:double ;
+	geo:long "-3.712.699.107.286.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PalacioReal> a base:Direccion ;
 	base:tieneNumero "0"^^xsd:int ;
@@ -2142,8 +2143,8 @@
 	base:hayTransportePublico "metro: atocha (línea 1)  bus: 10, 14, 24, 32, 37, 54, 57, 141  renfe: atocha" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PanteondeHombresIlustres> a base:Posicion ;
-	base:tieneLatitud "4.040.622.617.519.110"^^xsd:long ;
-	base:tieneLongitud "-3.683.413.041.846.520"^^xsd:long .
+	geo:lat "4.040.622.617.519.110"^^xsd:double ;
+	geo:long "-3.683.413.041.846.520"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PanteondeHombresIlustres> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
@@ -2176,8 +2177,8 @@
 	base:hayTransportePublico "metro: sol (líneas 1, 2, 3), tirso de molina (línea 1)  bus: 3, 6, 17, 18, 23, 26, 31, 32, 35, 50, 65, m1  renfe: sol" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParroquiaSantaCruz> a base:Posicion ;
-	base:tieneLatitud "40.414.608.558.946.000"^^xsd:long ;
-	base:tieneLongitud "-3.705.255.882.048.690"^^xsd:long .
+	geo:lat "40.414.608.558.946.000"^^xsd:double ;
+	geo:long "-3.705.255.882.048.690"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSantaCruz> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
@@ -2213,8 +2214,8 @@
 	base:hayTransportePublico "metro: méndez álvaro (línea 6)   bus: 148, 156" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PlanetariodeMadrid> a base:Posicion ;
-	base:tieneLatitud "4.039.227.092.120.190"^^xsd:long ;
-	base:tieneLongitud "-3.684.968.648.157.020"^^xsd:long .
+	geo:lat "4.039.227.092.120.190"^^xsd:double ;
+	geo:long "-3.684.968.648.157.020"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PlanetariodeMadrid> a base:Direccion ;
 	base:tieneNumero "16"^^xsd:int ;
@@ -2247,8 +2248,8 @@
 	base:hayTransportePublico "metro: la latina (línea 5) , puerta de toledo (línea 5)  bus:  3, 17, 18, 23, 31, 35, 36, 41, 50, 60, 65, 148, 749, c1, c2" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealBasilicaSanFranciscoe> a base:Posicion ;
-	base:tieneLatitud "4.041.084.005.024.220"^^xsd:long ;
-	base:tieneLongitud "-3.714.503.845.728.280"^^xsd:long .
+	geo:lat "4.041.084.005.024.220"^^xsd:double ;
+	geo:long "-3.714.503.845.728.280"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealBasilicaSanFranciscoe> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -2281,8 +2282,8 @@
 	base:hayTransportePublico "metro: menéndez pelayo (línea 1)  bus: 10, 14, 26, 32, c" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealFabricadeTapices> a base:Posicion ;
-	base:tieneLatitud "40.406.087.329.011.600"^^xsd:long ;
-	base:tieneLongitud "-3.682.515.969.574.070"^^xsd:long .
+	geo:lat "40.406.087.329.011.600"^^xsd:double ;
+	geo:long "-3.682.515.969.574.070"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealFabricadeTapices> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -2315,8 +2316,8 @@
 	base:hayTransportePublico "metro:  ópera (líneas 2, 5 y ramal ópera príncipe pío), plaza de españa (líneas 3, 10)  bus:  1, 2, 3, 25, 39, 44, 46, 74, 75, 133, 138, 147, 148, c1, c2" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealMonasteriodelaEncarna> a base:Posicion ;
-	base:tieneLatitud "4.041.967.800.877.380"^^xsd:long ;
-	base:tieneLongitud "-3.711.567.962.866.150"^^xsd:long .
+	geo:lat "4.041.967.800.877.380"^^xsd:double ;
+	geo:long "-3.711.567.962.866.150"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealMonasteriodelaEncarna> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -2348,8 +2349,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealMonasteriodeSantaIsab> a base:TransportePublico .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealMonasteriodeSantaIsab> a base:Posicion ;
-	base:tieneLatitud "4.041.213.027.498.250"^^xsd:long ;
-	base:tieneLongitud "-36.994.547.941.964.900"^^xsd:long .
+	geo:lat "4.041.213.027.498.250"^^xsd:double ;
+	geo:long "-36.994.547.941.964.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealMonasteriodeSantaIsab> a base:Direccion ;
 	base:tieneNumero "48"^^xsd:int ;
@@ -2380,8 +2381,8 @@
 	base:hayTransportePublico "bus: 601 (madrid - colonia mingorrubio)" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealSitiodeElPardo> a base:Posicion ;
-	base:tieneLatitud "40.520.522.342.970.100"^^xsd:long ;
-	base:tieneLongitud "-37.762.390.614.462.800"^^xsd:long .
+	geo:lat "40.520.522.342.970.100"^^xsd:double ;
+	geo:long "-37.762.390.614.462.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealSitiodeElPardo> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
@@ -2414,8 +2415,8 @@
 	base:hayTransportePublico "metro:  plaza de españa (líneas 3 y 10) y ventura rodríguez (línea 3)   bus: 74, 25, 39, 46, 75, 138 y c1, 3, 44, 133, 148, c2, 1, 2, 74    renfe:  príncipe pío" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TemplodeDebod> a base:Posicion ;
-	base:tieneLatitud "4.042.425.096.551.590"^^xsd:long ;
-	base:tieneLongitud "-3.716.531.855.540.270"^^xsd:long .
+	geo:lat "4.042.425.096.551.590"^^xsd:double ;
+	geo:long "-3.716.531.855.540.270"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TemplodeDebod> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -2448,8 +2449,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/Yacimientopaleontologico.> a base:TransportePublico .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/Yacimientopaleontologico.> a base:Posicion ;
-	base:tieneLatitud "4.039.150.793.405.890"^^xsd:long ;
-	base:tieneLongitud "-37.428.839.286.586.100"^^xsd:long .
+	geo:lat "4.039.150.793.405.890"^^xsd:double ;
+	geo:long "-37.428.839.286.586.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/Yacimientopaleontologico.> a base:Direccion ;
 	base:tieneNumero "328"^^xsd:int ;

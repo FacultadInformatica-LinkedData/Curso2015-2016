@@ -1,3 +1,4 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -21,8 +22,8 @@
 	base:hayTransportePublico "bus: 10 , 14 , 19 , 27 , 34 , 37 , 45" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CasadeGalicia> a base:Posicion ;
-	base:tieneLatitud "40.413.841.115.871.000"^^xsd:long ;
-	base:tieneLongitud "-36.906.090.973.201.900"^^xsd:long .
+	geo:lat "40.413.841.115.871.000"^^xsd:double ;
+	geo:long "-36.906.090.973.201.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasadeGalicia> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
@@ -61,8 +62,8 @@
 	base:hayTransportePublico "metro: colón (línea 4), serrano (línea 4)  bus: 5 , 14 , 21, 27 , 37, 45 , 53 , 150   renfe: recoletos" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeTurismoColon> a base:Posicion ;
-	base:tieneLatitud "4.042.500.882.822.320"^^xsd:long ;
-	base:tieneLongitud "-36.911.948.422.827.600"^^xsd:long .
+	geo:lat "4.042.500.882.822.320"^^xsd:double ;
+	geo:long "-36.911.948.422.827.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeTurismoColon> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -103,8 +104,8 @@
 	base:hayTransportePublico "metro: sol (líneas 1, 2, 3), ópera (línea 2, 5, ramal)  bus: 3, 5, 6, 15, 17, 18, 20, 23, 31, 32, 35, 50, 51, 52, 53, 65, 150  renfe: sol" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeTurismoPlazaMayor> a base:Posicion ;
-	base:tieneLatitud "4.041.583.855.082.180"^^xsd:long ;
-	base:tieneLongitud "-37.074.257.084.323.600"^^xsd:long .
+	geo:lat "4.041.583.855.082.180"^^xsd:double ;
+	geo:long "-37.074.257.084.323.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeTurismoPlazaMayor> a base:Direccion ;
 	base:tieneNumero "27"^^xsd:int ;
@@ -139,8 +140,8 @@
 	base:hayTransportePublico "metro: banco de españa (línea 2)  bus: 5 , 9 , 52 , 53 , 146 , 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/DelegaciondelaGeneralitat> a base:Posicion ;
-	base:tieneLatitud "404.182.053.857.487"^^xsd:long ;
-	base:tieneLongitud "-36.959.697.554.881.800"^^xsd:long .
+	geo:lat "404.182.053.857.487"^^xsd:double ;
+	geo:long "-36.959.697.554.881.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/DelegaciondelaGeneralitat> a base:Direccion ;
 	base:tieneNumero "44"^^xsd:int ;
@@ -173,8 +174,8 @@
 	base:hayTransportePublico "metro: banco de españa (línea 2)  bus: 1, 2, 9, 20, 27, 51, 52, 53, 146, 202, 203" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinaCentraldeReservase> a base:Posicion ;
-	base:tieneLatitud "40.422.504.962.784.700"^^xsd:long ;
-	base:tieneLongitud "-3.691.086.697.178.330"^^xsd:long .
+	geo:lat "40.422.504.962.784.700"^^xsd:double ;
+	geo:long "-3.691.086.697.178.330"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinaCentraldeReservase> a base:Direccion ;
 	base:tieneNumero "14"^^xsd:int ;
@@ -210,8 +211,8 @@
 	base:hayTransportePublico "metro: antón martín (línea 1), sol (líneas 1, 2, 3)  bus: 5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53, 146, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeAlemani> a base:Posicion ;
-	base:tieneLatitud "4.041.515.412.751.350"^^xsd:long ;
-	base:tieneLongitud "-3.696.999.116.580.020"^^xsd:long .
+	geo:lat "4.041.515.412.751.350"^^xsd:double ;
+	geo:long "-3.696.999.116.580.020"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeAlemani> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -244,8 +245,8 @@
 	base:hayTransportePublico "metro: retiro (línea 2)  bus: 1, 2, 9, 15, 20, 28, 51, 52, 74, 146, 202" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeAndorra> a base:Posicion ;
-	base:tieneLatitud "40.420.463.872.305.000"^^xsd:long ;
-	base:tieneLongitud "-36.873.998.628.244.500"^^xsd:long .
+	geo:lat "40.420.463.872.305.000"^^xsd:double ;
+	geo:long "-36.873.998.628.244.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeAndorra> a base:Direccion ;
 	base:tieneNumero "73"^^xsd:int ;
@@ -278,8 +279,8 @@
 	base:hayTransportePublico "metro: ventura rodríguez (línea 3), princesa (líneas 3, 10)  bus: 1, 2, 44, 133, 202,  c" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeArgenti> a base:Posicion ;
-	base:tieneLatitud "404.257.710.639.095"^^xsd:long ;
-	base:tieneLongitud "-3.712.551.676.224.900"^^xsd:long .
+	geo:lat "404.257.710.639.095"^^xsd:double ;
+	geo:long "-3.712.551.676.224.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeArgenti> a base:Direccion ;
 	base:tieneNumero "12"^^xsd:int ;
@@ -310,8 +311,8 @@
 	base:hayTransportePublico "metro: plaza de españa (líneas 3, 10)  bus: 3, 46, 75, 138, 148" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeAustria> a base:Posicion ;
-	base:tieneLatitud "4.042.352.919.018.360"^^xsd:long ;
-	base:tieneLongitud "-37.137.893.492.193.200"^^xsd:long .
+	geo:lat "4.042.352.919.018.360"^^xsd:double ;
+	geo:long "-37.137.893.492.193.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeAustria> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -348,8 +349,8 @@
 	base:hayTransportePublico "metro: alonso martínez (líneas 4, 5, 10), rubén dario (línea 5)  bus: 3, 5, 7, 14, 21, 27, 45, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeBrasil> a base:Posicion ;
-	base:tieneLatitud "4.043.017.960.044.130"^^xsd:long ;
-	base:tieneLongitud "-3.692.768.600.492.910"^^xsd:long .
+	geo:lat "4.043.017.960.044.130"^^xsd:double ;
+	geo:long "-3.692.768.600.492.910"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeBrasil> a base:Direccion ;
 	base:tieneNumero "28"^^xsd:int ;
@@ -385,8 +386,8 @@
 	base:hayTransportePublico "metro: retiro (línea 2)  bus: 1 , 2 , 15 , 19 , 20 , 28 , 51 , 52 , 74 , 146" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeCastill> a base:Posicion ;
-	base:tieneLatitud "4.042.177.018.095.310"^^xsd:long ;
-	base:tieneLongitud "-36.828.394.778.643.700"^^xsd:long .
+	geo:lat "4.042.177.018.095.310"^^xsd:double ;
+	geo:long "-36.828.394.778.643.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeCastill> a base:Direccion ;
 	base:tieneNumero "105"^^xsd:int ;
@@ -419,8 +420,8 @@
 	base:hayTransportePublico "metro: nuñez de balboa (líneas 5, 9)  bus: 1, 9, 19, 51, 74" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeChile> a base:Posicion ;
-	base:tieneLatitud "4.042.984.738.903.380"^^xsd:long ;
-	base:tieneLongitud "-36.834.988.415.722.300"^^xsd:long .
+	geo:lat "4.042.984.738.903.380"^^xsd:double ;
+	geo:long "-36.834.988.415.722.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeChile> a base:Direccion ;
 	base:tieneNumero "80"^^xsd:int ;
@@ -452,8 +453,8 @@
 	base:hayTransportePublico "metro: callao (línea 3)  bus: 1, 2, 44, 46, 74, 75, 133, 146, 147, 148, 202" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeChina> a base:Posicion ;
-	base:tieneLatitud "4.042.009.464.369.330"^^xsd:long ;
-	base:tieneLongitud "-3.705.324.957.516.300"^^xsd:long .
+	geo:lat "4.042.009.464.369.330"^^xsd:double ;
+	geo:long "-3.705.324.957.516.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeChina> a base:Direccion ;
 	base:tieneNumero "39"^^xsd:int ;
@@ -485,8 +486,8 @@
 	base:hayTransportePublico "metro: serrano (línea 4)  bus: 1, 9, 19, 51, 74" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeCroacia> a base:Posicion ;
-	base:tieneLatitud "4.042.308.011.875.360"^^xsd:long ;
-	base:tieneLongitud "-3.686.789.938.909.180"^^xsd:long .
+	geo:lat "4.042.308.011.875.360"^^xsd:double ;
+	geo:long "-3.686.789.938.909.180"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeCroacia> a base:Direccion ;
 	base:tieneNumero "22"^^xsd:int ;
@@ -519,8 +520,8 @@
 	base:hayTransportePublico "metro: santiago bernabéu (línea 10)  bus: 14, 27, 40, 43, 120, 126, 147, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeCuba> a base:Posicion ;
-	base:tieneLatitud "404.509.737.804.771"^^xsd:long ;
-	base:tieneLongitud "-36.864.959.795.755.200"^^xsd:long .
+	geo:lat "404.509.737.804.771"^^xsd:double ;
+	geo:long "-36.864.959.795.755.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeCuba> a base:Direccion ;
 	base:tieneNumero "50"^^xsd:int ;
@@ -556,8 +557,8 @@
 	base:hayTransportePublico "metro: nuñez de balboa (líneas 5, 9)  bus: 9, 12, 19, 51, 61" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeEcuador> a base:Posicion ;
-	base:tieneLatitud "4.042.890.517.804.670"^^xsd:long ;
-	base:tieneLongitud "-3.687.426.857.198.850"^^xsd:long .
+	geo:lat "4.042.890.517.804.670"^^xsd:double ;
+	geo:long "-3.687.426.857.198.850"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeEcuador> a base:Direccion ;
 	base:tieneNumero "43"^^xsd:int ;
@@ -589,8 +590,8 @@
 	base:hayTransportePublico "metro: plaza de españa (línea 3)  bus: 1, 2, 3,  44, 46, 74, 75, 133, 138, 148, 202, c" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeEgipto> a base:Posicion ;
-	base:tieneLatitud "4.042.323.552.836.880"^^xsd:long ;
-	base:tieneLongitud "-3.710.273.395.725.300"^^xsd:long .
+	geo:lat "4.042.323.552.836.880"^^xsd:double ;
+	geo:long "-3.710.273.395.725.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeEgipto> a base:Direccion ;
 	base:tieneNumero "78"^^xsd:int ;
@@ -624,8 +625,8 @@
 	base:hayTransportePublico "metro: retiro (línea 2), serrrano (línea 2)  bus: 1, 2, 9, 15, 19, 20, 21, 28, 51, 52, 53, 74, 146, 202" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeFrancia> a base:Posicion ;
-	base:tieneLatitud "4.042.603.070.001.690"^^xsd:long ;
-	base:tieneLongitud "-368.752.726.535.081"^^xsd:long .
+	geo:lat "4.042.603.070.001.690"^^xsd:double ;
+	geo:long "-368.752.726.535.081"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeFrancia> a base:Direccion ;
 	base:tieneNumero "40"^^xsd:int ;
@@ -656,8 +657,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeGranBre> a base:TransportePublico .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeGranBre> a base:Posicion ;
-	base:tieneLatitud "4.047.592.404.926.300"^^xsd:long ;
-	base:tieneLongitud "-36.872.691.224.974.400"^^xsd:long .
+	geo:lat "4.047.592.404.926.300"^^xsd:double ;
+	geo:long "-36.872.691.224.974.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeGranBre> a base:Direccion ;
 	base:tieneNumero "259"^^xsd:int ;
@@ -691,8 +692,8 @@
 	base:hayTransportePublico "metro: colón (línea 4)  bus: 5, 14, 27, 45, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeturismodeGuatema> a base:Posicion ;
-	base:tieneLatitud "4.042.811.147.922.810"^^xsd:long ;
-	base:tieneLongitud "-369.060.179.113.649"^^xsd:long .
+	geo:lat "4.042.811.147.922.810"^^xsd:double ;
+	geo:long "-369.060.179.113.649"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeturismodeGuatema> a base:Direccion ;
 	base:tieneNumero "27"^^xsd:int ;
@@ -724,8 +725,8 @@
 	base:hayTransportePublico "bus: 66, 173, 174, 176, 178" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeHolanda> a base:Posicion ;
-	base:tieneLatitud "4.047.592.404.926.300"^^xsd:long ;
-	base:tieneLongitud "-36.872.691.224.974.400"^^xsd:long .
+	geo:lat "4.047.592.404.926.300"^^xsd:double ;
+	geo:long "-36.872.691.224.974.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeHolanda> a base:Direccion ;
 	base:tieneNumero "259"^^xsd:int ;
@@ -783,8 +784,8 @@
 	base:hayTransportePublico "metro: rubén darío (línea 5)  bus: 5, 14, 27, 45, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeIrlanda> a base:Posicion ;
-	base:tieneLatitud "4.043.419.977.951.640"^^xsd:long ;
-	base:tieneLongitud "-36.878.816.351.465.000"^^xsd:long .
+	geo:lat "4.043.419.977.951.640"^^xsd:double ;
+	geo:long "-36.878.816.351.465.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeIrlanda> a base:Direccion ;
 	base:tieneNumero "46"^^xsd:int ;
@@ -817,8 +818,8 @@
 	base:hayTransportePublico "metro: avenida de américa (líneas 4, 6, 7, 9)  bus: 9, 16, 19, 51" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeIran> a base:Posicion ;
-	base:tieneLatitud "404.375.784.193.194"^^xsd:long ;
-	base:tieneLongitud "-36.848.033.506.224.900"^^xsd:long .
+	geo:lat "404.375.784.193.194"^^xsd:double ;
+	geo:long "-36.848.033.506.224.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeIran> a base:Direccion ;
 	base:tieneNumero "26"^^xsd:int ;
@@ -850,8 +851,8 @@
 	base:hayTransportePublico "metro: bilbao (líneas 1, 4), tribunal (líneas 1, 10)  bus: 21, 37, 40, 147, 149" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeIsrael> a base:Posicion ;
-	base:tieneLatitud "4.042.789.840.100.490"^^xsd:long ;
-	base:tieneLongitud "-3.702.046.638.888.970"^^xsd:long .
+	geo:lat "4.042.789.840.100.490"^^xsd:double ;
+	geo:long "-3.702.046.638.888.970"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeIsrael> a base:Direccion ;
 	base:tieneNumero "101"^^xsd:int ;
@@ -883,8 +884,8 @@
 	base:hayTransportePublico "metro: gregorio marañón (líneas 7, 10), rubén darío (línea 5)  bus: 12, 16, 19, 9, 51, 61" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeItalia> a base:Posicion ;
-	base:tieneLatitud "40.436.434.892.176.300"^^xsd:long ;
-	base:tieneLongitud "-36.862.183.867.739.900"^^xsd:long .
+	geo:lat "40.436.434.892.176.300"^^xsd:double ;
+	geo:long "-36.862.183.867.739.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeItalia> a base:Direccion ;
 	base:tieneNumero "120"^^xsd:int ;
@@ -917,8 +918,8 @@
 	base:hayTransportePublico "metro: retiro (línea 2)  bus: 1, 9, 19, 51, 74" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeJordani> a base:Posicion ;
-	base:tieneLatitud "404.225.708.087.371"^^xsd:long ;
-	base:tieneLongitud "-3.687.598.129.527.750"^^xsd:long .
+	geo:lat "404.225.708.087.371"^^xsd:double ;
+	geo:long "-3.687.598.129.527.750"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeJordani> a base:Direccion ;
 	base:tieneNumero "5"^^xsd:int ;
@@ -952,8 +953,8 @@
 	base:hayTransportePublico "metro: aeropuerto t1  bus: 101" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> a base:Posicion ;
-	base:tieneLatitud "404.641.393.496.236"^^xsd:long ;
-	base:tieneLongitud "-35.698.214.842.707.100"^^xsd:long .
+	geo:lat "404.641.393.496.236"^^xsd:double ;
+	geo:long "-35.698.214.842.707.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> a base:Direccion ;
 	base:tieneNumero "0"^^xsd:int ;
@@ -984,8 +985,8 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> base:hayTransportePublico "metro: línea 8 - estación aeropuerto t-4   bus: línea 201 barajas - aeropuerto t4" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> base:tieneLatitud "4.045.188.738.242.830"^^xsd:long ;
-	base:tieneLongitud "-35.859.807.207.200.300"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> geo:lat "4.045.188.738.242.830"^^xsd:double ;
+	geo:long "-35.859.807.207.200.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> base:tieneNumero "2"^^xsd:int ;
 	base:tieneCalle "HISPANIDAD" ;
@@ -1002,8 +1003,8 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> base:hayTransportePublico "metro: sevilla (línea 2), banco de españa ( línea 2)  bus: 1, 2, 9, 15, 20, 28, 51, 52, 74, 146, 202" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> base:tieneLatitud "4.041.842.560.545.140"^^xsd:long ;
-	base:tieneLongitud "-36.982.941.133.384.700"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> geo:lat "4.041.842.560.545.140"^^xsd:double ;
+	geo:long "-36.982.941.133.384.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> base:tieneNumero "31"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
@@ -1023,8 +1024,8 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> base:hayTransportePublico "metro: antón martín (línea 1), banco de españa (línea 2)  bus: 6, 26, 32, 57" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> base:tieneLatitud "40.415.295.360.876.800"^^xsd:long ;
-	base:tieneLongitud "-36.959.869.173.057.200"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> geo:lat "40.415.295.360.876.800"^^xsd:double ;
+	geo:long "-36.959.869.173.057.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> base:tieneCalle "DUQUE DE MEDINACELI" .
 
@@ -1038,8 +1039,8 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> base:hayTransportePublico "metro: chamartín (líneas 1, 10)  bus: 5, 80, 66, 124   renfe: chamartín" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> base:tieneLatitud "40.471.891.389.559.400"^^xsd:long ;
-	base:tieneLongitud "-36.836.654.329.204.500"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> geo:lat "40.471.891.389.559.400"^^xsd:double ;
+	geo:long "-36.836.654.329.204.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> base:tieneNumero "40"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMARTIN> ;
@@ -1060,8 +1061,8 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> base:hayTransportePublico "metro: atocha (línea 1)  bus: 10 , 14 , 19 , 26 , 32 , 37 , 57   renfe: atocha" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> base:tieneLatitud "404.079.119.564.538"^^xsd:long ;
-	base:tieneLongitud "-36.923.163.004.968.900"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> geo:lat "404.079.119.564.538"^^xsd:double ;
+	geo:long "-36.923.163.004.968.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/ARGANZUELA> ;
@@ -1087,8 +1088,8 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> base:hayTransportePublico "metro: campo de las naciones (línea 8)  bus: 122, 112, 828" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> base:tieneLatitud "4.046.428.771.594.390"^^xsd:long ;
-	base:tieneLongitud "-36.164.023.947.650.800"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> geo:lat "4.046.428.771.594.390"^^xsd:double ;
+	geo:long "-36.164.023.947.650.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> base:tieneNumero "5"^^xsd:int ;
 	base:tieneCalle "PARTENON" .
@@ -1111,8 +1112,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: pío xii (línea 9)  bus: 16, 29, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaRepub> a base:Posicion ;
-	base:tieneLatitud "40.466.195.029.254.100"^^xsd:long ;
-	base:tieneLongitud "-3.674.926.102.930.990"^^xsd:long .
+	geo:lat "40.466.195.029.254.100"^^xsd:double ;
+	geo:long "-3.674.926.102.930.990"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaRepub> a base:Direccion ;
 	base:tieneNumero "22 -24"^^xsd:int ;
@@ -1145,8 +1146,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: serrano (línea 4).  bus: 1, 5, 9, 14, 19, 21, 27, 45, 51, 53, 74, 150." .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeLaRioja> a base:Posicion ;
-	base:tieneLatitud "40.426.596.411.628.700"^^xsd:long ;
-	base:tieneLongitud "-3.687.839.531.572.200"^^xsd:long .
+	geo:lat "40.426.596.411.628.700"^^xsd:double ;
+	geo:long "-3.687.839.531.572.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeLaRioja> a base:Direccion ;
 	base:tieneNumero "25"^^xsd:int ;
@@ -1179,8 +1180,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: gregorio marañón   bus: 5, 7, 9, 14, 16, 19, 27, 40, 45, 51, 61, 147, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeMalta> a base:Posicion ;
-	base:tieneLatitud "4.043.569.358.766.220"^^xsd:long ;
-	base:tieneLongitud "-3.689.677.189.614.330"^^xsd:long .
+	geo:lat "4.043.569.358.766.220"^^xsd:double ;
+	geo:long "-3.689.677.189.614.330"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeMalta> a base:Direccion ;
 	base:tieneNumero "45"^^xsd:int ;
@@ -1212,8 +1213,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: ventura rodríguez (línea 3), plaza de españa (línea 3)  bus: 1, 2, 3, 44, 46, 74, 75, 133, 138, 148, c" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeMarruec> a base:Posicion ;
-	base:tieneLatitud "4.042.420.902.572.590"^^xsd:long ;
-	base:tieneLongitud "-3.714.574.560.417.800"^^xsd:long .
+	geo:lat "4.042.420.902.572.590"^^xsd:double ;
+	geo:long "-3.714.574.560.417.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeMarruec> a base:Direccion ;
 	base:tieneNumero "24"^^xsd:int ;
@@ -1245,8 +1246,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: sevilla (línea 2)  bus: 10, 14, 27, 34, 37, 45" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeMexico> a base:Posicion ;
-	base:tieneLatitud "4.041.605.298.613.370"^^xsd:long ;
-	base:tieneLongitud "-3.697.338.423.479.510"^^xsd:long .
+	geo:lat "4.041.605.298.613.370"^^xsd:double ;
+	geo:long "-3.697.338.423.479.510"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeMexico> a base:Direccion ;
 	base:tieneNumero "46"^^xsd:int ;
@@ -1279,8 +1280,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: colón (línea 4)  bus: 5, 14, 27, 45, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeNoruega> a base:Posicion ;
-	base:tieneLatitud "4.042.567.707.652.300"^^xsd:long ;
-	base:tieneLongitud "-36.909.305.470.033.500"^^xsd:long .
+	geo:lat "4.042.567.707.652.300"^^xsd:double ;
+	geo:long "-36.909.305.470.033.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeNoruega> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -1313,8 +1314,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: iglesia ( línea 1)  bus: 16, 37, 61, 149" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeNuevaYo> a base:Posicion ;
-	base:tieneLatitud "4.043.466.453.809.470"^^xsd:long ;
-	base:tieneLongitud "-3.700.501.765.839.500"^^xsd:long .
+	geo:lat "4.043.466.453.809.470"^^xsd:double ;
+	geo:long "-3.700.501.765.839.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeNuevaYo> a base:Direccion ;
 	base:tieneNumero "27"^^xsd:int ;
@@ -1345,8 +1346,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodePeru> a base:TransportePublico .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodePeru> a base:Posicion ;
-	base:tieneLatitud "40.429.674.007.218.000"^^xsd:long ;
-	base:tieneLongitud "-36.792.883.340.980.100"^^xsd:long .
+	geo:lat "40.429.674.007.218.000"^^xsd:double ;
+	geo:long "-36.792.883.340.980.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePeru> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
@@ -1376,8 +1377,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: plaza de españa (línea 3)  bus: 1, 2, 3, 44, 46, 74, 75, 133, 138, 148, 202," .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodePolonia> a base:Posicion ;
-	base:tieneLatitud "4.042.474.213.964.730"^^xsd:long ;
-	base:tieneLongitud "-37.128.591.034.859.400"^^xsd:long .
+	geo:lat "4.042.474.213.964.730"^^xsd:double ;
+	geo:long "-37.128.591.034.859.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePolonia> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
@@ -1409,8 +1410,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: núñez de balboa (líneas 5, 9)  bus: 1, 9, 19, 51, 74" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodePortuga> a base:Posicion ;
-	base:tieneLatitud "4.042.991.206.232.810"^^xsd:long ;
-	base:tieneLongitud "-36.847.491.581.278.600"^^xsd:long .
+	geo:lat "4.042.991.206.232.810"^^xsd:double ;
+	geo:long "-36.847.491.581.278.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePortuga> a base:Direccion ;
 	base:tieneNumero "88"^^xsd:int ;
@@ -1442,8 +1443,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: retiro (línea 2)  bus: 1, 2, 9, 15, 20, 28, 51, 52, 74, 146, 202" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodePuertoR> a base:Posicion ;
-	base:tieneLatitud "4.042.308.011.875.360"^^xsd:long ;
-	base:tieneLongitud "-3.686.789.938.909.180"^^xsd:long .
+	geo:lat "4.042.308.011.875.360"^^xsd:double ;
+	geo:long "-3.686.789.938.909.180"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePuertoR> a base:Direccion ;
 	base:tieneNumero "22"^^xsd:int ;
@@ -1475,8 +1476,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: rubén darío (línea 5), gregrorio marañón (líneas 7, 10)  bus: 9, 16, 19, 61" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeRepubli> a base:Posicion ;
-	base:tieneLatitud "4.043.574.088.970.730"^^xsd:long ;
-	base:tieneLongitud "-3.686.270.282.394.150"^^xsd:long .
+	geo:lat "4.043.574.088.970.730"^^xsd:double ;
+	geo:long "-3.686.270.282.394.150"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeRepubli> a base:Direccion ;
 	base:tieneNumero "114"^^xsd:int ;
@@ -1508,8 +1509,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: lista (línea 4)  bus: 1, 26, 61, 74" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeRumania> a base:Posicion ;
-	base:tieneLatitud "4.043.064.345.216.760"^^xsd:long ;
-	base:tieneLongitud "-36.737.334.953.475.200"^^xsd:long .
+	geo:lat "4.043.064.345.216.760"^^xsd:double ;
+	geo:long "-36.737.334.953.475.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeRumania> a base:Direccion ;
 	base:tieneNumero "49"^^xsd:int ;
@@ -1541,8 +1542,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: arg&uuml;elles (líneas 3, 4, 6)  bus: 5, 7, 14, 21, 27, 45, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeSeychel> a base:Posicion ;
-	base:tieneLatitud "40.429.538.155.017.700"^^xsd:long ;
-	base:tieneLongitud "-3.715.255.790.482.150"^^xsd:long .
+	geo:lat "40.429.538.155.017.700"^^xsd:double ;
+	geo:long "-3.715.255.790.482.150"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeSeychel> a base:Direccion ;
 	base:tieneNumero "40"^^xsd:int ;
@@ -1575,8 +1576,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: serrano (línea 4)  bus: 1, 9, 19, 21, 51, 53, 74" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeTahiti> a base:Posicion ;
-	base:tieneLatitud "40.426.021.621.426.400"^^xsd:long ;
-	base:tieneLongitud "-3.687.538.961.488.500"^^xsd:long .
+	geo:lat "40.426.021.621.426.400"^^xsd:double ;
+	geo:long "-3.687.538.961.488.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeTahiti> a base:Direccion ;
 	base:tieneNumero "40"^^xsd:int ;
@@ -1608,8 +1609,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: retiro (línea 2)  bus: 1, 2, 3, 44, 46, 74, 75, 133, 138, 148, 202, c" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeTurquia> a base:Posicion ;
-	base:tieneLatitud "40.416.395.587.157.400"^^xsd:long ;
-	base:tieneLongitud "-36.897.865.586.854.900"^^xsd:long .
+	geo:lat "40.416.395.587.157.400"^^xsd:double ;
+	geo:long "-36.897.865.586.854.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeTurquia> a base:Direccion ;
 	base:tieneNumero "18"^^xsd:int ;
@@ -1641,8 +1642,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: san bernardo (líneas 2, 4)  bus: 2, 21, 147, 202" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeTunez> a base:Posicion ;
-	base:tieneLatitud "4.042.967.754.133.070"^^xsd:long ;
-	base:tieneLongitud "-37.087.142.557.455.800"^^xsd:long .
+	geo:lat "4.042.967.754.133.070"^^xsd:double ;
+	geo:long "-37.087.142.557.455.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeTunez> a base:Direccion ;
 	base:tieneNumero "11"^^xsd:int ;
@@ -1675,8 +1676,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: santiago bernabeu (línea 10)  bus: 27, 40, 43, 126, 147" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeVenezue> a base:Posicion ;
-	base:tieneLatitud "40.453.269.184.872.100"^^xsd:long ;
-	base:tieneLongitud "-36.928.523.641.457.400"^^xsd:long .
+	geo:lat "40.453.269.184.872.100"^^xsd:double ;
+	geo:long "-36.928.523.641.457.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeVenezue> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -1713,8 +1714,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: sol (líneas 1, 2, 3), ópera (línea 2, 5, ramal)  bus: 3, 5, 15, 17, 18, 20, 23, 31, 35, 50, 51, 52, 53, 65, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelAyunta> a base:Posicion ;
-	base:tieneLatitud "4.041.583.855.082.180"^^xsd:long ;
-	base:tieneLongitud "-37.074.257.084.323.600"^^xsd:long .
+	geo:lat "4.041.583.855.082.180"^^xsd:double ;
+	geo:long "-37.074.257.084.323.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelAyunta> a base:Direccion ;
 	base:tieneNumero "27"^^xsd:int ;
@@ -1748,8 +1749,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: moncloa (líneas 3, 6)  bus: 1, 16, 44, 46, 61, 82, 83, 132, 133, 160, 161, 162, a, c1, c2, se 796, se 798" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinaJovenComunidaddeMa> a base:Posicion ;
-	base:tieneLatitud "4.043.442.331.966.470"^^xsd:long ;
-	base:tieneLongitud "-3.717.795.251.173.150"^^xsd:long .
+	geo:lat "4.043.442.331.966.470"^^xsd:double ;
+	geo:long "-3.717.795.251.173.150"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinaJovenComunidaddeMa> a base:Direccion ;
 	base:tieneNumero "88"^^xsd:int ;
@@ -1774,8 +1775,8 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinaJovenComunidaddeMa> base:hayTransportePublico "bus: 1, 5, 9, 14, 19, 27, 37, 45, 51, 53, 74, 150" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinaJovenComunidaddeMa> base:tieneLatitud "4.042.232.563.847.620"^^xsd:long ;
-	base:tieneLongitud "-36.909.434.067.579.500"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinaJovenComunidaddeMa> geo:lat "4.042.232.563.847.620"^^xsd:double ;
+	geo:long "-36.909.434.067.579.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinaJovenComunidaddeMa> base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
@@ -1801,8 +1802,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: aeropuerto t2 (línea 8)  bus: 200 y autobús express aeropuerto" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PuntodeInformacionTuristi> a base:Posicion ;
-	base:tieneLatitud "4.045.188.738.242.830"^^xsd:long ;
-	base:tieneLongitud "-35.859.807.207.200.300"^^xsd:long .
+	geo:lat "4.045.188.738.242.830"^^xsd:double ;
+	geo:long "-35.859.807.207.200.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PuntodeInformacionTuristi> a base:Direccion ;
 	base:tieneNumero "0"^^xsd:int ;
@@ -1839,8 +1840,8 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/PuntodeInformacionTuristi> base:hayTransportePublico "metro: callao (líneas 1, 3, 5)  bus: 1, 2, 44, 46, 74, 75, 146, 147, 148, 133 y 202" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PuntodeInformacionTuristi> base:tieneLatitud "4.041.974.735.763.760"^^xsd:long ;
-	base:tieneLongitud "-37.061.346.665.078.800"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PuntodeInformacionTuristi> geo:lat "4.041.974.735.763.760"^^xsd:double ;
+	geo:long "-37.061.346.665.078.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PuntodeInformacionTuristi> base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
@@ -1858,8 +1859,8 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/PuntodeInformacionTuristi> base:hayTransportePublico "metro: banco de españa (línea 2)  bus: 1, 2, 5, 9, 10, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150, 202  renfe: recoletos" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PuntodeInformacionTuristi> base:tieneLatitud "40.419.011.767.401.000"^^xsd:long ;
-	base:tieneLongitud "-3.692.206.111.679.650"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PuntodeInformacionTuristi> geo:lat "40.419.011.767.401.000"^^xsd:double ;
+	geo:long "-3.692.206.111.679.650"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PuntodeInformacionTuristi> base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
 	base:tieneCodigoPostal "28014"^^xsd:int ;
@@ -1879,8 +1880,8 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/PuntodeInformacionTuristi> base:hayTransportePublico "metro: atocha (línea 1)  bus: 6, 10 , 14, 19, 26, 27, 32, 34, 37, 54, 57, 69  renfe: atocha" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PuntodeInformacionTuristi> base:tieneLatitud "4.041.213.027.498.250"^^xsd:long ;
-	base:tieneLongitud "-36.994.547.941.964.900"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PuntodeInformacionTuristi> geo:lat "4.041.213.027.498.250"^^xsd:double ;
+	geo:long "-36.994.547.941.964.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PuntodeInformacionTuristi> base:tieneCodigoPostal "28012"^^xsd:int ;
 	base:tieneCalle "SANTA ISABEL" ;
@@ -1913,8 +1914,8 @@ Información turística y cultural: 902 100 007
 	base:hayTransportePublico "metro: plaza de españa (líneas 3, 10), santo domingo (línea 2), callao (líneas 3, 5)  bus: 1, 2, 25, 39, 44, 46, 74, 75, 138, 148, 202" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ServiciodeAtencionalTuris> a base:Posicion ;
-	base:tieneLatitud "40.421.578.408.057.800"^^xsd:long ;
-	base:tieneLongitud "-37.101.852.392.954.300"^^xsd:long .
+	geo:lat "40.421.578.408.057.800"^^xsd:double ;
+	geo:long "-37.101.852.392.954.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ServiciodeAtencionalTuris> a base:Direccion ;
 	base:tieneNumero "19"^^xsd:int ;
@@ -1948,8 +1949,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ServicioNoPresencialdeInf> a base:TransportePublico .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ServicioNoPresencialdeInf> a base:Posicion ;
-	base:tieneLatitud "4.041.583.855.082.180"^^xsd:long ;
-	base:tieneLongitud "-37.074.257.084.323.600"^^xsd:long .
+	geo:lat "4.041.583.855.082.180"^^xsd:double ;
+	geo:long "-37.074.257.084.323.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ServicioNoPresencialdeInf> a base:Direccion ;
 	base:tieneNumero "27"^^xsd:int ;

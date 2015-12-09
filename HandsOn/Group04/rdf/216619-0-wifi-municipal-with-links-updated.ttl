@@ -1,3 +1,4 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -22,8 +23,8 @@
 	base:hayTransportePublico "metro: delicias, palos de la frontera (línea 3), atocha (línea 1), méndez alvaro (línea 6)  bus: 6 , 8 , 19 , 45 , 47 , 55 , 59 , 85 , 86 , 102 y 152 renfe: delicias, atocha" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/AgenciadeActividades> a base:Posicion ;
-	base:tieneLatitud "40.400.449.587.879.100"^^xsd:long ;
-	base:tieneLongitud "-36.882.686.006.118.100"^^xsd:long .
+	geo:lat "40.400.449.587.879.100"^^xsd:double ;
+	geo:long "-36.882.686.006.118.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/AgenciadeActividades> a base:Direccion ;
 	base:tieneNumero "16"^^xsd:int ;
@@ -61,8 +62,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/AreadeGobiernodeEquidad,D> a base:TransportePublico .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/AreadeGobiernodeEquidad,D> a base:Posicion ;
-	base:tieneLatitud "4.042.952.490.187.530"^^xsd:long ;
-	base:tieneLongitud "-3.670.881.135.626.950"^^xsd:long .
+	geo:lat "4.042.952.490.187.530"^^xsd:double ;
+	geo:long "-3.670.881.135.626.950"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/AreadeGobiernodeEquidad,D> a base:Direccion ;
 	base:tieneNumero "100"^^xsd:int ;
@@ -96,8 +97,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/AreadeGobiernodePortavoz,> a base:TransportePublico .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/AreadeGobiernodePortavoz,> a base:Posicion ;
-	base:tieneLatitud "4.041.830.044.947.140"^^xsd:long ;
-	base:tieneLongitud "-36.921.398.851.040.000"^^xsd:long .
+	geo:lat "4.041.830.044.947.140"^^xsd:double ;
+	geo:long "-36.921.398.851.040.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/AreadeGobiernodePortavoz,> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -133,8 +134,8 @@
 	base:hayTransportePublico "metro : laguna, casa de campo, aluche bus : 25, 31, 138 renfe:  laguna, aluche" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> a base:Posicion ;
-	base:tieneLatitud "4.039.597.072.367.930"^^xsd:long ;
-	base:tieneLongitud "-37.562.716.852.987.800"^^xsd:long .
+	geo:lat "4.039.597.072.367.930"^^xsd:double ;
+	geo:long "-37.562.716.852.987.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
@@ -165,8 +166,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro : marqués de vadillo  bus:  34, 35, 108, 118, 119 y n7" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "403.975.850.662.447"^^xsd:long ;
-	base:tieneLongitud "-37.207.386.328.562.300"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "403.975.850.662.447"^^xsd:double ;
+	geo:long "-37.207.386.328.562.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "30"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CARABANCHEL> ;
@@ -189,8 +190,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  campamento   bus:  25, 36, 39, 65, 121, 131, 138, h" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "40.397.074.625.115.900"^^xsd:long ;
-	base:tieneLongitud "-37.664.885.474.841.500"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "40.397.074.625.115.900"^^xsd:double ;
+	geo:long "-37.664.885.474.841.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "1"^^xsd:int ;
 	base:tieneCodigoPostal "28024"^^xsd:int ;
@@ -208,8 +209,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  diego de león, manuel becerra  bus:  1, 43, 48, 56, 74, circular" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.043.199.309.720.510"^^xsd:long ;
-	base:tieneLongitud "-3.670.929.243.543.710"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.043.199.309.720.510"^^xsd:double ;
+	geo:long "-3.670.929.243.543.710"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "5"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
@@ -228,8 +229,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  canillejas, torre arias (línea 5).  bus:  77, 105, 140" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.044.640.229.188.280"^^xsd:long ;
-	base:tieneLongitud "-36.117.933.204.271.000"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.044.640.229.188.280"^^xsd:double ;
+	geo:long "-36.117.933.204.271.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "23"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SANBLAS-CANILLEJAS> ;
@@ -251,8 +252,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  ciudad lineal   bus : 4, 38, 48, 70, 77, 105, 109" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.043.641.736.294.720"^^xsd:long ;
-	base:tieneLongitud "-3.637.346.971.302.500"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.043.641.736.294.720"^^xsd:double ;
+	geo:long "-3.637.346.971.302.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "14"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CIUDADLINEAL> ;
@@ -274,8 +275,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  ventura rodríguez, plaza de españa, san bernardo y noviciado.  bus : 1, 2, 7, 21, 44, 74, 147, circular, minibús m-2" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.042.738.668.300.470"^^xsd:long ;
-	base:tieneLongitud "-37.105.999.955.473.600"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.042.738.668.300.470"^^xsd:double ;
+	geo:long "-37.105.999.955.473.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "9"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
@@ -297,8 +298,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  plaza de castilla , duque de pastrana   bus:  70, 107, 129, 174" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "40.467.453.379.213.100"^^xsd:long ;
-	base:tieneLongitud "-36.846.112.774.442.700"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "40.467.453.379.213.100"^^xsd:double ;
+	geo:long "-36.846.112.774.442.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMARTIN> ;
 	base:tieneCodigoPostal "28036"^^xsd:int ;
@@ -319,8 +320,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  ibiza  bus:  20, 26, 63, 152 y circular" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "404.166.091.081.099"^^xsd:long ;
-	base:tieneLongitud "-36.795.930.368.034.800"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "404.166.091.081.099"^^xsd:double ;
+	geo:long "-36.795.930.368.034.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "24"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
@@ -339,8 +340,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  valdebernardo   bus:  8, 71, 130" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.039.982.891.410.400"^^xsd:long ;
-	base:tieneLongitud "-3.621.281.890.570.370"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.039.982.891.410.400"^^xsd:double ;
+	geo:long "-3.621.281.890.570.370"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "21"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VICALVARO> ;
@@ -363,8 +364,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  concha espina, prosperidad   bus:  9, 16, 29, 52" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.044.810.636.195.710"^^xsd:long ;
-	base:tieneLongitud "-36.762.309.620.097.300"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.044.810.636.195.710"^^xsd:double ;
+	geo:long "-36.762.309.620.097.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "51"^^xsd:int ;
 	base:tieneCodigoPostal "28002"^^xsd:int ;
@@ -382,8 +383,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  san fermín - orcasur  renfe:  orcasitas bus:  78, 116" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "40.366.768.324.753.400"^^xsd:long ;
-	base:tieneLongitud "-3.701.141.063.083.800"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "40.366.768.324.753.400"^^xsd:double ;
+	geo:long "-3.701.141.063.083.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/USERA> ;
@@ -409,8 +410,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  villa de vallecas (línea 1)  bus:  54, 58, 103, 130, 142" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.037.790.196.240.430"^^xsd:long ;
-	base:tieneLongitud "-36.227.296.605.039.500"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.037.790.196.240.430"^^xsd:double ;
+	geo:long "-36.227.296.605.039.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "12"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLADEVALLECAS> ;
@@ -432,8 +433,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  alameda de osuna   bus:  105, 112, 115" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.046.055.947.228.690"^^xsd:long ;
-	base:tieneLongitud "-35.937.461.811.785.300"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.046.055.947.228.690"^^xsd:double ;
+	geo:long "-35.937.461.811.785.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "179"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/BARAJAS> ;
@@ -454,8 +455,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  parque de santa maría   bus:  9, 72, 107, 201" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.047.571.688.103.060"^^xsd:long ;
-	base:tieneLongitud "-364.667.257.750.353"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.047.571.688.103.060"^^xsd:double ;
+	geo:long "-364.667.257.750.353"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/HORTALEZA> ;
 	base:tieneCodigoPostal "28033"^^xsd:int ;
@@ -476,8 +477,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  la elipa (línea 2) bus: 15, 28, 110, 113, 210" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.042.342.659.084.210"^^xsd:long ;
-	base:tieneLongitud "-3.651.841.641.389.480"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.042.342.659.084.210"^^xsd:double ;
+	geo:long "-3.651.841.641.389.480"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "6"^^xsd:int ;
 	base:tieneCodigoPostal "28017"^^xsd:int ;
@@ -495,8 +496,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  sol, latina, ópera bus:  3, 17, 18, 23, 31, 50, 65 renfe: sol" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.041.410.290.844.660"^^xsd:long ;
-	base:tieneLongitud "-37.098.591.212.735.800"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.041.410.290.844.660"^^xsd:double ;
+	geo:long "-37.098.591.212.735.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneCodigoPostal "28005"^^xsd:int ;
 	base:tieneCalle "SAN JUSTO" .
@@ -514,8 +515,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  las musas   bus:  38, 48, 140, 153, 286, 288, 289" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "40.433.291.625.973.600"^^xsd:long ;
-	base:tieneLongitud "-36.105.662.311.927.400"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "40.433.291.625.973.600"^^xsd:double ;
+	geo:long "-36.105.662.311.927.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "15"^^xsd:int ;
 	base:tieneCalle "MARIA SEVILLA DIAGO" .
@@ -531,8 +532,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  barrio del pilar, peñagrande   bus:  49, 83, 128, 132, 134, 137" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.047.860.087.334.550"^^xsd:long ;
-	base:tieneLongitud "-37.094.408.342.979.900"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.047.860.087.334.550"^^xsd:double ;
+	geo:long "-37.094.408.342.979.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "38"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
@@ -554,8 +555,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  eugenia de montijo, carabanchel   bus:  34 , 35" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.038.330.593.504.340"^^xsd:long ;
-	base:tieneLongitud "-37.420.633.861.175.700"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.038.330.593.504.340"^^xsd:double ;
+	geo:long "-37.420.633.861.175.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "252"^^xsd:int ;
 	base:tieneCodigoPostal "28025"^^xsd:int ;
@@ -572,8 +573,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  francos rodríguez   bus:  44, 64, 126, 127, 128, 132" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.045.749.513.485.950"^^xsd:long ;
-	base:tieneLongitud "-3.710.539.712.535.910"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.045.749.513.485.950"^^xsd:double ;
+	geo:long "-3.710.539.712.535.910"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "67"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/TETUAN> ;
@@ -595,8 +596,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  ventilla  bus:  42" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.046.903.299.144.090"^^xsd:long ;
-	base:tieneLongitud "-36.976.620.067.964.900"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.046.903.299.144.090"^^xsd:double ;
+	geo:long "-36.976.620.067.964.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneCalle "DONOSO" .
 
@@ -612,8 +613,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro : alonso martínez, tribunal.  bus:  3, 21, 37, 40, 147, 149" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "40.426.642.215.368.100"^^xsd:long ;
-	base:tieneLongitud "-3.699.722.994.908.340"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "40.426.642.215.368.100"^^xsd:double ;
+	geo:long "-3.699.722.994.908.340"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneCodigoPostal "28004"^^xsd:int ;
 	base:tieneCalle "BARCELO" .
@@ -629,8 +630,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  vinateros   bus:  20, 30, 32, 71, 113" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.040.971.737.692.920"^^xsd:long ;
-	base:tieneLongitud "-36.529.822.109.115.100"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.040.971.737.692.920"^^xsd:double ;
+	geo:long "-36.529.822.109.115.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "11"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MORATALAZ> ;
@@ -652,8 +653,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  ascao   bus:  28, 109" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.042.941.133.441.140"^^xsd:long ;
-	base:tieneLongitud "-36.416.899.839.787.600"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.042.941.133.441.140"^^xsd:double ;
+	geo:long "-36.416.899.839.787.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "4"^^xsd:int ;
 	base:tieneCalle "ASCAO" .
@@ -668,8 +669,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  pirámides (línea 5).  bus:  18, 23, 34, 35, 36, 116, 118, 119   renfe:  pirámides" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.040.003.652.682.000"^^xsd:long ;
-	base:tieneLongitud "-37.074.488.154.950.500"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.040.003.652.682.000"^^xsd:double ;
+	geo:long "-37.074.488.154.950.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/ARGANZUELA> ;
 	base:tieneCalle "ARGANDA" .
@@ -688,8 +689,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  portazgo, buenos aires (línea 1)  bus:  54, 57, 58, 103, 136, 141, 143" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.039.330.714.657.690"^^xsd:long ;
-	base:tieneLongitud "-36.554.041.181.586.000"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.039.330.714.657.690"^^xsd:double ;
+	geo:long "-36.554.041.181.586.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/PUENTEDEVALLECAS> ;
 	base:tieneCodigoPostal "28038"^^xsd:int ;
@@ -709,8 +710,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "bus:  24, 102   renfe:  el pozo" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "403.735.856.436.473"^^xsd:long ;
-	base:tieneLongitud "-36.602.546.064.905.300"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "403.735.856.436.473"^^xsd:double ;
+	geo:long "-36.602.546.064.905.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "19"^^xsd:int ;
 	base:tieneCodigoPostal "28053"^^xsd:int ;
@@ -727,8 +728,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  alsacia (línea 2) bus: 4, 38, 48, 70, 106, 140" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "40.420.231.627.534.900"^^xsd:long ;
-	base:tieneLongitud "-36.218.113.860.909.000"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "40.420.231.627.534.900"^^xsd:double ;
+	geo:long "-36.218.113.860.909.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "8"^^xsd:int ;
 	base:tieneCalle "SAN ROMAN DEL VALLE" .
@@ -744,8 +745,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro:  nueva numancia   bus:  10, 24, 54, 57, 58, 111, 136, 310" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "4.039.501.488.341.380"^^xsd:long ;
-	base:tieneLongitud "-3.665.565.995.938.500"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "4.039.501.488.341.380"^^xsd:double ;
+	geo:long "-3.665.565.995.938.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneCalle "PUERTO DEL MONASTERIO" .
 
@@ -759,8 +760,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BibliotecaPublicaMunicipa> base:hayTransportePublico "metro : vicálvaro   bus : 4, 100, 106, 130   renfe : vicálvaro" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> base:tieneLatitud "40.405.283.650.744.300"^^xsd:long ;
-	base:tieneLongitud "-36.086.278.232.922.800"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaPublicaMunicipa> geo:lat "40.405.283.650.744.300"^^xsd:double ;
+	geo:long "-36.086.278.232.922.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaPublicaMunicipa> base:tieneNumero "36"^^xsd:int ;
 	base:tieneCalle "VILLARDONDIEGO" .
@@ -785,8 +786,8 @@
 	base:hayTransportePublico "metro: ventura rodríguez (línea 3), san bernardo (línea 2 y 4) y noviciado (línea 2).  bus: 1, 2, 44, 74, 133, 202, 749, minibús m-2" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCondeDuque> a base:Posicion ;
-	base:tieneLatitud "40.427.938.443.518.200"^^xsd:long ;
-	base:tieneLongitud "-3.710.240.346.719.510"^^xsd:long .
+	geo:lat "40.427.938.443.518.200"^^xsd:double ;
+	geo:long "-3.710.240.346.719.510"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCondeDuque> a base:Direccion ;
 	base:tieneNumero "09-nov"^^xsd:int ;
@@ -819,8 +820,8 @@
 	base:hayTransportePublico "bus: 41, 75" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalAgustinDiaz> a base:Posicion ;
-	base:tieneLatitud "40.427.538.776.051.800"^^xsd:long ;
-	base:tieneLongitud "-3.732.422.725.110.930"^^xsd:long .
+	geo:lat "40.427.538.776.051.800"^^xsd:double ;
+	geo:long "-3.732.422.725.110.930"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalAgustinDiaz> a base:Direccion ;
 	base:tieneNumero "42"^^xsd:int ;
@@ -856,8 +857,8 @@
 	base:hayTransportePublico "bus: 49 , 64" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalAlfredoKrau> a base:Posicion ;
-	base:tieneLatitud "4.049.082.275.610.170"^^xsd:long ;
-	base:tieneLongitud "-37.216.054.330.053.600"^^xsd:long .
+	geo:lat "4.049.082.275.610.170"^^xsd:double ;
+	geo:long "-37.216.054.330.053.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalAlfredoKrau> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
@@ -889,8 +890,8 @@
 	base:hayTransportePublico "metro: aviación española (línea 10)  bus: 17, 34, 39, 139  renfe: las águilas" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalAlmiranteCh> a base:Posicion ;
-	base:tieneLatitud "403.829.835.905.706"^^xsd:long ;
-	base:tieneLongitud "-37.800.890.564.106.600"^^xsd:long .
+	geo:lat "403.829.835.905.706"^^xsd:double ;
+	geo:long "-37.800.890.564.106.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalAlmiranteCh> a base:Direccion ;
 	base:tieneNumero "72"^^xsd:int ;
@@ -925,8 +926,8 @@
 	base:hayTransportePublico "bus: 4, 106, 140" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalAntonioMach> a base:Posicion ;
-	base:tieneLatitud "4.042.027.705.095.570"^^xsd:long ;
-	base:tieneLongitud "-3.621.741.078.700.330"^^xsd:long .
+	geo:lat "4.042.027.705.095.570"^^xsd:double ;
+	geo:long "-3.621.741.078.700.330"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalAntonioMach> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
@@ -958,8 +959,8 @@
 	base:hayTransportePublico "bus: 160, 161" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalAravaca,Mon> a base:Posicion ;
-	base:tieneLatitud "4.045.843.103.553.320"^^xsd:long ;
-	base:tieneLongitud "-3.785.855.667.139.090"^^xsd:long .
+	geo:lat "4.045.843.103.553.320"^^xsd:double ;
+	geo:long "-3.785.855.667.139.090"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalAravaca,Mon> a base:Direccion ;
 	base:tieneNumero "20"^^xsd:int ;
@@ -991,8 +992,8 @@
 	base:hayTransportePublico "metro: diego de león (líneas 4 , 5 , 6)  bus: 1, 12, 48, 74" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalBuenavista,> a base:Posicion ;
-	base:tieneLatitud "4.043.200.210.571.460"^^xsd:long ;
-	base:tieneLongitud "-36.709.293.330.780.200"^^xsd:long .
+	geo:lat "4.043.200.210.571.460"^^xsd:double ;
+	geo:long "-36.709.293.330.780.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalBuenavista,> a base:Direccion ;
 	base:tieneNumero "5"^^xsd:int ;
@@ -1025,8 +1026,8 @@
 	base:hayTransportePublico "metro: torres arias (línea 5)  bus: 77" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalBueroVallej> a base:Posicion ;
-	base:tieneLatitud "4.044.477.474.902.180"^^xsd:long ;
-	base:tieneLongitud "-36.129.105.844.633.700"^^xsd:long .
+	geo:lat "4.044.477.474.902.180"^^xsd:double ;
+	geo:long "-36.129.105.844.633.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalBueroVallej> a base:Direccion ;
 	base:tieneNumero "26"^^xsd:int ;
@@ -1060,8 +1061,8 @@
 	base:hayTransportePublico "metro: arturo soria (línea 4)  bus: 9, 72, 73" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalCarrildelCo> a base:Posicion ;
-	base:tieneLatitud "4.046.088.953.531.130"^^xsd:long ;
-	base:tieneLongitud "-36.544.210.187.969.400"^^xsd:long .
+	geo:lat "4.046.088.953.531.130"^^xsd:double ;
+	geo:long "-36.544.210.187.969.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalCarrildelCo> a base:Direccion ;
 	base:tieneNumero "57"^^xsd:int ;
@@ -1095,8 +1096,8 @@
 	base:hayTransportePublico "metro: retiro (línea 2)  bus: 2, 20, 28, 202" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalCasadeVacas> a base:Posicion ;
-	base:tieneLatitud "4.041.906.024.374.350"^^xsd:long ;
-	base:tieneLongitud "-36.840.615.387.926.900"^^xsd:long .
+	geo:lat "4.041.906.024.374.350"^^xsd:double ;
+	geo:long "-36.840.615.387.926.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalCasadeVacas> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -1129,8 +1130,8 @@
 	base:hayTransportePublico "bus :  77" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalCiudadPegas> a base:Posicion ;
-	base:tieneLatitud "40.448.428.925.762.600"^^xsd:long ;
-	base:tieneLongitud "-35.980.969.888.187.300"^^xsd:long .
+	geo:lat "40.448.428.925.762.600"^^xsd:double ;
+	geo:long "-35.980.969.888.187.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalCiudadPegas> a base:Direccion ;
 	base:tieneNumero "11"^^xsd:int ;
@@ -1163,8 +1164,8 @@
 	base:hayTransportePublico "metro: palos de la frontera (línea 3)  bus: 6, 8, 19, 45, 47, 55, 59, 85, 86, 102, 247  renfe: delicias" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalDotacionalI> a base:Posicion ;
-	base:tieneLatitud "4.040.207.279.862.860"^^xsd:long ;
-	base:tieneLongitud "-36.955.325.387.824.000"^^xsd:long .
+	geo:lat "4.040.207.279.862.860"^^xsd:double ;
+	geo:long "-36.955.325.387.824.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalDotacionalI> a base:Direccion ;
 	base:tieneNumero "17"^^xsd:int ;
@@ -1199,8 +1200,8 @@
 	base:hayTransportePublico "metro: ventilla (línea 9)  bus: 42" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalEduardoUrcu> a base:Posicion ;
-	base:tieneLatitud "4.046.903.299.144.090"^^xsd:long ;
-	base:tieneLongitud "-36.976.620.067.964.900"^^xsd:long .
+	geo:lat "4.046.903.299.144.090"^^xsd:double ;
+	geo:long "-36.976.620.067.964.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalEduardoUrcu> a base:Direccion ;
 	base:tieneNumero "5"^^xsd:int ;
@@ -1234,8 +1235,8 @@
 	base:hayTransportePublico "metro: vicálvaro (línea 9)  bus: 4, 100, 106, 130" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalelMadrono,V> a base:Posicion ;
-	base:tieneLatitud "40.405.283.650.744.300"^^xsd:long ;
-	base:tieneLongitud "-36.086.278.232.922.800"^^xsd:long .
+	geo:lat "40.405.283.650.744.300"^^xsd:double ;
+	geo:long "-36.086.278.232.922.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalelMadrono,V> a base:Direccion ;
 	base:tieneNumero "36"^^xsd:int ;
@@ -1268,8 +1269,8 @@
 	base:hayTransportePublico "bus: 24, 102" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalElPozo,Puen> a base:Posicion ;
-	base:tieneLatitud "403.735.856.436.473"^^xsd:long ;
-	base:tieneLongitud "-36.602.546.064.905.300"^^xsd:long .
+	geo:lat "403.735.856.436.473"^^xsd:double ;
+	geo:long "-36.602.546.064.905.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalElPozo,Puen> a base:Direccion ;
 	base:tieneNumero "19 - 21"^^xsd:int ;
@@ -1301,8 +1302,8 @@
 	base:hayTransportePublico "metro: artilleros (línea 9)  bus: 20, 30, 32, 71, 100" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalelTorito,Mo> a base:Posicion ;
-	base:tieneLatitud "4.040.609.591.857.160"^^xsd:long ;
-	base:tieneLongitud "-3.646.536.107.063.500"^^xsd:long .
+	geo:lat "4.040.609.591.857.160"^^xsd:double ;
+	geo:long "-3.646.536.107.063.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalelTorito,Mo> a base:Direccion ;
 	base:tieneNumero "130"^^xsd:int ;
@@ -1335,8 +1336,8 @@
 	base:hayTransportePublico "bus: 25, 31, 121, 138" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalFernandodel> a base:Posicion ;
-	base:tieneLatitud "4.039.552.030.374.420"^^xsd:long ;
-	base:tieneLongitud "-37.562.666.456.453.600"^^xsd:long .
+	geo:lat "4.039.552.030.374.420"^^xsd:double ;
+	geo:long "-37.562.666.456.453.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalFernandodel> a base:Direccion ;
 	base:tieneNumero "10B"^^xsd:int ;
@@ -1368,8 +1369,8 @@
 	base:hayTransportePublico "bus: 2, 16, 61, 202" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalGalileo,Cha> a base:Posicion ;
-	base:tieneLatitud "4.043.371.190.964.790"^^xsd:long ;
-	base:tieneLongitud "-37.104.543.597.957.700"^^xsd:long .
+	geo:lat "4.043.371.190.964.790"^^xsd:double ;
+	geo:long "-37.104.543.597.957.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalGalileo,Cha> a base:Direccion ;
 	base:tieneNumero "39"^^xsd:int ;
@@ -1405,8 +1406,8 @@
 	base:hayTransportePublico "bus: 105, 112, 115, 151." .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalGloriaFuert> a base:Posicion ;
-	base:tieneLatitud "40.460.622.835.379.600"^^xsd:long ;
-	base:tieneLongitud "-35.936.877.657.335.900"^^xsd:long .
+	geo:lat "40.460.622.835.379.600"^^xsd:double ;
+	geo:long "-35.936.877.657.335.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalGloriaFuert> a base:Direccion ;
 	base:tieneNumero "179"^^xsd:int ;
@@ -1438,8 +1439,8 @@
 	base:hayTransportePublico "metro: parque de santa maría (línea 4)  bus: 72, 87, 107" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalHortaleza> a base:Posicion ;
-	base:tieneLatitud "40.476.859.845.869.500"^^xsd:long ;
-	base:tieneLongitud "-36.420.353.342.333.200"^^xsd:long .
+	geo:lat "40.476.859.845.869.500"^^xsd:double ;
+	geo:long "-36.420.353.342.333.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalHortaleza> a base:Direccion ;
 	base:tieneNumero "15"^^xsd:int ;
@@ -1472,8 +1473,8 @@
 	base:hayTransportePublico "metro: san lorenzo (línea 4)  bus: 9, 72, 87, 107" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalHuertadelaS> a base:Posicion ;
-	base:tieneLatitud "404.745.567.778.344"^^xsd:long ;
-	base:tieneLongitud "-36.430.751.341.515.500"^^xsd:long .
+	geo:lat "404.745.567.778.344"^^xsd:double ;
+	geo:long "-36.430.751.341.515.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalHuertadelaS> a base:Direccion ;
 	base:tieneNumero "13 posterior"^^xsd:int ;
@@ -1506,8 +1507,8 @@
 	base:hayTransportePublico "bus :  77" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalJoseLuisLop> a base:Posicion ;
-	base:tieneLatitud "40.446.818.592.300.200"^^xsd:long ;
-	base:tieneLongitud "-3.572.741.163.820.910"^^xsd:long .
+	geo:lat "40.446.818.592.300.200"^^xsd:double ;
+	geo:long "-3.572.741.163.820.910"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalJoseLuisLop> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -1540,8 +1541,8 @@
 	base:hayTransportePublico "metro: laguna (línea 6)  bus: 55, 119, 138  renfe: laguna" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalJoseLuisSam> a base:Posicion ;
-	base:tieneLatitud "4.040.159.394.334.660"^^xsd:long ;
-	base:tieneLongitud "-3.749.110.841.406.560"^^xsd:long .
+	geo:lat "4.040.159.394.334.660"^^xsd:double ;
+	geo:long "-3.749.110.841.406.560"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalJoseLuisSam> a base:Direccion ;
 	base:tieneNumero "4B"^^xsd:int ;
@@ -1575,8 +1576,8 @@
 	base:hayTransportePublico "metro: francos rodríguez (línea 7)  bus: 44, 64, 126, 127, 132" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalJuanGris,Mo> a base:Posicion ;
-	base:tieneLatitud "40.457.862.962.907.300"^^xsd:long ;
-	base:tieneLongitud "-371.225.373.746.578"^^xsd:long .
+	geo:lat "40.457.862.962.907.300"^^xsd:double ;
+	geo:long "-371.225.373.746.578"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalJuanGris,Mo> a base:Direccion ;
 	base:tieneNumero "100"^^xsd:int ;
@@ -1609,8 +1610,8 @@
 	base:hayTransportePublico "metro: valdezarza (línea 7)   bus: 126, 127, 132" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalJulioCortaz> a base:Posicion ;
-	base:tieneLatitud "4.046.678.159.096.300"^^xsd:long ;
-	base:tieneLongitud "-37.195.669.111.891.700"^^xsd:long .
+	geo:lat "4.046.678.159.096.300"^^xsd:double ;
+	geo:long "-37.195.669.111.891.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalJulioCortaz> a base:Direccion ;
 	base:tieneNumero "20"^^xsd:int ;
@@ -1643,8 +1644,8 @@
 	base:hayTransportePublico "metro: la elipa (línea 2).  bus: 110, 113, 210." .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturallaElipa,Ciu> a base:Posicion ;
-	base:tieneLatitud "40.424.399.136.378.100"^^xsd:long ;
-	base:tieneLongitud "-36.503.185.491.568.600"^^xsd:long .
+	geo:lat "40.424.399.136.378.100"^^xsd:double ;
+	geo:long "-36.503.185.491.568.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturallaElipa,Ciu> a base:Direccion ;
 	base:tieneNumero "39"^^xsd:int ;
@@ -1677,8 +1678,8 @@
 	base:hayTransportePublico "metro: barrio del pilar (línea 9).  bus: 49 , 83 , 128 , 132 , 137" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalLaVaguada,F> a base:Posicion ;
-	base:tieneLatitud "4.047.900.813.206.290"^^xsd:long ;
-	base:tieneLongitud "-3.709.138.377.702.430"^^xsd:long .
+	geo:lat "4.047.900.813.206.290"^^xsd:double ;
+	geo:long "-3.709.138.377.702.430"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalLaVaguada,F> a base:Direccion ;
 	base:tieneNumero "38"^^xsd:int ;
@@ -1712,8 +1713,8 @@
 	base:hayTransportePublico "bus: 24, 102" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalLopedeVega,> a base:Posicion ;
-	base:tieneLatitud "40.386.293.684.801.800"^^xsd:long ;
-	base:tieneLongitud "-36.718.658.006.661.900"^^xsd:long .
+	geo:lat "40.386.293.684.801.800"^^xsd:double ;
+	geo:long "-36.718.658.006.661.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalLopedeVega,> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -1745,8 +1746,8 @@
 	base:hayTransportePublico "bus: 85" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalLosRosales,> a base:Posicion ;
-	base:tieneLatitud "4.035.074.797.433.510"^^xsd:long ;
-	base:tieneLongitud "-36.773.064.421.969.200"^^xsd:long .
+	geo:lat "4.035.074.797.433.510"^^xsd:double ;
+	geo:long "-36.773.064.421.969.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalLosRosales,> a base:Direccion ;
 	base:tieneNumero "133"^^xsd:int ;
@@ -1783,8 +1784,8 @@
 	base:hayTransportePublico "metro: ibiza (línea 9)  bus: 15, 26, 61, 63, 202, 215" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalMercadodeIb> a base:Posicion ;
-	base:tieneLatitud "4.041.817.157.699.020"^^xsd:long ;
-	base:tieneLongitud "-3.677.392.762.224.420"^^xsd:long .
+	geo:lat "4.041.817.157.699.020"^^xsd:double ;
+	geo:long "-3.677.392.762.224.420"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalMercadodeIb> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
@@ -1817,8 +1818,8 @@
 	base:hayTransportePublico "bus: 78, 81, 116" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalMesetadeOrc> a base:Posicion ;
-	base:tieneLatitud "4.036.968.950.845.350"^^xsd:long ;
-	base:tieneLongitud "-37.081.679.144.829.000"^^xsd:long .
+	geo:lat "4.036.968.950.845.350"^^xsd:double ;
+	geo:long "-37.081.679.144.829.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalMesetadeOrc> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -1850,8 +1851,8 @@
 	base:hayTransportePublico "bus: 34, 39, 117, 139  renfe: las aguilas" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalMiguelHerna> a base:Posicion ;
-	base:tieneLatitud "40.378.853.797.128.300"^^xsd:long ;
-	base:tieneLongitud "-37.819.616.113.032.100"^^xsd:long .
+	geo:lat "40.378.853.797.128.300"^^xsd:double ;
+	geo:long "-37.819.616.113.032.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalMiguelHerna> a base:Direccion ;
 	base:tieneNumero "13"^^xsd:int ;
@@ -1885,8 +1886,8 @@
 	base:hayTransportePublico "metro: moncloa (líneas 3, 6)  bus: 1, 44, 82, 83, 132, 133, 160, 161, 162, a, g, c" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalMoncloa,Mon> a base:Posicion ;
-	base:tieneLatitud "40.435.209.393.826.600"^^xsd:long ;
-	base:tieneLongitud "-37.188.765.163.188.200"^^xsd:long .
+	geo:lat "40.435.209.393.826.600"^^xsd:double ;
+	geo:long "-37.188.765.163.188.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalMoncloa,Mon> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -1919,8 +1920,8 @@
 	base:hayTransportePublico "metro: concha espina (línea 9), prosperidad (línea 4), cruz del rayo (línea 9)  bus: 7, 16, 19, 29, 51, 52" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalNicolasSalm> a base:Posicion ;
-	base:tieneLatitud "4.044.810.636.195.710"^^xsd:long ;
-	base:tieneLongitud "-36.762.309.620.097.300"^^xsd:long .
+	geo:lat "4.044.810.636.195.710"^^xsd:double ;
+	geo:long "-36.762.309.620.097.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalNicolasSalm> a base:Direccion ;
 	base:tieneNumero "51"^^xsd:int ;
@@ -1953,8 +1954,8 @@
 	base:hayTransportePublico "bus: 78, 116  renfe: orcasitas" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalOrcasur,Use> a base:Posicion ;
-	base:tieneLatitud "40.366.768.324.753.400"^^xsd:long ;
-	base:tieneLongitud "-3.701.141.063.083.800"^^xsd:long .
+	geo:lat "40.366.768.324.753.400"^^xsd:double ;
+	geo:long "-3.701.141.063.083.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalOrcasur,Use> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -1989,8 +1990,8 @@
 	base:hayTransportePublico "metro: ciudad lineal (línea 5)  bus: 4, 38, 48, 70, 105." .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalPrincipedeA> a base:Posicion ;
-	base:tieneLatitud "4.043.642.637.151.030"^^xsd:long ;
-	base:tieneLongitud "-36.373.470.563.687.900"^^xsd:long .
+	geo:lat "4.043.642.637.151.030"^^xsd:double ;
+	geo:long "-36.373.470.563.687.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalPrincipedeA> a base:Direccion ;
 	base:tieneNumero "14"^^xsd:int ;
@@ -2023,8 +2024,8 @@
 	base:hayTransportePublico "metro: puerta de toledo (línea 5).  bus: 3, 17, 18, 23, 35, 41, 60, 148." .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalPuertadeTol> a base:Posicion ;
-	base:tieneLatitud "4.040.740.551.053.050"^^xsd:long ;
-	base:tieneLongitud "-37.119.218.940.274.000"^^xsd:long .
+	geo:lat "4.040.740.551.053.050"^^xsd:double ;
+	geo:long "-37.119.218.940.274.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalPuertadeTol> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -2057,8 +2058,8 @@
 	base:hayTransportePublico "bus: 15 , 28 , 71" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalQuintadelBe> a base:Posicion ;
-	base:tieneLatitud "4.042.206.601.994.430"^^xsd:long ;
-	base:tieneLongitud "-3.662.968.075.865.230"^^xsd:long .
+	geo:lat "4.042.206.601.994.430"^^xsd:double ;
+	geo:long "-3.662.968.075.865.230"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalQuintadelBe> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -2090,8 +2091,8 @@
 	base:hayTransportePublico "metro: hospital 12 de octubre (línea 3)  bus: 23, 78, 123" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalSanFermin,U> a base:Posicion ;
-	base:tieneLatitud "4.037.164.288.657.410"^^xsd:long ;
-	base:tieneLongitud "-36.920.627.827.867.500"^^xsd:long .
+	geo:lat "4.037.164.288.657.410"^^xsd:double ;
+	geo:long "-36.920.627.827.867.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalSanFermin,U> a base:Direccion ;
 	base:tieneNumero "33"^^xsd:int ;
@@ -2124,8 +2125,8 @@
 	base:hayTransportePublico "bus: 119, 138" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalSanJosedeCa> a base:Posicion ;
-	base:tieneLatitud "4.040.647.389.284.970"^^xsd:long ;
-	base:tieneLongitud "-37.327.010.920.242.000"^^xsd:long .
+	geo:lat "4.040.647.389.284.970"^^xsd:double ;
+	geo:long "-37.327.010.920.242.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalSanJosedeCa> a base:Direccion ;
 	base:tieneNumero "65"^^xsd:int ;
@@ -2157,8 +2158,8 @@
 	base:hayTransportePublico "metro: avenida de la paz (línea 4)  bus: 11, 53, 70, 122" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalSanJuanBaut> a base:Posicion ;
-	base:tieneLatitud "4.045.224.737.965.270"^^xsd:long ;
-	base:tieneLongitud "-36.580.402.287.911.900"^^xsd:long .
+	geo:lat "4.045.224.737.965.270"^^xsd:double ;
+	geo:long "-36.580.402.287.911.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalSanJuanBaut> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -2191,8 +2192,8 @@
 	base:hayTransportePublico "metro: colonia jardín (línea 10)  bus: 65" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalSaraMontiel> a base:Posicion ;
-	base:tieneLatitud "40.399.764.677.637.100"^^xsd:long ;
-	base:tieneLongitud "-3.775.144.917.950.530"^^xsd:long .
+	geo:lat "40.399.764.677.637.100"^^xsd:double ;
+	geo:long "-3.775.144.917.950.530"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalSaraMontiel> a base:Direccion ;
 	base:tieneNumero "40B"^^xsd:int ;
@@ -2225,8 +2226,8 @@
 	base:hayTransportePublico "metro: alameda de osuna (línea 5)  bus: 101, 112, 114, 115, 151" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalTeresadeCal> a base:Posicion ;
-	base:tieneLatitud "4.045.531.140.556.260"^^xsd:long ;
-	base:tieneLongitud "-3.587.638.001.688.090"^^xsd:long .
+	geo:lat "4.045.531.140.556.260"^^xsd:double ;
+	geo:long "-3.587.638.001.688.090"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalTeresadeCal> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -2260,8 +2261,8 @@
 	base:hayTransportePublico "metro: plaza elíptica (línea 6)  bus: 6, 60, 81" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalUsera1> a base:Posicion ;
-	base:tieneLatitud "40.381.095.838.993.100"^^xsd:long ;
-	base:tieneLongitud "-3.710.973.351.109.330"^^xsd:long .
+	geo:lat "40.381.095.838.993.100"^^xsd:double ;
+	geo:long "-3.710.973.351.109.330"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalUsera1> a base:Direccion ;
 	base:tieneNumero "49"^^xsd:int ;
@@ -2294,8 +2295,8 @@
 	base:hayTransportePublico "metro: valdebernardo (línea 9)  bus: 8, 71, 130" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalValdebernar> a base:Posicion ;
-	base:tieneLatitud "4.039.982.891.410.400"^^xsd:long ;
-	base:tieneLongitud "-3.621.281.890.570.370"^^xsd:long .
+	geo:lat "4.039.982.891.410.400"^^xsd:double ;
+	geo:long "-3.621.281.890.570.370"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalValdebernar> a base:Direccion ;
 	base:tieneNumero "21"^^xsd:int ;
@@ -2328,8 +2329,8 @@
 	base:hayTransportePublico "metro: barajas (línea 8)  bus: 101, 105, 115" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalVilladeBara> a base:Posicion ;
-	base:tieneLatitud "40.473.402.418.562.200"^^xsd:long ;
-	base:tieneLongitud "-35.785.233.191.070.300"^^xsd:long .
+	geo:lat "40.473.402.418.562.200"^^xsd:double ;
+	geo:long "-35.785.233.191.070.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalVilladeBara> a base:Direccion ;
 	base:tieneNumero "10-jul"^^xsd:int ;
@@ -2362,8 +2363,8 @@
 	base:hayTransportePublico "bus: 58, 63, 145" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCulturalZazuar,Vill> a base:Posicion ;
-	base:tieneLatitud "4.038.281.899.948.720"^^xsd:long ;
-	base:tieneLongitud "-3.606.140.062.044.450"^^xsd:long .
+	geo:lat "4.038.281.899.948.720"^^xsd:double ;
+	geo:long "-3.606.140.062.044.450"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCulturalZazuar,Vill> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -2396,8 +2397,8 @@
 	base:hayTransportePublico "metro: l1 (puente vallecas)  bus: 152, 10, 24, 54" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeDiaMunicipal'Luis> a base:Posicion ;
-	base:tieneLatitud "4.039.701.377.469.420"^^xsd:long ;
-	base:tieneLongitud "-36.735.395.596.361.500"^^xsd:long .
+	geo:lat "4.039.701.377.469.420"^^xsd:double ;
+	geo:long "-36.735.395.596.361.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeDiaMunicipal'Luis> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -2430,8 +2431,8 @@
 	base:hayTransportePublico "bus: 114 , 115 , 151" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeFormaciondeBaraja> a base:Posicion ;
-	base:tieneLatitud "4.045.463.575.922.800"^^xsd:long ;
-	base:tieneLongitud "-3.587.632.115.472.540"^^xsd:long .
+	geo:lat "4.045.463.575.922.800"^^xsd:double ;
+	geo:long "-3.587.632.115.472.540"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeFormaciondeBaraja> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
@@ -2463,8 +2464,8 @@
 	base:hayTransportePublico "bus: 31 , 55 , 119 , 17 , 25" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodelaAgenciaparaelEm> a base:Posicion ;
-	base:tieneLatitud "4.039.607.142.096.170"^^xsd:long ;
-	base:tieneLongitud "-3.743.523.249.563.960"^^xsd:long .
+	geo:lat "4.039.607.142.096.170"^^xsd:double ;
+	geo:long "-3.743.523.249.563.960"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodelaAgenciaparaelEm> a base:Direccion ;
 	base:tieneNumero "89"^^xsd:int ;
@@ -2495,8 +2496,8 @@
 	base:hayTransportePublico "metro: prosperidad (línea 4)  bus: 9, 40, 43, 72, 73" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeSaludSantaHortens> a base:Posicion ;
-	base:tieneLatitud "40.445.161.353.404.300"^^xsd:long ;
-	base:tieneLongitud "-36.698.809.711.248.300"^^xsd:long .
+	geo:lat "40.445.161.353.404.300"^^xsd:double ;
+	geo:long "-36.698.809.711.248.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeSaludSantaHortens> a base:Direccion ;
 	base:tieneNumero "14"^^xsd:int ;
@@ -2529,8 +2530,8 @@
 	base:hayTransportePublico "metro: antonio machado (línea 7), valdezarza (línea 7)  bus: 126, 127 y 132" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeServiciosSociales> a base:Posicion ;
-	base:tieneLatitud "4.046.711.526.748.940"^^xsd:long ;
-	base:tieneLongitud "-37.195.114.936.540.900"^^xsd:long .
+	geo:lat "4.046.711.526.748.940"^^xsd:double ;
+	geo:long "-37.195.114.936.540.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeServiciosSociales> a base:Direccion ;
 	base:tieneNumero "22"^^xsd:int ;
@@ -2555,8 +2556,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentrodeServiciosSociales> base:hayTransportePublico "metro: villaverde bajo cruce (línea 3)  bus: 85, 123  renfe: villaverde bajo" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeServiciosSociales> base:tieneLatitud "4.034.854.935.708.130"^^xsd:long ;
-	base:tieneLongitud "-3.686.539.661.954.900"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeServiciosSociales> geo:lat "4.034.854.935.708.130"^^xsd:double ;
+	geo:long "-3.686.539.661.954.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeServiciosSociales> base:tieneNumero "62"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLAVERDE> ;
@@ -2577,8 +2578,8 @@ Teléfono cita previa: 915 079 271""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentrodeServiciosSociales> base:hayTransportePublico "bus: 102, 103 y 111  renfe: asamblea de madrid-entrevías" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeServiciosSociales> base:tieneLatitud "4.037.641.666.740.880"^^xsd:long ;
-	base:tieneLongitud "-36.692.821.142.332.200"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeServiciosSociales> geo:lat "4.037.641.666.740.880"^^xsd:double ;
+	geo:long "-36.692.821.142.332.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeServiciosSociales> base:tieneNumero "8"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/PUENTEDEVALLECAS> ;
@@ -2596,8 +2597,8 @@ Teléfono cita previa: 915 079 271""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentrodeServiciosSociales> base:hayTransportePublico "metro: diego de leon (líneas 4, 5 y 6) bus: 1, 43, 48 y 74" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeServiciosSociales> base:tieneLatitud "4.043.349.910.050.290"^^xsd:long ;
-	base:tieneLongitud "-36.691.167.784.691.700"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeServiciosSociales> geo:lat "4.043.349.910.050.290"^^xsd:double ;
+	geo:long "-36.691.167.784.691.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeServiciosSociales> base:tieneNumero "28"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
@@ -2614,8 +2615,8 @@ Teléfono cita previa: 915 079 271""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentrodeServiciosSociales> base:hayTransportePublico "metro: simancas (línea 7)  bus: 4, 38, 48, 70 y 109" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeServiciosSociales> base:tieneLatitud "4.042.395.169.186.780"^^xsd:long ;
-	base:tieneLongitud "-36.286.003.047.950.500"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeServiciosSociales> geo:lat "4.042.395.169.186.780"^^xsd:double ;
+	geo:long "-36.286.003.047.950.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeServiciosSociales> base:tieneNumero "160"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CIUDADLINEAL> ;
@@ -2632,8 +2633,8 @@ Teléfono cita previa: 913 806 840 """ .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentrodeServiciosSociales> base:hayTransportePublico "metro: miguel hernández (línea 1)  bus: 10, 57, 144 y 310" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeServiciosSociales> base:tieneLatitud "40.385.179.370.371.400"^^xsd:long ;
-	base:tieneLongitud "-36.444.628.142.076.500"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeServiciosSociales> geo:lat "40.385.179.370.371.400"^^xsd:double ;
+	geo:long "-36.444.628.142.076.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeServiciosSociales> base:tieneCodigoPostal "28018"^^xsd:int ;
 	base:tieneCalle "GERARDO DIEGO" .
@@ -2649,8 +2650,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentrodeServiciosSociales> base:hayTransportePublico "metro: portazgo (línea 1)  bus: 57, 103, 111, 144 y 310" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeServiciosSociales> base:tieneLatitud "4.038.871.930.363.660"^^xsd:long ;
-	base:tieneLongitud "-3.663.689.575.700.870"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeServiciosSociales> geo:lat "4.038.871.930.363.660"^^xsd:double ;
+	geo:long "-3.663.689.575.700.870"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeServiciosSociales> base:tieneNumero "10"^^xsd:int ;
 	base:tieneCalle "JAVIER DE MIGUEL" .
@@ -2665,8 +2666,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentrodeServiciosSociales> base:hayTransportePublico "metro: prosperidad (línea 4), alfonso xiii (línea 4)  bus: 9 , 43 , 72 , 73 y 122" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeServiciosSociales> base:tieneLatitud "4.044.476.894.081.760"^^xsd:long ;
-	base:tieneLongitud "-36.691.931.472.225.400"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeServiciosSociales> geo:lat "4.044.476.894.081.760"^^xsd:double ;
+	geo:long "-36.691.931.472.225.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeServiciosSociales> base:tieneNumero "15"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMARTIN> ;
@@ -2693,8 +2694,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "bus: 601" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> a base:Posicion ;
-	base:tieneLatitud "4.051.967.355.005.560"^^xsd:long ;
-	base:tieneLongitud "-3.777.870.156.722.290"^^xsd:long .
+	geo:lat "4.051.967.355.005.560"^^xsd:double ;
+	geo:long "-3.777.870.156.722.290"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -2717,8 +2718,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: tirso de molina, antón martín bus: 26, 32, 6" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.041.182.992.691.990"^^xsd:long ;
-	base:tieneLongitud "-3.702.928.583.465.710"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.041.182.992.691.990"^^xsd:double ;
+	geo:long "-3.702.928.583.465.710"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "14"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
@@ -2736,8 +2737,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "bus: 4, 48" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.042.027.705.095.570"^^xsd:long ;
-	base:tieneLongitud "-3.621.741.078.700.330"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.042.027.705.095.570"^^xsd:double ;
+	geo:long "-3.621.741.078.700.330"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "8"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SANBLAS-CANILLEJAS> ;
@@ -2753,8 +2754,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: ascao bus: 28" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.042.958.439.423.380"^^xsd:long ;
-	base:tieneLongitud "-36.413.497.414.718.700"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.042.958.439.423.380"^^xsd:double ;
+	geo:long "-36.413.497.414.718.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "6"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CIUDADLINEAL> ;
@@ -2773,8 +2774,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "bus: 2, 12, 16, 61, 202" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "40.433.840.945.976.400"^^xsd:long ;
-	base:tieneLongitud "-3.711.446.072.668.330"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "40.433.840.945.976.400"^^xsd:double ;
+	geo:long "-3.711.446.072.668.330"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "40"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
@@ -2790,8 +2791,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "bus: 72, 78" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.047.280.872.386.730"^^xsd:long ;
-	base:tieneLongitud "-36.398.851.240.592.300"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.047.280.872.386.730"^^xsd:double ;
+	geo:long "-36.398.851.240.592.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/HORTALEZA> ;
@@ -2808,8 +2809,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "bus. 33, 39, 65, 131" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.039.869.732.367.930"^^xsd:long ;
-	base:tieneLongitud "-37.676.853.284.742.100"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.039.869.732.367.930"^^xsd:double ;
+	geo:long "-37.676.853.284.742.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "13"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/LATINA> ;
@@ -2828,8 +2829,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: legazpi  bus: 6, 8, 18, 19, 22, 45, 47, 76, 78, 79, 85, 86, 88, 123, 148, 247" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "403.933.877.847.248"^^xsd:long ;
-	base:tieneLongitud "-3.698.565.632.659.460"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "403.933.877.847.248"^^xsd:double ;
+	geo:long "-3.698.565.632.659.460"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "10"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/ARGANZUELA> ;
@@ -2848,8 +2849,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "bus: 17, 34, 39, 139   renfe: las aguilas, fanjul" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "40.379.796.096.543.600"^^xsd:long ;
-	base:tieneLongitud "-37.690.728.792.725.700"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "40.379.796.096.543.600"^^xsd:double ;
+	geo:long "-37.690.728.792.725.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "47"^^xsd:int ;
 	base:tieneCodigoPostal "28044"^^xsd:int ;
@@ -2865,8 +2866,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: valdezarza, antonio machado bus: 82, 127, 64" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.046.711.526.748.940"^^xsd:long ;
-	base:tieneLongitud "-37.195.114.936.540.900"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.046.711.526.748.940"^^xsd:double ;
+	geo:long "-37.195.114.936.540.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "22"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
@@ -2883,8 +2884,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: plaza de españa bus: 138, 44, 1, 148, c1, c2" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.042.471.327.582.070"^^xsd:long ;
-	base:tieneLongitud "-37.102.299.982.331.000"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.042.471.327.582.070"^^xsd:double ;
+	geo:long "-37.102.299.982.331.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneCalle "DOS AMIGOS" .
 
@@ -2899,8 +2900,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: villaverde bajo cruce  bus: 59, 79, 85, 123" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.034.854.935.708.130"^^xsd:long ;
-	base:tieneLongitud "-3.686.539.661.954.900"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.034.854.935.708.130"^^xsd:double ;
+	geo:long "-3.686.539.661.954.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "62"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLAVERDE> ;
@@ -2918,8 +2919,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: valdebernardo  bus: 8, 71, 130, n8" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.040.210.302.381.570"^^xsd:long ;
-	base:tieneLongitud "-36.239.189.412.211.400"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.040.210.302.381.570"^^xsd:double ;
+	geo:long "-36.239.189.412.211.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VICALVARO> ;
 	base:tieneCodigoPostal "28032"^^xsd:int ;
@@ -2936,8 +2937,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "bus: 24, 102" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "403.735.856.436.473"^^xsd:long ;
-	base:tieneLongitud "-36.602.546.064.905.300"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "403.735.856.436.473"^^xsd:double ;
+	geo:long "-36.602.546.064.905.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "19"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/PUENTEDEVALLECAS> ;
@@ -2952,8 +2953,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "bus: 102, 103" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.037.641.666.740.880"^^xsd:long ;
-	base:tieneLongitud "-36.692.821.142.332.200"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.037.641.666.740.880"^^xsd:double ;
+	geo:long "-36.692.821.142.332.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneCalle "YUSTE" .
 
@@ -2966,8 +2967,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: moncloa (intercambiador)  bus: 74, 21" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.043.424.297.757.210"^^xsd:long ;
-	base:tieneLongitud "-37.207.172.544.795.700"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.043.424.297.757.210"^^xsd:double ;
+	geo:long "-37.207.172.544.795.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "3"^^xsd:int ;
 	base:tieneCodigoPostal "28008"^^xsd:int ;
@@ -2983,8 +2984,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: la elipa bus: 110, 113, 210" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.042.342.659.084.210"^^xsd:long ;
-	base:tieneLongitud "-3.651.841.641.389.480"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.042.342.659.084.210"^^xsd:double ;
+	geo:long "-3.651.841.641.389.480"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneCalle "NUESTRA SEÑORA DEL VILLAR" .
 
@@ -2999,8 +3000,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: diego de león  bus: 48" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.043.349.910.050.290"^^xsd:long ;
-	base:tieneLongitud "-36.691.167.784.691.700"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.043.349.910.050.290"^^xsd:double ;
+	geo:long "-36.691.167.784.691.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "28"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
@@ -3018,8 +3019,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: barrio del pilar  bus: 42, 49, 83, 128, 132, 134, 147" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.047.860.087.334.550"^^xsd:long ;
-	base:tieneLongitud "-37.094.408.342.979.900"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.047.860.087.334.550"^^xsd:double ;
+	geo:long "-37.094.408.342.979.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "38"^^xsd:int ;
 	base:tieneCodigoPostal "28029"^^xsd:int ;
@@ -3035,8 +3036,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "bus: 44, 128" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.045.406.088.024.460"^^xsd:long ;
-	base:tieneLongitud "-37.093.713.617.566.300"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.045.406.088.024.460"^^xsd:double ;
+	geo:long "-37.093.713.617.566.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "25"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/TETUAN> ;
@@ -3051,8 +3052,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: lucero  bus: 31, 119, 138" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.040.178.273.810.310"^^xsd:long ;
-	base:tieneLongitud "-37.491.718.558.671.400"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.040.178.273.810.310"^^xsd:double ;
+	geo:long "-37.491.718.558.671.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneCodigoPostal "28047"^^xsd:int ;
 	base:tieneCalle "CASTROSERNA" .
@@ -3067,8 +3068,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "bus: 4, 38, 48, 70" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.042.395.169.186.780"^^xsd:long ;
-	base:tieneLongitud "-36.286.003.047.950.500"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.042.395.169.186.780"^^xsd:double ;
+	geo:long "-36.286.003.047.950.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "160"^^xsd:int ;
 	base:tieneCalle "HERMANOS GARCIA NOBLEJAS" .
@@ -3082,8 +3083,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: ventas  bus: 12, 21, 38, 53, 106, 110, 146" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "404.293.527.096.082"^^xsd:long ;
-	base:tieneLongitud "-3.664.819.790.735.590"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "404.293.527.096.082"^^xsd:double ;
+	geo:long "-3.664.819.790.735.590"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneCalle "MAESTRO ALONSO" .
 
@@ -3098,8 +3099,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "bus: 59, 79" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.034.333.382.494.160"^^xsd:long ;
-	base:tieneLongitud "-36.909.491.943.684.400"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.034.333.382.494.160"^^xsd:double ;
+	geo:long "-36.909.491.943.684.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneCalle "PINAZO" ;
 	base:tieneTipoVia "PLAZA" .
@@ -3113,8 +3114,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "bus: 8, 20" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.039.887.768.991.450"^^xsd:long ;
-	base:tieneLongitud "-36.420.363.186.993.700"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.039.887.768.991.450"^^xsd:double ;
+	geo:long "-36.420.363.186.993.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "190"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MORATALAZ> ;
@@ -3130,8 +3131,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "bus: 120, 122" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.046.337.730.558.990"^^xsd:long ;
-	base:tieneLongitud "-3.631.515.434.596.130"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.046.337.730.558.990"^^xsd:double ;
+	geo:long "-3.631.515.434.596.130"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "26"^^xsd:int ;
 	base:tieneCodigoPostal "28043"^^xsd:int ;
@@ -3146,8 +3147,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "bus: 10, 54, 144" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "40.385.179.370.371.400"^^xsd:long ;
-	base:tieneLongitud "-36.444.628.142.076.500"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "40.385.179.370.371.400"^^xsd:double ;
+	geo:long "-36.444.628.142.076.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneCodigoPostal "28018"^^xsd:int ;
 	base:tieneCalle "GERARDO DIEGO" .
@@ -3161,8 +3162,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: estrecho  bus: 3, 64, 66, 126, 128" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.045.403.553.790.960"^^xsd:long ;
-	base:tieneLongitud "-3.704.677.294.725.900"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.045.403.553.790.960"^^xsd:double ;
+	geo:long "-3.704.677.294.725.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneCalle "PAMPLONA" .
 
@@ -3177,8 +3178,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: ibiza  bus: 15, 20, 26, 61, 63, 152, 202, c" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.041.339.399.749.280"^^xsd:long ;
-	base:tieneLongitud "-3.674.787.205.505.520"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.041.339.399.749.280"^^xsd:double ;
+	geo:long "-3.674.787.205.505.520"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
 	base:tieneCodigoPostal "28009"^^xsd:int ;
@@ -3194,8 +3195,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: ciudad lineal  bus: 4, 38, 48, 70, 109" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.043.587.011.477.470"^^xsd:long ;
-	base:tieneLongitud "-36.369.291.425.796.400"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.043.587.011.477.470"^^xsd:double ;
+	geo:long "-36.369.291.425.796.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CentroMunicipaldeMayores'> base:hayMetro "ciudad lineal" .
 
@@ -3208,8 +3209,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "bus: 9, 40, 43, 72, 73." .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.044.476.894.081.760"^^xsd:long ;
-	base:tieneLongitud "-36.691.931.472.225.400"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.044.476.894.081.760"^^xsd:double ;
+	geo:long "-36.691.931.472.225.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "15"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMARTIN> ;
@@ -3225,8 +3226,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "bus: 10" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.038.871.930.363.660"^^xsd:long ;
-	base:tieneLongitud "-3.663.689.575.700.870"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.038.871.930.363.660"^^xsd:double ;
+	geo:long "-3.663.689.575.700.870"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneCalle "JAVIER DE MIGUEL" .
 
@@ -3238,8 +3239,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: arturo soria bus: 11, 53, 70, 120" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.045.252.617.323.740"^^xsd:long ;
-	base:tieneLongitud "-36.581.255.009.849.300"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.045.252.617.323.740"^^xsd:double ;
+	geo:long "-36.581.255.009.849.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneCalle "BUESO PINEDA" .
 
@@ -3253,8 +3254,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: opañel  bus: 47, 55" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "40.386.075.026.633.900"^^xsd:long ;
-	base:tieneLongitud "-37.230.547.190.101.200"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "40.386.075.026.633.900"^^xsd:double ;
+	geo:long "-37.230.547.190.101.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "54"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CARABANCHEL> ;
@@ -3272,8 +3273,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: ríos rosas  bus: 3, 37, 149" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "40.439.987.457.420.300"^^xsd:long ;
-	base:tieneLongitud "-3.700.733.879.498.950"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "40.439.987.457.420.300"^^xsd:double ;
+	geo:long "-3.700.733.879.498.950"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "116"^^xsd:int ;
 	base:tieneCodigoPostal "28003"^^xsd:int ;
@@ -3289,8 +3290,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "bus: 101, 114" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.045.531.140.556.260"^^xsd:long ;
-	base:tieneLongitud "-3.587.638.001.688.090"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.045.531.140.556.260"^^xsd:double ;
+	geo:long "-3.587.638.001.688.090"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/BARAJAS> ;
 	base:tieneCodigoPostal "28042"^^xsd:int ;
@@ -3304,8 +3305,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "bus: 130" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "40.403.496.149.688.700"^^xsd:long ;
-	base:tieneLongitud "-3.609.330.588.862.220"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "40.403.496.149.688.700"^^xsd:double ;
+	geo:long "-3.609.330.588.862.220"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:tieneNumero "342"^^xsd:int ;
 	base:tieneCalle "DAROCA" .
@@ -3318,8 +3319,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentroMunicipaldeMayores'> base:hayTransportePublico "metro: villa de vallecas (línea 1)  bus: 54, 58, n9, 103, 142, 143" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> base:tieneLatitud "4.037.732.438.108.780"^^xsd:long ;
-	base:tieneLongitud "-36.212.400.484.216.900"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroMunicipaldeMayores'> geo:lat "4.037.732.438.108.780"^^xsd:double ;
+	geo:long "-36.212.400.484.216.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroMunicipaldeMayores'> base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLADEVALLECAS> ;
 	base:tieneCodigoPostal "28031"^^xsd:int ;
@@ -3345,8 +3346,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: quintana (línea 5) , pueblo nuevo (líneas 5 , 7).  bus: 21, 38, 48, 109, 113, 146." .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalSiena,> a base:Posicion ;
-	base:tieneLatitud "4.043.316.516.575.710"^^xsd:long ;
-	base:tieneLongitud "-3.651.876.723.048.770"^^xsd:long .
+	geo:lat "4.043.316.516.575.710"^^xsd:double ;
+	geo:long "-3.651.876.723.048.770"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalSiena,> a base:Direccion ;
 	base:tieneNumero "52"^^xsd:int ;
@@ -3379,8 +3380,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "bus: 22 , 79 , 86 , 130 , 131" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalAgata,> a base:Posicion ;
-	base:tieneLatitud "4.034.636.268.334.180"^^xsd:long ;
-	base:tieneLongitud "-3.708.524.395.897.370"^^xsd:long .
+	geo:lat "4.034.636.268.334.180"^^xsd:double ;
+	geo:long "-3.708.524.395.897.370"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalAgata,> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -3412,8 +3413,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: portazgo (línea 1)  bus: 54, 58, 103, 136, 141, 143" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalAlbert> a base:Posicion ;
-	base:tieneLatitud "40.393.612.303.425.900"^^xsd:long ;
-	base:tieneLongitud "-36.556.073.868.098.400"^^xsd:long .
+	geo:lat "40.393.612.303.425.900"^^xsd:double ;
+	geo:long "-36.556.073.868.098.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalAlbert> a base:Direccion ;
 	base:tieneNumero "14"^^xsd:int ;
@@ -3446,8 +3447,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: moncloa bus: 601 (salida desde el intercambiador de moncloa)." .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalAlfons> a base:Posicion ;
-	base:tieneLatitud "40.519.673.311.658.600"^^xsd:long ;
-	base:tieneLongitud "-37.779.055.687.726.500"^^xsd:long .
+	geo:lat "40.519.673.311.658.600"^^xsd:double ;
+	geo:long "-37.779.055.687.726.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalAlfons> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -3480,8 +3481,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "bus: 17, 25, 119" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalBlasco> a base:Posicion ;
-	base:tieneLatitud "403.949.515.763.892"^^xsd:long ;
-	base:tieneLongitud "-37.326.586.599.735.300"^^xsd:long .
+	geo:lat "403.949.515.763.892"^^xsd:double ;
+	geo:long "-37.326.586.599.735.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalBlasco> a base:Direccion ;
 	base:tieneNumero "44"^^xsd:int ;
@@ -3513,8 +3514,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "bus: 22 , 59 , 79 , 85" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalBohemi> a base:Posicion ;
-	base:tieneLatitud "4.035.639.654.251.880"^^xsd:long ;
-	base:tieneLongitud "-36.940.501.846.610.800"^^xsd:long .
+	geo:lat "4.035.639.654.251.880"^^xsd:double ;
+	geo:long "-36.940.501.846.610.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalBohemi> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -3546,8 +3547,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: almendrales (línea 3)  bus: 6, 23, 47, 78, 123, 247" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalCanova> a base:Posicion ;
-	base:tieneLatitud "4.038.626.143.332.090"^^xsd:long ;
-	base:tieneLongitud "-37.000.825.227.295.000"^^xsd:long .
+	geo:lat "4.038.626.143.332.090"^^xsd:double ;
+	geo:long "-37.000.825.227.295.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalCanova> a base:Direccion ;
 	base:tieneNumero "10-dic"^^xsd:int ;
@@ -3581,8 +3582,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "bus: 110, 113, 210" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalCiudad> a base:Posicion ;
-	base:tieneLatitud "40.422.868.990.544.600"^^xsd:long ;
-	base:tieneLongitud "-3.651.671.226.242.960"^^xsd:long .
+	geo:lat "40.422.868.990.544.600"^^xsd:double ;
+	geo:long "-3.651.671.226.242.960"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalCiudad> a base:Direccion ;
 	base:tieneNumero "81"^^xsd:int ;
@@ -3614,8 +3615,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: vinateros (línea 9)  bus: 30, 32, 71, 113" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalEduard> a base:Posicion ;
-	base:tieneLatitud "4.040.939.173.676.510"^^xsd:long ;
-	base:tieneLongitud "-3.653.214.777.359.330"^^xsd:long .
+	geo:lat "4.040.939.173.676.510"^^xsd:double ;
+	geo:long "-3.653.214.777.359.330"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalEduard> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
@@ -3648,8 +3649,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: lucero (línea 6)  bus: 31, 33, 36, 39, 65" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalelGrec> a base:Posicion ;
-	base:tieneLatitud "40.407.316.328.180.400"^^xsd:long ;
-	base:tieneLongitud "-3.747.465.416.906.970"^^xsd:long .
+	geo:lat "40.407.316.328.180.400"^^xsd:double ;
+	geo:long "-3.747.465.416.906.970"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalelGrec> a base:Direccion ;
 	base:tieneNumero "29"^^xsd:int ;
@@ -3683,8 +3684,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: villa de vallecas (línea 1)  bus: 54, 58, 103, 142, 143" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalFranci> a base:Posicion ;
-	base:tieneLatitud "40.379.584.618.162.100"^^xsd:long ;
-	base:tieneLongitud "-3.623.110.349.262.370"^^xsd:long .
+	geo:lat "40.379.584.618.162.100"^^xsd:double ;
+	geo:long "-3.623.110.349.262.370"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalFranci> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
@@ -3718,8 +3719,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: carabanchel alto (línea 11)  bus: 34, 35, 47, 121, 131, 139" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalGarcia> a base:Posicion ;
-	base:tieneLatitud "4.037.420.282.360.520"^^xsd:long ;
-	base:tieneLongitud "-37.510.455.236.535.900"^^xsd:long .
+	geo:lat "4.037.420.282.360.520"^^xsd:double ;
+	geo:long "-37.510.455.236.535.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalGarcia> a base:Direccion ;
 	base:tieneNumero "105"^^xsd:int ;
@@ -3753,8 +3754,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: cuatro caminos (líneas 1, 2, 6)  bus: 3, 64, 66, 124, 128, 149" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalJoseEs> a base:Posicion ;
-	base:tieneLatitud "4.044.863.106.357.680"^^xsd:long ;
-	base:tieneLongitud "-37.045.265.016.586.000"^^xsd:long .
+	geo:lat "4.044.863.106.357.680"^^xsd:double ;
+	geo:long "-37.045.265.016.586.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalJoseEs> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
@@ -3787,8 +3788,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: pavones (línea 9)  bus: 30, 71, 142, 144" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalJuveni> a base:Posicion ;
-	base:tieneLatitud "40.399.222.766.804.500"^^xsd:long ;
-	base:tieneLongitud "-36.366.543.437.448.800"^^xsd:long .
+	geo:lat "40.399.222.766.804.500"^^xsd:double ;
+	geo:long "-36.366.543.437.448.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalJuveni> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
@@ -3822,8 +3823,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "bus: 17, 117, 155" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalLatina> a base:Posicion ;
-	base:tieneLatitud "403.796.366.471.018"^^xsd:long ;
-	base:tieneLongitud "-37.659.492.448.759.000"^^xsd:long .
+	geo:lat "403.796.366.471.018"^^xsd:double ;
+	geo:long "-37.659.492.448.759.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalLatina> a base:Direccion ;
 	base:tieneNumero "50"^^xsd:int ;
@@ -3855,8 +3856,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: lavapiés (línea 3).  bus: m1" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalLavapi> a base:Posicion ;
-	base:tieneLatitud "4.040.966.697.102.750"^^xsd:long ;
-	base:tieneLongitud "-3.701.574.291.636.870"^^xsd:long .
+	geo:lat "4.040.966.697.102.750"^^xsd:double ;
+	geo:long "-3.701.574.291.636.870"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalLavapi> a base:Direccion ;
 	base:tieneNumero "46"^^xsd:int ;
@@ -3889,8 +3890,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: cruz del rayo (línea 9)  bus: 1, 29, 52" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalLuisGo> a base:Posicion ;
-	base:tieneLatitud "4.044.489.723.228.660"^^xsd:long ;
-	base:tieneLongitud "-36.780.972.922.453.600"^^xsd:long .
+	geo:lat "4.044.489.723.228.660"^^xsd:double ;
+	geo:long "-36.780.972.922.453.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalLuisGo> a base:Direccion ;
 	base:tieneNumero "142"^^xsd:int ;
@@ -3924,8 +3925,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: ventas (líneas 2, 5)  bus: 12, 21, 38, 53, 106, 110, 146" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalMaestr> a base:Posicion ;
-	base:tieneLatitud "4.042.938.854.032.780"^^xsd:long ;
-	base:tieneLongitud "-3.664.855.511.110.750"^^xsd:long .
+	geo:lat "4.042.938.854.032.780"^^xsd:double ;
+	geo:long "-3.664.855.511.110.750"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalMaestr> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
@@ -3958,8 +3959,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "bus: 79   renfe: san cristóbal industrial" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalMarcon> a base:Posicion ;
-	base:tieneLatitud "40.334.751.832.113.700"^^xsd:long ;
-	base:tieneLongitud "-3.700.809.560.921.590"^^xsd:long .
+	geo:lat "40.334.751.832.113.700"^^xsd:double ;
+	geo:long "-3.700.809.560.921.590"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalMarcon> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -3993,8 +3994,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "bus: 28, 38, 48, 140" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalMiguel> a base:Posicion ;
-	base:tieneLatitud "4.043.664.778.776.810"^^xsd:long ;
-	base:tieneLongitud "-3.611.362.970.564.870"^^xsd:long .
+	geo:lat "4.043.664.778.776.810"^^xsd:double ;
+	geo:long "-3.611.362.970.564.870"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalMiguel> a base:Direccion ;
 	base:tieneNumero "5"^^xsd:int ;
@@ -4027,8 +4028,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: oporto (líneas 5, 6) , opañel (línea 6)  bus: 55, 81, 108, 118, 247" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalOporto> a base:Posicion ;
-	base:tieneLatitud "40.386.793.167.982.100"^^xsd:long ;
-	base:tieneLongitud "-37.277.750.877.519.600"^^xsd:long .
+	geo:lat "40.386.793.167.982.100"^^xsd:double ;
+	geo:long "-37.277.750.877.519.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalOporto> a base:Direccion ;
 	base:tieneNumero "78"^^xsd:int ;
@@ -4061,8 +4062,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: avenida de la ilustración (línea 7)  bus: 49 , 64 , 67 , 83 , 133" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalRafael> a base:Posicion ;
-	base:tieneLatitud "4.048.025.613.358.830"^^xsd:long ;
-	base:tieneLongitud "-37.214.686.777.952.900"^^xsd:long .
+	geo:lat "4.048.025.613.358.830"^^xsd:double ;
+	geo:long "-37.214.686.777.952.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalRafael> a base:Direccion ;
 	base:tieneNumero "14"^^xsd:int ;
@@ -4095,8 +4096,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: san cristóbal (línea 3)  bus: 59, 79," .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalSanCri> a base:Posicion ;
-	base:tieneLatitud "4.034.233.618.931.460"^^xsd:long ;
-	base:tieneLongitud "-36.905.504.735.084.300"^^xsd:long .
+	geo:lat "4.034.233.618.931.460"^^xsd:double ;
+	geo:long "-36.905.504.735.084.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalSanCri> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
@@ -4129,8 +4130,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: villaverde bajo cruce (línea 3)  bus: 59 , 79 , 85 , 123  renfe: villaverde bajo" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalSantaP> a base:Posicion ;
-	base:tieneLatitud "4.035.087.114.162.280"^^xsd:long ;
-	base:tieneLongitud "-3.691.508.909.255.180"^^xsd:long .
+	geo:lat "4.035.087.114.162.280"^^xsd:double ;
+	geo:long "-3.691.508.909.255.180"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalSantaP> a base:Direccion ;
 	base:tieneNumero "12"^^xsd:int ;
@@ -4165,8 +4166,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "bus: 10, 24, 57, 103, 111, 144, 310" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalTaller> a base:Posicion ;
-	base:tieneLatitud "4.039.009.728.291.880"^^xsd:long ;
-	base:tieneLongitud "-3.665.329.063.724.780"^^xsd:long .
+	geo:lat "4.039.009.728.291.880"^^xsd:double ;
+	geo:long "-3.665.329.063.724.780"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalTaller> a base:Direccion ;
 	base:tieneNumero "74"^^xsd:int ;
@@ -4198,8 +4199,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: tetuán (línea 1)  bus: 66, 124" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalTetuan> a base:Posicion ;
-	base:tieneLatitud "4.045.907.130.615.820"^^xsd:long ;
-	base:tieneLongitud "-3.700.271.645.324.860"^^xsd:long .
+	geo:lat "4.045.907.130.615.820"^^xsd:double ;
+	geo:long "-3.700.271.645.324.860"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalTetuan> a base:Direccion ;
 	base:tieneNumero "251"^^xsd:int ;
@@ -4232,8 +4233,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "bus: 67 , 132" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalValleI> a base:Posicion ;
-	base:tieneLatitud "4.048.106.787.416.520"^^xsd:long ;
-	base:tieneLongitud "-36.933.504.628.706.000"^^xsd:long .
+	geo:lat "4.048.106.787.416.520"^^xsd:double ;
+	geo:long "-36.933.504.628.706.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalValleI> a base:Direccion ;
 	base:tieneNumero "7"^^xsd:int ;
@@ -4266,8 +4267,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: fuencarral (línea 10)  bus: 66, 137" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalValver> a base:Posicion ;
-	base:tieneLatitud "4.049.504.564.211.650"^^xsd:long ;
-	base:tieneLongitud "-36.880.070.256.093.700"^^xsd:long .
+	geo:lat "4.049.504.564.211.650"^^xsd:double ;
+	geo:long "-36.880.070.256.093.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalValver> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -4300,8 +4301,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: vicálvaro (línea 9)  bus: 4, 100, 106, 130" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocioculturalVicalv> a base:Posicion ;
-	base:tieneLatitud "4.040.220.324.604.790"^^xsd:long ;
-	base:tieneLongitud "-3.608.494.019.101.740"^^xsd:long .
+	geo:lat "4.040.220.324.604.790"^^xsd:double ;
+	geo:long "-3.608.494.019.101.740"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocioculturalVicalv> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
@@ -4335,8 +4336,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: banco de españa bus: 1, 2, 202, 5, 9, 10, 14,15,20,27,34,37,45,51,52,53,74,146,150, 203, línea expres aeropuerto renfe: recoletos" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroCentroCibelesdeCult> a base:Posicion ;
-	base:tieneLatitud "40.419.011.767.401.000"^^xsd:long ;
-	base:tieneLongitud "-3.692.206.111.679.650"^^xsd:long .
+	geo:lat "40.419.011.767.401.000"^^xsd:double ;
+	geo:long "-3.692.206.111.679.650"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCentroCibelesdeCult> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -4371,8 +4372,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: delicias (línea 3)  bus: 8, 152, 102" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/DepartamentodeRegimenJuri> a base:Posicion ;
-	base:tieneLatitud "4.040.039.462.478.580"^^xsd:long ;
-	base:tieneLongitud "-368.842.123.426.747"^^xsd:long .
+	geo:lat "4.040.039.462.478.580"^^xsd:double ;
+	geo:long "-368.842.123.426.747"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/DepartamentodeRegimenJuri> a base:Direccion ;
 	base:tieneNumero "16"^^xsd:int ;
@@ -4406,8 +4407,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: vicálvaro (línea 9), san cipriano (línea 9)  bus: 4, 100, 106, 130, e 3, l 9" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MadridonRails> a base:Posicion ;
-	base:tieneLatitud "4.040.220.324.604.790"^^xsd:long ;
-	base:tieneLongitud "-3.608.494.019.101.740"^^xsd:long .
+	geo:lat "4.040.220.324.604.790"^^xsd:double ;
+	geo:long "-3.608.494.019.101.740"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MadridonRails> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
@@ -4440,8 +4441,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: tribunal (líneas 1 y 10), bilbao (líneas 1 y 4), alonso martínez (4, 5, 10)  bus: 3, 21, 37, 40, 147, 149" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeHistoriadeMadrid> a base:Posicion ;
-	base:tieneLatitud "4.042.577.054.821.340"^^xsd:long ;
-	base:tieneLongitud "-3.700.845.660.719.600"^^xsd:long .
+	geo:lat "4.042.577.054.821.340"^^xsd:double ;
+	geo:long "-3.700.845.660.719.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeHistoriadeMadrid> a base:Direccion ;
 	base:tieneNumero "78"^^xsd:int ;
@@ -4475,8 +4476,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: latina , tirso de molina  bus: 3 , 17 , 18 , 23 , 35 , 60 , 65 , 148" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeSanIsidro.Losorige> a base:Posicion ;
-	base:tieneLatitud "40.412.069.631.779.300"^^xsd:long ;
-	base:tieneLongitud "-3.710.874.934.826.830"^^xsd:long .
+	geo:lat "40.412.069.631.779.300"^^xsd:double ;
+	geo:long "-3.710.874.934.826.830"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeSanIsidro.Losorige> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -4509,8 +4510,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "bus: 601, 602" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinaAuxiliardeAtencion> a base:Posicion ;
-	base:tieneLatitud "4.051.990.209.048.080"^^xsd:long ;
-	base:tieneLongitud "-3.777.376.989.484.480"^^xsd:long .
+	geo:lat "4.051.990.209.048.080"^^xsd:double ;
+	geo:long "-3.777.376.989.484.480"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinaAuxiliardeAtencion> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -4531,8 +4532,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinaAuxiliardeAtencion> base:hayTransportePublico "bus: 66 , 137" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinaAuxiliardeAtencion> base:tieneLatitud "4.049.504.578.261.260"^^xsd:long ;
-	base:tieneLongitud "-3.687.983.425.734.920"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinaAuxiliardeAtencion> geo:lat "4.049.504.578.261.260"^^xsd:double ;
+	geo:long "-3.687.983.425.734.920"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinaAuxiliardeAtencion> base:tieneNumero "1"^^xsd:int ;
 	base:tieneCodigoPostal "28034"^^xsd:int ;
@@ -4556,8 +4557,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: legazpi  bus: 6 , 8 , 18 , 19 , 22 , 45 , 47 , 76 , 78 , 79 , 85 , 86 , 88 , 123 , 148 , 247" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> a base:Posicion ;
-	base:tieneLatitud "403.933.877.847.248"^^xsd:long ;
-	base:tieneLongitud "-3.698.565.632.659.460"^^xsd:long .
+	geo:lat "403.933.877.847.248"^^xsd:double ;
+	geo:long "-3.698.565.632.659.460"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
@@ -4580,8 +4581,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro: barajas  bus: 101 , 105 , 115" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "4.047.479.357.890.760"^^xsd:long ;
-	base:tieneLongitud "-3.577.768.444.536.060"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "4.047.479.357.890.760"^^xsd:double ;
+	geo:long "-3.577.768.444.536.060"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/BARAJAS> ;
@@ -4598,8 +4599,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro: vista alegre  bus: 17 , 34 , 35" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "40.385.751.879.834.000"^^xsd:long ;
-	base:tieneLongitud "-37.399.577.712.175.600"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "40.385.751.879.834.000"^^xsd:double ;
+	geo:long "-37.399.577.712.175.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "17"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CARABANCHEL> ;
@@ -4616,8 +4617,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro: antón martín" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "4.041.151.901.471.160"^^xsd:long ;
-	base:tieneLongitud "-3.697.739.488.614.280"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "4.041.151.901.471.160"^^xsd:double ;
+	geo:long "-3.697.739.488.614.280"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "70"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
@@ -4633,8 +4634,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro: cruz del rayo  bus: 29 , 52 , 16 , 7 , 51 , 1 , 9 , 73" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "4.044.489.723.228.660"^^xsd:long ;
-	base:tieneLongitud "-36.780.972.922.453.600"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "4.044.489.723.228.660"^^xsd:double ;
+	geo:long "-36.780.972.922.453.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "142"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMARTIN> ;
@@ -4650,8 +4651,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro: cuatro caminos  bus: 3, 37, 45, 66, 124, 127, 128, 149, f, circular" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "40.446.683.231.882.800"^^xsd:long ;
-	base:tieneLongitud "-37.048.363.430.688.800"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "40.446.683.231.882.800"^^xsd:double ;
+	geo:long "-37.048.363.430.688.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "7"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
@@ -4667,8 +4668,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro: ciudad lineal  bus: 4 , 38 , 48 , 70 , 77 , 105 , 109" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "40.435.977.697.860.000"^^xsd:long ;
-	base:tieneLongitud "-36.370.244.805.015.100"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "40.435.977.697.860.000"^^xsd:double ;
+	geo:long "-36.370.244.805.015.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "14-16"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CIUDADLINEAL> ;
@@ -4684,8 +4685,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro: barrio del pilar , peñagrande  bus: 49 , 83 , 126 , 128 , 132 , 137" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "40.478.526.343.687.900"^^xsd:long ;
-	base:tieneLongitud "-3.709.841.173.334.440"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "40.478.526.343.687.900"^^xsd:double ;
+	geo:long "-3.709.841.173.334.440"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "40"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
@@ -4701,8 +4702,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "bus: 9 , 72 , 73" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "4.046.299.114.016.900"^^xsd:long ;
-	base:tieneLongitud "-36.571.542.769.919.400"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "4.046.299.114.016.900"^^xsd:double ;
+	geo:long "-36.571.542.769.919.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/HORTALEZA> ;
@@ -4717,8 +4718,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro: aluche  bus: 17 , 139 , h , 121 , 131 , 155  renfe: fanjul , aluche" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "4.038.493.634.769.680"^^xsd:long ;
-	base:tieneLongitud "-3.764.230.286.224.530"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "4.038.493.634.769.680"^^xsd:double ;
+	geo:long "-3.764.230.286.224.530"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/LATINA> ;
 	base:tieneCodigoPostal "28044"^^xsd:int ;
@@ -4735,8 +4736,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro: moncloa  bus: 1 , 16 , 44 , 46 , 61 , 82 , 83 , 132 , 133 , 160 , 161 , 162 , a , g , c" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "4.043.519.137.700.080"^^xsd:long ;
-	base:tieneLongitud "-3.718.876.324.432.250"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "4.043.519.137.700.080"^^xsd:double ;
+	geo:long "-3.718.876.324.432.250"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
 	base:tieneCodigoPostal "28008"^^xsd:int ;
@@ -4751,8 +4752,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro: pavones  bus: 8 , 20 , 71 , 100 , 140 , 142 , 144" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "4.039.859.980.911.480"^^xsd:long ;
-	base:tieneLongitud "-36.368.959.356.337.200"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "4.039.859.980.911.480"^^xsd:double ;
+	geo:long "-36.368.959.356.337.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "8"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MORATALAZ> ;
@@ -4768,8 +4769,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro: nueva numancia , puente de vallecas  bus: 10 , 24 , 54 , 57 , 58 , 111 , 310 , 410" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "4.039.664.109.245.880"^^xsd:long ;
-	base:tieneLongitud "-36.663.361.506.752.000"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "4.039.664.109.245.880"^^xsd:double ;
+	geo:long "-36.663.361.506.752.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "42"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/PUENTEDEVALLECAS> ;
@@ -4785,8 +4786,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro: pacífico  bus: 8 , 10 , 24 , 37 , 54 , 56 , 57 , 141" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "4.040.236.125.879.460"^^xsd:long ;
-	base:tieneLongitud "-36.772.931.748.500.200"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "4.040.236.125.879.460"^^xsd:double ;
+	geo:long "-36.772.931.748.500.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "162"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
@@ -4802,8 +4803,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro: velázquez , serrano  bus: 1 , 9 , 19 , 21 , 51 , 53 , 74 , 89" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "4.042.732.326.877.900"^^xsd:long ;
-	base:tieneLongitud "-3.683.768.008.487.210"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "4.042.732.326.877.900"^^xsd:double ;
+	geo:long "-3.683.768.008.487.210"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "52"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
@@ -4819,8 +4820,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro: las musas  bus: 38 , 48 ,140" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "40.434.476.793.953.100"^^xsd:long ;
-	base:tieneLongitud "-36.096.219.543.135.800"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "40.434.476.793.953.100"^^xsd:double ;
+	geo:long "-36.096.219.543.135.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "28"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SANBLAS-CANILLEJAS> ;
@@ -4836,8 +4837,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro: valdeacederas  bus: 49, 66, 124" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "40.465.092.507.464.000"^^xsd:long ;
-	base:tieneLongitud "-3.693.764.134.631.910"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "40.465.092.507.464.000"^^xsd:double ;
+	geo:long "-3.693.764.134.631.910"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "."^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/TETUAN> ;
@@ -4853,8 +4854,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "bus: 6 , 47 , 60 , 78 , 81 , 247" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "4.038.241.253.009.170"^^xsd:long ;
-	base:tieneLongitud "-37.107.515.747.822.300"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "4.038.241.253.009.170"^^xsd:double ;
+	geo:long "-37.107.515.747.822.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "41"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/USERA> ;
@@ -4867,8 +4868,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro: san cipriano  bus: 4 , 100 , 106 , 130" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "40.402.270.479.784.800"^^xsd:long ;
-	base:tieneLongitud "-36.059.845.330.840.700"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "40.402.270.479.784.800"^^xsd:double ;
+	geo:long "-36.059.845.330.840.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "18"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VICALVARO> ;
@@ -4884,8 +4885,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro: villa de vallecas  bus: 54 , 58 , 103 , 130 , 142 , 143" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "403.788.998.244.401"^^xsd:long ;
-	base:tieneLongitud "-3.621.454.785.869.900"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "403.788.998.244.401"^^xsd:double ;
+	geo:long "-3.621.454.785.869.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "12"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLADEVALLECAS> ;
@@ -4901,8 +4902,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "bus: 22 , 76 , 86 , 130 , 131  renfe: puente alcocer" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "40.348.895.848.554.600"^^xsd:long ;
-	base:tieneLongitud "-371.120.030.905.872"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "40.348.895.848.554.600"^^xsd:double ;
+	geo:long "-371.120.030.905.872"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "53"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLAVERDE> ;
@@ -4919,8 +4920,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro: puente de vallecas , nueva numancia  bus: 37 , 54 , 57 , 58 , 111 , 113 , 136 , 141" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "4.039.786.211.392.550"^^xsd:long ;
-	base:tieneLongitud "-36.670.669.926.439.900"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "4.039.786.211.392.550"^^xsd:double ;
+	geo:long "-36.670.669.926.439.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "14"^^xsd:int ;
 	base:tieneCalle "MONTE OLIVETI" .
@@ -4935,8 +4936,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionalCiudad> base:hayTransportePublico "metro :  blasco ibáñez (línea 1)  bus :  174" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> base:tieneLatitud "40.490.415.625.465.400"^^xsd:long ;
-	base:tieneLongitud "-3.655.356.751.728.000"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionalCiudad> geo:lat "40.490.415.625.465.400"^^xsd:double ;
+	geo:long "-3.655.356.751.728.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionalCiudad> base:tieneNumero "29"^^xsd:int ;
 	base:tieneCodigoPostal "28050"^^xsd:int ;
@@ -4963,8 +4964,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro:  legazpi, arganzuela-planetario   bus:  6 , 8 , 18 , 19 , 22 , 45 , 47 , 59 , 62 , 76 , 78 , 79 , 85 , 86 , 88 , 123 , 148   renfe:  méndez álvaro" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionIntegral> a base:Posicion ;
-	base:tieneLatitud "40.390.625.317.093.100"^^xsd:long ;
-	base:tieneLongitud "-36.905.132.703.065.400"^^xsd:long .
+	geo:lat "40.390.625.317.093.100"^^xsd:double ;
+	geo:long "-36.905.132.703.065.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionIntegral> a base:Direccion ;
 	base:tieneNumero "27"^^xsd:int ;
@@ -4988,8 +4989,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionIntegral> base:hayTransportePublico "metro:  nuevos ministerios, cuatro caminos   bus:  circular c1 y c2, l6, 149, 128, 124, 66, f   renfe:  nuevos ministerios" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionIntegral> base:tieneLatitud "4.044.613.326.792.270"^^xsd:long ;
-	base:tieneLongitud "-36.989.699.295.578.300"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionIntegral> geo:lat "4.044.613.326.792.270"^^xsd:double ;
+	geo:long "-36.989.699.295.578.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionIntegral> base:tieneNumero "32"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
@@ -5008,8 +5009,8 @@ Teléfono cita previa: 917 571 900""" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeAtencionIntegral> base:hayTransportePublico "metro:  ópera, sol   bus:  3, 17, 31, 35, 50, 65, 148   renfe:  sol" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionIntegral> base:tieneLatitud "4.041.449.174.864.590"^^xsd:long ;
-	base:tieneLongitud "-37.110.890.097.804.200"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeAtencionIntegral> geo:lat "4.041.449.174.864.590"^^xsd:double ;
+	geo:long "-37.110.890.097.804.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeAtencionIntegral> base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
@@ -5039,8 +5040,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: legazpi (líneas 3 y 6)  bus: 6, 8, 18, 19, 22, 45, 47, 59, 62, 76, 78, 79, 85, 86, 88, 123, 148" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/Oficinadeobjetosperdidosd> a base:Posicion ;
-	base:tieneLatitud "4.039.065.926.812.700"^^xsd:long ;
-	base:tieneLongitud "-36.938.716.039.760.700"^^xsd:long .
+	geo:lat "4.039.065.926.812.700"^^xsd:double ;
+	geo:long "-36.938.716.039.760.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/Oficinadeobjetosperdidosd> a base:Direccion ;
 	base:tieneNumero "7"^^xsd:int ;
@@ -5075,8 +5076,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: puerta de toledo , pirámides   bus: 17 , 23 , 35 , 36 , 18 , c" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OrganismoAutonomoAgenciap> a base:Posicion ;
-	base:tieneLatitud "40.405.141.382.206.300"^^xsd:long ;
-	base:tieneLongitud "-37.153.038.821.293.800"^^xsd:long .
+	geo:lat "40.405.141.382.206.300"^^xsd:double ;
+	geo:long "-37.153.038.821.293.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OrganismoAutonomoAgenciap> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
@@ -5109,8 +5110,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "bus: 20, 26, 63, c" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PabellondelosJardinesdeCe> a base:Posicion ;
-	base:tieneLatitud "4.041.250.110.617.820"^^xsd:long ;
-	base:tieneLongitud "-3.676.499.075.231.230"^^xsd:long .
+	geo:lat "4.041.250.110.617.820"^^xsd:double ;
+	geo:long "-3.676.499.075.231.230"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PabellondelosJardinesdeCe> a base:Direccion ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
@@ -5141,8 +5142,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: manoteras (línea 4)  bus: 129, 29 y 7" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PuntodeAtencionSocial'ElQ> a base:Posicion ;
-	base:tieneLatitud "4.047.612.370.683.220"^^xsd:long ;
-	base:tieneLongitud "-36.639.006.166.974.000"^^xsd:long .
+	geo:lat "4.047.612.370.683.220"^^xsd:double ;
+	geo:long "-36.639.006.166.974.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PuntodeAtencionSocial'ElQ> a base:Direccion ;
 	base:tieneNumero "1 (Esquina a Bacares)"^^xsd:int ;
@@ -5174,8 +5175,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: valdeacederas (línea 1)  bus: 42, 49 , 66, 124" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SaladeestudioLuisGarciaBe> a base:Posicion ;
-	base:tieneLatitud "4.046.527.083.469.680"^^xsd:long ;
-	base:tieneLongitud "-36.940.726.509.061.600"^^xsd:long .
+	geo:lat "4.046.527.083.469.680"^^xsd:double ;
+	geo:long "-36.940.726.509.061.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SaladeestudioLuisGarciaBe> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -5208,8 +5209,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: barajas (línea 8)  bus: 101, 105, 115, 151" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SaladeestudioPilares> a base:Posicion ;
-	base:tieneLatitud "4.047.504.564.286"^^xsd:long ;
-	base:tieneLongitud "-3.577.805.996.745.730"^^xsd:long .
+	geo:lat "4.047.504.564.286"^^xsd:double ;
+	geo:long "-3.577.805.996.745.730"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SaladeestudioPilares> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
@@ -5244,8 +5245,8 @@ Teléfono cita previa: 917 571 900""" .
 	base:hayTransportePublico "metro: barrio del pilar (línea 9), herrera oria (línea 9), peñagrande (línea 7), avenida de la ilustración (línea 7)  bus: 42, 49, 83, 128, 132, 137" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SmartLab> a base:Posicion ;
-	base:tieneLatitud "4.047.900.813.206.290"^^xsd:long ;
-	base:tieneLongitud "-3.709.138.377.702.430"^^xsd:long .
+	geo:lat "4.047.900.813.206.290"^^xsd:double ;
+	geo:long "-3.709.138.377.702.430"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SmartLab> a base:Direccion ;
 	base:tieneNumero "38"^^xsd:int ;

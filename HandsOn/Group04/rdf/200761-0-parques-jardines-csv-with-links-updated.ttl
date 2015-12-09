@@ -1,3 +1,4 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -20,8 +21,8 @@
 	base:hayTransportePublico "bus: 19" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BosquedelRecuerdo> a base:Posicion ;
-	base:tieneLatitud "40.412.408.966.986.200"^^xsd:long ;
-	base:tieneLongitud "-3.689.050.463.043.600"^^xsd:long .
+	geo:lat "40.412.408.966.986.200"^^xsd:double ;
+	geo:long "-3.689.050.463.043.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BosquedelRecuerdo> a base:Direccion ;
 	base:tieneNumero "48"^^xsd:int ;
@@ -56,8 +57,8 @@
 	base:hayTransportePublico "metro: nuevos ministerios (líneas 6, 8 y 10)  bus: 5, 68, 149, c1, c2  renfe: nuevos ministerios" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinescallesRaimundoFer> a base:Posicion ;
-	base:tieneLatitud "4.044.613.326.792.270"^^xsd:long ;
-	base:tieneLongitud "-36.989.699.295.578.300"^^xsd:long .
+	geo:lat "4.044.613.326.792.270"^^xsd:double ;
+	geo:long "-36.989.699.295.578.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinescallesRaimundoFer> a base:Direccion ;
 	base:tieneNumero "32"^^xsd:int ;
@@ -93,8 +94,8 @@
 	base:hayTransportePublico "metro: nuevos ministerios (líneas 6, 8 y 10) bus: 5 , 69 y 149 renfe: nuevos ministerios" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinesdelaBasilica> a base:Posicion ;
-	base:tieneLatitud "4.044.903.638.127.440"^^xsd:long ;
-	base:tieneLongitud "-3.695.615.530.710.880"^^xsd:long .
+	geo:lat "4.044.903.638.127.440"^^xsd:double ;
+	geo:long "-3.695.615.530.710.880"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelaBasilica> a base:Direccion ;
 	base:tieneNumero "15"^^xsd:int ;
@@ -130,8 +131,8 @@
 	base:hayTransportePublico "bus:  3 ,  5 ,  126" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinesdelacalleTeresita> a base:Posicion ;
-	base:tieneLatitud "4.045.558.642.017.730"^^xsd:long ;
-	base:tieneLongitud "-36.970.275.649.098.400"^^xsd:long .
+	geo:lat "4.045.558.642.017.730"^^xsd:double ;
+	geo:long "-36.970.275.649.098.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelacalleTeresita> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -161,8 +162,8 @@
 	base:hayTransportePublico "bus: 5, 126, 149" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinesdelaOrganizacionM> a base:Posicion ;
-	base:tieneLatitud "40.458.706.953.002.200"^^xsd:long ;
-	base:tieneLongitud "-36.934.625.569.379.300"^^xsd:long .
+	geo:lat "40.458.706.953.002.200"^^xsd:double ;
+	geo:long "-36.934.625.569.379.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelaOrganizacionM> a base:Direccion ;
 	base:tieneNumero "31"^^xsd:int ;
@@ -193,8 +194,8 @@
 	base:hayTransportePublico "metro: san bernardo (líneas 2 y 4)  bus: 16, 21, 61" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinesdelaPlazaCondedel> a base:Posicion ;
-	base:tieneLatitud "4.043.137.597.367.300"^^xsd:long ;
-	base:tieneLongitud "-37.064.685.006.782.200"^^xsd:long .
+	geo:lat "4.043.137.597.367.300"^^xsd:double ;
+	geo:long "-37.064.685.006.782.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelaPlazaCondedel> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
@@ -226,8 +227,8 @@
 	base:hayTransportePublico "metro: iglesia (línea 1) bus: 3, 40 y 147" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinesdelaPlazadeChambe> a base:Posicion ;
-	base:tieneLatitud "4.043.285.328.749.450"^^xsd:long ;
-	base:tieneLongitud "-3.697.594.475.998.510"^^xsd:long .
+	geo:lat "4.043.285.328.749.450"^^xsd:double ;
+	geo:long "-3.697.594.475.998.510"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelaPlazadeChambe> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -259,8 +260,8 @@
 	base:hayTransportePublico "metro: colón (línea 4) bus: 5, 14, 21 ,27, 37, 45, 53, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinesdelaPlazadelaVill> a base:Posicion ;
-	base:tieneLatitud "4.042.620.255.233.650"^^xsd:long ;
-	base:tieneLongitud "-36.934.468.983.675.800"^^xsd:long .
+	geo:lat "4.042.620.255.233.650"^^xsd:double ;
+	geo:long "-36.934.468.983.675.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelaPlazadelaVill> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
@@ -296,8 +297,8 @@
 	base:hayTransportePublico "metro: bilbao (línea 1, 4)  bus: 3, 16, 37, 40, 61, 149" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinesdelaPlazadeOlavid> a base:Posicion ;
-	base:tieneLatitud "4.043.247.362.678.540"^^xsd:long ;
-	base:tieneLongitud "-37.007.855.621.824.200"^^xsd:long .
+	geo:lat "4.043.247.362.678.540"^^xsd:double ;
+	geo:long "-37.007.855.621.824.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelaPlazadeOlavid> a base:Direccion ;
 	base:tieneNumero "16"^^xsd:int ;
@@ -329,8 +330,8 @@
 	base:hayTransportePublico "metro: ópera (líneas 2, 5 y ramal)  bus: 25, 39" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinesdelaPlazadeOrient> a base:Posicion ;
-	base:tieneLatitud "4.041.835.486.065.350"^^xsd:long ;
-	base:tieneLongitud "-3.712.838.830.603.040"^^xsd:long .
+	geo:lat "4.041.835.486.065.350"^^xsd:double ;
+	geo:long "-3.712.838.830.603.040"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelaPlazadeOrient> a base:Direccion ;
 	base:tieneNumero "17"^^xsd:int ;
@@ -362,8 +363,8 @@
 	base:hayTransportePublico "bus: 3, 31, 50, 65, 148" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinesdelasVistillas> a base:Posicion ;
-	base:tieneLatitud "4.041.281.392.212.300"^^xsd:long ;
-	base:tieneLongitud "-37.143.597.156.687.000"^^xsd:long .
+	geo:lat "4.041.281.392.212.300"^^xsd:double ;
+	geo:long "-37.143.597.156.687.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelasVistillas> a base:Direccion ;
 	base:tieneNumero "12"^^xsd:int ;
@@ -394,8 +395,8 @@
 	base:hayTransportePublico "metro: santiago bernabéu (línea 10)  bus: 3, 5, 43, 149" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinesdePeron> a base:Posicion ;
-	base:tieneLatitud "4.045.257.591.499.540"^^xsd:long ;
-	base:tieneLongitud "-36.957.817.548.357.200"^^xsd:long .
+	geo:lat "4.045.257.591.499.540"^^xsd:double ;
+	geo:long "-36.957.817.548.357.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdePeron> a base:Direccion ;
 	base:tieneNumero "21"^^xsd:int ;
@@ -425,8 +426,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/JardinesdeSabatini> a base:TransportePublico .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinesdeSabatini> a base:Posicion ;
-	base:tieneLatitud "40.419.911.287.101.100"^^xsd:long ;
-	base:tieneLongitud "-3.713.185.308.888.600"^^xsd:long .
+	geo:lat "40.419.911.287.101.100"^^xsd:double ;
+	geo:long "-3.713.185.308.888.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdeSabatini> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -456,8 +457,8 @@
 	base:hayTransportePublico "metro: cuzco (línea 10)  bus: 5, 11, 40, 140, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinesdeSanFernando> a base:Posicion ;
-	base:tieneLatitud "4.045.978.849.094.370"^^xsd:long ;
-	base:tieneLongitud "-3.687.352.342.212.420"^^xsd:long .
+	geo:lat "4.045.978.849.094.370"^^xsd:double ;
+	geo:long "-3.687.352.342.212.420"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdeSanFernando> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
@@ -492,8 +493,8 @@
 	base:hayTransportePublico "metro: tribunal (líneas 1 y 10)  bus: 3, 40, 149" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinesdelArquitectoRibe> a base:Posicion ;
-	base:tieneLatitud "4.042.640.449.792.330"^^xsd:long ;
-	base:tieneLongitud "-37.002.981.748.621.900"^^xsd:long .
+	geo:lat "4.042.640.449.792.330"^^xsd:double ;
+	geo:long "-37.002.981.748.621.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelArquitectoRibe> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -525,8 +526,8 @@
 	base:hayTransportePublico "metro: colón (línea 4) y serrano (línea 4)  bus: 1, 5, 9, 14, 19, 21, 27, 45, 51, 53, 74 y 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinesdelDescubrimiento> a base:Posicion ;
-	base:tieneLatitud "4.042.518.540.300.910"^^xsd:long ;
-	base:tieneLongitud "-36.887.800.207.651.400"^^xsd:long .
+	geo:lat "4.042.518.540.300.910"^^xsd:double ;
+	geo:long "-36.887.800.207.651.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelDescubrimiento> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -561,8 +562,8 @@
 	base:hayTransportePublico "metro: cuzco (línea 10) bus: 27, 40 , 126, 147 y 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinesdelDoctorFleming> a base:Posicion ;
-	base:tieneLatitud "4.045.454.215.758.870"^^xsd:long ;
-	base:tieneLongitud "-36.893.863.385.035.700"^^xsd:long .
+	geo:lat "4.045.454.215.758.870"^^xsd:double ;
+	geo:long "-36.893.863.385.035.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelDoctorFleming> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -593,8 +594,8 @@
 	base:hayTransportePublico "metro: santiago bernabéu (línea 10)  bus: 14, 27, 40, 126, 147, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinesdelMundial.Castel> a base:Posicion ;
-	base:tieneLatitud "404.530.917.282.714"^^xsd:long ;
-	base:tieneLongitud "-36.893.833.082.867.000"^^xsd:long .
+	geo:lat "404.530.917.282.714"^^xsd:double ;
+	geo:long "-36.893.833.082.867.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelMundial.Castel> a base:Direccion ;
 	base:tieneNumero "142"^^xsd:int ;
@@ -626,8 +627,8 @@
 	base:hayTransportePublico "metro: la latina (línea  5 )  bus:  3  ,  31  ,  50  ,  65  ,  148" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinesdelPrincipedeAngl> a base:Posicion ;
-	base:tieneLatitud "40.413.417.349.090.700"^^xsd:long ;
-	base:tieneLongitud "-3.711.466.649.831.880"^^xsd:long .
+	geo:lat "40.413.417.349.090.700"^^xsd:double ;
+	geo:long "-3.711.466.649.831.880"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelPrincipedeAngl> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
@@ -658,8 +659,8 @@
 	base:hayTransportePublico "metro: núñez de balboa (líneas 5 y 9)  bus: 1, 29, 52, 74" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinesGregorioOrdonez> a base:Posicion ;
-	base:tieneLatitud "4.043.346.186.779.770"^^xsd:long ;
-	base:tieneLongitud "-36.785.954.778.654.100"^^xsd:long .
+	geo:lat "4.043.346.186.779.770"^^xsd:double ;
+	geo:long "-36.785.954.778.654.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesGregorioOrdonez> a base:Direccion ;
 	base:tieneNumero "68"^^xsd:int ;
@@ -691,8 +692,8 @@
 	base:hayTransportePublico "bus: 2, 16, 61 y 202" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinConcejalAlejandroMu> a base:Posicion ;
-	base:tieneLatitud "4.043.304.334.055.120"^^xsd:long ;
-	base:tieneLongitud "-3.712.227.582.685.090"^^xsd:long .
+	geo:lat "4.043.304.334.055.120"^^xsd:double ;
+	geo:long "-3.712.227.582.685.090"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinConcejalAlejandroMu> a base:Direccion ;
 	base:tieneNumero "32"^^xsd:int ;
@@ -723,8 +724,8 @@
 	base:hayTransportePublico "bus: 62 y 88" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardindeEmbajadoresM-30,M> a base:Posicion ;
-	base:tieneLatitud "4.038.418.473.435.090"^^xsd:long ;
-	base:tieneLongitud "-3.685.817.452.497.560"^^xsd:long .
+	geo:lat "4.038.418.473.435.090"^^xsd:double ;
+	geo:long "-3.685.817.452.497.560"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardindeEmbajadoresM-30,M> a base:Direccion ;
 	base:tieneNumero "29"^^xsd:int ;
@@ -758,8 +759,8 @@
 	base:hayTransportePublico "metro: congosto (línea 1)  bus: 54 y l1" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardindelaColoniaCongosto> a base:Posicion ;
-	base:tieneLatitud "4.037.089.825.532.690"^^xsd:long ;
-	base:tieneLongitud "-3.618.365.854.832.580"^^xsd:long .
+	geo:lat "4.037.089.825.532.690"^^xsd:double ;
+	geo:long "-3.618.365.854.832.580"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardindelaColoniaCongosto> a base:Direccion ;
 	base:tieneNumero "70"^^xsd:int ;
@@ -794,8 +795,8 @@
 	base:hayTransportePublico "metro: opera (líneas 2, 5 y ramal) bus: 3, 148" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardindeLarra> a base:Posicion ;
-	base:tieneLatitud "4.041.631.909.566.780"^^xsd:long ;
-	base:tieneLongitud "-3.712.793.771.176.400"^^xsd:long .
+	geo:lat "4.041.631.909.566.780"^^xsd:double ;
+	geo:long "-3.712.793.771.176.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardindeLarra> a base:Direccion ;
 	base:tieneNumero "7"^^xsd:int ;
@@ -826,8 +827,8 @@
 	base:hayTransportePublico "metro: gregorio marañón (líneas 7 y 10)  bus: 7, 12, 14, 27, 40, 45, 147 y 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardindelasBellasArtes> a base:Posicion ;
-	base:tieneLatitud "404.390.037.057.741"^^xsd:long ;
-	base:tieneLongitud "-36.905.481.652.485.300"^^xsd:long .
+	geo:lat "404.390.037.057.741"^^xsd:double ;
+	geo:long "-36.905.481.652.485.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardindelasBellasArtes> a base:Direccion ;
 	base:tieneNumero "78"^^xsd:int ;
@@ -857,8 +858,8 @@
 	base:hayTransportePublico "metro: puente vallecas (línea 1)  bus: 10, 24, 54, 57, 58, 310 y 410" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardindelBulevardePenaGor> a base:Posicion ;
-	base:tieneLatitud "403.957.812.018.463"^^xsd:long ;
-	base:tieneLongitud "-36.670.346.724.676.100"^^xsd:long .
+	geo:lat "403.957.812.018.463"^^xsd:double ;
+	geo:long "-36.670.346.724.676.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardindelBulevardePenaGor> a base:Direccion ;
 	base:tieneNumero "17"^^xsd:int ;
@@ -894,8 +895,8 @@
 	base:hayTransportePublico "bus: 25, 33, 39, 41, 68, 69, 138" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardindelMaestroPadilla> a base:Posicion ;
-	base:tieneLatitud "40.404.491.323.444.900"^^xsd:long ;
-	base:tieneLongitud "-37.213.308.239.798.600"^^xsd:long .
+	geo:lat "40.404.491.323.444.900"^^xsd:double ;
+	geo:long "-37.213.308.239.798.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardindelMaestroPadilla> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -926,8 +927,8 @@
 	base:hayTransportePublico "metro: plaza de españa (líneas 3 y 10), ventura rodríguez (línea 3)  bus: 25, 33, 39, 46, 74, 75, 148" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardindelTemplodeDebod> a base:Posicion ;
-	base:tieneLatitud "4.042.425.096.551.590"^^xsd:long ;
-	base:tieneLongitud "-3.716.531.855.540.270"^^xsd:long .
+	geo:lat "4.042.425.096.551.590"^^xsd:double ;
+	geo:long "-3.716.531.855.540.270"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardindelTemplodeDebod> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -963,8 +964,8 @@
 	base:hayTransportePublico "bus: 30 y 32" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinDionisioRidruejo> a base:Posicion ;
-	base:tieneLatitud "4.040.748.540.000.100"^^xsd:long ;
-	base:tieneLongitud "-3.638.052.155.862.270"^^xsd:long .
+	geo:lat "4.040.748.540.000.100"^^xsd:double ;
+	geo:long "-3.638.052.155.862.270"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinDionisioRidruejo> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -999,8 +1000,8 @@
 	base:hayTransportePublico "metro: pirámides (linea 5)  bus: 18, 23 , 34, 35, 36, 116, 118, 119" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinDonaConchaPiquer> a base:Posicion ;
-	base:tieneLatitud "40.402.080.397.498.900"^^xsd:long ;
-	base:tieneLongitud "-3.714.965.086.287.460"^^xsd:long .
+	geo:lat "40.402.080.397.498.900"^^xsd:double ;
+	geo:long "-3.714.965.086.287.460"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinDonaConchaPiquer> a base:Direccion ;
 	base:tieneNumero "93"^^xsd:int ;
@@ -1032,8 +1033,8 @@
 	base:hayTransportePublico "bus: 23 , 55 , 60" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinelTorero> a base:Posicion ;
-	base:tieneLatitud "4.039.218.269.145.890"^^xsd:long ;
-	base:tieneLongitud "-37.056.345.651.289.400"^^xsd:long .
+	geo:lat "4.039.218.269.145.890"^^xsd:double ;
+	geo:long "-37.056.345.651.289.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinelTorero> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
@@ -1067,8 +1068,8 @@
 	base:hayTransportePublico "metro: pirámides (linea 5)  bus: 18, 23 , 34, 35, 36, 116, 118, 119" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinFachadaPiramidesI> a base:Posicion ;
-	base:tieneLatitud "4.040.148.810.908.030"^^xsd:long ;
-	base:tieneLongitud "-3.713.132.255.123.730"^^xsd:long .
+	geo:lat "4.040.148.810.908.030"^^xsd:double ;
+	geo:long "-3.713.132.255.123.730"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinFachadaPiramidesI> a base:Direccion ;
 	base:tieneNumero "60"^^xsd:int ;
@@ -1099,8 +1100,8 @@
 	base:hayTransportePublico "bus: 31 , 41 , 50 , 65" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinGlorietadeAzorin> a base:Posicion ;
-	base:tieneLatitud "40.414.757.673.901.900"^^xsd:long ;
-	base:tieneLongitud "-37.161.718.357.850.400"^^xsd:long .
+	geo:lat "40.414.757.673.901.900"^^xsd:double ;
+	geo:long "-37.161.718.357.850.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinGlorietadeAzorin> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
@@ -1131,8 +1132,8 @@
 	base:hayTransportePublico "bus: 29, 125, 129, 150" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinJazmin.ParquedelaCo> a base:Posicion ;
-	base:tieneLatitud "40.481.785.094.079.500"^^xsd:long ;
-	base:tieneLongitud "-3.660.098.332.215.650"^^xsd:long .
+	geo:lat "40.481.785.094.079.500"^^xsd:double ;
+	geo:long "-3.660.098.332.215.650"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinJazmin.ParquedelaCo> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
@@ -1167,8 +1168,8 @@
 	base:hayTransportePublico "bus: 31, 50, 65" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/JardinPalacioO'Reilly> a base:Posicion ;
-	base:tieneLatitud "4.041.418.990.040.180"^^xsd:long ;
-	base:tieneLongitud "-37.118.283.820.550.700"^^xsd:long .
+	geo:lat "4.041.418.990.040.180"^^xsd:double ;
+	geo:long "-37.118.283.820.550.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinPalacioO'Reilly> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -1200,8 +1201,8 @@
 	base:hayTransportePublico "bus: 20, 26, 63, c" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PabellondelosJardinesdeCe> a base:Posicion ;
-	base:tieneLatitud "4.041.250.110.617.820"^^xsd:long ;
-	base:tieneLongitud "-3.676.499.075.231.230"^^xsd:long .
+	geo:lat "4.041.250.110.617.820"^^xsd:double ;
+	geo:long "-3.676.499.075.231.230"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PabellondelosJardinesdeCe> a base:Direccion ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
@@ -1231,8 +1232,8 @@
 	base:hayTransportePublico "bus: 49 , 126 , 128" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueAgustinRodriguezSah> a base:Posicion ;
-	base:tieneLatitud "4.047.022.952.429.580"^^xsd:long ;
-	base:tieneLongitud "-37.038.792.453.996.300"^^xsd:long .
+	geo:lat "4.047.022.952.429.580"^^xsd:double ;
+	geo:long "-37.038.792.453.996.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueAgustinRodriguezSah> a base:Direccion ;
 	base:tieneNumero "301"^^xsd:int ;
@@ -1263,8 +1264,8 @@
 	base:hayTransportePublico "metro: estrella (línea 9)  bus: 20, 30, 32" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueAlcampo> a base:Posicion ;
-	base:tieneLatitud "40.410.944.943.237.800"^^xsd:long ;
-	base:tieneLongitud "-3.660.501.733.743.550"^^xsd:long .
+	geo:lat "40.410.944.943.237.800"^^xsd:double ;
+	geo:long "-3.660.501.733.743.550"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueAlcampo> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -1294,8 +1295,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ParqueAlmansa> a base:TransportePublico .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueAlmansa> a base:Posicion ;
-	base:tieneLatitud "40.449.252.672.650.900"^^xsd:long ;
-	base:tieneLongitud "-37.133.420.888.843.100"^^xsd:long .
+	geo:lat "40.449.252.672.650.900"^^xsd:double ;
+	geo:long "-37.133.420.888.843.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueAlmansa> a base:Direccion ;
 	base:tieneNumero "97"^^xsd:int ;
@@ -1325,8 +1326,8 @@
 	base:hayTransportePublico "metro: aluche (linea 5)  bus: 17, 117, 139  renfe: aluche" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueAluche-Poblados> a base:Posicion ;
-	base:tieneLatitud "4.038.543.450.752.230"^^xsd:long ;
-	base:tieneLongitud "-3.765.190.215.590.100"^^xsd:long .
+	geo:lat "4.038.543.450.752.230"^^xsd:double ;
+	geo:long "-3.765.190.215.590.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueAluche-Poblados> a base:Direccion ;
 	base:tieneNumero "22"^^xsd:int ;
@@ -1363,8 +1364,8 @@
 	base:hayTransportePublico "bus: 60 , 131" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueAlzola> a base:Posicion ;
-	base:tieneLatitud "4.036.716.919.688.680"^^xsd:long ;
-	base:tieneLongitud "-37.136.655.626.692.800"^^xsd:long .
+	geo:lat "4.036.716.919.688.680"^^xsd:double ;
+	geo:long "-37.136.655.626.692.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueAlzola> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -1395,8 +1396,8 @@
 	base:hayTransportePublico "metro: carmen, ventas (linea 5 y linea 2)  bus: 38, 106, 110, 146, 210" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueAntonioPirala> a base:Posicion ;
-	base:tieneLatitud "40.428.652.595.625.700"^^xsd:long ;
-	base:tieneLongitud "-3.659.649.292.346.210"^^xsd:long .
+	geo:lat "40.428.652.595.625.700"^^xsd:double ;
+	geo:long "-3.659.649.292.346.210"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueAntonioPirala> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
@@ -1431,8 +1432,8 @@
 	base:hayTransportePublico "bus: 20, 26, 63." .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueAnunciacion> a base:Posicion ;
-	base:tieneLatitud "4.041.192.841.997.150"^^xsd:long ;
-	base:tieneLongitud "-367.583.331.713.166"^^xsd:long .
+	geo:lat "4.041.192.841.997.150"^^xsd:double ;
+	geo:long "-367.583.331.713.166"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueAnunciacion> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -1463,8 +1464,8 @@
 	base:hayTransportePublico "metro: torre arias (línea 5)  bus: 28, 48" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueArquitectoAntonioPa> a base:Posicion ;
-	base:tieneLatitud "4.043.847.239.256.320"^^xsd:long ;
-	base:tieneLongitud "-36.087.501.533.089.900"^^xsd:long .
+	geo:lat "4.043.847.239.256.320"^^xsd:double ;
+	geo:long "-36.087.501.533.089.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueArquitectoAntonioPa> a base:Direccion ;
 	base:tieneNumero "17"^^xsd:int ;
@@ -1500,8 +1501,8 @@
 	base:hayTransportePublico "metro: antonio machado (linea 7) bus: 132" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueArroyodelosPinos> a base:Posicion ;
-	base:tieneLatitud "4.047.343.735.166.940"^^xsd:long ;
-	base:tieneLongitud "-37.241.915.440.169.000"^^xsd:long .
+	geo:lat "4.047.343.735.166.940"^^xsd:double ;
+	geo:long "-37.241.915.440.169.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueArroyodelosPinos> a base:Direccion ;
 	base:tieneNumero "21"^^xsd:int ;
@@ -1537,8 +1538,8 @@
 	base:hayTransportePublico "bus: 8, 20, 30, 100" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueArroyoFontarron> a base:Posicion ;
-	base:tieneLatitud "4.039.476.596.114.840"^^xsd:long ;
-	base:tieneLongitud "-36.361.646.051.817.500"^^xsd:long .
+	geo:lat "4.039.476.596.114.840"^^xsd:double ;
+	geo:long "-36.361.646.051.817.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueArroyoFontarron> a base:Direccion ;
 	base:tieneNumero "22"^^xsd:int ;
@@ -1569,8 +1570,8 @@
 	base:hayTransportePublico "bus: 49" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueArroyoFresno> a base:Posicion ;
-	base:tieneLatitud "4.049.284.296.962.050"^^xsd:long ;
-	base:tieneLongitud "-37.169.069.720.385.400"^^xsd:long .
+	geo:lat "4.049.284.296.962.050"^^xsd:double ;
+	geo:long "-37.169.069.720.385.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueArroyoFresno> a base:Direccion ;
 	base:tieneNumero "43"^^xsd:int ;
@@ -1600,8 +1601,8 @@
 	base:hayTransportePublico "bus: 25, 33, 31, 36, 39, 65, 138" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueAvenidadePortugal> a base:Posicion ;
-	base:tieneLatitud "4.041.214.880.704.310"^^xsd:long ;
-	base:tieneLongitud "-37.356.620.312.409.300"^^xsd:long .
+	geo:lat "4.041.214.880.704.310"^^xsd:double ;
+	geo:long "-37.356.620.312.409.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueAvenidadePortugal> a base:Direccion ;
 	base:tieneNumero "300"^^xsd:int ;
@@ -1632,8 +1633,8 @@
 	base:hayTransportePublico "metro: buenos aires (línea 1)  bus: 10, 54, 58, 103, 136" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueAzorin> a base:Posicion ;
-	base:tieneLatitud "4.039.144.717.132.170"^^xsd:long ;
-	base:tieneLongitud "-36.545.377.410.677.400"^^xsd:long .
+	geo:lat "4.039.144.717.132.170"^^xsd:double ;
+	geo:long "-36.545.377.410.677.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueAzorin> a base:Direccion ;
 	base:tieneNumero "142"^^xsd:int ;
@@ -1665,8 +1666,8 @@
 	base:hayTransportePublico "metro: las musas (linea 7)  bus: 38, 140" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueBarrioLasMusas> a base:Posicion ;
-	base:tieneLatitud "4.043.173.953.068.980"^^xsd:long ;
-	base:tieneLongitud "-3.607.628.369.908.830"^^xsd:long .
+	geo:lat "4.043.173.953.068.980"^^xsd:double ;
+	geo:long "-3.607.628.369.908.830"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueBarrioLasMusas> a base:Direccion ;
 	base:tieneNumero "55"^^xsd:int ;
@@ -1697,8 +1698,8 @@
 	base:hayTransportePublico "bus: 125 y 135  renfe: ramón y cajal" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueBegona> a base:Posicion ;
-	base:tieneLatitud "4.048.390.626.699.560"^^xsd:long ;
-	base:tieneLongitud "-3.687.220.746.230.510"^^xsd:long .
+	geo:lat "4.048.390.626.699.560"^^xsd:double ;
+	geo:long "-3.687.220.746.230.510"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueBegona> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -1730,8 +1731,8 @@
 	base:hayTransportePublico "metro: el capricho (línea 5)  bus: 101, 114, 115 y 151" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueBiosaludable> a base:Posicion ;
-	base:tieneLatitud "40.452.057.731.817.300"^^xsd:long ;
-	base:tieneLongitud "-36.036.483.614.197.700"^^xsd:long .
+	geo:lat "40.452.057.731.817.300"^^xsd:double ;
+	geo:long "-36.036.483.614.197.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueBiosaludable> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
@@ -1767,8 +1768,8 @@
 	base:hayTransportePublico "metro: villa de vallecas (línea 1) bus: 54, 58, 103, 142 y n9" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueCaminodeVasares> a base:Posicion ;
-	base:tieneLatitud "4.038.328.847.671.290"^^xsd:long ;
-	base:tieneLongitud "-3.617.866.520.556.780"^^xsd:long .
+	geo:lat "4.038.328.847.671.290"^^xsd:double ;
+	geo:long "-3.617.866.520.556.780"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCaminodeVasares> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -1799,8 +1800,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ParqueCampodelaPaloma> a base:TransportePublico .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueCampodelaPaloma> a base:Posicion ;
-	base:tieneLatitud "4.038.339.946.706.650"^^xsd:long ;
-	base:tieneLongitud "-3.643.762.543.356.840"^^xsd:long .
+	geo:lat "4.038.339.946.706.650"^^xsd:double ;
+	geo:long "-3.643.762.543.356.840"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCampodelaPaloma> a base:Direccion ;
 	base:tieneNumero "38"^^xsd:int ;
@@ -1830,8 +1831,8 @@
 	base:hayTransportePublico "bus: 138" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueCaramuel> a base:Posicion ;
-	base:tieneLatitud "404.081.704.733.386"^^xsd:long ;
-	base:tieneLongitud "-3.729.395.994.595.500"^^xsd:long .
+	geo:lat "404.081.704.733.386"^^xsd:double ;
+	geo:long "-3.729.395.994.595.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCaramuel> a base:Direccion ;
 	base:tieneNumero "53"^^xsd:int ;
@@ -1862,8 +1863,8 @@
 	base:hayTransportePublico "metro: aluche (linea 5)  bus: 25, 121, 131 y 138  renfe: aluche" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueCarlosAriasNavarro> a base:Posicion ;
-	base:tieneLatitud "40.394.320.359.418.800"^^xsd:long ;
-	base:tieneLongitud "-37.592.814.565.910.500"^^xsd:long .
+	geo:lat "40.394.320.359.418.800"^^xsd:double ;
+	geo:long "-37.592.814.565.910.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCarlosAriasNavarro> a base:Direccion ;
 	base:tieneNumero "45"^^xsd:int ;
@@ -1896,8 +1897,8 @@
 	base:hayTransportePublico "bus: 25, 31 y 138" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueCerroAlmodovar> a base:Posicion ;
-	base:tieneLatitud "40.393.928.614.376"^^xsd:long ;
-	base:tieneLongitud "-3.744.713.323.980.890"^^xsd:long .
+	geo:lat "40.393.928.614.376"^^xsd:double ;
+	geo:long "-3.744.713.323.980.890"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCerroAlmodovar> a base:Direccion ;
 	base:tieneNumero "29"^^xsd:int ;
@@ -1928,8 +1929,8 @@
 	base:hayTransportePublico "bus: 54, 141 y 143" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueCerrodelTioPio> a base:Posicion ;
-	base:tieneLatitud "4.039.701.982.315.700"^^xsd:long ;
-	base:tieneLongitud "-3.655.239.797.848.880"^^xsd:long .
+	geo:lat "4.039.701.982.315.700"^^xsd:double ;
+	geo:long "-3.655.239.797.848.880"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCerrodelTioPio> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -1960,8 +1961,8 @@
 	base:hayTransportePublico "bus: 42, 132 y 137" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueCerroPenabel> a base:Posicion ;
-	base:tieneLatitud "4.047.406.043.289.470"^^xsd:long ;
-	base:tieneLongitud "-3.718.181.785.566.960"^^xsd:long .
+	geo:lat "4.047.406.043.289.470"^^xsd:double ;
+	geo:long "-3.718.181.785.566.960"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCerroPenabel> a base:Direccion ;
 	base:tieneNumero "12"^^xsd:int ;
@@ -1990,8 +1991,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ParqueCerroAguila> a base:TransportePublico .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueCerroAguila> a base:Posicion ;
-	base:tieneLatitud "4.045.190.771.190.820"^^xsd:long ;
-	base:tieneLongitud "-3.761.757.187.185.660"^^xsd:long .
+	geo:lat "4.045.190.771.190.820"^^xsd:double ;
+	geo:long "-3.761.757.187.185.660"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCerroAguila> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -2021,8 +2022,8 @@
 	base:hayTransportePublico "metro: villaverde bajo cruce (linea 3)  bus: 18, 126 y 86" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueCiudaddelosAngeles> a base:Posicion ;
-	base:tieneLatitud "40.352.850.949.880.200"^^xsd:long ;
-	base:tieneLongitud "-36.963.807.727.286.300"^^xsd:long .
+	geo:lat "40.352.850.949.880.200"^^xsd:double ;
+	geo:long "-36.963.807.727.286.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCiudaddelosAngeles> a base:Direccion ;
 	base:tieneNumero "14"^^xsd:int ;
@@ -2057,8 +2058,8 @@
 	base:hayTransportePublico "bus: 160" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueCuestadelGalban> a base:Posicion ;
-	base:tieneLatitud "4.045.019.927.443.570"^^xsd:long ;
-	base:tieneLongitud "-3.768.070.614.824.990"^^xsd:long .
+	geo:lat "4.045.019.927.443.570"^^xsd:double ;
+	geo:long "-3.768.070.614.824.990"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCuestadelGalban> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -2089,8 +2090,8 @@
 	base:hayTransportePublico "metro: vicálvaro (linea 9)  bus: e3" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueCunaVerdedeVicalvar> a base:Posicion ;
-	base:tieneLatitud "4.040.969.329.689.750"^^xsd:long ;
-	base:tieneLongitud "-3.618.025.439.807.100"^^xsd:long .
+	geo:lat "4.040.969.329.689.750"^^xsd:double ;
+	geo:long "-3.618.025.439.807.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCunaVerdedeVicalvar> a base:Direccion ;
 	base:tieneNumero "300"^^xsd:int ;
@@ -2117,8 +2118,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ParqueCunaVerdedeVicalvar> base:hayTransportePublico "metro: san cipriano (linea 9)  bus: 4 , e3, 100" .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueCunaVerdedeVicalvar> base:tieneLatitud "4.040.930.295.868.700"^^xsd:long ;
-	base:tieneLongitud "-3.616.890.442.862.420"^^xsd:long .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueCunaVerdedeVicalvar> geo:lat "4.040.930.295.868.700"^^xsd:double ;
+	geo:long "-3.616.890.442.862.420"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCunaVerdedeVicalvar> base:tieneNumero "299"^^xsd:int .
 
@@ -2141,8 +2142,8 @@
 	base:hayTransportePublico "bus: 52" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeAlfonsoXIII> a base:Posicion ;
-	base:tieneLatitud "4.045.990.434.942.110"^^xsd:long ;
-	base:tieneLongitud "-3.669.142.805.075.650"^^xsd:long .
+	geo:lat "4.045.990.434.942.110"^^xsd:double ;
+	geo:long "-3.669.142.805.075.650"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeAlfonsoXIII> a base:Direccion ;
 	base:tieneNumero "136"^^xsd:int ;
@@ -2173,8 +2174,8 @@
 	base:hayTransportePublico "bus: 103, 111, 57, 144, 310" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeAmosAcero> a base:Posicion ;
-	base:tieneLatitud "4.038.903.628.994.230"^^xsd:long ;
-	base:tieneLongitud "-36.665.321.826.830.200"^^xsd:long .
+	geo:lat "4.038.903.628.994.230"^^xsd:double ;
+	geo:long "-36.665.321.826.830.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeAmosAcero> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -2205,8 +2206,8 @@
 	base:hayTransportePublico "bus: 49, 64" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeAnaTutor> a base:Posicion ;
-	base:tieneLatitud "4.048.559.668.319.750"^^xsd:long ;
-	base:tieneLongitud "-37.174.080.145.343.400"^^xsd:long .
+	geo:lat "4.048.559.668.319.750"^^xsd:double ;
+	geo:long "-37.174.080.145.343.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeAnaTutor> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -2237,8 +2238,8 @@
 	base:hayTransportePublico "bus: 106 , 109" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeArriaga> a base:Posicion ;
-	base:tieneLatitud "40.425.090.271.008.600"^^xsd:long ;
-	base:tieneLongitud "-36.427.216.652.412.800"^^xsd:long .
+	geo:lat "40.425.090.271.008.600"^^xsd:double ;
+	geo:long "-36.427.216.652.412.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeArriaga> a base:Direccion ;
 	base:tieneNumero "95"^^xsd:int ;
@@ -2269,8 +2270,8 @@
 	base:hayTransportePublico "bus: 3 , 31 , 41 , 50 , 65 , 148 , c1 , l3" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeAtenas> a base:Posicion ;
-	base:tieneLatitud "40.413.971.277.014.000"^^xsd:long ;
-	base:tieneLongitud "-3.715.138.075.489.170"^^xsd:long .
+	geo:lat "40.413.971.277.014.000"^^xsd:double ;
+	geo:long "-3.715.138.075.489.170"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeAtenas> a base:Direccion ;
 	base:tieneNumero "28"^^xsd:int ;
@@ -2301,8 +2302,8 @@
 	base:hayTransportePublico "metro: concha espina (línea 9)  bus: 16, 29, 43, 52 y 120" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeBerlin> a base:Posicion ;
-	base:tieneLatitud "4.045.150.372.849.220"^^xsd:long ;
-	base:tieneLongitud "-36.760.645.355.093.700"^^xsd:long .
+	geo:lat "4.045.150.372.849.220"^^xsd:double ;
+	geo:long "-36.760.645.355.093.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeBerlin> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -2334,8 +2335,8 @@
 	base:hayTransportePublico "metro: parque avenidas (línea 7)  bus: 21, 43, 48 , 53 y 74" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeBreogan> a base:Posicion ;
-	base:tieneLatitud "40.437.140.971.249.700"^^xsd:long ;
-	base:tieneLongitud "-36.608.995.093.418.300"^^xsd:long .
+	geo:lat "40.437.140.971.249.700"^^xsd:double ;
+	geo:long "-36.608.995.093.418.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeBreogan> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -2367,8 +2368,8 @@
 	base:hayTransportePublico "bus: 28, 48" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeCanillejas> a base:Posicion ;
-	base:tieneLatitud "4.044.191.186.628.210"^^xsd:long ;
-	base:tieneLongitud "-3.610.832.880.429.790"^^xsd:long .
+	geo:lat "4.044.191.186.628.210"^^xsd:double ;
+	geo:long "-3.610.832.880.429.790"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeCanillejas> a base:Direccion ;
 	base:tieneNumero "57"^^xsd:int ;
@@ -2399,8 +2400,8 @@
 	base:hayTransportePublico "bus: 55, 60 y 116" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeComillas> a base:Posicion ;
-	base:tieneLatitud "4.039.191.419.121.820"^^xsd:long ;
-	base:tieneLongitud "-37.141.505.979.369.000"^^xsd:long .
+	geo:lat "4.039.191.419.121.820"^^xsd:double ;
+	geo:long "-37.141.505.979.369.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeComillas> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -2435,8 +2436,8 @@
 	base:hayTransportePublico "bus: 8, 20 y 113." .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeDarwin> a base:Posicion ;
-	base:tieneLatitud "4.040.687.979.108.530"^^xsd:long ;
-	base:tieneLongitud "-3.660.862.691.056.580"^^xsd:long .
+	geo:lat "4.040.687.979.108.530"^^xsd:double ;
+	geo:long "-3.660.862.691.056.580"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeDarwin> a base:Direccion ;
 	base:tieneNumero "29"^^xsd:int ;
@@ -2467,8 +2468,8 @@
 	base:hayTransportePublico "bus: 7 y 29" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeDonaGuiomar> a base:Posicion ;
-	base:tieneLatitud "4.047.600.256.074.510"^^xsd:long ;
-	base:tieneLongitud "-36.551.340.067.790.500"^^xsd:long .
+	geo:lat "4.047.600.256.074.510"^^xsd:double ;
+	geo:long "-36.551.340.067.790.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeDonaGuiomar> a base:Direccion ;
 	base:tieneNumero "7"^^xsd:int ;
@@ -2500,8 +2501,8 @@
 	base:hayTransportePublico "metro: canal (líneas 2, 7) bus: 3 , 12 , 37 , 149" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeEnriqueHerreros> a base:Posicion ;
-	base:tieneLatitud "4.043.934.359.051.520"^^xsd:long ;
-	base:tieneLongitud "-37.043.941.647.283.200"^^xsd:long .
+	geo:lat "4.043.934.359.051.520"^^xsd:double ;
+	geo:long "-37.043.941.647.283.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeEnriqueHerreros> a base:Direccion ;
 	base:tieneNumero "49"^^xsd:int ;
@@ -2533,8 +2534,8 @@
 	base:hayTransportePublico "metro: francos rodríguez (línea 7) bus: 132, 44" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeFrancosRodriguez> a base:Posicion ;
-	base:tieneLatitud "4.045.374.298.443.810"^^xsd:long ;
-	base:tieneLongitud "-3.714.179.732.136.820"^^xsd:long .
+	geo:lat "4.045.374.298.443.810"^^xsd:double ;
+	geo:long "-3.714.179.732.136.820"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeFrancosRodriguez> a base:Direccion ;
 	base:tieneNumero "63"^^xsd:int ;
@@ -2566,8 +2567,8 @@
 	base:hayTransportePublico "bus: 66, 137" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeFuencarral> a base:Posicion ;
-	base:tieneLatitud "4.050.021.894.773.630"^^xsd:long ;
-	base:tieneLongitud "-36.861.244.200.250.700"^^xsd:long .
+	geo:lat "4.050.021.894.773.630"^^xsd:double ;
+	geo:long "-36.861.244.200.250.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeFuencarral> a base:Direccion ;
 	base:tieneNumero "151"^^xsd:int ;
@@ -2597,8 +2598,8 @@
 	base:hayTransportePublico "bus: 66, 137" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeFuentechica> a base:Posicion ;
-	base:tieneLatitud "4.049.571.829.898.630"^^xsd:long ;
-	base:tieneLongitud "-36.915.305.267.345.900"^^xsd:long .
+	geo:lat "4.049.571.829.898.630"^^xsd:double ;
+	geo:long "-36.915.305.267.345.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeFuentechica> a base:Direccion ;
 	base:tieneNumero "21"^^xsd:int ;
@@ -2629,8 +2630,8 @@
 	base:hayTransportePublico "bus: 67, 82" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeFuentelarreina> a base:Posicion ;
-	base:tieneLatitud "4.048.346.692.636.290"^^xsd:long ;
-	base:tieneLongitud "-37.337.736.098.964.600"^^xsd:long .
+	geo:lat "4.048.346.692.636.290"^^xsd:double ;
+	geo:long "-37.337.736.098.964.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeFuentelarreina> a base:Direccion ;
 	base:tieneNumero "80"^^xsd:int ;
@@ -2661,8 +2662,8 @@
 	base:hayTransportePublico "bus: 67" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeGabrielaMistral> a base:Posicion ;
-	base:tieneLatitud "40.484.467.522.541.800"^^xsd:long ;
-	base:tieneLongitud "-37.336.783.173.806.600"^^xsd:long .
+	geo:lat "40.484.467.522.541.800"^^xsd:double ;
+	geo:long "-37.336.783.173.806.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeGabrielaMistral> a base:Direccion ;
 	base:tieneNumero "69"^^xsd:int ;
@@ -2693,8 +2694,8 @@
 	base:hayTransportePublico "bus: 9, 72, 125, 229" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeIsabelClaraEugeni> a base:Posicion ;
-	base:tieneLatitud "40.473.611.797.871.500"^^xsd:long ;
-	base:tieneLongitud "-3.646.133.317.289.780"^^xsd:long .
+	geo:lat "40.473.611.797.871.500"^^xsd:double ;
+	geo:long "-3.646.133.317.289.780"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeIsabelClaraEugeni> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -2725,8 +2726,8 @@
 	base:hayTransportePublico "metro: guzmán el bueno (línea 6 y 7)" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeJuanXXIII> a base:Posicion ;
-	base:tieneLatitud "40.450.619.984.285.900"^^xsd:long ;
-	base:tieneLongitud "-37.136.749.543.495.600"^^xsd:long .
+	geo:lat "40.450.619.984.285.900"^^xsd:double ;
+	geo:long "-37.136.749.543.495.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeJuanXXIII> a base:Direccion ;
 	base:tieneNumero "21"^^xsd:int ;
@@ -2758,8 +2759,8 @@
 	base:hayTransportePublico "bus: 42" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelaAlcazaba> a base:Posicion ;
-	base:tieneLatitud "4.047.266.915.640.930"^^xsd:long ;
-	base:tieneLongitud "-3.707.125.226.601.670"^^xsd:long .
+	geo:lat "4.047.266.915.640.930"^^xsd:double ;
+	geo:long "-3.707.125.226.601.670"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaAlcazaba> a base:Direccion ;
 	base:tieneNumero "45"^^xsd:int ;
@@ -2790,8 +2791,8 @@
 	base:hayTransportePublico "bus: 70 , 106" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelaAlmudena> a base:Posicion ;
-	base:tieneLatitud "4.042.060.649.869.600"^^xsd:long ;
-	base:tieneLongitud "-36.324.237.307.227.600"^^xsd:long .
+	geo:lat "4.042.060.649.869.600"^^xsd:double ;
+	geo:long "-36.324.237.307.227.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaAlmudena> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -2822,8 +2823,8 @@
 	base:hayTransportePublico "metro: villaverde bajo - cruce (linea 3)  bus: 18, 116" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelaAmistad> a base:Posicion ;
-	base:tieneLatitud "40.348.326.631.620.100"^^xsd:long ;
-	base:tieneLongitud "-36.921.658.727.994.700"^^xsd:long .
+	geo:lat "40.348.326.631.620.100"^^xsd:double ;
+	geo:long "-36.921.658.727.994.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaAmistad> a base:Direccion ;
 	base:tieneNumero "21"^^xsd:int ;
@@ -2855,8 +2856,8 @@
 	base:hayTransportePublico "bus : 41, 46 y 75" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelaBombilla> a base:Posicion ;
-	base:tieneLatitud "4.042.834.456.035.840"^^xsd:long ;
-	base:tieneLongitud "-3.728.941.931.668.390"^^xsd:long .
+	geo:lat "4.042.834.456.035.840"^^xsd:double ;
+	geo:long "-3.728.941.931.668.390"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaBombilla> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -2887,8 +2888,8 @@
 	base:hayTransportePublico "bus: 31 , 41 , 50 , 65" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelaCuestadelaVega> a base:Posicion ;
-	base:tieneLatitud "4.041.476.219.795.400"^^xsd:long ;
-	base:tieneLongitud "-37.154.411.142.835.300"^^xsd:long .
+	geo:lat "4.041.476.219.795.400"^^xsd:double ;
+	geo:long "-37.154.411.142.835.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaCuestadelaVega> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -2919,8 +2920,8 @@
 	base:hayTransportePublico "bus: 59 y 79" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelaDehesaBoyal> a base:Posicion ;
-	base:tieneLatitud "4.034.452.019.989.430"^^xsd:long ;
-	base:tieneLongitud "-3.686.887.364.713.820"^^xsd:long .
+	geo:lat "4.034.452.019.989.430"^^xsd:double ;
+	geo:long "-3.686.887.364.713.820"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaDehesaBoyal> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -2951,8 +2952,8 @@
 	base:hayTransportePublico "metro: vicálvaro (línea 9)   bus: e3 , 4 , 100 , 106 , 130" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelaMaceta> a base:Posicion ;
-	base:tieneLatitud "4.040.838.172.678.720"^^xsd:long ;
-	base:tieneLongitud "-36.156.327.652.234.800"^^xsd:long .
+	geo:lat "4.040.838.172.678.720"^^xsd:double ;
+	geo:long "-36.156.327.652.234.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaMaceta> a base:Direccion ;
 	base:tieneNumero "301"^^xsd:int ;
@@ -2984,8 +2985,8 @@
 	base:hayTransportePublico "metro: la peseta (línea 11) bus: 35" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelaPeseta> a base:Posicion ;
-	base:tieneLatitud "40.364.341.448.699.800"^^xsd:long ;
-	base:tieneLongitud "-3.757.402.071.835.870"^^xsd:long .
+	geo:lat "40.364.341.448.699.800"^^xsd:double ;
+	geo:long "-3.757.402.071.835.870"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaPeseta> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
@@ -3017,8 +3018,8 @@
 	base:hayTransportePublico "metro: herrera oria (línea 9)  bus: 67, 83" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelaSupermanzana> a base:Posicion ;
-	base:tieneLatitud "4.048.531.189.120.050"^^xsd:long ;
-	base:tieneLongitud "-37.006.858.825.216.600"^^xsd:long .
+	geo:lat "4.048.531.189.120.050"^^xsd:double ;
+	geo:long "-37.006.858.825.216.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaSupermanzana> a base:Direccion ;
 	base:tieneNumero "27"^^xsd:int ;
@@ -3050,8 +3051,8 @@
 	base:hayTransportePublico "bus:   67, 83, 124, 127 y 133" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelaVaguada> a base:Posicion ;
-	base:tieneLatitud "4.048.016.602.497.200"^^xsd:long ;
-	base:tieneLongitud "-37.112.978.051.427.500"^^xsd:long .
+	geo:lat "4.048.016.602.497.200"^^xsd:double ;
+	geo:long "-37.112.978.051.427.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaVaguada> a base:Direccion ;
 	base:tieneNumero "13"^^xsd:int ;
@@ -3082,8 +3083,8 @@
 	base:hayTransportePublico "bus: 42 , 67 , 147" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelaVentilla> a base:Posicion ;
-	base:tieneLatitud "4.047.342.193.811.740"^^xsd:long ;
-	base:tieneLongitud "-36.929.061.067.371.700"^^xsd:long .
+	geo:lat "4.047.342.193.811.740"^^xsd:double ;
+	geo:long "-36.929.061.067.371.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaVentilla> a base:Direccion ;
 	base:tieneNumero "51"^^xsd:int ;
@@ -3114,8 +3115,8 @@
 	base:hayTransportePublico "bus: 4 , 100 , 106" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelaVicalvarada> a base:Posicion ;
-	base:tieneLatitud "4.040.930.182.229.150"^^xsd:long ;
-	base:tieneLongitud "-3.608.605.091.516.180"^^xsd:long .
+	geo:lat "4.040.930.182.229.150"^^xsd:double ;
+	geo:long "-3.608.605.091.516.180"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaVicalvarada> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -3146,8 +3147,8 @@
 	base:hayTransportePublico "metro: parque de las avenidas (línea 7)  bus: 53, 122" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelasAvenidas> a base:Posicion ;
-	base:tieneLatitud "4.044.185.168.357.490"^^xsd:long ;
-	base:tieneLongitud "-36.610.753.472.863.700"^^xsd:long .
+	geo:lat "4.044.185.168.357.490"^^xsd:double ;
+	geo:long "-36.610.753.472.863.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelasAvenidas> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
@@ -3179,8 +3180,8 @@
 	base:hayTransportePublico "metro: aluche (línea 5)  bus: 17, 117, 121, 131, 139, 155  renfe: aluche" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeLasCruces> a base:Posicion ;
-	base:tieneLatitud "4.037.746.689.917.420"^^xsd:long ;
-	base:tieneLongitud "-37.547.689.345.277.900"^^xsd:long .
+	geo:lat "4.037.746.689.917.420"^^xsd:double ;
+	geo:long "-37.547.689.345.277.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeLasCruces> a base:Direccion ;
 	base:tieneNumero "74"^^xsd:int ;
@@ -3213,8 +3214,8 @@
 	base:hayTransportePublico "metro: delicias (línea 3)  bus: 8, 19, 45, 47, 59, 85, 86 y 247" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelasDelicias> a base:Posicion ;
-	base:tieneLatitud "40.396.280.768.551.800"^^xsd:long ;
-	base:tieneLongitud "-36.893.809.207.693.900"^^xsd:long .
+	geo:lat "40.396.280.768.551.800"^^xsd:double ;
+	geo:long "-36.893.809.207.693.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelasDelicias> a base:Direccion ;
 	base:tieneNumero "13"^^xsd:int ;
@@ -3247,8 +3248,8 @@
 	base:hayTransportePublico "metro: canillas (línea 4).  bus: 73 , 112 , 120 , 122 , 153." .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelosLlanos> a base:Posicion ;
-	base:tieneLatitud "40.461.621.132.349.000"^^xsd:long ;
-	base:tieneLongitud "-36.281.020.785.174.800"^^xsd:long .
+	geo:lat "40.461.621.132.349.000"^^xsd:double ;
+	geo:long "-36.281.020.785.174.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelosLlanos> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
@@ -3280,8 +3281,8 @@
 	base:hayTransportePublico "bus: 70 y 106" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelosTilosFaseI> a base:Posicion ;
-	base:tieneLatitud "40.422.169.759.145.500"^^xsd:long ;
-	base:tieneLongitud "-36.348.548.961.758.200"^^xsd:long .
+	geo:lat "40.422.169.759.145.500"^^xsd:double ;
+	geo:long "-36.348.548.961.758.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelosTilosFaseI> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -3312,8 +3313,8 @@
 	base:hayTransportePublico "bus: 106" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeMalmoe> a base:Posicion ;
-	base:tieneLatitud "4.041.540.866.888.320"^^xsd:long ;
-	base:tieneLongitud "-3.625.727.333.816.080"^^xsd:long .
+	geo:lat "4.041.540.866.888.320"^^xsd:double ;
+	geo:long "-3.625.727.333.816.080"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeMalmoe> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -3344,8 +3345,8 @@
 	base:hayTransportePublico "metro: manoteras (línea 4)  bus: 7, 29" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeManoteras> a base:Posicion ;
-	base:tieneLatitud "40.476.654.320.025.500"^^xsd:long ;
-	base:tieneLongitud "-3.662.490.150.184.710"^^xsd:long .
+	geo:lat "40.476.654.320.025.500"^^xsd:double ;
+	geo:long "-3.662.490.150.184.710"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeManoteras> a base:Direccion ;
 	base:tieneNumero "22"^^xsd:int ;
@@ -3377,8 +3378,8 @@
 	base:hayTransportePublico "bus: 32, 71" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeMoratalaz> a base:Posicion ;
-	base:tieneLatitud "4.040.882.236.801.760"^^xsd:long ;
-	base:tieneLongitud "-3.643.898.652.734.270"^^xsd:long .
+	geo:lat "4.040.882.236.801.760"^^xsd:double ;
+	geo:long "-3.643.898.652.734.270"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeMoratalaz> a base:Direccion ;
 	base:tieneNumero "183"^^xsd:int ;
@@ -3409,8 +3410,8 @@
 	base:hayTransportePublico "metro: pan bendito (línea 11) bus: 47 , 108 , 118 , 121 , 131" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedePanBendito> a base:Posicion ;
-	base:tieneLatitud "4.038.951.896.001.850"^^xsd:long ;
-	base:tieneLongitud "-376.740.436.374.511"^^xsd:long .
+	geo:lat "4.038.951.896.001.850"^^xsd:double ;
+	geo:long "-376.740.436.374.511"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedePanBendito> a base:Direccion ;
 	base:tieneNumero "35"^^xsd:int ;
@@ -3442,8 +3443,8 @@
 	base:hayTransportePublico "bus: 82" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedePenagrande> a base:Posicion ;
-	base:tieneLatitud "4.048.185.149.371.300"^^xsd:long ;
-	base:tieneLongitud "-3.732.800.354.586.840"^^xsd:long .
+	geo:lat "4.048.185.149.371.300"^^xsd:double ;
+	geo:long "-3.732.800.354.586.840"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedePenagrande> a base:Direccion ;
 	base:tieneNumero "53"^^xsd:int ;
@@ -3474,8 +3475,8 @@
 	base:hayTransportePublico "bus: 114 , 115" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedePinardeBarajas> a base:Posicion ;
-	base:tieneLatitud "4.044.943.999.585.460"^^xsd:long ;
-	base:tieneLongitud "-36.315.854.281.089.800"^^xsd:long .
+	geo:lat "4.044.943.999.585.460"^^xsd:double ;
+	geo:long "-36.315.854.281.089.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedePinardeBarajas> a base:Direccion ;
 	base:tieneNumero "700"^^xsd:int ;
@@ -3506,8 +3507,8 @@
 	base:hayTransportePublico "bus: 22, 76" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedePlatayCastanar> a base:Posicion ;
-	base:tieneLatitud "40.348.762.550.258.800"^^xsd:long ;
-	base:tieneLongitud "-3.715.284.870.727.620"^^xsd:long .
+	geo:lat "40.348.762.550.258.800"^^xsd:double ;
+	geo:long "-3.715.284.870.727.620"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedePlatayCastanar> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -3538,8 +3539,8 @@
 	base:hayTransportePublico "metro: hospital 12 de octubre (línea 3)  bus: 6 , 60 , 78 , 81 , 121 , 131   cercanías renfe: 12 de octubre" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedePradolongo> a base:Posicion ;
-	base:tieneLatitud "4.037.557.617.692.420"^^xsd:long ;
-	base:tieneLongitud "-3.711.963.730.232.900"^^xsd:long .
+	geo:lat "4.037.557.617.692.420"^^xsd:double ;
+	geo:long "-3.711.963.730.232.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedePradolongo> a base:Direccion ;
 	base:tieneNumero "85"^^xsd:int ;
@@ -3572,8 +3573,8 @@
 	base:hayTransportePublico "bus: 17, 117, 139" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeRafaelFinat> a base:Posicion ;
-	base:tieneLatitud "40.383.406.554.321.300"^^xsd:long ;
-	base:tieneLongitud "-37.639.655.933.540.000"^^xsd:long .
+	geo:lat "40.383.406.554.321.300"^^xsd:double ;
+	geo:long "-37.639.655.933.540.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeRafaelFinat> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -3604,8 +3605,8 @@
 	base:hayTransportePublico "metro: marqués de vadillo (línea 5)  bus: 17 , 50" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeSanIsidro> a base:Posicion ;
-	base:tieneLatitud "4.039.924.815.906.880"^^xsd:long ;
-	base:tieneLongitud "-37.284.983.869.120.600"^^xsd:long .
+	geo:lat "4.039.924.815.906.880"^^xsd:double ;
+	geo:long "-37.284.983.869.120.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeSanIsidro> a base:Direccion ;
 	base:tieneNumero "74"^^xsd:int ;
@@ -3637,8 +3638,8 @@
 	base:hayTransportePublico "bus: 66, 137" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeSantaAna> a base:Posicion ;
-	base:tieneLatitud "4.049.738.155.071.240"^^xsd:long ;
-	base:tieneLongitud "-36.936.009.892.949.100"^^xsd:long .
+	geo:lat "4.049.738.155.071.240"^^xsd:double ;
+	geo:long "-36.936.009.892.949.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeSantaAna> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -3670,8 +3671,8 @@
 	base:hayTransportePublico "bus: 73 y 104" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedeVillarosa> a base:Posicion ;
-	base:tieneLatitud "40.468.674.190.501.800"^^xsd:long ;
-	base:tieneLongitud "-3.631.588.640.594.870"^^xsd:long .
+	geo:lat "40.468.674.190.501.800"^^xsd:double ;
+	geo:long "-3.631.588.640.594.870"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeVillarosa> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -3702,8 +3703,8 @@
 	base:hayTransportePublico "bus: 62, 88 y 148" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelBronce> a base:Posicion ;
-	base:tieneLatitud "40.390.471.636.161.100"^^xsd:long ;
-	base:tieneLongitud "-36.875.778.883.164.500"^^xsd:long .
+	geo:lat "40.390.471.636.161.100"^^xsd:double ;
+	geo:long "-36.875.778.883.164.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelBronce> a base:Direccion ;
 	base:tieneNumero "5"^^xsd:int ;
@@ -3734,8 +3735,8 @@
 	base:hayTransportePublico "metro: ciudad de los ángeles (línea 3)  bus: 23, 130" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelEspinillo> a base:Posicion ;
-	base:tieneLatitud "40.361.196.526.923.800"^^xsd:long ;
-	base:tieneLongitud "-36.853.017.812.008"^^xsd:long .
+	geo:lat "40.361.196.526.923.800"^^xsd:double ;
+	geo:long "-36.853.017.812.008"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelEspinillo> a base:Direccion ;
 	base:tieneNumero "23"^^xsd:int ;
@@ -3766,8 +3767,8 @@
 	base:hayTransportePublico "metro: atocha (línea 1).  bus: 10 , 14 , 27 , 34 , 37 , 45 , 59 , 141.  renfe: atocha renfe." .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelMuseodelPrado> a base:Posicion ;
-	base:tieneLatitud "4.041.374.876.020.890"^^xsd:long ;
-	base:tieneLongitud "-36.924.939.830.736.900"^^xsd:long .
+	geo:lat "4.041.374.876.020.890"^^xsd:double ;
+	geo:long "-36.924.939.830.736.900"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelMuseodelPrado> a base:Direccion ;
 	base:tieneNumero "11"^^xsd:int ;
@@ -3800,8 +3801,8 @@
 	base:hayTransportePublico "bus: 124, 137" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelNorte> a base:Posicion ;
-	base:tieneLatitud "4.048.106.787.416.520"^^xsd:long ;
-	base:tieneLongitud "-36.933.504.628.706.000"^^xsd:long .
+	geo:lat "4.048.106.787.416.520"^^xsd:double ;
+	geo:long "-36.933.504.628.706.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelNorte> a base:Direccion ;
 	base:tieneNumero "7"^^xsd:int ;
@@ -3832,8 +3833,8 @@
 	base:hayTransportePublico "bus: 601" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquedelPueblodelPardo> a base:Posicion ;
-	base:tieneLatitud "405.186.002.228.516"^^xsd:long ;
-	base:tieneLongitud "-37.753.787.533.567.500"^^xsd:long .
+	geo:lat "405.186.002.228.516"^^xsd:double ;
+	geo:long "-37.753.787.533.567.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelPueblodelPardo> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -3864,8 +3865,8 @@
 	base:hayTransportePublico "metro: san cipriano (línea 9)   bus: 4 , 106" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueDuquedeAhumada> a base:Posicion ;
-	base:tieneLatitud "404.048.457.851.104"^^xsd:long ;
-	base:tieneLongitud "-36.062.315.414.157.600"^^xsd:long .
+	geo:lat "404.048.457.851.104"^^xsd:double ;
+	geo:long "-36.062.315.414.157.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueDuquedeAhumada> a base:Direccion ;
 	base:tieneNumero "16"^^xsd:int ;
@@ -3897,8 +3898,8 @@
 	base:hayTransportePublico "metro: quintana y carmen (línea 5)  bus: 21, 48 y 146" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueElCalero> a base:Posicion ;
-	base:tieneLatitud "4.043.555.222.953.490"^^xsd:long ;
-	base:tieneLongitud "-36.519.351.470.803.500"^^xsd:long .
+	geo:lat "4.043.555.222.953.490"^^xsd:double ;
+	geo:long "-36.519.351.470.803.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueElCalero> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -3930,8 +3931,8 @@
 	base:hayTransportePublico "bus: 7, 9, 70, 72 y 87" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueElCedral> a base:Posicion ;
-	base:tieneLatitud "40.462.882.951.414.200"^^xsd:long ;
-	base:tieneLongitud "-36.650.441.004.626.500"^^xsd:long .
+	geo:lat "40.462.882.951.414.200"^^xsd:double ;
+	geo:long "-36.650.441.004.626.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueElCedral> a base:Direccion ;
 	base:tieneNumero "233"^^xsd:int ;
@@ -3962,8 +3963,8 @@
 	base:hayTransportePublico "metro: villaverde bajo - cruce (línea 3)  bus: 18, 22, 86, 116 y 130" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueElCruce> a base:Posicion ;
-	base:tieneLatitud "40.350.970.403.692.300"^^xsd:long ;
-	base:tieneLongitud "-36.944.891.243.298.500"^^xsd:long .
+	geo:lat "40.350.970.403.692.300"^^xsd:double ;
+	geo:long "-36.944.891.243.298.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueElCruce> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -3994,8 +3995,8 @@
 	base:hayTransportePublico "bus: 3, 31 , 41 , 50 , 65" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueEmirMohamedI> a base:Posicion ;
-	base:tieneLatitud "4.041.438.785.232.730"^^xsd:long ;
-	base:tieneLongitud "-37.147.888.896.558.100"^^xsd:long .
+	geo:lat "4.041.438.785.232.730"^^xsd:double ;
+	geo:long "-37.147.888.896.558.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueEmirMohamedI> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -4026,8 +4027,8 @@
 	base:hayTransportePublico "metro: plaza elíptica (línea 6 y 11) , abrantes (línea 11) bus: 47 , 81 , 108 , 116 , 121 , 131 , 155" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueEmperatrizMariadeAu> a base:Posicion ;
-	base:tieneLatitud "40.382.311.100.280.700"^^xsd:long ;
-	base:tieneLongitud "-37.227.552.919.050.500"^^xsd:long .
+	geo:lat "40.382.311.100.280.700"^^xsd:double ;
+	geo:long "-37.227.552.919.050.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueEmperatrizMariadeAu> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
@@ -4059,8 +4060,8 @@
 	base:hayTransportePublico "bus: 148" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueEnriqueTiernoGalvan> a base:Posicion ;
-	base:tieneLatitud "4.039.210.151.448.580"^^xsd:long ;
-	base:tieneLongitud "-3.681.620.654.746.180"^^xsd:long .
+	geo:lat "4.039.210.151.448.580"^^xsd:double ;
+	geo:long "-3.681.620.654.746.180"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueEnriqueTiernoGalvan> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -4091,8 +4092,8 @@
 	base:hayTransportePublico "bus: 88" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueEntreviasForestal> a base:Posicion ;
-	base:tieneLatitud "4.036.782.603.611.020"^^xsd:long ;
-	base:tieneLongitud "-36.670.181.171.393.000"^^xsd:long .
+	geo:lat "4.036.782.603.611.020"^^xsd:double ;
+	geo:long "-36.670.181.171.393.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueEntreviasForestal> a base:Direccion ;
 	base:tieneNumero "251"^^xsd:int ;
@@ -4123,8 +4124,8 @@
 	base:hayTransportePublico "bus: 102, 111  renfe: asamblea de madrid, entrevías" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueEntreviasUrbano> a base:Posicion ;
-	base:tieneLatitud "4.037.253.969.509.110"^^xsd:long ;
-	base:tieneLongitud "-36.698.091.602.059.600"^^xsd:long .
+	geo:lat "4.037.253.969.509.110"^^xsd:double ;
+	geo:long "-36.698.091.602.059.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueEntreviasUrbano> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
@@ -4156,8 +4157,8 @@
 	base:hayTransportePublico "metro: valdebernardo (línea 9)  bus: 71" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueEstedeValdebernardo> a base:Posicion ;
-	base:tieneLatitud "40.393.429.973.468.200"^^xsd:long ;
-	base:tieneLongitud "-36.183.833.916.362.700"^^xsd:long .
+	geo:lat "40.393.429.973.468.200"^^xsd:double ;
+	geo:long "-36.183.833.916.362.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueEstedeValdebernardo> a base:Direccion ;
 	base:tieneNumero "25"^^xsd:int ;
@@ -4189,8 +4190,8 @@
 	base:hayTransportePublico "metro: eugenia de montijo (línea 5)  bus: 17 , 35 , 121 , 131 , 139" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueEugeniadeMontijo> a base:Posicion ;
-	base:tieneLatitud "4.037.942.623.334.730"^^xsd:long ;
-	base:tieneLongitud "-37.527.174.453.988.700"^^xsd:long .
+	geo:lat "4.037.942.623.334.730"^^xsd:double ;
+	geo:long "-37.527.174.453.988.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueEugeniadeMontijo> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
@@ -4223,8 +4224,8 @@
 	base:hayTransportePublico "metro: manuel becerra (línea 2 y 6)  bus: 12, 43, 56, 143, 156" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueEvaDuarte> a base:Posicion ;
-	base:tieneLatitud "4.042.985.671.996.890"^^xsd:long ;
-	base:tieneLongitud "-3.668.031.432.543.620"^^xsd:long .
+	geo:lat "4.042.985.671.996.890"^^xsd:double ;
+	geo:long "-3.668.031.432.543.620"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueEvaDuarte> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
@@ -4256,8 +4257,8 @@
 	base:hayTransportePublico "metro: avenida la paz (línea 4)  bus: 9 , 72 , 73 , 120" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueFelixRodriguezdelaF> a base:Posicion ;
-	base:tieneLatitud "4.045.205.238.274.070"^^xsd:long ;
-	base:tieneLongitud "-36.653.500.732.558.700"^^xsd:long .
+	geo:lat "4.045.205.238.274.070"^^xsd:double ;
+	geo:long "-36.653.500.732.558.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueFelixRodriguezdelaF> a base:Direccion ;
 	base:tieneNumero "38"^^xsd:int ;
@@ -4289,8 +4290,8 @@
 	base:hayTransportePublico "bus: 17, 34, 39, 117, 139  renfe: las águilas" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueGeneralFanjul-Santa> a base:Posicion ;
-	base:tieneLatitud "4.038.033.890.061.460"^^xsd:long ;
-	base:tieneLongitud "-37.834.984.766.161.800"^^xsd:long .
+	geo:lat "4.038.033.890.061.460"^^xsd:double ;
+	geo:long "-37.834.984.766.161.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueGeneralFanjul-Santa> a base:Direccion ;
 	base:tieneNumero "144"^^xsd:int ;
@@ -4323,8 +4324,8 @@
 	base:hayTransportePublico "bus: 7 , 9 , 29 , 72 , 87 , 107 , 129 , 172 , 172" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueHortaleza> a base:Posicion ;
-	base:tieneLatitud "4.048.024.318.499.320"^^xsd:long ;
-	base:tieneLongitud "-3.650.809.942.180.930"^^xsd:long .
+	geo:lat "4.048.024.318.499.320"^^xsd:double ;
+	geo:long "-3.650.809.942.180.930"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueHortaleza> a base:Direccion ;
 	base:tieneNumero "18"^^xsd:int ;
@@ -4355,8 +4356,8 @@
 	base:hayTransportePublico "bus: 22 , 76 , 79" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueHuertadelObispo,Tet> a base:Posicion ;
-	base:tieneLatitud "4.046.618.230.558.720"^^xsd:long ;
-	base:tieneLongitud "-3.708.661.389.822.730"^^xsd:long .
+	geo:lat "4.046.618.230.558.720"^^xsd:double ;
+	geo:long "-3.708.661.389.822.730"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueHuertadelObispo,Tet> a base:Direccion ;
 	base:tieneNumero "200"^^xsd:int ;
@@ -4387,8 +4388,8 @@
 	base:hayTransportePublico "bus: 22 , 76 , 79" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueHuertadelObispo,Vil> a base:Posicion ;
-	base:tieneLatitud "40.346.980.092.315.500"^^xsd:long ;
-	base:tieneLongitud "-3.712.145.719.392.740"^^xsd:long .
+	geo:lat "40.346.980.092.315.500"^^xsd:double ;
+	geo:long "-3.712.145.719.392.740"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueHuertadelObispo,Vil> a base:Direccion ;
 	base:tieneNumero "34"^^xsd:int ;
@@ -4419,8 +4420,8 @@
 	base:hayTransportePublico "bus: 160" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueLaRinconada> a base:Posicion ;
-	base:tieneLatitud "4.045.750.725.687.830"^^xsd:long ;
-	base:tieneLongitud "-37.664.554.910.416.200"^^xsd:long .
+	geo:lat "4.045.750.725.687.830"^^xsd:double ;
+	geo:long "-37.664.554.910.416.200"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueLaRinconada> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
@@ -4451,8 +4452,8 @@
 	base:hayTransportePublico "bus: 102  renfe: asamblea de madrid- entrevías" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueLaVina> a base:Posicion ;
-	base:tieneLatitud "4.038.556.774.381.460"^^xsd:long ;
-	base:tieneLongitud "-367.430.914.572.838"^^xsd:long .
+	geo:lat "4.038.556.774.381.460"^^xsd:double ;
+	geo:long "-367.430.914.572.838"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueLaVina> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
@@ -4512,8 +4513,8 @@
 	base:hayTransportePublico "metro: miguel hernández bus: 54, 58, 103, 142, 143, 310" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueLinealdePalomeras> a base:Posicion ;
-	base:tieneLatitud "4.038.581.882.868.550"^^xsd:long ;
-	base:tieneLongitud "-36.363.631.773.029.300"^^xsd:long .
+	geo:lat "4.038.581.882.868.550"^^xsd:double ;
+	geo:long "-36.363.631.773.029.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueLinealdePalomeras> a base:Direccion ;
 	base:tieneNumero "293"^^xsd:int ;
@@ -4545,8 +4546,8 @@
 	base:hayTransportePublico "metro: conde de casal (línea 6).  bus: 8 , 10 , 24 , 54 , 56 , 57 , 113 , 136, 141 , 148 , 310." .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueMartinLutherKing> a base:Posicion ;
-	base:tieneLatitud "40.398.195.733.324.100"^^xsd:long ;
-	base:tieneLongitud "-36.701.340.560.704.000"^^xsd:long .
+	geo:lat "40.398.195.733.324.100"^^xsd:double ;
+	geo:long "-36.701.340.560.704.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueMartinLutherKing> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -4578,8 +4579,8 @@
 	base:hayTransportePublico "bus: 60" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueMesetadeOrcasitas> a base:Posicion ;
-	base:tieneLatitud "403.673.502.443.602"^^xsd:long ;
-	base:tieneLongitud "-37.076.605.178.679.000"^^xsd:long .
+	geo:lat "403.673.502.443.602"^^xsd:double ;
+	geo:long "-37.076.605.178.679.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueMesetadeOrcasitas> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
@@ -4611,8 +4612,8 @@
 	base:hayTransportePublico "bus: 87" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueMiradordelasCarcava> a base:Posicion ;
-	base:tieneLatitud "4.047.917.989.766.590"^^xsd:long ;
-	base:tieneLongitud "-36.330.084.507.532.600"^^xsd:long .
+	geo:lat "4.047.917.989.766.590"^^xsd:double ;
+	geo:long "-36.330.084.507.532.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueMiradordelasCarcava> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -4642,8 +4643,8 @@
 	base:hayTransportePublico "bus: 148" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueMiradordeTiernoGalv> a base:Posicion ;
-	base:tieneLatitud "40.394.735.491.209.400"^^xsd:long ;
-	base:tieneLongitud "-36.856.299.107.811.300"^^xsd:long .
+	geo:lat "40.394.735.491.209.400"^^xsd:double ;
+	geo:long "-36.856.299.107.811.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueMiradordeTiernoGalv> a base:Direccion ;
 	base:tieneNumero "7"^^xsd:int ;
@@ -4674,8 +4675,8 @@
 	base:hayTransportePublico "metro: begoña (línea 10)  bus: 124, 137" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueNudoNortedeBegona> a base:Posicion ;
-	base:tieneLatitud "40.483.895.554.775.700"^^xsd:long ;
-	base:tieneLongitud "-36.844.715.393.162.700"^^xsd:long .
+	geo:lat "40.483.895.554.775.700"^^xsd:double ;
+	geo:long "-36.844.715.393.162.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueNudoNortedeBegona> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -4707,8 +4708,8 @@
 	base:hayTransportePublico "metro: plaza elíptica (línea 6 y 11)  bus: 47 , 60 , 81 , 247" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueOlofPalme> a base:Posicion ;
-	base:tieneLatitud "4.038.439.900.273.860"^^xsd:long ;
-	base:tieneLongitud "-37.129.519.968.429.400"^^xsd:long .
+	geo:lat "4.038.439.900.273.860"^^xsd:double ;
+	geo:long "-37.129.519.968.429.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueOlofPalme> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -4740,8 +4741,8 @@
 	base:hayTransportePublico "bus: 34 , 35" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquePaseoMunozGrandes> a base:Posicion ;
-	base:tieneLatitud "40.385.086.008.433.300"^^xsd:long ;
-	base:tieneLongitud "-37.398.326.701.482.000"^^xsd:long .
+	geo:lat "40.385.086.008.433.300"^^xsd:double ;
+	geo:long "-37.398.326.701.482.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquePaseoMunozGrandes> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
@@ -4772,8 +4773,8 @@
 	base:hayTransportePublico "bus: 310, 410, 144, 57, 136  renfe: asamblea de madrid - entrevías." .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquePayasoFofo> a base:Posicion ;
-	base:tieneLatitud "4.038.901.086.962.940"^^xsd:long ;
-	base:tieneLongitud "-36.599.692.832.803.800"^^xsd:long .
+	geo:lat "4.038.901.086.962.940"^^xsd:double ;
+	geo:long "-36.599.692.832.803.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquePayasoFofo> a base:Direccion ;
 	base:tieneNumero "11"^^xsd:int ;
@@ -4805,8 +4806,8 @@
 	base:hayTransportePublico "metro: pirámides (línea 5)  bus:18, 62" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquePenuelas> a base:Posicion ;
-	base:tieneLatitud "4.039.900.396.358.790"^^xsd:long ;
-	base:tieneLongitud "-3.703.926.416.750.330"^^xsd:long .
+	geo:lat "4.039.900.396.358.790"^^xsd:double ;
+	geo:long "-3.703.926.416.750.330"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquePenuelas> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -4838,8 +4839,8 @@
 	base:hayTransportePublico "bus: 28 , 71 , 110 , 113 , 210" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquePinardelaElipa> a base:Posicion ;
-	base:tieneLatitud "40.418.806.485.625.400"^^xsd:long ;
-	base:tieneLongitud "-36.563.469.592.354.300"^^xsd:long .
+	geo:lat "40.418.806.485.625.400"^^xsd:double ;
+	geo:long "-36.563.469.592.354.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquePinardelaElipa> a base:Direccion ;
 	base:tieneNumero "26"^^xsd:int ;
@@ -4871,8 +4872,8 @@
 	base:hayTransportePublico "bus: 9 , 72 , 87 , 125 , 229" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquePinardelRey> a base:Posicion ;
-	base:tieneLatitud "40.463.441.129.364.200"^^xsd:long ;
-	base:tieneLongitud "-36.556.488.853.143.400"^^xsd:long .
+	geo:lat "40.463.441.129.364.200"^^xsd:double ;
+	geo:long "-36.556.488.853.143.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquePinardelRey> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -4903,8 +4904,8 @@
 	base:hayTransportePublico "metro: villaverde bajo cruce (línea 3)  bus: 22, 59, 79, 85, 123, 130" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquePlazaChozasdeCanale> a base:Posicion ;
-	base:tieneLatitud "4.035.277.786.522.200"^^xsd:long ;
-	base:tieneLongitud "-36.905.392.176.697.700"^^xsd:long .
+	geo:lat "4.035.277.786.522.200"^^xsd:double ;
+	geo:long "-36.905.392.176.697.700"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquePlazaChozasdeCanale> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
@@ -4936,8 +4937,8 @@
 	base:hayTransportePublico "metro: villaverde cruce (línea 3)  bus: 22, 59, 79, 85, 123, 130" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquePlazaColoniaOroquie> a base:Posicion ;
-	base:tieneLatitud "4.035.239.211.569.250"^^xsd:long ;
-	base:tieneLongitud "-3.691.771.736.219.460"^^xsd:long .
+	geo:lat "4.035.239.211.569.250"^^xsd:double ;
+	geo:long "-3.691.771.736.219.460"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquePlazaColoniaOroquie> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
@@ -4968,8 +4969,8 @@
 	base:hayTransportePublico "metro: plaza españa (línea 2 y 3) bus: 1, 2, 44, 74, c" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParquePlazadeEspana> a base:Posicion ;
-	base:tieneLatitud "4.042.372.251.184.830"^^xsd:long ;
-	base:tieneLongitud "-37.116.577.340.508.500"^^xsd:long .
+	geo:lat "4.042.372.251.184.830"^^xsd:double ;
+	geo:long "-37.116.577.340.508.500"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquePlazadeEspana> a base:Direccion ;
 	base:tieneNumero "20"^^xsd:int ;
@@ -5001,8 +5002,8 @@
 	base:hayTransportePublico "metro: saínz de baranda (línea 6 y 9)  bus: 30 , 56 , 143" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueRoma> a base:Posicion ;
-	base:tieneLatitud "4.041.641.041.087.390"^^xsd:long ;
-	base:tieneLongitud "-3.662.606.100.328.210"^^xsd:long .
+	geo:lat "4.041.641.041.087.390"^^xsd:double ;
+	geo:long "-3.662.606.100.328.210"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueRoma> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -5034,8 +5035,8 @@
 	base:hayTransportePublico "bus: 21 , 48 , 53" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueSalvadordeMadariaga> a base:Posicion ;
-	base:tieneLatitud "40.439.387.584.092.600"^^xsd:long ;
-	base:tieneLongitud "-36.571.484.128.652.300"^^xsd:long .
+	geo:lat "40.439.387.584.092.600"^^xsd:double ;
+	geo:long "-36.571.484.128.652.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueSalvadordeMadariaga> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
@@ -5066,8 +5067,8 @@
 	base:hayTransportePublico "metro: simancas (línea 7)  bus: 38, 109 y l7" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueSanBlas.ElParaiso> a base:Posicion ;
-	base:tieneLatitud "4.042.996.840.999.020"^^xsd:long ;
-	base:tieneLongitud "-3.622.184.001.035.280"^^xsd:long .
+	geo:lat "4.042.996.840.999.020"^^xsd:double ;
+	geo:long "-3.622.184.001.035.280"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueSanBlas.ElParaiso> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -5099,8 +5100,8 @@
 	base:hayTransportePublico "bus: 2, 16, 61, 202" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueSanJosedeCalasanz> a base:Posicion ;
-	base:tieneLatitud "4.043.761.436.823.090"^^xsd:long ;
-	base:tieneLongitud "-37.145.867.743.039.800"^^xsd:long .
+	geo:lat "4.043.761.436.823.090"^^xsd:double ;
+	geo:long "-37.145.867.743.039.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueSanJosedeCalasanz> a base:Direccion ;
 	base:tieneNumero "39"^^xsd:int ;
@@ -5131,8 +5132,8 @@
 	base:hayTransportePublico "bus: 53" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueSanJuanBautista> a base:Posicion ;
-	base:tieneLatitud "40.451.304.609.076.600"^^xsd:long ;
-	base:tieneLongitud "-36.558.964.974.118.300"^^xsd:long .
+	geo:lat "40.451.304.609.076.600"^^xsd:double ;
+	geo:long "-36.558.964.974.118.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueSanJuanBautista> a base:Direccion ;
 	base:tieneNumero "87"^^xsd:int ;
@@ -5163,8 +5164,8 @@
 	base:hayTransportePublico "metro: ventas (línea 2 y 5)  bus: 12" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueSanchoDavila> a base:Posicion ;
-	base:tieneLatitud "4.042.949.627.920.970"^^xsd:long ;
-	base:tieneLongitud "-36.617.795.915.510.400"^^xsd:long .
+	geo:lat "4.042.949.627.920.970"^^xsd:double ;
+	geo:long "-36.617.795.915.510.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueSanchoDavila> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -5196,8 +5197,8 @@
 	base:hayTransportePublico "bus: 58 , 63 , n9 , 145" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueSantaEugenia> a base:Posicion ;
-	base:tieneLatitud "4.038.131.130.575.190"^^xsd:long ;
-	base:tieneLongitud "-3.608.459.149.580.720"^^xsd:long .
+	geo:lat "4.038.131.130.575.190"^^xsd:double ;
+	geo:long "-3.608.459.149.580.720"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueSantaEugenia> a base:Direccion ;
 	base:tieneNumero "12"^^xsd:int ;
@@ -5228,8 +5229,8 @@
 	base:hayTransportePublico "bus: 34" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueSantaRita> a base:Posicion ;
-	base:tieneLatitud "40.379.040.097.900.200"^^xsd:long ;
-	base:tieneLongitud "-3.742.770.522.229.550"^^xsd:long .
+	geo:lat "40.379.040.097.900.200"^^xsd:double ;
+	geo:long "-3.742.770.522.229.550"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueSantaRita> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -5260,8 +5261,8 @@
 	base:hayTransportePublico "bus: 60" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueSegura> a base:Posicion ;
-	base:tieneLatitud "40.368.011.394.592.600"^^xsd:long ;
-	base:tieneLongitud "-37.158.770.172.855.800"^^xsd:long .
+	geo:lat "40.368.011.394.592.600"^^xsd:double ;
+	geo:long "-37.158.770.172.855.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueSegura> a base:Direccion ;
 	base:tieneNumero "5"^^xsd:int ;
@@ -5292,8 +5293,8 @@
 	base:hayTransportePublico "bus:  102, 111" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueSotodeEntrevias> a base:Posicion ;
-	base:tieneLatitud "40.376.563.359.161.300"^^xsd:long ;
-	base:tieneLongitud "-3.675.043.967.167.770"^^xsd:long .
+	geo:lat "40.376.563.359.161.300"^^xsd:double ;
+	geo:long "-3.675.043.967.167.770"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueSotodeEntrevias> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
@@ -5324,8 +5325,8 @@
 	base:hayTransportePublico "metro: valdebernardo (línea 9)  bus: 71" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueValdebernardoEste> a base:Posicion ;
-	base:tieneLatitud "4.039.852.345.013.530"^^xsd:long ;
-	base:tieneLongitud "-3.619.443.399.695.570"^^xsd:long .
+	geo:lat "4.039.852.345.013.530"^^xsd:double ;
+	geo:long "-3.619.443.399.695.570"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueValdebernardoEste> a base:Direccion ;
 	base:tieneNumero "s/n"^^xsd:int ;
@@ -5357,8 +5358,8 @@
 	base:hayTransportePublico "metro: valdebernardo (línea 9)  bus: 20" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueValdebernardoM-40> a base:Posicion ;
-	base:tieneLatitud "4.040.418.961.057.290"^^xsd:long ;
-	base:tieneLongitud "-3.622.901.144.863.190"^^xsd:long .
+	geo:lat "4.040.418.961.057.290"^^xsd:double ;
+	geo:long "-3.622.901.144.863.190"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueValdebernardoM-40> a base:Direccion ;
 	base:tieneNumero "0"^^xsd:int ;
@@ -5390,8 +5391,8 @@
 	base:hayTransportePublico "metro: lacoma (línea 7)  bus: 64" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueValledeEnmedio> a base:Posicion ;
-	base:tieneLatitud "4.048.922.371.593.960"^^xsd:long ;
-	base:tieneLongitud "-37.237.594.350.747.100"^^xsd:long .
+	geo:lat "4.048.922.371.593.960"^^xsd:double ;
+	geo:long "-37.237.594.350.747.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueValledeEnmedio> a base:Direccion ;
 	base:tieneNumero "22"^^xsd:int ;
@@ -5423,8 +5424,8 @@
 	base:hayTransportePublico "bus: 32" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueVandel> a base:Posicion ;
-	base:tieneLatitud "404.049.148.503.112"^^xsd:long ;
-	base:tieneLongitud "-3.636.955.454.805.140"^^xsd:long .
+	geo:lat "404.049.148.503.112"^^xsd:double ;
+	geo:long "-3.636.955.454.805.140"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueVandel> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
@@ -5455,8 +5456,8 @@
 	base:hayTransportePublico "bus: 22 , 76 , 79" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParqueVirgendelaEsperanza> a base:Posicion ;
-	base:tieneLatitud "40.351.030.215.596.500"^^xsd:long ;
-	base:tieneLongitud "-37.010.015.933.831.000"^^xsd:long .
+	geo:lat "40.351.030.215.596.500"^^xsd:double ;
+	geo:long "-37.010.015.933.831.000"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueVirgendelaEsperanza> a base:Direccion ;
 	base:tieneNumero "45"^^xsd:int ;
@@ -5486,8 +5487,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/Plantadetransformacionder> a base:TransportePublico .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/Plantadetransformacionder> a base:Posicion ;
-	base:tieneLatitud "40.445.355.536.117.100"^^xsd:long ;
-	base:tieneLongitud "-37.399.742.609.916.600"^^xsd:long .
+	geo:lat "40.445.355.536.117.100"^^xsd:double ;
+	geo:long "-37.399.742.609.916.600"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/Plantadetransformacionder> a base:Direccion ;
 	base:tieneNumero "2200"^^xsd:int ;
@@ -5517,8 +5518,8 @@
 	base:hayTransportePublico "metro: torre arias (línea 5)  bus: 104, 77, 150, 143." .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/QuintadeTorreArias> a base:Posicion ;
-	base:tieneLatitud "40.443.385.945.708.400"^^xsd:long ;
-	base:tieneLongitud "-36.182.513.751.654.100"^^xsd:long .
+	geo:lat "40.443.385.945.708.400"^^xsd:double ;
+	geo:long "-36.182.513.751.654.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/QuintadeTorreArias> a base:Direccion ;
 	base:tieneNumero "551"^^xsd:int ;
@@ -5551,8 +5552,8 @@
 	base:hayTransportePublico "metro: atocha (línea 1)  bus: 10, 14, 19, 24, 26, 27, 32, 34, 45, 57, 140, circular  renfe: atocha" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealJardinBotanico> a base:Posicion ;
-	base:tieneLatitud "4.041.238.214.985.830"^^xsd:long ;
-	base:tieneLongitud "-3.692.032.097.926.270"^^xsd:long .
+	geo:lat "4.041.238.214.985.830"^^xsd:double ;
+	geo:long "-3.692.032.097.926.270"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealJardinBotanico> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -5585,8 +5586,8 @@
 	base:hayTransportePublico "metro: príncipe pío (líneas 6 y 10 y ramal), lago (línea 10)" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ViverodelaCasadeCampo> a base:Posicion ;
-	base:tieneLatitud "4.041.984.158.690.350"^^xsd:long ;
-	base:tieneLongitud "-37.286.969.080.235.400"^^xsd:long .
+	geo:lat "4.041.984.158.690.350"^^xsd:double ;
+	geo:long "-37.286.969.080.235.400"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ViverodelaCasadeCampo> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
@@ -5618,8 +5619,8 @@
 	base:hayTransportePublico "metro: atocha (línea 1), ibiza (línea 9)  bus: 26, 63 , 152, c1, c2" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ViveroEstufasdelRetiro> a base:Posicion ;
-	base:tieneLatitud "40.409.899.256.936.300"^^xsd:long ;
-	base:tieneLongitud "-36.823.305.487.957.100"^^xsd:long .
+	geo:lat "40.409.899.256.936.300"^^xsd:double ;
+	geo:long "-36.823.305.487.957.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ViveroEstufasdelRetiro> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
@@ -5650,8 +5651,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ZonaverdeC/Fresnedillas> a base:TransportePublico .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ZonaverdeC/Fresnedillas> a base:Posicion ;
-	base:tieneLatitud "40.477.263.871.475.100"^^xsd:long ;
-	base:tieneLongitud "-37.430.025.162.285.100"^^xsd:long .
+	geo:lat "40.477.263.871.475.100"^^xsd:double ;
+	geo:long "-37.430.025.162.285.100"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ZonaverdeC/Fresnedillas> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;

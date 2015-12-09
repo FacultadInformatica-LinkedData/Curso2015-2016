@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/gupo09"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/gupo09"
+     versionIRI="http://www.semanticweb.org/gupo09">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ArchivosCentrosDocumentacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bibliobuses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biblioteca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BibliotecasEspecializadasUniversitarias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BibliotecasPublicas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Famoso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FundacionesCulturales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Localidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonumentosEdificiosArtisticos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provincia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Universidades"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#creadaEnHonorDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceALocalidad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#perteneceAProvincia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#coordenadaX"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#coordenadaY"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#latitud"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#longitud"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneCodigoPostal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneDescripcion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneFechaInauguracion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneHorario"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneNombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneNombreVia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneNumero"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tienePK"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneURL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoNum"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipoVia"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ArchivosCentrosDocumentacion"/>
+        <Class IRI="#Biblioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bibliobuses"/>
+        <Class IRI="#Biblioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BibliotecasEspecializadasUniversitarias"/>
+        <Class IRI="#Biblioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BibliotecasPublicas"/>
+        <Class IRI="#Biblioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FundacionesCulturales"/>
+        <Class IRI="#Biblioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonumentosEdificiosArtisticos"/>
+        <Class IRI="#Biblioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Universidades"/>
+        <Class IRI="#Biblioteca"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#creadaEnHonorDe"/>
+        <Class IRI="#Biblioteca"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#perteneceALocalidad"/>
+        <Class IRI="#Biblioteca"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#perteneceAProvincia"/>
+        <Class IRI="#Localidad"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#creadaEnHonorDe"/>
+        <Class IRI="#Famoso"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#perteneceALocalidad"/>
+        <Class IRI="#Localidad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#perteneceAProvincia"/>
+        <Class IRI="#Provincia"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#coordenadaX"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#coordenadaY"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#latitud"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#longitud"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneCodigoPostal"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneDescripcion"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneFechaInauguracion"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneHorario"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneNombre"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneNombre"/>
+        <Class IRI="#Famoso"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneNombreVia"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneNumero"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tienePK"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneURL"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoNum"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipoVia"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#coordenadaX"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#coordenadaY"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#latitud"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#longitud"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneCodigoPostal"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneDescripcion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneFechaInauguracion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneHorario"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneNombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneNombreVia"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneNumero"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tienePK"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneURL"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoNum"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipoVia"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

@@ -17,6 +17,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl"
      versionIRI="http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl/2.0.0">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
@@ -210,7 +211,7 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#hasGratuito"/>
-        <Datatype abbreviatedIRI="xsd:boolean"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#hasHorario"/>
@@ -226,10 +227,6 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#hasNumero"/>
-        <Datatype abbreviatedIRI="xsd:int"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#hasTelefono"/>
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>

@@ -1,0 +1,53 @@
+
+
+1 ) 
+
+select distinct SUM(?a)
+where {?x <http://example.org/myVocabulary#numberOfAccidents> ?a} 
+
+2)
+
+select distinct ?x ?a ?c
+where {?x <http://example.org/myVocabulary#relatedDistrict> ?a .
+?x <http://example.org/myVocabulary#numberOfAccidents> ?c .
+?x <http://example.org/myVocabulary#relatedDistrict> "USERA"} 
+
+
+3) 
+
+select distinct ?x  ?c where{
+?x <http://example.org/myVocabulary#hasAccidentType> <http://example.org/myVocabulary#MultipleCollision> .
+?x <http://example.org/myVocabulary#numberOfAccidents> ?c 
+} 
+
+
+4) 
+
+select ?a where {
+ ?x <http://example.org/myVocabulary#relatedDistrict> ?a.
+ ?x <http://example.org/myVocabulary#hasAccidentType> <http://example.org/myVocabulary#BicycleFall> .
+ ?x <http://example.org/myVocabulary#numberOfAccidents> ?M.
+ {select  (MAX(?c)  as ?M) where{
+   ?x <http://example.org/myVocabulary#hasAccidentType> <http://example.org/myVocabulary#BicycleFall> .
+   ?x <http://example.org/myVocabulary#numberOfAccidents> ?c .
+ }
+}
+
+5)
+
+select distinct ?x 
+where {?a <http://example.org/myVocabulary#numberOfAccidents> ?number.
+        ?a <http://example.org/myVocabulary#relatedDistrict> ?x
+ FILTER(xsd:integer(?number)> 500)
+}
+
+
+
+
+
+
+
+
+
+
+

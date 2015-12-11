@@ -31,331 +31,449 @@
         <Class IRI="#LibraryEvent"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#URL"/>
+        <DataProperty IRI="#activityTitle"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#Wifi"/>
+        <DataProperty IRI="#daysExcluded"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#activityTitle"/>
+        <DataProperty IRI="#description"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#daysExcluded"/>
+        <DataProperty IRI="#disabledAccess"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#description"/>
+        <DataProperty IRI="#district"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#disabledAccess"/>
+        <DataProperty IRI="#email"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#district"/>
+        <DataProperty IRI="#equipment"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#email"/>
+        <DataProperty IRI="#fax"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#fax"/>
+        <DataProperty IRI="#finishDate"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#finishDate"/>
+        <DataProperty IRI="#hasEvent"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasEvent"/>
+        <DataProperty IRI="#hour"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hour"/>
+        <DataProperty IRI="#isFree"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isFree"/>
+        <DataProperty IRI="#lastLong"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#lastLong"/>
+        <DataProperty IRI="#latitude"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#latitude"/>
+        <DataProperty IRI="#locality"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#locality"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#longitude"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#name"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#neighbourhood"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#phone"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#province"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#publicTransport"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#quipment"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#roadName"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#roadNumber"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#roadType"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#startDate"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#timetable"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#title"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#type"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#weekDays"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#zipCode"/>
+        <DataProperty IRI="#longitude"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#name"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#name1"/>
+        <DataProperty IRI="#neighbourhood"/>
     </Declaration>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#URL"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#URL"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#URL"/>
-        <Class IRI="#LibraryEvent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#Wifi"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#Wifi"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#activityTitle"/>
-        <Class IRI="#LibraryEvent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#daysExcluded"/>
-        <Class IRI="#LibraryEvent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#description"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#description"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#description"/>
-        <Class IRI="#LibraryEvent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#disabledAccess"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#disabledAccess"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#district"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#district"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#email"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#email"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#fax"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#fax"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#finishDate"/>
-        <Class IRI="#LibraryEvent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasEvent"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hour"/>
-        <Class IRI="#LibraryEvent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isFree"/>
-        <Class IRI="#LibraryEvent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#lastLong"/>
-        <Class IRI="#LibraryEvent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#latitude"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#latitude"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#locality"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#locality"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#longitude"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#longitude"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#name"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#name"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#neighbourhood"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#neighbourhood"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#phone"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#phone"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#province"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#province"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#publicTransport"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#publicTransport"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#quipment"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#quipment"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#roadName"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#roadName"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#roadNumber"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#roadNumber"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#roadType"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#roadType"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#startDate"/>
-        <Class IRI="#LibraryEvent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#timetable"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#timetable"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#title"/>
-        <Class IRI="#LibraryEvent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#type"/>
-        <Class IRI="#LibraryEvent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#weekDays"/>
-        <Class IRI="#LibraryEvent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#zipCode"/>
-        <Class IRI="#Library"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#zipCode"/>
-        <Class IRI="#LibraryBus"/>
-    </ObjectPropertyDomain>
+    <Declaration>
+        <DataProperty IRI="#phone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#province"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#publicTransport"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#roadName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#roadNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#roadType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#startDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#timeTable"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#url"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#weekDays"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#wifi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#zipCode"/>
+    </Declaration>
     <DataPropertyDomain>
-        <DataProperty IRI="#name1"/>
+        <DataProperty IRI="#activityTitle"/>
+        <Class IRI="#LibraryEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#daysExcluded"/>
+        <Class IRI="#LibraryEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
         <Class IRI="#Library"/>
     </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class IRI="#LibraryEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#disabledAccess"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#disabledAccess"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#district"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#district"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#email"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#email"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#equipment"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#equipment"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fax"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fax"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#finishDate"/>
+        <Class IRI="#LibraryEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEvent"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hour"/>
+        <Class IRI="#LibraryEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isFree"/>
+        <Class IRI="#LibraryEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#lastLong"/>
+        <Class IRI="#LibraryEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#latitude"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#latitude"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#locality"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#locality"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#longitude"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#longitude"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#neighbourhood"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#neighbourhood"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#phone"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#phone"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#province"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#province"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#publicTransport"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#publicTransport"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#roadName"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#roadName"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#roadNumber"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#roadNumber"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#roadType"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#roadType"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#startDate"/>
+        <Class IRI="#LibraryEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#timeTable"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#timeTable"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#title"/>
+        <Class IRI="#LibraryEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#type"/>
+        <Class IRI="#LibraryEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#url"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#url"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#url"/>
+        <Class IRI="#LibraryEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#weekDays"/>
+        <Class IRI="#LibraryEvent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#wifi"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#wifi"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#zipCode"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#zipCode"/>
+        <Class IRI="#LibraryBus"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#activityTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#daysExcluded"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#disabledAccess"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#district"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#equipment"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fax"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#finishDate"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEvent"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hour"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isFree"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#lastLong"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#latitude"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#locality"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#longitude"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#neighbourhood"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#phone"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#province"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#publicTransport"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#roadName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#roadNumber"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#roadType"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#startDate"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#timeTable"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#url"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#weekDays"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#wifi"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#zipCode"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
 </Ontology>
 
 

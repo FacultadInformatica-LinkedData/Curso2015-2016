@@ -1,0 +1,305 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<http://127.0.0.1:3333/0> <http://127.0.0.1:3333/location> "C/ Doctor Iranzo -  C/ Escultor Benlliure" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "678017.9803453928 4613320.634481554" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/1> <http://127.0.0.1:3333/location> "C/ Pedro Joaquín Soler - Coso" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "676822.7225656463 4613438.861592172" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/2> <http://127.0.0.1:3333/location> "C/ Lacarra de Miguel - C/ San Vicente Martir" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "676517.3458413489 4612706.090795129" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/3> <http://127.0.0.1:3333/location> "C/ Madre Rafols - Esquina D.G.A." ;
+	<http://127.0.0.1:3333/bikesAvaliable> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "675841.2652424083 4613665.173932331" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/4> <http://127.0.0.1:3333/location> "Plaza Emperador Carlos V" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "675140.5935417248 4611902.584283834" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/5> <http://127.0.0.1:3333/location> "Vía Hispanidad - Avda. Gómez Laguna" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "673818.3928125117 4612194.426397253" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/6> <http://127.0.0.1:3333/location> "Vía Hispanidad - C/ Océano Atlántico" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "673535.126796119 4612856.6010818435" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/7> <http://127.0.0.1:3333/location> "Avda. Juan Pablo II - Avda. Gómez Laguna" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "674126.8415899678 4612286.664687123" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/8> <http://127.0.0.1:3333/location> "Avda. Juan Carlos I - C/ Ramón Sainz de Varanda" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "674353.1383456963 4611979.637886653" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/9> <http://127.0.0.1:3333/location> "C/ Asín y Palacios - C/ Pedro IV El Ceremonioso" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "674454.0980053664 4611556.142109903" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/10> <http://127.0.0.1:3333/location> "C/ Eduardo Ibarra - C/ Violante de Hungría" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "674849.903485189 4612042.595863729" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/11> <http://127.0.0.1:3333/location> "Via Univérsitas - C/ Hermanos Gambra" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "674209.1338063633 4613140.443152811" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/12> <http://127.0.0.1:3333/location> "Avda. Navarra - C/ Rioja" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "674246.138705967 4613850.809511608" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/13> <http://127.0.0.1:3333/location> "C/ Graus - C/ Unceta" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "674776.6682624074 4613537.967226235" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/14> <http://127.0.0.1:3333/location> "C/ Corona de Aragón - C/ Lorente" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "675169.6621584316 4612596.989091256" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/15> <http://127.0.0.1:3333/location> "Avda. Pablo Ruiz Picasso - Torre del Agua" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "674531.7776761394 4615518.329386774" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/16> <http://127.0.0.1:3333/location> "Avda. Ranillas - Avda. Pablo Ruiz Picasso" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "675082.8512086545 4615741.954081438" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/17> <http://127.0.0.1:3333/location> "Pasarela del Voluntariado - Avda. Ranillas" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "675469.635585876 4615158.24649585" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/18> <http://127.0.0.1:3333/location> "Avda. Ranillas - Puente de La Almozara" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "675887.9946791041 4614631.435627686" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/19> <http://127.0.0.1:3333/location> "Pº de la Ribera - Puente de Santiago" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "676521.483524982 4614439.010262394" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/20> <http://127.0.0.1:3333/location> "Pº de la Ribera - Puente del Pilar" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "19"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "677458.6056386359 4614044.937332258" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/21> <http://127.0.0.1:3333/location> "Pº Echegaray y Caballero - Pasarela del Huerva" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "677769.8830778005 4613631.346063166" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/22> <http://127.0.0.1:3333/location> "Pº Echegaray y Caballero - Puente del Pilar" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "677403.1636507643 4613776.593027227" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/23> <http://127.0.0.1:3333/location> "Pº Echegaray y Caballero - Puente de Piedra" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "676982.2461119632 4613971.405242417" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/24> <http://127.0.0.1:3333/location> "Pº Echegaray y Caballero - Puente de Santiago" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "676504.2527290656 4614170.725479681" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/25> <http://127.0.0.1:3333/location> "Pº Echegaray y Caballero - Puente de La Almozara" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "675643.0073561185 4614306.693232718" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/26> <http://127.0.0.1:3333/location> "Pasarela del Voluntariado - Avda. Almozara" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "675258.2438197444 4614764.45746837" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/27> <http://127.0.0.1:3333/location> "C/ Francia - Pabellón Puente" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "674353.7498153094 4614541.783660298" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/28> <http://127.0.0.1:3333/location> "Estación Intermodal Delicias (Salidas)" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "28"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "674227.3492706296 4614154.64966946" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/29> <http://127.0.0.1:3333/location> "Estación de Cercanías El Portillo " ;
+	<http://127.0.0.1:3333/bikesAvaliable> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "675329.9923329047 4613409.474988687" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/30> <http://127.0.0.1:3333/location> "Plaza España" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "676582.2035544008 4613504.823403645" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/31> <http://127.0.0.1:3333/location> "Pº Constitución - Plaza Aragón " ;
+	<http://127.0.0.1:3333/bikesAvaliable> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "676293.4849388119 4613036.333235371" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/32> <http://127.0.0.1:3333/location> "C/ Asalto - Edificio Trovador" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "677485.1699573447 4613408.545050462" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/33> <http://127.0.0.1:3333/location> "C/ Asalto - C/ Miguel Servet " ;
+	<http://127.0.0.1:3333/bikesAvaliable> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "677009.1305011907 4613188.480893311" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/34> <http://127.0.0.1:3333/location> "Plaza Salamero, 14" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "676280.2924439493 4613553.287068226" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/35> <http://127.0.0.1:3333/location> "Avda. César Augusto - Avda. Conde Aranda" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "676275.2698373196 4613774.806717714" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/36> <http://127.0.0.1:3333/location> "Estación Intermodal Delicias (Llegadas)" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "22"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "673760.3177675647 4614266.757959997" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/37> <http://127.0.0.1:3333/location> "Pº de La Ribera - Pasarela Azud" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "678460.7452327413 4613654.374655051" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/38> <http://127.0.0.1:3333/location> "Plaza San Pedro Nolasco" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "676875.6737743317 4613589.483909276" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/39> <http://127.0.0.1:3333/location> "Plaza de los Sitios " ;
+	<http://127.0.0.1:3333/bikesAvaliable> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "676648.6412621725 4613117.609568934" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/40> <http://127.0.0.1:3333/location> "Pº Pamplona - Puerta del Carmen" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "676049.8715700008 4613211.225377172" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/41> <http://127.0.0.1:3333/location> "Pº Mª Agustín - Colegio Joaquín Costa" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "675682.3195447342 4613483.302453537" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/42> <http://127.0.0.1:3333/location> "Plaza del Portillo - Plaza de Toros" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "675620.8765705475 4613838.870355027" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/43> <http://127.0.0.1:3333/location> "Avda. Madrid - Aljafería" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "675242.2729886677 4613893.277580566" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/44> <http://127.0.0.1:3333/location> "Avda. Pablo Gargallo - Avda. Puerta Sancho" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "674828.098925371 4614498.440154144" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/45> <http://127.0.0.1:3333/location> "Avda. Pablo Gargallo - C/ Ignacio Menaya" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "675300.9241561614 4614364.322915688" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/46> <http://127.0.0.1:3333/location> "C/ Ramón y Cajal - C/ Madre Rafols" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "676094.9231835532 4613477.412387599" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/47> <http://127.0.0.1:3333/location> "Plaza del Pilar - Edificio Turismo " ;
+	<http://127.0.0.1:3333/bikesAvaliable> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "676787.9508470905 4613916.956012998" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/48> <http://127.0.0.1:3333/location> "Plaza Magdalena" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "18"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "677195.2331748571 4613545.258063194" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://127.0.0.1:3333/49> <http://127.0.0.1:3333/location> "Pº Echegaray y Caballero - C/ Salvador Minguijón" ;
+	<http://127.0.0.1:3333/bikesAvaliable> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/slotsAvaliable> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://127.0.0.1:3333/geoPosition> "678253.8887429056 4613481.584281914" ;
+	<http://127.0.0.1:3333/lastUpdated> "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .

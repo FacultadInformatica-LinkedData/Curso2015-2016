@@ -1,0 +1,494 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#">
+    <Prefix name="geo" IRI="http://www.w3.org/2003/01/geo/wgs84_pos#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="base" IRI="http://puntosinteres.madrid.es/group04/ontology/puntointeres#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="puntosinteres" IRI="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#"/>
+    <Import>file:/C:/Users/dlopecon/Documents/GitHub/Curso2015-2016/HandsOn/Group04/rdf/200761-0-parques-jardines-csv-with-links-updated.ttl</Import>
+    <Import>file:/C:/Users/dlopecon/Documents/GitHub/Curso2015-2016/HandsOn/Group04/rdf/216619-0-wifi-municipal-with-links-updated.ttl</Import>
+    <Import>file:/C:/Users/dlopecon/Documents/GitHub/Curso2015-2016/HandsOn/Group04/rdf/201132-0-turismo-csv-with-links-updated.ttl</Import>
+    <Import>file:/C:/Users/dlopecon/Documents/GitHub/Curso2015-2016/HandsOn/Group04/rdf/206577-0-oficinas-turismo-with-links-updated.ttl</Import>
+    <Import>file:/C:/Users/dlopecon/Documents/GitHub/Curso2015-2016/HandsOn/Group04/rdf/208844-0-monumentos-edificios-with-links-updated.ttl</Import>
+    <Import>file:/C:/Users/dlopecon/Documents/GitHub/Curso2015-2016/HandsOn/Group04/rdf/208862-7650046-ocio_salas-with-links-updated.ttl</Import>
+    <Declaration>
+        <Class IRI="Bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Direccion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Distrito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Metro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Monumento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Museo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OficinaTurismo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Parque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Posicion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Renfe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SitioTuristico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Teatro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TransportePublico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ZonaWifi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="estaEnDistrito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="estaEnPosicion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="tieneBus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="tieneDireccion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="tieneMetro"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="tieneRenfe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="tieneTransportePublico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hayBus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hayMetro"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hayRenfe"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="hayTransportePublico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="nombreDistrito"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="tieneCalle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="tieneCodigoPostal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="tieneDescripcion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="tieneEquipamiento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="tieneHorario"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="tieneNombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="tieneNumero"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="tieneTelefono"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="tieneTipoVia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="geo:lat"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="geo:long"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="estaEnPosicion"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="hayBus"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="hayMetro"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="hayRenfe"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="hayTransportePublico"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="tieneBus"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="tieneCalle"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="tieneCodigoPostal"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="tieneDescripcion"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="tieneDireccion"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="tieneDistrito"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="tieneEquipamiento"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="tieneHorario"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="tieneLatitud"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="tieneLongitud"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="tieneMetro"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="tieneNombre"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="tieneNumero"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="tieneRenfe"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="tieneTelefono"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="tieneTipoVia"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="tieneTransportePublico"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="Bus"/>
+        <Class IRI="TransportePublico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Metro"/>
+        <Class IRI="TransportePublico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Monumento"/>
+        <Class IRI="SitioTuristico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Museo"/>
+        <Class IRI="SitioTuristico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="OficinaTurismo"/>
+        <Class IRI="SitioTuristico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Parque"/>
+        <Class IRI="SitioTuristico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Renfe"/>
+        <Class IRI="TransportePublico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Teatro"/>
+        <Class IRI="SitioTuristico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ZonaWifi"/>
+        <Class IRI="SitioTuristico"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="estaEnPosicion"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="tieneBus"/>
+        <ObjectProperty IRI="tieneTransportePublico"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="tieneDireccion"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="tieneMetro"/>
+        <ObjectProperty IRI="tieneTransportePublico"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="tieneRenfe"/>
+        <ObjectProperty IRI="tieneTransportePublico"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="estaEnDistrito"/>
+        <Class IRI="SitioTuristico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="estaEnPosicion"/>
+        <Class IRI="SitioTuristico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="tieneBus"/>
+        <Class IRI="SitioTuristico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="tieneDireccion"/>
+        <Class IRI="SitioTuristico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="tieneMetro"/>
+        <Class IRI="SitioTuristico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="tieneRenfe"/>
+        <Class IRI="SitioTuristico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="tieneTransportePublico"/>
+        <Class IRI="SitioTuristico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="estaEnDistrito"/>
+        <Class IRI="Distrito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="estaEnPosicion"/>
+        <Class IRI="Posicion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="tieneBus"/>
+        <Class IRI="Bus"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="tieneDireccion"/>
+        <Class IRI="Direccion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="tieneMetro"/>
+        <Class IRI="Metro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="tieneRenfe"/>
+        <Class IRI="Renfe"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="tieneTransportePublico"/>
+        <Class IRI="TransportePublico"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hayBus"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hayMetro"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hayRenfe"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="hayTransportePublico"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="tieneCalle"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="tieneCodigoPostal"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="tieneDescripcion"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="tieneEquipamiento"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="tieneHorario"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="tieneNumero"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="tieneTelefono"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="tieneTipoVia"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="nombreDistrito"/>
+        <Class IRI="Distrito"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="hayBus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hayMetro"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hayRenfe"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="hayTransportePublico"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="nombreDistrito"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="tieneCalle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="tieneCodigoPostal"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="tieneDescripcion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="tieneEquipamiento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="tieneHorario"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="tieneNombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="tieneNumero"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="tieneTelefono"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="tieneTipoVia"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="hayBus"/>
+        <IRI>Bus</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="hayMetro"/>
+        <IRI>Metro</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="hayRenfe"/>
+        <IRI>Renfe</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="hayTransportePublico"/>
+        <IRI>TransportePublico</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="tieneCalle"/>
+        <IRI>Direccion</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="tieneCodigoPostal"/>
+        <IRI>Direccion</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="tieneDescripcion"/>
+        <IRI>SitioTuristico</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="tieneEquipamiento"/>
+        <IRI>SitioTuristico</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="tieneHorario"/>
+        <IRI>SitioTuristico</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="tieneLatitud"/>
+        <IRI>Posicion</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="tieneLongitud"/>
+        <IRI>Posicion</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="tieneNombre"/>
+        <IRI>SitioTuristico</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="tieneNumero"/>
+        <IRI>Direccion</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="tieneTelefono"/>
+        <IRI>SitioTuristico</IRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty IRI="tieneTipoVia"/>
+        <IRI>SitioTuristico</IRI>
+    </AnnotationPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

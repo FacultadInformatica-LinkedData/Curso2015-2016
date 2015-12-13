@@ -1,0 +1,524 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "www.actmad.com/espacios",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "madEsp",
+          "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey",
+              "curie": "madEsp:hasIdKey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasName",
+              "curie": "madEsp:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDescription",
+              "curie": "madEsp:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasSchedule",
+              "curie": "madEsp:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasTransport",
+              "curie": "madEsp:hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "www.actmad.com/espacios",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "madEsp",
+          "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey",
+              "curie": "madEsp:hasIdKey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasName",
+              "curie": "madEsp:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDescription",
+              "curie": "madEsp:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasSchedule",
+              "curie": "madEsp:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasTransport",
+              "curie": "madEsp:hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "www.actmad.com/espacios",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "madEsp",
+          "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CONTENT-URL",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#EspacioDeportivo",
+              "curie": "madEsp:EspacioDeportivo"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey",
+              "curie": "madEsp:hasIdKey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasName",
+              "curie": "madEsp:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDescription",
+              "curie": "madEsp:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasSchedule",
+              "curie": "madEsp:hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasTransport",
+              "curie": "madEsp:hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDescription",
+              "curie": "madEsp:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isAccesible",
+              "curie": "madEsp:isAccesible",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasAddress",
+              "curie": "madEsp:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'/direccion/'+value",
+                "isRowNumberCell": false,
+                "columnName": "PK",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Direccion",
+                    "curie": "madEsp:Direccion"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasViaName",
+                    "curie": "madEsp:hasViaName",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "NOMBRE-VIA"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasViaClass",
+                    "curie": "madEsp:hasViaClass",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "CLASE-VIAL"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasNumType",
+                    "curie": "madEsp:hasNumType",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "TIPO-NUM"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasNum",
+                    "curie": "madEsp:hasNum",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "NUM"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDoor",
+                    "curie": "madEsp:hasDoor",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "PUERTA"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasStairs",
+                    "curie": "madEsp:hasStairs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "ESCALERAS"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasOrientation",
+                    "curie": "madEsp:hasOrientation",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "ORIENTACION"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasLocality",
+                    "curie": "madEsp:hasLocality",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "LOCALIDAD"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasProvince",
+                    "curie": "madEsp:hasProvince",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "PROVINCIA"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasSection",
+                    "curie": "madEsp:hasSection",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "BARRIO"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDistrict",
+                    "curie": "madEsp:hasDistrict",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "DISTRITO"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasXCoordinate",
+                    "curie": "madEsp:hasXCoordinate",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "COORDENADA-X"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasYCoordinate",
+                    "curie": "madEsp:hasYCoordinate",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "COORDENADA-Y"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasLatitude",
+                    "curie": "madEsp:hasLatitude",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "LATITUD"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasLongitude",
+                    "curie": "madEsp:hasLongitude",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "LONGITUD"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasPhoneNumber",
+                    "curie": "madEsp:hasPhoneNumber",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "TELEFONO"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasFaxNumber",
+                    "curie": "madEsp:hasFaxNumber",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "FAX"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEmail",
+                    "curie": "madEsp:hasEmail",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "EMAIL"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasType",
+                    "curie": "madEsp:hasType",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "TIPO"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  }
+]

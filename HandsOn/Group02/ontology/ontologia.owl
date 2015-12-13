@@ -272,7 +272,7 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#tieneCP"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#tieneClaseVial"/>
@@ -280,11 +280,11 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#tieneCoordX"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#tieneCoordY"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#tieneDescripcion"/>
@@ -312,7 +312,7 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#tieneLatitud"/>
-        <Datatype abbreviatedIRI="xsd:float"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#tieneLocalidad"/>
@@ -320,7 +320,7 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#tieneLongitud"/>
-        <Datatype abbreviatedIRI="xsd:float"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#tieneNombre"/>
@@ -340,7 +340,7 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#tienePK"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#tieneProvincia"/>

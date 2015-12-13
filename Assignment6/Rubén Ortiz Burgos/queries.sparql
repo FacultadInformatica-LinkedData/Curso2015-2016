@@ -1,0 +1,72 @@
+1. How many accidents were there inMadrid in 2013?
+
+PREFIX property: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>  
+
+SELECT (SUM(?x) AS ?totalAccidentsInMadrid) WHERE { 
+   ?obs a qb:Observation; 
+   property:numberOfAccidents ?x. 
+}
+
+2. Give me the number of accidents in Usera for each type of accident
+
+PREFIX property: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>  
+
+SELECT (SUM(xsd:int(?x)) AS ?totalAccidentsInUsera) ?tipeAccident WHERE {  
+  ?obs a qb:Observation; 
+  property:hasAccidentType ?tipeAccident;
+  property:relatedDistrict "USERA";
+  property:numberOfAccidents ?x.
+} GROUP BY (?tipeAccident)
+
+3. Give me the number of multiple collisions for each district 
+
+PREFIX property: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>  
+
+SELECT (SUM(xsd:int(?x)) AS ?totalAccidentsDistrict) ?tipeDistrict WHERE {  
+  ?obs a qb:Observation; 
+  property:hasAccidentType property:MultipleCollision;
+  property:relatedDistrict ?tipeDistrict;
+  property:numberOfAccidents ?x.
+} GROUP BY (?tipeDistrict)
+
+4. Which is the district were the number of bicycle falls was higher in 2013?
+
+PREFIX property: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT (SUM(xsd:int(?x)) AS ?numBicycleFalls) ?tipeDistrict WHERE { 
+  ?obs a qb:Observation; 
+  property:relatedDistrict ?tipeDistrict; 
+  property:hasAccidentType property:BicycleFall ;
+  property:numberOfAccidents ?x. 
+  {
+    SELECT (MAX(?numBicycleFalls) AS ?maxBicycleFalls) WHERE {
+    {
+      SELECT (SUM(xsd:int(?y)) AS ?numBicycleFalls) WHERE { 
+        ?obs a qb:Observation ; 
+          property:relatedDistrict ?tipeDistrict; 
+          property:hasAccidentType property:BicycleFall ;
+          property:numberOfAccidents ?y. 
+      }GROUP BY (?tipeDistrict)
+    }    
+  }
+}FILTER (?x=?maxBicycleFalls)
+}GROUP BY (?tipeDistrict)
+
+5. Give me the districts with more than 500 accidents in 2013
+
+PREFIX property: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+SELECT ?tipeDistrict ?numAccidents WHERE {
+{
+  SELECT (SUM(xsd:int(?x)) AS ?numAccidents) ?tipeDistrict WHERE {
+    ?obs a qb:Observation;
+    property:numberOfAccidents ?x;
+    property:relatedDistrict ?tipeDistrict.
+    }
+  }FILTER(?numAccidents > 500)	
+}

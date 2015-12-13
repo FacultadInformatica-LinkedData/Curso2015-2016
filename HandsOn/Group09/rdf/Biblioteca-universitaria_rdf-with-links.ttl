@@ -1,0 +1,537 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix grupo09: <http://www.semanticweb.org/gupo09> .
+
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+de+Agricultura+y+Alimentacion> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "5996376"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca de Agricultura y Alimentacion" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "Biblioteca del anterior Ministerio de Agricultura, Pesca y Alimentacion (MAPA)." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 11 a 13 horas, excepto festivos y Navidad.  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=faada47c95ebe210VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "INFANTA ISABEL" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "PASEO" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "441514"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4473552"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.40865200572528"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.6905914083142104"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasEspecializadasUniversitarias> .
+
+<http://www.semanticweb.org/gupo09/resource/MADRID> owl:sameAs <http://es.dbpedia.org/resource/Madrid,_Madrid> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+de+Agricultura+y+Alimentacion> <http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/MADRID> owl:sameAs <http://dbpedia.org/resource/Category:Madrid> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+de+Agricultura+y+Alimentacion> <http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+de+Educacion.+Ministerio+de+Educacion%2C+Cultura+y+Deporte> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "43550"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca de Educacion. Ministerio de Educacion, Cultura y Deporte" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 9 a 14:30 y de 16 a 18 horas.  Durante el mes de agosto la biblioteca permanecera cerrada por la tarde. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=135c598d1351c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "SAN AGUSTIN" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "440991"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4474256"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.41496601492552"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.696820375756445"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasEspecializadasUniversitarias> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+de+Medio+Ambiente> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "2033"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca de Medio Ambiente" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " Centro de Documentacion Ambiental y Biblioteca General del antiguo Ministerio de Medio Ambiente." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 9 a 14 horas, salvo festivos, mes de agosto y Navidad "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f7ad1e79ee71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "SAN JUAN DE LA CRUZ" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "PLAZA" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "S/N"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28003"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "441283"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4477249"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.441940126522496"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.693643966751646"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#ArchivosCentrosDocumentacion> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+del+Ministerio+de+Empleo+y+Seguridad+Social> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1823"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca del Ministerio de Empleo y Seguridad Social" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " Especializada en temas sociolaborales y otras materias conexas." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " Usuarios externos: de lunes a viernes de 9 a 14 horas "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fd78ef4d7f71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "HUERTAS" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "73"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "441136"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4474047"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.413084518797156"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.6950919504264967"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasEspecializadasUniversitarias> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Historica+Municipal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1881"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Historica Municipal" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " El origen de la  Biblioteca Historica Municipal  fue la formacion de una coleccion de libros sobre Madrid. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Horario : de lunes a viernes de 8:30 a 14:30 horas.   Cerrada  festivos y los dias 24 y 31 de diciembre. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ccbc3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "CONDE DUQUE" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28015"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439832"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4475644"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.42737760210632"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.7106116887809817"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasPublicas> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Musical+Victor+Espinos> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "6779450"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Musical Victor Espinos" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "   La  Biblioteca Musical Vi­ctor Espinas  fue fundada en 1919 a propuesta de Victor Espinas como  Biblioteca Musical Circulante . " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21:00 horas.   Cerrado  festivos y los dias 24 y 31 de diciembre. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d482270f58c6c310VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "CONDE DUQUE" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28015"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439832"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4475644"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.42737760210632"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.7106116887809817"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasPublicas> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Nacional+de+Espa%C3%83%C2%B1a> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1744"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Nacional de EspaÃ±a" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " Fundada por Felipe  V  en 1712 como Biblioteca Publica de Palacio. " ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b8d995a8bf5d010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "RECOLETOS" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "PASEO" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28001"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "441505"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4475144"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.42299290045965"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.690844141741069"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#MonumentosEdificiosArtisticos> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Conde+Duque+%28Centro%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1882"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Conde Duque (Centro)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Conde Duque se inaugura en los anos 90, cuando se traslada a este edificio la Biblioteca Municipal situada en el actual emplazamiento del Museo de Historia de Madrid, en la calle Fuencarral." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=13ec3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "CONDE DUQUE" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28015"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439833"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4475645"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.42738668300474"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.7105999955473625"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasPublicas> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+y+Centro+de+Documentacion+de+la+Camara+de+Comercio+e+Industria+de+Madrid> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1857"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca y Centro de Documentacion de la Camara de Comercio e Industria de Madrid" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " Especializada en economia y empresa." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " A consultar telefonicamente "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=22913d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "PEDRO SALINAS" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28043"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "443982"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4478987"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.45778346670559"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.661974513251819"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#ArchivosCentrosDocumentacion> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Centro+de+Documentacion+del+libro%2C+la+lectura+y+las+letras> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "4289"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Centro de Documentacion del libro, la lectura y las letras" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " Centro de Promocion del Libro, la Lectura y las Letras Espanolas. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Consulta en sala: de lunes a viernes de 9 a 14:30 horas.    Informacion telefonica: de 9 a 18:30 horas.  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=74b03b54d771c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "SANTIAGO RUSINOL" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28040"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439347"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4477822"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.44696264594859"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.7165371547459913"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#ArchivosCentrosDocumentacion> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Centro+de+Estudios+Hidrograficos> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1858"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Centro de Estudios Hidrograficos" ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e38c3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "VIRGEN DEL PUERTO" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "PASEO" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28005"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439010"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4474566"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.41761563013809"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.7201861801132976"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasEspecializadasUniversitarias> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Centro+de+Estudios+Politicos+y+Constitucionales> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "2000"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Centro de Estudios Politicos y Constitucionales" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "Construido por Sabatini en 1776. Tipologia singular sin apartarse de los criterios clasico-barrocos, propios de la Epoca de Carlos III. " ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8c5d1e79ee71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "MARINA ESPANOLA" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "PLAZA" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28013"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439669"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4474896"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.42063654129458"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.7124503472242387"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#MonumentosEdificiosArtisticos> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Centro+Geografico+del+Ejercito+de+Tierra> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "12388"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Centro Geografico del Ejercito de Tierra" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "Archivo Cartografico y de Estudios Geograficos" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "De 9 a 13:30 horas."^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8e9c66051361c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "DARIO GAZAPO" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28024"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "433968"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4471663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.39108798705391"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.779310666802355"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasEspecializadasUniversitarias> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Consejeria+de+Medio+Ambiente+y+Ordenacion+del+Territorio.+Biblioteca+especializada+en+Medio+Ambiente> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "5354552"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Consejeria de Medio Ambiente y Ordenacion del Territorio. Biblioteca especializada en Medio Ambiente" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "De lunes a viernes de 9 a 14 horas."^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4ad972f3319c1210VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "MAUDES" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28003"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "440645"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4477636"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.44539001673245"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.701202702409067"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasEspecializadasUniversitarias> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Fundacion+Jose+Ortega+y+Gasset+-+Gregorio+Maranon> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "4113"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Fundacion Jose Ortega y Gasset - Gregorio Maranon" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " Fines:  difusion cultural, la formacion, el debate y la investigacion en el ambito de las Ciencias Sociales y las Humanidades." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " Biblioteca: De lunes a viernes de 10 a 19  horas "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=53feb0c40971c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "FORTUNY" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "53"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28010"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "441563"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4476456"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.434816036802204"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.690293099209539"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#FundacionesCulturales> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Fundacion+Residencia+de+Estudiantes> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "6556"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Fundacion Residencia de Estudiantes" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "Biblioteca: de lunes a viernes de 9:30 a 14:30 horas (mananas) y de 16:30 a 19 horas (tardes)"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c231b0c40971c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "PINAR" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "21-23"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28006"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "441756"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4477102"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.44064914183142"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.6880652813540573"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#FundacionesCulturales> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Hemeroteca+Municipal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "2047"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Hemeroteca Municipal" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " Fundada en 1916, por iniciativa de los periodistas Ricardo Fuente y Antonio Asenjo, custodia prensa proveniente de todo el mundo hasta mediados del siglo  XX ." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " Lunes a Viernes, de 9 a 21 horas (peticiones hasta 20:30 horas) Del 2 al 31 de julio y del 1 al 15 de septiembre: de 9 a 20:30 horas (peticiones hasta las 20 horas) "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=11951e79ee71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "CONDE DUQUE" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28015"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439864"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4475706"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.427938443518215"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.710240346719518"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasPublicas> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Instituto+de+Ciencia+y+Tecnologia+de+Alimentos+y+Nutricion+%28ICTAN%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "104148"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Instituto de Ciencia y Tecnologia de Alimentos y Nutricion (ICTAN)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " Creado en junio de 2010, de titularidad propia de la Agencia Estatal Consejo Superior de Investigaciones Cienti­ficas ( CSIC ). " ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6521e8ae8d81c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "JOSE ANTONIO NOVAIS" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28040"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "438673"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4477995"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.448471559674125"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.724501318735749"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasEspecializadasUniversitarias> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Instituto+Geologico+y+Minero+de+Espana+%28IGME%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1629"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Instituto Geologico y Minero de Espana (IGME)" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Informacion: de lunes a viernes de 9 a 14 horas  Biblioteca: de lunes a viernes de 9,30 a 13,30 horas  Publicaciones: de lunes a viernes de 9 a 13 horas  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=58d61e79ee71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "RIOS ROSAS" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "23"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28003"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "440773"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4477266"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.44205696051332"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.6996705622841457"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasEspecializadasUniversitarias> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Instituto+Nacional+de+Estadistica> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "14223"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Instituto Nacional de Estadistica" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Atencion presencial y personalizada: de lunes a jueves de 9 a 14 horas y de 16 a 18 horas. Viernes de 9 a 14 horas.  Horario de verano (16 junio - 15 septiembre) solo mananas."^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5e5d5a0f8161c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "CASTELLANA" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "PASEO" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "183"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28046"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "441598"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4479667"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.46374469297466"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.690164534578386"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasEspecializadasUniversitarias> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Museo+Nacional+de+Ciencias+Naturales> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "2056"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Museo Nacional de Ciencias Naturales" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "Construido por Fernando de la Torriente en 1881 con hierro y cristal. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De martes a viernes, domingos, festivos y lunes festivos de 10 a 17 horas. Sabados, domingos previos a festivos de 10 a 20 horas. Sabados de julio y agosto de 10 a 15 horas.   "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8edbef4d7f71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "JOSE GUTIERREZ ABASCAL" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28006"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "441578"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4477079"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.44042943656617"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.690161856630636"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#MonumentosEdificiosArtisticos> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Universidad+Antonio+de+Nebrija.+Campus+de+la+Dehesa+de+la+Villa.+Biblioteca> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "33598"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Universidad Antonio de Nebrija. Campus de la Dehesa de la Villa. Biblioteca" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " Consulte telefonicamente "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=05796545f951c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "PIRINEOS" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "55"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28040"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439166"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4478556"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.45356155484048"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.7187418499984233"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasEspecializadasUniversitarias> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Universidad+Antonio+de+Nebrija.+Centro+Universitario+San+Rafael+-+Nebrija.+Biblioteca> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "6922986"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Universidad Antonio de Nebrija. Centro Universitario San Rafael - Nebrija. Biblioteca" ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a8423191cb45e310VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "LA HABANA" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "PASEO" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "70"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28036"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "442052"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4478466"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.45295740232813"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.6847000001062327"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasEspecializadasUniversitarias> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Universidad+Complutense+de+Madrid.+Biblioteca+General+%28BUC%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "26516"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Universidad Complutense de Madrid. Biblioteca General (BUC)" ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=90ba6545f951c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "PROFESOR ARANGUREN" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "S/N"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28040"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "438034"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4477856"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.44717192553449"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.7320226167250743"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasEspecializadasUniversitarias> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Universidad+Nacional+de+Educacion+a+Distancia+%28UNED%29.+Biblioteca+Central> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "7599127"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Universidad Nacional de Educacion a Distancia (UNED). Biblioteca Central" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "Puede consultar el horario y la localizacion de las distintas bibliotecas de los Centros Asociados en el  sitio web  de cada una."^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4c05f47197b87410VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "SENDA DEL REY" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "PASEO" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28040"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "437779"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4476626"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.43607254945306"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.7349087553849483"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasEspecializadasUniversitarias> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Universidad+Nacional+de+Educacion+a+Distancia+%28UNED%29.+Librer%C3%83%C2%ADa+Senda+del+Rey> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1905"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Universidad Nacional de Educacion a Distancia (UNED). LibrerÃ­a Senda del Rey" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Mananas: de 9 a 14 horas. Tardes: de 17 a 19:30 horas.   Horario de verano (del 15 de junio al 15 de septiembre): de 9 a 14 horas.  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e781ff632081c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "SENDA DEL REY" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "PASEO" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28040"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "437779"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4476626"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.43607254945306"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.7349087553849483"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasEspecializadasUniversitarias> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Universidad+Pontificia+Comillas.+Biblioteca.+Calle+Alberto+Aguilera> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "26501"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Universidad Pontificia Comillas. Biblioteca. Calle Alberto Aguilera" ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a75b6545f951c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "ALBERTO AGUILERA" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "23 - 25"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28015"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439657"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4475950"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.430121484779406"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.7127036955459567"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasEspecializadasUniversitarias> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Universidad+Pontificia+Comillas.+Biblioteca.+Cantoblanco> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1906"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Universidad Pontificia Comillas. Biblioteca. Cantoblanco" ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8028664f0641f010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "UNIVERSIDAD COMILLAS" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "NUM" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28049"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	a <http://www.semanticweb.org/grupo09#BibliotecasEspecializadasUniversitarias> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/Universidad+San+Pablo+%28CEU%29.+Campus+de+Moncloa> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "26040"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Universidad San Pablo (CEU). Campus de Moncloa" ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb78e0e8f2e4f010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> "JULIAN ROMEA" ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "V" ;
+	<http://www.semanticweb.org/gupo09#tieneNumero> "18"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28003"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439363"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4477365"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.442846975188935"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.7163047859683083"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/grupo09#Universidades> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> .

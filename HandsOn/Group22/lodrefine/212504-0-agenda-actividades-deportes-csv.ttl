@@ -1,0 +1,238 @@
+@prefix madact: <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8fc60b04d2910510VgnVCM2000000c205a0aRCRD> a <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad> ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8222895" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree> "1" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Tue Oct 27 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Tue Oct 27 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "10:00" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDescription> " Participan 5.000 niños y niñas de todos los colegios públicos y concertados del Distrito de Hortaleza, que cursan tercero, cuarto, quinto y sexto de Primaria. " ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=64cd79262ef5d010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1ca3ae9f4db40510VgnVCM1000000b205a0aRCRD> a <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad> ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8239374" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Nov 22 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Nov 22 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "09:00" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=499561945d9ec210VgnVCM2000000c205a0aRCRD" .
+
+<http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4408681327b40510VgnVCM2000000c205a0aRCRD> a <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad> ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8239113" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Nov 15 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Nov 15 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "09:00" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=96fb79262ef5d010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=20ab12b2ca642410VgnVCM2000000c205a0aRCRD> a <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad> ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8231795" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Nov 01 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Nov 01 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "10:00" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8d9a78a0dea9e210VgnVCM1000000b205a0aRCRD" .
+
+<http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6129c3afd4e51410VgnVCM2000000c205a0aRCRD> a <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad> ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8239726" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Nov 29 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Nov 29 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "09:00" .
+
+<http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=92d9a155f9320510VgnVCM2000000c205a0aRCRD> a <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad> ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8228486" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree> "1" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration> "1" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDaysWeek> "L,M,X,J,V,S,D" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sat Oct 24 00:00:00 CEST 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Oct 25 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "00:00" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDescription> """ Competición nacional en las modalidades de sable: categorías Infantil, Sénior y Veteranos. 
+ Horarios por determinar """ ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b86c79262ef5d010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f1ebe077e3320510VgnVCM1000000b205a0aRCRD> a <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad> ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8228337" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasPrice> "Asistencia libre, todas las categorías" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree> "1" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration> "1" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDaysWeek> "L,M,X,J,V" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Tue Sep 01 00:00:00 CEST 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Fri Oct 30 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "17:00" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDescription> """ 
+ Meses de septiembre y octubre de 2015.  
+ De 17 a 20 horas 
+ En la instalación deportiva municipal básica situada entre las calles Miguel Yuste, Castillo de Uclés y Emilio Muñoz y en la situada entre las calles de Alberique, Alconera y Ajofrín 
+ Deportes: fútbol sala, baloncesto, voleibol y patinaje.  """ .
+
+<http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c2a976ac54560510VgnVCM2000000c205a0aRCRD> a <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad> ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8244033" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Wed Oct 28 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Wed Oct 28 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "10:00" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=499561945d9ec210VgnVCM2000000c205a0aRCRD" .
+
+<http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b023423c2169e410VgnVCM2000000c205a0aRCRD> a <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad> ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8148933" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Dec 06 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Dec 06 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "00:00" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6372a4ea6871c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8148944" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Jan 03 00:00:00 CET 2016"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Jan 03 23:59:00 CET 2016"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8148909" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Nov 22 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Nov 22 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8148894" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasPrice> """Socios 20 a 80 euros; General 30 a 100 euros. 
+VIP Socios 55 a 350 euros; VIP General 70 a 350 euros.
+""" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Nov 08 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Nov 08 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "18:15" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8148951" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Jan 24 00:00:00 CET 2016"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Jan 24 23:59:00 CET 2016"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8148891" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasPrice> """Socios 25 a 95 euros.
+General 30 a 120 euros. 
+VIP Socios 65 a 450 euros.
+VIP General 80 a 450 euros.
+""" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Oct 25 00:00:00 CEST 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Oct 25 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "20:35" .
+
+<http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=358430ebb669e410VgnVCM2000000c205a0aRCRD> a <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad> ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8149089" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Nov 22 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Nov 22 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "00:00" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=bb32a4ea6871c010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8149091" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Dec 20 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Dec 20 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8149088" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Nov 01 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Nov 01 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8149090" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Dec 06 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Dec 06 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8149093" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Jan 24 00:00:00 CET 2016"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Jan 24 23:59:00 CET 2016"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8149087" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Oct 25 00:00:00 CEST 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Oct 25 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8149092" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Jan 03 00:00:00 CET 2016"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Jan 03 23:59:00 CET 2016"^^xsd:dateTime .
+
+<http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=587f93e09869e410VgnVCM2000000c205a0aRCRD> a <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad> ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8149246" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Dec 20 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Dec 20 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "00:00" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=96fb79262ef5d010VgnVCM1000000b205a0aRCRD" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8149243" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Nov 08 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Nov 08 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8149244" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Nov 29 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Nov 29 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8149245" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Dec 13 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Dec 13 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8149247" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Jan 10 00:00:00 CET 2016"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Jan 10 23:59:00 CET 2016"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8149249" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sun Jan 17 00:00:00 CET 2016"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sun Jan 17 23:59:00 CET 2016"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8149242" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Wed Oct 28 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Wed Oct 28 23:59:00 CET 2015"^^xsd:dateTime .
+
+<http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=76accc35e829f410VgnVCM2000000c205a0aRCRD> a <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad> ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8187647" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Wed Oct 21 00:00:00 CEST 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Wed Oct 21 23:59:00 CEST 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "20:45" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6372a4ea6871c010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=371bfa9a034ff410VgnVCM2000000c205a0aRCRD> a <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad> ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8210319" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Wed Nov 25 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Wed Nov 25 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "20:45" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6372a4ea6871c010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=35904e7ec15c9310VgnVCM2000000c205a0aRCRD> a <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad> ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "6671261" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree> "1" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sat Nov 07 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sat Nov 07 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "11:00" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDescription> """  Contenido:  el Centro de Información y Educación Ambiental Dehesa de la Villa organiza mensualmente rutas en bicicleta, 'Bici-ate conectando verde', con las que se pretende descubrir caminos que conecten diferentes espacios verdes de la ciudad. Todas ellas, parten del Centro. 
+  Celebración:  sábado 7 de noviembre a las 11 horas. 
+  Duración aproximada: 2  horas. 
+  Edad recomendada:  todos los públicos, menores acompañados de adulto responsable. 
+ Requisitos:  imprescindible traer bicicleta y casco propios.  """ ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a956fc79622ef010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=17efbd496d730510VgnVCM1000000b205a0aRCRD> a <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad> ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8232429" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Sat Oct 24 00:00:00 CEST 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Sat Oct 24 23:59:00 CEST 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "15:30" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b86c79262ef5d010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=96a0f841b01de310VgnVCM2000000c205a0aRCRD> a <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad> ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "7828582" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree> "0" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration> "1" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDaysWeek> "L,M,X,J,V,S,D" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDays> "25/12/2015;1/1/2015;" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Thu Jan 01 00:00:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Thu Dec 31 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "00:00" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=96fb79262ef5d010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=64a2a2c688adb410VgnVCM2000000c205a0aRCRD> a <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad> ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey> "8198405" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree> "1" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration> "1" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDaysWeek> "M,J" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate> "Thu Oct 01 00:00:00 CEST 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate> "Thu Dec 31 23:59:00 CET 2015"^^xsd:dateTime ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour> "00:00" ;
+	<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=30181e79ee71c010VgnVCM1000000b205a0aRCRD" .

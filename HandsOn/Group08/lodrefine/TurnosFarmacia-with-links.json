@@ -1,0 +1,2650 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Farmacia/\"+row.index",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Localidad",
+              "curie": "onto:Localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Barrio",
+              "curie": "onto:Barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Fecha",
+              "curie": "onto:Fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Id_Farmacia",
+              "curie": "onto:Id_Farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Direccion",
+              "curie": "onto:Direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Duracion",
+              "curie": "onto:Duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Telefono",
+              "curie": "onto:Telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+row.index",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Localidad",
+              "curie": "onto:Localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Barrio",
+              "curie": "onto:Barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Fecha",
+              "curie": "onto:Fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Id_Farmacia",
+              "curie": "onto:Id_Farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Direccion",
+              "curie": "onto:Direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Duracion",
+              "curie": "onto:Duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Telefono",
+              "curie": "onto:Telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+row.index",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Localidad",
+              "curie": "onto:Localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Barrio",
+              "curie": "onto:Barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Fecha",
+              "curie": "onto:Fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Id_Farmacia",
+              "curie": "onto:Id_Farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Direccion",
+              "curie": "onto:Direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Duracion",
+              "curie": "onto:Duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Telefono",
+              "curie": "onto:Telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+row.index",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Localidad",
+              "curie": "onto:Localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Barrio",
+              "curie": "onto:Barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Fecha",
+              "curie": "onto:Fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Id_Farmacia",
+              "curie": "onto:Id_Farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Direccion",
+              "curie": "onto:Direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Duracion",
+              "curie": "onto:Duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Telefono",
+              "curie": "onto:Telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+row.index",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Localidad",
+              "curie": "onto:Localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Barrio",
+              "curie": "onto:Barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Fecha",
+              "curie": "onto:Fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Id_Farmacia",
+              "curie": "onto:Id_Farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Direccion",
+              "curie": "onto:Direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Duracion",
+              "curie": "onto:Duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Telefono",
+              "curie": "onto:Telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+row.index",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Localidad",
+              "curie": "onto:Localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Barrio",
+              "curie": "onto:Barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Fecha",
+              "curie": "onto:Fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Id_Farmacia",
+              "curie": "onto:Id_Farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Direccion",
+              "curie": "onto:Direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Duracion",
+              "curie": "onto:Duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Telefono",
+              "curie": "onto:Telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+row.index",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#localidad",
+              "curie": "onto:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Barrio",
+              "curie": "onto:Barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Fecha",
+              "curie": "onto:Fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Id_Farmacia",
+              "curie": "onto:Id_Farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Direccion",
+              "curie": "onto:Direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Duracion",
+              "curie": "onto:Duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Telefono",
+              "curie": "onto:Telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+row.index",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#localidad",
+              "curie": "onto:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Barrio",
+              "curie": "onto:Barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Fecha",
+              "curie": "onto:Fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Id_Farmacia",
+              "curie": "onto:Id_Farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Direccion",
+              "curie": "onto:Direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Duracion",
+              "curie": "onto:Duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Telefono",
+              "curie": "onto:Telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+row.index",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#localidad",
+              "curie": "onto:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Barrio",
+              "curie": "onto:Barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Fecha",
+              "curie": "onto:Fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Id_Farmacia",
+              "curie": "onto:Id_Farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Direccion",
+              "curie": "onto:Direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Duracion",
+              "curie": "onto:Duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Telefono",
+              "curie": "onto:Telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+row.index",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#localidad",
+              "curie": "onto:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Barrio",
+              "curie": "onto:Barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Fecha",
+              "curie": "onto:Fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Id_Farmacia",
+              "curie": "onto:Id_Farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Direccion",
+              "curie": "onto:Direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Duracion",
+              "curie": "onto:Duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Telefono",
+              "curie": "onto:Telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+row.index",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#localidad",
+              "curie": "onto:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Barrio",
+              "curie": "onto:Barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Fecha",
+              "curie": "onto:Fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Id_Farmacia",
+              "curie": "onto:Id_Farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Direccion",
+              "curie": "onto:Direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Duracion",
+              "curie": "onto:Duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Telefono",
+              "curie": "onto:Telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+row.index",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#localidad",
+              "curie": "onto:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "\thttp://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#barrio",
+              "curie": "onto:barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Fecha",
+              "curie": "onto:Fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Id_Farmacia",
+              "curie": "onto:Id_Farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Direccion",
+              "curie": "onto:Direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Duracion",
+              "curie": "onto:Duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3Telefono",
+              "curie": "onto:Telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#localidad",
+              "curie": "onto:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#id_barrio",
+              "curie": "onto:id_barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#fecha",
+              "curie": "onto:fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#farmacia",
+              "curie": "onto:farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#direccion",
+              "curie": "onto:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#duracion",
+              "curie": "onto:duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#telefono",
+              "curie": "onto:telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+row.index",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#localidad",
+              "curie": "onto:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#id_barrio",
+              "curie": "onto:id_barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#fecha",
+              "curie": "onto:fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#farmacia",
+              "curie": "onto:farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#direccion",
+              "curie": "onto:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#duracion",
+              "curie": "onto:duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#telefono",
+              "curie": "onto:telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+row.index",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#localidad",
+              "curie": "onto:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#id_barrio",
+              "curie": "onto:id_barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#fecha",
+              "curie": "onto:fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#farmacia",
+              "curie": "onto:farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#direccion",
+              "curie": "onto:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#duracion",
+              "curie": "onto:duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#telefono",
+              "curie": "onto:telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/GROUP08/FarmaciasDeGuardia#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "http://www.semanticweb.org/Group08/FarmaciasDeGuardia#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+row.index",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#localidad",
+              "curie": "onto:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#id_barrio",
+              "curie": "onto:id_barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#fecha",
+              "curie": "onto:fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#farmacia",
+              "curie": "onto:farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#direccion",
+              "curie": "onto:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#duracion",
+              "curie": "onto:duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#telefono",
+              "curie": "onto:telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/GROUP08/FarmaciasDeGuardia#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "http://www.semanticweb.org/Group08/FarmaciasDeGuardia#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+row.index",
+          "isRowNumberCell": true,
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#localidad",
+              "curie": "onto:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#id_barrio",
+              "curie": "onto:id_barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#fecha",
+              "curie": "onto:fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#farmacia",
+              "curie": "onto:farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#direccion",
+              "curie": "onto:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#duracion",
+              "curie": "onto:duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#telefono",
+              "curie": "onto:telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/GROUP08/FarmaciasDeGuardia#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "http://www.semanticweb.org/Group08/FarmaciasDeGuardia#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "Direccion",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#localidad",
+              "curie": "onto:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#id_barrio",
+              "curie": "onto:id_barrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#fecha",
+              "curie": "onto:fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#farmacia",
+              "curie": "onto:farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#direccion",
+              "curie": "onto:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#duracion",
+              "curie": "onto:duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#telefono",
+              "curie": "onto:telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/GROUP08/FarmaciasDeGuardia#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "http://www.semanticweb.org/Group08/FarmaciasDeGuardia#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "Direccion",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#localidad",
+              "curie": "onto:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#fecha",
+              "curie": "onto:fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#farmacia",
+              "curie": "onto:farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#direccion",
+              "curie": "onto:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#duracion",
+              "curie": "onto:duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#telefono",
+              "curie": "onto:telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/GROUP08/FarmaciasDeGuardia#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "http://www.semanticweb.org/Group08/FarmaciasDeGuardia#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "Direccion",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#localidad",
+              "curie": "onto:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#fecha",
+              "curie": "onto:fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#farmacia",
+              "curie": "onto:farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#direccion",
+              "curie": "onto:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#duracion",
+              "curie": "onto:duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#telefono",
+              "curie": "onto:telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Localidad to type http://www.wikidata.org/entity/Q5",
+    "columnName": "Localidad",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpediaen",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.wikidata.org/entity/Q5",
+        "name": "http://www.wikidata.org/entity/Q5"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Madrid, Madrid (http://dbpedia.org/resource/Madrid,_Madrid) for cells containing \"Madrid\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Localidad",
+    "similarValue": "Madrid",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Madrid,_Madrid",
+      "name": "Madrid, Madrid",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column LocalidadDBPedia at index 1 based on column Localidad using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "LocalidadDBPedia",
+    "columnInsertIndex": 1,
+    "baseColumnName": "Localidad",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/GROUP08/FarmaciasDeGuardia#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "http://www.semanticweb.org/Group08/FarmaciasDeGuardia#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "Direccion",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#localidad",
+              "curie": "onto:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#fecha",
+              "curie": "onto:fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#farmacia",
+              "curie": "onto:farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#direccion",
+              "curie": "onto:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#duracion",
+              "curie": "onto:duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#telefono",
+              "curie": "onto:telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LocalidadDBPedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/GROUP08/FarmaciasDeGuardia#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "onto",
+          "uri": "http://www.semanticweb.org/Group08/FarmaciasDeGuardia#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "Direccion",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Farmacia",
+              "curie": "onto:Farmacia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#localidad",
+              "curie": "onto:localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Localidad"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#fecha",
+              "curie": "onto:fecha",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "Fecha"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#farmacia",
+              "curie": "onto:farmacia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#direccion",
+              "curie": "onto:direccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#duracion",
+              "curie": "onto:duracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Duración"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#telefono",
+              "curie": "onto:telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Teléfono"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LocalidadDBPedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<Ontology
+  xmlns="http://www.semanticweb.org/Group17/AccessibilityMadrid"
+  xml:base="http://www.semanticweb.org/Group17/AccessibilityMadrid"
+  xmlns:owl = "http://www.w3.org/2002/07/owl#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs= "http://www.w3.org/2000/01/rdf-schema#"
+  ontologyIRI="http://www.semanticweb.org/Group17/AccessibilityMadrid">
+  <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+  <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+  <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+  <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+  <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+  <Declaration>
+      <Class IRI="#parkingResidentes"/>
+  </Declaration>
+  <Declaration>
+      <Class IRI="#serviciosSociales"/>
+  </Declaration>
+  <Declaration>
+      <Class IRI="#estacionamientoPersonasMovilidadReducida"/>
+  </Declaration>
+  <Declaration>
+      <Class IRI="#pasoPeatonesConAvisadoresAcusticos"/>
+  </Declaration>
+  <Declaration>
+      <ObjectProperty IRI="#hayEstacionamientoPersonasMovilidadReducida"/>
+  </Declaration>
+  <Declaration>
+      <ObjectProperty IRI="#hayPasoPeatonesConAvisadoresAcusticos"/>
+  </Declaration>
+  <Declaration>
+      <DataProperty IRI="#estaEnDistrito"/>
+  </Declaration>
+  <Declaration>
+      <DataProperty IRI="#estaEnCalle"/>
+  </Declaration>
+  <Declaration>
+      <DataProperty IRI="#esAccesible"/>
+  </Declaration>
+  <Declaration>
+      <DataProperty IRI="#telefono"/>
+  </Declaration>
+  <Declaration>
+      <DataProperty IRI="#horario"/>
+  </Declaration>
+  <ObjectPropertyDomain>
+      <ObjectProperty IRI="#hayEstacionamientoPersonasMovilidadReducida"/>
+      <Class IRI="#estacionamientoPersonasMovilidadReducida"/>
+  </ObjectPropertyDomain>
+  <ObjectPropertyDomain>
+      <ObjectProperty IRI="#hayEstacionamientoPersonasMovilidadReducida"/>
+      <Class IRI="#serviciosSociales"/>
+  </ObjectPropertyDomain>
+  <ObjectPropertyDomain>
+      <ObjectProperty IRI="#hayPasoPeatonesConAvisadoresAcusticos"/>
+      <Class IRI="#pasoPeatonesConAvisadoresAcusticos"/>
+  </ObjectPropertyDomain>
+  <ObjectPropertyDomain>
+      <ObjectProperty IRI="#hayPasoPeatonesConAvisadoresAcusticos"/>
+      <Class IRI="#serviciosSociales"/>
+  </ObjectPropertyDomain>
+  <DataPropertyDomain>
+      <DataProperty IRI="#estaEnDistrito"/>
+      <Class IRI="#estacionamientoPersonasMovilidadReducida"/>
+  </DataPropertyDomain>
+  <DataPropertyDomain>
+      <DataProperty IRI="#estaEnDistrito"/>
+      <Class IRI="#serviciosSociales"/>
+  </DataPropertyDomain>
+  <DataPropertyDomain>
+      <DataProperty IRI="#estaEnDistrito"/>
+      <Class IRI="#parkingResidentes"/>
+  </DataPropertyDomain>
+  <DataPropertyDomain>
+      <DataProperty IRI="#estaEnCalle"/>
+      <Class IRI="#parkingResidentes"/>
+  </DataPropertyDomain>
+  <DataPropertyDomain>
+      <DataProperty IRI="#estaEnCalle"/>
+      <Class IRI="#serviciosSociales"/>
+  </DataPropertyDomain>
+  <DataPropertyDomain>
+      <DataProperty IRI="#estaEnCalle"/>
+      <Class IRI="#estacionamientoPersonasMovilidadReducida"/>
+  </DataPropertyDomain>
+  <DataPropertyDomain>
+      <DataProperty IRI="#estaEnCalle"/>
+      <Class IRI="#pasoPeatonesConAvisadoresAcusticos"/>
+  </DataPropertyDomain>
+  <DataPropertyDomain>
+      <DataProperty IRI="#esAccesible"/>
+      <Class IRI="#parkingResidentes"/>
+  </DataPropertyDomain>
+  <DataPropertyDomain>
+      <DataProperty IRI="#esAccesible"/>
+      <Class IRI="#serviciosSociales"/>
+  </DataPropertyDomain>
+  <DataPropertyDomain>
+      <DataProperty IRI="#telefono"/>
+      <Class IRI="#serviciosSociales"/>
+  </DataPropertyDomain>
+  <DataPropertyDomain>
+      <DataProperty IRI="#telefono"/>
+      <Class IRI="#parkingResidentes"/>
+  </DataPropertyDomain>
+  <DataPropertyDomain>
+      <DataProperty IRI="#horario"/>
+      <Class IRI="#parkingResidentes"/>
+  </DataPropertyDomain>
+  <DataPropertyDomain>
+      <DataProperty IRI="#horario"/>
+      <Class IRI="#serviciosSociales"/>
+  </DataPropertyDomain>
+  <DataPropertyRange>
+      <DataProperty IRI="#estaEnDistrito"/>
+      <Datatype abbreviatedIRI="xsd:string"/>
+  </DataPropertyRange>
+  <DataPropertyRange>
+      <DataProperty IRI="#estaEnCalle"/>
+      <Datatype abbreviatedIRI="xsd:string"/>
+  </DataPropertyRange>
+  <DataPropertyRange>
+      <DataProperty IRI="#esAccesible"/>
+      <Datatype abbreviatedIRI="xsd:boolean"/>
+  </DataPropertyRange>
+  <DataPropertyRange>
+      <DataProperty IRI="#telefono"/>
+      <Datatype abbreviatedIRI="xsd:string"/>
+  </DataPropertyRange>
+  <DataPropertyRange>
+      <DataProperty IRI="#horario"/>
+      <Datatype abbreviatedIRI="xsd:string"/>
+  </DataPropertyRange>
+</Ontology>

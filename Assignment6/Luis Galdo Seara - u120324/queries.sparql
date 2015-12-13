@@ -1,0 +1,55 @@
+1. Accidentes en Madrid 2013
+
+select SUM(?b) as ?Accidentes
+where{
+?obs a <http://purl.org/linked-data/cube#Observation>.
+?obs <http://example.org/myVocabulary#numberOfAccidents> ?b.
+}
+
+2. Número de accidentes en Usera para cada tipo de accidente.
+
+select ?tipo ?accidentes
+where{
+?obs a <http://purl.org/linked-data/cube#Observation>.
+?obs <http://example.org/myVocabulary#relatedDistrict> "USERA".
+?obs <http://example.org/myVocabulary#hasAccidentType> ?e.
+?e <http://www.w3.org/2004/02/skos/core#prefLabel> ?tipo.
+?obs <http://example.org/myVocabulary#numberOfAccidents> ?accidentes.
+FILTER ( lang(?tipo) = "es" ) 
+}
+
+3. Número múltiple de colisiones para cada distrito
+
+select ?Distrito ?Accidentes
+where{
+?obs a <http://purl.org/linked-data/cube#Observation>.
+?obs <http://example.org/myVocabulary#relatedDistrict> ?Distrito.
+?obs <http://example.org/myVocabulary#hasAccidentType> <http://example.org/myVocabulary#MultipleCollision>.
+?obs <http://example.org/myVocabulary#numberOfAccidents> ?Accidentes.
+}
+ORDER BY(?Distrito)
+
+4. Distrito donde hubo mayor número de accidentes de bicicleta en 2013.
+
+select ?Distrito max(?Accidente) as ?Accidentes
+where {
+?obs a <http://purl.org/linked-data/cube#Observation>.
+?obs <http://example.org/myVocabulary#relatedDistrict> ?Distrito.
+?obs <http://example.org/myVocabulary#hasAccidentType> <http://example.org/myVocabulary#BicycleFall>.
+?obs <http://example.org/myVocabulary#numberOfAccidents> ?Accidente.
+}
+ORDER by desc(?Accidentes)
+LIMIT 1
+
+5. Distritos con mas de 500 accidentes en 2013
+
+select ?Distrito ?Accidentes WHERE {
+{
+select distinct ?Distrito (sum(xsd:double(?b)) as ?Accidentes)
+where{
+?obs a <http://purl.org/linked-data/cube#Observation>.
+?obs <http://example.org/myVocabulary#relatedDistrict> ?Distrito.
+?obs <http://example.org/myVocabulary#numberOfAccidents> ?b.
+}
+} FILTER (?Accidentes > 500)
+} ORDER BY desc(?Accidentes)

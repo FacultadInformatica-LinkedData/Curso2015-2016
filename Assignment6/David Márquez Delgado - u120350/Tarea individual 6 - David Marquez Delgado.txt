@@ -1,0 +1,67 @@
+# Autor: David Márquez Delgado u120350
+
+PREFIX mr: <http://example.org/resources/> 
+PREFIX vocab: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+# Número de accidentes en Madrid en 2013
+SELECT SUM(?numero) AS ?Numero WHERE {
+	?obs a qb:Observation ;
+	vocab:relatedDistrict ?z ;
+	vocab:hasAccidentType ?y ;
+	vocab:numberOfAccidents ?numero ;
+	qb:dataSet mr:MyDataset .
+}
+
+# Número de accidentes en Usera para cada tipo de accidente
+
+SELECT ?tipo ?numero WHERE {
+	?obs a qb:Observation ;
+	vocab:relatedDistrict "USERA" ;
+	vocab:hasAccidentType ?tipo ;
+	vocab:numberOfAccidents ?numero ;
+	qb:dataSet mr:MyDataset .
+}
+
+# Número de colisiones múltiples por distrito
+SELECT ?Distrito ?Numero_colisiones_multiples WHERE {
+	?obs a qb:Observation ;
+	vocab:relatedDistrict ?Distrito ;
+	vocab:hasAccidentType vocab:MultipleCollision ;
+	vocab:numberOfAccidents ?Numero_colisiones_multiples ;
+	qb:dataSet mr:MyDataset .
+}
+
+# Distrito con mayor número de caídas de bici en 2013
+
+SELECT ?Distrito ?MayorNumCaidasBici WHERE {
+  {
+    SELECT MAX(?num) AS ?MayorNumCaidasBici WHERE {
+      ?obs a qb:Observation;
+      vocab:hasAccidentType vocab:BicycleFall;
+      vocab:numberOfAccidents ?num;
+      qb:dataSet mr:MyDataset.
+    }
+  }
+  ?obs a qb:Observation;
+  vocab:relatedDistrict ?Distrito;
+  vocab:hasAccidentType vocab:BicycleFall;
+  vocab:numberOfAccidents ?MayorNumCaidasBici;
+  qb:dataSet mr:MyDataset.
+}
+
+
+# Distritos con más de 500 accidentes en 2013
+
+SELECT ?Distrito ?Accidentes WHERE {
+  {
+    SELECT ?Distrito SUM(xsd:integer(?num)) AS ?Accidentes WHERE {
+      ?obs a qb:Observation;
+      vocab:relatedDistrict ?Distrito;
+      vocab:numberOfAccidents ?num.
+    }
+  }
+  filter(?Accidentes > 500)
+} 
+
+

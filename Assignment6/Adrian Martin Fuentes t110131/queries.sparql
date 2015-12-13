@@ -1,0 +1,71 @@
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+
+# accidents 2013
+
+SELECT (SUM(?accidentes) AS ?total) WHERE {
+?obs a qb:Observation;
+   property:numberOfAccidents ?accidentes.
+}
+
+
+
+
+# accidents usera and type
+
+SELECT ?tipoAccidentes ?accidentes WHERE {
+?obs a qb:Observation;
+   property:relatedDistrict "USERA";
+   property:hasAccidentType ?tipoAccidentes;
+   property:numberOfAccidents ?accidentes.
+}
+
+
+
+
+# number different collisions and district
+
+SELECT ?distrito ?accidentes WHERE {
+?obs a qb:Observation;
+   property:relatedDistrict ?distrito;
+   property:hasAccidentType property:MultipleCollision;
+   property:numberOfAccidents ?accidentes.
+}
+
+
+
+# higher district of bicycle falls
+
+SELECT ?distrito ?maxNumAccidentes WHERE {
+?obs a qb:Observation;
+   property:relatedDistrict ?distrito;
+   property:hasAccidentType property:BicycleFall;
+   property:numberOfAccidents ?maxNumAccidentes 
+   {
+      SELECT (MAX(?accidentes) AS ?maxNumAccidentes) WHERE {
+      ?obs a qb:Observation;
+ 	property:relatedDistrict ?distrito;
+	property:hasAccidentType property:BicycleFall;
+ 	property:numberOfAccidents ?accidentes.
+
+      }
+   }
+} 
+
+
+
+
+#districts with more than 500 accidents
+
+SELECT ?distrito ?accidentesDistrito{
+   {
+      SELECT ?distrito (SUM(xsd:double(?accidentes)) AS ?accidentesDistrito) WHERE {
+      ?obs a qb:Observation;
+         property:relatedDistrict ?distrito;
+	 property:numberOfAccidents ?accidentes.
+
+      } GROUP BY ?distrito
+   }FILTER(?accidentesDistrito> 500)
+}

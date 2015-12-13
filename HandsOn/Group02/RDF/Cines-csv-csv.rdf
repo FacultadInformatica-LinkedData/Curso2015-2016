@@ -1,686 +1,719 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:foaf="http://xmlns.com/foaf/0.1/"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:gp02="http://www.semanticweb.org/webSemantica/group02#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/0">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7381184</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Centro Comercial y Palacio de Hielo Dreams</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Canillas (línea 4)  Bus: 120, 122, 153 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c599006aee194410VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">SILVANO</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28043</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">CANILLAS</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">HORTALEZA</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">446212</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4479540</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.46291274127404</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.635733711568097</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">902 202 930</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCentro+Comercial+y+Palacio+de+Hielo+Dreams">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>7381184</gp02:tienePK>
+	<gp02:tieneNombre>Centro Comercial y Palacio de Hielo Dreams</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Canillas (línea 4)  Bus: 120, 122, 153 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c599006aee194410VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>SILVANO</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28043</gp02:tieneCP>
+	<gp02:tieneBarrio>CANILLAS</gp02:tieneBarrio>
+	<gp02:tieneDistrito>HORTALEZA</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">446212</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4479540</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.46291274127404</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.635733711568097</gp02:tieneLongitud>
+	<gp02:tieneTelefono>902 202 930</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/1">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17302</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Acteón</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Sol (líneas 1, 3, 5), Gran Vía (líneas 1, 5)  Bus: 1, 2, 3, 5, 15, 20, 46, 51, 74, 146, 150, 202,  M1 ,  M2  </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b6fb3d232e91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">MONTERA</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28013</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">SOL</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">CENTRO</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440524</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474679</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.41873428725416</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.702363924778316</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">915 222 281</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Acte%C3%B3n">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>17302</gp02:tienePK>
+	<gp02:tieneNombre>Cine Acteón</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Sol (líneas 1, 3, 5), Gran Vía (líneas 1, 5)  Bus: 1, 2, 3, 5, 15, 20, 46, 51, 74, 146, 150, 202,  M1 ,  M2  </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b6fb3d232e91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>MONTERA</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28013</gp02:tieneCP>
+	<gp02:tieneBarrio>SOL</gp02:tieneBarrio>
+	<gp02:tieneDistrito>CENTRO</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440524</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474679</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.41873428725416</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.702363924778316</gp02:tieneLongitud>
+	<gp02:tieneTelefono>915 222 281</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/2">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55827</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Artesiete Alcalá Full HD</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Ciudad Lineal  (línea 5)  Bus: 4, 38, 48, 70, 77, 104, 105, 109, 113 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f14c3d232e91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">ALCALA</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">414</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28027</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">PUEBLO NUEVO</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">CIUDAD LINEAL</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">445953</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476717</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.437446906533594</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.638523962349189</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">913 678 768    
-</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Artesiete+Alcal%C3%A1+Full+HD">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>55827</gp02:tienePK>
+	<gp02:tieneNombre>Cine Artesiete Alcalá Full HD</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Ciudad Lineal  (línea 5)  Bus: 4, 38, 48, 70, 77, 104, 105, 109, 113 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f14c3d232e91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>ALCALA</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">414</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28027</gp02:tieneCP>
+	<gp02:tieneBarrio>PUEBLO NUEVO</gp02:tieneBarrio>
+	<gp02:tieneDistrito>CIUDAD LINEAL</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">445953</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476717</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.437446906533594</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.638523962349189</gp02:tieneLongitud>
+	<gp02:tieneTelefono>913 678 768    
+</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/3">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6647175</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Artistic Metropol</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Acacias (línea 5), Embajadores (línea 3)  Bus:  34, 36, 41, 60,  116, 118, 119, 148, C2, </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b69b2f335181b310VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">CIGARRERAS</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28005</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">ACACIAS</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">ARGANZUELA</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440082</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4473142</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.404856499695455</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.70742856791561</tieneLongitud>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Artistic+Metropol">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>6647175</gp02:tienePK>
+	<gp02:tieneNombre>Cine Artistic Metropol</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Acacias (línea 5), Embajadores (línea 3)  Bus:  34, 36, 41, 60,  116, 118, 119, 148, C2, </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b69b2f335181b310VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>CIGARRERAS</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28005</gp02:tieneCP>
+	<gp02:tieneBarrio>ACACIAS</gp02:tieneBarrio>
+	<gp02:tieneDistrito>ARGANZUELA</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440082</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4473142</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.404856499695455</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.70742856791561</gp02:tieneLongitud>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/4">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17319</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Callao</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Callao (línea 3)  Bus: 1, 2, 44, 46, 74, 75, 146, 147, 148, 133, 202 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">1</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=142255004e91f010VgnVCM2000000c205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">CALLAO</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">PLAZA</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28013</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">SOL</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">CENTRO</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440260</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474823</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.42001256069903</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7054891255917886</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">915 225 801</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Callao">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>17319</gp02:tienePK>
+	<gp02:tieneNombre>Cine Callao</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Callao (línea 3)  Bus: 1, 2, 44, 46, 74, 75, 146, 147, 148, 133, 202 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">1</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=142255004e91f010VgnVCM2000000c205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>CALLAO</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>PLAZA</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28013</gp02:tieneCP>
+	<gp02:tieneBarrio>SOL</gp02:tieneBarrio>
+	<gp02:tieneDistrito>CENTRO</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440260</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474823</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.42001256069903</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7054891255917886</gp02:tieneLongitud>
+	<gp02:tieneTelefono>915 225 801</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/5">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17321</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Cinesa Capitol</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Callao (líneas 3, 5), Santo Domingo (línea 2)  Bus: 1, 2, 44, 46, 74, 75, 133, 146, 147, 148, 202 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=6dac3d232e91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">GRAN VIA</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">41</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28013</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">PALACIO</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">CENTRO</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440167</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474871</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.42043827261684</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7065898195198486</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">902 333 231</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Cinesa+Capitol">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>17321</gp02:tienePK>
+	<gp02:tieneNombre>Cine Cinesa Capitol</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Callao (líneas 3, 5), Santo Domingo (línea 2)  Bus: 1, 2, 44, 46, 74, 75, 133, 146, 147, 148, 202 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=6dac3d232e91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>GRAN VIA</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">41</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28013</gp02:tieneCP>
+	<gp02:tieneBarrio>PALACIO</gp02:tieneBarrio>
+	<gp02:tieneDistrito>CENTRO</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440167</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474871</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.42043827261684</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7065898195198486</gp02:tieneLongitud>
+	<gp02:tieneTelefono>902 333 231</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/6">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17304</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Cinesa La Gavia</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Plaza de España (líneas 3, 10), Ventura Rodríguez (línea 3)  Bus: 1, 2, 44, 133, 138, 148, 202,  C1  </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=390c3d232e91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">ADOLFO BIOY CASARES</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28051</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">CASCO H.VALLECAS</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">VILLA DE VALLECAS</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">449381</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4468949</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.367701522967664</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.597512351069017</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">902 333 231  
-</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Cinesa+La+Gavia">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>17304</gp02:tienePK>
+	<gp02:tieneNombre>Cine Cinesa La Gavia</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Plaza de España (líneas 3, 10), Ventura Rodríguez (línea 3)  Bus: 1, 2, 44, 133, 138, 148, 202,  C1  </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=390c3d232e91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>ADOLFO BIOY CASARES</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28051</gp02:tieneCP>
+	<gp02:tieneBarrio>CASCO H.VALLECAS</gp02:tieneBarrio>
+	<gp02:tieneDistrito>VILLA DE VALLECAS</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">449381</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4468949</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.367701522967664</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.597512351069017</gp02:tieneLongitud>
+	<gp02:tieneTelefono>902 333 231  
+</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/7">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">68001</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Cinesa Las Rosas 3D</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Alsacia (línea 2)  Bus: 4, 70, 106, 140,  E2  </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">1</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=3c9255004e91f010VgnVCM2000000c205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">GUADALAJARA</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">AVENIDA</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28032</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">ARCOS</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">SAN BLAS-CANILLEJAS</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">447298</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474603</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.41850711270872</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6225145335284066</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">902 333 231</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Cinesa+Las+Rosas+3D">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>68001</gp02:tienePK>
+	<gp02:tieneNombre>Cine Cinesa Las Rosas 3D</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Alsacia (línea 2)  Bus: 4, 70, 106, 140,  E2  </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">1</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=3c9255004e91f010VgnVCM2000000c205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>GUADALAJARA</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>AVENIDA</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28032</gp02:tieneCP>
+	<gp02:tieneBarrio>ARCOS</gp02:tieneBarrio>
+	<gp02:tieneDistrito>SAN BLAS-CANILLEJAS</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">447298</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474603</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.41850711270872</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6225145335284066</gp02:tieneLongitud>
+	<gp02:tieneTelefono>902 333 231</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/8">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33938</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Cinesa Méndez Álvaro 3D</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/">  Metro:  Méndez Álvaro (línea 6)   Renfe:  Méndez Álvaro   Bus:  102, 113, 148, 152 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b32e3d232e91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">ACANTO</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28045</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">ATOCHA</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">ARGANZUELA</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442780</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4472196</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.396524567021544</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6755496528510783</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">902 333 231</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Cinesa+M%C3%A9ndez+%C3%81lvaro+3D">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>33938</gp02:tienePK>
+	<gp02:tieneNombre>Cine Cinesa Méndez Álvaro 3D</gp02:tieneNombre>
+	<gp02:tieneTransporte>  Metro:  Méndez Álvaro (línea 6)   Renfe:  Méndez Álvaro   Bus:  102, 113, 148, 152 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b32e3d232e91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>ACANTO</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28045</gp02:tieneCP>
+	<gp02:tieneBarrio>ATOCHA</gp02:tieneBarrio>
+	<gp02:tieneDistrito>ARGANZUELA</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442780</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4472196</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.396524567021544</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6755496528510783</gp02:tieneLongitud>
+	<gp02:tieneTelefono>902 333 231</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/9">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">160926</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Cinesa Príncipe Pío</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Príncipe Pío (líneas 6, 10)  Bus: 25, 33, 39, 62, 41, 46, 75, 138,  C1 ,  C2   Renfe: Príncipe Pío </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=de97051c8d91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">FLORIDA</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">PASEO</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28008</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">CASA DE CAMPO</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">MONCLOA-ARAVACA</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">438948</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474919</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.42078197104075</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7209625681527148</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">902 333 231</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Cinesa+Pr%C3%ADncipe+P%C3%ADo">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>160926</gp02:tienePK>
+	<gp02:tieneNombre>Cine Cinesa Príncipe Pío</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Príncipe Pío (líneas 6, 10)  Bus: 25, 33, 39, 62, 41, 46, 75, 138,  C1 ,  C2   Renfe: Príncipe Pío </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=de97051c8d91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>FLORIDA</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>PASEO</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28008</gp02:tieneCP>
+	<gp02:tieneBarrio>CASA DE CAMPO</gp02:tieneBarrio>
+	<gp02:tieneDistrito>MONCLOA-ARAVACA</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">438948</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474919</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.42078197104075</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7209625681527148</gp02:tieneLongitud>
+	<gp02:tieneTelefono>902 333 231</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/10">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">137916</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Cinesa Proyecciones 3D</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: San Bernardo (líneas 2, 4), Quevedo (línea 2), Bilbao (líneas 1, 4 )  Bus: 3, 21, 37, 40, 147, 149 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2f67051c8d91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">FUENCARRAL</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">136</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28010</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">TRAFALGAR</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">CHAMBERI</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440460</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476095</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.43148568058066</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7032511074682977</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">902 333 231</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Cinesa+Proyecciones+3D">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>137916</gp02:tienePK>
+	<gp02:tieneNombre>Cine Cinesa Proyecciones 3D</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: San Bernardo (líneas 2, 4), Quevedo (línea 2), Bilbao (líneas 1, 4 )  Bus: 3, 21, 37, 40, 147, 149 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2f67051c8d91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>FUENCARRAL</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">136</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28010</gp02:tieneCP>
+	<gp02:tieneBarrio>TRAFALGAR</gp02:tieneBarrio>
+	<gp02:tieneDistrito>CHAMBERI</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440460</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476095</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.43148568058066</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7032511074682977</gp02:tieneLongitud>
+	<gp02:tieneTelefono>902 333 231</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/11">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17327</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Conde Duque Alberto Aguilera</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: San Bernardo (líneas 2, 4)  Bus: 3, 21, 147, 149 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=72dc3d232e91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">ALBERTO AGUILERA</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">ARAPILES</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">CHAMBERI</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440175</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475912</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.42981664825533</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.706593653591267</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">914 477 184</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Conde+Duque+Alberto+Aguilera">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>17327</gp02:tienePK>
+	<gp02:tieneNombre>Cine Conde Duque Alberto Aguilera</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: San Bernardo (líneas 2, 4)  Bus: 3, 21, 147, 149 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=72dc3d232e91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>ALBERTO AGUILERA</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</gp02:tieneCP>
+	<gp02:tieneBarrio>ARAPILES</gp02:tieneBarrio>
+	<gp02:tieneDistrito>CHAMBERI</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440175</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475912</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.42981664825533</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.706593653591267</gp02:tieneLongitud>
+	<gp02:tieneTelefono>914 477 184</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/12">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">124770</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Conde Duque Goya</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Goya (líneas 2,4 ), Velázquez (línea 4), Príncipe de Vergara (líneas 2, 9)  Bus: 15, 21, 26, 29, 52, 53, 61, 146, 152 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">1</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e5ec654d9d91f010VgnVCM2000000c205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">GOYA</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">67</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28001</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">GOYA</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">SALAMANCA</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442460</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475373</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.425122566570735</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6796079845954734</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">915 783 152       
-</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Conde+Duque+Goya">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>124770</gp02:tienePK>
+	<gp02:tieneNombre>Cine Conde Duque Goya</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Goya (líneas 2,4 ), Velázquez (línea 4), Príncipe de Vergara (líneas 2, 9)  Bus: 15, 21, 26, 29, 52, 53, 61, 146, 152 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">1</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e5ec654d9d91f010VgnVCM2000000c205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>GOYA</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">67</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28001</gp02:tieneCP>
+	<gp02:tieneBarrio>GOYA</gp02:tieneBarrio>
+	<gp02:tieneDistrito>SALAMANCA</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442460</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475373</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.425122566570735</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6796079845954734</gp02:tieneLongitud>
+	<gp02:tieneTelefono>915 783 152       
+</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/13">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">24407</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Conde Duque Santa Engracia 3D</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/">Metro: Rios Rosas(linea 1)</tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c2f255004e91f010VgnVCM2000000c205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">SANTA ENGRACIA</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">132</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28003</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">RIOS ROSAS</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">CHAMBERI</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440596</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4477305</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.442395567766845</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.701772948792809</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">914 411 461</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Conde+Duque+Santa+Engracia+3D">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>24407</gp02:tienePK>
+	<gp02:tieneNombre>Cine Conde Duque Santa Engracia 3D</gp02:tieneNombre>
+	<gp02:tieneTransporte>Metro: Rios Rosas(linea 1)</gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c2f255004e91f010VgnVCM2000000c205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>SANTA ENGRACIA</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">132</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28003</gp02:tieneCP>
+	<gp02:tieneBarrio>RIOS ROSAS</gp02:tieneBarrio>
+	<gp02:tieneDistrito>CHAMBERI</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440596</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4477305</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.442395567766845</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.701772948792809</gp02:tieneLongitud>
+	<gp02:tieneTelefono>914 411 461</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/14">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">129467</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Dreams Palacio de Hielo</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Canillas (línea 4)  Bus: 73, 112, 120, 122, 153 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=442d654d9d91f010VgnVCM2000000c205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">SILVANO</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28043</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">CANILLAS</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">HORTALEZA</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">446189</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4479528</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.462803146661386</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.636003964017397</tieneLongitud>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Dreams+Palacio+de+Hielo">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>129467</gp02:tienePK>
+	<gp02:tieneNombre>Cine Dreams Palacio de Hielo</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Canillas (línea 4)  Bus: 73, 112, 120, 122, 153 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=442d654d9d91f010VgnVCM2000000c205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>SILVANO</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">77</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28043</gp02:tieneCP>
+	<gp02:tieneBarrio>CANILLAS</gp02:tieneBarrio>
+	<gp02:tieneDistrito>HORTALEZA</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">446189</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4479528</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.462803146661386</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.636003964017397</gp02:tieneLongitud>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/15">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17314</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Estudio Círculo de Bellas Artes</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Banco de España (línea 2), Sevilla (línea 2)  Bus: 1, 2, 5, 9, 46, 51, 52, 53, 74, 146, 150, 202 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7cfc3d232e91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">ALCALA</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28014</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">CORTES</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">CENTRO</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">441012</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474640</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.418417756198565</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6966084554513072</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">913 892 500</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Estudio+C%C3%ADrculo+de+Bellas+Artes">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>17314</gp02:tienePK>
+	<gp02:tieneNombre>Cine Estudio Círculo de Bellas Artes</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Banco de España (línea 2), Sevilla (línea 2)  Bus: 1, 2, 5, 9, 46, 51, 52, 53, 74, 146, 150, 202 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7cfc3d232e91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>ALCALA</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28014</gp02:tieneCP>
+	<gp02:tieneBarrio>CORTES</gp02:tieneBarrio>
+	<gp02:tieneDistrito>CENTRO</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">441012</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474640</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.418417756198565</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6966084554513072</gp02:tieneLongitud>
+	<gp02:tieneTelefono>913 892 500</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/16">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17366</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine La Vaguada</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Barrio del Pilar (línea 9)  Bus: 49, 83, 128, 132, 134, 137  </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8e8355004e91f010VgnVCM2000000c205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">SANTIAGO DE COMPOSTELA</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28034</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">LA PAZ</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">FUENCARRAL-EL PARDO</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440936</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4482048</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.48514678964862</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.698194594272782</tieneLongitud>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+La+Vaguada">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>17366</gp02:tienePK>
+	<gp02:tieneNombre>Cine La Vaguada</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Barrio del Pilar (línea 9)  Bus: 49, 83, 128, 132, 134, 137  </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8e8355004e91f010VgnVCM2000000c205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>SANTIAGO DE COMPOSTELA</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28034</gp02:tieneCP>
+	<gp02:tieneBarrio>LA PAZ</gp02:tieneBarrio>
+	<gp02:tieneDistrito>FUENCARRAL-EL PARDO</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440936</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4482048</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.48514678964862</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.698194594272782</gp02:tieneLongitud>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/17">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17349</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Palacio de la Prensa</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/">  Metro:  Callao (líneas 3, 5)   Bus:  1, 2, 46, 74, 75, 146, 147, 148, 202 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fe3d3d232e91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">CALLAO</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">PLAZA</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28013</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">SOL</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">CENTRO</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440257</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474804</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.41984118412432</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7055226978126132</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">915 219 900</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Palacio+de+la+Prensa">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>17349</gp02:tienePK>
+	<gp02:tieneNombre>Cine Palacio de la Prensa</gp02:tieneNombre>
+	<gp02:tieneTransporte>  Metro:  Callao (líneas 3, 5)   Bus:  1, 2, 46, 74, 75, 146, 147, 148, 202 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fe3d3d232e91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>CALLAO</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>PLAZA</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28013</gp02:tieneCP>
+	<gp02:tieneBarrio>SOL</gp02:tieneBarrio>
+	<gp02:tieneDistrito>CENTRO</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440257</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474804</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.41984118412432</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7055226978126132</gp02:tieneLongitud>
+	<gp02:tieneTelefono>915 219 900</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/18">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17350</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Palafox</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/">  Metro:  Bilbao (líneas 1, 4)   Bus:  3, 21, 37, 40, 147, 149 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f15d3d232e91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">LUCHANA</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28010</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">TRAFALGAR</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">CHAMBERI</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440655</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475934</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.430058289017886</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7009373284385667</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">915 938 727</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Palafox">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>17350</gp02:tienePK>
+	<gp02:tieneNombre>Cine Palafox</gp02:tieneNombre>
+	<gp02:tieneTransporte>  Metro:  Bilbao (líneas 1, 4)   Bus:  3, 21, 37, 40, 147, 149 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f15d3d232e91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>LUCHANA</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28010</gp02:tieneCP>
+	<gp02:tieneBarrio>TRAFALGAR</gp02:tieneBarrio>
+	<gp02:tieneDistrito>CHAMBERI</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440655</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475934</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.430058289017886</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7009373284385667</gp02:tieneLongitud>
+	<gp02:tieneTelefono>915 938 727</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/19">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17351</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Paz</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Bilbao (líneas 2, 4), Quevedo (línea 2)  Bus: 3, 16, 21, 37, 40, 61, 147, 149 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f46d3d232e91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">FUENCARRAL</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">125</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28010</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">TRAFALGAR</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">CHAMBERI</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440446</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476028</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.430881110367864</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7034098613735513</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">914 464 566</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Paz">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>17351</gp02:tienePK>
+	<gp02:tieneNombre>Cine Paz</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Bilbao (líneas 2, 4), Quevedo (línea 2)  Bus: 3, 16, 21, 37, 40, 61, 147, 149 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f46d3d232e91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>FUENCARRAL</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">125</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28010</gp02:tieneCP>
+	<gp02:tieneBarrio>TRAFALGAR</gp02:tieneBarrio>
+	<gp02:tieneDistrito>CHAMBERI</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440446</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476028</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.430881110367864</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7034098613735513</gp02:tieneLongitud>
+	<gp02:tieneTelefono>914 464 566</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/20">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17355</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Princesa</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Plaza de España (líneas 3, 10), Ventura Rodríguez (línea 3)  Bus: 1, 2, 44, 74, 133, 138, 202,  C1 ,  C2  </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fa8d3d232e91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">PRINCESA</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28008</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">ARGUELLES</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">MONCLOA-ARAVACA</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">439638</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475352</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.424733058522776</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7128707959595735</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">915 422 702  
-</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Princesa">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>17355</gp02:tienePK>
+	<gp02:tieneNombre>Cine Princesa</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Plaza de España (líneas 3, 10), Ventura Rodríguez (línea 3)  Bus: 1, 2, 44, 74, 133, 138, 202,  C1 ,  C2  </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fa8d3d232e91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>PRINCESA</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28008</gp02:tieneCP>
+	<gp02:tieneBarrio>ARGUELLES</gp02:tieneBarrio>
+	<gp02:tieneDistrito>MONCLOA-ARAVACA</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">439638</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475352</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.424733058522776</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7128707959595735</gp02:tieneLongitud>
+	<gp02:tieneTelefono>915 422 702  
+</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/21">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17358</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Renoir Plaza de España</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Plaza España (líneas 3, 10)  Bus: 1, 2, 44, 46, 74, 75, 133, 138, 148, 202,  C1 ,  C2  </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b1bd3d232e91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">MARTIN DE LOS HEROS</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28008</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">ARGUELLES</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">MONCLOA-ARAVACA</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">439591</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475313</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.424378311873575</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7134211001030777</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">915 422 702 
-</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Renoir+Plaza+de+Espa%C3%B1a">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>17358</gp02:tienePK>
+	<gp02:tieneNombre>Cine Renoir Plaza de España</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Plaza España (líneas 3, 10)  Bus: 1, 2, 44, 46, 74, 75, 133, 138, 148, 202,  C1 ,  C2  </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b1bd3d232e91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>MARTIN DE LOS HEROS</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28008</gp02:tieneCP>
+	<gp02:tieneBarrio>ARGUELLES</gp02:tieneBarrio>
+	<gp02:tieneDistrito>MONCLOA-ARAVACA</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">439591</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475313</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.424378311873575</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7134211001030777</gp02:tieneLongitud>
+	<gp02:tieneTelefono>915 422 702 
+</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/22">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">58576</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Renoir Retiro</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/">  Metro:  Ibiza (líneas 2, 9)   Bus:  2, 15, 26, 61, 63, 202, 215, C1 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b7dd3d232e91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">NARVAEZ</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28009</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">IBIZA</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">RETIRO</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442731</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474811</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.42007851600518</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6763627973897464</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">915 422 702 
-</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Renoir+Retiro">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>58576</gp02:tienePK>
+	<gp02:tieneNombre>Cine Renoir Retiro</gp02:tieneNombre>
+	<gp02:tieneTransporte>  Metro:  Ibiza (líneas 2, 9)   Bus:  2, 15, 26, 61, 63, 202, 215, C1 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b7dd3d232e91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>NARVAEZ</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28009</gp02:tieneCP>
+	<gp02:tieneBarrio>IBIZA</gp02:tieneBarrio>
+	<gp02:tieneDistrito>RETIRO</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442731</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474811</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.42007851600518</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6763627973897464</gp02:tieneLongitud>
+	<gp02:tieneTelefono>915 422 702 
+</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/23">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5787803</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Sala Berlanga</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Moncloa (líneas 3, 6) , Islas Filipinas (línea 7)  Bus: 1, 2, 12, 16, 21, 44, 61, 82, 83, 132, 133, 202, C1 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=08025b888b3aa210VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">ANDRES MELLADO</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">53</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">GAZTAMBIDE</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">CHAMBERI</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">439516</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476595</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.43592165987274</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.7144273694875025</tieneLongitud>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Sala+Berlanga">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>5787803</gp02:tienePK>
+	<gp02:tieneNombre>Cine Sala Berlanga</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Moncloa (líneas 3, 6) , Islas Filipinas (línea 7)  Bus: 1, 2, 12, 16, 21, 44, 61, 82, 83, 132, 133, 202, C1 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=08025b888b3aa210VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>ANDRES MELLADO</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">53</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</gp02:tieneCP>
+	<gp02:tieneBarrio>GAZTAMBIDE</gp02:tieneBarrio>
+	<gp02:tieneDistrito>CHAMBERI</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">439516</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476595</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.43592165987274</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7144273694875025</gp02:tieneLongitud>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/24">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">91099</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Verdi HD</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Canal (líneas 2, 7), Quevedo (línea 2)  Bus: 3, 12, 16, 37, 61, 149 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b63e3d232e91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">BRAVO MURILLO</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">TRAFALGAR</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">CHAMBERI</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440393</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476667</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.43662476624267</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.70408281907753</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">914 473 930 
-</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Verdi+HD">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>91099</gp02:tienePK>
+	<gp02:tieneNombre>Cine Verdi HD</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Canal (líneas 2, 7), Quevedo (línea 2)  Bus: 3, 12, 16, 37, 61, 149 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b63e3d232e91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>BRAVO MURILLO</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</gp02:tieneCP>
+	<gp02:tieneBarrio>TRAFALGAR</gp02:tieneBarrio>
+	<gp02:tieneDistrito>CHAMBERI</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440393</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476667</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.43662476624267</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.70408281907753</gp02:tieneLongitud>
+	<gp02:tieneTelefono>914 473 930 
+</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/25">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30455</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cine Victoria</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Diego de León (líneas 4, 5, 6)  Bus: 12, 26, 43, 48, 56, 61, 72, 73,    C1   ,   C2  </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=394e3d232e91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">FRANCISCO SILVELA</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">48</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28028</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">GUINDALERA</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">SALAMANCA</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442966</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476373</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.43416598323624</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6737332830250886</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">917 251 266</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Victoria">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>30455</gp02:tienePK>
+	<gp02:tieneNombre>Cine Victoria</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Diego de León (líneas 4, 5, 6)  Bus: 12, 26, 43, 48, 56, 61, 72, 73,    C1   ,   C2  </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=394e3d232e91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>FRANCISCO SILVELA</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">48</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28028</gp02:tieneCP>
+	<gp02:tieneBarrio>GUINDALERA</gp02:tieneBarrio>
+	<gp02:tieneDistrito>SALAMANCA</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442966</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476373</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.43416598323624</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6737332830250886</gp02:tieneLongitud>
+	<gp02:tieneTelefono>917 251 266</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/26">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5548871</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cines Yelmo Islazul</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Bus: 35, 108, 118, 155 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2bc4a4cc80056210VgnVCM2000000c205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">CALDERILLA</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28054</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">BUENAVISTA</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">CARABANCHEL</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">437457</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4468762</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.3652060762759</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.737931015705989</tieneLongitud>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCines+Yelmo+Islazul">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>5548871</gp02:tienePK>
+	<gp02:tieneNombre>Cines Yelmo Islazul</gp02:tieneNombre>
+	<gp02:tieneTransporte> Bus: 35, 108, 118, 155 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2bc4a4cc80056210VgnVCM2000000c205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>CALDERILLA</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28054</gp02:tieneCP>
+	<gp02:tieneBarrio>BUENAVISTA</gp02:tieneBarrio>
+	<gp02:tieneDistrito>CARABANCHEL</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">437457</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4468762</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.3652060762759</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.737931015705989</gp02:tieneLongitud>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/27">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4549928</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cinesa Manoteras</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Renfe: Fuente de la Mora ( C7 ,  C10 )  Bus: 150, 174 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1eb86f91462a1110VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">MANOTERAS</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">AVENIDA</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28050</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">VALDEFUENTES</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">HORTALEZA</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">443715</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4482126</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.48604287095553</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.6654142365599194</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">902 100 842 
-</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCinesa+Manoteras">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>4549928</gp02:tienePK>
+	<gp02:tieneNombre>Cinesa Manoteras</gp02:tieneNombre>
+	<gp02:tieneTransporte> Renfe: Fuente de la Mora ( C7 ,  C10 )  Bus: 150, 174 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1eb86f91462a1110VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>MANOTERAS</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>AVENIDA</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28050</gp02:tieneCP>
+	<gp02:tieneBarrio>VALDEFUENTES</gp02:tieneBarrio>
+	<gp02:tieneDistrito>HORTALEZA</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">443715</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4482126</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.48604287095553</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6654142365599194</gp02:tieneLongitud>
+	<gp02:tieneTelefono>902 100 842 
+</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/28">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6963310</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Cineteca del Matadero Madrid</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro :  Legazpi (líneas 6, 3)  Bus: 6 , 8 , 18 , 19 , 45 , 78 , 148 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">1</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2dbd1fe44c5ee310VgnVCM2000000c205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">CHOPERA</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">PASEO</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28045</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">CHOPERA</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">ARGANZUELA</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440934</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4471754</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.39241367848808</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.697259467865366</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">915 170 903                            
-</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FCineteca+del+Matadero+Madrid">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>6963310</gp02:tienePK>
+	<gp02:tieneNombre>Cineteca del Matadero Madrid</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro :  Legazpi (líneas 6, 3)  Bus: 6 , 8 , 18 , 19 , 45 , 78 , 148 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">1</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2dbd1fe44c5ee310VgnVCM2000000c205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>CHOPERA</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>PASEO</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28045</gp02:tieneCP>
+	<gp02:tieneBarrio>CHOPERA</gp02:tieneBarrio>
+	<gp02:tieneDistrito>ARGANZUELA</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440934</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4471754</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.39241367848808</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.697259467865366</gp02:tieneLongitud>
+	<gp02:tieneTelefono>915 170 903                            
+</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/29">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2044</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Filmoteca Española. Cine Doré</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Antón Martín (Línea 1)  Bus: 6, 26, 32 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1c1f3d232e91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">SANTA ISABEL</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28012</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">EMBAJADORES</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">CENTRO</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440784</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4473908</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.411807323876616</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.69922751452095</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">913 692 118 (gerencia) / 913 691 125 (taquillas) / 913 694 923 (cafetería) / 913 694 673 (librería)</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FFilmoteca+Espa%C3%B1ola.+Cine+Dor%C3%A9">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>2044</gp02:tienePK>
+	<gp02:tieneNombre>Filmoteca Española. Cine Doré</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Antón Martín (Línea 1)  Bus: 6, 26, 32 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1c1f3d232e91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>SANTA ISABEL</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28012</gp02:tieneCP>
+	<gp02:tieneBarrio>EMBAJADORES</gp02:tieneBarrio>
+	<gp02:tieneDistrito>CENTRO</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440784</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4473908</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.411807323876616</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.69922751452095</gp02:tieneLongitud>
+	<gp02:tieneTelefono>913 692 118 (gerencia) / 913 691 125 (taquillas) / 913 694 923 (cafetería) / 913 694 673 (librería)</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/30">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43002</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Pequeño Cine Estudio</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Quevedo ( L2 ), San Bernardo ( L2 ,  L4 )  Bus: 16, 37, 61, 149 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f77d3d232e91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">MAGALLANES</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">ARAPILES</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">CHAMBERI</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440276</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476202</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.4324363685589</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.705430315372582</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">914 472 920</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FPeque%C3%B1o+Cine+Estudio">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>43002</gp02:tienePK>
+	<gp02:tieneNombre>Pequeño Cine Estudio</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Quevedo ( L2 ), San Bernardo ( L2 ,  L4 )  Bus: 16, 37, 61, 149 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f77d3d232e91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>MAGALLANES</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</gp02:tieneCP>
+	<gp02:tieneBarrio>ARAPILES</gp02:tieneBarrio>
+	<gp02:tieneDistrito>CHAMBERI</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440276</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476202</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4324363685589</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.705430315372582</gp02:tieneLongitud>
+	<gp02:tieneTelefono>914 472 920</gp02:tieneTelefono>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/31">
-	<tienePK xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17345</tienePK>
-	<tieneNombre xmlns="http://www.semanticweb.org/webSemantica/">Yelmo Cines Ideal 3D</tieneNombre>
-	<tieneTransporte xmlns="http://www.semanticweb.org/webSemantica/"> Metro: Tirso de Molina (línea 1)  Bus: 6, 32, 50, 65 </tieneTransporte>
-	<tieneAccesibilidad xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</tieneAccesibilidad>
-	<tieneURL xmlns="http://www.semanticweb.org/webSemantica/">http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fb5e3d232e91f010VgnVCM1000000b205a0aRCRD</tieneURL>
-	<tieneNombreVia xmlns="http://www.semanticweb.org/webSemantica/">DOCTOR CORTEZO</tieneNombreVia>
-	<tieneClaseVial xmlns="http://www.semanticweb.org/webSemantica/">CALLE</tieneClaseVial>
-	<tieneNum xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</tieneNum>
-	<tieneLocalidad xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneLocalidad>
-	<tieneProvincia xmlns="http://www.semanticweb.org/webSemantica/">MADRID</tieneProvincia>
-	<tieneCP xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28012</tieneCP>
-	<tieneBarrio xmlns="http://www.semanticweb.org/webSemantica/">EMBAJADORES</tieneBarrio>
-	<tieneDistrito xmlns="http://www.semanticweb.org/webSemantica/">CENTRO</tieneDistrito>
-	<tieneCoordX xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440397</tieneCoordX>
-	<tieneCoordY xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474133</tieneCoordY>
-	<tieneLatitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40.41380655817473</tieneLatitud>
-	<tieneLongitud xmlns="http://www.semanticweb.org/webSemantica/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-3.70380956260549</tieneLongitud>
-	<tieneTelefono xmlns="http://www.semanticweb.org/webSemantica/">914 362 518 
-</tieneTelefono>
+<rdf:Description rdf:about="http://www.semanticweb.org/webSemantica/group02/Cine%2FYelmo+Cines+Ideal+3D">
+	<rdf:type rdf:resource="http://www.semanticweb.org/webSemantica/group02#Cine"/>
+	<gp02:tienePK>17345</gp02:tienePK>
+	<gp02:tieneNombre>Yelmo Cines Ideal 3D</gp02:tieneNombre>
+	<gp02:tieneTransporte> Metro: Tirso de Molina (línea 1)  Bus: 6, 32, 50, 65 </gp02:tieneTransporte>
+	<gp02:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">0</gp02:tieneAccesibilidad>
+	<gp02:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fb5e3d232e91f010VgnVCM1000000b205a0aRCRD</gp02:tieneURL>
+	<gp02:tieneNombreVia>DOCTOR CORTEZO</gp02:tieneNombreVia>
+	<gp02:tieneClaseVial>CALLE</gp02:tieneClaseVial>
+	<gp02:tieneNum rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</gp02:tieneNum>
+	<gp02:tieneLocalidad rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneProvincia rdf:resource="http://dbpedia.org/resource/Madrid"/>
+	<gp02:tieneCP rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28012</gp02:tieneCP>
+	<gp02:tieneBarrio>EMBAJADORES</gp02:tieneBarrio>
+	<gp02:tieneDistrito>CENTRO</gp02:tieneDistrito>
+	<gp02:tieneCoordX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440397</gp02:tieneCoordX>
+	<gp02:tieneCoordY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474133</gp02:tieneCoordY>
+	<gp02:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.41380655817473</gp02:tieneLatitud>
+	<gp02:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.70380956260549</gp02:tieneLongitud>
+	<gp02:tieneTelefono>914 362 518 
+</gp02:tieneTelefono>
 </rdf:Description>
 
 </rdf:RDF>

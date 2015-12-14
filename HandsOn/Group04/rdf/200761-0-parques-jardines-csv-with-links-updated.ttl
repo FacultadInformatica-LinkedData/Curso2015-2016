@@ -3,6 +3,8 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix base: <http://puntosinteres.madrid.es/group04/ontology/puntosinteres#> .
 
@@ -27,8 +29,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BosquedelRecuerdo> a base:Direccion ;
 	base:tieneNumero "48"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "ALFONSO XII" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "ALFONSO XII" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/BosquedelRecuerdo> a base:Metro .
@@ -63,8 +65,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinescallesRaimundoFer> a base:Direccion ;
 	base:tieneNumero "32"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28003"^^xsd:int ;
-	base:tieneCalle "RAIMUNDO FERNANDEZ VILLAVERDE" ;
+	locn:postCode "28003"^^xsd:int ;
+	locn:address "RAIMUNDO FERNANDEZ VILLAVERDE" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinescallesRaimundoFer> a base:Metro ;
@@ -100,8 +102,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelaBasilica> a base:Direccion ;
 	base:tieneNumero "15"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/TETUAN> ;
-	base:tieneCodigoPostal "28020"^^xsd:int ;
-	base:tieneCalle "BASILICA" ;
+	locn:postCode "28020"^^xsd:int ;
+	locn:address "BASILICA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinesdelaBasilica> a base:Metro ;
@@ -137,8 +139,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelacalleTeresita> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/TETUAN> ;
-	base:tieneCodigoPostal "28020"^^xsd:int ;
-	base:tieneCalle "SAN AMARO" ;
+	locn:postCode "28020"^^xsd:int ;
+	locn:address "SAN AMARO" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinesdelacalleTeresita> a base:Metro .
@@ -168,8 +170,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelaOrganizacionM> a base:Direccion ;
 	base:tieneNumero "31"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/TETUAN> ;
-	base:tieneCodigoPostal "28020"^^xsd:int ;
-	base:tieneCalle "BRASIL" ;
+	locn:postCode "28020"^^xsd:int ;
+	locn:address "BRASIL" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinesdelaOrganizacionM> a base:Metro .
@@ -200,8 +202,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelaPlazaCondedel> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28015"^^xsd:int ;
-	base:tieneCalle "RODRIGUEZ SAN PEDRO" ;
+	locn:postCode "28015"^^xsd:int ;
+	locn:address "RODRIGUEZ SAN PEDRO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinesdelaPlazaCondedel> a base:Metro ;
@@ -233,8 +235,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelaPlazadeChambe> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28010"^^xsd:int ;
-	base:tieneCalle "CHAMBERI" ;
+	locn:postCode "28010"^^xsd:int ;
+	locn:address "CHAMBERI" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinesdelaPlazadeChambe> a base:Metro ;
@@ -266,8 +268,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelaPlazadelaVill> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28004"^^xsd:int ;
-	base:tieneCalle "GENERAL CASTAÑOS" ;
+	locn:postCode "28004"^^xsd:int ;
+	locn:address "GENERAL CASTAÑOS" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinesdelaPlazadelaVill> a base:Metro ;
@@ -303,8 +305,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelaPlazadeOlavid> a base:Direccion ;
 	base:tieneNumero "16"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28010"^^xsd:int ;
-	base:tieneCalle "OLAVIDE" ;
+	locn:postCode "28010"^^xsd:int ;
+	locn:address "OLAVIDE" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinesdelaPlazadeOlavid> a base:Metro ;
@@ -336,8 +338,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelaPlazadeOrient> a base:Direccion ;
 	base:tieneNumero "17"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "BAILEN" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "BAILEN" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinesdelaPlazadeOrient> a base:Metro ;
@@ -369,8 +371,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelasVistillas> a base:Direccion ;
 	base:tieneNumero "12"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "MORERIA" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "MORERIA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinesdelasVistillas> a base:Metro .
@@ -401,8 +403,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdePeron> a base:Direccion ;
 	base:tieneNumero "21"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/TETUAN> ;
-	base:tieneCodigoPostal "28020"^^xsd:int ;
-	base:tieneCalle "GENERAL PERON" ;
+	locn:postCode "28020"^^xsd:int ;
+	locn:address "GENERAL PERON" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinesdePeron> a base:Metro ;
@@ -432,8 +434,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdeSabatini> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "BAILEN" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "BAILEN" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinesdeSabatini> a base:Metro .
@@ -463,8 +465,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdeSanFernando> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMARTIN> ;
-	base:tieneCodigoPostal "28036"^^xsd:int ;
-	base:tieneCalle "ALBERTO ALCOCER" ;
+	locn:postCode "28036"^^xsd:int ;
+	locn:address "ALBERTO ALCOCER" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinesdeSanFernando> a base:Metro ;
@@ -499,8 +501,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelArquitectoRibe> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28004"^^xsd:int ;
-	base:tieneCalle "BARCELO" ;
+	locn:postCode "28004"^^xsd:int ;
+	locn:address "BARCELO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinesdelArquitectoRibe> a base:Metro ;
@@ -532,8 +534,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelDescubrimiento> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28001"^^xsd:int ;
-	base:tieneCalle "GOYA" ;
+	locn:postCode "28001"^^xsd:int ;
+	locn:address "GOYA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinesdelDescubrimiento> a base:Metro ;
@@ -568,8 +570,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelDoctorFleming> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMARTIN> ;
-	base:tieneCodigoPostal "28036"^^xsd:int ;
-	base:tieneCalle "DOCTOR FLEMING" ;
+	locn:postCode "28036"^^xsd:int ;
+	locn:address "DOCTOR FLEMING" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinesdelDoctorFleming> a base:Metro ;
@@ -600,8 +602,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelMundial.Castel> a base:Direccion ;
 	base:tieneNumero "142"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMARTIN> ;
-	base:tieneCodigoPostal "28046"^^xsd:int ;
-	base:tieneCalle "CASTELLANA" ;
+	locn:postCode "28046"^^xsd:int ;
+	locn:address "CASTELLANA" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinesdelMundial.Castel> a base:Metro ;
@@ -633,8 +635,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesdelPrincipedeAngl> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "PAJA" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "PAJA" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinesdelPrincipedeAngl> a base:Metro ;
@@ -665,8 +667,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinesGregorioOrdonez> a base:Direccion ;
 	base:tieneNumero "68"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28006"^^xsd:int ;
-	base:tieneCalle "PRINCIPE DE VERGARA" ;
+	locn:postCode "28006"^^xsd:int ;
+	locn:address "PRINCIPE DE VERGARA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinesGregorioOrdonez> a base:Metro ;
@@ -698,8 +700,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinConcejalAlejandroMu> a base:Direccion ;
 	base:tieneNumero "32"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28015"^^xsd:int ;
-	base:tieneCalle "MELENDEZ VALDES" ;
+	locn:postCode "28015"^^xsd:int ;
+	locn:address "MELENDEZ VALDES" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinConcejalAlejandroMu> a base:Metro .
@@ -730,8 +732,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardindeEmbajadoresM-30,M> a base:Direccion ;
 	base:tieneNumero "29"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/ARGANZUELA> ;
-	base:tieneCodigoPostal "28045"^^xsd:int ;
-	base:tieneCalle "PUERTO DE LA CRUZ VERDE" ;
+	locn:postCode "28045"^^xsd:int ;
+	locn:address "PUERTO DE LA CRUZ VERDE" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardindeEmbajadoresM-30,M> a base:Metro .
@@ -765,8 +767,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardindelaColoniaCongosto> a base:Direccion ;
 	base:tieneNumero "70"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLADEVALLECAS> ;
-	base:tieneCodigoPostal "28031"^^xsd:int ;
-	base:tieneCalle "CONGOSTO" ;
+	locn:postCode "28031"^^xsd:int ;
+	locn:address "CONGOSTO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardindelaColoniaCongosto> a base:Metro ;
@@ -801,8 +803,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardindeLarra> a base:Direccion ;
 	base:tieneNumero "7"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "FACTOR" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "FACTOR" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardindeLarra> a base:Metro ;
@@ -833,8 +835,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardindelasBellasArtes> a base:Direccion ;
 	base:tieneNumero "78"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMARTIN> ;
-	base:tieneCodigoPostal "28046"^^xsd:int ;
-	base:tieneCalle "CASTELLANA" ;
+	locn:postCode "28046"^^xsd:int ;
+	locn:address "CASTELLANA" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardindelasBellasArtes> a base:Metro ;
@@ -864,8 +866,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardindelBulevardePenaGor> a base:Direccion ;
 	base:tieneNumero "17"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/PUENTEDEVALLECAS> ;
-	base:tieneCodigoPostal "28053"^^xsd:int ;
-	base:tieneCalle "PEÑA GORBEA" ;
+	locn:postCode "28053"^^xsd:int ;
+	locn:address "PEÑA GORBEA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardindelBulevardePenaGor> a base:Metro ;
@@ -901,8 +903,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardindelMaestroPadilla> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/ARGANZUELA> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "SAN ALEJANDRO" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "SAN ALEJANDRO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardindelMaestroPadilla> a base:Metro .
@@ -933,8 +935,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardindelTemplodeDebod> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28008"^^xsd:int ;
-	base:tieneCalle "FERRAZ" ;
+	locn:postCode "28008"^^xsd:int ;
+	locn:address "FERRAZ" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardindelTemplodeDebod> a base:Metro ;
@@ -970,8 +972,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinDionisioRidruejo> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MORATALAZ> ;
-	base:tieneCodigoPostal "28030"^^xsd:int ;
-	base:tieneCalle "MOLINA DE SEGURA" ;
+	locn:postCode "28030"^^xsd:int ;
+	locn:address "MOLINA DE SEGURA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinDionisioRidruejo> a base:Metro .
@@ -1006,8 +1008,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinDonaConchaPiquer> a base:Direccion ;
 	base:tieneNumero "93"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/ARGANZUELA> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "IMPERIAL" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "IMPERIAL" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinDonaConchaPiquer> a base:Metro ;
@@ -1039,8 +1041,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinelTorero> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/USERA> ;
-	base:tieneCodigoPostal "28026"^^xsd:int ;
-	base:tieneCalle "TORERO" ;
+	locn:postCode "28026"^^xsd:int ;
+	locn:address "TORERO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinelTorero> a base:Metro .
@@ -1074,8 +1076,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinFachadaPiramidesI> a base:Direccion ;
 	base:tieneNumero "60"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/ARGANZUELA> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "ACACIAS" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "ACACIAS" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinFachadaPiramidesI> a base:Metro ;
@@ -1106,8 +1108,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinGlorietadeAzorin> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "VEGA" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "VEGA" ;
 	base:tieneTipoVia "CUESTA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinGlorietadeAzorin> a base:Metro .
@@ -1138,8 +1140,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinJazmin.ParquedelaCo> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/HORTALEZA> ;
-	base:tieneCodigoPostal "28033"^^xsd:int ;
-	base:tieneCalle "ROQUETAS DE MAR" ;
+	locn:postCode "28033"^^xsd:int ;
+	locn:address "ROQUETAS DE MAR" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinJazmin.ParquedelaCo> a base:Metro .
@@ -1174,8 +1176,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/JardinPalacioO'Reilly> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "CRUZ VERDE" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "CRUZ VERDE" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/JardinPalacioO'Reilly> a base:Metro .
@@ -1206,8 +1208,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PabellondelosJardinesdeCe> a base:Direccion ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28009"^^xsd:int ;
-	base:tieneCalle "URUGUAY" ;
+	locn:postCode "28009"^^xsd:int ;
+	locn:address "URUGUAY" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PabellondelosJardinesdeCe> a base:Metro .
@@ -1238,8 +1240,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueAgustinRodriguezSah> a base:Direccion ;
 	base:tieneNumero "301"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/TETUAN> ;
-	base:tieneCodigoPostal "28029"^^xsd:int ;
-	base:tieneCalle "DIRECCION" ;
+	locn:postCode "28029"^^xsd:int ;
+	locn:address "DIRECCION" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueAgustinRodriguezSah> a base:Metro .
@@ -1270,8 +1272,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueAlcampo> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MORATALAZ> ;
-	base:tieneCodigoPostal "28030"^^xsd:int ;
-	base:tieneCalle "CAMINO DE LOS VINATEROS" ;
+	locn:postCode "28030"^^xsd:int ;
+	locn:address "CAMINO DE LOS VINATEROS" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueAlcampo> a base:Metro ;
@@ -1301,8 +1303,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueAlmansa> a base:Direccion ;
 	base:tieneNumero "97"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28040"^^xsd:int ;
-	base:tieneCalle "ALMANSA" ;
+	locn:postCode "28040"^^xsd:int ;
+	locn:address "ALMANSA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueAlmansa> a base:Metro .
@@ -1332,8 +1334,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueAluche-Poblados> a base:Direccion ;
 	base:tieneNumero "22"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/LATINA> ;
-	base:tieneCodigoPostal "28044"^^xsd:int ;
-	base:tieneCalle "GUAREÑA" ;
+	locn:postCode "28044"^^xsd:int ;
+	locn:address "GUAREÑA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueAluche-Poblados> a base:Metro ;
@@ -1370,8 +1372,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueAlzola> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/USERA> ;
-	base:tieneCodigoPostal "28041"^^xsd:int ;
-	base:tieneCalle "BEASAIN" ;
+	locn:postCode "28041"^^xsd:int ;
+	locn:address "BEASAIN" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueAlzola> a base:Metro .
@@ -1402,8 +1404,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueAntonioPirala> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CIUDADLINEAL> ;
-	base:tieneCodigoPostal "28017"^^xsd:int ;
-	base:tieneCalle "ANTONIO PIRALA" ;
+	locn:postCode "28017"^^xsd:int ;
+	locn:address "ANTONIO PIRALA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueAntonioPirala> a base:Metro ;
@@ -1438,8 +1440,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueAnunciacion> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28009"^^xsd:int ;
-	base:tieneCalle "ANUNCIACION" ;
+	locn:postCode "28009"^^xsd:int ;
+	locn:address "ANUNCIACION" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueAnunciacion> a base:Metro .
@@ -1470,8 +1472,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueArquitectoAntonioPa> a base:Direccion ;
 	base:tieneNumero "17"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SANBLAS-CANILLEJAS> ;
-	base:tieneCodigoPostal "28022"^^xsd:int ;
-	base:tieneCalle "FENELON" ;
+	locn:postCode "28022"^^xsd:int ;
+	locn:address "FENELON" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueArquitectoAntonioPa> a base:Metro ;
@@ -1507,8 +1509,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueArroyodelosPinos> a base:Direccion ;
 	base:tieneNumero "21"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28035"^^xsd:int ;
-	base:tieneCalle "JOAQUIN LORENZO" ;
+	locn:postCode "28035"^^xsd:int ;
+	locn:address "JOAQUIN LORENZO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueArroyodelosPinos> a base:Metro ;
@@ -1544,8 +1546,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueArroyoFontarron> a base:Direccion ;
 	base:tieneNumero "22"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MORATALAZ> ;
-	base:tieneCodigoPostal "28030"^^xsd:int ;
-	base:tieneCalle "ARROYO FONTARRON" ;
+	locn:postCode "28030"^^xsd:int ;
+	locn:address "ARROYO FONTARRON" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueArroyoFontarron> a base:Metro .
@@ -1576,8 +1578,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueArroyoFresno> a base:Direccion ;
 	base:tieneNumero "43"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28035"^^xsd:int ;
-	base:tieneCalle "VENTISQUERO DE LA CONDESA" ;
+	locn:postCode "28035"^^xsd:int ;
+	locn:address "VENTISQUERO DE LA CONDESA" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueArroyoFresno> a base:Metro .
@@ -1607,8 +1609,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueAvenidadePortugal> a base:Direccion ;
 	base:tieneNumero "300"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/LATINA> ;
-	base:tieneCodigoPostal "28011"^^xsd:int ;
-	base:tieneCalle "A-5" ;
+	locn:postCode "28011"^^xsd:int ;
+	locn:address "A-5" ;
 	base:tieneTipoVia "AUTOVIA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueAvenidadePortugal> a base:Metro .
@@ -1639,8 +1641,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueAzorin> a base:Direccion ;
 	base:tieneNumero "142"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/PUENTEDEVALLECAS> ;
-	base:tieneCodigoPostal "28038"^^xsd:int ;
-	base:tieneCalle "ALBUFERA" ;
+	locn:postCode "28038"^^xsd:int ;
+	locn:address "ALBUFERA" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueAzorin> a base:Metro ;
@@ -1672,8 +1674,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueBarrioLasMusas> a base:Direccion ;
 	base:tieneNumero "55"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SANBLAS-CANILLEJAS> ;
-	base:tieneCodigoPostal "28022"^^xsd:int ;
-	base:tieneCalle "NIZA" ;
+	locn:postCode "28022"^^xsd:int ;
+	locn:address "NIZA" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueBarrioLasMusas> a base:Metro ;
@@ -1704,8 +1706,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueBegona> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28034"^^xsd:int ;
-	base:tieneCalle "SAN MODESTO" ;
+	locn:postCode "28034"^^xsd:int ;
+	locn:address "SAN MODESTO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueBegona> a base:Metro .
@@ -1737,8 +1739,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueBiosaludable> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/BARAJAS> ;
-	base:tieneCodigoPostal "28042"^^xsd:int ;
-	base:tieneCalle "ALAMEDA DE OSUNA" ;
+	locn:postCode "28042"^^xsd:int ;
+	locn:address "ALAMEDA DE OSUNA" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueBiosaludable> a base:Metro ;
@@ -1774,8 +1776,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCaminodeVasares> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLADEVALLECAS> ;
-	base:tieneCodigoPostal "28031"^^xsd:int ;
-	base:tieneCalle "VASARES" ;
+	locn:postCode "28031"^^xsd:int ;
+	locn:address "VASARES" ;
 	base:tieneTipoVia "CAMINO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueCaminodeVasares> a base:Metro ;
@@ -1806,8 +1808,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCampodelaPaloma> a base:Direccion ;
 	base:tieneNumero "38"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/PUENTEDEVALLECAS> ;
-	base:tieneCodigoPostal "28018"^^xsd:int ;
-	base:tieneCalle "RAFAEL ALBERTI" ;
+	locn:postCode "28018"^^xsd:int ;
+	locn:address "RAFAEL ALBERTI" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueCampodelaPaloma> a base:Metro .
@@ -1837,8 +1839,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCaramuel> a base:Direccion ;
 	base:tieneNumero "53"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/LATINA> ;
-	base:tieneCodigoPostal "28011"^^xsd:int ;
-	base:tieneCalle "CARAMUEL" ;
+	locn:postCode "28011"^^xsd:int ;
+	locn:address "CARAMUEL" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueCaramuel> a base:Metro .
@@ -1869,8 +1871,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCarlosAriasNavarro> a base:Direccion ;
 	base:tieneNumero "45"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/LATINA> ;
-	base:tieneCodigoPostal "28024"^^xsd:int ;
-	base:tieneCalle "TEMBLEQUE" ;
+	locn:postCode "28024"^^xsd:int ;
+	locn:address "TEMBLEQUE" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueCarlosAriasNavarro> a base:Metro ;
@@ -1903,8 +1905,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCerroAlmodovar> a base:Direccion ;
 	base:tieneNumero "29"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/LATINA> ;
-	base:tieneCodigoPostal "28047"^^xsd:int ;
-	base:tieneCalle "MARCELINO CASTILLO" ;
+	locn:postCode "28047"^^xsd:int ;
+	locn:address "MARCELINO CASTILLO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueCerroAlmodovar> a base:Metro .
@@ -1935,8 +1937,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCerrodelTioPio> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/PUENTEDEVALLECAS> ;
-	base:tieneCodigoPostal "28038"^^xsd:int ;
-	base:tieneCalle "BENJAMIN PALENCIA" ;
+	locn:postCode "28038"^^xsd:int ;
+	locn:address "BENJAMIN PALENCIA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueCerrodelTioPio> a base:Metro .
@@ -1967,8 +1969,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCerroPenabel> a base:Direccion ;
 	base:tieneNumero "12"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28035"^^xsd:int ;
-	base:tieneCalle "CANDIDO MATEOS" ;
+	locn:postCode "28035"^^xsd:int ;
+	locn:address "CANDIDO MATEOS" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueCerroPenabel> a base:Metro .
@@ -1997,8 +1999,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCerroAguila> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28023"^^xsd:int ;
-	base:tieneCalle "CERRO DEL AGUILA" ;
+	locn:postCode "28023"^^xsd:int ;
+	locn:address "CERRO DEL AGUILA" ;
 	base:tieneTipoVia "CAMINO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueCerroAguila> a base:Metro .
@@ -2028,8 +2030,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCiudaddelosAngeles> a base:Direccion ;
 	base:tieneNumero "14"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLAVERDE> ;
-	base:tieneCodigoPostal "28041"^^xsd:int ;
-	base:tieneCalle "ANOETA" ;
+	locn:postCode "28041"^^xsd:int ;
+	locn:address "ANOETA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueCiudaddelosAngeles> a base:Metro ;
@@ -2064,8 +2066,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCuestadelGalban> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28023"^^xsd:int ;
-	base:tieneCalle "GALBAN" ;
+	locn:postCode "28023"^^xsd:int ;
+	locn:address "GALBAN" ;
 	base:tieneTipoVia "CUESTA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueCuestadelGalban> a base:Metro .
@@ -2096,8 +2098,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueCunaVerdedeVicalvar> a base:Direccion ;
 	base:tieneNumero "300"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VICALVARO> ;
-	base:tieneCodigoPostal "28032"^^xsd:int ;
-	base:tieneCalle "DAROCA" ;
+	locn:postCode "28032"^^xsd:int ;
+	locn:address "DAROCA" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueCunaVerdedeVicalvar> a base:Metro ;
@@ -2148,8 +2150,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeAlfonsoXIII> a base:Direccion ;
 	base:tieneNumero "136"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMARTIN> ;
-	base:tieneCodigoPostal "28016"^^xsd:int ;
-	base:tieneCalle "ALFONSO XIII" ;
+	locn:postCode "28016"^^xsd:int ;
+	locn:address "ALFONSO XIII" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeAlfonsoXIII> a base:Metro .
@@ -2180,8 +2182,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeAmosAcero> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/PUENTEDEVALLECAS> ;
-	base:tieneCodigoPostal "28053"^^xsd:int ;
-	base:tieneCalle "SIERRA MOLINA" ;
+	locn:postCode "28053"^^xsd:int ;
+	locn:address "SIERRA MOLINA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeAmosAcero> a base:Metro .
@@ -2212,8 +2214,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeAnaTutor> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28035"^^xsd:int ;
-	base:tieneCalle "VALLE DE PINARES LLANOS" ;
+	locn:postCode "28035"^^xsd:int ;
+	locn:address "VALLE DE PINARES LLANOS" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeAnaTutor> a base:Metro .
@@ -2244,8 +2246,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeArriaga> a base:Direccion ;
 	base:tieneNumero "95"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CIUDADLINEAL> ;
-	base:tieneCodigoPostal "28017"^^xsd:int ;
-	base:tieneCalle "DAROCA" ;
+	locn:postCode "28017"^^xsd:int ;
+	locn:address "DAROCA" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeArriaga> a base:Metro .
@@ -2276,8 +2278,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeAtenas> a base:Direccion ;
 	base:tieneNumero "28"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "SEGOVIA" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "SEGOVIA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeAtenas> a base:Metro .
@@ -2308,8 +2310,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeBerlin> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMARTIN> ;
-	base:tieneCodigoPostal "28016"^^xsd:int ;
-	base:tieneCalle "RAMON Y CAJAL" ;
+	locn:postCode "28016"^^xsd:int ;
+	locn:address "RAMON Y CAJAL" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeBerlin> a base:Metro ;
@@ -2341,8 +2343,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeBreogan> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28028"^^xsd:int ;
-	base:tieneCalle "BRASILIA" ;
+	locn:postCode "28028"^^xsd:int ;
+	locn:address "BRASILIA" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeBreogan> a base:Metro ;
@@ -2374,8 +2376,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeCanillejas> a base:Direccion ;
 	base:tieneNumero "57"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SANBLAS-CANILLEJAS> ;
-	base:tieneCodigoPostal "28022"^^xsd:int ;
-	base:tieneCalle "CIRCE" ;
+	locn:postCode "28022"^^xsd:int ;
+	locn:address "CIRCE" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeCanillejas> a base:Metro .
@@ -2406,8 +2408,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeComillas> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CARABANCHEL> ;
-	base:tieneCodigoPostal "28019"^^xsd:int ;
-	base:tieneCalle "MIGUEL SORIANO" ;
+	locn:postCode "28019"^^xsd:int ;
+	locn:address "MIGUEL SORIANO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeComillas> a base:Metro .
@@ -2442,8 +2444,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeDarwin> a base:Direccion ;
 	base:tieneNumero "29"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MORATALAZ> ;
-	base:tieneCodigoPostal "28030"^^xsd:int ;
-	base:tieneCalle "MANUEL MARIA ARRILLAGA" ;
+	locn:postCode "28030"^^xsd:int ;
+	locn:address "MANUEL MARIA ARRILLAGA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeDarwin> a base:Metro .
@@ -2474,8 +2476,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeDonaGuiomar> a base:Direccion ;
 	base:tieneNumero "7"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/HORTALEZA> ;
-	base:tieneCodigoPostal "28033"^^xsd:int ;
-	base:tieneCalle "ESTACION DE HORTALEZA" ;
+	locn:postCode "28033"^^xsd:int ;
+	locn:address "ESTACION DE HORTALEZA" ;
 	base:tieneTipoVia "CARRETERA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeDonaGuiomar> a base:Metro .
@@ -2507,8 +2509,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeEnriqueHerreros> a base:Direccion ;
 	base:tieneNumero "49"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28003"^^xsd:int ;
-	base:tieneCalle "BRAVO MURILLO" ;
+	locn:postCode "28003"^^xsd:int ;
+	locn:address "BRAVO MURILLO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeEnriqueHerreros> a base:Metro ;
@@ -2540,8 +2542,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeFrancosRodriguez> a base:Direccion ;
 	base:tieneNumero "63"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28040"^^xsd:int ;
-	base:tieneCalle "DOCTOR FEDERICO RUBIO Y GALI" ;
+	locn:postCode "28040"^^xsd:int ;
+	locn:address "DOCTOR FEDERICO RUBIO Y GALI" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeFrancosRodriguez> a base:Metro ;
@@ -2573,8 +2575,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeFuencarral> a base:Direccion ;
 	base:tieneNumero "151"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28034"^^xsd:int ;
-	base:tieneCalle "NUESTRA SEÑORA DE VALVERDE" ;
+	locn:postCode "28034"^^xsd:int ;
+	locn:address "NUESTRA SEÑORA DE VALVERDE" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeFuencarral> a base:Metro .
@@ -2604,8 +2606,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeFuentechica> a base:Direccion ;
 	base:tieneNumero "21"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28034"^^xsd:int ;
-	base:tieneCalle "ANASTASIA LOPEZ" ;
+	locn:postCode "28034"^^xsd:int ;
+	locn:address "ANASTASIA LOPEZ" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeFuentechica> a base:Metro .
@@ -2636,8 +2638,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeFuentelarreina> a base:Direccion ;
 	base:tieneNumero "80"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28035"^^xsd:int ;
-	base:tieneCalle "ROSALIA DE CASTRO" ;
+	locn:postCode "28035"^^xsd:int ;
+	locn:address "ROSALIA DE CASTRO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeFuentelarreina> a base:Metro .
@@ -2668,8 +2670,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeGabrielaMistral> a base:Direccion ;
 	base:tieneNumero "69"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28035"^^xsd:int ;
-	base:tieneCalle "ROSALIA DE CASTRO" ;
+	locn:postCode "28035"^^xsd:int ;
+	locn:address "ROSALIA DE CASTRO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeGabrielaMistral> a base:Metro .
@@ -2700,8 +2702,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeIsabelClaraEugeni> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/HORTALEZA> ;
-	base:tieneCodigoPostal "28033"^^xsd:int ;
-	base:tieneCalle "MAR CASPIO" ;
+	locn:postCode "28033"^^xsd:int ;
+	locn:address "MAR CASPIO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeIsabelClaraEugeni> a base:Metro .
@@ -2732,8 +2734,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeJuanXXIII> a base:Direccion ;
 	base:tieneNumero "21"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28040"^^xsd:int ;
-	base:tieneCalle "JUAN XXIII" ;
+	locn:postCode "28040"^^xsd:int ;
+	locn:address "JUAN XXIII" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeJuanXXIII> a base:Metro ;
@@ -2765,8 +2767,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaAlcazaba> a base:Direccion ;
 	base:tieneNumero "45"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28029"^^xsd:int ;
-	base:tieneCalle "RIBADAVIA" ;
+	locn:postCode "28029"^^xsd:int ;
+	locn:address "RIBADAVIA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelaAlcazaba> a base:Metro .
@@ -2797,8 +2799,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaAlmudena> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CIUDADLINEAL> ;
-	base:tieneCodigoPostal "28017"^^xsd:int ;
-	base:tieneCalle "NICOLAS SALMERON" ;
+	locn:postCode "28017"^^xsd:int ;
+	locn:address "NICOLAS SALMERON" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelaAlmudena> a base:Metro .
@@ -2829,8 +2831,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaAmistad> a base:Direccion ;
 	base:tieneNumero "21"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLAVERDE> ;
-	base:tieneCodigoPostal "28021"^^xsd:int ;
-	base:tieneCalle "SANTA PETRONILA" ;
+	locn:postCode "28021"^^xsd:int ;
+	locn:address "SANTA PETRONILA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelaAmistad> a base:Metro ;
@@ -2862,8 +2864,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaBombilla> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28008"^^xsd:int ;
-	base:tieneCalle "VALLADOLID" ;
+	locn:postCode "28008"^^xsd:int ;
+	locn:address "VALLADOLID" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelaBombilla> a base:Metro ;
@@ -2894,8 +2896,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaCuestadelaVega> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "VEGA" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "VEGA" ;
 	base:tieneTipoVia "CUESTA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelaCuestadelaVega> a base:Metro .
@@ -2926,8 +2928,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaDehesaBoyal> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLAVERDE> ;
-	base:tieneCodigoPostal "28021"^^xsd:int ;
-	base:tieneCalle "BURJASOT" ;
+	locn:postCode "28021"^^xsd:int ;
+	locn:address "BURJASOT" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelaDehesaBoyal> a base:Metro .
@@ -2958,8 +2960,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaMaceta> a base:Direccion ;
 	base:tieneNumero "301"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VICALVARO> ;
-	base:tieneCodigoPostal "28032"^^xsd:int ;
-	base:tieneCalle "DAROCA" ;
+	locn:postCode "28032"^^xsd:int ;
+	locn:address "DAROCA" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelaMaceta> a base:Metro ;
@@ -2991,8 +2993,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaPeseta> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CARABANCHEL> ;
-	base:tieneCodigoPostal "28054"^^xsd:int ;
-	base:tieneCalle "SALVADOR ALLENDE" ;
+	locn:postCode "28054"^^xsd:int ;
+	locn:address "SALVADOR ALLENDE" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelaPeseta> a base:Metro ;
@@ -3024,8 +3026,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaSupermanzana> a base:Direccion ;
 	base:tieneNumero "27"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28034"^^xsd:int ;
-	base:tieneCalle "SANGENJO" ;
+	locn:postCode "28034"^^xsd:int ;
+	locn:address "SANGENJO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelaSupermanzana> a base:Metro ;
@@ -3057,8 +3059,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaVaguada> a base:Direccion ;
 	base:tieneNumero "13"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28029"^^xsd:int ;
-	base:tieneCalle "VAGUADA" ;
+	locn:postCode "28029"^^xsd:int ;
+	locn:address "VAGUADA" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelaVaguada> a base:Metro .
@@ -3089,8 +3091,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaVentilla> a base:Direccion ;
 	base:tieneNumero "51"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/TETUAN> ;
-	base:tieneCodigoPostal "28029"^^xsd:int ;
-	base:tieneCalle "VIA LIMITE" ;
+	locn:postCode "28029"^^xsd:int ;
+	locn:address "VIA LIMITE" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelaVentilla> a base:Metro .
@@ -3121,8 +3123,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelaVicalvarada> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VICALVARO> ;
-	base:tieneCodigoPostal "28032"^^xsd:int ;
-	base:tieneCalle "VILLABLANCA" ;
+	locn:postCode "28032"^^xsd:int ;
+	locn:address "VILLABLANCA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelaVicalvarada> a base:Metro .
@@ -3153,8 +3155,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelasAvenidas> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28028"^^xsd:int ;
-	base:tieneCalle "BRASILIA" ;
+	locn:postCode "28028"^^xsd:int ;
+	locn:address "BRASILIA" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelasAvenidas> a base:Metro ;
@@ -3186,8 +3188,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeLasCruces> a base:Direccion ;
 	base:tieneNumero "74"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CARABANCHEL> ;
-	base:tieneCodigoPostal "28044"^^xsd:int ;
-	base:tieneCalle "POBLADOS" ;
+	locn:postCode "28044"^^xsd:int ;
+	locn:address "POBLADOS" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeLasCruces> a base:Metro ;
@@ -3220,8 +3222,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelasDelicias> a base:Direccion ;
 	base:tieneNumero "13"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/ARGANZUELA> ;
-	base:tieneCodigoPostal "28045"^^xsd:int ;
-	base:tieneCalle "PARROCO EUSEBIO CUENCA" ;
+	locn:postCode "28045"^^xsd:int ;
+	locn:address "PARROCO EUSEBIO CUENCA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelasDelicias> a base:Metro ;
@@ -3254,8 +3256,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelosLlanos> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/HORTALEZA> ;
-	base:tieneCodigoPostal "28043"^^xsd:int ;
-	base:tieneCalle "DIONISIO INCA YUPANQUI" ;
+	locn:postCode "28043"^^xsd:int ;
+	locn:address "DIONISIO INCA YUPANQUI" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelosLlanos> a base:Metro ;
@@ -3287,8 +3289,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelosTilosFaseI> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CIUDADLINEAL> ;
-	base:tieneCodigoPostal "28017"^^xsd:int ;
-	base:tieneCalle "NICOLAS SALMERON" ;
+	locn:postCode "28017"^^xsd:int ;
+	locn:address "NICOLAS SALMERON" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelosTilosFaseI> a base:Metro .
@@ -3319,8 +3321,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeMalmoe> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CIUDADLINEAL> ;
-	base:tieneCodigoPostal "28032"^^xsd:int ;
-	base:tieneCalle "MALMOE" ;
+	locn:postCode "28032"^^xsd:int ;
+	locn:address "MALMOE" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeMalmoe> a base:Metro .
@@ -3351,8 +3353,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeManoteras> a base:Direccion ;
 	base:tieneNumero "22"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/HORTALEZA> ;
-	base:tieneCodigoPostal "28033"^^xsd:int ;
-	base:tieneCalle "BACARES" ;
+	locn:postCode "28033"^^xsd:int ;
+	locn:address "BACARES" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeManoteras> a base:Metro ;
@@ -3384,8 +3386,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeMoratalaz> a base:Direccion ;
 	base:tieneNumero "183"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MORATALAZ> ;
-	base:tieneCodigoPostal "28030"^^xsd:int ;
-	base:tieneCalle "MORATALAZ" ;
+	locn:postCode "28030"^^xsd:int ;
+	locn:address "MORATALAZ" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeMoratalaz> a base:Metro .
@@ -3416,8 +3418,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedePanBendito> a base:Direccion ;
 	base:tieneNumero "35"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CARABANCHEL> ;
-	base:tieneCodigoPostal "28044"^^xsd:int ;
-	base:tieneCalle "POBLADOS" ;
+	locn:postCode "28044"^^xsd:int ;
+	locn:address "POBLADOS" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedePanBendito> a base:Metro ;
@@ -3449,8 +3451,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedePenagrande> a base:Direccion ;
 	base:tieneNumero "53"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28035"^^xsd:int ;
-	base:tieneCalle "LEOPOLDO ALAS CLARIN" ;
+	locn:postCode "28035"^^xsd:int ;
+	locn:address "LEOPOLDO ALAS CLARIN" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedePenagrande> a base:Metro .
@@ -3481,8 +3483,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedePinardeBarajas> a base:Direccion ;
 	base:tieneNumero "700"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/HORTALEZA> ;
-	base:tieneCodigoPostal "28027"^^xsd:int ;
-	base:tieneCalle "A-2" ;
+	locn:postCode "28027"^^xsd:int ;
+	locn:address "A-2" ;
 	base:tieneTipoVia "AUTOVIA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedePinardeBarajas> a base:Metro .
@@ -3513,8 +3515,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedePlatayCastanar> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLAVERDE> ;
-	base:tieneCodigoPostal "28021"^^xsd:int ;
-	base:tieneCalle "MIRADOR DEL SUR" ;
+	locn:postCode "28021"^^xsd:int ;
+	locn:address "MIRADOR DEL SUR" ;
 	base:tieneTipoVia "GLORIETA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedePlatayCastanar> a base:Metro .
@@ -3545,8 +3547,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedePradolongo> a base:Direccion ;
 	base:tieneNumero "85"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/USERA> ;
-	base:tieneCodigoPostal "28026"^^xsd:int ;
-	base:tieneCalle "RAFAELA YBARRA" ;
+	locn:postCode "28026"^^xsd:int ;
+	locn:address "RAFAELA YBARRA" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedePradolongo> a base:Metro ;
@@ -3579,8 +3581,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeRafaelFinat> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/LATINA> ;
-	base:tieneCodigoPostal "28044"^^xsd:int ;
-	base:tieneCalle "VIDAUBA" ;
+	locn:postCode "28044"^^xsd:int ;
+	locn:address "VIDAUBA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeRafaelFinat> a base:Metro .
@@ -3611,8 +3613,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeSanIsidro> a base:Direccion ;
 	base:tieneNumero "74"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CARABANCHEL> ;
-	base:tieneCodigoPostal "28019"^^xsd:int ;
-	base:tieneCalle "ERMITA DEL SANTO" ;
+	locn:postCode "28019"^^xsd:int ;
+	locn:address "ERMITA DEL SANTO" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeSanIsidro> a base:Metro ;
@@ -3644,8 +3646,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeSantaAna> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28034"^^xsd:int ;
-	base:tieneCalle "SAN CUGAT DEL VALLES" ;
+	locn:postCode "28034"^^xsd:int ;
+	locn:address "SAN CUGAT DEL VALLES" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeSantaAna> a base:Metro .
@@ -3677,8 +3679,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedeVillarosa> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/HORTALEZA> ;
-	base:tieneCodigoPostal "28043"^^xsd:int ;
-	base:tieneCalle "ACONCAGUA" ;
+	locn:postCode "28043"^^xsd:int ;
+	locn:address "ACONCAGUA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedeVillarosa> a base:Metro .
@@ -3709,8 +3711,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelBronce> a base:Direccion ;
 	base:tieneNumero "5"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/ARGANZUELA> ;
-	base:tieneCodigoPostal "28045"^^xsd:int ;
-	base:tieneCalle "BRONCE" ;
+	locn:postCode "28045"^^xsd:int ;
+	locn:address "BRONCE" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelBronce> a base:Metro .
@@ -3741,8 +3743,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelEspinillo> a base:Direccion ;
 	base:tieneNumero "23"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLAVERDE> ;
-	base:tieneCodigoPostal "28041"^^xsd:int ;
-	base:tieneCalle "UNANIMIDAD" ;
+	locn:postCode "28041"^^xsd:int ;
+	locn:address "UNANIMIDAD" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelEspinillo> a base:Metro ;
@@ -3773,8 +3775,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelMuseodelPrado> a base:Direccion ;
 	base:tieneNumero "11"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "PRADO" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "PRADO" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelMuseodelPrado> a base:Metro ;
@@ -3807,8 +3809,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelNorte> a base:Direccion ;
 	base:tieneNumero "7"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28029"^^xsd:int ;
-	base:tieneCalle "ARZOBISPO MORCILLO" ;
+	locn:postCode "28029"^^xsd:int ;
+	locn:address "ARZOBISPO MORCILLO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelNorte> a base:Metro .
@@ -3839,8 +3841,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquedelPueblodelPardo> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28048"^^xsd:int ;
-	base:tieneCalle "GUARDIA" ;
+	locn:postCode "28048"^^xsd:int ;
+	locn:address "GUARDIA" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquedelPueblodelPardo> a base:Metro .
@@ -3871,8 +3873,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueDuquedeAhumada> a base:Direccion ;
 	base:tieneNumero "16"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VICALVARO> ;
-	base:tieneCodigoPostal "28032"^^xsd:int ;
-	base:tieneCalle "LAGO VAN" ;
+	locn:postCode "28032"^^xsd:int ;
+	locn:address "LAGO VAN" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueDuquedeAhumada> a base:Metro ;
@@ -3904,8 +3906,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueElCalero> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CIUDADLINEAL> ;
-	base:tieneCodigoPostal "28027"^^xsd:int ;
-	base:tieneCalle "JOSE DEL HIERRO" ;
+	locn:postCode "28027"^^xsd:int ;
+	locn:address "JOSE DEL HIERRO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueElCalero> a base:Metro ;
@@ -3937,8 +3939,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueElCedral> a base:Direccion ;
 	base:tieneNumero "233"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CIUDADLINEAL> ;
-	base:tieneCodigoPostal "28033"^^xsd:int ;
-	base:tieneCalle "ARTURO SORIA" ;
+	locn:postCode "28033"^^xsd:int ;
+	locn:address "ARTURO SORIA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueElCedral> a base:Metro .
@@ -3969,8 +3971,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueElCruce> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLAVERDE> ;
-	base:tieneCodigoPostal "28021"^^xsd:int ;
-	base:tieneCalle "ALCOCER" ;
+	locn:postCode "28021"^^xsd:int ;
+	locn:address "ALCOCER" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueElCruce> a base:Metro ;
@@ -4001,8 +4003,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueEmirMohamedI> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "RAMON" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "RAMON" ;
 	base:tieneTipoVia "CUESTA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueEmirMohamedI> a base:Metro .
@@ -4033,8 +4035,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueEmperatrizMariadeAu> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CARABANCHEL> ;
-	base:tieneCodigoPostal "28025"^^xsd:int ;
-	base:tieneCalle "VIA LUSITANA" ;
+	locn:postCode "28025"^^xsd:int ;
+	locn:address "VIA LUSITANA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueEmperatrizMariadeAu> a base:Metro ;
@@ -4066,8 +4068,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueEnriqueTiernoGalvan> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/ARGANZUELA> ;
-	base:tieneCodigoPostal "28045"^^xsd:int ;
-	base:tieneCalle "MENESES" ;
+	locn:postCode "28045"^^xsd:int ;
+	locn:address "MENESES" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueEnriqueTiernoGalvan> a base:Metro .
@@ -4098,8 +4100,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueEntreviasForestal> a base:Direccion ;
 	base:tieneNumero "251"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/PUENTEDEVALLECAS> ;
-	base:tieneCodigoPostal "28053"^^xsd:int ;
-	base:tieneCalle "EMBAJADORES" ;
+	locn:postCode "28053"^^xsd:int ;
+	locn:address "EMBAJADORES" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueEntreviasForestal> a base:Metro .
@@ -4130,8 +4132,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueEntreviasUrbano> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/PUENTEDEVALLECAS> ;
-	base:tieneCodigoPostal "28053"^^xsd:int ;
-	base:tieneCalle "SUR" ;
+	locn:postCode "28053"^^xsd:int ;
+	locn:address "SUR" ;
 	base:tieneTipoVia "RONDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueEntreviasUrbano> a base:Metro .
@@ -4163,8 +4165,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueEstedeValdebernardo> a base:Direccion ;
 	base:tieneNumero "25"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VICALVARO> ;
-	base:tieneCodigoPostal "28031"^^xsd:int ;
-	base:tieneCalle "DEMOCRACIA" ;
+	locn:postCode "28031"^^xsd:int ;
+	locn:address "DEMOCRACIA" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueEstedeValdebernardo> a base:Metro ;
@@ -4196,8 +4198,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueEugeniadeMontijo> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CARABANCHEL> ;
-	base:tieneCodigoPostal "28047"^^xsd:int ;
-	base:tieneCalle "PARQUE EUGENIA DE MONTIJO" ;
+	locn:postCode "28047"^^xsd:int ;
+	locn:address "PARQUE EUGENIA DE MONTIJO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueEugeniadeMontijo> a base:Metro ;
@@ -4230,8 +4232,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueEvaDuarte> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28028"^^xsd:int ;
-	base:tieneCalle "DOCTOR GOMEZ ULLA" ;
+	locn:postCode "28028"^^xsd:int ;
+	locn:address "DOCTOR GOMEZ ULLA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueEvaDuarte> a base:Metro ;
@@ -4263,8 +4265,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueFelixRodriguezdelaF> a base:Direccion ;
 	base:tieneNumero "38"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMARTIN> ;
-	base:tieneCodigoPostal "28002"^^xsd:int ;
-	base:tieneCalle "PADRE CLARET" ;
+	locn:postCode "28002"^^xsd:int ;
+	locn:address "PADRE CLARET" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueFelixRodriguezdelaF> a base:Metro ;
@@ -4296,8 +4298,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueGeneralFanjul-Santa> a base:Direccion ;
 	base:tieneNumero "144"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/LATINA> ;
-	base:tieneCodigoPostal "28044"^^xsd:int ;
-	base:tieneCalle "GENERAL FANJUL" ;
+	locn:postCode "28044"^^xsd:int ;
+	locn:address "GENERAL FANJUL" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueGeneralFanjul-Santa> a base:Metro .
@@ -4330,8 +4332,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueHortaleza> a base:Direccion ;
 	base:tieneNumero "18"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/HORTALEZA> ;
-	base:tieneCodigoPostal "28033"^^xsd:int ;
-	base:tieneCalle "ESTACION DE HORTALEZA" ;
+	locn:postCode "28033"^^xsd:int ;
+	locn:address "ESTACION DE HORTALEZA" ;
 	base:tieneTipoVia "CARRETERA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueHortaleza> a base:Metro .
@@ -4362,8 +4364,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueHuertadelObispo,Tet> a base:Direccion ;
 	base:tieneNumero "200"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/TETUAN> ;
-	base:tieneCodigoPostal "28039"^^xsd:int ;
-	base:tieneCalle "DIRECCION" ;
+	locn:postCode "28039"^^xsd:int ;
+	locn:address "DIRECCION" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueHuertadelObispo,Tet> a base:Metro .
@@ -4394,8 +4396,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueHuertadelObispo,Vil> a base:Direccion ;
 	base:tieneNumero "34"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLAVERDE> ;
-	base:tieneCodigoPostal "28021"^^xsd:int ;
-	base:tieneCalle "PALOMARES" ;
+	locn:postCode "28021"^^xsd:int ;
+	locn:address "PALOMARES" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueHuertadelObispo,Vil> a base:Metro .
@@ -4426,8 +4428,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueLaRinconada> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28023"^^xsd:int ;
-	base:tieneCalle "HIENDELAENCINA" ;
+	locn:postCode "28023"^^xsd:int ;
+	locn:address "HIENDELAENCINA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueLaRinconada> a base:Metro .
@@ -4458,8 +4460,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueLaVina> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/PUENTEDEVALLECAS> ;
-	base:tieneCodigoPostal "28053"^^xsd:int ;
-	base:tieneCalle "TIMOTEO PEREZ RUBIO" ;
+	locn:postCode "28053"^^xsd:int ;
+	locn:address "TIMOTEO PEREZ RUBIO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueLaVina> a base:Metro .
@@ -4488,8 +4490,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueLaderadelosAlmendro> a base:Direccion ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VICALVARO> ;
-	base:tieneCodigoPostal "28032"^^xsd:int ;
-	base:tieneCalle "M - 40" ;
+	locn:postCode "28032"^^xsd:int ;
+	locn:address "M - 40" ;
 	base:tieneTipoVia "AUTOVÍA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueLaderadelosAlmendro> a base:Metro .
@@ -4519,8 +4521,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueLinealdePalomeras> a base:Direccion ;
 	base:tieneNumero "293"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/PUENTEDEVALLECAS> ;
-	base:tieneCodigoPostal "28038"^^xsd:int ;
-	base:tieneCalle "ALBUFERA" ;
+	locn:postCode "28038"^^xsd:int ;
+	locn:address "ALBUFERA" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueLinealdePalomeras> a base:Metro ;
@@ -4552,8 +4554,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueMartinLutherKing> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28007"^^xsd:int ;
-	base:tieneCalle "CERRO NEGRO" ;
+	locn:postCode "28007"^^xsd:int ;
+	locn:address "CERRO NEGRO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueMartinLutherKing> a base:Metro ;
@@ -4585,8 +4587,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueMesetadeOrcasitas> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/USERA> ;
-	base:tieneCodigoPostal "28041"^^xsd:int ;
-	base:tieneCalle "COOPERATIVAS" ;
+	locn:postCode "28041"^^xsd:int ;
+	locn:address "COOPERATIVAS" ;
 	base:tieneTipoVia "RONDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueMesetadeOrcasitas> a base:Metro .
@@ -4618,8 +4620,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueMiradordelasCarcava> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/HORTALEZA> ;
-	base:tieneCodigoPostal "28055"^^xsd:int ;
-	base:tieneCalle "RAFAELA APARICIO" ;
+	locn:postCode "28055"^^xsd:int ;
+	locn:address "RAFAELA APARICIO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueMiradordelasCarcava> a base:Metro .
@@ -4649,8 +4651,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueMiradordeTiernoGalv> a base:Direccion ;
 	base:tieneNumero "7"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/ARGANZUELA> ;
-	base:tieneCodigoPostal "28045"^^xsd:int ;
-	base:tieneCalle "NEBULOSAS" ;
+	locn:postCode "28045"^^xsd:int ;
+	locn:address "NEBULOSAS" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueMiradordeTiernoGalv> a base:Metro .
@@ -4681,8 +4683,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueNudoNortedeBegona> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28034"^^xsd:int ;
-	base:tieneCalle "LLANO CASTELLANO" ;
+	locn:postCode "28034"^^xsd:int ;
+	locn:address "LLANO CASTELLANO" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueNudoNortedeBegona> a base:Metro ;
@@ -4714,8 +4716,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueOlofPalme> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/USERA> ;
-	base:tieneCodigoPostal "28026"^^xsd:int ;
-	base:tieneCalle "CERECINOS" ;
+	locn:postCode "28026"^^xsd:int ;
+	locn:address "CERECINOS" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueOlofPalme> a base:Metro ;
@@ -4747,8 +4749,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquePaseoMunozGrandes> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CARABANCHEL> ;
-	base:tieneCodigoPostal "28025"^^xsd:int ;
-	base:tieneCalle "MUÑOZ GRANDES" ;
+	locn:postCode "28025"^^xsd:int ;
+	locn:address "MUÑOZ GRANDES" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquePaseoMunozGrandes> a base:Metro .
@@ -4779,8 +4781,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquePayasoFofo> a base:Direccion ;
 	base:tieneNumero "11"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/PUENTEDEVALLECAS> ;
-	base:tieneCodigoPostal "28018"^^xsd:int ;
-	base:tieneCalle "PAYASO FOFO" ;
+	locn:postCode "28018"^^xsd:int ;
+	locn:address "PAYASO FOFO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquePayasoFofo> a base:Metro .
@@ -4812,8 +4814,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquePenuelas> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/ARGANZUELA> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "GARGANTILLA" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "GARGANTILLA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquePenuelas> a base:Metro ;
@@ -4845,8 +4847,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquePinardelaElipa> a base:Direccion ;
 	base:tieneNumero "26"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CIUDADLINEAL> ;
-	base:tieneCodigoPostal "28017"^^xsd:int ;
-	base:tieneCalle "FELIX RODRIGUEZ DE LA FUENTE" ;
+	locn:postCode "28017"^^xsd:int ;
+	locn:address "FELIX RODRIGUEZ DE LA FUENTE" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquePinardelaElipa> a base:Metro .
@@ -4878,8 +4880,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquePinardelRey> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/HORTALEZA> ;
-	base:tieneCodigoPostal "28043"^^xsd:int ;
-	base:tieneCalle "CANILLAS" ;
+	locn:postCode "28043"^^xsd:int ;
+	locn:address "CANILLAS" ;
 	base:tieneTipoVia "CARRETERA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquePinardelRey> a base:Metro .
@@ -4910,8 +4912,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquePlazaChozasdeCanale> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLAVERDE> ;
-	base:tieneCodigoPostal "28021"^^xsd:int ;
-	base:tieneCalle "VILLAVERDE A VALLECAS" ;
+	locn:postCode "28021"^^xsd:int ;
+	locn:address "VILLAVERDE A VALLECAS" ;
 	base:tieneTipoVia "CARRETERA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquePlazaChozasdeCanale> a base:Metro ;
@@ -4943,8 +4945,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquePlazaColoniaOroquie> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLAVERDE> ;
-	base:tieneCodigoPostal "28041"^^xsd:int ;
-	base:tieneCalle "VILLAVERDE A VALLECAS" ;
+	locn:postCode "28041"^^xsd:int ;
+	locn:address "VILLAVERDE A VALLECAS" ;
 	base:tieneTipoVia "CARRETERA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquePlazaColoniaOroquie> a base:Metro ;
@@ -4975,8 +4977,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParquePlazadeEspana> a base:Direccion ;
 	base:tieneNumero "20"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28008"^^xsd:int ;
-	base:tieneCalle "ESPAÑA" ;
+	locn:postCode "28008"^^xsd:int ;
+	locn:address "ESPAÑA" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParquePlazadeEspana> a base:Metro ;
@@ -5008,8 +5010,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueRoma> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28007"^^xsd:int ;
-	base:tieneCalle "JUAN ESPLANDIU" ;
+	locn:postCode "28007"^^xsd:int ;
+	locn:address "JUAN ESPLANDIU" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueRoma> a base:Metro ;
@@ -5041,8 +5043,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueSalvadordeMadariaga> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CIUDADLINEAL> ;
-	base:tieneCodigoPostal "28027"^^xsd:int ;
-	base:tieneCalle "SALVADOR DE MADARIAGA" ;
+	locn:postCode "28027"^^xsd:int ;
+	locn:address "SALVADOR DE MADARIAGA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueSalvadordeMadariaga> a base:Metro .
@@ -5073,8 +5075,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueSanBlas.ElParaiso> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SANBLAS-CANILLEJAS> ;
-	base:tieneCodigoPostal "28037"^^xsd:int ;
-	base:tieneCalle "ARCENTALES" ;
+	locn:postCode "28037"^^xsd:int ;
+	locn:address "ARCENTALES" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueSanBlas.ElParaiso> a base:Metro ;
@@ -5106,8 +5108,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueSanJosedeCalasanz> a base:Direccion ;
 	base:tieneNumero "39"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28015"^^xsd:int ;
-	base:tieneCalle "JOAQUIN MARIA LOPEZ" ;
+	locn:postCode "28015"^^xsd:int ;
+	locn:address "JOAQUIN MARIA LOPEZ" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueSanJosedeCalasanz> a base:Metro .
@@ -5138,8 +5140,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueSanJuanBautista> a base:Direccion ;
 	base:tieneNumero "87"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CIUDADLINEAL> ;
-	base:tieneCodigoPostal "28043"^^xsd:int ;
-	base:tieneCalle "AGASTIA" ;
+	locn:postCode "28043"^^xsd:int ;
+	locn:address "AGASTIA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueSanJuanBautista> a base:Metro .
@@ -5170,8 +5172,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueSanchoDavila> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28028"^^xsd:int ;
-	base:tieneCalle "AMERICA ESPAÑOLA" ;
+	locn:postCode "28028"^^xsd:int ;
+	locn:address "AMERICA ESPAÑOLA" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueSanchoDavila> a base:Metro ;
@@ -5203,8 +5205,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueSantaEugenia> a base:Direccion ;
 	base:tieneNumero "12"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLADEVALLECAS> ;
-	base:tieneCodigoPostal "28031"^^xsd:int ;
-	base:tieneCalle "ZAZUAR" ;
+	locn:postCode "28031"^^xsd:int ;
+	locn:address "ZAZUAR" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueSantaEugenia> a base:Metro .
@@ -5235,8 +5237,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueSantaRita> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CARABANCHEL> ;
-	base:tieneCodigoPostal "28025"^^xsd:int ;
-	base:tieneCalle "ALBA DE TORMES" ;
+	locn:postCode "28025"^^xsd:int ;
+	locn:address "ALBA DE TORMES" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueSantaRita> a base:Metro .
@@ -5267,8 +5269,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueSegura> a base:Direccion ;
 	base:tieneNumero "5"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/USERA> ;
-	base:tieneCodigoPostal "28041"^^xsd:int ;
-	base:tieneCalle "SEGURA" ;
+	locn:postCode "28041"^^xsd:int ;
+	locn:address "SEGURA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueSegura> a base:Metro .
@@ -5299,8 +5301,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueSotodeEntrevias> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/PUENTEDEVALLECAS> ;
-	base:tieneCodigoPostal "28053"^^xsd:int ;
-	base:tieneCalle "ACCESO A LA ESTACION DE AUTOBUSES DE LA E.M.T." ;
+	locn:postCode "28053"^^xsd:int ;
+	locn:address "ACCESO A LA ESTACION DE AUTOBUSES DE LA E.M.T." ;
 	base:tieneTipoVia "CARRETERA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueSotodeEntrevias> a base:Metro .
@@ -5331,8 +5333,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueValdebernardoEste> a base:Direccion ;
 	base:tieneNumero "s/n"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VICALVARO> ;
-	base:tieneCodigoPostal "28032"^^xsd:int ;
-	base:tieneCalle "CORDEL DE PAVONES" ;
+	locn:postCode "28032"^^xsd:int ;
+	locn:address "CORDEL DE PAVONES" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueValdebernardoEste> a base:Metro ;
@@ -5364,8 +5366,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueValdebernardoM-40> a base:Direccion ;
 	base:tieneNumero "0"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VICALVARO> ;
-	base:tieneCodigoPostal "28032"^^xsd:int ;
-	base:tieneCalle "LADERA DE LOS ALMENDROS" ;
+	locn:postCode "28032"^^xsd:int ;
+	locn:address "LADERA DE LOS ALMENDROS" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueValdebernardoM-40> a base:Metro ;
@@ -5397,8 +5399,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueValledeEnmedio> a base:Direccion ;
 	base:tieneNumero "22"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28035"^^xsd:int ;
-	base:tieneCalle "MIRADOR DE LA REINA" ;
+	locn:postCode "28035"^^xsd:int ;
+	locn:address "MIRADOR DE LA REINA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueValledeEnmedio> a base:Metro ;
@@ -5430,8 +5432,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueVandel> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MORATALAZ> ;
-	base:tieneCodigoPostal "28030"^^xsd:int ;
-	base:tieneCalle "MOLINA DE SEGURA" ;
+	locn:postCode "28030"^^xsd:int ;
+	locn:address "MOLINA DE SEGURA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueVandel> a base:Metro .
@@ -5462,8 +5464,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParqueVirgendelaEsperanza> a base:Direccion ;
 	base:tieneNumero "45"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/VILLAVERDE> ;
-	base:tieneCodigoPostal "28041"^^xsd:int ;
-	base:tieneCalle "ANOETA" ;
+	locn:postCode "28041"^^xsd:int ;
+	locn:address "ANOETA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParqueVirgendelaEsperanza> a base:Metro .
@@ -5493,8 +5495,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/Plantadetransformacionder> a base:Direccion ;
 	base:tieneNumero "2200"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28040"^^xsd:int ;
-	base:tieneCalle "M-30" ;
+	locn:postCode "28040"^^xsd:int ;
+	locn:address "M-30" ;
 	base:tieneTipoVia "AUTOVIA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/Plantadetransformacionder> a base:Metro .
@@ -5524,8 +5526,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/QuintadeTorreArias> a base:Direccion ;
 	base:tieneNumero "551"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SANBLAS-CANILLEJAS> ;
-	base:tieneCodigoPostal "28027"^^xsd:int ;
-	base:tieneCalle "ALCALA" ;
+	locn:postCode "28027"^^xsd:int ;
+	locn:address "ALCALA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/QuintadeTorreArias> a base:Metro ;
@@ -5540,7 +5542,7 @@
 	base:tieneNombre "Real Jardín Botánico" ;
 	base:tieneDescripcion "Centro de investigación del  CSIC  que alberga cuatro terrazas con plantas de América, Europa y el Pacífico, así como una colección de bonsáis." ;
 	base:tieneHorario "El Jardín está abierto al público todos los días del año, excepto los días de Navidad y Año Nuevo.   Enero y febrero: de 10 a 18 horas  Marzo: de 10 a 19 horas  Abril: de 10 a 20 horas  De mayo a agosto de 10 a 21 horas  Septiembre: de 10 a 20 horas  Octubre: de 10 a 19 horas  Noviembre y diciembre: de 10 a 18 horas" ;
-	base:tieneTelefono "914 203 017 (centralita)" ;
+	vcard:tel "914 203 017 (centralita)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealJardinBotanico> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealJardinBotanico> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealJardinBotanico> ;
@@ -5558,8 +5560,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealJardinBotanico> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "MURILLO" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "MURILLO" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/RealJardinBotanico> a base:Metro ;
@@ -5592,8 +5594,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ViverodelaCasadeCampo> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28011"^^xsd:int ;
-	base:tieneCalle "AZUL" ;
+	locn:postCode "28011"^^xsd:int ;
+	locn:address "AZUL" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ViverodelaCasadeCampo> a base:Metro ;
@@ -5625,8 +5627,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ViveroEstufasdelRetiro> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28009"^^xsd:int ;
-	base:tieneCalle "ANGEL CAIDO" ;
+	locn:postCode "28009"^^xsd:int ;
+	locn:address "ANGEL CAIDO" ;
 	base:tieneTipoVia "GLORIETA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ViveroEstufasdelRetiro> a base:Metro ;
@@ -5657,8 +5659,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ZonaverdeC/Fresnedillas> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28035"^^xsd:int ;
-	base:tieneCalle "FRESNEDILLAS" ;
+	locn:postCode "28035"^^xsd:int ;
+	locn:address "FRESNEDILLAS" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ZonaverdeC/Fresnedillas> a base:Metro .

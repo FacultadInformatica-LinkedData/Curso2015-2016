@@ -22,6 +22,18 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
+        <Class IRI="http://dbpedia.org/ontology/Theatre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://dbpedia.org/ontology/museum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://linkedgeodata.org/page/ontology/Cinema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Place"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cine"/>
     </Declaration>
     <Declaration>
@@ -114,6 +126,22 @@
     <Declaration>
         <DataProperty IRI="#tieneURL"/>
     </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://dbpedia.org/ontology/Theatre"/>
+        <Class IRI="#Teatro"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://dbpedia.org/ontology/museum"/>
+        <Class IRI="#Museo"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://linkedgeodata.org/page/ontology/Cinema"/>
+        <Class IRI="#Cine"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://schema.org/Place"/>
+        <Class IRI="#Lugar"/>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#Cine"/>
         <Class IRI="#Lugar"/>

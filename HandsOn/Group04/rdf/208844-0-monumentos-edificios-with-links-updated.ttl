@@ -3,6 +3,8 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix base: <http://puntosinteres.madrid.es/group04/ontology/puntosinteres#> .
 
@@ -26,8 +28,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ArtePublico,MuseoalAireLi> a base:Direccion ;
 	base:tieneNumero "40"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28046"^^xsd:int ;
-	base:tieneCalle "CASTELLANA" ;
+	locn:postCode "28046"^^xsd:int ;
+	locn:address "CASTELLANA" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ArtePublico,MuseoalAireLi> a base:Metro ;
@@ -45,7 +47,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/BancodeEspana> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Banco de España" ;
 	base:tieneDescripcion "El Banco de España es el banco central nacional y el supervisor del sistema bancario español. Su actividad está regulada por la Ley de Autonomía del Banco de España." ;
-	base:tieneTelefono "913 385 000 (centralita)" ;
+	vcard:tel "913 385 000 (centralita)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BancodeEspana> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BancodeEspana> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BancodeEspana> ;
@@ -63,8 +65,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BancodeEspana> a base:Direccion ;
 	base:tieneNumero "48"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "ALCALA" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "ALCALA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/BancodeEspana> a base:Metro ;
@@ -81,7 +83,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/BasilicaPontificiadeSanMi> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Basílica Pontificia de San Miguel" ;
-	base:tieneTelefono "915 484 011" ;
+	vcard:tel "915 484 011" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BasilicaPontificiadeSanMi> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BasilicaPontificiadeSanMi> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/BasilicaPontificiadeSanMi> ;
@@ -99,8 +101,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BasilicaPontificiadeSanMi> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "SAN JUSTO" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "SAN JUSTO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/BasilicaPontificiadeSanMi> a base:Metro ;
@@ -116,7 +118,7 @@
 	base:tieneNombre "Biblioteca Nacional de España" ;
 	base:tieneDescripcion "Fundada por Felipe  V  en 1712 como Biblioteca Pública de Palacio. En 1836 dejó de ser propiedad de la Corona y pasó a depender del Ministerio de la Gobernación y recibió por primera vez el nombre de Biblioteca Nacional y en 1896 se abrió al público.   Horario     Salas de lectura y Servicios:    De lunes a viernes de 9 a 21 y sábados de 9 a 14 horas.  La petición de fondos en el Salón General y en la Sala de Prensa y Revistas es de 9:30 a 13:30 y de 15 a 19 horas.  La tramitación presencial de carnés es de lunes a viernes de 9 a 19 y sábados de 9 a 13:45 horas.     Exposiciones y Museo:    De martes a sábado de 10 a 20 horas.  Domingos y festivos de 10 a 14 horas.      Calendario cierre:    Exposiciones y museo: días 1, 6 de enero, 1 de mayo, 10 de noviembre y 8, 24, 25 y 31 de diciembre.   Biblioteca: 1, 6 y de 20 al 25 de enero, del 17 al 19 de abril, 1, 2 y 15 de mayo, 19 de junio, 15 de agosto, 1 y 10 de noviembre, 6, 8, 24, 25 y 31 de diciembre." ;
 	base:tieneEquipamiento "Servicios bibliotecarios:    Orientación e información general sobre la institución y sobre otras bibliotecas.  Información bibliográfica sobre su colección y las de otras bibliotecas o sistemas bibliotecarios.  Acceso a su catálogo automatizado.  Consulta en sala de sus fondos.  Préstamo interbibliotecario.  Reproducción de fondos.     Otros servicios a los lectores:    Sala de exposiciones.  Museo.  Préstamo interbibliotecario.  Oficina de reprografía.  Registro.  Tienda.     Salas:    Salón general de lectura.  Sala de prensa y revistas  Sala Cervantes: manuscritos, incunables e impresos reservados.  Sala Goya: bellas artes y cartografía.  Sala Barbieri: música." ;
-	base:tieneTelefono """915 807 800                                                                                      
+	vcard:tel """915 807 800                                                                                      
                                                                                       
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/BibliotecaNacionaldeEspan> ;
@@ -135,8 +137,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BibliotecaNacionaldeEspan> a base:Direccion ;
 	base:tieneNumero "20"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28001"^^xsd:int ;
-	base:tieneCalle "RECOLETOS" ;
+	locn:postCode "28001"^^xsd:int ;
+	locn:address "RECOLETOS" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/BibliotecaNacionaldeEspan> a base:Metro .
@@ -149,7 +151,7 @@
 	base:tieneNombre "Bolsa de Madrid" ;
 	base:tieneDescripcion "Es el principal mercado de valores de España. Tiene su sede en el Palacio de la Bolsa de Madrid." ;
 	base:tieneEquipamiento "Información sobre títulos admitidos a cotización en materia de pago de dividendos   Ampliaciones de capital  Datos sobre balances y cuentas de resultados de las empresas cotizantes   Boletines diarios" ;
-	base:tieneTelefono """917 095 000 (Bolsas y mercados españoles, centralita)     
+	vcard:tel """917 095 000 (Bolsas y mercados españoles, centralita)     
 915 891 162 / 915 891 020 (Visitas)          
 915 891 659 (Atención al inversor)   
 """ ;
@@ -170,8 +172,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/BolsadeMadrid> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "LEALTAD" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "LEALTAD" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/BolsadeMadrid> a base:Metro ;
@@ -190,7 +192,7 @@
 	base:tieneNombre "Casa de América" ;
 	base:tieneDescripcion "Antiguo Palacio de Linares, diseñado por Carlos Colubí en 1872. De estilo rococó, destaca la escalera de mármol de Manuel Aníbal Álvarez y toda la decoración interior." ;
 	base:tieneEquipamiento "Celebración de actividades culturales: conciertos, conferencias, mesas redondas, actividades infantiles, exposiciones  Sala de exposiciones  Anfiteatro  Centro de información y documentación  Cine  Restauración   Restaurante Le Cabrera Casa de América, abierto todos los días de 13:30 a 15:30 y de 20:30 a 00 horas. Dispone de reservado.  Coctelería Le Cabrerita ,  abierta de lunes a domingo de 13:30 a 2 horas. Acceso por Paseo de Recoletos, 2.  Cafetería Le Cabrera Casa de América, abierta de lunes a domingo de 9 a 12 horas. Acceso por Marqués del Duero.  Terraza de verano.     La programación puede ser consultada en  http://www.casamerica.es/" ;
-	base:tieneTelefono "915 954 800 (información) / 915 775 955 (reservas para el restaurante)" ;
+	vcard:tel "915 954 800 (información) / 915 775 955 (reservas para el restaurante)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CasadeAmerica> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasadeAmerica> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CasadeAmerica> ;
@@ -208,8 +210,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasadeAmerica> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "CIBELES" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "CIBELES" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CasadeAmerica> a base:Metro ;
@@ -242,8 +244,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasadeCisneros> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "VILLA" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "VILLA" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CasadeCisneros> a base:Metro ;
@@ -274,8 +276,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasadeLaPanaderia> a base:Direccion ;
 	base:tieneNumero "27"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "MAYOR" ;
+	locn:postCode "28012"^^xsd:int ;
+	locn:address "MAYOR" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CasadeLaPanaderia> a base:Metro ;
@@ -307,8 +309,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasadeLaVilla.CasasConsis> a base:Direccion ;
 	base:tieneNumero "5"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "VILLA" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "VILLA" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CasadeLaVilla.CasasConsis> a base:Metro ;
@@ -339,8 +341,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasadeLasSieteChimeneas> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28004"^^xsd:int ;
-	base:tieneCalle "REY" ;
+	locn:postCode "28004"^^xsd:int ;
+	locn:address "REY" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CasadeLasSieteChimeneas> a base:Metro ;
@@ -357,7 +359,7 @@
 	base:tieneNombre "Casa de Velázquez" ;
 	base:tieneDescripcion "Centro de creación artística y de investigación situado en un palacete de estilo neoclásico de 1920." ;
 	base:tieneEquipamiento "Desarrollo de actividades creadoras e investigaciones relacionadas con las artes, las lenguas, las literaturas y las sociedades de países ibéricos, iberoamericanos y del Magreb." ;
-	base:tieneTelefono "914 551 580" ;
+	vcard:tel "914 551 580" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CasadeVelazquez> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasadeVelazquez> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CasadeVelazquez> ;
@@ -375,8 +377,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasadeVelazquez> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28040"^^xsd:int ;
-	base:tieneCalle "PAUL GUINARD" ;
+	locn:postCode "28040"^^xsd:int ;
+	locn:address "PAUL GUINARD" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CasadeVelazquez> a base:Metro .
@@ -394,7 +396,7 @@
 	base:tieneNombre "Casón del Buen Retiro" ;
 	base:tieneDescripcion "Edificio que forma parte del Museo Nacional del Prado, donde pueden consultarse fondos de la Biblioteca, del Archivo y del Servicio de Documentación de la colección del Museo y de otras fuentes relativas a la historia del arte." ;
 	base:tieneHorario "Mañanas    De lunes a jueves, de 9 a 15 horas. (Servicio de libros y otros materiales hasta las 14:30 horas)   Viernes, de 9 a 14:30 horas. (Servicio de libros y otros materiales hasta las 14 horas)     Tardes.  Lunes y miércoles, de 15 a 18 horas. (Servicio de libros y otros materiales hasta las 17:30 horas)   Horario de verano     Desde el 16 de junio al 15 de septiembre  Lunes a viernes, de 9 a 14:30 horas" ;
-	base:tieneTelefono "902 107 077" ;
+	vcard:tel "902 107 077" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CasondelBuenRetiro> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasondelBuenRetiro> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CasondelBuenRetiro> ;
@@ -412,8 +414,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasondelBuenRetiro> a base:Direccion ;
 	base:tieneNumero "28"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "ALFONSO XII" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "ALFONSO XII" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CasondelBuenRetiro> a base:Metro ;
@@ -431,7 +433,7 @@
 	base:tieneDescripcion "El edificio está incorporado al sistema &quot;museosdemadrid&quot; donde se realizan talleres para escolares y actividades en verano." ;
 	base:tieneHorario "Abierto fines de semana y festivos (incluso los lunes festivos)  De abril a septiembre: sábados, domingos y festivos de 10 a 21 horas  De octubre a marzo: sábados, domingos y festivos de 10 a 18 horas  Cerrado: 24, 25, 31 de diciembre, 1 de enero, 6 de enero, 1 de mayo." ;
 	base:tieneEquipamiento "Accesibilidad    Rampas de acceso  Servicios para minusválidos  Información en Braille para invidentes" ;
-	base:tieneTelefono """913 667 415                                                                   
+	vcard:tel """913 667 415                                                                   
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CastillodelaAlameda> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CastillodelaAlameda> ;
@@ -450,8 +452,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CastillodelaAlameda> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/BARAJAS> ;
-	base:tieneCodigoPostal "28042"^^xsd:int ;
-	base:tieneCalle "ANTONIO SANCHA" ;
+	locn:postCode "28042"^^xsd:int ;
+	locn:address "ANTONIO SANCHA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CastillodelaAlameda> a base:Metro ;
@@ -469,7 +471,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/CatedralSantaMarialaReald> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Catedral Santa María la Real de la Almudena" ;
 	base:tieneDescripcion "Su construcción comienza a finales del siglo XIX por el Marqués de Cubas, sobre el primer recinto amurallado del Madrid musulmán, y finaliza en el año 1993." ;
-	base:tieneTelefono "915 480 930" ;
+	vcard:tel "915 480 930" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CatedralSantaMarialaReald> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CatedralSantaMarialaReald> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CatedralSantaMarialaReald> ;
@@ -487,8 +489,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CatedralSantaMarialaReald> a base:Direccion ;
 	base:tieneNumero "90"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "MAYOR" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "MAYOR" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CatedralSantaMarialaReald> a base:Metro ;
@@ -521,8 +523,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroCondeDuque> a base:Direccion ;
 	base:tieneNumero "09-nov"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28015"^^xsd:int ;
-	base:tieneCalle "CONDE DUQUE" ;
+	locn:postCode "28015"^^xsd:int ;
+	locn:address "CONDE DUQUE" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CentroCondeDuque> a base:Metro ;
@@ -537,7 +539,7 @@
 	base:tieneNombre "Centro de Estudios Políticos y Constitucionales" ;
 	base:tieneDescripcion "Construido por Sabatini en 1776. Tipología singular sin apartarse de los criterios clásico-barrocos, propios de la época de Carlos III. Destaca su escalera barroca. Fue creado para alojamiento y vivienda de Grimaldi. En 1819 se instaló la Biblioteca Real, y posteriormente las Secretarías, llamándose entonces Casa de los Ministerios." ;
 	base:tieneEquipamiento "Centro de Documentación - Publicaciones - Biblioteca (abierta de lunes a viernes de 9 a 20 horas) - Fotocopiadora - Catálogo colectivo de publicaciones periódicas - Información bibliográfica - Lector reproductor - Préstamo interbibliotecario - Búsquedas bibliográficas y referencia  Materias: Derecho constitucional y público - Ciencia política - Teoría del Estado - Historia política de España - Teoría de la Constitución - Historia de las Ideas Políticas - Posee una amplia colección de repertorios de legislación y jurisprudencia españolas y de los paises de nuestro entorno" ;
-	base:tieneTelefono "915 401 950" ;
+	vcard:tel "915 401 950" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeEstudiosPoliticos> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeEstudiosPoliticos> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CentrodeEstudiosPoliticos> ;
@@ -555,8 +557,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeEstudiosPoliticos> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "MARINA ESPA&Ntilde;OLA" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "MARINA ESPA&Ntilde;OLA" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CentrodeEstudiosPoliticos> a base:Metro ;
@@ -572,7 +574,7 @@
 	base:tieneDescripcion "Edificio de carácter monumental. De estilo neomudéjar, fue diseñado por el arquitecto Fernando Arbós e inaugurado en el año 1913. Cuenta con más de 6.000 metros cuadrados de instalaciones divididas en 4 plantas y una azotea." ;
 	base:tieneHorario "De lunes a domingo de 10 a 22 horas (todos los días del año, excepto festividades nacionales y de la Comunidad de Madrid)  Exposiciones: de 10 a 21:45 horas" ;
 	base:tieneEquipamiento "Biblioteca  (consulta catálogo  http://catalogo.bibliotecas.obrasocialcajamadrid.es/ )   Sala de consulta y Hemeroteca: de lunes a domingos, de 10 a 21:15 horas  Mediateca y Sala de trabajo Ofimática: de lunes a domingos, de 10 a 21:15 horas  Biblioteca joven: de lunes a viernes, de 10 a 20:30, sábados y domingos de 10 a 13:30  Bebeteca: sábados y domingos de 10 a 13:30 horas     Estudio multimedia : cuenta con equipos profesionales para la edición de video con Final Cut Studio, Premiere, etc. Su uso tendrá un precio de cinco a ocho euros por turno de cinco horas dependiendo del tipo de asistencia técnica.   Laboratorio de radio:  dispone de un equipo completo de grabación y equipamiento profesional. Su uso tendrá un precio de diez euros por turnos de cinco horas.   Laboratorio fotográfico    Tienda solidaria:  consultar horario   Cafetería:  todos los días, excepto festivos, de 10 a 21:45 horas" ;
-	base:tieneTelefono """902 430 322                                              
+	vcard:tel """902 430 322                                              
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocialyCulturallaCa> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocialyCulturallaCa> ;
@@ -591,8 +593,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocialyCulturallaCa> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "VALENCIA" ;
+	locn:postCode "28012"^^xsd:int ;
+	locn:address "VALENCIA" ;
 	base:tieneTipoVia "RONDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CentroSocialyCulturallaCa> a base:Metro ;
@@ -609,7 +611,7 @@
 	base:tieneNombre "Círculo de Bellas Artes" ;
 	base:tieneHorario "Salas de exposiciones:  de 11 a 14 y de 17 a 21 horas. (martes a domingo). Lunes cerrado.    Azotea:  de lunes a jueves de 9 a 21:00, viernes y vísperas de festivos de 9 a 21:30, sábados de 11:00 a 21:30 y domingos de 11 a 21 horas. (horario sujeto a cambios).   Taquilla:  de 16 a 22 horas (miércoles a domingo). Horario sujeto a cambios   Cafetería &quot;La Pecera&quot;:  de 8 a 1 horas (viernes, sábado y domingo hasta las 3 horas )" ;
 	base:tieneEquipamiento "Acceso para minusválidos, excepto para Sala Goya.  Terraza - azotea visitable  Cafetería  Teatro" ;
-	base:tieneTelefono """913 605 400 (Información general)                                                                           
+	vcard:tel """913 605 400 (Información general)                                                                           
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CirculodeBellasArtes> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CirculodeBellasArtes> ;
@@ -628,8 +630,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CirculodeBellasArtes> a base:Direccion ;
 	base:tieneNumero "42"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "ALCALÁ" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "ALCALÁ" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CirculodeBellasArtes> a base:Metro ;
@@ -643,7 +645,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/CongresodelosDiputados> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Congreso de los Diputados" ;
 	base:tieneDescripcion "El Congreso de los Diputados está configurado por un complejo de cinco edificios con una superficie de cerca de setenta mil metros cuadrados." ;
-	base:tieneTelefono "913 906 296" ;
+	vcard:tel "913 906 296" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CongresodelosDiputados> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CongresodelosDiputados> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CongresodelosDiputados> ;
@@ -661,8 +663,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CongresodelosDiputados> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "CORTES" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "CORTES" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CongresodelosDiputados> a base:Metro ;
@@ -677,7 +679,7 @@
 	base:tieneNombre "Consejo de Estado" ;
 	base:tieneDescripcion "Es el supremo órgano consultivo del Gobierno. Actualmente se rige por la  Ley Orgánica 3/1980, de 22 de abril, y su Reglamento es de 18 de julio del mismo año.  (Modificados por Ley Orgánica 3/2004 de 28 de diciembre) y (Real Decreto 449/2005 de 22 de abril).   No forma parte de la Administración activa ni está integrado en ninguno de los Departamentos ministeriales y, aunque la Constitución de 1978 lo califique literalmente de órgano consultivo del Gobierno, tiene en realidad el carácter de órgano del Estado (Sentencia del Tribunal Constitucional 56/1990, de 29 de marzo)." ;
 	base:tieneEquipamiento "Archivo y Biblioteca:    Teléfonos: 915 166 356 / 915 166 357  Fax: 915 166 364  Correo electróncio:  archivo.biblioteca@consejo-estado.es" ;
-	base:tieneTelefono "915 166 240 / 915 166 241 (asuntos en tramitación)" ;
+	vcard:tel "915 166 240 / 915 166 241 (asuntos en tramitación)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ConsejodeEstado> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ConsejodeEstado> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ConsejodeEstado> ;
@@ -695,8 +697,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ConsejodeEstado> a base:Direccion ;
 	base:tieneNumero "79"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "MAYOR" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "MAYOR" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ConsejodeEstado> a base:Metro .
@@ -726,8 +728,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ConventodelasComendadoras> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28015"^^xsd:int ;
-	base:tieneCalle "COMENDADORAS" ;
+	locn:postCode "28015"^^xsd:int ;
+	locn:address "COMENDADORAS" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ConventodelasComendadoras> a base:Metro ;
@@ -758,8 +760,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/EdificioMetropolis> a base:Direccion ;
 	base:tieneNumero "39"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "ALCALA" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "ALCALA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/EdificioMetropolis> a base:Metro ;
@@ -775,7 +777,7 @@
 	base:tieneDescripcion "Ermita dedicada a San Antonio de Padua y pequeño museo. Las pinturas murales que la decoran son de Francisco de Goya. Alberga los restos mortales del artista desde 1919. Para preservar sus pinturas, en 1929 se trasladó el culto a una ermita gemela construida a su lado, dejando el edificio original como museo." ;
 	base:tieneHorario "De martes a domingos y festivos de 9:30 a 20 horas.   Cerrado  los lunes, incluidos festivos, y los días 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre.   Último pase de visita:  20 minutos antes del cierre (el desalojo de las salas comenzará 10 minutos antes)   Por motivos de conservación, el aforo máximo es de 50 personas en el interior de la capilla.  Los sábados que se celebren Visitas animadas para familias se interrumpirá la visita durante el desarrollo de las mismas.  Este horario y la apertura de salas pueden sufrir modificaciones, por favor, confírmelo en el teléfono de información del museo." ;
 	base:tieneEquipamiento "Tienda, en la que se pueden adquirir las guías y publicaciones sobre la ermita editadas por el Museo y otros organismos públicos, así como catálogos y publicaciones de instituciones culturales del Ayuntamiento de Madrid." ;
-	base:tieneTelefono """915 420 722 / 917 011 863                                                                                                                              
+	vcard:tel """915 420 722 / 917 011 863                                                                                                                              
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ErmitadeSanAntoniodelaFlo> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ErmitadeSanAntoniodelaFlo> ;
@@ -794,8 +796,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ErmitadeSanAntoniodelaFlo> a base:Direccion ;
 	base:tieneNumero "5"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28008"^^xsd:int ;
-	base:tieneCalle "SAN ANTONIO DE LA FLORIDA" ;
+	locn:postCode "28008"^^xsd:int ;
+	locn:address "SAN ANTONIO DE LA FLORIDA" ;
 	base:tieneTipoVia "GLORIETA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ErmitadeSanAntoniodelaFlo> a base:Metro ;
@@ -811,7 +813,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/ErmitadeSanIsidro> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Ermita de San Isidro" ;
 	base:tieneHorario "Ermita:  sábados de 11 a 13 horas (celebración de la Eucaristía a las 12 horas).   Fuente del Santo:  sólo permanece abierta desde la semana anterior a la fiesta de San Isidro hasta la semana posterior.   Oficio en rito hispano mozárabe:  los días 2 de enero a las 18 horas (comienzo del año Caput anni) y 11 de mayo a las 18,30 horas (aniversario de la dedicación)." ;
-	base:tieneTelefono "915 690 055" ;
+	vcard:tel "915 690 055" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ErmitadeSanIsidro> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ErmitadeSanIsidro> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ErmitadeSanIsidro> ;
@@ -829,8 +831,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ErmitadeSanIsidro> a base:Direccion ;
 	base:tieneNumero "78"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CARABANCHEL> ;
-	base:tieneCodigoPostal "28019"^^xsd:int ;
-	base:tieneCalle "ERMITA DEL SANTO" ;
+	locn:postCode "28019"^^xsd:int ;
+	locn:address "ERMITA DEL SANTO" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ErmitadeSanIsidro> a base:Metro ;
@@ -848,7 +850,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/ErmitadeSantaMarialaAntig> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Ermita de Santa María la Antigua" ;
-	base:tieneTelefono "914 628 536 (Parroquia de San Sebastián Mártir)" ;
+	vcard:tel "914 628 536 (Parroquia de San Sebastián Mártir)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ErmitadeSantaMarialaAntig> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ErmitadeSantaMarialaAntig> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ErmitadeSantaMarialaAntig> ;
@@ -866,8 +868,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ErmitadeSantaMarialaAntig> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CARABANCHEL> ;
-	base:tieneCodigoPostal "28025"^^xsd:int ;
-	base:tieneCalle "MONSEÑOR OSCAR ROMERO" ;
+	locn:postCode "28025"^^xsd:int ;
+	locn:address "MONSEÑOR OSCAR ROMERO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ErmitadeSantaMarialaAntig> a base:Metro .
@@ -896,8 +898,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ErmitaVirgendelPuerto> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "VIRGEN DEL PUERTO" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "VIRGEN DEL PUERTO" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ErmitaVirgendelPuerto> a base:Metro ;
@@ -915,7 +917,7 @@
 	base:tieneDescripcion "Edificio con carácter monumental construído en 1889 por Alberto del Palacio para la Compañía Madrid - Zaragoza - Alicante, en sustitución de la de los años 50" ;
 	base:tieneHorario "Horario de la estación: de 5 a 1 horas  Horario de atención al cliente: de 6:30 a 22:30 horas  Horario de información: de 6:30 a 22:30 horas  Venta inmediata de billetes: de 5:30 a 22:30 horas  Venta anticipada de billetes: de lunes a viernes, excepto festivos: de 10 a 20 horas  Horario recogida venta telefónica: de 5:30 a 22:30 horas  Máquinas autoventa multiproducto: de 5:30 a 23:50 horas  Horario consignas: de 5:30 a 22:20 horas" ;
 	base:tieneEquipamiento "Aseos, cafetería restaurante, cajeros automáticos, aparcamiento, comisaría de Policía Nacional, consigna, tiendas, servicios de alquiler de coches y de cambio de moneda, información turística, librería, recogida de billetes de venta telefónica e internet y sala Club   Servicios adaptados : atención a viajeros con discapacidad - aseos para personas con discapacidad - Vestíbulo zona comercial - Sillas de ruedas - Ascensores adaptados  - Andenes adpatados   Servicio Dialoga : información telefónica de Adif a través del móvil con conexión de datos para personas sordas y con discapacidad auditiva:  telesor.es" ;
-	base:tieneTelefono """902 432 343 (Información de estaciones) /                                         
+	vcard:tel """902 432 343 (Información de estaciones) /                                         
 902 320 320 (Renfe: información, reserva, venta, cambio y anulación de billetes) /                                      
 902 240 505 (Viajeros con discapacidad) """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/EstacionferroviariaMadrid> ;
@@ -935,8 +937,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/EstacionferroviariaMadrid> a base:Direccion ;
 	base:tieneNumero "S/N"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "EMPERADOR CARLOS V" ;
+	locn:postCode "28012"^^xsd:int ;
+	locn:address "EMPERADOR CARLOS V" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/EstacionferroviariaMadrid> a base:Metro ;
@@ -951,7 +953,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/FundacionBBVA.PalaciodelM> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Fundación BBVA. Palacio del Marqués de Salamanca" ;
-	base:tieneTelefono "91 537 69 64 (Fundación BBVA)" ;
+	vcard:tel "91 537 69 64 (Fundación BBVA)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/FundacionBBVA.PalaciodelM> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/FundacionBBVA.PalaciodelM> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/FundacionBBVA.PalaciodelM> ;
@@ -968,8 +970,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/FundacionBBVA.PalaciodelM> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28001"^^xsd:int ;
-	base:tieneCalle "RECOLETOS" ;
+	locn:postCode "28001"^^xsd:int ;
+	locn:address "RECOLETOS" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/FundacionBBVA.PalaciodelM> a base:Metro .
@@ -982,7 +984,7 @@
 	base:tieneNombre "Fundación de los Ferrocarriles Españoles (Palacio de Fernán Núñez)" ;
 	base:tieneDescripcion "Fines:  tiene encomendada la recuperación, custodia y difusión del patrimonio histórico, cultural, científico y tecnológico ferroviario." ;
 	base:tieneEquipamiento "Biblioteca" ;
-	base:tieneTelefono """915 276 172      
+	vcard:tel """915 276 172      
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/FundaciondelosFerrocarril> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/FundaciondelosFerrocarril> ;
@@ -1001,8 +1003,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/FundaciondelosFerrocarril> a base:Direccion ;
 	base:tieneNumero "44"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "SANTA ISABEL" ;
+	locn:postCode "28012"^^xsd:int ;
+	locn:address "SANTA ISABEL" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/FundaciondelosFerrocarril> a base:Metro ;
@@ -1019,7 +1021,7 @@
 	base:tieneNombre "Galeria de Cristal del Palacio de Cibeles" ;
 	base:tieneDescripcion "Una gran bóveda acristalada, de geometría irregular y forma orgánica, cobija  2.800  m&sup2;    de este lugar de representación, celebración y encuentro para los ciudadanos, bajo el cielo de Madrid. Eleva a 30 metros de altura su transparente levedad (500 toneladas). Etá construida con casi 2.000 cristales triangulares, todos diferentes entre sí, formados por 2.966 barras y 1.034 nudos unidos uno a uno.  Tras haber sufrido diversas alteraciones, este espacio, que nace al cubrir el antiguo pasaje Ruiz de Alarcón, antes ocupado por vehículos de reparto de correo, restaurado y rehabilitado, constituye un elemento esencial de la sede del Ayuntamiento de Madrid." ;
 	base:tieneHorario "Domingos y festivos de 11 a 20 horas" ;
-	base:tieneTelefono """915 217 170          
+	vcard:tel """915 217 170          
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/GaleriadeCristaldelPalaci> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/GaleriadeCristaldelPalaci> ;
@@ -1038,8 +1040,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/GaleriadeCristaldelPalaci> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "MONTALBAN" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "MONTALBAN" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/GaleriadeCristaldelPalaci> a base:Metro ;
@@ -1054,7 +1056,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/IglesiaCatedraldelasFuerz> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Iglesia Catedral de las Fuerzas Armadas" ;
-	base:tieneTelefono "915 473 624" ;
+	vcard:tel "915 473 624" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/IglesiaCatedraldelasFuerz> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/IglesiaCatedraldelasFuerz> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/IglesiaCatedraldelasFuerz> ;
@@ -1072,8 +1074,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/IglesiaCatedraldelasFuerz> a base:Direccion ;
 	base:tieneNumero "11"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "SACRAMENTO" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "SACRAMENTO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/IglesiaCatedraldelasFuerz> a base:Metro ;
@@ -1086,7 +1088,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/IglesiaCorpusChristi,Jero> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Iglesia Corpus Christi (Jerónimas Recoletas)" ;
-	base:tieneTelefono "915 483 701" ;
+	vcard:tel "915 483 701" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/IglesiaCorpusChristi,Jero> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/IglesiaCorpusChristi,Jero> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/IglesiaCorpusChristi,Jero> ;
@@ -1104,8 +1106,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/IglesiaCorpusChristi,Jero> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "CONDE DE MIRANDA" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "CONDE DE MIRANDA" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/IglesiaCorpusChristi,Jero> a base:Metro ;
@@ -1118,7 +1120,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/IglesiadelasCalatravas,Co> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Iglesia de las Calatravas (Concepción Real de Calatrava)" ;
-	base:tieneTelefono "915 218 035" ;
+	vcard:tel "915 218 035" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/IglesiadelasCalatravas,Co> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/IglesiadelasCalatravas,Co> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/IglesiadelasCalatravas,Co> ;
@@ -1136,8 +1138,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/IglesiadelasCalatravas,Co> a base:Direccion ;
 	base:tieneNumero "25"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "ALCALA" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "ALCALA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/IglesiadelasCalatravas,Co> a base:Metro ;
@@ -1150,7 +1152,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/IglesiaMadresRedentorista> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Iglesia Madres Redentoristas" ;
-	base:tieneTelefono "915 086 800" ;
+	vcard:tel "915 086 800" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/IglesiaMadresRedentorista> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/IglesiaMadresRedentorista> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/IglesiaMadresRedentorista> ;
@@ -1168,8 +1170,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/IglesiaMadresRedentorista> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CARABANCHEL> ;
-	base:tieneCodigoPostal "28044"^^xsd:int ;
-	base:tieneCalle "MADRE CELESTE" ;
+	locn:postCode "28044"^^xsd:int ;
+	locn:address "MADRE CELESTE" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/IglesiaMadresRedentorista> a base:Metro ;
@@ -1182,7 +1184,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/IglesiaSanAntoniodelosAle> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Iglesia San Antonio de los Alemanes" ;
-	base:tieneTelefono "915 223 774" ;
+	vcard:tel "915 223 774" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/IglesiaSanAntoniodelosAle> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/IglesiaSanAntoniodelosAle> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/IglesiaSanAntoniodelosAle> ;
@@ -1200,8 +1202,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/IglesiaSanAntoniodelosAle> a base:Direccion ;
 	base:tieneNumero "22"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28004"^^xsd:int ;
-	base:tieneCalle "PUEBLA" ;
+	locn:postCode "28004"^^xsd:int ;
+	locn:address "PUEBLA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/IglesiaSanAntoniodelosAle> a base:Metro ;
@@ -1215,7 +1217,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/IglesiaSanIldefonso,Monas> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Iglesia San Ildefonso (Monasterio de las Trinitarias Descalzas)" ;
 	base:tieneEquipamiento "El monumento conmemorativo alberga los restos hallados en la cripta del convento. Con la colocación de los restos de Miguel de Cervantes en la nave de la actual iglesia del siglo  XVIII   se cumple la voluntad testamentaria del autor de 'El Quijote'. Miguel de Cervantes, que fue enterrado en la primitiva iglesia el 23 de abril de 1616, expresó en su última voluntad descansar allí en agradecimiento a los Trinitarios que le liberaron de los cinco años y medio de cautiverio en Argel, en manos de los piratas berberiscos." ;
-	base:tieneTelefono "914 295 671" ;
+	vcard:tel "914 295 671" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/IglesiaSanIldefonso,Monas> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/IglesiaSanIldefonso,Monas> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/IglesiaSanIldefonso,Monas> ;
@@ -1233,8 +1235,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/IglesiaSanIldefonso,Monas> a base:Direccion ;
 	base:tieneNumero "18"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "LOPE DE VEGA" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "LOPE DE VEGA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/IglesiaSanIldefonso,Monas> a base:Metro ;
@@ -1247,7 +1249,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/IglesiaSanPedroelViejo> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Iglesia San Pedro el Viejo" ;
-	base:tieneTelefono "913 651 284" ;
+	vcard:tel "913 651 284" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/IglesiaSanPedroelViejo> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/IglesiaSanPedroelViejo> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/IglesiaSanPedroelViejo> ;
@@ -1265,8 +1267,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/IglesiaSanPedroelViejo> a base:Direccion ;
 	base:tieneNumero "14"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "NUNCIO" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "NUNCIO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/IglesiaSanPedroelViejo> a base:Metro ;
@@ -1282,7 +1284,7 @@
 	base:tieneDescripcion "El antiguo Banco Español del Río de la Plata eligió para su construcción el solar en el que estuvo situado el palacio de Casa Irujo y seleccionó a dos arquitectos de la época, Palacios y Otamendi. Para algunos autores es su mejor edificio, dentro de ese característico estilo grandioso y monumental que incorpora los órdenes clásicos con vigor, rotundidad y correcta modulación y los conjuga con la innovación de las superficies lisas de grandes vanos acristalados. En el chaflán, un grupo de cariátides preside la entrada. Ese mismo argumento de monumentalidad fue el que se utilizó para conceder la licencia constructiva, pues el exceso de altura (25 metros en vez de los 18 permitidos) retrasó el permiso para iniciar las obras. La gran carga simbólica del edificio se subrayaba en el patio central de operaciones, que abarcaba la altura de todas las plantas y se remataba con una magnífica cúpula vidriera. En torno a él se abrían perimetralmente las distintas dependencias bancarias, conjugando asimismo modernidad y monumentalidad en los elementos constructivos. Ese grandioso espacio central se perdió con la reforma y ampliación de la década de 1940, en la que se añadió un nuevo edificio por la calle del Barquillo y se cambió por completo el interior. La fachada de esta ampliación aspira a repetir el esquema de Palacios y Otamendi sin mimetizarlo." ;
 	base:tieneHorario "Recepción: 8 a 19 horas  Registro:   lunes a jueves: de 8 a 15 horas  Viernes: de 9 a 14 horas    Exposiciones: consultar programa" ;
 	base:tieneEquipamiento "Biblioteca  Canal de televisión a través de internet (24 horas de emisión)  cervantestv.es" ;
-	base:tieneTelefono "914 367 600" ;
+	vcard:tel "914 367 600" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/InstitutoCervantes> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/InstitutoCervantes> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/InstitutoCervantes> ;
@@ -1300,8 +1302,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/InstitutoCervantes> a base:Direccion ;
 	base:tieneNumero "49"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "ALCALA" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "ALCALA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/InstitutoCervantes> a base:Metro ;
@@ -1319,7 +1321,7 @@
 	base:tieneDescripcion "Objetivo : promover y difundir la lengua y la cultura italianas en España a través de la organización de actividades culturales para favorecer la circulación de las ideas, de las artes y de las ciencias." ;
 	base:tieneHorario "Invierno: de lunes a viernes de 9 a 18 horas  Verano: de 9 a 14 horas" ;
 	base:tieneEquipamiento "Biblioteca  Cafetería  Exposiciones  Ciclos de cine  Enseñanza del  iItaliano  Salón de actos" ;
-	base:tieneTelefono """915 475 205  / 915 478 603 (Centralita)                 
+	vcard:tel """915 475 205  / 915 478 603 (Centralita)                 
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/InstitutoItalianodeCultur> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/InstitutoItalianodeCultur> ;
@@ -1338,8 +1340,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/InstitutoItalianodeCultur> a base:Direccion ;
 	base:tieneNumero "86"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "MAYOR" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "MAYOR" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/InstitutoItalianodeCultur> a base:Metro ;
@@ -1352,7 +1354,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/MinisteriodeHaciendayAdmi> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Ministerio de Hacienda y Administraciones Públicas. Dirección General de Patrimonio del Estado" ;
-	base:tieneTelefono "915 958 000" ;
+	vcard:tel "915 958 000" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MinisteriodeHaciendayAdmi> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MinisteriodeHaciendayAdmi> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MinisteriodeHaciendayAdmi> ;
@@ -1370,8 +1372,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MinisteriodeHaciendayAdmi> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "ALCALA" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "ALCALA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MinisteriodeHaciendayAdmi> a base:Metro ;
@@ -1395,7 +1397,7 @@
 	base:tieneNombre "Ministerio de Justicia" ;
 	base:tieneDescripcion "Edificio construido por el arquitecto Evaristo del Castillo para la Marquesa de Sonora en 1797, sobre el solar donde se encontraba la casa de Don Bernardo Grimaldo, destruida en un incendio en 1789. En 1851 pasa a ser propiedad del Estado y entre 1942 y 1947 es transformado por Javier Barroso, que le da el estilo nacionalista - herreriano, introduciendo las torres con sus chapiteles y revistiendo éstas con piedra." ;
 	base:tieneHorario "Atención telefónica:  de lunes a viernes  de 9 a 17 horas" ;
-	base:tieneTelefono """913 902 000 (Centralita)               
+	vcard:tel """913 902 000 (Centralita)               
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MinisteriodeJusticia> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MinisteriodeJusticia> ;
@@ -1414,8 +1416,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MinisteriodeJusticia> a base:Direccion ;
 	base:tieneNumero "45"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28015"^^xsd:int ;
-	base:tieneCalle "SAN BERNARDO" ;
+	locn:postCode "28015"^^xsd:int ;
+	locn:address "SAN BERNARDO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MinisteriodeJusticia> a base:Metro ;
@@ -1430,7 +1432,7 @@
 	base:tieneNombre "Monasterio de las Descalzas Reales" ;
 	base:tieneDescripcion "Convento fundado por la Princesa Juana de Austria, transformando un antiguo palacio de su madre Isabel de Portugal." ;
 	base:tieneHorario "Sólo con visita guiada.    De martes a sábado de 10 a 14 horas y de 16 a 18:30 horas  Domingos y festivos, de 10 a 15 horas. Cerrado los lunes  Cierre de taquillas una hora antes  Cerrado:   Enero: días 1, 6.  Abril: del 1 al 4 inclusive, semana santa.  Mayo: día 1.  Diciembre: 24, 25 y 31 de diciembre.    El  7 de diciembre  abierto en horario de mañana y tarde.     Atención telefónica:    De lunes a sábados de 9:30 a 17 horas  Domingos y festivos de 9 a 14 horas" ;
-	base:tieneTelefono """914 548 700                                                      
+	vcard:tel """914 548 700                                                      
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MonasteriodelasDescalzasR> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MonasteriodelasDescalzasR> ;
@@ -1449,8 +1451,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MonasteriodelasDescalzasR> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "DESCALZAS" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "DESCALZAS" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MonasteriodelasDescalzasR> a base:Metro ;
@@ -1463,7 +1465,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/MonasteriodeSanPlacido> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Monasterio de San Plácido" ;
-	base:tieneTelefono "915 317 999" ;
+	vcard:tel "915 317 999" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MonasteriodeSanPlacido> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MonasteriodeSanPlacido> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MonasteriodeSanPlacido> ;
@@ -1481,8 +1483,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MonasteriodeSanPlacido> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28004"^^xsd:int ;
-	base:tieneCalle "SAN ROQUE" ;
+	locn:postCode "28004"^^xsd:int ;
+	locn:address "SAN ROQUE" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MonasteriodeSanPlacido> a base:Metro ;
@@ -1512,8 +1514,8 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MonumentoHomenajealasVict> a base:Direccion ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "Emperador Carlos V" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "Emperador Carlos V" ;
 	base:tieneTipoVia "GLORIETA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MonumentoHomenajealasVict> a base:Metro .
@@ -1526,7 +1528,7 @@
 	base:tieneNombre "Museo de Historia de Madrid" ;
 	base:tieneHorario "Exposición    &quot;Cervantes a la luz: imágenes del hallazgo&quot;:   de martes a domingo de 10:00 a 20 horas.   Salas de exposición permanente y de Cartografía y maquetas : de martes a domingo de 10:00 a 20 horas.  Cerrado : todos los lunes y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre." ;
 	base:tieneEquipamiento "Biblioteca de investigación  Servicio de documentación  Guardarropa  Zona wifi" ;
-	base:tieneTelefono "917 011 863" ;
+	vcard:tel "917 011 863" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeHistoriadeMadrid> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeHistoriadeMadrid> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodeHistoriadeMadrid> ;
@@ -1544,8 +1546,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeHistoriadeMadrid> a base:Direccion ;
 	base:tieneNumero "78"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28004"^^xsd:int ;
-	base:tieneCalle "FUENCARRAL" ;
+	locn:postCode "28004"^^xsd:int ;
+	locn:address "FUENCARRAL" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodeHistoriadeMadrid> a base:Metro ;
@@ -1561,7 +1563,7 @@
 	base:tieneDescripcion "Construido inicialmente para palacio de D. Juan de Goyeneche, el edificio fue adquirido por la Academia de Bellas Artes en 1773 y reformado bajo la dirección de Fernando Chueca Goitia en 1973 y la fachada por Diego de Villanueva en 1774." ;
 	base:tieneHorario "Colección permanente:  de martes a domingos de 10 a 15 horas., incluyendo festivos. Lunes cerrado.      Exposiciones temporales:  consultar telefónicamente  Cerrado mes de agosto y días 1 y 6 de enero, 1 y 30 de mayo, 9 de noviembre; 24, 25 y 31 de diciembre." ;
 	base:tieneEquipamiento "Sala de exposiciones - Accesible a personas con minusvalía (física)." ;
-	base:tieneTelefono """915 240 864 (Centralita)                                    
+	vcard:tel """915 240 864 (Centralita)                                    
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelaRealAcademiadeBe> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelaRealAcademiadeBe> ;
@@ -1580,8 +1582,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelaRealAcademiadeBe> a base:Direccion ;
 	base:tieneNumero "13"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "ALCALA" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "ALCALA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodelaRealAcademiadeBe> a base:Metro ;
@@ -1597,7 +1599,7 @@
 	base:tieneDescripcion "Edificio de caracter monumental. Construido como cabecera de la línea Madrid - Extremadura - Portugal en el año 1880 por E. Cachelievre." ;
 	base:tieneHorario "De martes a viernes de 9:30 a 15 horas.   Sábados de 10 a 15 horas.   Domingos de 10 a 15 horas.   Cerrado los lunes (incluidos festivos), del 16 al 31 de agosto (ambos inclusive), y los días 1 y 6 de enero, 1 de mayo y 25 de diciembre." ;
 	base:tieneEquipamiento "Tienda  Teatro  Librería  Cafetería  Archivo y Biblioteca  Parque ferroviario  Salas de Tracción, de Modelismo Ferroviario, de Infraestructura y de Relojes    Actividades    Feria de coleccionismo &lsquo;La Estación&rsquo; (los primeros sábados de cada mes, excepto en agosto)  Mercadillo de modelismo (primeros domingos de cada mes, excepto en agosto)   Actividades para escolares  Teatro familiar (todos los sábados, domingos y festivos, excepto julio y agosto)  Trenes de jardín (todos los domingos, excepto julio y agosto)" ;
-	base:tieneTelefono """902 228 822                                                                                           
+	vcard:tel """902 228 822                                                                                           
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelFerrocarrildeMadr> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelFerrocarrildeMadr> ;
@@ -1616,8 +1618,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelFerrocarrildeMadr> a base:Direccion ;
 	base:tieneNumero "61"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/ARGANZUELA> ;
-	base:tieneCodigoPostal "28045"^^xsd:int ;
-	base:tieneCalle "DELICIAS" ;
+	locn:postCode "28045"^^xsd:int ;
+	locn:address "DELICIAS" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodelFerrocarrildeMadr> a base:Metro ;
@@ -1637,7 +1639,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/MuseoLazaroGaldiano> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Museo Lázaro Galdiano" ;
 	base:tieneHorario "Martes a sábados de 10 a 16:30 horas.  Domingos de 10 a 15 horas.  Cerrado todos los lunes, 1 y 6 de enero, 28 y 29 de marzo, 1 y 15 de mayo, 15 de agosto, 1 de noviembre y 24, 25 y 31 de diciembre.    Visitas guiadas  al Museo fuera de horario: de 17:30 a 18:45 horas, previa reserva telefónica en el 915 616 084 (extensión 101).    Horario para reserva telefónica: de lunes a jueves, de 8:30 a 16:30 horas, viernes hasta las 14 horas.   Importe: 2 euros (entrada al museo).   Miércoles y jueves: para grupos previamente constituidos.   Viernes para visitantes individuales reunidos para la visita." ;
-	base:tieneTelefono "915 616 084" ;
+	vcard:tel "915 616 084" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoLazaroGaldiano> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoLazaroGaldiano> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseoLazaroGaldiano> ;
@@ -1655,8 +1657,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoLazaroGaldiano> a base:Direccion ;
 	base:tieneNumero "122"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28006"^^xsd:int ;
-	base:tieneCalle "SERRANO" ;
+	locn:postCode "28006"^^xsd:int ;
+	locn:address "SERRANO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoLazaroGaldiano> a base:Metro .
@@ -1671,7 +1673,7 @@
 	base:tieneDescripcion "Inaugurado en 1912, su sede es un típico palacete madrileño del último tercio del siglo XIX. El museo posee muebles, cerámicas, vidrios, joyas, tejidos, arte oriental, y hasta 30.000 objetos distintos que a lo largo de la historia han servido para embellecer las casas, palacios y los monumentos de distintas culturas.  El museo posee muestras como el Jarrón de Sevres regalo de Napoleón III, la Cocina Valenciana del siglo XVIII compuesta por más de 1.500 azulejos de Manises, la Mesa de plata del siglo XVI o la colección de alfombras españolas de los siglos XV al XVII." ;
 	base:tieneHorario "De martes a sábados de 9:30 a 15 horas.   Jueves tarde de 17 a 20 horas.  Cerrado los jueves de julio y agosto.  Domingos y festivos de 10 a 15 horas.   Cerrado: todos los lunes del año, y los días 1 y 6 de enero, 1 y 15 de mayo, 24, 25 y 31 de diciembre." ;
 	base:tieneEquipamiento "Exposición de piezas españolas y de procedencia extranjera.     Visitas guiadas a la colección permanente.   Los guías voluntarios del Museo Nacional de Artes Decorativas ofrecen visitas gratuitas a la colección permanente los domingos a las 11:30 horas para todos los visitantes y de martes a viernes a grupos (previa petición de hora en el 915 326 499 -  Ext.  101).   Visitas guiadas individuales  los domingos a las 11:30 horas    Información y reservas para grupos:  915 326 499.  Ext.  101 (En caso de cancelación de la visita, se ruega avisar telefónicamente)" ;
-	base:tieneTelefono "915 326 499 / 915 326 845" ;
+	vcard:tel "915 326 499 / 915 326 845" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoNacionaldeArtesDecor> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNacionaldeArtesDecor> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseoNacionaldeArtesDecor> ;
@@ -1689,8 +1691,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNacionaldeArtesDecor> a base:Direccion ;
 	base:tieneNumero "12"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "MONTALBAN" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "MONTALBAN" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoNacionaldeArtesDecor> a base:Metro ;
@@ -1708,7 +1710,7 @@
 	base:tieneDescripcion "Construido por Fernando de la Torriente en 1881 con hierro y cristal. De estructura muy similar a los pabellones con destino a exposiciones construídos en la época. Sus jardines albergan un estanque, el monumento a Isabel la Católica y el monumento a la Constitución de 1978." ;
 	base:tieneHorario "De martes a viernes, domingos, festivos y lunes festivos de 10 a 17 horas. Sábados, domingos previos a festivos de 10 a 20 horas. Sábados de julio y agosto de 10 a 15 horas.   Cerrado : todos los lunes no festivos, 1 y 6 de enero, 1 de mayo y 25 de diciembre   Biblioteca : de lunes a viernes de 9 a 15 horas. Julio y agosto: de lunes a viernes de 9 a 14,30 horas   Mediateca  (cerrada por obras)." ;
 	base:tieneEquipamiento "Biblioteca de Zoología, Entomología, Econología, Evolución, Geología y Paleontología (consulta en sala, información y referencia, reprografía, préstamo personal e interbibliotecario), Archivo, publicaciones, consulta y asesoramiento científico y técnico, exposiciones permanentes y temporales, actividades culturales, talleres, cursos, Sala de proyecciones. Librería especializada." ;
-	base:tieneTelefono "914 111 328 (centralita)" ;
+	vcard:tel "914 111 328 (centralita)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoNacionaldeCienciasNa> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNacionaldeCienciasNa> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseoNacionaldeCienciasNa> ;
@@ -1726,8 +1728,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNacionaldeCienciasNa> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMARTIN> ;
-	base:tieneCodigoPostal "28006"^^xsd:int ;
-	base:tieneCalle "JOSE GUTIERREZ ABASCAL" ;
+	locn:postCode "28006"^^xsd:int ;
+	locn:address "JOSE GUTIERREZ ABASCAL" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoNacionaldeCienciasNa> a base:Metro ;
@@ -1746,7 +1748,7 @@
 	base:tieneNombre "Museo Thyssen Bornemisza" ;
 	base:tieneDescripcion "El Palacio donde se ubica la colección fue el antiguo palacio del duque de Villahermosa. Edificación neoclásica. Posteriormente se adapta como entidad bancaria perdiento sus espacios interiores. Más tarde, pasó a formar parte de los edificios del Museo del Prado. Desde principios de los 90 alberga la Colección Thyssen. El museo ofrece un recorrido por la historia de la pintura europea desde sus inicios en el siglo  XIII , hasta finales del siglo  XX.       Horario general:    Colecciones permanentes:  lunes de 12 a 16 horas (acceso gratuito por patrocinio de MasterCard) y de martes a domingo de 10 a 19 horas. Los días 1 de enero, 1 de mayo y 25 de diciembre, el Museo permanecerá cerrado.   Exposiciones temporales:  de martes a domingo de 10 a 19 horas . Sábados de 10 a 21 horas   Exposiciones temporales en verano:  de martes a sábados, de 10 a 22 horas. Lunes y domingos, de 10 a 19 horas.    Montajes expositivos:  lunes de 12 a 16 horas (Carmen en las colecciones españolas y Calles y rostros de Berlín en las colecciones Thyssen- Bornemisza) y de martes a domingo de 10 a 19 horas.  El desalojo de todas las salas tendrá lugar 5 minutos antes del cierre." ;
 	base:tieneEquipamiento "Accesible a personas con discapacidad (física y sensorial)   Folleto y señalización en braille para invidentes  Librería  Tienda  Cafetería  Restaurante  Guardarropa  Servicio de venta anticipada en las taquillas  Servicio de Audio Guía" ;
-	base:tieneTelefono """902 760 511 (Información general)                                                                                                                                                                                                 
+	vcard:tel """902 760 511 (Información general)                                                                                                                                                                                                 
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoThyssenBornemisza> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoThyssenBornemisza> ;
@@ -1765,8 +1767,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoThyssenBornemisza> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "PRADO" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "PRADO" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoThyssenBornemisza> a base:Metro ;
@@ -1800,8 +1802,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PalaciodeBuenavista.Cuart> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "CIBELES" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "CIBELES" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PalaciodeBuenavista.Cuart> a base:Metro ;
@@ -1832,8 +1834,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PalaciodeCibeles> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "CIBELES" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "CIBELES" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PalaciodeCibeles> a base:Metro ;
@@ -1850,7 +1852,7 @@
 	base:tieneNombre "Palacio de Liria" ;
 	base:tieneDescripcion "Construído por Ventura Rodríguez entre 1762 y 1780 para el tercer Duque de Berwick y de Liria. De estilo barroco clásico. Destaca su fachada con columnas jónicas y pilastras que descansan sobre un basamento almohadillado." ;
 	base:tieneHorario "Viernes: visita guiada a las 10 horas, 11 horas y 12 horas.  Visitas: previa petición de cita por escrito o por fax" ;
-	base:tieneTelefono "91 547 53 02" ;
+	vcard:tel "91 547 53 02" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PalaciodeLiria> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PalaciodeLiria> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/PalaciodeLiria> ;
@@ -1868,8 +1870,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PalaciodeLiria> a base:Direccion ;
 	base:tieneNumero "20"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28008"^^xsd:int ;
-	base:tieneCalle "PRINCESA" ;
+	locn:postCode "28008"^^xsd:int ;
+	locn:address "PRINCESA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PalaciodeLiria> a base:Metro ;
@@ -1900,8 +1902,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PalaciodeSantona> a base:Direccion ;
 	base:tieneNumero "13"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "HUERTAS" ;
+	locn:postCode "28012"^^xsd:int ;
+	locn:address "HUERTAS" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PalaciodeSantona> a base:Metro ;
@@ -1917,7 +1919,7 @@
 	base:tieneDescripcion "Construido sobre el solar del antiguo Alcázar tras un incendio en 1734. Proyectado por Juvara en 1735 y construido por Sachet de 1738 a 1764 bajo las influencias del clasicismo barroco. A partir de 1770, Sabatini añadió el ala sudeste y realizó la gran escalera. Es de destacar el gran patio que articula el edificio y la fachada principal que aloja el balcón y Escudo Real.  Dentro se encuentra el Museo Real Oficina de Farmacia (cerrado por obras de remodelación)." ;
 	base:tieneHorario "De octubre a marzo: de 10 a 18 horas.  De abril a septiembre: de 10 a 20 horas.  Cierre taquillas una hora antes.  Cerrado:   Enero: días 1, 6.  Mayo: día 1.  Octubre: día 12.  Diciembre: 25, los días 24 y 31 taquillas 14 horas cerradas y monumento a las 15 horas cerrado.    El  7 de diciembre  abierto horario de mañana y tarde." ;
 	base:tieneEquipamiento "Librería. Exposición permanente Cuarteto Real (colección de cinco stradivarius). Visita incluida en el precio de la entrada. Más información: teléfono 91 542 00 59. Accesible a personas con minusvalía (física).   Iluminación del Palacio : todos los días, del atardecer hasta las 2 de la madrugada   Cambio de guardia : primer miércoles de cada mes (si la climatología lo permite) a las 12 horas, en la Plaza de la Armería. Además se producirá un cambio de guardia reducido el resto de miércoles del mes a las 12 horas, en la Puerta del Príncipe (Plaza de Oriente). Sin relevo: en julio, agosto y septiembre.   Archivo General de Palacio     Horario:  lunes, miércoles y viernes de 9 a 14:30 horas; martes y jueves de 9 a 18 horas" ;
-	base:tieneTelefono "914 548 700 (Información general)" ;
+	vcard:tel "914 548 700 (Información general)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PalacioReal> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PalacioReal> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/PalacioReal> ;
@@ -1935,8 +1937,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PalacioReal> a base:Direccion ;
 	base:tieneNumero "0"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "BAILEN" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "BAILEN" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PalacioReal> a base:Metro ;
@@ -1951,7 +1953,7 @@
 	base:tieneNombre "Panteón de Hombres Ilustres" ;
 	base:tieneDescripcion "La construcción de este edificio responde a dos de las constantes de fines de siglo: la arquitectura historicista y la escultura funeraria. En él reposan trece personajes ilustres de la historia política y militar española." ;
 	base:tieneHorario "De martes a sábado de 10 a 14 y de 16 a 18:30 horas  Domingos y festivos de 10 a 15 horas. Lunes cerrado   Cerrado :    Enero los días 1 y 6  Mayo el día 1  Diciembre el día 25 ; los días 24 y 31 (desde las 14:30 horas), monumento cerrado a las 15 horas.    Cierre del acceso al monumento media hora antes.  Nota. El  7 de diciembre  abierto en horario de mañana y tarde." ;
-	base:tieneTelefono "914 548 700 (Información general)" ;
+	vcard:tel "914 548 700 (Información general)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PanteondeHombresIlustres> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PanteondeHombresIlustres> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/PanteondeHombresIlustres> ;
@@ -1969,8 +1971,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PanteondeHombresIlustres> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "JULIAN GAYARRE" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "JULIAN GAYARRE" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PanteondeHombresIlustres> a base:Metro ;
@@ -1985,7 +1987,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/ParroquiaNuestraSenoradel> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Parroquia Nuestra Señora del Buen Consejo" ;
-	base:tieneTelefono "913 692 037" ;
+	vcard:tel "913 692 037" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParroquiaNuestraSenoradel> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaNuestraSenoradel> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ParroquiaNuestraSenoradel> ;
@@ -2003,8 +2005,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaNuestraSenoradel> a base:Direccion ;
 	base:tieneNumero "37"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "TOLEDO" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "TOLEDO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParroquiaNuestraSenoradel> a base:Metro ;
@@ -2017,7 +2019,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/ParroquiaSanFermindelosNa> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Parroquia San Fermín de los Navarros" ;
-	base:tieneTelefono "913 197 148" ;
+	vcard:tel "913 197 148" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParroquiaSanFermindelosNa> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSanFermindelosNa> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ParroquiaSanFermindelosNa> ;
@@ -2035,8 +2037,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSanFermindelosNa> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28010"^^xsd:int ;
-	base:tieneCalle "EDUARDO DATO" ;
+	locn:postCode "28010"^^xsd:int ;
+	locn:address "EDUARDO DATO" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParroquiaSanFermindelosNa> a base:Metro ;
@@ -2053,7 +2055,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/ParroquiaSanGines> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Parroquia San Ginés" ;
-	base:tieneTelefono "913 664 875" ;
+	vcard:tel "913 664 875" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParroquiaSanGines> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSanGines> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ParroquiaSanGines> ;
@@ -2071,8 +2073,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSanGines> a base:Direccion ;
 	base:tieneNumero "13"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "ARENAL" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "ARENAL" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParroquiaSanGines> a base:Metro ;
@@ -2086,7 +2088,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/ParroquiaSanJose> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Parroquia San José" ;
-	base:tieneTelefono "915 226 784" ;
+	vcard:tel "915 226 784" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParroquiaSanJose> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSanJose> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ParroquiaSanJose> ;
@@ -2104,8 +2106,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSanJose> a base:Direccion ;
 	base:tieneNumero "43"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "ALCALA" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "ALCALA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParroquiaSanJose> a base:Metro ;
@@ -2119,7 +2121,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/ParroquiaSanManuelySanBen> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Parroquia San Manuel y San Benito" ;
-	base:tieneTelefono "914 357 682" ;
+	vcard:tel "914 357 682" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParroquiaSanManuelySanBen> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSanManuelySanBen> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ParroquiaSanManuelySanBen> ;
@@ -2137,8 +2139,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSanManuelySanBen> a base:Direccion ;
 	base:tieneNumero "83"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28009"^^xsd:int ;
-	base:tieneCalle "ALCALA" ;
+	locn:postCode "28009"^^xsd:int ;
+	locn:address "ALCALA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParroquiaSanManuelySanBen> a base:Metro ;
@@ -2151,7 +2153,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/ParroquiaSanMarcos> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Parroquia San Marcos" ;
-	base:tieneTelefono "915 471 079 " ;
+	vcard:tel "915 471 079 " ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParroquiaSanMarcos> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSanMarcos> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ParroquiaSanMarcos> ;
@@ -2169,8 +2171,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSanMarcos> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28015"^^xsd:int ;
-	base:tieneCalle "SAN LEONARDO" ;
+	locn:postCode "28015"^^xsd:int ;
+	locn:address "SAN LEONARDO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParroquiaSanMarcos> a base:Metro ;
@@ -2183,7 +2185,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/ParroquiaSanMillanySanCay> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Parroquia San Millán y San Cayetano" ;
-	base:tieneTelefono "915 270 790" ;
+	vcard:tel "915 270 790" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParroquiaSanMillanySanCay> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSanMillanySanCay> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ParroquiaSanMillanySanCay> ;
@@ -2201,8 +2203,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSanMillanySanCay> a base:Direccion ;
 	base:tieneNumero "15"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "EMBAJADORES" ;
+	locn:postCode "28012"^^xsd:int ;
+	locn:address "EMBAJADORES" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParroquiaSanMillanySanCay> a base:Metro ;
@@ -2218,7 +2220,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/ParroquiaSanNicolasdeBari> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Parroquia San Nicolás de Bari de los Servitas" ;
 	base:tieneEquipamiento "Parroquia personal de los italianos" ;
-	base:tieneTelefono "915 594 064" ;
+	vcard:tel "915 594 064" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParroquiaSanNicolasdeBari> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSanNicolasdeBari> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ParroquiaSanNicolasdeBari> ;
@@ -2236,8 +2238,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSanNicolasdeBari> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "SAN NICOLAS" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "SAN NICOLAS" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParroquiaSanNicolasdeBari> a base:Metro ;
@@ -2250,7 +2252,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/ParroquiaSantaBarbara> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Parroquia Santa Bárbara" ;
-	base:tieneTelefono "913 194 811" ;
+	vcard:tel "913 194 811" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParroquiaSantaBarbara> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSantaBarbara> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ParroquiaSantaBarbara> ;
@@ -2268,8 +2270,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSantaBarbara> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28004"^^xsd:int ;
-	base:tieneCalle "GENERAL CASTA&Ntilde;OS" ;
+	locn:postCode "28004"^^xsd:int ;
+	locn:address "GENERAL CASTA&Ntilde;OS" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParroquiaSantaBarbara> a base:Metro ;
@@ -2284,7 +2286,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/ParroquiaSantaCruz> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Parroquia Santa Cruz" ;
-	base:tieneTelefono "913 691 239" ;
+	vcard:tel "913 691 239" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParroquiaSantaCruz> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSantaCruz> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ParroquiaSantaCruz> ;
@@ -2302,8 +2304,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSantaCruz> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "ATOCHA" ;
+	locn:postCode "28012"^^xsd:int ;
+	locn:address "ATOCHA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParroquiaSantaCruz> a base:Metro ;
@@ -2317,7 +2319,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/ParroquiaSantiagoySanJuan> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Parroquia Santiago y San Juan Bautista" ;
-	base:tieneTelefono "915 480 824" ;
+	vcard:tel "915 480 824" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParroquiaSantiagoySanJuan> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSantiagoySanJuan> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ParroquiaSantiagoySanJuan> ;
@@ -2335,8 +2337,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSantiagoySanJuan> a base:Direccion ;
 	base:tieneNumero "24"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "SANTIAGO" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "SANTIAGO" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParroquiaSantiagoySanJuan> a base:Metro ;
@@ -2365,8 +2367,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PlazadeOriente> a base:Direccion ;
 	base:tieneNumero "0"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "ORIENTE" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "ORIENTE" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PlazadeOriente> a base:Metro ;
@@ -2398,8 +2400,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PlazaMayor> a base:Direccion ;
 	base:tieneNumero "0"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "MAYOR" ;
+	locn:postCode "28012"^^xsd:int ;
+	locn:address "MAYOR" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PlazaMayor> a base:Metro ;
@@ -2414,7 +2416,7 @@
 	base:tieneNombre "Plaza Monumental de Toros de las Ventas" ;
 	base:tieneDescripcion "De estilo neomudéjar se terminó de construir en el año 1931. Basada en un proyecto de José Espelius, quien murió antes de la conclusión de las obras, fue terminada por Manuel Muñoz Monasterio. El terreno se presenta en talud, salvado desde la Avenida de los Toreros mediante escalinatas que interrumpen el trazado ajardinado." ;
 	base:tieneHorario "La plaza de toros de Las Ventas está abierta  todos los días de 10 a 17:30 horas, para realización de visitas guiadas , excepto días de cierre excepcional.   Los días de corrida se cierra 4 horas antes del inicio del espectáculo, que se celebran:   Todos los domingos de finales de marzo hasta principios de octubre  Durante la Feria de San Isidro  Durante la Feria de Otoño en octubre  Días de cierre: 25 de diciembre y 1 de enero     Por motivos de organización, el Tour podrá variar su recorrido y horario informando al visitante antes del acceso. Teléfono de información: 687 73 90 32" ;
-	base:tieneTelefono "913 562 200 " ;
+	vcard:tel "913 562 200 " ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PlazaMonumentaldeTorosdel> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PlazaMonumentaldeTorosdel> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/PlazaMonumentaldeTorosdel> ;
@@ -2432,8 +2434,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PlazaMonumentaldeTorosdel> a base:Direccion ;
 	base:tieneNumero "237"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28028"^^xsd:int ;
-	base:tieneCalle "ALCALA" ;
+	locn:postCode "28028"^^xsd:int ;
+	locn:address "ALCALA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PlazaMonumentaldeTorosdel> a base:Metro ;
@@ -2464,8 +2466,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PuertadelSol> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "PUERTA DEL SOL" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "PUERTA DEL SOL" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PuertadelSol> a base:Metro ;
@@ -2480,7 +2482,7 @@
 	base:tieneNombre "Real Academia de Ciencias Morales y Políticas" ;
 	base:tieneDescripcion "Ubicada en una de las pocas casas-palacio del siglo  XV  conservadas en Madrid. La torre y la casa fueron mandadas construir por Álvaro de Luján antes de 1471. Su planta, de forma irregular, se distribuye en torno a un gran patio central y tiene triple fachada. El edificio ha sufrido múltiples reformas, una de las cuales fue para la instalación de la  Real Academia , llevada a cabo en 1858." ;
 	base:tieneEquipamiento "Actividades: disertaciones privadas para los académicos. Actos públicos cuando ingresa un nuevo académico.  Biblioteca: acceso restringido a académicos e investigadores." ;
-	base:tieneTelefono "915 481 330" ;
+	vcard:tel "915 481 330" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealAcademiadeCienciasMor> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealAcademiadeCienciasMor> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealAcademiadeCienciasMor> ;
@@ -2498,8 +2500,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealAcademiadeCienciasMor> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "DE LA VILLA" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "DE LA VILLA" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/RealAcademiadeCienciasMor> a base:Metro ;
@@ -2514,7 +2516,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/RealAcademiadeJurispruden> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Real Academia de Jurisprudencia y Legislación" ;
 	base:tieneEquipamiento "Salón de actos   Biblioteca  Archivo   Sala de conferencias   Actividades: conferencias, seminarios y coloquios" ;
-	base:tieneTelefono "915 222 069" ;
+	vcard:tel "915 222 069" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealAcademiadeJurispruden> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealAcademiadeJurispruden> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealAcademiadeJurispruden> ;
@@ -2532,8 +2534,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealAcademiadeJurispruden> a base:Direccion ;
 	base:tieneNumero "13"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "MARQUÉS DE CUBAS" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "MARQUÉS DE CUBAS" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/RealAcademiadeJurispruden> a base:Metro ;
@@ -2546,7 +2548,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/RealAcademiaEspanoladeHis> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Real Academia Española de Historia" ;
-	base:tieneTelefono "914 290 611 " ;
+	vcard:tel "914 290 611 " ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealAcademiaEspanoladeHis> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealAcademiaEspanoladeHis> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealAcademiaEspanoladeHis> ;
@@ -2564,8 +2566,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealAcademiaEspanoladeHis> a base:Direccion ;
 	base:tieneNumero "21"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "DE LEÓN" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "DE LEÓN" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/RealAcademiaEspanoladeHis> a base:Metro ;
@@ -2579,7 +2581,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/RealAcademiaNacionaldeFar> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Real Academia Nacional de Farmacia" ;
 	base:tieneEquipamiento "Museo de farmacia   Biblioteca" ;
-	base:tieneTelefono "915 310 307  / 915 223 147" ;
+	vcard:tel "915 310 307  / 915 223 147" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealAcademiaNacionaldeFar> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealAcademiaNacionaldeFar> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealAcademiaNacionaldeFar> ;
@@ -2597,8 +2599,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealAcademiaNacionaldeFar> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28004"^^xsd:int ;
-	base:tieneCalle "FARMACIA" ;
+	locn:postCode "28004"^^xsd:int ;
+	locn:address "FARMACIA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/RealAcademiaNacionaldeFar> a base:Metro ;
@@ -2613,7 +2615,7 @@
 	base:tieneNombre "Real Basílica San Francisco el Grande" ;
 	base:tieneDescripcion "Conjunto conventual que sustituyó al monasterio franciscano medieval, construido por Francisco de las Cabezas entre 1761 y 1768, que fue relevado por Antonio Polo y que concluye Francisco Sabatini en 1784 donde se exponen colecciones de pinturas de los siglos  XVII  al  XIX." ;
 	base:tieneHorario "Museo:     De martes a viernes de 10:30 a 12:30 y de 16 a 18 horas  Sábados de 10:30 a 12:30 y de 16 a 18 horas (si no se ofician actos religiosos).   Julio y agosto: de martes a domingo de 10:30 a 12:30 y de 17 a 19 horas." ;
-	base:tieneTelefono "913 653 800" ;
+	vcard:tel "913 653 800" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealBasilicaSanFranciscoe> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealBasilicaSanFranciscoe> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealBasilicaSanFranciscoe> ;
@@ -2631,8 +2633,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealBasilicaSanFranciscoe> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "SAN BUENAVENTURA" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "SAN BUENAVENTURA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/RealBasilicaSanFranciscoe> a base:Metro ;
@@ -2646,7 +2648,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/RealColegioSantaIsabel-La> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Real Colegio Santa Isabel - La Asunción" ;
 	base:tieneEquipamiento "Horario ampliado - Comedor" ;
-	base:tieneTelefono "915 273 183 - 915 273 181" ;
+	vcard:tel "915 273 183 - 915 273 181" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealColegioSantaIsabel-La> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealColegioSantaIsabel-La> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealColegioSantaIsabel-La> ;
@@ -2664,8 +2666,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealColegioSantaIsabel-La> a base:Direccion ;
 	base:tieneNumero "46"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "SANTA ISABEL" ;
+	locn:postCode "28012"^^xsd:int ;
+	locn:address "SANTA ISABEL" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/RealColegioSantaIsabel-La> a base:Metro ;
@@ -2682,7 +2684,7 @@
 	base:tieneNombre "Real Fábrica de Tapices" ;
 	base:tieneHorario "De lunes a viernes de 10 a 14 horas.   Cerrado: sábados, domingos, Semana Santa y agosto." ;
 	base:tieneEquipamiento "Salones para eventos" ;
-	base:tieneTelefono "914 340 550" ;
+	vcard:tel "914 340 550" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealFabricadeTapices> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealFabricadeTapices> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealFabricadeTapices> ;
@@ -2700,8 +2702,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealFabricadeTapices> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "FUENTERRABIA" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "FUENTERRABIA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/RealFabricadeTapices> a base:Metro ;
@@ -2716,7 +2718,7 @@
 	base:tieneNombre "Real Jardín Botánico" ;
 	base:tieneDescripcion "Centro de investigación del  CSIC  que alberga cuatro terrazas con plantas de América, Europa y el Pacífico, así como una colección de bonsáis." ;
 	base:tieneHorario "El Jardín está abierto al público todos los días del año, excepto los días de Navidad y Año Nuevo.   Enero y febrero: de 10 a 18 horas  Marzo: de 10 a 19 horas  Abril: de 10 a 20 horas  De mayo a agosto de 10 a 21 horas  Septiembre: de 10 a 20 horas  Octubre: de 10 a 19 horas  Noviembre y diciembre: de 10 a 18 horas" ;
-	base:tieneTelefono "914 203 017 (centralita)" ;
+	vcard:tel "914 203 017 (centralita)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealJardinBotanico> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealJardinBotanico> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealJardinBotanico> ;
@@ -2734,8 +2736,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealJardinBotanico> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "MURILLO" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "MURILLO" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/RealJardinBotanico> a base:Metro ;
@@ -2752,7 +2754,7 @@
 	base:tieneNombre "Real Monasterio de la Encarnación" ;
 	base:tieneDescripcion "Edificio construído por Juan Gómez de Mora de 1611 a 1616 como monasterio anejo al Alcázar Real, modelo de lo que se ha dado en llamar barroco madrileño. Cuenta con la reliquia de San Pantaleón." ;
 	base:tieneHorario "De martes a sábado: de 10 a 14 horas y de 16 a 18:30 horas  Domingos y festivos: de 10 a 15 horas. Tardes cerrado  Cierre taquillas: una hora antes  Cerrado:   Enero: días 1 y 6.  Abril: del 1 al 4 inclusive, semana santa.  Mayo: día 1  Diciembre: 24,25 y 31.  El día  7 de diciembre  abierto horario de mañana y tarde." ;
-	base:tieneTelefono "914 548 700 (Información general)" ;
+	vcard:tel "914 548 700 (Información general)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealMonasteriodelaEncarna> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealMonasteriodelaEncarna> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealMonasteriodelaEncarna> ;
@@ -2770,8 +2772,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealMonasteriodelaEncarna> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "ENCARNACION" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "ENCARNACION" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/RealMonasteriodelaEncarna> a base:Metro ;
@@ -2786,7 +2788,7 @@
 	base:tieneNombre "Real Monasterio de Santa Isabel" ;
 	base:tieneDescripcion "El Real Monasterio de Santa Isabel está situado en Madrid, dentro de la ciudad histórica, en una gran manzana, próxima a Atocha.  Santa Isabel agrupa dos fundaciones, un colegio de niñas, establecido por Felipe II, y un convento de clausura de monjas agustinas recoletas, fundado por la esposa de Felipe III, doña Margarita de Austria.   La arquitectura de la iglesia se debe a Gómez de Mora, de mediados del siglo XVIII. En la clausura se conservan numerosas obras pictóricas de los siglos XVII y XVIII." ;
 	base:tieneHorario "El acceso al templo sólo es posible en horario de culto" ;
-	base:tieneTelefono "914 548 700 (Información general)" ;
+	vcard:tel "914 548 700 (Información general)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealMonasteriodeSantaIsab> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealMonasteriodeSantaIsab> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealMonasteriodeSantaIsab> ;
@@ -2803,8 +2805,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealMonasteriodeSantaIsab> a base:Direccion ;
 	base:tieneNumero "48"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "SANTA ISABEL" ;
+	locn:postCode "28012"^^xsd:int ;
+	locn:address "SANTA ISABEL" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/RealMonasteriodeSantaIsab> a base:Metro .
@@ -2816,7 +2818,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/RealOratoriodelCaballerod> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Real Oratorio del Caballero de Gracia" ;
 	base:tieneDescripcion "Construído por Juan de Villanueva entre 1786 y 1795 de planta basilical y en un sentir muy cercano al de las iglesias venecianas de Palladio. La fachada es de Custodio Moreno.  Entre 1976 y 1981 el arquitecto Fernando Chueca Goitia emprendió un proyecto de restauración  con polémicos resultados. Los trabajos se interrumpieron durante largos años; convocándose finalmente un concurso de arquitectura que fue ganado en 1987 por Javier Feduchi Benlliure." ;
-	base:tieneTelefono "915 326 937 / 915 240 664" ;
+	vcard:tel "915 326 937 / 915 240 664" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealOratoriodelCaballerod> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealOratoriodelCaballerod> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealOratoriodelCaballerod> ;
@@ -2834,8 +2836,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealOratoriodelCaballerod> a base:Direccion ;
 	base:tieneNumero "5"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "CABALLERO DE GRACIA" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "CABALLERO DE GRACIA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/RealOratoriodelCaballerod> a base:Metro ;
@@ -2850,7 +2852,7 @@
 	base:tieneNombre "Real Sitio de El Pardo" ;
 	base:tieneDescripcion "Recinto en el que se conserva el Palacio, construido sobre el castillo del siglo  XV , la Casita del Príncipe, del siglo  XVIII  y la Quinta del Duque de Arco (Palacete que fue Casa de Labor y sus tierras). Desde 1983 ha sido adecuado para residencia de Jefes de Estado extranjeros en visita oficial." ;
 	base:tieneHorario "De octubre a marzo: todos los días de 10 a 18 horas  De abril a septiembre: todos los días de 10 a 20 horas  Cerrado:    Enero: días 1 y 6.  Mayo: día 1.  Diciembre: 24, 25 y 31." ;
-	base:tieneTelefono "914 548 700 (Información general)" ;
+	vcard:tel "914 548 700 (Información general)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealSitiodeElPardo> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealSitiodeElPardo> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealSitiodeElPardo> ;
@@ -2868,8 +2870,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealSitiodeElPardo> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28048"^^xsd:int ;
-	base:tieneCalle "MANUEL ALONSO" ;
+	locn:postCode "28048"^^xsd:int ;
+	locn:address "MANUEL ALONSO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/RealSitiodeElPardo> a base:Metro .
@@ -2888,7 +2890,7 @@
 	base:tieneDescripcion "Singular espacio expositivo ubicado en un antiguo depósito de agua, construido entre 1907 y 1911 por el ingeniero Diego Martín Montalvo y el arquitecto Ramón de Aguinaga, de estilo ecléctico con una estructura exterior de ladrillo en planta circular, restaurado en 1986 por los arquitectos Javier Alau y Antonio Lopera." ;
 	base:tieneHorario "De martes a sábados de 11 a 14 y de 17 a 20:30 horas. Domingos y festivos de 11 a 14 horas. Lunes cerrado.   Consultar horario específico de cada exposición." ;
 	base:tieneEquipamiento "Exposiciones de fotografía." ;
-	base:tieneTelefono "915 451 000 (ext. 2505)" ;
+	vcard:tel "915 451 000 (ext. 2505)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SalaCanaldeIsabelII> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaCanaldeIsabelII> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SalaCanaldeIsabelII> ;
@@ -2906,8 +2908,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SalaCanaldeIsabelII> a base:Direccion ;
 	base:tieneNumero "125"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28003"^^xsd:int ;
-	base:tieneCalle "SANTA ENGRACIA" ;
+	locn:postCode "28003"^^xsd:int ;
+	locn:address "SANTA ENGRACIA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SalaCanaldeIsabelII> a base:Metro ;
@@ -2921,7 +2923,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/SaladeexposicioneslasAlha> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Sala de exposiciones las Alhajas de la Fundación Montemadrid" ;
 	base:tieneHorario "De martes a domingo de 10 a 14 y de 16 a 20 horas. Lunes cerrado" ;
-	base:tieneTelefono "913 685 948 " ;
+	vcard:tel "913 685 948 " ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SaladeexposicioneslasAlha> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SaladeexposicioneslasAlha> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/SaladeexposicioneslasAlha> ;
@@ -2939,8 +2941,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SaladeexposicioneslasAlha> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "SAN MARTIN" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "SAN MARTIN" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SaladeexposicioneslasAlha> a base:Metro ;
@@ -2954,7 +2956,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/Senado> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Senado" ;
 	base:tieneHorario "Oficina de información:     De lunes a jueves de 9:30 a 14 horas y de 16 a 18:30 horas   Viernes de 9:30 a 14 horas" ;
-	base:tieneTelefono "900 103 038 / 915 381 852 / 53 / 54 / " ;
+	vcard:tel "900 103 038 / 915 381 852 / 53 / 54 / " ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/Senado> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/Senado> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/Senado> ;
@@ -2972,8 +2974,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/Senado> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "BAILEN" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "BAILEN" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/Senado> a base:Metro ;
@@ -2987,7 +2989,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/SociedadGeneraldeAutoresy> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Sociedad General de Autores y Editores (SGAE)" ;
 	base:tieneDescripcion "La SGAE, Sociedad General de Autores y Editores, es una entidad privada dedicada a la  defensa y gestión colectiva de los derechos de propiedad intelectual  de sus más de 106.000 socios. Su misión fundamental es la protección y reparto de la remuneración de los socios por la utilización de sus obras (reproducción, distribución, comunicación pública, transformación y copia privada) y la gestión de licencias entre los clientes para su uso." ;
-	base:tieneTelefono """913 499 550 / 00          
+	vcard:tel """913 499 550 / 00          
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/SociedadGeneraldeAutoresy> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SociedadGeneraldeAutoresy> ;
@@ -3006,8 +3008,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/SociedadGeneraldeAutoresy> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28004"^^xsd:int ;
-	base:tieneCalle "FERNANDO VI" ;
+	locn:postCode "28004"^^xsd:int ;
+	locn:address "FERNANDO VI" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/SociedadGeneraldeAutoresy> a base:Metro ;
@@ -3023,7 +3025,7 @@
 	base:tieneDescripcion "Templo egipcio dedicado a Amón de Debod y a Isis, construido entre 185  a. de C.  y el siglo  I  de la Era. Fue donado por Egipto a España en 1968, en agradecimiento por la ayuda en el salvamento de los templos de Abu Simbel." ;
 	base:tieneHorario "De 1 de octubre a 31 de marzo   De martes a viernes de 9:45 a 13:45 y de 16:15 a 18:15 horas  Sábados, domingos y festivos de 9:30 a 20 hora    De 1 de abril a 30 de septiembre   De martes a viernes de 10 a 14 y de 18 a 20 horas  Sábados, domingos y festivos de 9:30 a 20 horas.     El templo permanece cerrado los lunes y los festivos 1 de enero, 1 de mayo y 25 de diciembre.  Último pase de visita 15 minutos antes del cierre.  Este horario y la apertura de salas pueden sufrir modificaciones, por favor, confírmelo en el teléfono de información del museo." ;
 	base:tieneEquipamiento "No cuenta con accesos adaptados para minusválidos   Exposición permanente : Debod un templo ptolemaico  Actividades didácticas: talleres para grupos escolares, talleres de profesores, visitas guiadas, talleres para familias.  Se pueden realizar fotografías o grabaciones de vídeo libremente en el exterior o en el interior del templo, siempre y cuando no se utilicen flash o trípode y su fin no sea comercial." ;
-	base:tieneTelefono "913 667 415 (Museo de San Isidro / Templo de Debod))" ;
+	vcard:tel "913 667 415 (Museo de San Isidro / Templo de Debod))" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TemplodeDebod> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TemplodeDebod> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TemplodeDebod> ;
@@ -3041,8 +3043,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TemplodeDebod> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28008"^^xsd:int ;
-	base:tieneCalle "FERRAZ" ;
+	locn:postCode "28008"^^xsd:int ;
+	locn:address "FERRAZ" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TemplodeDebod> a base:Metro ;
@@ -3058,7 +3060,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/TribunaldeCuentas> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Tribunal de Cuentas" ;
 	base:tieneDescripcion "Supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado, así como del Sector Público, sin perjuicio de su propia jurisdicción." ;
-	base:tieneTelefono """914 478 701         
+	vcard:tel """914 478 701         
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TribunaldeCuentas> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TribunaldeCuentas> ;
@@ -3077,8 +3079,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TribunaldeCuentas> a base:Direccion ;
 	base:tieneNumero "81"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28004"^^xsd:int ;
-	base:tieneCalle "FUENCARRAL" ;
+	locn:postCode "28004"^^xsd:int ;
+	locn:address "FUENCARRAL" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TribunaldeCuentas> a base:Metro ;
@@ -3092,7 +3094,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Monumento/TribunalSupremo> a base:SitioTuristico , base:Monumento ;
 	base:tieneNombre "Tribunal Supremo" ;
 	base:tieneEquipamiento "Sala Civil, Sala Penal, Sala Contencioso- Administrativo, Sala Social, Sala Militar, Secretaría de Gobierno y Gabinete Técnico." ;
-	base:tieneTelefono """913 971 200 (Centralita) / 913 971 050 (Atención al ciudadano) / 913 973 228 (Oficina de Prensa) / 913 971 129 (Archivo) / 913 971 245 (Biblioteca) / 913 971 064 (Registro General)     
+	vcard:tel """913 971 200 (Centralita) / 913 971 050 (Atención al ciudadano) / 913 973 228 (Oficina de Prensa) / 913 971 129 (Archivo) / 913 971 245 (Biblioteca) / 913 971 064 (Registro General)     
      
  """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TribunalSupremo> ;
@@ -3112,8 +3114,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TribunalSupremo> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28004"^^xsd:int ;
-	base:tieneCalle "MARQUES DE LA ENSENADA" ;
+	locn:postCode "28004"^^xsd:int ;
+	locn:address "MARQUES DE LA ENSENADA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TribunalSupremo> a base:Metro ;

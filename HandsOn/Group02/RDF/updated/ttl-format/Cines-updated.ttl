@@ -1,0 +1,653 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gp02: <http://www.semanticweb.org/webSemantica/group02#> .
+@prefix dbpd: <http://linkedgeodata.org/page/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCentro+Comercial+y+Palacio+de+Hielo+Dreams> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "7381184" ;
+	gp02:tieneNombre "Centro Comercial y Palacio de Hielo Dreams" ;
+	gp02:tieneTransporte " Metro: Canillas (línea 4)  Bus: 120, 122, 153 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c599006aee194410VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "SILVANO" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "77"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28043"^^xsd:int ;
+	gp02:tieneBarrio "CANILLAS" ;
+	gp02:tieneDistrito "HORTALEZA" ;
+	gp02:tieneCoordX "446212"^^xsd:int ;
+	gp02:tieneCoordY "4479540"^^xsd:int ;
+	gp02:tieneLatitud "40.46291274127404"^^xsd:double ;
+	gp02:tieneLongitud "-3.635733711568097"^^xsd:double ;
+	gp02:tieneTelefono "902 202 930" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Acte%C3%B3n> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "17302" ;
+	gp02:tieneNombre "Cine Acteón" ;
+	gp02:tieneTransporte " Metro: Sol (líneas 1, 3, 5), Gran Vía (líneas 1, 5)  Bus: 1, 2, 3, 5, 15, 20, 46, 51, 74, 146, 150, 202,  M1 ,  M2  " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b6fb3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "MONTERA" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "31"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28013"^^xsd:int ;
+	gp02:tieneBarrio "SOL" ;
+	gp02:tieneDistrito "CENTRO" ;
+	gp02:tieneCoordX "440524"^^xsd:int ;
+	gp02:tieneCoordY "4474679"^^xsd:int ;
+	gp02:tieneLatitud "40.41873428725416"^^xsd:double ;
+	gp02:tieneLongitud "-3.702363924778316"^^xsd:double ;
+	gp02:tieneTelefono "915 222 281" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Artesiete+Alcal%C3%A1+Full+HD> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "55827" ;
+	gp02:tieneNombre "Cine Artesiete Alcalá Full HD" ;
+	gp02:tieneTransporte " Metro: Ciudad Lineal  (línea 5)  Bus: 4, 38, 48, 70, 77, 104, 105, 109, 113 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f14c3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "ALCALA" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "414"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28027"^^xsd:int ;
+	gp02:tieneBarrio "PUEBLO NUEVO" ;
+	gp02:tieneDistrito "CIUDAD LINEAL" ;
+	gp02:tieneCoordX "445953"^^xsd:int ;
+	gp02:tieneCoordY "4476717"^^xsd:int ;
+	gp02:tieneLatitud "40.437446906533594"^^xsd:double ;
+	gp02:tieneLongitud "-3.638523962349189"^^xsd:double ;
+	gp02:tieneTelefono """913 678 768    
+""" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Artistic+Metropol> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "6647175" ;
+	gp02:tieneNombre "Cine Artistic Metropol" ;
+	gp02:tieneTransporte " Metro: Acacias (línea 5), Embajadores (línea 3)  Bus:  34, 36, 41, 60,  116, 118, 119, 148, C2, " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b69b2f335181b310VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "CIGARRERAS" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "6"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28005"^^xsd:int ;
+	gp02:tieneBarrio "ACACIAS" ;
+	gp02:tieneDistrito "ARGANZUELA" ;
+	gp02:tieneCoordX "440082"^^xsd:int ;
+	gp02:tieneCoordY "4473142"^^xsd:int ;
+	gp02:tieneLatitud "40.404856499695455"^^xsd:double ;
+	gp02:tieneLongitud "-3.70742856791561"^^xsd:double .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Callao> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "17319" ;
+	gp02:tieneNombre "Cine Callao" ;
+	gp02:tieneTransporte " Metro: Callao (línea 3)  Bus: 1, 2, 44, 46, 74, 75, 146, 147, 148, 133, 202 " ;
+	gp02:tieneAccesibilidad "1"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=142255004e91f010VgnVCM2000000c205a0aRCRD" ;
+	gp02:tieneNombreVia "CALLAO" ;
+	gp02:tieneClaseVial "PLAZA" ;
+	gp02:tieneNum "3"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28013"^^xsd:int ;
+	gp02:tieneBarrio "SOL" ;
+	gp02:tieneDistrito "CENTRO" ;
+	gp02:tieneCoordX "440260"^^xsd:int ;
+	gp02:tieneCoordY "4474823"^^xsd:int ;
+	gp02:tieneLatitud "40.42001256069903"^^xsd:double ;
+	gp02:tieneLongitud "-3.7054891255917886"^^xsd:double ;
+	gp02:tieneTelefono "915 225 801" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Cinesa+Capitol> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "17321" ;
+	gp02:tieneNombre "Cine Cinesa Capitol" ;
+	gp02:tieneTransporte " Metro: Callao (líneas 3, 5), Santo Domingo (línea 2)  Bus: 1, 2, 44, 46, 74, 75, 133, 146, 147, 148, 202 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6dac3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "GRAN VIA" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "41"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28013"^^xsd:int ;
+	gp02:tieneBarrio "PALACIO" ;
+	gp02:tieneDistrito "CENTRO" ;
+	gp02:tieneCoordX "440167"^^xsd:int ;
+	gp02:tieneCoordY "4474871"^^xsd:int ;
+	gp02:tieneLatitud "40.42043827261684"^^xsd:double ;
+	gp02:tieneLongitud "-3.7065898195198486"^^xsd:double ;
+	gp02:tieneTelefono "902 333 231" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Cinesa+La+Gavia> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "17304" ;
+	gp02:tieneNombre "Cine Cinesa La Gavia" ;
+	gp02:tieneTransporte " Metro: Plaza de España (líneas 3, 10), Ventura Rodríguez (línea 3)  Bus: 1, 2, 44, 133, 138, 148, 202,  C1  " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=390c3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "ADOLFO BIOY CASARES" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "2"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28051"^^xsd:int ;
+	gp02:tieneBarrio "CASCO H.VALLECAS" ;
+	gp02:tieneDistrito "VILLA DE VALLECAS" ;
+	gp02:tieneCoordX "449381"^^xsd:int ;
+	gp02:tieneCoordY "4468949"^^xsd:int ;
+	gp02:tieneLatitud "40.367701522967664"^^xsd:double ;
+	gp02:tieneLongitud "-3.597512351069017"^^xsd:double ;
+	gp02:tieneTelefono """902 333 231  
+""" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Cinesa+Las+Rosas+3D> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "68001" ;
+	gp02:tieneNombre "Cine Cinesa Las Rosas 3D" ;
+	gp02:tieneTransporte " Metro: Alsacia (línea 2)  Bus: 4, 70, 106, 140,  E2  " ;
+	gp02:tieneAccesibilidad "1"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3c9255004e91f010VgnVCM2000000c205a0aRCRD" ;
+	gp02:tieneNombreVia "GUADALAJARA" ;
+	gp02:tieneClaseVial "AVENIDA" ;
+	gp02:tieneNum "2"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28032"^^xsd:int ;
+	gp02:tieneBarrio "ARCOS" ;
+	gp02:tieneDistrito "SAN BLAS-CANILLEJAS" ;
+	gp02:tieneCoordX "447298"^^xsd:int ;
+	gp02:tieneCoordY "4474603"^^xsd:int ;
+	gp02:tieneLatitud "40.41850711270872"^^xsd:double ;
+	gp02:tieneLongitud "-3.6225145335284066"^^xsd:double ;
+	gp02:tieneTelefono "902 333 231" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Cinesa+M%C3%A9ndez+%C3%81lvaro+3D> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "33938" ;
+	gp02:tieneNombre "Cine Cinesa Méndez Álvaro 3D" ;
+	gp02:tieneTransporte "  Metro:  Méndez Álvaro (línea 6)   Renfe:  Méndez Álvaro   Bus:  102, 113, 148, 152 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b32e3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "ACANTO" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "2"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28045"^^xsd:int ;
+	gp02:tieneBarrio "ATOCHA" ;
+	gp02:tieneDistrito "ARGANZUELA" ;
+	gp02:tieneCoordX "442780"^^xsd:int ;
+	gp02:tieneCoordY "4472196"^^xsd:int ;
+	gp02:tieneLatitud "40.396524567021544"^^xsd:double ;
+	gp02:tieneLongitud "-3.6755496528510783"^^xsd:double ;
+	gp02:tieneTelefono "902 333 231" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Cinesa+Pr%C3%ADncipe+P%C3%ADo> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "160926" ;
+	gp02:tieneNombre "Cine Cinesa Príncipe Pío" ;
+	gp02:tieneTransporte " Metro: Príncipe Pío (líneas 6, 10)  Bus: 25, 33, 39, 62, 41, 46, 75, 138,  C1 ,  C2   Renfe: Príncipe Pío " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=de97051c8d91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "FLORIDA" ;
+	gp02:tieneClaseVial "PASEO" ;
+	gp02:tieneNum "0"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28008"^^xsd:int ;
+	gp02:tieneBarrio "CASA DE CAMPO" ;
+	gp02:tieneDistrito "MONCLOA-ARAVACA" ;
+	gp02:tieneCoordX "438948"^^xsd:int ;
+	gp02:tieneCoordY "4474919"^^xsd:int ;
+	gp02:tieneLatitud "40.42078197104075"^^xsd:double ;
+	gp02:tieneLongitud "-3.7209625681527148"^^xsd:double ;
+	gp02:tieneTelefono "902 333 231" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Cinesa+Proyecciones+3D> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "137916" ;
+	gp02:tieneNombre "Cine Cinesa Proyecciones 3D" ;
+	gp02:tieneTransporte " Metro: San Bernardo (líneas 2, 4), Quevedo (línea 2), Bilbao (líneas 1, 4 )  Bus: 3, 21, 37, 40, 147, 149 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2f67051c8d91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "FUENCARRAL" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "136"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28010"^^xsd:int ;
+	gp02:tieneBarrio "TRAFALGAR" ;
+	gp02:tieneDistrito "CHAMBERI" ;
+	gp02:tieneCoordX "440460"^^xsd:int ;
+	gp02:tieneCoordY "4476095"^^xsd:int ;
+	gp02:tieneLatitud "40.43148568058066"^^xsd:double ;
+	gp02:tieneLongitud "-3.7032511074682977"^^xsd:double ;
+	gp02:tieneTelefono "902 333 231" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Conde+Duque+Alberto+Aguilera> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "17327" ;
+	gp02:tieneNombre "Cine Conde Duque Alberto Aguilera" ;
+	gp02:tieneTransporte " Metro: San Bernardo (líneas 2, 4)  Bus: 3, 21, 147, 149 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=72dc3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "ALBERTO AGUILERA" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "4"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28015"^^xsd:int ;
+	gp02:tieneBarrio "ARAPILES" ;
+	gp02:tieneDistrito "CHAMBERI" ;
+	gp02:tieneCoordX "440175"^^xsd:int ;
+	gp02:tieneCoordY "4475912"^^xsd:int ;
+	gp02:tieneLatitud "40.42981664825533"^^xsd:double ;
+	gp02:tieneLongitud "-3.706593653591267"^^xsd:double ;
+	gp02:tieneTelefono "914 477 184" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Conde+Duque+Goya> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "124770" ;
+	gp02:tieneNombre "Cine Conde Duque Goya" ;
+	gp02:tieneTransporte " Metro: Goya (líneas 2,4 ), Velázquez (línea 4), Príncipe de Vergara (líneas 2, 9)  Bus: 15, 21, 26, 29, 52, 53, 61, 146, 152 " ;
+	gp02:tieneAccesibilidad "1"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e5ec654d9d91f010VgnVCM2000000c205a0aRCRD" ;
+	gp02:tieneNombreVia "GOYA" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "67"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28001"^^xsd:int ;
+	gp02:tieneBarrio "GOYA" ;
+	gp02:tieneDistrito "SALAMANCA" ;
+	gp02:tieneCoordX "442460"^^xsd:int ;
+	gp02:tieneCoordY "4475373"^^xsd:int ;
+	gp02:tieneLatitud "40.425122566570735"^^xsd:double ;
+	gp02:tieneLongitud "-3.6796079845954734"^^xsd:double ;
+	gp02:tieneTelefono """915 783 152       
+""" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Conde+Duque+Santa+Engracia+3D> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "24407" ;
+	gp02:tieneNombre "Cine Conde Duque Santa Engracia 3D" ;
+	gp02:tieneTransporte "Metro: Rios Rosas(linea 1)" ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c2f255004e91f010VgnVCM2000000c205a0aRCRD" ;
+	gp02:tieneNombreVia "SANTA ENGRACIA" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "132"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28003"^^xsd:int ;
+	gp02:tieneBarrio "RIOS ROSAS" ;
+	gp02:tieneDistrito "CHAMBERI" ;
+	gp02:tieneCoordX "440596"^^xsd:int ;
+	gp02:tieneCoordY "4477305"^^xsd:int ;
+	gp02:tieneLatitud "40.442395567766845"^^xsd:double ;
+	gp02:tieneLongitud "-3.701772948792809"^^xsd:double ;
+	gp02:tieneTelefono "914 411 461" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Dreams+Palacio+de+Hielo> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "129467" ;
+	gp02:tieneNombre "Cine Dreams Palacio de Hielo" ;
+	gp02:tieneTransporte " Metro: Canillas (línea 4)  Bus: 73, 112, 120, 122, 153 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=442d654d9d91f010VgnVCM2000000c205a0aRCRD" ;
+	gp02:tieneNombreVia "SILVANO" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "77"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28043"^^xsd:int ;
+	gp02:tieneBarrio "CANILLAS" ;
+	gp02:tieneDistrito "HORTALEZA" ;
+	gp02:tieneCoordX "446189"^^xsd:int ;
+	gp02:tieneCoordY "4479528"^^xsd:int ;
+	gp02:tieneLatitud "40.462803146661386"^^xsd:double ;
+	gp02:tieneLongitud "-3.636003964017397"^^xsd:double .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Estudio+C%C3%ADrculo+de+Bellas+Artes> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "17314" ;
+	gp02:tieneNombre "Cine Estudio Círculo de Bellas Artes" ;
+	gp02:tieneTransporte " Metro: Banco de España (línea 2), Sevilla (línea 2)  Bus: 1, 2, 5, 9, 46, 51, 52, 53, 74, 146, 150, 202 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7cfc3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "ALCALA" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "42"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28014"^^xsd:int ;
+	gp02:tieneBarrio "CORTES" ;
+	gp02:tieneDistrito "CENTRO" ;
+	gp02:tieneCoordX "441012"^^xsd:int ;
+	gp02:tieneCoordY "4474640"^^xsd:int ;
+	gp02:tieneLatitud "40.418417756198565"^^xsd:double ;
+	gp02:tieneLongitud "-3.6966084554513072"^^xsd:double ;
+	gp02:tieneTelefono "913 892 500" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+La+Vaguada> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "17366" ;
+	gp02:tieneNombre "Cine La Vaguada" ;
+	gp02:tieneTransporte " Metro: Barrio del Pilar (línea 9)  Bus: 49, 83, 128, 132, 134, 137  " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8e8355004e91f010VgnVCM2000000c205a0aRCRD" ;
+	gp02:tieneNombreVia "SANTIAGO DE COMPOSTELA" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "0"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28034"^^xsd:int ;
+	gp02:tieneBarrio "LA PAZ" ;
+	gp02:tieneDistrito "FUENCARRAL-EL PARDO" ;
+	gp02:tieneCoordX "440936"^^xsd:int ;
+	gp02:tieneCoordY "4482048"^^xsd:int ;
+	gp02:tieneLatitud "40.48514678964862"^^xsd:double ;
+	gp02:tieneLongitud "-3.698194594272782"^^xsd:double .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Palacio+de+la+Prensa> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "17349" ;
+	gp02:tieneNombre "Cine Palacio de la Prensa" ;
+	gp02:tieneTransporte "  Metro:  Callao (líneas 3, 5)   Bus:  1, 2, 46, 74, 75, 146, 147, 148, 202 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fe3d3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "CALLAO" ;
+	gp02:tieneClaseVial "PLAZA" ;
+	gp02:tieneNum "4"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28013"^^xsd:int ;
+	gp02:tieneBarrio "SOL" ;
+	gp02:tieneDistrito "CENTRO" ;
+	gp02:tieneCoordX "440257"^^xsd:int ;
+	gp02:tieneCoordY "4474804"^^xsd:int ;
+	gp02:tieneLatitud "40.41984118412432"^^xsd:double ;
+	gp02:tieneLongitud "-3.7055226978126132"^^xsd:double ;
+	gp02:tieneTelefono "915 219 900" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Palafox> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "17350" ;
+	gp02:tieneNombre "Cine Palafox" ;
+	gp02:tieneTransporte "  Metro:  Bilbao (líneas 1, 4)   Bus:  3, 21, 37, 40, 147, 149 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f15d3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "LUCHANA" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "15"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28010"^^xsd:int ;
+	gp02:tieneBarrio "TRAFALGAR" ;
+	gp02:tieneDistrito "CHAMBERI" ;
+	gp02:tieneCoordX "440655"^^xsd:int ;
+	gp02:tieneCoordY "4475934"^^xsd:int ;
+	gp02:tieneLatitud "40.430058289017886"^^xsd:double ;
+	gp02:tieneLongitud "-3.7009373284385667"^^xsd:double ;
+	gp02:tieneTelefono "915 938 727" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Paz> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "17351" ;
+	gp02:tieneNombre "Cine Paz" ;
+	gp02:tieneTransporte " Metro: Bilbao (líneas 2, 4), Quevedo (línea 2)  Bus: 3, 16, 21, 37, 40, 61, 147, 149 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f46d3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "FUENCARRAL" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "125"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28010"^^xsd:int ;
+	gp02:tieneBarrio "TRAFALGAR" ;
+	gp02:tieneDistrito "CHAMBERI" ;
+	gp02:tieneCoordX "440446"^^xsd:int ;
+	gp02:tieneCoordY "4476028"^^xsd:int ;
+	gp02:tieneLatitud "40.430881110367864"^^xsd:double ;
+	gp02:tieneLongitud "-3.7034098613735513"^^xsd:double ;
+	gp02:tieneTelefono "914 464 566" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Princesa> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "17355" ;
+	gp02:tieneNombre "Cine Princesa" ;
+	gp02:tieneTransporte " Metro: Plaza de España (líneas 3, 10), Ventura Rodríguez (línea 3)  Bus: 1, 2, 44, 74, 133, 138, 202,  C1 ,  C2  " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fa8d3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "PRINCESA" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "3"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28008"^^xsd:int ;
+	gp02:tieneBarrio "ARGUELLES" ;
+	gp02:tieneDistrito "MONCLOA-ARAVACA" ;
+	gp02:tieneCoordX "439638"^^xsd:int ;
+	gp02:tieneCoordY "4475352"^^xsd:int ;
+	gp02:tieneLatitud "40.424733058522776"^^xsd:double ;
+	gp02:tieneLongitud "-3.7128707959595735"^^xsd:double ;
+	gp02:tieneTelefono """915 422 702  
+""" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Renoir+Plaza+de+Espa%C3%B1a> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "17358" ;
+	gp02:tieneNombre "Cine Renoir Plaza de España" ;
+	gp02:tieneTransporte " Metro: Plaza España (líneas 3, 10)  Bus: 1, 2, 44, 46, 74, 75, 133, 138, 148, 202,  C1 ,  C2  " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b1bd3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "MARTIN DE LOS HEROS" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "12"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28008"^^xsd:int ;
+	gp02:tieneBarrio "ARGUELLES" ;
+	gp02:tieneDistrito "MONCLOA-ARAVACA" ;
+	gp02:tieneCoordX "439591"^^xsd:int ;
+	gp02:tieneCoordY "4475313"^^xsd:int ;
+	gp02:tieneLatitud "40.424378311873575"^^xsd:double ;
+	gp02:tieneLongitud "-3.7134211001030777"^^xsd:double ;
+	gp02:tieneTelefono """915 422 702 
+""" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Renoir+Retiro> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "58576" ;
+	gp02:tieneNombre "Cine Renoir Retiro" ;
+	gp02:tieneTransporte "  Metro:  Ibiza (líneas 2, 9)   Bus:  2, 15, 26, 61, 63, 202, 215, C1 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b7dd3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "NARVAEZ" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "42"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28009"^^xsd:int ;
+	gp02:tieneBarrio "IBIZA" ;
+	gp02:tieneDistrito "RETIRO" ;
+	gp02:tieneCoordX "442731"^^xsd:int ;
+	gp02:tieneCoordY "4474811"^^xsd:int ;
+	gp02:tieneLatitud "40.42007851600518"^^xsd:double ;
+	gp02:tieneLongitud "-3.6763627973897464"^^xsd:double ;
+	gp02:tieneTelefono """915 422 702 
+""" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Sala+Berlanga> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "5787803" ;
+	gp02:tieneNombre "Cine Sala Berlanga" ;
+	gp02:tieneTransporte " Metro: Moncloa (líneas 3, 6) , Islas Filipinas (línea 7)  Bus: 1, 2, 12, 16, 21, 44, 61, 82, 83, 132, 133, 202, C1 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=08025b888b3aa210VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "ANDRES MELLADO" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "53"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28015"^^xsd:int ;
+	gp02:tieneBarrio "GAZTAMBIDE" ;
+	gp02:tieneDistrito "CHAMBERI" ;
+	gp02:tieneCoordX "439516"^^xsd:int ;
+	gp02:tieneCoordY "4476595"^^xsd:int ;
+	gp02:tieneLatitud "40.43592165987274"^^xsd:double ;
+	gp02:tieneLongitud "-3.7144273694875025"^^xsd:double .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Verdi+HD> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "91099" ;
+	gp02:tieneNombre "Cine Verdi HD" ;
+	gp02:tieneTransporte " Metro: Canal (líneas 2, 7), Quevedo (línea 2)  Bus: 3, 12, 16, 37, 61, 149 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b63e3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "BRAVO MURILLO" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "28"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28015"^^xsd:int ;
+	gp02:tieneBarrio "TRAFALGAR" ;
+	gp02:tieneDistrito "CHAMBERI" ;
+	gp02:tieneCoordX "440393"^^xsd:int ;
+	gp02:tieneCoordY "4476667"^^xsd:int ;
+	gp02:tieneLatitud "40.43662476624267"^^xsd:double ;
+	gp02:tieneLongitud "-3.70408281907753"^^xsd:double ;
+	gp02:tieneTelefono """914 473 930 
+""" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCine+Victoria> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "30455" ;
+	gp02:tieneNombre "Cine Victoria" ;
+	gp02:tieneTransporte " Metro: Diego de León (líneas 4, 5, 6)  Bus: 12, 26, 43, 48, 56, 61, 72, 73,    C1   ,   C2  " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=394e3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "FRANCISCO SILVELA" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "48"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28028"^^xsd:int ;
+	gp02:tieneBarrio "GUINDALERA" ;
+	gp02:tieneDistrito "SALAMANCA" ;
+	gp02:tieneCoordX "442966"^^xsd:int ;
+	gp02:tieneCoordY "4476373"^^xsd:int ;
+	gp02:tieneLatitud "40.43416598323624"^^xsd:double ;
+	gp02:tieneLongitud "-3.6737332830250886"^^xsd:double ;
+	gp02:tieneTelefono "917 251 266" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCines+Yelmo+Islazul> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "5548871" ;
+	gp02:tieneNombre "Cines Yelmo Islazul" ;
+	gp02:tieneTransporte " Bus: 35, 108, 118, 155 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2bc4a4cc80056210VgnVCM2000000c205a0aRCRD" ;
+	gp02:tieneNombreVia "CALDERILLA" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "1"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28054"^^xsd:int ;
+	gp02:tieneBarrio "BUENAVISTA" ;
+	gp02:tieneDistrito "CARABANCHEL" ;
+	gp02:tieneCoordX "437457"^^xsd:int ;
+	gp02:tieneCoordY "4468762"^^xsd:int ;
+	gp02:tieneLatitud "40.3652060762759"^^xsd:double ;
+	gp02:tieneLongitud "-3.737931015705989"^^xsd:double .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCinesa+Manoteras> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "4549928" ;
+	gp02:tieneNombre "Cinesa Manoteras" ;
+	gp02:tieneTransporte " Renfe: Fuente de la Mora ( C7 ,  C10 )  Bus: 150, 174 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1eb86f91462a1110VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "MANOTERAS" ;
+	gp02:tieneClaseVial "AVENIDA" ;
+	gp02:tieneNum "40"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28050"^^xsd:int ;
+	gp02:tieneBarrio "VALDEFUENTES" ;
+	gp02:tieneDistrito "HORTALEZA" ;
+	gp02:tieneCoordX "443715"^^xsd:int ;
+	gp02:tieneCoordY "4482126"^^xsd:int ;
+	gp02:tieneLatitud "40.48604287095553"^^xsd:double ;
+	gp02:tieneLongitud "-3.6654142365599194"^^xsd:double ;
+	gp02:tieneTelefono """902 100 842 
+""" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FCineteca+del+Matadero+Madrid> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "6963310" ;
+	gp02:tieneNombre "Cineteca del Matadero Madrid" ;
+	gp02:tieneTransporte " Metro :  Legazpi (líneas 6, 3)  Bus: 6 , 8 , 18 , 19 , 45 , 78 , 148 " ;
+	gp02:tieneAccesibilidad "1"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2dbd1fe44c5ee310VgnVCM2000000c205a0aRCRD" ;
+	gp02:tieneNombreVia "CHOPERA" ;
+	gp02:tieneClaseVial "PASEO" ;
+	gp02:tieneNum "14"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28045"^^xsd:int ;
+	gp02:tieneBarrio "CHOPERA" ;
+	gp02:tieneDistrito "ARGANZUELA" ;
+	gp02:tieneCoordX "440934"^^xsd:int ;
+	gp02:tieneCoordY "4471754"^^xsd:int ;
+	gp02:tieneLatitud "40.39241367848808"^^xsd:double ;
+	gp02:tieneLongitud "-3.697259467865366"^^xsd:double ;
+	gp02:tieneTelefono """915 170 903                            
+""" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FFilmoteca+Espa%C3%B1ola.+Cine+Dor%C3%A9> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "2044" ;
+	gp02:tieneNombre "Filmoteca Española. Cine Doré" ;
+	gp02:tieneTransporte " Metro: Antón Martín (Línea 1)  Bus: 6, 26, 32 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1c1f3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "SANTA ISABEL" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "3"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28012"^^xsd:int ;
+	gp02:tieneBarrio "EMBAJADORES" ;
+	gp02:tieneDistrito "CENTRO" ;
+	gp02:tieneCoordX "440784"^^xsd:int ;
+	gp02:tieneCoordY "4473908"^^xsd:int ;
+	gp02:tieneLatitud "40.411807323876616"^^xsd:double ;
+	gp02:tieneLongitud "-3.69922751452095"^^xsd:double ;
+	gp02:tieneTelefono "913 692 118 (gerencia) / 913 691 125 (taquillas) / 913 694 923 (cafetería) / 913 694 673 (librería)" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FPeque%C3%B1o+Cine+Estudio> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "43002" ;
+	gp02:tieneNombre "Pequeño Cine Estudio" ;
+	gp02:tieneTransporte " Metro: Quevedo ( L2 ), San Bernardo ( L2 ,  L4 )  Bus: 16, 37, 61, 149 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f77d3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "MAGALLANES" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "1"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28015"^^xsd:int ;
+	gp02:tieneBarrio "ARAPILES" ;
+	gp02:tieneDistrito "CHAMBERI" ;
+	gp02:tieneCoordX "440276"^^xsd:int ;
+	gp02:tieneCoordY "4476202"^^xsd:int ;
+	gp02:tieneLatitud "40.4324363685589"^^xsd:double ;
+	gp02:tieneLongitud "-3.705430315372582"^^xsd:double ;
+	gp02:tieneTelefono "914 472 920" .
+
+<http://www.semanticweb.org/webSemantica/group02/Cine%2FYelmo+Cines+Ideal+3D> a gp02:Cine , dbpd:Cinema ;
+	gp02:tienePK "17345" ;
+	gp02:tieneNombre "Yelmo Cines Ideal 3D" ;
+	gp02:tieneTransporte " Metro: Tirso de Molina (línea 1)  Bus: 6, 32, 50, 65 " ;
+	gp02:tieneAccesibilidad "0"^^xsd:boolean ;
+	gp02:tieneURL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb5e3d232e91f010VgnVCM1000000b205a0aRCRD" ;
+	gp02:tieneNombreVia "DOCTOR CORTEZO" ;
+	gp02:tieneClaseVial "CALLE" ;
+	gp02:tieneNum "6"^^xsd:int ;
+	gp02:tieneLocalidad <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneProvincia <http://dbpedia.org/resource/Madrid> ;
+	gp02:tieneCP "28012"^^xsd:int ;
+	gp02:tieneBarrio "EMBAJADORES" ;
+	gp02:tieneDistrito "CENTRO" ;
+	gp02:tieneCoordX "440397"^^xsd:int ;
+	gp02:tieneCoordY "4474133"^^xsd:int ;
+	gp02:tieneLatitud "40.41380655817473"^^xsd:double ;
+	gp02:tieneLongitud "-3.70380956260549"^^xsd:double ;
+	gp02:tieneTelefono """914 362 518 
+""" .

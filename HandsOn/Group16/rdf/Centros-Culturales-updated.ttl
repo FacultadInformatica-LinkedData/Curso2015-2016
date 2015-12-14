@@ -17,7 +17,8 @@
 	vcard:street-address "AVENIDA GENERAL FANJUL 2A. MADRID, MADRID 28044. LAS AGUILAS, LATINA." ;
 	vcard:geo "Coordenadas: 435243, 4470971. Lat/long: 40.38493634769686, -3.764230286224537." ;
 	vcard:tel "915 120 890 / 915 120 891" ;
-	vcard:email "ruizdm@madrid.es" , "CentrosCulturales" .
+	vcard:email "ruizdm@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Casa+de+Am%C3%A9rica> a linkedculture:Centro ;
 	dc:identifier "1956" ;
@@ -29,7 +30,7 @@
 	vcard:street-address "PLAZA CIBELES 4. MADRID, MADRID 28014. RECOLETOS, SALAMANCA." ;
 	vcard:geo "Coordenadas: 441379, 4474785. Lat/long: 40.419749969504096, -3.6922961903054348." ;
 	vcard:tel "915 954 800 (información) / 915 775 955 (reservas para el restaurante)" ;
-	vcard:email "Consorcios" .
+	dc:type "Consorcios" .
 
 <http://www.linkedculture.org/ontologies/resources/Casa+de+la+Juventud+de+Arganzuela> a linkedculture:Centro ;
 	dc:identifier "7320916" ;
@@ -40,7 +41,7 @@
 	vcard:street-address "PASEO CHOPERA 10. MADRID, MADRID 28045. CHOPERA, ARGANZUELA." ;
 	vcard:geo "Coordenadas: 440824, 4471863. Lat/long: 40.39339679324264, -3.698565725754662." ;
 	vcard:tel "915 132 661" ;
-	vcard:email "CentrosCulturales" .
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Casa+Asia+-+Madrid> a linkedculture:Centro ;
 	dc:identifier "4605237" ;
@@ -51,7 +52,8 @@
 	vcard:street-address "CALLE MAYOR 69. MADRID, MADRID 28013. PALACIO, CENTRO." ;
 	vcard:geo "Coordenadas: 439768, 4474305. Lat/long: 40.41531064853993, -3.7112390711768444." ;
 	vcard:tel "913 896 100" ;
-	vcard:email "casaasia@casaasia.es" , "CentrosCulturales" .
+	vcard:email "casaasia@casaasia.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Conde+Duque> a linkedculture:Centro ;
 	dc:identifier "1916" ;
@@ -63,7 +65,7 @@
 	vcard:url <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=64463d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	vcard:street-address "CALLE CONDE DUQUE 9 - 11. MADRID, MADRID 28015. UNIVERSIDAD, CENTRO." ;
 	vcard:geo "Coordenadas: 439864, 4475706. Lat/long: 40.427938443518215, -3.710240346719518." ;
-	vcard:email "MonumentosEdificiosArtisticos" .
+	dc:type "MonumentosEdificiosArtisticos" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Agust%C3%ADn+D%C3%ADaz+%28Moncloa+-+Aravaca%29> a linkedculture:Centro ;
 	dc:identifier "117288" ;
@@ -75,7 +77,8 @@
 	vcard:street-address "PASEO COMANDANTE FORTEA 42. MADRID, MADRID 28008. CASA DE CAMPO, MONCLOA-ARAVACA." ;
 	vcard:geo "Coordenadas: 437982, 4475676. Lat/long: 40.427538776051804, -3.732422725110936." ;
 	vcard:tel "915 487 772 / 773 / 774" ;
-	vcard:email "gonzalezrem@madrid.es" , "CentrosCulturales" .
+	vcard:email "gonzalezrem@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Alfredo+Kraus+%28Fuencarral+-+El+Pardo%29> a linkedculture:Centro ;
 	dc:identifier "118067" ;
@@ -87,7 +90,8 @@
 	vcard:street-address "GLORIETA PRADERA DE VAQUERIZAS 9. MADRID, MADRID 28035. MIRASIERRA, FUENCARRAL-EL PARDO." ;
 	vcard:geo "Coordenadas: 438957, 4482694. Lat/long: 40.49082275610172, -3.7216054330053647." ;
 	vcard:tel "913 767 085" ;
-	vcard:email "ccakraus@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccakraus@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Almirante+Churruca+%28Latina%29> a linkedculture:Centro ;
 	dc:identifier "1990" ;
@@ -99,7 +103,8 @@
 	vcard:street-address "CALLE FUENTE DEL TIRO 72. MADRID, MADRID 28024. LAS AGUILAS, LATINA." ;
 	vcard:geo "Coordenadas: 433895, 4470766. Lat/long: 40.3829835905706, -3.7800890564106613." ;
 	vcard:tel "915 090 581 / 917 053 794" ;
-	vcard:email "ccchurruca@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccchurruca@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Antonio+Machado+%28San+Blas+-+Canillejas%29> a linkedculture:Centro ;
 	dc:identifier "1942" ;
@@ -111,7 +116,8 @@
 	vcard:street-address "CALLE SAN ROMAN DEL VALLE 8. MADRID, MADRID 28037. ARCOS, SAN BLAS-CANILLEJAS." ;
 	vcard:geo "Coordenadas: 447365, 4474799. Lat/long: 40.42027705095574, -3.621741078700336." ;
 	vcard:tel "913 135 294" ;
-	vcard:email "ccamachado@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccamachado@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Aravaca+%28Moncloa+-+Aravaca%29> a linkedculture:Centro ;
 	dc:identifier "1919" ;
@@ -123,7 +129,8 @@
 	vcard:street-address "CALLE ZARZA 20. MADRID, MADRID 28023. ARAVACA, MONCLOA-ARAVACA." ;
 	vcard:geo "Coordenadas: 433479, 4479145. Lat/long: 40.45843103553325, -3.785855667139094." ;
 	vcard:tel "917 400 882 / 883" ;
-	vcard:email "ccaravaca@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccaravaca@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Auditorio+Parque+El+Paraiso+%28San+Blas+-+Canillejas%29> a linkedculture:Centro ;
 	dc:identifier "52511" ;
@@ -133,7 +140,8 @@
 	vcard:street-address "AVENIDA ARCENTALES 4. MADRID, MADRID 28037. HELLIN, SAN BLAS-CANILLEJAS." ;
 	vcard:geo "Coordenadas: 447335, 4475875. Lat/long: 40.42996840999023, -3.622184001035289." ;
 	vcard:tel "915 888 065" ;
-	vcard:email "cultusanblas@madrid.es" , "AuditoriosSalasConcierto" .
+	vcard:email "cultusanblas@madrid.es" ;
+	dc:type "AuditoriosSalasConcierto" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Buenavista+%28Salamanca%29> a linkedculture:Centro ;
 	dc:identifier "64851" ;
@@ -145,7 +153,8 @@
 	vcard:street-address "AVENIDA TOREROS 5. MADRID, MADRID 28028. GUINDALERA, SALAMANCA." ;
 	vcard:geo "Coordenadas: 443202, 4476130. Lat/long: 40.43200210571468, -3.6709293330780204." ;
 	vcard:tel "917 240 800 / 917 240 802" ;
-	vcard:email "ccbuenavista@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccbuenavista@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Buero+Vallejo+%28San+Blas+-+Canillejas%29> a linkedculture:Centro ;
 	dc:identifier "1943" ;
@@ -157,7 +166,8 @@
 	vcard:street-address "CALLE BOLTA&Ntilde;A 26. MADRID, MADRID 28022. CANILLEJAS, SAN BLAS-CANILLEJAS." ;
 	vcard:geo "Coordenadas: 448133, 4477512. Lat/long: 40.44477474902185, -3.6129105844633775." ;
 	vcard:tel "917 411 182" ;
-	vcard:email "ccbvallejo@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccbvallejo@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Carril+del+Conde+%28Hortaleza%29> a linkedculture:Centro ;
 	dc:identifier "118317" ;
@@ -170,7 +180,8 @@
 	vcard:street-address "CALLE CARRIL DEL CONDE 57. MADRID, MADRID 28043. CANILLAS, HORTALEZA." ;
 	vcard:geo "Coordenadas: 444625, 4479327. Lat/long: 40.46088953531134, -3.6544210187969433." ;
 	vcard:tel "917 161 240 / 917 161 242" ;
-	vcard:email "cccarrilconde@madrid.es" , "CentrosCulturales" .
+	vcard:email "cccarrilconde@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Casa+de+Vacas+%28Retiro%29> a linkedculture:Centro ;
 	dc:identifier "1945" ;
@@ -182,7 +193,8 @@
 	vcard:street-address "PASEO COLOMBIA 1. MADRID, MADRID 28009. LOS JERONIMOS, RETIRO." ;
 	vcard:geo "Coordenadas: 442077, 4474703. Lat/long: 40.41906024374356, -3.6840615387926956." ;
 	vcard:tel "914 095 819 / 914 092 336" ;
-	vcard:email "cccasadevacas@madrid.es" , "SalasExposiciones" .
+	vcard:email "cccasadevacas@madrid.es" ;
+	dc:type "SalasExposiciones" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Casa+del+Reloj+%28Arganzuela%29> a linkedculture:Centro ;
 	dc:identifier "1925" ;
@@ -194,7 +206,8 @@
 	vcard:street-address "PASEO CHOPERA 6 y 10. MADRID, MADRID 28045. CHOPERA, ARGANZUELA." ;
 	vcard:geo "Coordenadas: 440695, 4471989. Lat/long: 40.394522745106734, -3.7000855961559855." ;
 	vcard:tel "915 886 290 / 6299 /6118 / 6207" ;
-	vcard:email "crelojarganzuela@madrid.es" , "CentrosCulturales" .
+	vcard:email "crelojarganzuela@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Ciudad+Pegaso+%28San+Blas+-+Canillejas%29> a linkedculture:Centro ;
 	dc:identifier "4551096" ;
@@ -206,7 +219,8 @@
 	vcard:street-address "AVENIDA SEPTIMA 11. MADRID, MADRID 28022. REJAS, SAN BLAS-CANILLEJAS." ;
 	vcard:geo "Coordenadas: 449391, 4477910. Lat/long: 40.448428925762634, -3.5980969888187393." ;
 	vcard:tel "913 209 770" ;
-	vcard:email "cccpegaso@madrid.es" , "CentrosCulturales" .
+	vcard:email "cccpegaso@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Dotacional+Integrado+Arganzuela> a linkedculture:Centro ;
 	dc:identifier "80143" ;
@@ -218,7 +232,8 @@
 	vcard:street-address "CALLE CANARIAS 17. MADRID, MADRID 28045. PALOS DE MOGUER, ARGANZUELA." ;
 	vcard:geo "Coordenadas: 441089, 4472825. Lat/long: 40.40207279862862, -3.6955325387824014." ;
 	vcard:tel "915 063 610" ;
-	vcard:email "cdiarganzuela@madrid.es" , "CentrosCulturales" .
+	vcard:email "cdiarganzuela@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Eduardo+%C3%9Arculo+%28Tetu%C3%A1n%29> a linkedculture:Centro ;
 	dc:identifier "5498725" ;
@@ -231,7 +246,8 @@
 	vcard:street-address "PLAZA DONOSO 5. MADRID, MADRID 28029. ALMENARA, TETUAN." ;
 	vcard:geo "Coordenadas: 440967, 4480259. Lat/long: 40.46903299144094, -3.6976620067964996." ;
 	vcard:tel "917 337 249, 913 239 740" ;
-	vcard:email "cceurculo@madrid.es" , "CentrosCulturales" .
+	vcard:email "cceurculo@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+el+Madro%C3%B1o+%28Vic%C3%A1lvaro%29> a linkedculture:Centro ;
 	dc:identifier "1953" ;
@@ -243,7 +259,8 @@
 	vcard:street-address "CALLE VILLARDONDIEGO 36. MADRID, MADRID 28032. CASCO H.VICALVARO, VICALVARO." ;
 	vcard:geo "Coordenadas: 448466, 4473127. Lat/long: 40.405283650744316, -3.6086278232922804." ;
 	vcard:tel "917 753 140 /  917 753 141" ;
-	vcard:email "ccelmadrono@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccelmadrono@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+El+Pozo+%28Puente+de+Vallecas%29> a linkedculture:Centro ;
 	dc:identifier "1939" ;
@@ -255,7 +272,8 @@
 	vcard:street-address "AVENIDA GLORIETAS 19 - 21. MADRID, MADRID 28053. ENTREVIAS, PUENTE DE VALLECAS." ;
 	vcard:geo "Coordenadas: 444059, 4469640. Lat/long: 40.3735856436473, -3.6602546064905397." ;
 	vcard:tel "917 866 372 / 917 866 644" ;
-	vcard:email "ccptioraimundo@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccptioraimundo@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+el+Torito+%28Moratalaz%29> a linkedculture:Centro ;
 	dc:identifier "1940" ;
@@ -267,7 +285,8 @@
 	vcard:street-address "AVENIDA MORATALAZ 130. MADRID, MADRID 28030. VINATEROS, MORATALAZ." ;
 	vcard:geo "Coordenadas: 445250, 4473240. Lat/long: 40.40609591857167, -3.646536107063507." ;
 	vcard:tel "913 287 385 / 913 287 386" ;
-	vcard:email "cceltorito@madrid.es" , "CentrosCulturales" .
+	vcard:email "cceltorito@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Federico+Chueca+%28Hortaleza%29> a linkedculture:Centro ;
 	dc:identifier "1931" ;
@@ -279,7 +298,8 @@
 	vcard:street-address "CALLE BENITA AVILA 17. MADRID, MADRID 28043. CANILLAS, HORTALEZA." ;
 	vcard:geo "Coordenadas: 444956, 4479779. Lat/long: 40.46498334634005, -3.650568266584691." ;
 	vcard:tel "913 000 389" ;
-	vcard:email "ccfchueca@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccfchueca@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Fernando+de+los+R%C3%ADos+%28Latina%29> a linkedculture:Centro ;
 	dc:identifier "1954" ;
@@ -292,7 +312,8 @@
 	vcard:street-address "CALLE CAMARENA 10B. MADRID, MADRID 28047. ALUCHE, LATINA." ;
 	vcard:geo "Coordenadas: 435929, 4472140. Lat/long: 40.39552030374428, -3.7562666456453653." ;
 	vcard:tel "917 198 993 / 917 198 930" ;
-	vcard:email "ccfrios#@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccfrios#@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Fernando+L%C3%A1zaro+Carreter+%28Carabanchel%29> a linkedculture:Centro ;
 	dc:identifier "4703628" ;
@@ -304,7 +325,8 @@
 	vcard:street-address "CALLE VERDAD 29. MADRID, MADRID 28019. OPAÑEL, CARABANCHEL." ;
 	vcard:geo "Coordenadas: 439245, 4471670. Lat/long: 40.391436091094086, -3.7171618764739933." ;
 	vcard:tel "914 690 895" ;
-	vcard:email "cclazarocarreter@act-educo.com" , "CentrosCulturales" .
+	vcard:email "cclazarocarreter@act-educo.com" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Galileo+%28Chamber%C3%AD%29> a linkedculture:Centro ;
 	dc:identifier "1921" ;
@@ -316,7 +338,8 @@
 	vcard:street-address "CALLE GALILEO 39. MADRID, MADRID 28015. ARAPILES, CHAMBERI." ;
 	vcard:geo "Coordenadas: 439851, 4476347. Lat/long: 40.43371190964793, -3.7104543597957758." ;
 	vcard:tel "915 913 901" ;
-	vcard:email "ccgalileo@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccgalileo@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Gloria+Fuertes+%28Barajas%29> a linkedculture:Centro ;
 	dc:identifier "70243" ;
@@ -328,7 +351,8 @@
 	vcard:street-address "AVENIDA LOGROÑO 179. MADRID, MADRID 28042. CORRALEJOS, BARAJAS." ;
 	vcard:geo "Coordenadas: 449775, 4479261. Lat/long: 40.460622835379624, -3.5936877657335935." ;
 	vcard:tel "913 120 243" ;
-	vcard:email "ccgloriafuertes@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccgloriafuertes@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Hortaleza> a linkedculture:Centro ;
 	dc:identifier "1930" ;
@@ -340,7 +364,8 @@
 	vcard:street-address "CALLE SANTA VIRGILIA 15. MADRID, MADRID 28033. PINAR DEL REY, HORTALEZA." ;
 	vcard:geo "Coordenadas: 445689, 4481092. Lat/long: 40.476859845869534, -3.6420353342333227." ;
 	vcard:tel "913 821 493" ;
-	vcard:email "cchortaleza@madrid.es" , "CentrosCulturales" .
+	vcard:email "cchortaleza@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Huerta+de+la+Salud+%28Hortaleza%29> a linkedculture:Centro ;
 	dc:identifier "1929" ;
@@ -352,7 +377,8 @@
 	vcard:street-address "CALLE MAR DE ARAL 13 posterior. MADRID, MADRID 28033. PINAR DEL REY, HORTALEZA." ;
 	vcard:geo "Coordenadas: 445599, 4480837. Lat/long: 40.4745567778344, -3.6430751341515526." ;
 	vcard:tel "913 825 104" ;
-	vcard:email "cchuertasalud@madrid.es" , "CentrosCulturales" .
+	vcard:email "cchuertasalud@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Jose+Luis+Sampedro+%28Latina%29+%28antiguo+Centro+Cultural+Lucero%29> a linkedculture:Centro ;
 	dc:identifier "142944" ;
@@ -365,7 +391,8 @@
 	vcard:street-address "CALLE CASTROSERNA 4B. MADRID, MADRID 28047. LUCERO, LATINA." ;
 	vcard:geo "Coordenadas: 436542, 4472809. Lat/long: 40.40159394334669, -3.749110841406562." ;
 	vcard:tel "915 267 820 / 821" ;
-	vcard:email "cclucero@madrid.es" , "CentrosCulturales" .
+	vcard:email "cclucero@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Jos%C3%A9+Luis+L%C3%B3pez+V%C3%A1zquez+%28San+Blas+-+Canillejas%29> a linkedculture:Centro ;
 	dc:identifier "6017747" ;
@@ -377,7 +404,8 @@
 	vcard:street-address "CALLE FEBRERO 4. MADRID, MADRID 28022. REJAS, SAN BLAS-CANILLEJAS." ;
 	vcard:geo "Coordenadas: 451540, 4477716. Lat/long: 40.446818592300296, -3.572741163820915." ;
 	vcard:tel "913 295 211 (secretaría)" ;
-	vcard:email "ccjllopezvazquez@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccjllopezvazquez@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Juan+Gris+%28Moncloa+-+Aravaca%29> a linkedculture:Centro ;
 	dc:identifier "1913" ;
@@ -389,7 +417,8 @@
 	vcard:street-address "CALLE FRANCOS RODRIGUEZ 100. MADRID, MADRID 28039. VALDEZARZA, MONCLOA-ARAVACA." ;
 	vcard:geo "Coordenadas: 439719, 4479028. Lat/long: 40.457862962907384, -3.71225373746578." ;
 	vcard:tel "914 507 865 / 998" ;
-	vcard:email "ccjuangris@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccjuangris@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Julio+Cort%C3%A1zar+%28Moncloa+-+Aravaca%29> a linkedculture:Centro ;
 	dc:identifier "1911" ;
@@ -401,7 +430,8 @@
 	vcard:street-address "CALLE ANTONIO MACHADO 20. MADRID, MADRID 28035. VALDEZARZA, MONCLOA-ARAVACA." ;
 	vcard:geo "Coordenadas: 439107, 4480023. Lat/long: 40.46678159096302, -3.7195669111891703." ;
 	vcard:tel "913 734 375" ;
-	vcard:email "ccjcortazar@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccjcortazar@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Juvenil+Usera> a linkedculture:Centro ;
 	dc:identifier "1965" ;
@@ -413,7 +443,8 @@
 	vcard:street-address "CALLE CUESTA 4. MADRID, MADRID 28026. MOSCARDO, USERA." ;
 	vcard:geo "Coordenadas: 440065, 4471477. Lat/long: 40.389856130874605, -3.7074718790538297." ;
 	vcard:tel "913 920 541" ;
-	vcard:email "cultuusera@madrid.es" , "CentrosCulturales" .
+	vcard:email "cultuusera@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+la+Elipa+%28Ciudad+Lineal%29> a linkedculture:Centro ;
 	dc:identifier "1951" ;
@@ -425,7 +456,8 @@
 	vcard:street-address "CALLE SANTA FELICIDAD 39. MADRID, MADRID 28017. VENTAS, CIUDAD LINEAL." ;
 	vcard:geo "Coordenadas: 444944, 4475273. Lat/long: 40.424399136378106, -3.6503185491568644." ;
 	vcard:tel "914 055 312" ;
-	vcard:email "ccelipa@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccelipa@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+La+Vaguada+%28Fuencarral+-+El+Pardo%29> a linkedculture:Centro ;
 	dc:identifier "1917" ;
@@ -437,7 +469,8 @@
 	vcard:street-address "AVENIDA MONFORTE DE LEMOS 38. MADRID, MADRID 28029. EL PILAR, FUENCARRAL-EL PARDO." ;
 	vcard:geo "Coordenadas: 440003, 4481374. Lat/long: 40.47900813206291, -3.709138377702435." ;
 	vcard:tel "915 886 883" ;
-	vcard:email "cclavaguada@madrid.es" , "CentrosCulturales" .
+	vcard:email "cclavaguada@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Lope+de+Vega+%28Puente+de+Vallecas%29> a linkedculture:Centro ;
 	dc:identifier "1938" ;
@@ -449,7 +482,8 @@
 	vcard:street-address "CALLE CONCEJO DE TEVERGA 1. MADRID, MADRID 28053. ENTREVIAS, PUENTE DE VALLECAS." ;
 	vcard:geo "Coordenadas: 443084, 4471058. Lat/long: 40.386293684801885, -3.6718658006661906." ;
 	vcard:tel "917 570 580 / 917 570 581" ;
-	vcard:email "cclopedevega@madrid.es" , "CentrosCulturales" .
+	vcard:email "cclopedevega@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Los+Rosales+%28Villaverde%29> a linkedculture:Centro ;
 	dc:identifier "1973" ;
@@ -461,7 +495,8 @@
 	vcard:street-address "AVENIDA LOS ROSALES 133. MADRID, MADRID 28021. BUTARQUE, VILLAVERDE." ;
 	vcard:geo "Coordenadas: 442592, 4467116. Lat/long: 40.35074797433515, -3.6773064421969233." ;
 	vcard:tel "917 109 273" ;
-	vcard:email "cclosrosales@madrid.es" , "CentrosCulturales" .
+	vcard:email "cclosrosales@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Luis+Peidr%C3%B3+%28Retiro%29> a linkedculture:Centro ;
 	dc:identifier "4606802" ;
@@ -474,7 +509,8 @@
 	vcard:street-address "CALLE LUIS PEIDRO 2. MADRID, MADRID 28007. ADELFAS, RETIRO." ;
 	vcard:geo "Coordenadas: 442921, 4472249. Lat/long: 40.397020792322316, -3.673881351837232." ;
 	vcard:tel "915 016 942 / 915 021 015" ;
-	vcard:email "ccluispeidro@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccluispeidro@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Mercado+de+Ibiza+%28Retiro%29> a linkedculture:Centro ;
 	dc:identifier "6469004" ;
@@ -486,7 +522,8 @@
 	vcard:street-address "CALLE IBIZA 8. MADRID, MADRID 28009. IBIZA, RETIRO." ;
 	vcard:geo "Coordenadas: 442642, 4474600. Lat/long: 40.41817157699025, -3.677392762224429." ;
 	vcard:tel "915 572 601  / 914 009 788 / 915 571 885" ;
-	vcard:email "ccibiza@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccibiza@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Meseta+de+Orcasitas+%28Usera%29> a linkedculture:Centro ;
 	dc:identifier "1933" ;
@@ -498,7 +535,8 @@
 	vcard:street-address "PLAZA ASOCIACION 1. MADRID, MADRID 28041. ORCASITAS, USERA." ;
 	vcard:geo "Coordenadas: 439988, 4469239. Lat/long: 40.36968950845358, -3.7081679144829076." ;
 	vcard:tel "913 415 677, 913 415 326" ;
-	vcard:email "ccmesetaorcasitas@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccmesetaorcasitas@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Miguel+Hern%C3%A1ndez+%28Latina%29> a linkedculture:Centro ;
 	dc:identifier "1955" ;
@@ -511,7 +549,8 @@
 	vcard:street-address "CALLE SERRADILLA 13. MADRID, MADRID 28044. LAS AGUILAS, LATINA." ;
 	vcard:geo "Coordenadas: 433732, 4470309. Lat/long: 40.378853797128336, -3.7819616113032115." ;
 	vcard:tel "917 066 300" ;
-	vcard:email "ccmiguelh@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccmiguelh@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Moncloa+%28Moncloa+-+Aravaca%29> a linkedculture:Centro ;
 	dc:identifier "1972" ;
@@ -523,7 +562,8 @@
 	vcard:street-address "PLAZA MONCLOA 1. MADRID, MADRID 28008. ARGUELLES, MONCLOA-ARAVACA." ;
 	vcard:geo "Coordenadas: 439137, 4476518. Lat/long: 40.435209393826675, -3.7188765163188293." ;
 	vcard:tel "915 886 978  / 914 800 586 /  915 886 952 (puerta de entrada)" ;
-	vcard:email "ccmoncloa@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccmoncloa@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Nicol%C3%A1s+Salmer%C3%B3n+%28Chamart%C3%ADn%29> a linkedculture:Centro ;
 	dc:identifier "1932" ;
@@ -535,7 +575,8 @@
 	vcard:street-address "CALLE MANTUANO 51. MADRID, MADRID 28002. CIUDAD JARDIN, CHAMARTIN." ;
 	vcard:geo "Coordenadas: 442766, 4477922. Lat/long: 40.44810636195716, -3.6762309620097398." ;
 	vcard:tel "915 103 751" ;
-	vcard:email "ccnsalmeron@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccnsalmeron@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Orcasur+%28Usera%29> a linkedculture:Centro ;
 	dc:identifier "1934" ;
@@ -547,7 +588,8 @@
 	vcard:street-address "PLAZA PUEBLO 2. MADRID, MADRID 28041. ORCASUR, USERA." ;
 	vcard:geo "Coordenadas: 440582, 4468910. Lat/long: 40.366768324753416, -3.701141063083806." ;
 	vcard:tel "913 188 090" ;
-	vcard:email "ccorcasur@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccorcasur@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Pr%C3%ADncipe+de+Asturias+%28Ciudad+Lineal%29> a linkedculture:Centro ;
 	dc:identifier "1952" ;
@@ -559,7 +601,8 @@
 	vcard:street-address "CALLE HERMANOS GARCIA NOBLEJAS 14. MADRID, MADRID 28037. PUEBLO NUEVO, CIUDAD LINEAL." ;
 	vcard:geo "Coordenadas: 446054, 4476600. Lat/long: 40.43642637151034, -3.6373470563687906." ;
 	vcard:tel "915 887 564" ;
-	vcard:email "ccprincipeasturias@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccprincipeasturias@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Puerta+de+Toledo+%28Centro%29> a linkedculture:Centro ;
 	dc:identifier "1920" ;
@@ -571,7 +614,8 @@
 	vcard:street-address "AVENIDA GRAN VIA DE SAN FRANCISCO 2. MADRID, MADRID 28005. PALACIO, CENTRO." ;
 	vcard:geo "Coordenadas: 439702, 4473428. Lat/long: 40.40740551053055, -3.7119218940274026." ;
 	vcard:tel "913 662 728" ;
-	vcard:email "ccptoledo@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccptoledo@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Quinta+del+Berro+%28Salamanca%29> a linkedculture:Centro ;
 	dc:identifier "114978" ;
@@ -583,7 +627,8 @@
 	vcard:street-address "CALLE ENRIQUE D'ALMONTE 1. MADRID, MADRID 28028. FUENTE DEL BERRO, SALAMANCA." ;
 	vcard:geo "Coordenadas: 443869, 4475023. Lat/long: 40.42206601994432, -3.662968075865235." ;
 	vcard:tel "915 570 807" ;
-	vcard:email "quintaberro@madrid.es" , "CentrosCulturales" .
+	vcard:email "quintaberro@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+San+Ferm%C3%ADn+%28Usera%29> a linkedculture:Centro ;
 	dc:identifier "1935" ;
@@ -595,7 +640,8 @@
 	vcard:street-address "CALLE ESTAFETA 33. MADRID, MADRID 28041. SAN FERMIN, USERA." ;
 	vcard:geo "Coordenadas: 441357, 4469445. Lat/long: 40.37164288657417, -3.6920627827867514." ;
 	vcard:tel "917 920 111" ;
-	vcard:email "medinaemc@madrid.es" , "CentrosCulturales" .
+	vcard:email "medinaemc@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+San+Francisco+La+Prensa+%28Carabanchel%29> a linkedculture:Centro ;
 	dc:identifier "4703422" ;
@@ -607,7 +653,8 @@
 	vcard:street-address "CALLE ALISEDA 4. MADRID, MADRID 28025. PUERTA BONITA, CARABANCHEL." ;
 	vcard:geo "Coordenadas: 437153, 4470063. Lat/long: 40.37690319217392, -3.741639735552097." ;
 	vcard:tel "914 284 911" ;
-	vcard:email "ccsanfrancisco@act-educo.com" , "CentrosCulturales" .
+	vcard:email "ccsanfrancisco@act-educo.com" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+San+Jos%C3%A9+de+Calasanz+%28Latina%29> a linkedculture:Centro ;
 	dc:identifier "43311" ;
@@ -620,7 +667,8 @@
 	vcard:street-address "CALLE MARIA DEL CARMEN 65. MADRID, MADRID 28011. PUERTA DEL ANGEL, LATINA." ;
 	vcard:geo "Coordenadas: 437939, 4473339. Lat/long: 40.40647389284976, -3.7327010920242043." ;
 	vcard:tel "914 649 304" ;
-	vcard:email "cccalasanz@madrid.es" , "CentrosCulturales" .
+	vcard:email "cccalasanz@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+San+Juan+Bautista+%28Ciudad+Lineal%29> a linkedculture:Centro ;
 	dc:identifier "1958" ;
@@ -632,7 +680,8 @@
 	vcard:street-address "CALLE SAN NEMESIO 4. MADRID, MADRID 28043. SAN JUAN BAUTISTA, CIUDAD LINEAL." ;
 	vcard:geo "Coordenadas: 444312, 4478369. Lat/long: 40.45224737965276, -3.6580402287911937." ;
 	vcard:tel "914 157 705" ;
-	vcard:email "ccsanjuanbautista@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccsanjuanbautista@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Sanchinarro+%28Hortaleza%29> a linkedculture:Centro ;
 	dc:identifier "6018014" ;
@@ -644,7 +693,8 @@
 	vcard:street-address "CALLE PRINCESA DE EBOLI 29. MADRID, MADRID 28050. VALDEFUENTES, HORTALEZA." ;
 	vcard:geo "Coordenadas: 444579, 4482598. Lat/long: 40.49035310157377, -3.655261744717257." ;
 	vcard:tel "915 000 603" ;
-	vcard:email "info@centroculturalsanchinarro.com" , "CentrosCulturales" .
+	vcard:email "info@centroculturalsanchinarro.com" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Sara+Montiel+%28Latina%29+%28antiguo+Centro+Cultural+Campamento%29> a linkedculture:Centro ;
 	dc:identifier "115404" ;
@@ -657,7 +707,8 @@
 	vcard:street-address "CARRETERA BOADILLA DEL MONTE 40B. MADRID, MADRID 28024. CAMPAMENTO, LATINA." ;
 	vcard:geo "Coordenadas: 434331, 4472625. Lat/long: 40.399764677637116, -3.775144917950534." ;
 	vcard:tel "915 120 890" ;
-	vcard:email "ccsaramontiel@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccsaramontiel@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Teresa+de+Calcuta+%28Barajas%29> a linkedculture:Centro ;
 	dc:identifier "1971" ;
@@ -669,7 +720,8 @@
 	vcard:street-address "PLAZA NAVIO 4. MADRID, MADRID 28042. ALAMEDA DE OSUNA, BARAJAS." ;
 	vcard:geo "Coordenadas: 450284, 4478668. Lat/long: 40.45531140556268, -3.587638001688095." ;
 	vcard:tel "913 291 226" ;
-	vcard:email "ccteresacalcuta@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccteresacalcuta@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Usera+1> a linkedculture:Centro ;
 	dc:identifier "1994" ;
@@ -681,7 +733,8 @@
 	vcard:street-address "AVENIDA RAFAELA YBARRA 49. MADRID, MADRID 28026. PRADOLONGO, USERA." ;
 	vcard:geo "Coordenadas: 439760, 4470507. Lat/long: 40.381095838993176, -3.710973351109332." ;
 	vcard:tel "915 887 214 (Información)" ;
-	vcard:email "ccusera@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccusera@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Usera+2> a linkedculture:Centro ;
 	dc:identifier "7416137" ;
@@ -693,7 +746,8 @@
 	vcard:street-address "CALLE FELIPE CASTRO 30. MADRID, MADRID 28026. PRADOLONGO, USERA." ;
 	vcard:geo "Coordenadas: 439923, 4470861. Lat/long: 40.38429664257218, -3.7090866533057723." ;
 	vcard:tel "915 887 214" ;
-	vcard:email "ccusera@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccusera@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Usera+Junta+de+Distrito+Usera> a linkedculture:Centro ;
 	dc:identifier "8076731" ;
@@ -705,7 +759,8 @@
 	vcard:street-address "AVENIDA RAFAELA YBARRA 41. MADRID, MADRID 28026. PRADOLONGO, USERA." ;
 	vcard:geo "Coordenadas: 439780, 4470653. Lat/long: 40.38241253009179, -3.7107515747822353." ;
 	vcard:tel "915 887 214 (Información)" ;
-	vcard:email "ccusera@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccusera@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Valdebernardo+%28Vic%C3%A1lvaro%29> a linkedculture:Centro ;
 	dc:identifier "123948" ;
@@ -717,7 +772,8 @@
 	vcard:street-address "BULEVAR INDALECIO PRIETO 21. MADRID, MADRID 28032. CASCO H.VICALVARO, VICALVARO." ;
 	vcard:geo "Coordenadas: 447388, 4472529. Lat/long: 40.39982891410407, -3.621281890570377." ;
 	vcard:tel "913 016 460 / 913 016 462" ;
-	vcard:email "ccvaldebernardo@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccvaldebernardo@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Villa+de+Barajas> a linkedculture:Centro ;
 	dc:identifier "1914" ;
@@ -729,7 +785,8 @@
 	vcard:street-address "CALLE BOTICA 10 - 7. MADRID, MADRID 28042. CASCO H.BARAJAS, BARAJAS." ;
 	vcard:geo "Coordenadas: 451070, 4480671. Lat/long: 40.473402418562216, -3.5785233191070316." ;
 	vcard:tel "913 291 803" ;
-	vcard:email "ccvillabarajas@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccvillabarajas@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Cultural+Zazuar+%28Villa+de+Vallecas%29> a linkedculture:Centro ;
 	dc:identifier "1980" ;
@@ -741,7 +798,8 @@
 	vcard:street-address "CALLE ZAZUAR 4. MADRID, MADRID 28031. SANTA EUGENIA, VILLA DE VALLECAS." ;
 	vcard:geo "Coordenadas: 448659, 4470631. Lat/long: 40.38281899948726, -3.606140062044455." ;
 	vcard:tel "913 322 529" ;
-	vcard:email "cczazuar@madrid.es" , "CentrosCulturales" .
+	vcard:email "cczazuar@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Juvenil+Carabanchel+Alto> a linkedculture:Centro ;
 	dc:identifier "4703662" ;
@@ -753,7 +811,8 @@
 	vcard:street-address "CALLE ALFONSO FERNANDEZ 23. MADRID, MADRID 28044. BUENAVISTA, CARABANCHEL." ;
 	vcard:geo "Coordenadas: 435983, 4468960. Lat/long: 40.36687767795312, -3.7553103786178177." ;
 	vcard:tel "915 118 980 / 981 / 982 / 914 006 417" ;
-	vcard:email "actividadescarabanchel@gmail.com" , "OficinasInformacionJuvenil" .
+	vcard:email "actividadescarabanchel@gmail.com" ;
+	dc:type "OficinasInformacionJuvenil" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Juvenil+El+Aleph+%28Villa+de+Vallecas%29> a linkedculture:Centro ;
 	dc:identifier "146682" ;
@@ -766,7 +825,8 @@
 	vcard:street-address "CALLE ZAZUAR 1. MADRID, MADRID 28031. SANTA EUGENIA, VILLA DE VALLECAS." ;
 	vcard:geo "Coordenadas: 448718, 4470605. Lat/long: 40.38257934400676, -3.6054546139177392." ;
 	vcard:tel "913 013 457" ;
-	vcard:email "cj7aleph@madrid.es" , "OficinasInformacionJuvenil" .
+	vcard:email "cj7aleph@madrid.es" ;
+	dc:type "OficinasInformacionJuvenil" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Juvenil+El+Pardo> a linkedculture:Centro ;
 	dc:identifier "190703" ;
@@ -778,7 +838,8 @@
 	vcard:street-address "AVENIDA PADRE CIPRIANO 11. MADRID, MADRID 28048. EL PARDO, FUENCARRAL-EL PARDO." ;
 	vcard:geo "Coordenadas: 434160, 4485934. Lat/long: 40.51964199418355, -3.778542672958104." ;
 	vcard:tel "913 760 652" ;
-	vcard:email "cj3elpardo@madrid.es" , "OficinasInformacionJuvenil" .
+	vcard:email "cj3elpardo@madrid.es" ;
+	dc:type "OficinasInformacionJuvenil" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Juvenil+El+Sitio+de+mi+Recreo+%28Villa+de+Vallecas%29> a linkedculture:Centro ;
 	dc:identifier "182139" ;
@@ -790,7 +851,8 @@
 	vcard:street-address "CALLE REAL DE ARGANDA 39-41. MADRID, MADRID 28031. SANTA EUGENIA, VILLA DE VALLECAS." ;
 	vcard:geo "Coordenadas: 447744, 4470274. Lat/long: 40.37953682427198, -3.616901585603186." ;
 	vcard:tel "913 052 448" ;
-	vcard:email "cj6srecreo@madrid.es" , "OficinasInformacionJuvenil" .
+	vcard:email "cj6srecreo@madrid.es" ;
+	dc:type "OficinasInformacionJuvenil" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Juvenil+Hontalbilla+%28Fuencarral+-+El+Pardo%29> a linkedculture:Centro ;
 	dc:identifier "5396226" ;
@@ -802,7 +864,8 @@
 	vcard:street-address "CALLE HONTALBILLA 10. MADRID, MADRID 28034. VALVERDE, FUENCARRAL-EL PARDO." ;
 	vcard:geo "Coordenadas: 441583, 4482839. Lat/long: 40.49231828430878, -3.6906342081203283." ;
 	vcard:tel "917 364 378" ;
-	vcard:email "cj4hontalbilla@madrid.es" , "OficinasInformacionJuvenil" .
+	vcard:email "cj4hontalbilla@madrid.es" ;
+	dc:type "OficinasInformacionJuvenil" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Juvenil+Tetu%C3%A1n+Punto+Joven> a linkedculture:Centro ;
 	dc:identifier "4923522" ;
@@ -814,7 +877,8 @@
 	vcard:street-address "CALLE DULCINEA 4. MADRID, MADRID 28020. CUATRO CAMINOS, TETUAN." ;
 	vcard:geo "Coordenadas: 440760, 4477837. Lat/long: 40.447199849232135, -3.6998771920981004." ;
 	vcard:tel "915 347 744" ;
-	vcard:email "cj1tetuan@madrid.es" , "OficinasInformacionJuvenil" .
+	vcard:email "cj1tetuan@madrid.es" ;
+	dc:type "OficinasInformacionJuvenil" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Santiago+Apostol+%28Hortaleza%29> a linkedculture:Centro ;
 	dc:identifier "112637" ;
@@ -826,7 +890,7 @@
 	vcard:street-address "CALLE CARRION DE LOS CONDES 73. MADRID, MADRID 28033. APOSTOL SANTIAGO, HORTALEZA." ;
 	vcard:geo "Coordenadas: 444325, 4481016. Lat/long: 40.4760846979538, -3.6581195337045274." ;
 	vcard:tel "913 835 941" ;
-	vcard:email "CentrosCulturales" .
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Social+Polivalente+de+Vic%C3%A1lvaro> a linkedculture:Centro ;
 	dc:identifier "4568753" ;
@@ -838,7 +902,7 @@
 	vcard:street-address "AVENIDA REAL 12 y 14. MADRID, MADRID 28032. CASCO H.VICALVARO, VICALVARO." ;
 	vcard:geo "Coordenadas: 448599, 4472815. Lat/long: 40.40248118658274, -3.6070352433899013." ;
 	vcard:tel "917 602 468 (centralita)" ;
-	vcard:email "CentrosCulturales" .
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural++Siena+%28Ciudad+Lineal%29> a linkedculture:Centro ;
 	dc:identifier "56495" ;
@@ -850,7 +914,7 @@
 	vcard:street-address "CALLE SIENA 52. MADRID, MADRID 28027. QUINTANA, CIUDAD LINEAL." ;
 	vcard:geo "Coordenadas: 444818, 4476248. Lat/long: 40.43316516575713, -3.651876723048774." ;
 	vcard:tel "914 039 011" ;
-	vcard:email "CentrosCulturales" .
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Alberto+S%C3%A1nchez+%28Puente+de+Vallecas%29> a linkedculture:Centro ;
 	dc:identifier "1936" ;
@@ -862,7 +926,8 @@
 	vcard:street-address "CALLE RISCO DE PELOCHE 14. MADRID, MADRID 28038. NUMANCIA, PUENTE DE VALLECAS." ;
 	vcard:geo "Coordenadas: 444469, 4471860. Lat/long: 40.393612303425975, -3.6556073868098493." ;
 	vcard:tel "917 570 320 / 917 570 321" ;
-	vcard:email "cscalbertosanchez@madrid.es" , "CentrosCulturales" .
+	vcard:email "cscalbertosanchez@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Alfonso+XII+%28Fuencarral+-+El+Pardo%29> a linkedculture:Centro ;
 	dc:identifier "72862" ;
@@ -875,7 +940,8 @@
 	vcard:street-address "CALLE MIRA EL RIO 4. MADRID, MADRID 28048. EL PARDO, FUENCARRAL-EL PARDO." ;
 	vcard:geo "Coordenadas: 434214, 4485937. Lat/long: 40.519673311658686, -3.7779055687726535." ;
 	vcard:tel "913 762 060 / 913 762 062" ;
-	vcard:email "ccelpardo@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccelpardo@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Aula+de+Aire+Libre+%28Puente+de+Vallecas%29> a linkedculture:Centro ;
 	dc:identifier "1974" ;
@@ -886,7 +952,8 @@
 	vcard:street-address "CALLE SIERRA CARBONERA 74. MADRID, MADRID 28053. SAN DIEGO, PUENTE DE VALLECAS." ;
 	vcard:geo "Coordenadas: 443641, 4471476. Lat/long: 40.39009728291889, -3.665329063724782." ;
 	vcard:tel "917 570 189 / 917 570 241" ;
-	vcard:email "aalibrepvallecas@madrid.es" , "CentrosCulturales" .
+	vcard:email "aalibrepvallecas@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Blasco+Ib%C3%A1%C3%B1ez+%28Carabanchel%29> a linkedculture:Centro ;
 	dc:identifier "1927" ;
@@ -898,7 +965,8 @@
 	vcard:street-address "CALLE SOLDADO JOSE MARIA REY 44. MADRID, MADRID 28019. SAN ISIDRO, CARABANCHEL." ;
 	vcard:geo "Coordenadas: 437927, 4472060. Lat/long: 40.3949515763892, -3.7326586599735307." ;
 	vcard:tel "914 280 554 / 914 280 555" ;
-	vcard:email "ccblascoibanez@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccblascoibanez@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Bohemios+%28Villaverde%29> a linkedculture:Centro ;
 	dc:identifier "1949" ;
@@ -910,7 +978,8 @@
 	vcard:street-address "CALLE LOS BOHEMIOS 1. MADRID, MADRID 28041. LOS ANGELES, VILLAVERDE." ;
 	vcard:geo "Coordenadas: 441175, 4467754. Lat/long: 40.35639654251886, -3.6940501846610894." ;
 	vcard:tel "917 109 260" ;
-	vcard:email "ccbohemios@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccbohemios@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Ciudad+Lineal> a linkedculture:Centro ;
 	dc:identifier "1967" ;
@@ -922,7 +991,7 @@
 	vcard:street-address "CALLE JOSE LUIS DE ARRESE 81. MADRID, MADRID 28017. VENTAS, CIUDAD LINEAL." ;
 	vcard:geo "Coordenadas: 444828, 4475105. Lat/long: 40.422868990544636, -3.651671226242968." ;
 	vcard:tel "914 055 840" ;
-	vcard:email "CentrosCulturales" .
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Clara+del+Rey+%28Centro%29> a linkedculture:Centro ;
 	dc:identifier "1912" ;
@@ -934,7 +1003,8 @@
 	vcard:street-address "CALLE PALMA 36. MADRID, MADRID 28004. UNIVERSIDAD, CENTRO." ;
 	vcard:geo "Coordenadas: 440311, 4475538. Lat/long: 40.42646635574924, -3.704943545703863." ;
 	vcard:tel "915 222 823" ;
-	vcard:email "ccclararey@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccclararey@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+C%C3%A1novas+del+Castillo+%28Usera%29> a linkedculture:Centro ;
 	dc:identifier "118935" ;
@@ -946,7 +1016,8 @@
 	vcard:street-address "CALLE JULIO AGUIRRE 10-12. MADRID, MADRID 28026. ALMENDRALES, USERA." ;
 	vcard:geo "Coordenadas: 440689, 4471073. Lat/long: 40.38626143332092, -3.7000825227295007." ;
 	vcard:tel "915 005 489" ;
-	vcard:email "vidalnc@madrid.es" , "CentrosCulturales" .
+	vcard:email "vidalnc@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Eduardo+Chillida+%28Moratalaz%29> a linkedculture:Centro ;
 	dc:identifier "1941" ;
@@ -958,7 +1029,8 @@
 	vcard:street-address "CALLE ARROYO BELINCOSO 9. MADRID, MADRID 28030. MEDIA LEGUA, MORATALAZ." ;
 	vcard:geo "Coordenadas: 444686, 4473610. Lat/long: 40.40939173676513, -3.653214777359331." ;
 	vcard:tel "913 339 141 / 913 339 142" ;
-	vcard:email "ccechillida@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccechillida@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+el+Greco+%28Latina%29> a linkedculture:Centro ;
 	dc:identifier "26904" ;
@@ -970,7 +1042,8 @@
 	vcard:street-address "CALLE EL GRECO 29. MADRID, MADRID 28011. LUCERO, LATINA." ;
 	vcard:geo "Coordenadas: 436687, 4473443. Lat/long: 40.407316328180464, -3.747465416906973." ;
 	vcard:tel "914 793 261 / 914 793 150" ;
-	vcard:email "ccgreco@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccgreco@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Francisco+Fatou+%28Villa+de+Vallecas%29> a linkedculture:Centro ;
 	dc:identifier "1944" ;
@@ -982,7 +1055,8 @@
 	vcard:street-address "CALLE MANUEL VELEZ 10. MADRID, MADRID 28031. CASCO H.VALLECAS, VILLA DE VALLECAS." ;
 	vcard:geo "Coordenadas: 447216, 4470283. Lat/long: 40.379584618162156, -3.623110349262379." ;
 	vcard:tel "913 806 620" ;
-	vcard:email "ccfranciscofatou@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccfranciscofatou@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Garc%C3%ADa+Lorca+%28Carabanchel%29> a linkedculture:Centro ;
 	dc:identifier "1926" ;
@@ -994,7 +1068,8 @@
 	vcard:street-address "CALLE EUGENIA DE MONTIJO 105. MADRID, MADRID 28044. BUENAVISTA, CARABANCHEL." ;
 	vcard:geo "Coordenadas: 436352, 4469770. Lat/long: 40.37420282360522, -3.7510455236535925." ;
 	vcard:tel "915 110 370" ;
-	vcard:email "ccgarcialorca@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccgarcialorca@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Jos%C3%A9+Espronceda+%28Tetu%C3%A1n%29> a linkedculture:Centro ;
 	dc:identifier "1947" ;
@@ -1007,7 +1082,8 @@
 	vcard:street-address "CALLE ALMANSA 9. MADRID, MADRID 28039. BELLAS VISTAS, TETUAN." ;
 	vcard:geo "Coordenadas: 440367, 4477999. Lat/long: 40.44863106357685, -3.7045265016586013." ;
 	vcard:tel "915 536 160  / 915 536 480" ;
-	vcard:email "cscjespronceda@madrid.es" , "CentrosCulturales" .
+	vcard:email "cscjespronceda@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Juvenil+Ciudad+Lineal> a linkedculture:Centro ;
 	dc:identifier "6080683" ;
@@ -1019,7 +1095,7 @@
 	vcard:street-address "CALLE MARIA TERESA SAENZ DE HEREDIA 50. MADRID, MADRID 28017. VENTAS, CIUDAD LINEAL." ;
 	vcard:geo "Coordenadas: 444921, 4475427. Lat/long: 40.42577598662312, -3.6505911581086794." ;
 	vcard:tel "913 260 952" ;
-	vcard:email "CentrosCulturales" .
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Juvenil+Moratalaz> a linkedculture:Centro ;
 	dc:identifier "124354" ;
@@ -1032,7 +1108,8 @@
 	vcard:street-address "CALLE FUENTE CARRANTONA 10. MADRID, MADRID 28030. PAVONES, MORATALAZ." ;
 	vcard:geo "Coordenadas: 446083, 4472471. Lat/long: 40.399222766804556, -3.6366543437448824." ;
 	vcard:tel "915 887 435 / 915 880 459" ;
-	vcard:email "ccjmoratalaz@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccjmoratalaz@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Latina> a linkedculture:Centro ;
 	dc:identifier "102131" ;
@@ -1045,7 +1122,8 @@
 	vcard:street-address "CALLE RODRIGO DE ARANA 50. MADRID, MADRID 28044. LAS AGUILAS, LATINA." ;
 	vcard:geo "Coordenadas: 435092, 4470384. Lat/long: 40.3796366471018, -3.7659492448759053." ;
 	vcard:tel "915 095 470 / 471" ;
-	vcard:email "juvenlatina@madrid.es" , "CentrosCulturales" .
+	vcard:email "juvenlatina@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Lavapi%C3%A9s+%28Centro%29> a linkedculture:Centro ;
 	dc:identifier "1918" ;
@@ -1057,7 +1135,8 @@
 	vcard:street-address "CALLE OLIVAR 46. MADRID, MADRID 28012. EMBAJADORES, CENTRO." ;
 	vcard:geo "Coordenadas: 440583, 4473672. Lat/long: 40.40966697102759, -3.701574291636879." ;
 	vcard:tel "915 060 712" ;
-	vcard:email "cclavapies@madrid.es" , "CentrosCulturales" .
+	vcard:email "cclavapies@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Luis+Gonzaga+%28Chamart%C3%ADn%29> a linkedculture:Centro ;
 	dc:identifier "1961" ;
@@ -1070,7 +1149,8 @@
 	vcard:street-address "CALLE PRINCIPE DE VERGARA 142. MADRID, MADRID 28002. CIUDAD JARDIN, CHAMARTIN." ;
 	vcard:geo "Coordenadas: 442605, 4477567. Lat/long: 40.44489723228663, -3.6780972922453685." ;
 	vcard:tel "915 886 596" ;
-	vcard:email "juvenlgonzaga@madrid.es" , "CentrosCulturales" .
+	vcard:email "juvenlgonzaga@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Maestro+Alonso+%28Salamanca%29> a linkedculture:Centro ;
 	dc:identifier "1909" ;
@@ -1082,7 +1162,8 @@
 	vcard:street-address "CALLE MAESTRO ALONSO 6. MADRID, MADRID 28028. FUENTE DEL BERRO, SALAMANCA." ;
 	vcard:geo "Coordenadas: 443715, 4475837. Lat/long: 40.42938854032785, -3.664855511110751." ;
 	vcard:tel "917 268 800 / 913 560 806 / 913 560 807" ;
-	vcard:email "ccmaestroalonso@tritoma.es" , "CentrosCulturales" .
+	vcard:email "ccmaestroalonso@tritoma.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Marconi+%28Villaverde%29> a linkedculture:Centro ;
 	dc:identifier "170066" ;
@@ -1094,7 +1175,8 @@
 	vcard:street-address "ACCESO COLONIA MARCONI 4. MADRID, MADRID 28021. SAN ANDRES, VILLAVERDE." ;
 	vcard:geo "Coordenadas: 440582, 4465356. Lat/long: 40.334751832113774, -3.700809560921597." ;
 	vcard:tel "917 100 232" ;
-	vcard:email "ccmarconi@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccmarconi@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Miguel+de+Cervantes+%28San+Blas+-+Canillejas%29> a linkedculture:Centro ;
 	dc:identifier "1970" ;
@@ -1106,7 +1188,8 @@
 	vcard:street-address "CALLE ALIAGA 5. MADRID, MADRID 28022. CANILLEJAS, SAN BLAS-CANILLEJAS." ;
 	vcard:geo "Coordenadas: 448257, 4476610. Lat/long: 40.43664778776818, -3.611362970564875." ;
 	vcard:tel "917 430 078" ;
-	vcard:email "ccmcervantes@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccmcervantes@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Montecarmelo+%28Fuencarral+-+El+Pardo%29> a linkedculture:Centro ;
 	dc:identifier "5514552" ;
@@ -1118,7 +1201,8 @@
 	vcard:street-address "CARRETERA M-607 Km. 1300. MADRID, MADRID 28049. EL GOLOSO, FUENCARRAL-EL PARDO." ;
 	vcard:geo "Coordenadas: 442001, 4485504. Lat/long: 40.51635495615339, -3.685946562681175." ;
 	vcard:tel "917 364 151 / 917 364 329" ;
-	vcard:email "ccmontecarmelo@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccmontecarmelo@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Oporto+%28Carabanchel%29> a linkedculture:Centro ;
 	dc:identifier "1964" ;
@@ -1130,7 +1214,8 @@
 	vcard:street-address "AVENIDA OPORTO 78. MADRID, MADRID 28019. OPAÑEL, CARABANCHEL." ;
 	vcard:geo "Coordenadas: 438340, 4471154. Lat/long: 40.386793167982184, -3.7277750877519686." ;
 	vcard:tel "914 603 801   / 914 603 912" ;
-	vcard:email "ccoporto@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccoporto@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Rafael+de+Le%C3%B3n+%28Fuencarral+-+El+Pardo%29> a linkedculture:Centro ;
 	dc:identifier "1924" ;
@@ -1142,7 +1227,8 @@
 	vcard:street-address "CALLE ISLA DE ONS 14. MADRID, MADRID 28035. PEÑA GRANDE, FUENCARRAL-EL PARDO." ;
 	vcard:geo "Coordenadas: 438959, 4481521. Lat/long: 40.48025613358832, -3.7214686777952974." ;
 	vcard:tel "917 310 350" ;
-	vcard:email "ccreleon@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccreleon@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+San+Crist%C3%B3bal+de+los+%C3%81ngeles+%28Villaverde%29> a linkedculture:Centro ;
 	dc:identifier "1950" ;
@@ -1154,7 +1240,8 @@
 	vcard:street-address "PLAZA PINAZO 9. MADRID, MADRID 28021. SAN CRISTOBAL, VILLAVERDE." ;
 	vcard:geo "Coordenadas: 441460, 4466191. Lat/long: 40.34233618931469, -3.6905504735084342." ;
 	vcard:tel "917 100 410 / 917 100 413" ;
-	vcard:email "ccscangeles@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccscangeles@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Santa+Petronila+%28Villaverde%29> a linkedculture:Centro ;
 	dc:identifier "117716" ;
@@ -1167,7 +1254,8 @@
 	vcard:street-address "CALLE MARIA MARTINEZ OVIOL 12. MADRID, MADRID 28021. LOS ROSALES, VILLAVERDE." ;
 	vcard:geo "Coordenadas: 441386, 4467139. Lat/long: 40.35087114162283, -3.691508909255186." ;
 	vcard:tel "917 109 710" ;
-	vcard:email "ccspetronila@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccspetronila@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Talleres+de+Creatividad+%28Puente+de+Vallecas%29> a linkedculture:Centro ;
 	dc:identifier "1937" ;
@@ -1179,7 +1267,8 @@
 	vcard:street-address "CALLE SIERRA CARBONERA 74. MADRID, MADRID 28053. SAN DIEGO, PUENTE DE VALLECAS." ;
 	vcard:geo "Coordenadas: 443641, 4471476. Lat/long: 40.39009728291889, -3.665329063724782." ;
 	vcard:tel "917 570 189 / 917 570 240" ;
-	vcard:email "ctcepvallecas@madrid.es" , "CentrosCulturales" .
+	vcard:email "ctcepvallecas@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Tetu%C3%A1n> a linkedculture:Centro ;
 	dc:identifier "1948" ;
@@ -1192,7 +1281,8 @@
 	vcard:street-address "CALLE BRAVO MURILLO 251. MADRID, MADRID 28020. BERRUGUETE, TETUAN." ;
 	vcard:geo "Coordenadas: 440737, 4479155. Lat/long: 40.45907130615822, -3.700271645324868." ;
 	vcard:tel "915 790 851" ;
-	vcard:email "csctetuan@madrid.es" , "CentrosCulturales" .
+	vcard:email "csctetuan@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Valle+Incl%C3%A1n+%28Fuencarral+-+El+Pardo%29> a linkedculture:Centro ;
 	dc:identifier "1923" ;
@@ -1204,7 +1294,8 @@
 	vcard:street-address "CALLE ARZOBISPO MORCILLO 7. MADRID, MADRID 28029. LA PAZ, FUENCARRAL-EL PARDO." ;
 	vcard:geo "Coordenadas: 441343, 4481592. Lat/long: 40.48106787416528, -3.6933504628706095." ;
 	vcard:tel "913 230 805" ;
-	vcard:email "ccvalleinclan@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccvalleinclan@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Valverde+%28Fuencarral+-+El+Pardo%29> a linkedculture:Centro ;
 	dc:identifier "1908" ;
@@ -1216,7 +1307,8 @@
 	vcard:street-address "PLAZA ISLAS AZORES 1. MADRID, MADRID 28034. VALVERDE, FUENCARRAL-EL PARDO." ;
 	vcard:geo "Coordenadas: 441808, 4483140. Lat/long: 40.49504564211655, -3.6880070256093758." ;
 	vcard:tel "917 364 760" ;
-	vcard:email "ccvalverde@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccvalverde@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+Vic%C3%A1lvaro> a linkedculture:Centro ;
 	dc:identifier "4679597" ;
@@ -1228,7 +1320,8 @@
 	vcard:street-address "CALLE LAGO TITICACA 10. MADRID, MADRID 28032. CASCO H.VICALVARO, VICALVARO." ;
 	vcard:geo "Coordenadas: 448475, 4472785. Lat/long: 40.40220324604798, -3.608494019101746." ;
 	vcard:tel "917 753 200 / 917 753 201 / 917 753 203" ;
-	vcard:email "cscvicalvaro@madrid.es" , "CentrosCulturales" .
+	vcard:email "cscvicalvaro@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Centro+Sociocultural+%C3%81gata+%28Villaverde%29.> a linkedculture:Centro ;
 	dc:identifier "1996" ;
@@ -1240,7 +1333,8 @@
 	vcard:street-address "CALLE DOCTOR MARTIN AREVALO 2. MADRID, MADRID 28021. SAN ANDRES, VILLAVERDE." ;
 	vcard:geo "Coordenadas: 439937, 4466650. Lat/long: 40.34636268334182, -3.708524395897377." ;
 	vcard:tel "917 109 300" ;
-	vcard:email "ccagata@madrid.es" , "CentrosCulturales" .
+	vcard:email "ccagata@madrid.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/CentroCentro+Cibeles+de+Cultura+y+Ciudadan%C3%ADa.+5Cs> a linkedculture:Centro ;
 	dc:identifier "6013703" ;
@@ -1253,7 +1347,8 @@
 	vcard:street-address "PLAZA CIBELES 1. MADRID, MADRID 28014. LOS JERONIMOS, RETIRO." ;
 	vcard:geo "Coordenadas: 441386, 4474703. Lat/long: 40.419011767401095, -3.692206111679657." ;
 	vcard:tel "010 (915 298 210 si llama desde fuera del municipio de Madrid)" ;
-	vcard:email "info.centrocentro@madrid-destino.es" , "CentrosCulturales" .
+	vcard:email "info.centrocentro@madrid-destino.es" ;
+	dc:type "CentrosCulturales" .
 
 <http://www.linkedculture.org/ontologies/resources/Consorcio+del+Centro+Sefarad+-+Israel> a linkedculture:Centro ;
 	dc:identifier "4535757" ;
@@ -1263,7 +1358,8 @@
 	vcard:street-address "CALLE MAYOR 69. MADRID, MADRID 28013. PALACIO, CENTRO." ;
 	vcard:geo "Coordenadas: 439768, 4474305. Lat/long: 40.41531064853993, -3.7112390711768444." ;
 	vcard:tel "913 911 002" ;
-	vcard:email "centro@sefarad-israel.es" , "Consorcios" .
+	vcard:email "centro@sefarad-israel.es" ;
+	dc:type "Consorcios" .
 
 <http://www.linkedculture.org/ontologies/resources/Fern%C3%A1n+G%C3%B3mez.+Centro+Cultural+de+la+Villa> a linkedculture:Centro ;
 	dc:identifier "1915" ;
@@ -1276,7 +1372,8 @@
 	vcard:street-address "PLAZA COLON 4. MADRID, MADRID 28001. RECOLETOS, SALAMANCA." ;
 	vcard:geo "Coordenadas: 441585, 4475358. Lat/long: 40.424926347610764, -3.6899208519663427." ;
 	vcard:tel "914 362 540 Ext. 200 (Información general) / Ext. 208 (precios grupos, Amigos del Fernán Gómez y promociones)" ;
-	vcard:email "info@teatrofernangomez.com" , "Teatros" .
+	vcard:email "info@teatrofernangomez.com" ;
+	dc:type "Teatros" .
 
 <http://www.linkedculture.org/ontologies/resources/Matadero+Madrid> a linkedculture:Centro ;
 	dc:identifier "4684678" ;
@@ -1290,7 +1387,7 @@
 	vcard:geo "Coordenadas: 440934, 4471754. Lat/long: 40.39241367848808, -3.697259467865366." ;
 	vcard:tel """915 177 309                                                                             
 914 730 957 (taquilla)""" ;
-	vcard:email "SalasExposiciones" .
+	dc:type "SalasExposiciones" .
 
 <http://www.linkedculture.org/ontologies/resources/Medialab+-+Prado> a linkedculture:Centro ;
 	dc:identifier "4776440" ;
@@ -1303,4 +1400,5 @@
 	vcard:street-address "CALLE ALAMEDA 15. MADRID, MADRID 28014. CORTES, CENTRO." ;
 	vcard:geo "Coordenadas: 441244, 4473766. Lat/long: 40.410560776119, -3.6937931079230744." ;
 	vcard:tel "912 191 157" ;
-	vcard:email "info.m@medialab-prado.es" , "CentrosCulturales" .
+	vcard:email "info.m@medialab-prado.es" ;
+	dc:type "CentrosCulturales" .

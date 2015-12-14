@@ -92,6 +92,9 @@
         <DataProperty IRI="#tieneNombre"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#tieneNombreFamoso"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#tieneNombreVia"/>
     </Declaration>
     <Declaration>
@@ -198,7 +201,7 @@
         <Class IRI="#Biblioteca"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#tieneNombre"/>
+        <DataProperty IRI="#tieneNombreFamoso"/>
         <Class IRI="#Famoso"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -259,6 +262,10 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#tieneNombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneNombreFamoso"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>

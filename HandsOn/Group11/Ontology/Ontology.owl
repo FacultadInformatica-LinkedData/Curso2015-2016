@@ -384,7 +384,7 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#hasEvent"/>
-        <Datatype abbreviatedIRI="xsd:anyURI"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#hour"/>
@@ -420,7 +420,7 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#phone"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#province"/>
@@ -468,7 +468,7 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#wifi"/>
-        <Datatype abbreviatedIRI="xsd:Boolean"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#zipCode"/>

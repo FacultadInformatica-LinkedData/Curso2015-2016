@@ -10,25 +10,25 @@
 
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/borja/ontologies/2015/11/untitled-ontology-8"
+     xml:base="http://linkeddata.firebaseapp.com/ontology/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/borja/ontologies/2015/11/untitled-ontology-8">
+     ontologyIRI="http://linkeddata.firebaseapp.com/ontology/">
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#LibraryEvent"/>
+        <Class IRI="LibraryEvent"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#activityTitle"/>
@@ -128,223 +128,223 @@
     </Declaration>
     <DataPropertyDomain>
         <DataProperty IRI="#activityTitle"/>
-        <Class IRI="#LibraryEvent"/>
+        <Class IRI="LibraryEvent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#daysExcluded"/>
-        <Class IRI="#LibraryEvent"/>
+        <Class IRI="LibraryEvent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#description"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#description"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#description"/>
-        <Class IRI="#LibraryEvent"/>
+        <Class IRI="LibraryEvent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#disabledAccess"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#disabledAccess"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#district"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#district"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#email"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#email"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#equipment"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#equipment"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#fax"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#fax"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#finishDate"/>
-        <Class IRI="#LibraryEvent"/>
+        <Class IRI="LibraryEvent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#hasEvent"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#hour"/>
-        <Class IRI="#LibraryEvent"/>
+        <Class IRI="LibraryEvent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#isFree"/>
-        <Class IRI="#LibraryEvent"/>
+        <Class IRI="LibraryEvent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#lastLong"/>
-        <Class IRI="#LibraryEvent"/>
+        <Class IRI="LibraryEvent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#latitude"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#latitude"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#locality"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#locality"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#longitude"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#longitude"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#name"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#name"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#neighbourhood"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#neighbourhood"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#phone"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#phone"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#province"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#province"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#publicTransport"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#publicTransport"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#roadName"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#roadName"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#roadNumber"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#roadNumber"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#roadType"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#roadType"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#startDate"/>
-        <Class IRI="#LibraryEvent"/>
+        <Class IRI="LibraryEvent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#timeTable"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#timeTable"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#title"/>
-        <Class IRI="#LibraryEvent"/>
+        <Class IRI="LibraryEvent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#type"/>
-        <Class IRI="#LibraryEvent"/>
+        <Class IRI="LibraryEvent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#url"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#url"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#url"/>
-        <Class IRI="#LibraryEvent"/>
+        <Class IRI="LibraryEvent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#weekDays"/>
-        <Class IRI="#LibraryEvent"/>
+        <Class IRI="LibraryEvent"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#wifi"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#wifi"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#zipCode"/>
-        <Class IRI="#Library"/>
+        <Class IRI="Library"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#zipCode"/>
-        <Class IRI="#LibraryBus"/>
+        <Class IRI="LibraryBus"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#activityTitle"/>

@@ -40,7 +40,7 @@ SELECT ?Nombre ?Coordenada-x ?coordenada-y ?hasEvent ?name
 WHERE {
     	?Nombre dcterms:subject
 	<http://WebLinked.org/Library>
-	?name dcterms:subject
+	?name dcterms:subjet
 	<http://WebLinked.org/LibraryEvent>
 	rdfs:label ?Nombre ;
 	dbp:coor-x ?Coordenada-x
@@ -48,7 +48,7 @@ WHERE {
 	dbp:boolEvento ?hasEvent
 }
 
--Donde están los bibiblio buses con eventos
+-Donde están los bibiblio buses
 
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -57,15 +57,12 @@ SELECT ?Nombre ?Coordenada-x ?coordenada-y
 WHERE {
     	?Nombre dcterms:subject
 	<http://WebLinked.org/LibraryBus>
-	?Nombre dcterms:subject
-	<http://WebLinked.org/LibraryEvent>
 	rdfs:label ?Nombre ;
 	dbp:coor-x ?Coordenada-x
 	dbp:coor-y ?Coordenada-y
-	dpb:boolEvento ?hasEvent
 }
 
--Donde están las bibliotecas 
+-Donde están las bibliotecas
 
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -74,13 +71,9 @@ SELECT ?Nombre ?Coordenada-x ?coordenada-y
 WHERE {
     	?Nombre dcterms:subject
 	<http://WebLinked.org/Library>
-	?Nombre dcterms:subject
-	<http://WebLinked.org/LibraryEvent>
 	rdfs:label ?Nombre ;
 	dbp:coor-x ?Coordenada-x
 	dbp:coor-y ?Coordenada-y
-	dpb:boolEvento ?hasEvent
-	dbp:start-date ?startDate
 }
 
 -Que bibliotecas tienen wifi

@@ -1,0 +1,549 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column FECHA using expression value.toDate()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "FECHA",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column FECHA-FIN using expression value.toDate()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "FECHA-FIN",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "freebase/save-schema-alignment-skeleton",
+    "description": "Save schema alignment skeleton",
+    "protograph": {
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-topic",
+          "columnNames": [
+            "ID-EVENTO"
+          ],
+          "type": {
+            "id": "/common/topic",
+            "name": "Topic"
+          },
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "freebase/save-schema-alignment-skeleton",
+    "description": "Save schema alignment skeleton",
+    "protograph": {
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-topic",
+          "columnNames": [
+            "ID-EVENTO"
+          ],
+          "type": {
+            "id": "/common/topic",
+            "name": "Topic"
+          },
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "www.madAct.com/datos",
+      "prefixes": [
+        {
+          "name": "madact",
+          "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URL-ACTIVIDAD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad",
+              "curie": "madact:Actividad"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey",
+              "curie": "madact:hasIdKey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasPrice",
+              "curie": "madact:hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree",
+              "curie": "madact:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration",
+              "curie": "madact:hasDuration",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LARGA-DURACION"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDaysWeek",
+              "curie": "madact:hasDaysWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDays",
+              "curie": "madact:hasDays",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-EXCLUIDOS"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate",
+              "curie": "madact:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate",
+              "curie": "madact:hasEndDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA-FIN"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour",
+              "curie": "madact:hasHour",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDescription",
+              "curie": "madact:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter",
+              "curie": "madact:hasCenter",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URL-INSTALACION"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "www.madAct.com/datos",
+      "prefixes": [
+        {
+          "name": "madact",
+          "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URL-ACTIVIDAD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad",
+              "curie": "madact:Actividad"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey",
+              "curie": "madact:hasIdKey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasPrice",
+              "curie": "madact:hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree",
+              "curie": "madact:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration",
+              "curie": "madact:hasDuration",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LARGA-DURACION"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDaysWeek",
+              "curie": "madact:hasDaysWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDays",
+              "curie": "madact:hasDays",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-EXCLUIDOS"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate",
+              "curie": "madact:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate",
+              "curie": "madact:hasEndDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA-FIN"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour",
+              "curie": "madact:hasHour",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDescription",
+              "curie": "madact:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter",
+              "curie": "madact:hasCenter",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URL-INSTALACION"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "www.madAct.com/datos",
+      "prefixes": [
+        {
+          "name": "madact",
+          "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URL-ACTIVIDAD",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad",
+              "curie": "madact:Actividad"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey",
+              "curie": "madact:hasIdKey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasPrice",
+              "curie": "madact:hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree",
+              "curie": "madact:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration",
+              "curie": "madact:hasDuration",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LARGA-DURACION"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDaysWeek",
+              "curie": "madact:hasDaysWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDays",
+              "curie": "madact:hasDays",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-EXCLUIDOS"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate",
+              "curie": "madact:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate",
+              "curie": "madact:hasEndDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA-FIN"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour",
+              "curie": "madact:hasHour",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDescription",
+              "curie": "madact:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter",
+              "curie": "madact:hasCenter",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URL-INSTALACION"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

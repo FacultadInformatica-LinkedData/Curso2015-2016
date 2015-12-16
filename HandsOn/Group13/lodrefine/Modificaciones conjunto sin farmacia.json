@@ -8,5 +8,46 @@
     "op": "core/column-removal",
     "description": "Remove column ACCESIBILIDAD",
     "columnName": "ACCESIBILIDAD"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column DESCRIPCION-ENTIDAD using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DESCRIPCION-ENTIDAD",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LATITUD",
+    "columnName": "LATITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LONGITUD",
+    "columnName": "LONGITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO",
+    "columnName": "TIPO"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column DESCRIPCION using expression value.trim()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DESCRIPCION",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   }
 ]

@@ -1,0 +1,71 @@
+How many accidents were there in Madrid in 2013?
+
+prefix myVocabulary: <http://example.org/myVocabulary#> 
+prefix cube: <http://purl.org/linked-data/cube#>
+
+
+SELECT DISTINCT(SUM(?N_Total) AS ?Accidents)WHERE{
+    ?objects a cube:Observation;
+    myVocabulary:numberOfAccidents ?N_Total.
+}
+
+Give me the number of accidents in Usera for each type of
+accident
+
+prefix myVocabulary: <http://example.org/myVocabulary#> 
+prefix district: <http://example.org/myVocabulary#relatedDistrict>
+
+SELECT DISTINCT * WHERE {
+	?data district:'USERA';
+	myVocabulary:numberOfAccidents ?number.
+}
+
+Give me the number of multiple collisions for each district
+
+prefix myVocabulary: <http://example.org/myVocabulary#> 
+prefix resources: <http://example.org/resources/>
+prefix cube: <http://purl.org/linked-data/cube#>
+
+SELECT DISTINCT ?Distrito,?N_Colisiones where {
+ ?object a cube:Observation;
+ myVocabulary:hasAccidentType myVocabulary:MultipleCollision;
+ myVocabulary:relatedDistrict ?Distrito;
+ myVocabulary:numberOfAccidents ?N_Colisiones;
+ cube:dataSet resources:MyDataset.
+}
+
+
+Which is the district were the number of bicycle falls was
+higher in 2013?
+
+prefix myVocabulary: <http://example.org/myVocabulary#> 
+prefix cube: <http://purl.org/linked-data/cube#>
+
+SELECT DISTINCT ?Distrito,?N_Accidentes WHERE{
+	?objects a cube:Observation;
+	myVocabulary:hasAccidentType myVocabulary:BicycleFall;
+        myVocabulary:numberOfAccidents ?N_Accidentes;
+	myVocabulary:relatedDistrict ?Distrito.{
+	   SELECT DISTINCT(MAX(?numberAccidents) AS ?N_Accidentes)WHERE{
+	     ?objects a cube:Observation;
+	     myVocabulary:relatedDistrict ?Distrito;
+	     myVocabulary:numberOfAccidents ?numberAccidents;
+	     myVocabulary:hasAccidentType myVocabulary:BicycleFall.
+          } 
+       }
+}
+
+
+Give me the districts with more than 500 accidents in 2013
+
+prefix myVocabulary: <http://example.org/myVocabulary#> 
+prefix cube: <http://purl.org/linked-data/cube#>
+
+SELECT DISTINCT ?Distrito,?N_Accidentes WHERE{
+   {SELECT DISTINCT ?Distrito SUM(xsd:int(?N_Accidentes)) AS ?N_Accidentes WHERE{
+	?object a cube:Observation ;
+	myVocabulary:numberOfAccidents ?N_Accidentes;
+	myVocabulary:relatedDistrict ?Distrito.}
+    }FILTER(?N_Accidentes>500)
+}
+

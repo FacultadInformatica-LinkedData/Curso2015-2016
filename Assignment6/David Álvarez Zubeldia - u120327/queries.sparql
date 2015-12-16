@@ -1,0 +1,55 @@
+1.
+select (SUM(xsd:double(?c)) AS ?Total)
+where{
+?tipo ?a <http://purl.org/linked-data/cube#Observation>.
+?tipo <http://example.org/myVocabulary#numberOfAccidents> ?c.
+}
+
+2.
+select distinct
+?Type xsd:double(?number) as ?Number
+where{
+?tipo ?a <http://purl.org/linked-data/cube#Observation>.
+?tipo <http://example.org/myVocabulary#relatedDistrict> "USERA".
+?tipo <http://example.org/myVocabulary#numberOfAccidents> ?number.
+?tipo <http://example.org/myVocabulary#hasAccidentType> ?c.
+?c <http://www.w3.org/2004/02/skos/core#prefLabel> ?Type
+FILTER (lang(?type)="en")
+}
+
+3.
+select distinct
+?District xsd:double(?number) as ?Number
+where{
+?tipo ?a <http://purl.org/linked-data/cube#Observation>.
+?tipo <http://example.org/myVocabulary#relatedDistrict> ?District.
+?tipo <http://example.org/myVocabulary#numberOfAccidents> ?number.
+?tipo <http://example.org/myVocabulary#hasAccidentType> ?c.
+?c <http://www.w3.org/2004/02/skos/core#prefLabel> "Multiple collision"@en
+}
+
+4.
+
+select ?District xsd:double(?number) as ?Number
+where{
+?tipo ?a <http://purl.org/linked-data/cube#Observation>.
+?tipo <http://example.org/myVocabulary#relatedDistrict> ?District.
+?tipo <http://example.org/myVocabulary#numberOfAccidents> ?number.
+?tipo <http://example.org/myVocabulary#hasAccidentType> ?c.
+?c <http://www.w3.org/2004/02/skos/core#prefLabel> "Bicycle fall"@en
+}ORDER BY DESC(?number) LIMIT 1
+
+#I had to make this as MAX function won't work properly on this version of SPARQL, at least for me.
+
+5.
+
+select ?District ?Sum
+where{{
+select ?District (SUM (xsd:double(?number)) AS ?Sum)
+where{
+?tipo ?a <http://purl.org/linked-data/cube#Observation>.
+?tipo <http://example.org/myVocabulary#relatedDistrict> ?District.
+?tipo <http://example.org/myVocabulary#numberOfAccidents> ?number.
+}
+}FILTER (?Sum > 500)
+}

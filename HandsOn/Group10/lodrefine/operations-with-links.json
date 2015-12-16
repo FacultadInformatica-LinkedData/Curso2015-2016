@@ -1,0 +1,2659 @@
+[
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tel�fono",
+    "engineConfig": {
+      "facets": [
+        {
+          "to": 6.7,
+          "expression": "value.length()",
+          "selectError": true,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Tel�fono",
+          "columnName": "Tel�fono",
+          "selectNonNumeric": true,
+          "from": 6,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Tel�fono",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "832006"
+        ],
+        "to": "0832006"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tel�fono",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Tel�fono",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "0832006"
+        ],
+        "to": 832006
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Tel�fono",
+    "engineConfig": {
+      "facets": [
+        {
+          "to": 6.96,
+          "expression": "value.length()",
+          "selectError": true,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Tel�fono",
+          "columnName": "Tel�fono",
+          "selectNonNumeric": true,
+          "from": 6,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Tel�fono",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "832006"
+        ],
+        "to": "0832006"
+      }
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column TelefonoCompleto at index 7 based on column Tel�fono using expression grel:if (length(value) == 0, value, \"91\"+value)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "newColumnName": "TelefonoCompleto",
+    "columnInsertIndex": 7,
+    "baseColumnName": "Tel�fono",
+    "expression": "grel:if (length(value) == 0, value, \"91\"+value)",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Duraci�n",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Duraci�n",
+          "omitBlank": false,
+          "columnName": "Duraci�n",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "SERVICIO NOCTURNO (DE 23'00 A 9,30)",
+                "l": "SERVICIO NOCTURNO (DE 23'00 A 9,30)"
+              }
+            }
+          ]
+        },
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": true,
+          "name": "HoraFinTurno",
+          "omitBlank": false,
+          "columnName": "HoraFinTurno",
+          "type": "list",
+          "selection": []
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Duraci�n",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SERVICIO NOCTURNO (DE 23'00 A 9,30)"
+        ],
+        "to": "SERVICIO NOCTURNO (DE 23'00 A 9'30)"
+      }
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column HoraInicioTurno at index 6 based on column Duraci�n using expression grel:replace(value.match(/.*DE (\\d{1,}+'\\d{2}).*/)[0], \"'\", \":\")",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": true,
+          "name": "HoraFinTurno",
+          "omitBlank": false,
+          "columnName": "HoraFinTurno",
+          "type": "list",
+          "selection": []
+        }
+      ],
+      "mode": "record-based"
+    },
+    "newColumnName": "HoraInicioTurno",
+    "columnInsertIndex": 6,
+    "baseColumnName": "Duraci�n",
+    "expression": "grel:replace(value.match(/.*DE (\\d{1,}+'\\d{2}).*/)[0], \"'\", \":\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column HoraFinTurno at index 6 based on column Duraci�n using expression grel:replace(value.match(/.*A (\\d{1,}+'\\d{2}).*/)[0], \"'\", \":\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "newColumnName": "HoraFinTurno",
+    "columnInsertIndex": 6,
+    "baseColumnName": "Duraci�n",
+    "expression": "grel:replace(value.match(/.*A (\\d{1,}+'\\d{2}).*/)[0], \"'\", \":\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column HoraFinTurno to position 7",
+    "columnName": "HoraFinTurno",
+    "index": 7
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://linkeddata.es/grupo10/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "font",
+          "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "find",
+          "uri": "http://linkeddata.es/grupo10/resource/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "Farmacia",
+          "rdfTypes": [
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#FarmaciaDeGuardia",
+              "curie": "font:FarmaciaDeGuardia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#perteneceABarrio",
+              "curie": "font:perteneceABarrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneDireccion",
+              "curie": "font:tieneDireccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneID",
+              "curie": "font:tieneID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneTelefono",
+              "curie": "font:tieneTelefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TelefonoCompleto"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneTurnoDeGuardia",
+              "curie": "font:tieneTurnoDeGuardia",
+              "target": {
+                "nodeType": "cell-as-blank",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#TurnoDeGuardia",
+                    "curie": "font:TurnoDeGuardia"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://linkeddata.es/grupo10/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "font",
+          "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "find",
+          "uri": "http://linkeddata.es/grupo10/resource/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "Farmacia",
+          "rdfTypes": [
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#FarmaciaDeGuardia",
+              "curie": "font:FarmaciaDeGuardia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#perteneceABarrio",
+              "curie": "font:perteneceABarrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Barrio"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneDireccion",
+              "curie": "font:tieneDireccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneID",
+              "curie": "font:tieneID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneTelefono",
+              "curie": "font:tieneTelefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TelefonoCompleto"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneTurnoDeGuardia",
+              "curie": "font:tieneTurnoDeGuardia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"farmacia/\" + value + \"/turno/\" + cells[\"Fecha\"].value.toDate(\"dd/MM/yyyy\").toString(\"yyyy-MM-dd\")",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#TurnoDeGuardia",
+                    "curie": "font:TurnoDeGuardia"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneFechaInicio",
+                    "curie": "font:tieneFechaInicio",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "toString(toDate(value+\" \"+cells[\"HoraInicioTurno\"].value,\"dd/MM/yyyy HH:mm\"), \"yyyy-MM-dd'T'HH:mm:ss\")",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                      "columnName": "Fecha"
+                    }
+                  },
+                  {
+                    "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneFechaFin",
+                    "curie": "font:tieneFechaFin",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "toString(if(diff(cells[\"HoraFinTurno\"].value.toDate(\"HH:mm\"),cells[\"HoraInicioTurno\"].value.toDate(\"HH:mm\"),\"seconds\") > 0, inc(toDate(value + \" \" + cells[\"HoraFinTurno\"].value, \"dd/MM/yyyy HH:mm\"), -1, \"seconds\"), inc(inc(toDate(value + \" \" + cells[\"HoraFinTurno\"].value, \"dd/MM/yyyy HH:mm\"), -1, \"seconds\"), 1, \"day\")), \"yyyy-MM-dd'T'HH:mm:ss\")",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                      "columnName": "Fecha"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "description": "Split multi-valued cells in column Barrio",
+    "columnName": "Barrio",
+    "keyColumnName": "Localidad",
+    "separator": "-",
+    "mode": "plain"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://linkeddata.es/grupo10/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "font",
+          "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "find",
+          "uri": "http://linkeddata.es/grupo10/resource/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "Farmacia",
+          "rdfTypes": [
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#FarmaciaDeGuardia",
+              "curie": "font:FarmaciaDeGuardia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#perteneceADistrito",
+              "curie": "font:perteneceADistrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(toTitlecase(value),\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "Barrio",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#Distrito",
+                    "curie": "font:Distrito"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneDireccion",
+              "curie": "font:tieneDireccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneID",
+              "curie": "font:tieneID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneTelefono",
+              "curie": "font:tieneTelefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TelefonoCompleto"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneTurnoDeGuardia",
+              "curie": "font:tieneTurnoDeGuardia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"farmacia/\" + value + \"/turno/\" + cells[\"Fecha\"].value.toDate(\"dd/MM/yyyy\").toString(\"yyyy-MM-dd\")",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#TurnoDeGuardia",
+                    "curie": "font:TurnoDeGuardia"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneFechaInicio",
+                    "curie": "font:tieneFechaInicio",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "toString(toDate(value+\" \"+cells[\"HoraInicioTurno\"].value,\"dd/MM/yyyy HH:mm\"), \"yyyy-MM-dd'T'HH:mm:ss\")",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                      "columnName": "Fecha"
+                    }
+                  },
+                  {
+                    "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneFechaFin",
+                    "curie": "font:tieneFechaFin",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "toString(if(diff(cells[\"HoraFinTurno\"].value.toDate(\"HH:mm\"),cells[\"HoraInicioTurno\"].value.toDate(\"HH:mm\"),\"seconds\") > 0, inc(toDate(value + \" \" + cells[\"HoraFinTurno\"].value, \"dd/MM/yyyy HH:mm\"), -1, \"seconds\"), inc(inc(toDate(value + \" \" + cells[\"HoraFinTurno\"].value, \"dd/MM/yyyy HH:mm\"), -1, \"seconds\"), 1, \"day\")), \"yyyy-MM-dd'T'HH:mm:ss\")",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                      "columnName": "Fecha"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replace(toTitlecase(value),\" \",\"_\")",
+          "isRowNumberCell": false,
+          "columnName": "Barrio",
+          "rdfTypes": [
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#Distrito",
+              "curie": "font:Distrito"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column Localidad",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Localidad"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column Fecha",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Fecha"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column Farmacia",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Farmacia"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column Direccion",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Direccion"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column Duraci�n",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Duraci�n"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column HoraInicioTurno",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "HoraInicioTurno"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column HoraFinTurno",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "HoraFinTurno"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column Tel�fono",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Tel�fono"
+  },
+  {
+    "op": "core/fill-down",
+    "description": "Fill down cells in column TelefonoCompleto",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "TelefonoCompleto"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Barrio to type http://www.w3.org/2004/02/skos/core#Concept",
+    "columnName": "Barrio",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://localhost:3333/extension/rdf-extension/services/dbpedia.es",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "name": "skos:Concept"
+      },
+      "autoMatch": false,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Moncloa-Aravaca (http://es.dbpedia.org/resource/Moncloa-Aravaca) for cells containing \"ARAVACA\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": false,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "ARAVACA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Moncloa-Aravaca",
+      "name": "Moncloa-Aravaca",
+      "score": 0.46666663885116577,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Barajas (http://es.dbpedia.org/resource/Barajas) for cells containing \"BARAJAS\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": false,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "BARAJAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Barajas",
+      "name": "Barajas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Carabanchel (http://es.dbpedia.org/resource/Carabanchel) for cells containing \"CARABANCHEL\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": false,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "CARABANCHEL",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Carabanchel",
+      "name": "Carabanchel",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Latina (Madrid) (http://es.dbpedia.org/resource/Latina_(Madrid)) for cells containing \"LATINA\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": false,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "LATINA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Latina_(Madrid)",
+      "name": "Latina (Madrid)",
+      "score": 0.3999999761581421,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Centro (Madrid) (http://es.dbpedia.org/resource/Centro_(Madrid)) for cells containing \"CENTRO\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": false,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "CENTRO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Centro_(Madrid)",
+      "name": "Centro (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Hortaleza (http://es.dbpedia.org/resource/Hortaleza) for cells containing \"HORTALEZA\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": false,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "HORTALEZA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Hortaleza",
+      "name": "Hortaleza",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Moncloa-Aravaca (http://es.dbpedia.org/resource/Moncloa-Aravaca) for cells containing \"MONCLOA\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": false,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "MONCLOA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Moncloa-Aravaca",
+      "name": "Moncloa-Aravaca",
+      "score": 0.46666663885116577,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ciudad Lineal (http://es.dbpedia.org/resource/Ciudad_Lineal) for cells containing \"CIUDAD LINEAL\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": false,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "CIUDAD LINEAL",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Ciudad_Lineal",
+      "name": "Ciudad Lineal",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Blas - Canillejas (http://es.dbpedia.org/resource/San_Blas_-_Canillejas) for cells containing \"SAN BLAS\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": false,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "SAN BLAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/San_Blas_-_Canillejas",
+      "name": "San Blas - Canillejas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Fuencarral-El Pardo (http://es.dbpedia.org/resource/Fuencarral-El_Pardo) for cells containing \"FUENCARRAL\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": false,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "FUENCARRAL",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Fuencarral-El_Pardo",
+      "name": "Fuencarral-El Pardo",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Moratalaz (http://es.dbpedia.org/resource/Moratalaz) for cells containing \"MORATALAZ\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": false,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "MORATALAZ",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Moratalaz",
+      "name": "Moratalaz",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Puente de Vallecas (http://es.dbpedia.org/resource/Puente_de_Vallecas) for cells containing \"PUENTE DE VALLECAS\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": false,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "PUENTE DE VALLECAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Puente_de_Vallecas",
+      "name": "Puente de Vallecas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Retiro (Madrid) (http://es.dbpedia.org/resource/Retiro_(Madrid)) for cells containing \"RETIRO\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": false,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "RETIRO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Retiro_(Madrid)",
+      "name": "Retiro (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Arganzuela (http://es.dbpedia.org/resource/Arganzuela) for cells containing \"ARGANZUELA\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": false,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "ARGANZUELA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Arganzuela",
+      "name": "Arganzuela",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Salamanca (Madrid) (http://es.dbpedia.org/resource/Salamanca_(Madrid)) for cells containing \"SALAMANCA\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": false,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "SALAMANCA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Salamanca_(Madrid)",
+      "name": "Salamanca (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ventas (Madrid) (http://es.dbpedia.org/resource/Ventas_(Madrid)) for cells containing \"VENTAS\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": false,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "VENTAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Ventas_(Madrid)",
+      "name": "Ventas (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Usera (http://es.dbpedia.org/resource/Usera) for cells containing \"USERA\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": false,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "USERA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Usera",
+      "name": "Usera",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Villaverde (Madrid) (http://es.dbpedia.org/resource/Villaverde_(Madrid)) for cells containing \"VILLAVERDE\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": false,
+          "selectNumeric": true,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "VILLAVERDE",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Villaverde_(Madrid)",
+      "name": "Villaverde (Madrid)",
+      "score": 0.5263158082962036,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Alameda de Osuna (http://es.dbpedia.org/resource/Alameda_de_Osuna) for cells containing \"ALAMEDA DE OSUNA\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": true,
+          "selectNumeric": false,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "ALAMEDA DE OSUNA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Alameda_de_Osuna",
+      "name": "Alameda de Osuna",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Chamartin (http://es.dbpedia.org/resource/Chamartin) for cells containing \"CHAMARTIN\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": true,
+          "selectNumeric": false,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "CHAMARTIN",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Chamartin",
+      "name": "Chamartin",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Chamberi (http://es.dbpedia.org/resource/Chamberi) for cells containing \"CHAMBERI\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": true,
+          "selectNumeric": false,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "CHAMBERI",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Chamberi",
+      "name": "Chamberi",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Barrio del Pilar (Madrid) (http://es.dbpedia.org/resource/Barrio_del_Pilar_(Madrid)) for cells containing \"BARRIO DEL PILAR\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": true,
+          "selectNumeric": false,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "BARRIO DEL PILAR",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Barrio_del_Pilar_(Madrid)",
+      "name": "Barrio del Pilar (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Vallecas (Madrid) (http://es.dbpedia.org/resource/Vallecas_(Madrid)) for cells containing \"PUEBLO DE VALLECAS\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": true,
+          "selectNumeric": false,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "PUEBLO DE VALLECAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Vallecas_(Madrid)",
+      "name": "Vallecas (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Entrevias (http://es.dbpedia.org/resource/Entrevias) for cells containing \"ENTREVIAS\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": true,
+          "selectNumeric": false,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "ENTREVIAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Entrevias",
+      "name": "Entrevias",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Tetuan (Madrid) (http://es.dbpedia.org/resource/Tetuan_(Madrid)) for cells containing \"TETUAN\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": true,
+          "selectNumeric": false,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "TETUAN",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Tetuan_(Madrid)",
+      "name": "Tetuan (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Cuatro Caminos (Madrid) (http://es.dbpedia.org/resource/Cuatro_Caminos_(Madrid)) for cells containing \"CUATRO CAMINOS\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": true,
+          "selectNumeric": false,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "CUATRO CAMINOS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Cuatro_Caminos_(Madrid)",
+      "name": "Cuatro Caminos (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Vicálvaro (http://es.dbpedia.org/resource/Vicálvaro) for cells containing \"VICALVARO\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        },
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": true,
+          "selectNumeric": false,
+          "selectBlank": true,
+          "name": "Barrio: best candidate's score",
+          "columnName": "Barrio",
+          "selectNonNumeric": true,
+          "from": 0.225,
+          "type": "range"
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "VICALVARO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Vicálvaro",
+      "name": "Vicálvaro",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic El Pilar (Madrid) (http://es.dbpedia.org/resource/El_Pilar_(Madrid)) for cells containing \"BARRIO DEL PILAR\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "BARRIO DEL PILAR",
+                "l": "BARRIO DEL PILAR"
+              }
+            }
+          ]
+        },
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "BARRIO DEL PILAR",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/El_Pilar_(Madrid)",
+      "name": "El Pilar (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Chamartín (http://es.dbpedia.org/resource/Chamartín) for cells containing \"CHAMARTIN\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "CHAMARTIN",
+                "l": "CHAMARTIN"
+              }
+            }
+          ]
+        },
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "CHAMARTIN",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Chamartín",
+      "name": "Chamartín",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Chamberí (http://es.dbpedia.org/resource/Chamberí) for cells containing \"CHAMBERI\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "CHAMBERI",
+                "l": "CHAMBERI"
+              }
+            }
+          ]
+        },
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "CHAMBERI",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Chamberí",
+      "name": "Chamberí",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Entrevías (http://es.dbpedia.org/resource/Entrevías) for cells containing \"ENTREVIAS\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "ENTREVIAS",
+                "l": "ENTREVIAS"
+              }
+            }
+          ]
+        },
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "ENTREVIAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Entrevías",
+      "name": "Entrevías",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Vallecas (http://es.dbpedia.org/resource/Vallecas) for cells containing \"PUEBLO DE VALLECAS\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "PUEBLO DE VALLECAS",
+                "l": "PUEBLO DE VALLECAS"
+              }
+            }
+          ]
+        },
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "PUEBLO DE VALLECAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Vallecas",
+      "name": "Vallecas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Blas-Canillejas (http://es.dbpedia.org/resource/San_Blas-Canillejas) for cells containing \"SAN BLAS\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "SAN BLAS",
+                "l": "SAN BLAS"
+              }
+            }
+          ]
+        },
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "SAN BLAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/San_Blas-Canillejas",
+      "name": "San Blas-Canillejas",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Tetuán (Madrid) (http://es.dbpedia.org/resource/Tetuán_(Madrid)) for cells containing \"TETUAN\" in column Barrio",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "TETUAN",
+                "l": "TETUAN"
+              }
+            }
+          ]
+        },
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "Barrio: judgment",
+          "omitBlank": false,
+          "columnName": "Barrio",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Barrio",
+    "similarValue": "TETUAN",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Tetuán_(Madrid)",
+      "name": "Tetuán (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column dbpedia:Distrito at index 2 based on column Barrio using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "newColumnName": "dbpedia:Distrito",
+    "columnInsertIndex": 2,
+    "baseColumnName": "Barrio",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://linkeddata.es/grupo10/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "font",
+          "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "find",
+          "uri": "http://linkeddata.es/grupo10/resource/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "Farmacia",
+          "rdfTypes": [
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#FarmaciaDeGuardia",
+              "curie": "font:FarmaciaDeGuardia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#perteneceADistrito",
+              "curie": "font:perteneceADistrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(toTitlecase(value),\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "Barrio",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#Distrito",
+                    "curie": "font:Distrito"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneDireccion",
+              "curie": "font:tieneDireccion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneID",
+              "curie": "font:tieneID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneTelefono",
+              "curie": "font:tieneTelefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TelefonoCompleto"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneTurnoDeGuardia",
+              "curie": "font:tieneTurnoDeGuardia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"farmacia/\" + value + \"/turno/\" + cells[\"Fecha\"].value.toDate(\"dd/MM/yyyy\").toString(\"yyyy-MM-dd\")",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#TurnoDeGuardia",
+                    "curie": "font:TurnoDeGuardia"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneFechaInicio",
+                    "curie": "font:tieneFechaInicio",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "toString(toDate(value+\" \"+cells[\"HoraInicioTurno\"].value,\"dd/MM/yyyy HH:mm\"), \"yyyy-MM-dd'T'HH:mm:ss\")",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                      "columnName": "Fecha"
+                    }
+                  },
+                  {
+                    "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneFechaFin",
+                    "curie": "font:tieneFechaFin",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "toString(if(diff(cells[\"HoraFinTurno\"].value.toDate(\"HH:mm\"),cells[\"HoraInicioTurno\"].value.toDate(\"HH:mm\"),\"seconds\") > 0, inc(toDate(value + \" \" + cells[\"HoraFinTurno\"].value, \"dd/MM/yyyy HH:mm\"), -1, \"seconds\"), inc(inc(toDate(value + \" \" + cells[\"HoraFinTurno\"].value, \"dd/MM/yyyy HH:mm\"), -1, \"seconds\"), 1, \"day\")), \"yyyy-MM-dd'T'HH:mm:ss\")",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                      "columnName": "Fecha"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replace(toTitlecase(value),\" \",\"_\")",
+          "isRowNumberCell": false,
+          "columnName": "Barrio",
+          "rdfTypes": [
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#Distrito",
+              "curie": "font:Distrito"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dbpedia:Distrito",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

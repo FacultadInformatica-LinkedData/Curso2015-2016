@@ -7,17 +7,192 @@
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY base "http://puntosinteres.madrid.es/group04/ontology/puntointeres#" >
+    <!ENTITY puntosinteres "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#" >
 ]>
 
 
-<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.w3.org/2002/07/owl"
+<rdf:RDF xmlns="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#"
+     xml:base="http://puntosinteres.madrid.es/group04/ontology/puntosinteres"
+     xmlns:puntosinteres="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:base="http://puntosinteres.madrid.es/group04/ontology/puntointeres#">
-    <Ontology rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#"/>
+    <owl:Ontology rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#estaEnPosicion -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;estaEnPosicion"/>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayBus -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;hayBus">
+        <rdfs:domain rdf:resource="&puntosinteres;Bus"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayMetro -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;hayMetro">
+        <rdfs:domain rdf:resource="&puntosinteres;Metro"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayRenfe -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;hayRenfe">
+        <rdfs:domain rdf:resource="&puntosinteres;Renfe"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayTransportePublico -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;hayTransportePublico">
+        <rdfs:domain rdf:resource="&puntosinteres;TransportePublico"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneBus -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;tieneBus"/>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneCalle -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;tieneCalle">
+        <rdfs:domain rdf:resource="&puntosinteres;Direccion"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneCodigoPostal -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;tieneCodigoPostal">
+        <rdfs:domain rdf:resource="&puntosinteres;Direccion"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneDescripcion -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;tieneDescripcion">
+        <rdfs:domain rdf:resource="&puntosinteres;SitioTuristico"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneDireccion -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;tieneDireccion"/>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneDistrito -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;tieneDistrito"/>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneEquipamiento -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;tieneEquipamiento">
+        <rdfs:domain rdf:resource="&puntosinteres;SitioTuristico"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneHorario -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;tieneHorario">
+        <rdfs:domain rdf:resource="&puntosinteres;SitioTuristico"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneLatitud -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;tieneLatitud">
+        <rdfs:domain rdf:resource="&puntosinteres;Posicion"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneLongitud -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;tieneLongitud">
+        <rdfs:domain rdf:resource="&puntosinteres;Posicion"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneMetro -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;tieneMetro"/>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneNombre -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;tieneNombre">
+        <rdfs:domain rdf:resource="&puntosinteres;SitioTuristico"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneNumero -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;tieneNumero">
+        <rdfs:domain rdf:resource="&puntosinteres;Direccion"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneRenfe -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;tieneRenfe"/>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneTelefono -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;tieneTelefono">
+        <rdfs:domain rdf:resource="&puntosinteres;SitioTuristico"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneTipoVia -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;tieneTipoVia">
+        <rdfs:domain rdf:resource="&puntosinteres;SitioTuristico"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneTransportePublico -->
+
+    <owl:AnnotationProperty rdf:about="&puntosinteres;tieneTransportePublico"/>
     
 
 
@@ -32,62 +207,71 @@
     
 
 
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#estaEnDistrito -->
+
+    <owl:ObjectProperty rdf:about="&puntosinteres;estaEnDistrito">
+        <rdfs:range rdf:resource="&puntosinteres;Distrito"/>
+        <rdfs:domain rdf:resource="&puntosinteres;SitioTuristico"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#estaEnPosicion -->
 
-    <ObjectProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#estaEnPosicion">
-        <rdfs:range rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Posicion"/>
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
+    <owl:ObjectProperty rdf:about="&puntosinteres;estaEnPosicion">
+        <rdfs:range rdf:resource="&puntosinteres;Posicion"/>
+        <rdfs:domain rdf:resource="&puntosinteres;SitioTuristico"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
-    </ObjectProperty>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneBus -->
 
-    <ObjectProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneBus">
-        <rdfs:range rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Bus"/>
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
-        <rdfs:subPropertyOf rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneTransportePublico"/>
-    </ObjectProperty>
+    <owl:ObjectProperty rdf:about="&puntosinteres;tieneBus">
+        <rdfs:range rdf:resource="&puntosinteres;Bus"/>
+        <rdfs:domain rdf:resource="&puntosinteres;SitioTuristico"/>
+        <rdfs:subPropertyOf rdf:resource="&puntosinteres;tieneTransportePublico"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneDireccion -->
 
-    <ObjectProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneDireccion">
-        <rdfs:range rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Direccion"/>
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
+    <owl:ObjectProperty rdf:about="&puntosinteres;tieneDireccion">
+        <rdfs:range rdf:resource="&puntosinteres;Direccion"/>
+        <rdfs:domain rdf:resource="&puntosinteres;SitioTuristico"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
-    </ObjectProperty>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneMetro -->
 
-    <ObjectProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneMetro">
-        <rdfs:range rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Metro"/>
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
-        <rdfs:subPropertyOf rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneTransportePublico"/>
-    </ObjectProperty>
+    <owl:ObjectProperty rdf:about="&puntosinteres;tieneMetro">
+        <rdfs:range rdf:resource="&puntosinteres;Metro"/>
+        <rdfs:domain rdf:resource="&puntosinteres;SitioTuristico"/>
+        <rdfs:subPropertyOf rdf:resource="&puntosinteres;tieneTransportePublico"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneRenfe -->
 
-    <ObjectProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneRenfe">
-        <rdfs:range rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Renfe"/>
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
-        <rdfs:subPropertyOf rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneTransportePublico"/>
-    </ObjectProperty>
+    <owl:ObjectProperty rdf:about="&puntosinteres;tieneRenfe">
+        <rdfs:range rdf:resource="&puntosinteres;Renfe"/>
+        <rdfs:domain rdf:resource="&puntosinteres;SitioTuristico"/>
+        <rdfs:subPropertyOf rdf:resource="&puntosinteres;tieneTransportePublico"/>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneTransportePublico -->
 
-    <ObjectProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneTransportePublico">
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
-        <rdfs:range rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#TransportePublico"/>
-    </ObjectProperty>
+    <owl:ObjectProperty rdf:about="&puntosinteres;tieneTransportePublico">
+        <rdfs:domain rdf:resource="&puntosinteres;SitioTuristico"/>
+        <rdfs:range rdf:resource="&puntosinteres;TransportePublico"/>
+    </owl:ObjectProperty>
     
 
 
@@ -104,160 +288,144 @@
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayBus -->
 
-    <DatatypeProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayBus">
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Bus"/>
+    <owl:DatatypeProperty rdf:about="&puntosinteres;hayBus">
         <rdfs:range rdf:resource="&xsd;string"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
-    </DatatypeProperty>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayMetro -->
 
-    <DatatypeProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayMetro">
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Metro"/>
+    <owl:DatatypeProperty rdf:about="&puntosinteres;hayMetro">
         <rdfs:range rdf:resource="&xsd;string"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
-    </DatatypeProperty>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayRenfe -->
 
-    <DatatypeProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayRenfe">
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Renfe"/>
+    <owl:DatatypeProperty rdf:about="&puntosinteres;hayRenfe">
         <rdfs:range rdf:resource="&xsd;string"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
-    </DatatypeProperty>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayTransportePublico -->
 
-    <DatatypeProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayTransportePublico">
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#TransportePublico"/>
+    <owl:DatatypeProperty rdf:about="&puntosinteres;hayTransportePublico">
         <rdfs:range rdf:resource="&xsd;string"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
-    </DatatypeProperty>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#nombreDistrito -->
+
+    <owl:DatatypeProperty rdf:about="&puntosinteres;nombreDistrito">
+        <rdfs:domain rdf:resource="&puntosinteres;Distrito"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneCalle -->
 
-    <DatatypeProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneCalle">
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Direccion"/>
+    <owl:DatatypeProperty rdf:about="&puntosinteres;tieneCalle">
         <rdfs:range rdf:resource="&xsd;string"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
-    </DatatypeProperty>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneCodigoPostal -->
 
-    <DatatypeProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneCodigoPostal">
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Direccion"/>
+    <owl:DatatypeProperty rdf:about="&puntosinteres;tieneCodigoPostal">
         <rdfs:range rdf:resource="&xsd;int"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
-    </DatatypeProperty>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneDescripcion -->
 
-    <DatatypeProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneDescripcion">
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
+    <owl:DatatypeProperty rdf:about="&puntosinteres;tieneDescripcion">
         <rdfs:range rdf:resource="&xsd;string"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
-    </DatatypeProperty>
-    
-
-
-    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneDistrito -->
-
-    <DatatypeProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneDistrito">
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Direccion"/>
-        <rdfs:range rdf:resource="&xsd;string"/>
-        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
-    </DatatypeProperty>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneEquipamiento -->
 
-    <DatatypeProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneEquipamiento">
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
+    <owl:DatatypeProperty rdf:about="&puntosinteres;tieneEquipamiento">
         <rdfs:range rdf:resource="&xsd;string"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
-    </DatatypeProperty>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneHorario -->
 
-    <DatatypeProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneHorario">
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
+    <owl:DatatypeProperty rdf:about="&puntosinteres;tieneHorario">
         <rdfs:range rdf:resource="&xsd;string"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
-    </DatatypeProperty>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneLatitud -->
 
-    <DatatypeProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneLatitud">
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Posicion"/>
+    <owl:DatatypeProperty rdf:about="&puntosinteres;tieneLatitud">
         <rdfs:range rdf:resource="&xsd;long"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
-    </DatatypeProperty>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneLongitud -->
 
-    <DatatypeProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneLongitud">
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Posicion"/>
+    <owl:DatatypeProperty rdf:about="&puntosinteres;tieneLongitud">
         <rdfs:range rdf:resource="&xsd;long"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
-    </DatatypeProperty>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneNombre -->
 
-    <DatatypeProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneNombre">
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
+    <owl:DatatypeProperty rdf:about="&puntosinteres;tieneNombre">
         <rdfs:range rdf:resource="&xsd;string"/>
-    </DatatypeProperty>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneNumero -->
 
-    <DatatypeProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneNumero">
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Direccion"/>
+    <owl:DatatypeProperty rdf:about="&puntosinteres;tieneNumero">
         <rdfs:range rdf:resource="&xsd;int"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
-    </DatatypeProperty>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneTelefono -->
 
-    <DatatypeProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneTelefono">
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
+    <owl:DatatypeProperty rdf:about="&puntosinteres;tieneTelefono">
         <rdfs:range rdf:resource="&xsd;string"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
-    </DatatypeProperty>
+    </owl:DatatypeProperty>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneTipoVia -->
 
-    <DatatypeProperty rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneTipoVia">
-        <rdfs:domain rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
+    <owl:DatatypeProperty rdf:about="&puntosinteres;tieneTipoVia">
         <rdfs:range rdf:resource="&xsd;string"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
-    </DatatypeProperty>
+    </owl:DatatypeProperty>
     
 
 
@@ -274,97 +442,103 @@
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Bus -->
 
-    <Class rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Bus">
-        <rdfs:subClassOf rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#TransportePublico"/>
-    </Class>
+    <owl:Class rdf:about="&puntosinteres;Bus">
+        <rdfs:subClassOf rdf:resource="&puntosinteres;TransportePublico"/>
+    </owl:Class>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Direccion -->
 
-    <Class rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Direccion"/>
+    <owl:Class rdf:about="&puntosinteres;Direccion"/>
+    
+
+
+    <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Distrito -->
+
+    <owl:Class rdf:about="&puntosinteres;Distrito"/>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Metro -->
 
-    <Class rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Metro">
-        <rdfs:subClassOf rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#TransportePublico"/>
-    </Class>
+    <owl:Class rdf:about="&puntosinteres;Metro">
+        <rdfs:subClassOf rdf:resource="&puntosinteres;TransportePublico"/>
+    </owl:Class>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Monumento -->
 
-    <Class rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Monumento">
-        <rdfs:subClassOf rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
-    </Class>
+    <owl:Class rdf:about="&puntosinteres;Monumento">
+        <rdfs:subClassOf rdf:resource="&puntosinteres;SitioTuristico"/>
+    </owl:Class>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Museo -->
 
-    <Class rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Museo">
-        <rdfs:subClassOf rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
-    </Class>
+    <owl:Class rdf:about="&puntosinteres;Museo">
+        <rdfs:subClassOf rdf:resource="&puntosinteres;SitioTuristico"/>
+    </owl:Class>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#OficinaTurismo -->
 
-    <Class rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#OficinaTurismo">
-        <rdfs:subClassOf rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
-    </Class>
+    <owl:Class rdf:about="&puntosinteres;OficinaTurismo">
+        <rdfs:subClassOf rdf:resource="&puntosinteres;SitioTuristico"/>
+    </owl:Class>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Parque -->
 
-    <Class rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Parque">
-        <rdfs:subClassOf rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
-    </Class>
+    <owl:Class rdf:about="&puntosinteres;Parque">
+        <rdfs:subClassOf rdf:resource="&puntosinteres;SitioTuristico"/>
+    </owl:Class>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Posicion -->
 
-    <Class rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Posicion"/>
+    <owl:Class rdf:about="&puntosinteres;Posicion"/>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Renfe -->
 
-    <Class rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Renfe">
-        <rdfs:subClassOf rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#TransportePublico"/>
-    </Class>
+    <owl:Class rdf:about="&puntosinteres;Renfe">
+        <rdfs:subClassOf rdf:resource="&puntosinteres;TransportePublico"/>
+    </owl:Class>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico -->
 
-    <Class rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
+    <owl:Class rdf:about="&puntosinteres;SitioTuristico"/>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Teatro -->
 
-    <Class rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Teatro">
-        <rdfs:subClassOf rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
-    </Class>
+    <owl:Class rdf:about="&puntosinteres;Teatro">
+        <rdfs:subClassOf rdf:resource="&puntosinteres;SitioTuristico"/>
+    </owl:Class>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#TransportePublico -->
 
-    <Class rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#TransportePublico"/>
+    <owl:Class rdf:about="&puntosinteres;TransportePublico"/>
     
 
 
     <!-- http://puntosinteres.madrid.es/group04/ontology/puntosinteres#ZonaWifi -->
 
-    <Class rdf:about="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#ZonaWifi">
-        <rdfs:subClassOf rdf:resource="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico"/>
-    </Class>
+    <owl:Class rdf:about="&puntosinteres;ZonaWifi">
+        <rdfs:subClassOf rdf:resource="&puntosinteres;SitioTuristico"/>
+    </owl:Class>
 </rdf:RDF>
 
 

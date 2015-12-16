@@ -1,325 +1,649 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix espdep: <http://www.espaciosdeportivosdemadrid.org/2015/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2> .
 
-espdep:espacioDeportivo
-  a rdfs:Class;
-  rdfs:label "Espacio Deportivo"@es ;
-  rdfs:comment "Espacios deportivos de la ciudad de Madrid"@es ;
+<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2> rdf:type owl:Ontology .
 
-espdep:contacto
-  a rdfs:Class;
-  rdfs:label "Contacto"@es ;
-  rdfs:comment "Contacto de un espacio deportivo de la ciudad de Madrid"@es ;
 
-espdep:direccion
-  a rdfs:Class;
-  rdfs:label "Direccion"@es ;
-  rdfs:comment "Direccion de un espacio deportivo de la ciudad de Madrid"@es ;
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
 
-espdep:localizacion
-  a rdfs:Class;
-  rdfs:label "Localizacion"@es ;
-  rdfs:comment "Localizacion de un espacio deportivo de la ciudad de Madrid"@es ;
 
-espdep:actividad
-  a rdfs:Class;
-  rdfs:label "Actividad"@es ;
-  rdfs:comment "Actividad en un espacio deportivo de la ciudad de Madrid"@es ;
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasAddress
 
-#-----Propiedades de la clase "espdep:espacioDeportivo"-----#
+:hasAddress rdf:type owl:ObjectProperty ;
+            
+            rdfs:label "Tiene Direccion"@es ;
+            
+            rdfs:domain :EspacioDeportivo ;
+            
+            rdfs:range [ rdf:type owl:Restriction ;
+                         owl:onProperty owl:topObjectProperty ;
+                         owl:someValuesFrom :Direccion
+                       ] .
 
-espdev:hasPrimaryKey
-  a rdf:property ;
-  rdfs:label "Tiene clave primaria"@es ;
-  rdfs:comment "Clave Primaria del Espacio Deportivo"@es ;
-  rdfs:domain espdep:espacioDeportivo ;
-  rdfs:range LITERAL INT.
 
-espdev:hasPrimaryKey
-  a rdf:property ;
-  rdfs:label "Tiene clave primaria"@es ;
-  rdfs:comment "Clave Primaria del Espacio Deportivo"@es ;
-  rdfs:domain espdep:espacioDeportivo ;
-  rdfs:range xsd:integer.
 
-espdev:hasName
-  a rdf:property ;
-  rdfs:label "Tiene Nombre"@es ;
-  rdfs:comment "Nombre del Espacio Deportivo"@es ;
-  rdfs:domain espdep:espacioDeportivo ;
-  rdfs:range xsd:string .
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter
 
-espdev:hasDescription
-  a rdf:property ;
-  rdfs:label "Tiene Descripcion"@es ;
-  rdfs:comment "Descripcion del Espacio Deportivo"@es ;
-  rdfs:domain espdep:espacioDeportivo ;
-  rdfs:range xsd:string .
+:hasCenter rdf:type owl:ObjectProperty ;
+           
+           rdfs:label "Tiene Espacio Deportivo"@es ;
+           
+           rdfs:domain :Actividad ;
+           
+           rdfs:range :EspacioDeportivo .
 
-espdev:hasSchedule
-  a rdf:property ;
-  rdfs:label "Tiene Horario"@es ;
-  rdfs:comment "Horario de apertura del Espacio Deportivo"@es ;
-  rdfs:domain espdep:espacioDeportivo ;
-  rdfs:range xsd:string .
 
-espdev:hasTransport
-  a rdf:property ;
-  rdfs:label "Tiene Transporte"@es ;
-  rdfs:comment "Transporte publico cercano al Espacio Deportivo"@es ;
-  rdfs:domain espdep:espacioDeportivo ;
-  rdfs:range xsd:string .
 
-espdev:isAccesible
-  a rdf:property ;
-  rdfs:label "Es accesible"@es ;
-  rdfs:comment "Si tiene acceso para discapacitados el Espacio Deportivo"@es ;
-  rdfs:domain espdep:espacioDeportivo ;
-  rdfs:range xsd:boolean.
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasContact
 
-espdev:hasType
-  a rdf:property ;
-  rdfs:label "Tipo de espacio deportivo "@es ;
-  rdfs:comment "Tipo de Espacio Deportivo"@es ;
-  rdfs:domain espdep:espacioDeportivo ;
-  rdfs:range xsd:string .
+:hasContact rdf:type owl:ObjectProperty ;
+            
+            rdfs:label "Tiene Contacto"@es ;
+            
+            rdfs:domain :EspacioDeportivo ;
+            
+            rdfs:range [ rdf:type owl:Restriction ;
+                         owl:onProperty owl:topObjectProperty ;
+                         owl:someValuesFrom :Contacto
+                       ] .
 
-espdev:hasContact
-  a rdf:property ;
-  rdfs:label "Tiene informacion de Contacto "@es ;
-  rdfs:comment "Informacion de Contacto del Espacio Deportivo"@es ;
-  rdfs:domain espdep:espacioDeportivo ;
-  rdfs:range espdep:contacto.
 
-espdev:hasLocation
-  a rdf:property ;
-  rdfs:label "Tiene localizacion"@es ;
-  rdfs:comment "Localizacion fisica del Espacio Deportivo"@es ;
-  rdfs:domain espdep:espacioDeportivo ;
-  rdfs:range espdep:localizacion.
 
-espdev:hasAddress
-  a rdf:property ;
-  rdfs:label "Tiene Direccion"@es ;
-  rdfs:comment "Direccion del Espacio Deportivo"@es ;
-  rdfs:domain espdep:espacioDeportivo ;
-  rdfs:range espdep:direccion.
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate
 
-#-----Propiedades de la clase "espdep:contacto"-----#
+:hasDate rdf:type owl:ObjectProperty ;
+         
+         rdfs:label "Tiene Fecha"@es ;
+         
+         rdfs:domain :Actividad ;
+         
+         rdfs:range [ rdf:type owl:Restriction ;
+                      owl:onProperty owl:topDataProperty ;
+                      owl:someValuesFrom xsd:dateTime
+                    ] .
 
-espdev:hasPhoneNumber
-  a rdf:property ;
-  rdfs:label "Tiene numero de telefono "@es ;
-  rdfs:comment "Numero de telefono de la informacion de contacto"@es ;
-  rdfs:domain espdep:contacto ;
-  rdfs:range xsd:string .
 
-espdev:hasFaxNumber
-  a rdf:property ;
-  rdfs:label "Tiene numero de fax "@es ;
-  rdfs:comment "Numero de fax de la informacion de contacto"@es ;
-  rdfs:domain espdep:contacto ;
-  rdfs:range xsd:string .
 
-espdev:hasEmail
-  a rdf:property ;
-  rdfs:label "Tiene correo electronico "@es ;
-  rdfs:comment "Correo electronico de la informacion de contacto"@es ;
-  rdfs:domain espdep:contacto ;
-  rdfs:range xsd:string .
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDays
 
-#-----Propiedades de la clase "espdep:localizacion"-----#
+:hasDays rdf:type owl:ObjectProperty ;
+         
+         rdfs:label "Tiene dias"@es ;
+         
+         rdfs:domain :Actividad ;
+         
+         rdfs:range [ rdf:type owl:Restriction ;
+                      owl:onProperty owl:topDataProperty ;
+                      owl:someValuesFrom xsd:string
+                    ] .
 
-espdev:hasXCoordinate
-  a rdf:property ;
-  rdfs:label "Tiene coordenada X"@es ;
-  rdfs:comment "Coordenada X de la localizacion"@es ;
-  rdfs:domain espdep:localizacion ;
-  rdfs:range xsd:integer.
 
-espdev:hasYCoordinate
-  a rdf:property ;
-  rdfs:label "Tiene coordenada Y"@es ;
-  rdfs:comment "Coordenada Y de la localizacion"@es ;
-  rdfs:domain espdep:localizacion ;
-  rdfs:range xsd:integer.
 
-espdev:hasLatitude
-  a rdf:property ;
-  rdfs:label "Tiene Latitud"@es ;
-  rdfs:comment "Latitud de la localizacion"@es ;
-  rdfs:domain espdep:localizacion ;
-  rdfs:range xsd:double.
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDaysWeek
 
-espdev:hasLongitude
-  a rdf:property ;
-  rdfs:label "Tiene longitud"@es ;
-  rdfs:comment "Longitud de la localizacion"@es ;
-  rdfs:domain espdep:localizacion ;
-  rdfs:range xsd:double.
+:hasDaysWeek rdf:type owl:ObjectProperty ;
+             
+             rdfs:label "Tiene dias de la semana"@es ;
+             
+             rdfs:domain :Actividad ;
+             
+             rdfs:range [ rdf:type owl:Restriction ;
+                          owl:onProperty owl:topDataProperty ;
+                          owl:someValuesFrom xsd:string
+                        ] .
 
-#-----Propiedades de la clase "espdep:direccion"-----#
 
-espdev:hasViaName
-  a rdf:property ;
-  rdfs:label "Nombre de la via"@es ;
-  rdfs:comment "Nombre de la via de la direccion"@es ;
-  rdfs:domain espdep:direccion ;
-  rdfs:range xsd:string .
 
-espdev:hasViaClass
-  a rdf:property ;
-  rdfs:label "Tipo de la via"@es ;
-  rdfs:comment "Tipo de la via de la direccion"@es ;
-  rdfs:domain espdep:direccion ;
-  rdfs:range xsd:string .
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDescription
 
-espdev:hasNumType
-  a rdf:property ;
-  rdfs:label "Tiene Tipo de Numero"@es ;
-  rdfs:comment "Tipo de numero de la direccion"@es ;
-  rdfs:domain espdep:direccion ;
-  rdfs:range xsd:string .
+:hasDescription rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "Tiene descripcion"@es ;
+                
+                rdfs:domain [ rdf:type owl:Restriction ;
+                              owl:onProperty owl:topObjectProperty ;
+                              owl:someValuesFrom :EspacioDeportivo
+                            ] ;
+                
+                rdfs:range [ rdf:type owl:Restriction ;
+                             owl:onProperty owl:topDataProperty ;
+                             owl:someValuesFrom xsd:string
+                           ] .
 
-espdev:hasNum
-  a rdf:property ;
-  rdfs:label "Tiene numero"@es ;
-  rdfs:comment "Numero de la localizacion"@es ;
-  rdfs:domain espdep:direccion ;
-  rdfs:range xsd:string .
 
-espdev:hasProvince
-  a rdf:property ;
-  rdfs:label "Tiene Provincia"@es ;
-  rdfs:comment "Provincia de la direccion"@es ;
-  rdfs:domain espdep:direccion ;
-  rdfs:range xsd:string .
 
-espdev:hasLocality
-  a rdf:property ;
-  rdfs:label "Tiene Localidad"@es ;
-  rdfs:comment "Localidad de la direccion"@es ;
-  rdfs:domain espdep:direccion ;
-  rdfs:range xsd:string .
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDistrict
 
-espdev:hasDistrict
-  a rdf:property ;
-  rdfs:label "Tiene Distrito"@es ;
-  rdfs:comment "Distrito de la direccion"@es ;
-  rdfs:domain espdep:direccion ;
-  rdfs:range xsd:string .
+:hasDistrict rdf:type owl:ObjectProperty ;
+             
+             rdfs:label "Tiene Distrito"@es ;
+             
+             rdfs:domain :Direccion ;
+             
+             rdfs:range [ rdf:type owl:Restriction ;
+                          owl:onProperty owl:topDataProperty ;
+                          owl:someValuesFrom xsd:string
+                        ] .
 
-espdev:hasSection
-  a rdf:property ;
-  rdfs:label "Tiene Barrio"@es ;
-  rdfs:comment "Barrio de la direccion"@es ;
-  rdfs:domain espdep:direccion ;
-  rdfs:range xsd:string .
 
-espdev:hasDoor
-  a rdf:property ;
-  rdfs:label "Tiene Puerta"@es ;
-  rdfs:comment "Puerta de la direccion"@es ;
-  rdfs:domain espdep:direccion ;
-  rdfs:range xsd:string .
 
-espdev:hasStairs
-  a rdf:property ;
-  rdfs:label "Tiene Escalera"@es ;
-  rdfs:comment "Escalera de la direccion"@es ;
-  rdfs:domain espdep:direccion ;
-  rdfs:range xsd:string .
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDoor
 
-espdev:hasOrientation
-  a rdf:property ;
-  rdfs:label "Tiene Orientacion"@es ;
-  rdfs:comment "Orientacion de la direccion"@es ;
-  rdfs:domain espdep:direccion ;
-  rdfs:range xsd:string .
+:hasDoor rdf:type owl:ObjectProperty ;
+         
+         rdfs:label "Tiene Puerta"@es ;
+         
+         rdfs:domain :Direccion ;
+         
+         rdfs:range [ rdf:type owl:Restriction ;
+                      owl:onProperty owl:topDataProperty ;
+                      owl:someValuesFrom xsd:string
+                    ] .
 
-#-----Propiedades de la clase "espdep:actividad"-----#
 
-espdev:hasCenter
-  a rdf:property ;
-  rdfs:label "Tiene Espacio Deportivo"@es ;
-  rdfs:comment "Espacio deportivo en el que se celebra la actividad"@es ;
-  rdfs:domain espdep:actividad ;
-  rdfs:range espdep:espacioDeportivo .
 
-espdev:hasEventId
-  a rdf:property ;
-  rdfs:label "Tiene ID de Evento"@es ;
-  rdfs:comment "Identificador de la actividad"@es ;
-  rdfs:domain espdep:actividad ;
-  rdfs:range xsd:string .
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration
 
-espdev:hasPrice
-  a rdf:property ;
-  rdfs:label "Tiene Precio"@es ;
-  rdfs:comment "Precio de la actividad"@es ;
-  rdfs:domain espdep:actividad ;
-  rdfs:range xsd:string .
+:hasDuration rdf:type owl:ObjectProperty ;
+             
+             rdfs:label "Tiene Duracion"@es ;
+             
+             rdfs:domain :Actividad ;
+             
+             rdfs:range [ rdf:type owl:Restriction ;
+                          owl:onProperty owl:topDataProperty ;
+                          owl:someValuesFrom xsd:boolean
+                        ] .
 
-espdev:isFree
-  a rdf:property ;
-  rdfs:label "Es gratuito"@es ;
-  rdfs:comment "Gratuituidad la actividad"@es ;
-  rdfs:domain espdep:actividad ;
-  rdfs:range xsd:boolean .
 
-espdev:hasPrice
-  a rdf:property ;
-  rdfs:label "Tiene Precio"@es ;
-  rdfs:comment "Precio de la actividad"@es ;
-  rdfs:domain espdep:actividad ;
-  rdfs:range xsd:string .
 
-espdev:hasDuration
-  a rdf:property ;
-  rdfs:label "Tiene duracion"@es ;
-  rdfs:comment "Duracion de la actividad"@es ;
-  rdfs:domain espdep:actividad ;
-  rdfs:range xsd:boolean .
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEmail
 
-espdev:hasDaysWeek
-  a rdf:property ;
-  rdfs:label "Dias de la semana"@es ;
-  rdfs:comment "Dias de la semana de la actividad"@es ;
-  rdfs:domain espdep:actividad ;
-  rdfs:range xsd:string .
+:hasEmail rdf:type owl:ObjectProperty ;
+          
+          rdfs:label "Tiene correo electronico"@es ;
+          
+          rdfs:domain :Contacto ;
+          
+          rdfs:range [ rdf:type owl:Restriction ;
+                       owl:onProperty owl:topDataProperty ;
+                       owl:someValuesFrom xsd:string
+                     ] .
 
-espdev:hasDays
-  a rdf:property ;
-  rdfs:label "Dias del evento"@es ;
-  rdfs:comment "Dias de la actividad"@es ;
-  rdfs:domain espdep:actividad ;
-  rdfs:range xsd:string .
 
-espdev:hasDate
-  a rdf:property ;
-  rdfs:label "Fecha del evento"@es ;
-  rdfs:comment "Fecha de comienzo de la actividad"@es ;
-  rdfs:domain espdep:actividad ;
-  rdfs:range xsd:date .
 
-espdev:hasEndDate
-  a rdf:property ;
-  rdfs:label "Fecha final del evento"@es ;
-  rdfs:comment "Fecha de finalizacion de la actividad"@es ;
-  rdfs:domain espdep:actividad ;
-  rdfs:range xsd:date .
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate
 
-espdev:hasHour
-  a rdf:property ;
-  rdfs:label "Hora del evento"@es ;
-  rdfs:comment "Hora de la actividad"@es ;
-  rdfs:domain espdep:actividad ;
-  rdfs:range xsd:time .
+:hasEndDate rdf:type owl:ObjectProperty ;
+            
+            rdfs:label "Tiene Fecha de Finalizacion"@es ;
+            
+            rdfs:domain :Actividad ;
+            
+            rdfs:range [ rdf:type owl:Restriction ;
+                         owl:onProperty owl:topDataProperty ;
+                         owl:someValuesFrom xsd:string
+                       ] .
 
-espdev:hasDescription
-  a rdf:property ;
-  rdfs:label "Descripcion del evento"@es ;
-  rdfs:comment "Descripcion de la actividad"@es ;
-  rdfs:domain espdep:actividad ;
-  rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEventId
+
+:hasEventId rdf:type owl:ObjectProperty ;
+            
+            rdfs:label "Tiene ID de Evento"@es ;
+            
+            rdfs:domain :Actividad ;
+            
+            rdfs:range [ rdf:type owl:Restriction ;
+                         owl:onProperty owl:topDataProperty ;
+                         owl:someValuesFrom xsd:string
+                       ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasFaxNumber
+
+:hasFaxNumber rdf:type owl:ObjectProperty ;
+              
+              rdfs:label "Tiene numero de FAX"@es ;
+              
+              rdfs:domain :EspacioDeportivo ;
+              
+              rdfs:range [ rdf:type owl:Restriction ;
+                           owl:onProperty owl:topDataProperty ;
+                           owl:someValuesFrom xsd:string
+                         ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour
+
+:hasHour rdf:type owl:ObjectProperty ;
+         
+         rdfs:label "Tiene Hora"@es ;
+         
+         rdfs:domain :Actividad ;
+         
+         rdfs:range [ rdf:type owl:Restriction ;
+                      owl:onProperty owl:topDataProperty ;
+                      owl:someValuesFrom xsd:dateTime
+                    ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey
+
+:hasIdKey rdf:type owl:ObjectProperty ;
+          
+          rdfs:label "Tiene Clave Id" ;
+          
+          rdfs:domain :Actividad ,
+                      :EspacioDeportivo ;
+          
+          rdfs:range [ rdf:type owl:Restriction ;
+                       owl:onProperty owl:topDataProperty ;
+                       owl:someValuesFrom xsd:int
+                     ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasLatitude
+
+:hasLatitude rdf:type owl:ObjectProperty ;
+             
+             rdfs:label "Tiene Latitud"@es ;
+             
+             rdfs:domain :Localizacion ;
+             
+             rdfs:range [ rdf:type owl:Restriction ;
+                          owl:onProperty owl:topDataProperty ;
+                          owl:someValuesFrom xsd:double
+                        ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasLocality
+
+:hasLocality rdf:type owl:ObjectProperty ;
+             
+             rdfs:label "Tiene localidad"@es ;
+             
+             rdfs:domain :Direccion ;
+             
+             rdfs:range [ rdf:type owl:Restriction ;
+                          owl:onProperty owl:topDataProperty ;
+                          owl:someValuesFrom xsd:string
+                        ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasLocation
+
+:hasLocation rdf:type owl:ObjectProperty ;
+             
+             rdfs:label "Tiene Localizacion"@es ;
+             
+             rdfs:domain :EspacioDeportivo ;
+             
+             rdfs:range [ rdf:type owl:Restriction ;
+                          owl:onProperty owl:topObjectProperty ;
+                          owl:someValuesFrom :Localizacion
+                        ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasLongitude
+
+:hasLongitude rdf:type owl:ObjectProperty ;
+              
+              rdfs:label "Tiene longitud"@es ;
+              
+              rdfs:domain :Localizacion ;
+              
+              rdfs:range [ rdf:type owl:Restriction ;
+                           owl:onProperty owl:topDataProperty ;
+                           owl:someValuesFrom xsd:double
+                         ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasName
+
+:hasName rdf:type owl:ObjectProperty ;
+         
+         rdfs:label "Nombre del Espacio Deportivo"@es ,
+                    "Tiene nombre"@es ;
+         
+         rdfs:domain :EspacioDeportivo ;
+         
+         rdfs:range [ rdf:type owl:Restriction ;
+                      owl:onProperty owl:topDataProperty ;
+                      owl:someValuesFrom xsd:string
+                    ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasNum
+
+:hasNum rdf:type owl:ObjectProperty ;
+        
+        rdfs:label "Tiene Numero"@es ;
+        
+        rdfs:domain :Direccion ;
+        
+        rdfs:range [ rdf:type owl:Restriction ;
+                     owl:onProperty owl:topDataProperty ;
+                     owl:someValuesFrom xsd:string
+                   ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasNumType
+
+:hasNumType rdf:type owl:ObjectProperty ;
+            
+            rdfs:label "Tiene tipo de numero"@es ;
+            
+            rdfs:domain :Direccion ;
+            
+            rdfs:range [ rdf:type owl:Restriction ;
+                         owl:onProperty owl:topDataProperty ;
+                         owl:someValuesFrom xsd:string
+                       ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasOrientation
+
+:hasOrientation rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "Tiene Orientacion"@es ;
+                
+                rdfs:domain :Direccion ;
+                
+                rdfs:range [ rdf:type owl:Restriction ;
+                             owl:onProperty owl:topDataProperty ;
+                             owl:someValuesFrom xsd:string
+                           ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasPhoneNumber
+
+:hasPhoneNumber rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "Tiene numero de telefono"@es ;
+                
+                rdfs:domain :Contacto ;
+                
+                rdfs:range [ rdf:type owl:Restriction ;
+                             owl:onProperty owl:topDataProperty ;
+                             owl:someValuesFrom xsd:string
+                           ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasPrice
+
+:hasPrice rdf:type owl:ObjectProperty ;
+          
+          rdfs:label "Tiene Precio"@es ;
+          
+          rdfs:domain :Actividad ;
+          
+          rdfs:range [ rdf:type owl:Restriction ;
+                       owl:onProperty owl:topDataProperty ;
+                       owl:someValuesFrom xsd:string
+                     ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasPrimaryKey
+
+:hasPrimaryKey rdf:type owl:ObjectProperty ;
+               
+               rdfs:label "Tiene clave primaria"@es ;
+               
+               rdfs:comment "Clave Primaria del Espacio Deportivo"@es ;
+               
+               rdfs:domain :EspacioDeportivo ;
+               
+               rdfs:range [ rdf:type owl:Restriction ;
+                            owl:onProperty owl:topDataProperty ;
+                            owl:someValuesFrom xsd:int
+                          ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasProvince
+
+:hasProvince rdf:type owl:ObjectProperty ;
+             
+             rdfs:label "Tiene Provincia"@es ;
+             
+             rdfs:domain :Direccion ;
+             
+             rdfs:range [ rdf:type owl:Restriction ;
+                          owl:onProperty owl:topDataProperty ;
+                          owl:someValuesFrom xsd:string
+                        ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasSchedule
+
+:hasSchedule rdf:type owl:ObjectProperty ;
+             
+             rdfs:label "Tiene Horario"@es ;
+             
+             rdfs:domain :EspacioDeportivo ;
+             
+             rdfs:range [ rdf:type owl:Restriction ;
+                          owl:onProperty owl:topDataProperty ;
+                          owl:someValuesFrom xsd:string
+                        ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasSection
+
+:hasSection rdf:type owl:ObjectProperty ;
+            
+            rdfs:label "Tiene Barrio"@es ;
+            
+            rdfs:domain :Direccion ;
+            
+            rdfs:range [ rdf:type owl:Restriction ;
+                         owl:onProperty owl:topDataProperty ;
+                         owl:someValuesFrom xsd:string
+                       ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasStairs
+
+:hasStairs rdf:type owl:ObjectProperty ;
+           
+           rdfs:label "Tiene Escaleras"@es ;
+           
+           rdfs:domain :Direccion ;
+           
+           rdfs:range [ rdf:type owl:Restriction ;
+                        owl:onProperty owl:topDataProperty ;
+                        owl:someValuesFrom xsd:string
+                      ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasTransport
+
+:hasTransport rdf:type owl:ObjectProperty ;
+              
+              rdfs:label "Tiene Transporte"@es ;
+              
+              rdfs:domain :EspacioDeportivo ;
+              
+              rdfs:range [ rdf:type owl:Restriction ;
+                           owl:onProperty owl:topDataProperty ;
+                           owl:someValuesFrom xsd:string
+                         ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasType
+
+:hasType rdf:type owl:ObjectProperty ;
+         
+         rdfs:label "Tiene Tipo"@es ;
+         
+         rdfs:domain :EspacioDeportivo ;
+         
+         rdfs:range [ rdf:type owl:Restriction ;
+                      owl:onProperty owl:topDataProperty ;
+                      owl:someValuesFrom xsd:string
+                    ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasViaClass
+
+:hasViaClass rdf:type owl:ObjectProperty ;
+             
+             rdfs:label "Tiene Clase de via"@es ;
+             
+             rdfs:domain :Direccion ;
+             
+             rdfs:range [ rdf:type owl:Restriction ;
+                          owl:onProperty owl:topDataProperty ;
+                          owl:someValuesFrom xsd:string
+                        ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasViaName
+
+:hasViaName rdf:type owl:ObjectProperty ;
+            
+            rdfs:label "Tiene nombre de via"@es ;
+            
+            rdfs:domain :Direccion ;
+            
+            rdfs:range [ rdf:type owl:Restriction ;
+                         owl:onProperty owl:topDataProperty ;
+                         owl:someValuesFrom xsd:string
+                       ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasXCoordinate
+
+:hasXCoordinate rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "Tiene coordenada X"@es ;
+                
+                rdfs:domain :Localizacion ;
+                
+                rdfs:range [ rdf:type owl:Restriction ;
+                             owl:onProperty owl:topDataProperty ;
+                             owl:someValuesFrom xsd:integer
+                           ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasYCoordinate
+
+:hasYCoordinate rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "Tiene coordenada Y"@es ;
+                
+                rdfs:domain :Localizacion ;
+                
+                rdfs:range [ rdf:type owl:Restriction ;
+                             owl:onProperty owl:topDataProperty ;
+                             owl:someValuesFrom xsd:integer
+                           ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isAccesible
+
+:isAccesible rdf:type owl:ObjectProperty ;
+             
+             rdfs:label "Es accesible"@es ;
+             
+             rdfs:domain :EspacioDeportivo ;
+             
+             rdfs:range [ rdf:type owl:Restriction ;
+                          owl:onProperty owl:topDataProperty ;
+                          owl:someValuesFrom xsd:boolean
+                        ] .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree
+
+:isFree rdf:type owl:ObjectProperty ;
+        
+        rdfs:label "Es Gratuito"@es ;
+        
+        rdfs:domain :Actividad ;
+        
+        rdfs:range [ rdf:type owl:Restriction ;
+                     owl:onProperty owl:topDataProperty ;
+                     owl:someValuesFrom xsd:boolean
+                   ] .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad
+
+:Actividad rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Contacto
+
+:Contacto rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Direccion
+
+:Direccion rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#EspacioDeportivo
+
+:EspacioDeportivo rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Localizacion
+
+:Localizacion rdf:type owl:Class .
+
+
+
+
+###  Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net
+

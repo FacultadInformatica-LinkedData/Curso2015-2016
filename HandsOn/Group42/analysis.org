@@ -1,0 +1,23 @@
+#+TITLE: Analisis de los datasets
+#+AUTHOR: Grupo 42
+#+OPTIONS: toc:nil
+
+* Analisis de los datasets
+** Datasets usados:
++ Aparcamiento de motos
++ Barrios
++ Calles
++ Estacionamiento bicicletas
+** Datos a utilizar:
+|   | Descripcion | Observaciones |
+| a | blabla      |               |
+| b | bbbb        | blobe         |
+** Licencia
+* Definicion de estrategia de nombrado de recursos
+Hash URIs for ontological terms, slash URIs for individuals
+
++ Domain: http://www.example.net/
++ Ontological terms path: http://www.example.net/group42/ontology/puntointeres#
++ Individual path: http://www.example.net/group42/resource
++ Ontological terms pattern: http://www.example.net/Group42/ontology/puntointeres#&lt;term_name&gt;
++ Individuals pattern: http://www.example.net/Group42/resource/&lt;resource_type&gt;/&lt;resource_name&gt;

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://example.net/Arcosur">
+	<rdfs:label>Arcosur</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/0">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Arcosur"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Actur">
+	<rdfs:label>Actur</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/1">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Actur"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Arrabal">
+	<rdfs:label>Arrabal</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/2">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Arrabal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Casco+Hist%C3%B3rico">
+	<rdfs:label>Casco Histórico</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/3">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Casco+Hist%C3%B3rico"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Centro">
+	<rdfs:label>Centro</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/4">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Centro"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/La+Jota">
+	<rdfs:label>La Jota</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/5">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/La+Jota"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/La+Paz">
+	<rdfs:label>La Paz</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/6">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/La+Paz"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Las+Fuentes">
+	<rdfs:label>Las Fuentes</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/7">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Las+Fuentes"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Oliver">
+	<rdfs:label>Oliver</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/8">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Oliver"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Picarral">
+	<rdfs:label>Picarral</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/9">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Picarral"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/San+Jos%C3%A9">
+	<rdfs:label>San José</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/10">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/San+Jos%C3%A9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Torrero">
+	<rdfs:label>Torrero</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/11">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Torrero"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Juslibol">
+	<rdfs:label>Juslibol</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/12">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Juslibol"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/La+Cartuja+Baja">
+	<rdfs:label>La Cartuja Baja</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/13">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/La+Cartuja+Baja"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Montañana">
+	<rdfs:label>Montañana</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/14">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Montañana"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/San+Juan+de+Mozarrifar">
+	<rdfs:label>San Juan de Mozarrifar</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/15">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/San+Juan+de+Mozarrifar"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Santa+Isabel">
+	<rdfs:label>Santa Isabel</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/16">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Santa+Isabel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Miralbueno">
+	<rdfs:label>Miralbueno</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/17">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Miralbueno"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Venta+del+Olivar">
+	<rdfs:label>Venta del Olivar</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/18">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Venta+del+Olivar"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Delicias">
+	<rdfs:label>Delicias</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/19">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Delicias"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Movera">
+	<rdfs:label>Movera</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/20">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Movera"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Almozara">
+	<rdfs:label>Almozara</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/21">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Almozara"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Romareda/Universidad">
+	<rdfs:label>Romareda/Universidad</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/22">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Romareda/Universidad"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Valdefierro">
+	<rdfs:label>Valdefierro</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/23">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Valdefierro"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Peñaflor">
+	<rdfs:label>Peñaflor</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/24">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Peñaflor"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/San+Gregorio">
+	<rdfs:label>San Gregorio</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/25">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/San+Gregorio"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Torrecilla+de+Valmadrid">
+	<rdfs:label>Torrecilla de Valmadrid</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/26">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Torrecilla+de+Valmadrid"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Alfocea">
+	<rdfs:label>Alfocea</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/27">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Alfocea"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Casablanca">
+	<rdfs:label>Casablanca</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/28">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Casablanca"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Casetas">
+	<rdfs:label>Casetas</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/29">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Casetas"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Garrapinillos">
+	<rdfs:label>Garrapinillos</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/30">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Garrapinillos"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Monzalbarba">
+	<rdfs:label>Monzalbarba</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/31">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Monzalbarba"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Villarrapa">
+	<rdfs:label>Villarrapa</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/32">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Villarrapa"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Valdespartera">
+	<rdfs:label>Valdespartera</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/33">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Valdespartera"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Ranillas">
+	<rdfs:label>Ranillas</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/34">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Ranillas"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Vadorrey">
+	<rdfs:label>Vadorrey</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/35">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Vadorrey"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/Puerto+Venecia">
+	<rdfs:label>Puerto Venecia</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://example.net/36">
+	<districtName xmlns="http://example.net/" rdf:resource="http://example.net/Puerto+Venecia"/>
+</rdf:Description>
+
+</rdf:RDF>

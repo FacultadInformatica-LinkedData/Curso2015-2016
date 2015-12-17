@@ -21,14 +21,10 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="base" IRI="http://puntosinteres.madrid.es/group04/ontology/puntointeres#"/>
+    <Prefix name="locn" IRI="http://www.w3.org/ns/locn#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="vcard" IRI="http://www.w3.org/2006/vcard/ns#"/>
     <Prefix name="puntosinteres" IRI="http://puntosinteres.madrid.es/group04/ontology/puntosinteres#"/>
-    <Import>file:/C:/Users/dlopecon/Documents/GitHub/Curso2015-2016/HandsOn/Group04/rdf/200761-0-parques-jardines-csv-with-links-updated.ttl</Import>
-    <Import>file:/C:/Users/dlopecon/Documents/GitHub/Curso2015-2016/HandsOn/Group04/rdf/216619-0-wifi-municipal-with-links-updated.ttl</Import>
-    <Import>file:/C:/Users/dlopecon/Documents/GitHub/Curso2015-2016/HandsOn/Group04/rdf/201132-0-turismo-csv-with-links-updated.ttl</Import>
-    <Import>file:/C:/Users/dlopecon/Documents/GitHub/Curso2015-2016/HandsOn/Group04/rdf/206577-0-oficinas-turismo-with-links-updated.ttl</Import>
-    <Import>file:/C:/Users/dlopecon/Documents/GitHub/Curso2015-2016/HandsOn/Group04/rdf/208844-0-monumentos-edificios-with-links-updated.ttl</Import>
-    <Import>file:/C:/Users/dlopecon/Documents/GitHub/Curso2015-2016/HandsOn/Group04/rdf/208862-7650046-ocio_salas-with-links-updated.ttl</Import>
     <Declaration>
         <Class IRI="Bus"/>
     </Declaration>
@@ -108,12 +104,6 @@
         <DataProperty IRI="nombreDistrito"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="tieneCalle"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="tieneCodigoPostal"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="tieneDescripcion"/>
     </Declaration>
     <Declaration>
@@ -129,9 +119,6 @@
         <DataProperty IRI="tieneNumero"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="tieneTelefono"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="tieneTipoVia"/>
     </Declaration>
     <Declaration>
@@ -139,6 +126,15 @@
     </Declaration>
     <Declaration>
         <DataProperty abbreviatedIRI="geo:long"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="vcard:tel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="locn:address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="locn:postCode"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="estaEnPosicion"/>
@@ -335,14 +331,6 @@
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="tieneCalle"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="tieneCodigoPostal"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
         <DataProperty IRI="tieneDescripcion"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
@@ -359,16 +347,72 @@
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="tieneTelefono"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
         <DataProperty IRI="tieneTipoVia"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <DataPropertyDomain>
+        <DataProperty IRI="hayBus"/>
+        <Class IRI="Bus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hayMetro"/>
+        <Class IRI="Metro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hayRenfe"/>
+        <Class IRI="Renfe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="hayTransportePublico"/>
+        <Class IRI="TransportePublico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="nombreDistrito"/>
         <Class IRI="Distrito"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="tieneDescripcion"/>
+        <Class IRI="SitioTuristico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="tieneEquipamiento"/>
+        <Class IRI="SitioTuristico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="tieneHorario"/>
+        <Class IRI="SitioTuristico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="tieneNombre"/>
+        <Class IRI="SitioTuristico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="tieneNumero"/>
+        <Class IRI="Direccion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="tieneTipoVia"/>
+        <Class IRI="Distrito"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="geo:lat"/>
+        <Class IRI="Posicion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="geo:long"/>
+        <Class IRI="Posicion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="vcard:tel"/>
+        <Class IRI="SitioTuristico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="locn:address"/>
+        <Class IRI="Direccion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="locn:postCode"/>
+        <Class IRI="Direccion"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="hayBus"/>
@@ -391,14 +435,6 @@
         <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="tieneCalle"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="tieneCodigoPostal"/>
-        <Datatype abbreviatedIRI="xsd:int"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
         <DataProperty IRI="tieneDescripcion"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
@@ -419,12 +455,28 @@
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="tieneTelefono"/>
+        <DataProperty IRI="tieneTipoVia"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="tieneTipoVia"/>
+        <DataProperty abbreviatedIRI="geo:lat"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="geo:long"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="vcard:tel"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="locn:address"/>
         <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="locn:postCode"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <AnnotationPropertyDomain>
         <AnnotationProperty IRI="hayBus"/>

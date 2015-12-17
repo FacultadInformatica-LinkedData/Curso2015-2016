@@ -3,6 +3,8 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix base: <http://puntosinteres.madrid.es/group04/ontology/puntosinteres#> .
 
@@ -26,8 +28,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ArtePublico,MuseoalAireLi> a base:Direccion ;
 	base:tieneNumero "40"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28046"^^xsd:int ;
-	base:tieneCalle "CASTELLANA" ;
+	locn:postCode "28046"^^xsd:int ;
+	locn:address "CASTELLANA" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ArtePublico,MuseoalAireLi> a base:Metro ;
@@ -46,7 +48,7 @@
 	base:tieneNombre "Casa - Museo del Ratoncito Pérez" ;
 	base:tieneDescripcion "La residencia de la familia Pérez está  situada en los sótanos de la confitería Prasi,  en el número ocho de la calle del Arenal, según cita Luis Coloma." ;
 	base:tieneHorario "Lunes  de 17 a 20 horas.  De martes a viernes de 11 a 14 horas y de 17 a 20 horas.  Sábados de 11 a 15 horas y de 16 a 20 horas.  Domingos y festivos de 12 a 15 horas y de 16 a 19 horas.  Horario orientativo, consultar disponiblidad en la web del Museo." ;
-	base:tieneTelefono "915 226 968" ;
+	vcard:tel "915 226 968" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/Casa-MuseodelRatoncitoPer> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/Casa-MuseodelRatoncitoPer> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/Casa-MuseodelRatoncitoPer> ;
@@ -64,8 +66,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/Casa-MuseodelRatoncitoPer> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "ARENAL" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "ARENAL" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/Casa-MuseodelRatoncitoPer> a base:Metro ;
@@ -84,7 +86,7 @@
 	base:tieneNombre "Casa Museo Lope de Vega" ;
 	base:tieneDescripcion "&quot;Mi casilla, mi quietud, mi g&uuml;ertecillo y estudio&quot;. Así define su casa Félix Lope de Vega (1562-1635) en una carta dirigida a un amigo. Situada en pleno centro histórico, en el Barrio de las Letras, la Casa Museo Lope de Vega se ubica en el edificio donde el escritor vivió sus últimos 25 años. La recreación de ambientes, cuyo objetivo es que se respire la presencia de Lope, evoca la vida cotidiana del Siglo de Oro y nos acerca a su intimidad. El equipamiento de la casa incorpora obras de arte, mobiliario, enseres y ediciones bibliográficas vinculadas al literato y su tiempo." ;
 	base:tieneHorario "Para la visita es  imprescindible reserva anticipada  en:  casamuseolopedevega@madrid.org  o en el teléfono: 914 299 216, en horario del museo   De martes a domingo de 10 a 18 horas.   Cerrado los lunes, días 1 y 6 de enero, 1 y 15 de mayo y 24, 25 y 31 de diciembre   Este horario puede sufrir alteraciones por actividades extraordinarias que se celebran en este espacio." ;
-	base:tieneTelefono "914 299 216" ;
+	vcard:tel "914 299 216" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CasaMuseoLopedeVega> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasaMuseoLopedeVega> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CasaMuseoLopedeVega> ;
@@ -102,8 +104,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasaMuseoLopedeVega> a base:Direccion ;
 	base:tieneNumero "11"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "CERVANTES" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "CERVANTES" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CasaMuseoLopedeVega> a base:Metro ;
@@ -119,7 +121,7 @@
 	base:tieneDescripcion "El edificio está incorporado al sistema &quot;museosdemadrid&quot; donde se realizan talleres para escolares y actividades en verano." ;
 	base:tieneHorario "Abierto fines de semana y festivos (incluso los lunes festivos)  De abril a septiembre: sábados, domingos y festivos de 10 a 21 horas  De octubre a marzo: sábados, domingos y festivos de 10 a 18 horas  Cerrado: 24, 25, 31 de diciembre, 1 de enero, 6 de enero, 1 de mayo." ;
 	base:tieneEquipamiento "Accesibilidad    Rampas de acceso  Servicios para minusválidos  Información en Braille para invidentes" ;
-	base:tieneTelefono """913 667 415                                                                   
+	vcard:tel """913 667 415                                                                   
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CastillodelaAlameda> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CastillodelaAlameda> ;
@@ -138,8 +140,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CastillodelaAlameda> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/BARAJAS> ;
-	base:tieneCodigoPostal "28042"^^xsd:int ;
-	base:tieneCalle "ANTONIO SANCHA" ;
+	locn:postCode "28042"^^xsd:int ;
+	locn:address "ANTONIO SANCHA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CastillodelaAlameda> a base:Metro ;
@@ -158,7 +160,7 @@
 	base:tieneNombre "Casón del Buen Retiro" ;
 	base:tieneDescripcion "Edificio que forma parte del Museo Nacional del Prado, donde pueden consultarse fondos de la Biblioteca, del Archivo y del Servicio de Documentación de la colección del Museo y de otras fuentes relativas a la historia del arte." ;
 	base:tieneHorario "Mañanas    De lunes a jueves, de 9 a 15 horas. (Servicio de libros y otros materiales hasta las 14:30 horas)   Viernes, de 9 a 14:30 horas. (Servicio de libros y otros materiales hasta las 14 horas)     Tardes.  Lunes y miércoles, de 15 a 18 horas. (Servicio de libros y otros materiales hasta las 17:30 horas)   Horario de verano     Desde el 16 de junio al 15 de septiembre  Lunes a viernes, de 9 a 14:30 horas" ;
-	base:tieneTelefono "902 107 077" ;
+	vcard:tel "902 107 077" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CasondelBuenRetiro> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasondelBuenRetiro> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CasondelBuenRetiro> ;
@@ -176,8 +178,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasondelBuenRetiro> a base:Direccion ;
 	base:tieneNumero "28"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "ALFONSO XII" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "ALFONSO XII" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CasondelBuenRetiro> a base:Metro ;
@@ -199,7 +201,7 @@
 	base:tieneDescripcion "Edificio de carácter monumental. De estilo neomudéjar, fue diseñado por el arquitecto Fernando Arbós e inaugurado en el año 1913. Cuenta con más de 6.000 metros cuadrados de instalaciones divididas en 4 plantas y una azotea." ;
 	base:tieneHorario "De lunes a domingo de 10 a 22 horas (todos los días del año, excepto festividades nacionales y de la Comunidad de Madrid)  Exposiciones: de 10 a 21:45 horas" ;
 	base:tieneEquipamiento "Biblioteca  (consulta catálogo  http://catalogo.bibliotecas.obrasocialcajamadrid.es/ )   Sala de consulta y Hemeroteca: de lunes a domingos, de 10 a 21:15 horas  Mediateca y Sala de trabajo Ofimática: de lunes a domingos, de 10 a 21:15 horas  Biblioteca joven: de lunes a viernes, de 10 a 20:30, sábados y domingos de 10 a 13:30  Bebeteca: sábados y domingos de 10 a 13:30 horas     Estudio multimedia : cuenta con equipos profesionales para la edición de video con Final Cut Studio, Premiere, etc. Su uso tendrá un precio de cinco a ocho euros por turno de cinco horas dependiendo del tipo de asistencia técnica.   Laboratorio de radio:  dispone de un equipo completo de grabación y equipamiento profesional. Su uso tendrá un precio de diez euros por turnos de cinco horas.   Laboratorio fotográfico    Tienda solidaria:  consultar horario   Cafetería:  todos los días, excepto festivos, de 10 a 21:45 horas" ;
-	base:tieneTelefono """902 430 322                                              
+	vcard:tel """902 430 322                                              
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentroSocialyCulturallaCa> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocialyCulturallaCa> ;
@@ -218,8 +220,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentroSocialyCulturallaCa> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "VALENCIA" ;
+	locn:postCode "28012"^^xsd:int ;
+	locn:address "VALENCIA" ;
 	base:tieneTipoVia "RONDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/CentroSocialyCulturallaCa> a base:Metro ;
@@ -237,7 +239,7 @@
 	base:tieneDescripcion "Ermita dedicada a San Antonio de Padua y pequeño museo. Las pinturas murales que la decoran son de Francisco de Goya. Alberga los restos mortales del artista desde 1919. Para preservar sus pinturas, en 1929 se trasladó el culto a una ermita gemela construida a su lado, dejando el edificio original como museo." ;
 	base:tieneHorario "De martes a domingos y festivos de 9:30 a 20 horas.   Cerrado  los lunes, incluidos festivos, y los días 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre.   Último pase de visita:  20 minutos antes del cierre (el desalojo de las salas comenzará 10 minutos antes)   Por motivos de conservación, el aforo máximo es de 50 personas en el interior de la capilla.  Los sábados que se celebren Visitas animadas para familias se interrumpirá la visita durante el desarrollo de las mismas.  Este horario y la apertura de salas pueden sufrir modificaciones, por favor, confírmelo en el teléfono de información del museo." ;
 	base:tieneEquipamiento "Tienda, en la que se pueden adquirir las guías y publicaciones sobre la ermita editadas por el Museo y otros organismos públicos, así como catálogos y publicaciones de instituciones culturales del Ayuntamiento de Madrid." ;
-	base:tieneTelefono """915 420 722 / 917 011 863                                                                                                                              
+	vcard:tel """915 420 722 / 917 011 863                                                                                                                              
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ErmitadeSanAntoniodelaFlo> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ErmitadeSanAntoniodelaFlo> ;
@@ -256,8 +258,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ErmitadeSanAntoniodelaFlo> a base:Direccion ;
 	base:tieneNumero "5"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28008"^^xsd:int ;
-	base:tieneCalle "SAN ANTONIO DE LA FLORIDA" ;
+	locn:postCode "28008"^^xsd:int ;
+	locn:address "SAN ANTONIO DE LA FLORIDA" ;
 	base:tieneTipoVia "GLORIETA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ErmitadeSanAntoniodelaFlo> a base:Metro ;
@@ -278,7 +280,7 @@
 	base:tieneNombre "Espacio Fundación Telefónica" ;
 	base:tieneHorario "De martes a domingo, de 10 a 20 horas.  Cerrado al público todos los lunes y los festivos, día 25 de diciembre y días 1 y 6 de enero." ;
 	base:tieneEquipamiento "Accesos y espacios habilitados para personas con movilidad reducida, aseos adaptados y con cambiador de pañales, ascensor, zonas de descanso y silla de ruedas para uso en las salas.  Tabletas con guía multimedia de las exposiciones, disponibles en el mostrador de información.  Conexión WIFI." ;
-	base:tieneTelefono "915 808 700 (información general)" ;
+	vcard:tel "915 808 700 (información general)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/EspacioFundacionTelefonic> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/EspacioFundacionTelefonic> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/EspacioFundacionTelefonic> ;
@@ -296,8 +298,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/EspacioFundacionTelefonic> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28004"^^xsd:int ;
-	base:tieneCalle "FUENCARRAL" ;
+	locn:postCode "28004"^^xsd:int ;
+	locn:address "FUENCARRAL" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/EspacioFundacionTelefonic> a base:Metro ;
@@ -312,7 +314,7 @@
 	base:tieneNombre "Fundación AMYC (Arte Moderno y Contemporáneo). Casa - Museo Fuente del Rey" ;
 	base:tieneHorario "De lunes a viernes de 10 a 19 horas. Sábados y domingos cerrado.   Visitas  guiadas y concertadas con cita previa." ;
 	base:tieneEquipamiento "Siguiendo la iniciativa del mecenazgo de Francisco Daurella, en 2009 decide crear la Fundación  AMYC , para la que recupera, rehabilita y acondicona una casa de uso privado para transformala en Casa - Museo. En sus instalaciones acogerá diferentes salas expositivas y una sala polivalente para actos culturales. El eje principal de la colección de más de 250 obras, es dar una visión muy dinámica de lo sucedido entre fianles del siglo  XIX  y mediados del siglo  XX ." ;
-	base:tieneTelefono "913 579 116" ;
+	vcard:tel "913 579 116" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/FundacionAMYC,ArteModerno> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/FundacionAMYC,ArteModerno> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/FundacionAMYC,ArteModerno> ;
@@ -330,8 +332,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/FundacionAMYC,ArteModerno> a base:Direccion ;
 	base:tieneNumero "11"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28023"^^xsd:int ;
-	base:tieneCalle "FUENTE DEL REY" ;
+	locn:postCode "28023"^^xsd:int ;
+	locn:address "FUENTE DEL REY" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/FundacionAMYC,ArteModerno> a base:Metro .
@@ -345,7 +347,7 @@
 	base:tieneNombre "Monasterio de las Descalzas Reales" ;
 	base:tieneDescripcion "Convento fundado por la Princesa Juana de Austria, transformando un antiguo palacio de su madre Isabel de Portugal." ;
 	base:tieneHorario "Sólo con visita guiada.    De martes a sábado de 10 a 14 horas y de 16 a 18:30 horas  Domingos y festivos, de 10 a 15 horas. Cerrado los lunes  Cierre de taquillas una hora antes  Cerrado:   Enero: días 1, 6.  Abril: del 1 al 4 inclusive, semana santa.  Mayo: día 1.  Diciembre: 24, 25 y 31 de diciembre.    El  7 de diciembre  abierto en horario de mañana y tarde.     Atención telefónica:    De lunes a sábados de 9:30 a 17 horas  Domingos y festivos de 9 a 14 horas" ;
-	base:tieneTelefono """914 548 700                                                      
+	vcard:tel """914 548 700                                                      
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MonasteriodelasDescalzasR> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MonasteriodelasDescalzasR> ;
@@ -364,8 +366,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MonasteriodelasDescalzasR> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "DESCALZAS" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "DESCALZAS" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MonasteriodelasDescalzasR> a base:Metro ;
@@ -380,7 +382,7 @@
 	base:tieneNombre "Museo ABC" ;
 	base:tieneDescripcion "Centro de arte, dibujo e ilustración." ;
 	base:tieneHorario "De martes a sábados: de 11 a 20 horas  Domingos: de 10 a 14 horas" ;
-	base:tieneTelefono "917 588 379" ;
+	vcard:tel "917 588 379" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoABC> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoABC> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseoABC> ;
@@ -398,8 +400,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoABC> a base:Direccion ;
 	base:tieneNumero "29"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28015"^^xsd:int ;
-	base:tieneCalle "AMANIEL" ;
+	locn:postCode "28015"^^xsd:int ;
+	locn:address "AMANIEL" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoABC> a base:Metro ;
@@ -414,7 +416,7 @@
 	base:tieneNombre "Museo Africano Mundo Negro" ;
 	base:tieneDescripcion "Situado en los locales de los Misioneros de Madrid y abierto al público en 1985, se propone divulgar la cultura africana, promoviendo el conocimiento de la vida, de la historia y de las diversas culturas africanas." ;
 	base:tieneHorario "Grupos con cita previa : de lunes a sábado   Particulares  (visitas guiadas): domingos a las 11,30 horas   Cerrado : julio, agosto y septiembre" ;
-	base:tieneTelefono "914 152 412" ;
+	vcard:tel "914 152 412" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoAfricanoMundoNegro> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoAfricanoMundoNegro> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseoAfricanoMundoNegro> ;
@@ -432,8 +434,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoAfricanoMundoNegro> a base:Direccion ;
 	base:tieneNumero "101"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CIUDADLINEAL> ;
-	base:tieneCodigoPostal "28043"^^xsd:int ;
-	base:tieneCalle "ARTURO SORIA" ;
+	locn:postCode "28043"^^xsd:int ;
+	locn:address "ARTURO SORIA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoAfricanoMundoNegro> a base:Metro .
@@ -452,7 +454,7 @@
 	base:tieneDescripcion "Construído en 1866 según proyectos de Jareño y Alarcón y terminado por Ruiz de Salces. Ocupa el mismo edificio que la Biblioteca Nacional. De estilo neoclásico." ;
 	base:tieneHorario "De martes a sábados de 9:30 a 20 horas  Domingos y festivos de 9:30 a 15 horas     Cerrado    Todos los lunes del año.  1 y 6 de enero, 1de mayo y 24, 25 y 31 de diciembre    Horario de cierre de las taquillas: 15 minutos antes del cierre del Museo.  En caso de que el aforo esté completo, el Museo podrá cerrar el acceso con anterioridad, lo que se comunicará in situ a los visitantes." ;
 	base:tieneEquipamiento "Sistema de bucle inductivo de audio para personas con problemas de audición en la proyección audiovisual  y áreas de atención a público  Acceso para personas con movilidad reducida   Actividades culturales y didácticas   Visitas para grupos previa concertación de cita   Publicaciones   Servicio fotográfico" ;
-	base:tieneTelefono """915 777 912                                                            
+	vcard:tel """915 777 912                                                            
                                                                             
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoArqueologicoNacional> ;
@@ -472,8 +474,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoArqueologicoNacional> a base:Direccion ;
 	base:tieneNumero "13"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28001"^^xsd:int ;
-	base:tieneCalle "SERRANO" ;
+	locn:postCode "28001"^^xsd:int ;
+	locn:address "SERRANO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoArqueologicoNacional> a base:Metro ;
@@ -491,7 +493,7 @@
 	base:tieneDescripcion "El Museo Casa de la Moneda alberga colecciones numismáticas y de artes gráficas: importantes dibujos, estampas, loterías, sellos,... Se trata de la que posiblemente sea la mayor exposición numismática del mundo, cubriendo la historia de la moneda desde el siglo  VII a.C.  hasta nuestros días." ;
 	base:tieneHorario "De martes a viernes ininterrumpidamente de 10 a 17:30 horas. Sábados, domingos y festivos de 10 a 14 horas.  Cerrado los lunes, y los días 1 y 6 de enero; 19 de marzo, 2, 3, 4 y 5 de abril; 1, 2, 3 y 15 de mayo; 24, 25 y 31 de diciembre." ;
 	base:tieneEquipamiento "El público puede acuñar una moneda durante su visita. Accesible a personas con minusvalía (física y sensorial). Visitas guiadas e introduce la lengua de signos para personas sordas" ;
-	base:tieneTelefono """915 666 544                      
+	vcard:tel """915 666 544                      
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoCasadelaMoneda> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoCasadelaMoneda> ;
@@ -510,8 +512,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoCasadelaMoneda> a base:Direccion ;
 	base:tieneNumero "36"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28028"^^xsd:int ;
-	base:tieneCalle "DOCTOR ESQUERDO" ;
+	locn:postCode "28028"^^xsd:int ;
+	locn:address "DOCTOR ESQUERDO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoCasadelaMoneda> a base:Metro ;
@@ -527,7 +529,7 @@
 	base:tieneDescripcion "Este Palacio, construido entre 1883 y 1893, fue concebido como vivienda y como museo para sede de las obras de arte reunidas por los Marqueses de Cerralbo y sus hijos, los Marqueses de Villa Huerta, durante los numerosos viajes que realizaron por España y Europa.   Objetivos y Fines de la Fundación Cerralbo (en la misma sede)    Velar porque las colecciones no se disgreguen ni enajenen y permanezcan reunidas en su sede de Ventura Rodríguez.   Conceder premios y becas para artistas e investigadores y celebrar actos culturales.   Colaborar en la custodia, exhibición y mejora del patrimonio que el Estado heredó del Marqués, perpetuando así su memoria." ;
 	base:tieneHorario "De martes a sábado de 9:30 a 15 horas   Jueves de 17 a 20 horas. Excepto festivos.   Domingos y festivos de 10 a 15 horas.    Cerrado todos los lunes, y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y una fiesta local." ;
 	base:tieneEquipamiento "Biblioteca  Sala de Exposiciones  Sala de Conferencias  Gabinete dietético  Gabinete de dibujo y laboratorio de restauración" ;
-	base:tieneTelefono "915 473 646 / 47" ;
+	vcard:tel "915 473 646 / 47" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoCerralbo> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoCerralbo> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseoCerralbo> ;
@@ -545,8 +547,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoCerralbo> a base:Direccion ;
 	base:tieneNumero "17"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28008"^^xsd:int ;
-	base:tieneCalle "VENTURA RODRIGUEZ" ;
+	locn:postCode "28008"^^xsd:int ;
+	locn:address "VENTURA RODRIGUEZ" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoCerralbo> a base:Metro ;
@@ -562,7 +564,7 @@
 	base:tieneDescripcion "El Museo Colecciones  ICO  abrió sus puertas al público en marzo de 1996. Su objetivo era difundir la colección de arte del Instituto de Crédito Oficial, una de las más importantes de arte español contemporáneo." ;
 	base:tieneHorario "De martes a domingo: de 11 a 20 horas  Festivos: de 10 a  14 horas      Cerrado:  Todos los lunes del año (incluidos festivos) y los días 1 de enero, 1 de mayo y 25 de diciembre." ;
 	base:tieneEquipamiento "Colecciones:  Suite Vollard, de Pablo Picasso - Pintura Española Contemporánea - Escultura Moderna Española con Dibujo.   Servicios:  además de exponer y difundir sus propios fondos, trabaja en la realización de exposiciones temporales que parten, principalmente, de tres líneas. La primera está dedicada a la realización de exposiciones de  arquitectura y diseño , tanto de arquitectos nacionales como de ámbito internacional. La segunda línea se dedica a la colaboración anual que el museo mantiene con el festival de fotografía  PHotoEspaña  y que ha permitido la exposición de reputados artistas como Man Ray o Dorothea Lange. Por último, la tercera de estas líneas está dedicada a la difusión de la  obra poco conocida de artistas presentes en las colecciones  ICO .  Esta política expositiva ha permitido conocer nuevas facetas de artistas como Susana Solano, Guillermo Pérez Villalta o Darío Urzay." ;
-	base:tieneTelefono "914 201 242" ;
+	vcard:tel "914 201 242" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoColeccionesdelInstit> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoColeccionesdelInstit> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseoColeccionesdelInstit> ;
@@ -580,8 +582,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoColeccionesdelInstit> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "ZORRILLA" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "ZORRILLA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoColeccionesdelInstit> a base:Metro ;
@@ -597,7 +599,7 @@
 	base:tieneDescripcion "Emplazado en Cuatro Vientos desde 1966, tiene como objetivo narrar la historia y el desarrollo científico - técnico de la Aeronáutica y Astronaútica españolas con 150 aeronaves, uniformes, condecoraciones, maquetas, armamento y una destacada colección de motores en 70.000  m2  , distribuidos en siete hangares y siete plataformas al aire libre." ;
 	base:tieneHorario "De martes a domingo de 10 a 14 horas.  Cerrado los días 1 y 6 de enero, el mes de agosto, Jueves y Viernes Santos, 12 de octubre, 10 de diciembre (Patrona de Aviación), 24,25 y 31 de diciembre." ;
 	base:tieneEquipamiento "Aparcameinto: gratuito, de 10 a 14 horas  Cafetería: de 10 a 13:30 horas  Punto de venta: de 10 a 13:30 horas  Visitas guiadas para grupos: de martes a domingo de 10 a 14 horas, previa petición de autorización por carta o correo electrónico (museodelaire@ea.mde.es). Se recomienda anticipar las peticiones por teléfono de lunes a viernes. Grupo mínimo de 10 personas  Obtención de fotografías y/o filmaciones   Tratándose de fotografías o filmaciones para uso particular no es necesario pedir ningún tipo de autorización  Es necesaria la solicitud de permiso previo mediante fax 917 106 847, si el objetivo es la difusión por medios de comunicación. El permiso se ajustará a lo dispuesto en la Instrucción 65/2004, de 31 de marzo, del Secretario de Estado de Defensa     Para más información teléfono 915 091 690" ;
-	base:tieneTelefono "915 091 690 (centralita)" ;
+	vcard:tel "915 091 690 (centralita)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeAeronauticayAstron> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeAeronauticayAstron> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodeAeronauticayAstron> ;
@@ -615,8 +617,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeAeronauticayAstron> a base:Direccion ;
 	base:tieneNumero "10.5"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/LATINA> ;
-	base:tieneCodigoPostal "28024"^^xsd:int ;
-	base:tieneCalle "A-5" ;
+	locn:postCode "28024"^^xsd:int ;
+	locn:address "A-5" ;
 	base:tieneTipoVia "AUTOVIA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodeAeronauticayAstron> a base:Metro ;
@@ -636,7 +638,7 @@
 	base:tieneDescripcion "Colecciones arqueológicas, etnográficas y de arte colonial traídas a España entre los siglos XVI y XX, cuya temática abarca desde la Prehistoria americana hasta la actualidad. Destacan el Tesoro de los Quimbayas, los Enonchados de la Conquista de México y las colecciones europeas más antiguas sobre los indios de las praderas.   Página web del Museo de América" ;
 	base:tieneHorario "Horario:    De martes a sábado, de 9:30 a 15 horas  Jueves, apertura continuada de 9:30 a 19 horas  Domingos y festivos de 10 a 15 horas     Cerrado:  todos los lunes del año, día 1 y 6 de enero, día 1 de mayo, días 24, 25 y 31 de diciembre y un festivo local." ;
 	base:tieneEquipamiento "Biblioteca - Tienda - Cafetería - Accesible a personas con minusvalía (física) - Visita guiada para grupos - Visitas guiadas a las piezas más representativas de las colecciones del museo (sábados a las 11 horas) - Club de Lectura" ;
-	base:tieneTelefono "915 439 437 / 915 492 641" ;
+	vcard:tel "915 439 437 / 915 492 641" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeAmerica> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeAmerica> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodeAmerica> ;
@@ -654,8 +656,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeAmerica> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28040"^^xsd:int ;
-	base:tieneCalle "REYES CATOLICOS" ;
+	locn:postCode "28040"^^xsd:int ;
+	locn:address "REYES CATOLICOS" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodeAmerica> a base:Metro ;
@@ -669,7 +671,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Museo/MuseodeArteContemporaneod> a base:SitioTuristico , base:Museo ;
 	base:tieneNombre "Museo de Arte Contemporáneo de Madrid" ;
 	base:tieneHorario "Martes a Sábado: de 10 a 14 y de 17:30 a 21 horas  Domingos y festivos: de 10.30 a 14 horas   Cerrado :  Lunes (incluso festivos)  1 y 6 de enero, 1 de mayo y 25 de diciembre.     Las salas se desalojan 15 minutos antes del cierre." ;
-	base:tieneTelefono "915 885 928  /  915 885 861" ;
+	vcard:tel "915 885 928  /  915 885 861" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeArteContemporaneod> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeArteContemporaneod> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodeArteContemporaneod> ;
@@ -687,8 +689,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeArteContemporaneod> a base:Direccion ;
 	base:tieneNumero "9"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28015"^^xsd:int ;
-	base:tieneCalle "CONDE DUQUE" ;
+	locn:postCode "28015"^^xsd:int ;
+	locn:address "CONDE DUQUE" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodeArteContemporaneod> a base:Metro ;
@@ -706,7 +708,7 @@
 	base:tieneDescripcion "El Museo se forma tras la donación de la colección de Guadalupe González Hontoria a la Universidad Autónoma de Madrid. Las piezas comprenden:   El ciclo vital humano y religiosidad popular  El ciclo festivo anual, instrumentos musicales, bailes y juegos de adultos  Tareas domésticas  Agricultura, ganadería, caza y pesca  Los oficios artesanales y transporte rural." ;
 	base:tieneHorario "Permanece abierto al público de lunes a viernes con horario de 10 a 20 horas. Sábados de 10 a 14 horas.  Cerrado domingos, festivos y mes de agosto" ;
 	base:tieneEquipamiento "Visitas guiadas previa cita en el teléfono del Museo o en  visitas.atp@mam.es" ;
-	base:tieneTelefono "914 976 500" ;
+	vcard:tel "914 976 500" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeArtesyTradicionesP> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeArtesyTradicionesP> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodeArtesyTradicionesP> ;
@@ -724,8 +726,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeArtesyTradicionesP> a base:Direccion ;
 	base:tieneNumero "03-may"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "CARLOS ARNICHES" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "CARLOS ARNICHES" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodeArtesyTradicionesP> a base:Metro ;
@@ -741,7 +743,7 @@
 	base:tieneNombre "Museo de Astronomía y Geodesia" ;
 	base:tieneDescripcion "La colección se compone de objetos relacionados con el mundo de la Astronomía, como teodolitos, cronómetros, brújulas topográficas, sextantes giroscópicos, astrolabios de prisma, cámaras fotográficas para eclipse,  etc" ;
 	base:tieneHorario "Visita con cita previa" ;
-	base:tieneTelefono "913 944 615" ;
+	vcard:tel "913 944 615" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeAstronomiayGeodesi> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeAstronomiayGeodesi> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodeAstronomiayGeodesi> ;
@@ -759,8 +761,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeAstronomiayGeodesi> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28040"^^xsd:int ;
-	base:tieneCalle "CIENCIAS" ;
+	locn:postCode "28040"^^xsd:int ;
+	locn:address "CIENCIAS" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodeAstronomiayGeodesi> a base:Metro .
@@ -774,7 +776,7 @@
 	base:tieneNombre "Museo de Bomberos" ;
 	base:tieneHorario "Abierto todos los días de  09:30  a  14:00  horas, excepto 25 de diciembre, 1 enero,  6 de enero y 1 de mayo.    Nota:   El museo permanecera cerrado hasta octubre de 2015 por obras de acondicionamiento.      Visitas Guiadas  Se pueden concertar en el teléfono: 91 478 65 72 ( Museo )  Más información: 91 588 99 07 - 91 588 82 40" ;
 	base:tieneEquipamiento "Exposición fotográfica  Un recorrido por toda su historia: grandes incendios, construcción de los primeros parques, bomberos fallecidos en acto de servicio...   Vehículos  Una amplia gama de los vehículos utilizados en los últimos 400 años: Las primeras bombas brazales, clásicos de los años veinte y vehículos adaptados de la II Guerra Mundial.   Herramientas y equipos  Diferentes escalas de gancho, extintores primitivos o las primeras lonas de salvamento nos dan una idea de cómo han trabajado los bomberos en los últimos siglos así como herramientas de distintas épocas que nos muestran el avance tecnológico en la lucha contra el fuego y salvamento.   Cascos  Amplia exposición en la que se muestra la evolución de los cascos en Madrid. Además se expone una colección internacional en la que se aprecia, en su diseño, la mezcla de protección, materiales y comodidad en los diferentes países del mundo.   Uniformes  De época, trajes de gala, así como varios modelos que fueron utilizados en sucesos destacados de la historia de Madrid. Completan esta colección varios trajes de aproximación al fuego y protección química especial entre otros.   Comunicaciones  Antiguamente los bomberos se comunicaban mediante toques de corneta. Esta exposición muestra las partituras con sus particulares comandas. Además, la exposición incluye la evolución de los equipos de comunicaciones.   Sanitario  Una cámara de recuperación respiratoria para los bomberos intoxicados por el humo en los fuegos es uno de los mayores atractivos de este área." ;
-	base:tieneTelefono """91 478 65 72 (Museo),                                                                                                                                           
+	vcard:tel """91 478 65 72 (Museo),                                                                                                                                           
                                                                                                                                                
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeBomberos> ;
@@ -794,8 +796,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeBomberos> a base:Direccion ;
 	base:tieneNumero "4"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/PUENTEDEVALLECAS> ;
-	base:tieneCodigoPostal "28038"^^xsd:int ;
-	base:tieneCalle "BOADA" ;
+	locn:postCode "28038"^^xsd:int ;
+	locn:address "BOADA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodeBomberos> a base:Metro ;
@@ -815,7 +817,7 @@
 	base:tieneDescripcion "Expone colecciones de planchas y grabados." ;
 	base:tieneHorario "De octubre a junio de lunes a viernes de 9 a 17 horas.  Verano: de julio a septiembre de 9 a 15 horas.   Agosto cerrado   En el caso de que se celebren exposiciones, consultar horario, ya que puede variar." ;
 	base:tieneEquipamiento "Sala de exposiciones   Biblioteca" ;
-	base:tieneTelefono "915 240 864" ;
+	vcard:tel "915 240 864" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeCalcografiaNaciona> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeCalcografiaNaciona> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodeCalcografiaNaciona> ;
@@ -833,8 +835,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeCalcografiaNaciona> a base:Direccion ;
 	base:tieneNumero "13"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "ALCALA" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "ALCALA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodeCalcografiaNaciona> a base:Metro ;
@@ -849,7 +851,7 @@
 	base:tieneNombre "Museo de Cera" ;
 	base:tieneHorario "De lunes a viernes de 10 a 14:30 y de 16:30 a 20:30 horas.  Sábados, domingos y festivos de 10 a 20:30 horas.  Los días 25 de diciembre y 1 de enero, el museo abre de 10 a 14:30 horas y de 16:30 a 20:30 horas.  Las taquillas cierran media hora antes." ;
 	base:tieneEquipamiento "Apropiado para niños" ;
-	base:tieneTelefono "913 199 330" ;
+	vcard:tel "913 199 330" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeCera> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeCera> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodeCera> ;
@@ -867,8 +869,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeCera> a base:Direccion ;
 	base:tieneNumero "41"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28004"^^xsd:int ;
-	base:tieneCalle "RECOLETOS" ;
+	locn:postCode "28004"^^xsd:int ;
+	locn:address "RECOLETOS" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodeCera> a base:Metro ;
@@ -885,7 +887,7 @@
 	base:tieneNombre "Museo de Farmacia Militar" ;
 	base:tieneDescripcion "Superficie de 600  m/2  donde se exponen fondos de carácter histórico y científico. Las colecciones abarcan desde los orígenes de la ciencia farmacéutica, recreado en el laboratorio yatroquímico del siglo  XVII , hasta los actuales procesos para la elaboración de preparados." ;
 	base:tieneHorario "De lunes a viernes de 10 a 13 horas, sólo visitas concertadas" ;
-	base:tieneTelefono """915 399 503 / 915 273 623                    
+	vcard:tel """915 399 503 / 915 273 623                    
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeFarmaciaMilitar> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeFarmaciaMilitar> ;
@@ -904,8 +906,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeFarmaciaMilitar> a base:Direccion ;
 	base:tieneNumero "75"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/ARGANZUELA> ;
-	base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "EMBAJADORES" ;
+	locn:postCode "28012"^^xsd:int ;
+	locn:address "EMBAJADORES" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodeFarmaciaMilitar> a base:Metro ;
@@ -923,7 +925,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Museo/MuseodeHistoriadelaComuni> a base:SitioTuristico , base:Museo ;
 	base:tieneNombre "Museo de Historia de la Comunidad Judía de Madrid" ;
 	base:tieneHorario "Visitas guiadas    De lunes a jueves de 16 a 19 horas.  Viernes, sábados y domingos cerrado.  Para realizar las  visitas tienen que solicitarlas previamente llamando al teléfono: 915 913 131" ;
-	base:tieneTelefono "915 913 131 " ;
+	vcard:tel "915 913 131 " ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeHistoriadelaComuni> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeHistoriadelaComuni> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodeHistoriadelaComuni> ;
@@ -941,8 +943,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeHistoriadelaComuni> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28010"^^xsd:int ;
-	base:tieneCalle "BALMES" ;
+	locn:postCode "28010"^^xsd:int ;
+	locn:address "BALMES" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodeHistoriadelaComuni> a base:Metro ;
@@ -961,7 +963,7 @@
 	base:tieneNombre "Museo de Historia de Madrid" ;
 	base:tieneHorario "Exposición    &quot;Cervantes a la luz: imágenes del hallazgo&quot;:   de martes a domingo de 10:00 a 20 horas.   Salas de exposición permanente y de Cartografía y maquetas : de martes a domingo de 10:00 a 20 horas.  Cerrado : todos los lunes y los días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre." ;
 	base:tieneEquipamiento "Biblioteca de investigación  Servicio de documentación  Guardarropa  Zona wifi" ;
-	base:tieneTelefono "917 011 863" ;
+	vcard:tel "917 011 863" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeHistoriadeMadrid> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeHistoriadeMadrid> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodeHistoriadeMadrid> ;
@@ -979,8 +981,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeHistoriadeMadrid> a base:Direccion ;
 	base:tieneNumero "78"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28004"^^xsd:int ;
-	base:tieneCalle "FUENCARRAL" ;
+	locn:postCode "28004"^^xsd:int ;
+	locn:address "FUENCARRAL" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodeHistoriadeMadrid> a base:Metro ;
@@ -996,7 +998,7 @@
 	base:tieneDescripcion "El Museo cuenta con unos 1.400 m2 y se distribuye en ocho salas." ;
 	base:tieneHorario "De martes a sábados de 10 a 20 horas. Domingos y festivos de 10 a 14 horas. Último pase 30 minutos antes del cierre.  Cerrados: 1 de mayo, 12 de octubre, 9 de noviembre, 8, 24, 25 y 31 de diciembre." ;
 	base:tieneEquipamiento "Talleres escolares y para público en general, visitas guiadas, piezas del mes, etc." ;
-	base:tieneTelefono """915 807 759 / 915 168 967     
+	vcard:tel """915 807 759 / 915 168 967     
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelaBibliotecaNacion> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelaBibliotecaNacion> ;
@@ -1015,8 +1017,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelaBibliotecaNacion> a base:Direccion ;
 	base:tieneNumero "20"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28001"^^xsd:int ;
-	base:tieneCalle "RECOLETOS" ;
+	locn:postCode "28001"^^xsd:int ;
+	locn:address "RECOLETOS" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodelaBibliotecaNacion> a base:Metro ;
@@ -1032,7 +1034,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Museo/MuseodelaCatedraldelaAlmu> a base:SitioTuristico , base:Museo ;
 	base:tieneNombre "Museo de la Catedral de la Almudena" ;
 	base:tieneHorario "De lunes a sábado de 10 a 14:30 horas  Cerrado los domingos, fiestas de precepto y días de actos de culto especiales" ;
-	base:tieneTelefono "915 592 874" ;
+	vcard:tel "915 592 874" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelaCatedraldelaAlmu> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelaCatedraldelaAlmu> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodelaCatedraldelaAlmu> ;
@@ -1050,8 +1052,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelaCatedraldelaAlmu> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "BAILEN" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "BAILEN" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodelaCatedraldelaAlmu> a base:Metro .
@@ -1065,7 +1067,7 @@
 	base:tieneNombre "Museo de la Farmacia Hispana" ;
 	base:tieneDescripcion "Entre sus fondos destacan las colecciones de botes cerámicos, morteros y cajas de madera policromadas, relacionados con la práctica docente, cuatro boticas históricas y tres instalaciones que recrean un laboratorio alquimista, una botica árabe y la botica del Hospital de San Juan de las Afueras (Toledo)." ;
 	base:tieneHorario "De lunes a viernes de 9 a 14 horas (periodo lectivo)." ;
-	base:tieneTelefono "913 941 797" ;
+	vcard:tel "913 941 797" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelaFarmaciaHispana> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelaFarmaciaHispana> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodelaFarmaciaHispana> ;
@@ -1083,8 +1085,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelaFarmaciaHispana> a base:Direccion ;
 	base:tieneNumero "0"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28040"^^xsd:int ;
-	base:tieneCalle "RAMON Y CAJAL" ;
+	locn:postCode "28040"^^xsd:int ;
+	locn:address "RAMON Y CAJAL" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodelaFarmaciaHispana> a base:Metro ;
@@ -1099,7 +1101,7 @@
 	base:tieneNombre "Museo de la Guardia Civil" ;
 	base:tieneDescripcion "El Museo se crea por Orden General del Cuerpo de 23 de junio de 1982 y se inaugura el día 12 de octubre de 1982.  Los fondos que forman el Museo han sido aportados o depositados bien por entidades públicas o privadas, bien por las distintas Unidades del Cuerpo, todos los cuales están vinculados de alguna manera a las vicisitudes e historia de la Guardia Civil desde su creación hasta nuestros días. Existen cuatro salas denominadas: banderas (rellano de la  2&ordf;  Planta), sala de arma, sala de uniformes y maniquies, sala de objetos varios y dioramas.  Los primeros indicios y escritos en los que se refleja la inquietud de recopilar objetos de marcado carácter histórico relacionados con las actividades de la Guardia Civil datan del año 1914 (desaparecerá en 1936 con motivo de la Guerra Civil), si bien sería a principios de 1982, cuando por iniciativa del entonces Director General, Jose Luis Aramburu Topete, se inician las labores para la formación del actual Museo de la Guardia Civil." ;
 	base:tieneHorario "De lunes a viernes de 9 a 14 horas  Sábados, domingos y festivos cerrado    Visita:  previa identificación personal   Visita de grupos:  debe concertarse cita previa por escrito" ;
-	base:tieneTelefono "915 146 000 (extensiones 8477 / 8495 /48477)" ;
+	vcard:tel "915 146 000 (extensiones 8477 / 8495 /48477)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelaGuardiaCivil> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelaGuardiaCivil> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodelaGuardiaCivil> ;
@@ -1117,8 +1119,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelaGuardiaCivil> a base:Direccion ;
 	base:tieneNumero "110"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28003"^^xsd:int ;
-	base:tieneCalle "GUZMAN EL BUENO" ;
+	locn:postCode "28003"^^xsd:int ;
+	locn:address "GUZMAN EL BUENO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodelaGuardiaCivil> a base:Metro ;
@@ -1134,7 +1136,7 @@
 	base:tieneDescripcion "Construido inicialmente para palacio de D. Juan de Goyeneche, el edificio fue adquirido por la Academia de Bellas Artes en 1773 y reformado bajo la dirección de Fernando Chueca Goitia en 1973 y la fachada por Diego de Villanueva en 1774." ;
 	base:tieneHorario "Colección permanente:  de martes a domingos de 10 a 15 horas., incluyendo festivos. Lunes cerrado.      Exposiciones temporales:  consultar telefónicamente  Cerrado mes de agosto y días 1 y 6 de enero, 1 y 30 de mayo, 9 de noviembre; 24, 25 y 31 de diciembre." ;
 	base:tieneEquipamiento "Sala de exposiciones - Accesible a personas con minusvalía (física)." ;
-	base:tieneTelefono """915 240 864 (Centralita)                                    
+	vcard:tel """915 240 864 (Centralita)                                    
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelaRealAcademiadeBe> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelaRealAcademiadeBe> ;
@@ -1153,8 +1155,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelaRealAcademiadeBe> a base:Direccion ;
 	base:tieneNumero "13"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "ALCALA" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "ALCALA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodelaRealAcademiadeBe> a base:Metro ;
@@ -1169,7 +1171,7 @@
 	base:tieneNombre "Museo de Mineralogía" ;
 	base:tieneDescripcion "Presenta colecciones de minerales clasificados por su composición química, y vitrinas murales con ejemplares de exhibición procedentes de todo el mundo." ;
 	base:tieneHorario "Jueves de 10:30 a 14:30 horas, (conviene concertar previamente la visita).   Visitas guiadas por el personal del museo para grupos." ;
-	base:tieneTelefono "914 974 132 / 914 974 800" ;
+	vcard:tel "914 974 132 / 914 974 800" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeMineralogia> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeMineralogia> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodeMineralogia> ;
@@ -1185,8 +1187,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeMineralogia> a base:Direccion ;
 	base:tieneNumero "19000"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28049"^^xsd:int ;
-	base:tieneCalle "COLMENAR VIEJO" ;
+	locn:postCode "28049"^^xsd:int ;
+	locn:address "COLMENAR VIEJO" ;
 	base:tieneTipoVia "CARRETERA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodeMineralogia> a base:Metro ;
@@ -1207,7 +1209,7 @@
 	base:tieneDescripcion "Este espacio museográfico propone un viaje por la historia de la ciudad de Madrid desde la Prehistoria hasta el establecimiento de la Corte, a través de distintas salas como la de San Isidro, el Patio Renacentista, el Jardín Arqueobotánico o el Almacén Visitable." ;
 	base:tieneHorario "General:  de martes a domingo y festivos de 9:30 a 20 horas   Agosto:  de martes a viernes de 9:30 a 14:30 horas y sábados, domingos y festivos de 9:30 a 20 horas   Cerrado:  todos los lunes, 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre" ;
 	base:tieneEquipamiento "Sala de investigadores - Biblioteca especializada en arqueología e historia madrileña - Archivo documental - El almacén visitable (más de 600 piezas arqueológicas) y el Jardín arqueobotánico (con información documentada sobre las especies de la ciudad)  Exposición permanente: &quot;Orígenes: Un viaje al pasado de Madrid&quot;. Un recorrido a través de la evolución del territorio madrileño y de sus pobladores hasta el establecimiento de la Corte en 1561. Con proyecciones en 3D estereoscópicas que permiten a los visitantes interactuar con animales de hace 40.000 años procedentes de excavaciones madrileñas.      Otros espacios visitables: las estancias de San Isidro, así como una importante colección de iconografía de San Isidro y de Santa María de la Cabeza.   Investigadores: los fondos del Museo están a disposición de la comunidad científica y los investigadores podrán acceder a ella con una simple petición formal a la dirección.  Visitas guiadas por voluntarios culturales. Talleres didácticos para grupos escolares.  Zona wifi" ;
-	base:tieneTelefono "913 667 415" ;
+	vcard:tel "913 667 415" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeSanIsidro.Losorige> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeSanIsidro.Losorige> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodeSanIsidro.Losorige> ;
@@ -1225,8 +1227,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeSanIsidro.Losorige> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "SAN ANDRES" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "SAN ANDRES" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodeSanIsidro.Losorige> a base:Metro ;
@@ -1241,7 +1243,7 @@
 	base:tieneNombre "Museo de Sanidad e Higiene Pública" ;
 	base:tieneDescripcion "Con sede en el Instituto de Salud Carlos III, ocupa las antiguas dependencias del Laboratorio de Microbiología del Hospital del Rey. 300  m2  conservados tal cual su antiguo uso, con fondos de mobiliario, instrumental y bibliografía de los antiguos hospitales para enfermos infecciosos del complejo. Se resaltan hitos históricos relevantes en salud pública mediante láminas enmarcadas." ;
 	base:tieneHorario "Sólo visitas de grupo con cita previa: de lunes a viernes, de 10 a 14 horas.  Cita previa por teléfono: 918 222 414  o a través del correo electrónico:  museodesanidad@isciii.es" ;
-	base:tieneTelefono "918 222 414  (Cita previa)" ;
+	vcard:tel "918 222 414  (Cita previa)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodeSanidadeHigienePub> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeSanidadeHigienePub> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodeSanidadeHigienePub> ;
@@ -1259,8 +1261,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodeSanidadeHigienePub> a base:Direccion ;
 	base:tieneNumero "5"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28029"^^xsd:int ;
-	base:tieneCalle "MONFORTE DE LEMOS" ;
+	locn:postCode "28029"^^xsd:int ;
+	locn:address "MONFORTE DE LEMOS" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodeSanidadeHigienePub> a base:Metro ;
@@ -1277,7 +1279,7 @@
 	base:tieneNombre "Museo del Atlético de Madrid" ;
 	base:tieneDescripcion "En el Museo del Atlético de Madrid &amp; Colección Pablo Ornaque se puede disfrutar de un recorrido histórico por el fútbol en general, y del Atlético de Madrid, en particular, donde los aficionados al fútbol no sólo contemplarán trofeos y objetos, sino también  un museo deportivo con piezas de gran valor museístico que alberga en sus vitrinas.   Se realizan visitas guiadas al estadio y a las instalaciones del Museo" ;
 	base:tieneHorario "Horarios del Museo    De martes a domingo, de 11 a 19 horas.  Días de partido: desde las 11 horas hasta el inicio del encuentro.     Horarios de las visitas guiadas    De martes a domingo a las 12, 13, 16:30 y 17:30 horas  Verano (de 28 de junio al 14 de septiembre): de martes a domingo a las 12, 13, 16:30 y 17:30 horas" ;
-	base:tieneTelefono "913 650 931 / 902 260 403" ;
+	vcard:tel "913 650 931 / 902 260 403" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelAtleticodeMadrid> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelAtleticodeMadrid> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodelAtleticodeMadrid> ;
@@ -1295,8 +1297,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelAtleticodeMadrid> a base:Direccion ;
 	base:tieneNumero "67"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/ARGANZUELA> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "VIRGEN DEL PUERTO" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "VIRGEN DEL PUERTO" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodelAtleticodeMadrid> a base:Metro ;
@@ -1312,7 +1314,7 @@
 	base:tieneDescripcion "Edificio de caracter monumental. Construido como cabecera de la línea Madrid - Extremadura - Portugal en el año 1880 por E. Cachelievre." ;
 	base:tieneHorario "De martes a viernes de 9:30 a 15 horas.   Sábados de 10 a 15 horas.   Domingos de 10 a 15 horas.   Cerrado los lunes (incluidos festivos), del 16 al 31 de agosto (ambos inclusive), y los días 1 y 6 de enero, 1 de mayo y 25 de diciembre." ;
 	base:tieneEquipamiento "Tienda  Teatro  Librería  Cafetería  Archivo y Biblioteca  Parque ferroviario  Salas de Tracción, de Modelismo Ferroviario, de Infraestructura y de Relojes    Actividades    Feria de coleccionismo &lsquo;La Estación&rsquo; (los primeros sábados de cada mes, excepto en agosto)  Mercadillo de modelismo (primeros domingos de cada mes, excepto en agosto)   Actividades para escolares  Teatro familiar (todos los sábados, domingos y festivos, excepto julio y agosto)  Trenes de jardín (todos los domingos, excepto julio y agosto)" ;
-	base:tieneTelefono """902 228 822                                                                                           
+	vcard:tel """902 228 822                                                                                           
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelFerrocarrildeMadr> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelFerrocarrildeMadr> ;
@@ -1331,8 +1333,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelFerrocarrildeMadr> a base:Direccion ;
 	base:tieneNumero "61"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/ARGANZUELA> ;
-	base:tieneCodigoPostal "28045"^^xsd:int ;
-	base:tieneCalle "DELICIAS" ;
+	locn:postCode "28045"^^xsd:int ;
+	locn:address "DELICIAS" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodelFerrocarrildeMadr> a base:Metro ;
@@ -1350,7 +1352,7 @@
 	base:tieneDescripcion "Construido inicialmente como Museo de Ciencias Naturales, este edificio neoclásico fue transformado en pinacoteca de las Colecciones Reales en 1818 con colecciones de pintura, dibujos, grabados, monedas y medallas desde el Románico hasta el siglo  XIX ." ;
 	base:tieneHorario "De lunes a sábado de 10 a 20 horas  Domingos y festivos de 10 a 19 horas  Cerrado los días 1 de enero, 1 de mayo y 25 de diciembre  Horario reducido, de 10 a 14 horas, los días 6 de enero, 24 y 31 de diciembre  Acceso al museo hasta 30 minutos antes del cierre (el desalojo de las salas comienza 10 minutos antes del cierre)" ;
 	base:tieneEquipamiento "Accesible a personas con discapacidad física  Audioguías temáticas y audioguía infantil  Itinerarios y visitas didácticas  Librería  Tienda  Cafetería  Restaurante  Guardarropa" ;
-	base:tieneTelefono "913 302 800" ;
+	vcard:tel "913 302 800" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelPrado> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelPrado> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodelPrado> ;
@@ -1368,8 +1370,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelPrado> a base:Direccion ;
 	base:tieneNumero "23"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "RUIZ DE ALARCON" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "RUIZ DE ALARCON" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodelPrado> a base:Metro ;
@@ -1386,7 +1388,7 @@
 	base:tieneNombre "Museo del Reloj Grassy" ;
 	base:tieneDescripcion "Arquitecto : Eladio Laredo Carranza (1916 - 1917).  Fundado por el relojero francés Grassy en 1955, este museo narra la historia de este aparato de medición. Sus fondos, colección privada, consta de una amplia y variada colección de diferentes nacionalidades y los más variados estilos." ;
 	base:tieneHorario "Jueves a las 17 y viernes a las 12 horas (excepto festivos).  Las visitas se efectúan con cita previa   Inscripción telefónica: 915 321 007  Inscripción por correo electrónico:  marta@grassy.es    La visita puede ser individual o en grupos de máximo 10 a 12 personas." ;
-	base:tieneTelefono "915 321 007" ;
+	vcard:tel "915 321 007" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelRelojGrassy> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelRelojGrassy> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodelRelojGrassy> ;
@@ -1404,8 +1406,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelRelojGrassy> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "GRAN VIA" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "GRAN VIA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodelRelojGrassy> a base:Metro ;
@@ -1421,7 +1423,7 @@
 	base:tieneDescripcion "El Museo del Robot  nace con la idea de acercar de una forma directa y real el apasionante mundo de los robots de entretenimiento a cualquier tipo de público." ;
 	base:tieneHorario "Visitas guiadas regulares  (entrada libre NO disponible):   Martes a viernes: pases a las 13, 17 y 20 horas    Visitas guiadas para grupos:    Martes, miércoles y Jueves, pases (solo mañanas) de 10:30 a 12:00 horas" ;
 	base:tieneEquipamiento "Exposición permenente  Visitas guiadas" ;
-	base:tieneTelefono "914 478 808" ;
+	vcard:tel "914 478 808" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelRobot> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelRobot> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodelRobot> ;
@@ -1439,8 +1441,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelRobot> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28015"^^xsd:int ;
-	base:tieneCalle "ALBERTO AGUILERA" ;
+	locn:postCode "28015"^^xsd:int ;
+	locn:address "ALBERTO AGUILERA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodelRobot> a base:Metro ;
@@ -1455,7 +1457,7 @@
 	base:tieneNombre "Museo del Romanticismo" ;
 	base:tieneHorario "Verano (del 2 de mayo al 31 de octubre):  de martes a sábados de 9:30 a 20:30 horas. Domingos y festivos de 10 a 15 horas. Jueves de agosto se cierra a las 00 horas (Museo y Café del Jardín).   De 1 de noviembre a 30 de abril:  de martes a sábado, de 9:30 a 18:30 horas. Domingos y festivos, de 10 a 15 horas.   Cerrado: todos los lunes, días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y un festivo local (15 de mayo)  La Tienda y el Café del Jardín se regirán por el mismo horario de invierno." ;
 	base:tieneEquipamiento "Biblioteca   Sala de exposiciones  Salón de actos  Acceso para minusválidos   Librería" ;
-	base:tieneTelefono "914 481 045 / 914 480 163" ;
+	vcard:tel "914 481 045 / 914 480 163" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelRomanticismo> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelRomanticismo> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodelRomanticismo> ;
@@ -1473,8 +1475,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelRomanticismo> a base:Direccion ;
 	base:tieneNumero "13"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28004"^^xsd:int ;
-	base:tieneCalle "SAN MATEO" ;
+	locn:postCode "28004"^^xsd:int ;
+	locn:address "SAN MATEO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodelRomanticismo> a base:Metro ;
@@ -1492,7 +1494,7 @@
 	base:tieneDescripcion "Ubicado en el edificio de FUundación MAPFRE exhibe una amplia colección de piezas relacionadas con la historia de la actividad aseguradora desde el siglo  XVIII  hasta nuestros días." ;
 	base:tieneHorario "De lunes a Viernes previa petición de hora." ;
 	base:tieneEquipamiento "Visitas guiadas y gratuitas para grupos" ;
-	base:tieneTelefono """916 025 221 (para reservas)                                      
+	vcard:tel """916 025 221 (para reservas)                                      
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelSeguro.FundacionM> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelSeguro.FundacionM> ;
@@ -1511,8 +1513,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelSeguro.FundacionM> a base:Direccion ;
 	base:tieneNumero "14"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28004"^^xsd:int ;
-	base:tieneCalle "BARBARA DE BRAGANZA" ;
+	locn:postCode "28004"^^xsd:int ;
+	locn:address "BARBARA DE BRAGANZA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodelSeguro.FundacionM> a base:Metro ;
@@ -1530,7 +1532,7 @@
 	base:tieneDescripcion "Edificio de carácter monumental, construido por Jaime López de Asiaín en 1969. Se caracteriza por su estructura de hormigón y su exterior de placas metálicas y triple acristalamiento." ;
 	base:tieneHorario "De martes a sábado de 9:30 a 19 horas. Domingos y festivos de 10 a 15 horas.  Verano (julio y agosto): los jueves se amplia el horario hasta las 22:30 horas.  Cerrado: todos los lunes, 1 y 6 de enero, 1 de mayo, 9 de noviembre, 24, 25 y 31 de diciembre." ;
 	base:tieneEquipamiento "Visitas comentadas para grupos:  de 15 a 25 personas (con reserva previa) durante todo el año.   Visitas extraordinarias para grupos e individuales  se forman grupos 15 a 25 personas (con reserva previa) durante todo el año.   Visitas para personas con discapacidad visual  dos visitas específicas (con reserva previa) durante todo el año.   Visitas guiadas a la exposición permanente   Para participar en las visitas guiadas es necesario inscribirse previamente en el  teléfono 915 504 708 (de lunes a viernes de 10 a 15 horas)  o por el email en   difusion.reservas.mt@mcu.es" ;
-	base:tieneTelefono "915 504 700 (Información)" ;
+	vcard:tel "915 504 700 (Información)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseodelTraje.CentrodeInv> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelTraje.CentrodeInv> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseodelTraje.CentrodeInv> ;
@@ -1548,8 +1550,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseodelTraje.CentrodeInv> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28040"^^xsd:int ;
-	base:tieneCalle "JUAN DE HERRERA" ;
+	locn:postCode "28040"^^xsd:int ;
+	locn:address "JUAN DE HERRERA" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseodelTraje.CentrodeInv> a base:Metro ;
@@ -1564,7 +1566,7 @@
 	base:tieneNombre "Museo Geominero" ;
 	base:tieneDescripcion "Construcción típica de la arquitectura en hierro y cristal de principios del siglo XX que alberga colecciones de minerales, rocas y fósiles procedentes de todas las regiones españolas y de antiguos territorios coloniales, así como de yacimientos significados del registro mundial.   Objetivos del museo : conservar, investigar y difundir el patrimonio geológico, paleontológico y mineralógico" ;
 	base:tieneHorario "De lunes a domingo y festivos de 9 a 14 horas  Cerrado los días 1 y 6 de enero y 24, 25 y 31 de diciembre  Visitas guiadas para grupos de lunes a viernes, previa petición cita" ;
-	base:tieneTelefono "913 495 759" ;
+	vcard:tel "913 495 759" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoGeominero> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoGeominero> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseoGeominero> ;
@@ -1582,8 +1584,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoGeominero> a base:Direccion ;
 	base:tieneNumero "23"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28003"^^xsd:int ;
-	base:tieneCalle "RIOS ROSAS" ;
+	locn:postCode "28003"^^xsd:int ;
+	locn:address "RIOS ROSAS" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoGeominero> a base:Metro ;
@@ -1599,7 +1601,7 @@
 	base:tieneDescripcion "Ubicado en la Escuela Técnica Superior de Ingenieros de Minas" ;
 	base:tieneHorario "Previa cita concertada para grupos   Mercadillo de minerales y fósiles:  primer domingo de cada mes de 10 a 14 horas (en este período se podrá visitar también el museo y la mina)   Exposición anual  el segundo fin de semana (viernes, sábado y domingo) de marzo (el Museo permanecerá abierto todo el día)" ;
 	base:tieneEquipamiento "Visitas guiadas   Colección de minerales, fósiles y rocas   Sección de maquetas y utensilios utilizados tradicionalmente en la minería   Visita a mina experimental (pozo, castillete, galerías y testeros)" ;
-	base:tieneTelefono "913 367 029" ;
+	vcard:tel "913 367 029" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoHistoricoMineroDonFe> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoHistoricoMineroDonFe> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseoHistoricoMineroDonFe> ;
@@ -1617,8 +1619,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoHistoricoMineroDonFe> a base:Direccion ;
 	base:tieneNumero "21"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28003"^^xsd:int ;
-	base:tieneCalle "RIOS ROSAS" ;
+	locn:postCode "28003"^^xsd:int ;
+	locn:address "RIOS ROSAS" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoHistoricoMineroDonFe> a base:Metro ;
@@ -1632,7 +1634,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Museo/MuseoLosCanosdelPeral.Est> a base:SitioTuristico , base:Museo ;
 	base:tieneNombre "Museo Los Caños del Peral. Estación de Metro Ópera" ;
 	base:tieneHorario "Viernes, sábados y domingos de 11 a 13 y de 17 a 19 horas" ;
-	base:tieneTelefono "902 444 403 / 917 796 399  (Información)" ;
+	vcard:tel "902 444 403 / 917 796 399  (Información)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoLosCanosdelPeral.Est> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoLosCanosdelPeral.Est> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseoLosCanosdelPeral.Est> ;
@@ -1650,8 +1652,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoLosCanosdelPeral.Est> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "ISABEL II" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "ISABEL II" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoLosCanosdelPeral.Est> a base:Metro ;
@@ -1665,7 +1667,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Museo/MuseoLazaroGaldiano> a base:SitioTuristico , base:Museo ;
 	base:tieneNombre "Museo Lázaro Galdiano" ;
 	base:tieneHorario "Martes a sábados de 10 a 16:30 horas.  Domingos de 10 a 15 horas.  Cerrado todos los lunes, 1 y 6 de enero, 28 y 29 de marzo, 1 y 15 de mayo, 15 de agosto, 1 de noviembre y 24, 25 y 31 de diciembre.    Visitas guiadas  al Museo fuera de horario: de 17:30 a 18:45 horas, previa reserva telefónica en el 915 616 084 (extensión 101).    Horario para reserva telefónica: de lunes a jueves, de 8:30 a 16:30 horas, viernes hasta las 14 horas.   Importe: 2 euros (entrada al museo).   Miércoles y jueves: para grupos previamente constituidos.   Viernes para visitantes individuales reunidos para la visita." ;
-	base:tieneTelefono "915 616 084" ;
+	vcard:tel "915 616 084" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoLazaroGaldiano> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoLazaroGaldiano> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseoLazaroGaldiano> ;
@@ -1683,8 +1685,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoLazaroGaldiano> a base:Direccion ;
 	base:tieneNumero "122"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28006"^^xsd:int ;
-	base:tieneCalle "SERRANO" ;
+	locn:postCode "28006"^^xsd:int ;
+	locn:address "SERRANO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoLazaroGaldiano> a base:Metro .
@@ -1699,7 +1701,7 @@
 	base:tieneDescripcion "Edificio Sabatini:  calle Santa Isabel 52.   Edificio Nouvel  (ampliación): ronda de Atocha, esquina a plaza del Emperador Carlos V.   Espacios en el parque del Retiro:  Palacio de Velázquez y Palacio de Cristal" ;
 	base:tieneHorario "De lunes a sábado de 10 a 21 horas y domingos de 10 a 19 horas. A partir de las 14:15 solamente permanecerá abierta la Colección 1, Richard Serra y una exposición temporal, por favor consulte en las web del Museo ( http://www.museoreinasofia.es/ ). El resto del Museo permanecerá cerrado.  Martes cerrado (incluso festivos). Las sedes del Parque del Retiro abren todos los días.  Cerrado los días 1 y 6 de enero, 1 de mayo, 15 de mayo, 9 de noviembre y 24, 25 y 31 de diciembre" ;
 	base:tieneEquipamiento "Biblioteca y Centro de Documentación  Acceso y servicios para personas con discapacidad  Audioguías y radioguías  Librería y tienda  Punto de información (domingos de 10 a 14 horas)  Cafetería y restaurante  Servicio de información y mediación cultural  Actividades para niños, niños con adultos, jóvenes, seminarios, conferencias, ciclos de cine y video, etc  Club de talleres infantiles (información de actividades, descuentos y promociones)  Aparcamiento para biciletas, en la entrada de la plaza Nouvel, a ambos lados del Edificio Sabatini  Aparcamientos públicos de vehículos: estación de Atocha y plaza Sánchez Bustillo" ;
-	base:tieneTelefono """917 741 000                                                                                                          
+	vcard:tel """917 741 000                                                                                                          
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoNacionalCentrodeArte> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNacionalCentrodeArte> ;
@@ -1718,8 +1720,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNacionalCentrodeArte> a base:Direccion ;
 	base:tieneNumero "52"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "SANTA ISABEL" ;
+	locn:postCode "28012"^^xsd:int ;
+	locn:address "SANTA ISABEL" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoNacionalCentrodeArte> a base:Metro ;
@@ -1737,7 +1739,7 @@
 	base:tieneDescripcion "El Museo Nacional de Antropología ofrece al público una visión global de la cultura de diferentes pueblos y  establece las semejanzas o diferencias culturales que les unen o separan para poner de manifiesto la riqueza y diversidad de las culturas existentes a lo largo del mundo, favorece la comprensión intelectual y promueve la tolerancia hacia otros pueblos y otras culturas. El Museo está instalado en el edificio de estilo clasicista construido por el Marqués de Cubas en 1875 por encargo del Doctor González Velasco, fundador de la institución." ;
 	base:tieneHorario "De martes a sábado de 9:30 a 20 horas   Domingos y festivos: de 10 a 15 horas   Cerrado todos los lunes del año, 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y un festivo local." ;
 	base:tieneEquipamiento "Biblioteca especializada en Antropología:   Horario: lunes a viernes de 9 a 15horas  Servicio de fotocopias y préstamo interbibliotecario.    Programa de actividades para familias  Programa de visitas escolares para Educación Infantil,  Educación Primaria y Educación Secundaria" ;
-	base:tieneTelefono """915 306 418                                                                                                                                      
+	vcard:tel """915 306 418                                                                                                                                      
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoNacionaldeAntropolog> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNacionaldeAntropolog> ;
@@ -1756,8 +1758,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNacionaldeAntropolog> a base:Direccion ;
 	base:tieneNumero "68"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "ALFONSO XII" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "ALFONSO XII" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoNacionaldeAntropolog> a base:Metro ;
@@ -1775,7 +1777,7 @@
 	base:tieneDescripcion "Inaugurado en 1912, su sede es un típico palacete madrileño del último tercio del siglo XIX. El museo posee muebles, cerámicas, vidrios, joyas, tejidos, arte oriental, y hasta 30.000 objetos distintos que a lo largo de la historia han servido para embellecer las casas, palacios y los monumentos de distintas culturas.  El museo posee muestras como el Jarrón de Sevres regalo de Napoleón III, la Cocina Valenciana del siglo XVIII compuesta por más de 1.500 azulejos de Manises, la Mesa de plata del siglo XVI o la colección de alfombras españolas de los siglos XV al XVII." ;
 	base:tieneHorario "De martes a sábados de 9:30 a 15 horas.   Jueves tarde de 17 a 20 horas.  Cerrado los jueves de julio y agosto.  Domingos y festivos de 10 a 15 horas.   Cerrado: todos los lunes del año, y los días 1 y 6 de enero, 1 y 15 de mayo, 24, 25 y 31 de diciembre." ;
 	base:tieneEquipamiento "Exposición de piezas españolas y de procedencia extranjera.     Visitas guiadas a la colección permanente.   Los guías voluntarios del Museo Nacional de Artes Decorativas ofrecen visitas gratuitas a la colección permanente los domingos a las 11:30 horas para todos los visitantes y de martes a viernes a grupos (previa petición de hora en el 915 326 499 -  Ext.  101).   Visitas guiadas individuales  los domingos a las 11:30 horas    Información y reservas para grupos:  915 326 499.  Ext.  101 (En caso de cancelación de la visita, se ruega avisar telefónicamente)" ;
-	base:tieneTelefono "915 326 499 / 915 326 845" ;
+	vcard:tel "915 326 499 / 915 326 845" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoNacionaldeArtesDecor> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNacionaldeArtesDecor> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseoNacionaldeArtesDecor> ;
@@ -1793,8 +1795,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNacionaldeArtesDecor> a base:Direccion ;
 	base:tieneNumero "12"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "MONTALBAN" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "MONTALBAN" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoNacionaldeArtesDecor> a base:Metro ;
@@ -1812,7 +1814,7 @@
 	base:tieneDescripcion "Construido por Fernando de la Torriente en 1881 con hierro y cristal. De estructura muy similar a los pabellones con destino a exposiciones construídos en la época. Sus jardines albergan un estanque, el monumento a Isabel la Católica y el monumento a la Constitución de 1978." ;
 	base:tieneHorario "De martes a viernes, domingos, festivos y lunes festivos de 10 a 17 horas. Sábados, domingos previos a festivos de 10 a 20 horas. Sábados de julio y agosto de 10 a 15 horas.   Cerrado : todos los lunes no festivos, 1 y 6 de enero, 1 de mayo y 25 de diciembre   Biblioteca : de lunes a viernes de 9 a 15 horas. Julio y agosto: de lunes a viernes de 9 a 14,30 horas   Mediateca  (cerrada por obras)." ;
 	base:tieneEquipamiento "Biblioteca de Zoología, Entomología, Econología, Evolución, Geología y Paleontología (consulta en sala, información y referencia, reprografía, préstamo personal e interbibliotecario), Archivo, publicaciones, consulta y asesoramiento científico y técnico, exposiciones permanentes y temporales, actividades culturales, talleres, cursos, Sala de proyecciones. Librería especializada." ;
-	base:tieneTelefono "914 111 328 (centralita)" ;
+	vcard:tel "914 111 328 (centralita)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoNacionaldeCienciasNa> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNacionaldeCienciasNa> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseoNacionaldeCienciasNa> ;
@@ -1830,8 +1832,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNacionaldeCienciasNa> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMARTIN> ;
-	base:tieneCodigoPostal "28006"^^xsd:int ;
-	base:tieneCalle "JOSE GUTIERREZ ABASCAL" ;
+	locn:postCode "28006"^^xsd:int ;
+	locn:address "JOSE GUTIERREZ ABASCAL" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoNacionaldeCienciasNa> a base:Metro ;
@@ -1850,7 +1852,7 @@
 	base:tieneNombre "Museo Naval" ;
 	base:tieneDescripcion "Temática: historia de la navegación española" ;
 	base:tieneHorario "De martes a domingo de 10 a 19 horas  Cerrado los lunes y los días 1 y 6 de enero, 24 y 25 diciembre  Agosto de 10 a 15 horas" ;
-	base:tieneTelefono "915 238 516 (cita previa visitas grupo)" ;
+	vcard:tel "915 238 516 (cita previa visitas grupo)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoNaval> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNaval> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseoNaval> ;
@@ -1868,8 +1870,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoNaval> a base:Direccion ;
 	base:tieneNumero "5"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "PRADO" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "PRADO" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoNaval> a base:Metro ;
@@ -1884,7 +1886,7 @@
 	base:tieneNombre "Museo Postal y Telegráfico" ;
 	base:tieneDescripcion "Recorrido temático y cronológico por la evolución de los medios de comunicación y colecciones filatélicas de gran valor histórico, temáticas y por países." ;
 	base:tieneHorario "Museo: de lunes a viernes de 9 a 14 y de 16 a 18 horas  Biblioteca: de lunes a viernes de 9 a 14 horas" ;
-	base:tieneTelefono "917 400 668 / 917 400 664 (biblioteca)" ;
+	vcard:tel "917 400 668 / 917 400 664 (biblioteca)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoPostalyTelegrafico> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoPostalyTelegrafico> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseoPostalyTelegrafico> ;
@@ -1902,8 +1904,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoPostalyTelegrafico> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28023"^^xsd:int ;
-	base:tieneCalle "TAPIA DE CASARIEGO" ;
+	locn:postCode "28023"^^xsd:int ;
+	locn:address "TAPIA DE CASARIEGO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoPostalyTelegrafico> a base:Metro .
@@ -1917,7 +1919,7 @@
 	base:tieneNombre "Museo Sorolla" ;
 	base:tieneHorario "De martes a sábado: de 9:30 a 20 horas ininterrumpido   Domingo y festivos: de 10 a 15 horas  Cerrado: todos los lunes del año, 1 de enero, 1 de mayo, 24, 25 y 31 de diciembre, y dos festivos locales.  Jueves 30 de julio, 6,13, 20 y 27 de agosto abierto hasta las 23.30 horas." ;
 	base:tieneEquipamiento "Autoguías, biblioteca y archivo" ;
-	base:tieneTelefono "913 101 584" ;
+	vcard:tel "913 101 584" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoSorolla> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoSorolla> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseoSorolla> ;
@@ -1935,8 +1937,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoSorolla> a base:Direccion ;
 	base:tieneNumero "37"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28010"^^xsd:int ;
-	base:tieneCalle "GENERAL MARTINEZ CAMPOS" ;
+	locn:postCode "28010"^^xsd:int ;
+	locn:address "GENERAL MARTINEZ CAMPOS" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoSorolla> a base:Metro ;
@@ -1951,7 +1953,7 @@
 	base:tieneNombre "Museo Taurino de la Plaza de las Ventas" ;
 	base:tieneDescripcion "Su existencia data del día de San Isidro de 1951, creado por la extinta Diputación Provincial de Madrid. Sirve como testimonio de los momentos estelares del arte y la historia del toreo" ;
 	base:tieneHorario "Temporada taurina  (de marzo a octubre): de lunes a viernes de 9:30 a 14:30 horas. Domingos, festivos y días de festejo de 10 a 13 horas   Fuera de temporada  (de noviembre a febrero): de lunes a viernes de 9:30 a 14:30 horas" ;
-	base:tieneTelefono """917 251 857                     
+	vcard:tel """917 251 857                     
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoTaurinodelaPlazadela> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoTaurinodelaPlazadela> ;
@@ -1970,8 +1972,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoTaurinodelaPlazadela> a base:Direccion ;
 	base:tieneNumero "237"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28028"^^xsd:int ;
-	base:tieneCalle "ALCALA" ;
+	locn:postCode "28028"^^xsd:int ;
+	locn:address "ALCALA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoTaurinodelaPlazadela> a base:Metro ;
@@ -1986,7 +1988,7 @@
 	base:tieneNombre "Museo Thyssen Bornemisza" ;
 	base:tieneDescripcion "El Palacio donde se ubica la colección fue el antiguo palacio del duque de Villahermosa. Edificación neoclásica. Posteriormente se adapta como entidad bancaria perdiento sus espacios interiores. Más tarde, pasó a formar parte de los edificios del Museo del Prado. Desde principios de los 90 alberga la Colección Thyssen. El museo ofrece un recorrido por la historia de la pintura europea desde sus inicios en el siglo  XIII , hasta finales del siglo  XX.       Horario general:    Colecciones permanentes:  lunes de 12 a 16 horas (acceso gratuito por patrocinio de MasterCard) y de martes a domingo de 10 a 19 horas. Los días 1 de enero, 1 de mayo y 25 de diciembre, el Museo permanecerá cerrado.   Exposiciones temporales:  de martes a domingo de 10 a 19 horas . Sábados de 10 a 21 horas   Exposiciones temporales en verano:  de martes a sábados, de 10 a 22 horas. Lunes y domingos, de 10 a 19 horas.    Montajes expositivos:  lunes de 12 a 16 horas (Carmen en las colecciones españolas y Calles y rostros de Berlín en las colecciones Thyssen- Bornemisza) y de martes a domingo de 10 a 19 horas.  El desalojo de todas las salas tendrá lugar 5 minutos antes del cierre." ;
 	base:tieneEquipamiento "Accesible a personas con discapacidad (física y sensorial)   Folleto y señalización en braille para invidentes  Librería  Tienda  Cafetería  Restaurante  Guardarropa  Servicio de venta anticipada en las taquillas  Servicio de Audio Guía" ;
-	base:tieneTelefono """902 760 511 (Información general)                                                                                                                                                                                                 
+	vcard:tel """902 760 511 (Información general)                                                                                                                                                                                                 
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoThyssenBornemisza> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoThyssenBornemisza> ;
@@ -2005,8 +2007,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoThyssenBornemisza> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "PRADO" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "PRADO" ;
 	base:tieneTipoVia "PASEO" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoThyssenBornemisza> a base:Metro ;
@@ -2024,7 +2026,7 @@
 	base:tieneDescripcion "Edificio con una superficie de 1.500  m2  dividido en tres zonas con maquetas de monumentos nacionales e internacionales realizadas por invidentes e instrumentos utilizados por los invidentes desde hace 200 años. Es un espacio concebido para que sus visitantes puedan ver y tocar las piezas expuestas." ;
 	base:tieneHorario "Martes a viernes de 10 a 14 horas y de 17 a 20 horas. Sábados de 10 a 14 horas. Lunes, domingos y festivos cerrado.  Las visitas de grupos se realizan previa reserva, de 8 a 14:30 horas, en el teléfono de  información:+34  915 894 292" ;
 	base:tieneEquipamiento "Apropiado para niños a partir de 10 años" ;
-	base:tieneTelefono "915 894 290" ;
+	vcard:tel "915 894 290" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/MuseoTiflologico> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoTiflologico> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/MuseoTiflologico> ;
@@ -2042,8 +2044,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/MuseoTiflologico> a base:Direccion ;
 	base:tieneNumero "18"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/TETUAN> ;
-	base:tieneCodigoPostal "28020"^^xsd:int ;
-	base:tieneCalle "LA CORUÑA" ;
+	locn:postCode "28020"^^xsd:int ;
+	locn:address "LA CORUÑA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/MuseoTiflologico> a base:Metro ;
@@ -2062,7 +2064,7 @@
 	base:tieneNombre "Palacio de Liria" ;
 	base:tieneDescripcion "Construído por Ventura Rodríguez entre 1762 y 1780 para el tercer Duque de Berwick y de Liria. De estilo barroco clásico. Destaca su fachada con columnas jónicas y pilastras que descansan sobre un basamento almohadillado." ;
 	base:tieneHorario "Viernes: visita guiada a las 10 horas, 11 horas y 12 horas.  Visitas: previa petición de cita por escrito o por fax" ;
-	base:tieneTelefono "91 547 53 02" ;
+	vcard:tel "91 547 53 02" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PalaciodeLiria> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PalaciodeLiria> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/PalaciodeLiria> ;
@@ -2080,8 +2082,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PalaciodeLiria> a base:Direccion ;
 	base:tieneNumero "20"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28008"^^xsd:int ;
-	base:tieneCalle "PRINCESA" ;
+	locn:postCode "28008"^^xsd:int ;
+	locn:address "PRINCESA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PalaciodeLiria> a base:Metro ;
@@ -2097,7 +2099,7 @@
 	base:tieneDescripcion "Construido sobre el solar del antiguo Alcázar tras un incendio en 1734. Proyectado por Juvara en 1735 y construido por Sachet de 1738 a 1764 bajo las influencias del clasicismo barroco. A partir de 1770, Sabatini añadió el ala sudeste y realizó la gran escalera. Es de destacar el gran patio que articula el edificio y la fachada principal que aloja el balcón y Escudo Real.  Dentro se encuentra el Museo Real Oficina de Farmacia (cerrado por obras de remodelación)." ;
 	base:tieneHorario "De octubre a marzo: de 10 a 18 horas.  De abril a septiembre: de 10 a 20 horas.  Cierre taquillas una hora antes.  Cerrado:   Enero: días 1, 6.  Mayo: día 1.  Octubre: día 12.  Diciembre: 25, los días 24 y 31 taquillas 14 horas cerradas y monumento a las 15 horas cerrado.    El  7 de diciembre  abierto horario de mañana y tarde." ;
 	base:tieneEquipamiento "Librería. Exposición permanente Cuarteto Real (colección de cinco stradivarius). Visita incluida en el precio de la entrada. Más información: teléfono 91 542 00 59. Accesible a personas con minusvalía (física).   Iluminación del Palacio : todos los días, del atardecer hasta las 2 de la madrugada   Cambio de guardia : primer miércoles de cada mes (si la climatología lo permite) a las 12 horas, en la Plaza de la Armería. Además se producirá un cambio de guardia reducido el resto de miércoles del mes a las 12 horas, en la Puerta del Príncipe (Plaza de Oriente). Sin relevo: en julio, agosto y septiembre.   Archivo General de Palacio     Horario:  lunes, miércoles y viernes de 9 a 14:30 horas; martes y jueves de 9 a 18 horas" ;
-	base:tieneTelefono "914 548 700 (Información general)" ;
+	vcard:tel "914 548 700 (Información general)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PalacioReal> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PalacioReal> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/PalacioReal> ;
@@ -2115,8 +2117,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PalacioReal> a base:Direccion ;
 	base:tieneNumero "0"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "BAILEN" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "BAILEN" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PalacioReal> a base:Metro ;
@@ -2131,7 +2133,7 @@
 	base:tieneNombre "Panteón de Hombres Ilustres" ;
 	base:tieneDescripcion "La construcción de este edificio responde a dos de las constantes de fines de siglo: la arquitectura historicista y la escultura funeraria. En él reposan trece personajes ilustres de la historia política y militar española." ;
 	base:tieneHorario "De martes a sábado de 10 a 14 y de 16 a 18:30 horas  Domingos y festivos de 10 a 15 horas. Lunes cerrado   Cerrado :    Enero los días 1 y 6  Mayo el día 1  Diciembre el día 25 ; los días 24 y 31 (desde las 14:30 horas), monumento cerrado a las 15 horas.    Cierre del acceso al monumento media hora antes.  Nota. El  7 de diciembre  abierto en horario de mañana y tarde." ;
-	base:tieneTelefono "914 548 700 (Información general)" ;
+	vcard:tel "914 548 700 (Información general)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PanteondeHombresIlustres> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PanteondeHombresIlustres> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/PanteondeHombresIlustres> ;
@@ -2149,8 +2151,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PanteondeHombresIlustres> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "JULIAN GAYARRE" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "JULIAN GAYARRE" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PanteondeHombresIlustres> a base:Metro ;
@@ -2165,7 +2167,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Museo/ParroquiaSantaCruz> a base:SitioTuristico , base:Museo ;
 	base:tieneNombre "Parroquia Santa Cruz" ;
-	base:tieneTelefono "913 691 239" ;
+	vcard:tel "913 691 239" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ParroquiaSantaCruz> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSantaCruz> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ParroquiaSantaCruz> ;
@@ -2183,8 +2185,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ParroquiaSantaCruz> a base:Direccion ;
 	base:tieneNumero "6"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "ATOCHA" ;
+	locn:postCode "28012"^^xsd:int ;
+	locn:address "ATOCHA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/ParroquiaSantaCruz> a base:Metro ;
@@ -2201,7 +2203,7 @@
 	base:tieneDescripcion "Inaugurado el 29 de septiembre de 1986, es un centro dependiente del Área de Cultura y Deportes del Ayuntamiento de Madrid.  Siempre con el fin de contribuir a la difusión de la astronomía y de la ciencia en general, tanto entre escolares como entre el público de cualquier edad y condición, posee una variada oferta de  proyecciones  audiovisuales,  exposiciones  y  actividades  (talleres, cursos, conferencias, observaciones públicas...).  Las proyecciones que se ofrecen en el Planetario de Madrid se renuevan periódicamente, y tienen una duración aproximada de 45 minutos.  Existen dos programaciones básicas diferentes: una activa durante el verano y época de vacaciones escolares, y otra durante el curso escolar. Durante el curso escolar, las proyecciones de las mañanas de los días lectivos se reservan a  escolares ." ;
 	base:tieneHorario "Horario:     De martes a viernes (días lectivos): de 9:30 a 13:45 horas, y de 17 a 19:45 horas.  Sábados, domingos y festivos (excepto lunes): de 11 a 13:45 horas, y de 17 a 20:45 horas.    Días de cierre:     Todos los  lunes  del año .   Días 24, 25 y 31 de diciembre, y 1 de enero. Día 5 de enero (tarde), y 6 de enero (mañana).  Revisión técnica anual: para el año 2016,  del 11 al 22 de enero." ;
 	base:tieneEquipamiento "2 salas de exposiciones  Sala de Astrónomos  Sala de Vídeo  Sala de Proyección  Sala de Retroproyección  Venta de catálogos de exposiciones del Planetario de Madrid" ;
-	base:tieneTelefono """914 673 461 (reserva grupos)                                                                                                                                                                                                                                                                                                                                                                 
+	vcard:tel """914 673 461 (reserva grupos)                                                                                                                                                                                                                                                                                                                                                                 
 914 673 898 (contestador automático de información)""" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PlanetariodeMadrid> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PlanetariodeMadrid> ;
@@ -2220,8 +2222,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PlanetariodeMadrid> a base:Direccion ;
 	base:tieneNumero "16"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/ARGANZUELA> ;
-	base:tieneCodigoPostal "28045"^^xsd:int ;
-	base:tieneCalle "PLANETARIO" ;
+	locn:postCode "28045"^^xsd:int ;
+	locn:address "PLANETARIO" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PlanetariodeMadrid> a base:Metro ;
@@ -2236,7 +2238,7 @@
 	base:tieneNombre "Real Basílica San Francisco el Grande" ;
 	base:tieneDescripcion "Conjunto conventual que sustituyó al monasterio franciscano medieval, construido por Francisco de las Cabezas entre 1761 y 1768, que fue relevado por Antonio Polo y que concluye Francisco Sabatini en 1784 donde se exponen colecciones de pinturas de los siglos  XVII  al  XIX." ;
 	base:tieneHorario "Museo:     De martes a viernes de 10:30 a 12:30 y de 16 a 18 horas  Sábados de 10:30 a 12:30 y de 16 a 18 horas (si no se ofician actos religiosos).   Julio y agosto: de martes a domingo de 10:30 a 12:30 y de 17 a 19 horas." ;
-	base:tieneTelefono "913 653 800" ;
+	vcard:tel "913 653 800" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealBasilicaSanFranciscoe> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealBasilicaSanFranciscoe> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealBasilicaSanFranciscoe> ;
@@ -2254,8 +2256,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealBasilicaSanFranciscoe> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28005"^^xsd:int ;
-	base:tieneCalle "SAN BUENAVENTURA" ;
+	locn:postCode "28005"^^xsd:int ;
+	locn:address "SAN BUENAVENTURA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/RealBasilicaSanFranciscoe> a base:Metro ;
@@ -2270,7 +2272,7 @@
 	base:tieneNombre "Real Fábrica de Tapices" ;
 	base:tieneHorario "De lunes a viernes de 10 a 14 horas.   Cerrado: sábados, domingos, Semana Santa y agosto." ;
 	base:tieneEquipamiento "Salones para eventos" ;
-	base:tieneTelefono "914 340 550" ;
+	vcard:tel "914 340 550" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealFabricadeTapices> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealFabricadeTapices> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealFabricadeTapices> ;
@@ -2288,8 +2290,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealFabricadeTapices> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "FUENTERRABIA" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "FUENTERRABIA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/RealFabricadeTapices> a base:Metro ;
@@ -2304,7 +2306,7 @@
 	base:tieneNombre "Real Monasterio de la Encarnación" ;
 	base:tieneDescripcion "Edificio construído por Juan Gómez de Mora de 1611 a 1616 como monasterio anejo al Alcázar Real, modelo de lo que se ha dado en llamar barroco madrileño. Cuenta con la reliquia de San Pantaleón." ;
 	base:tieneHorario "De martes a sábado: de 10 a 14 horas y de 16 a 18:30 horas  Domingos y festivos: de 10 a 15 horas. Tardes cerrado  Cierre taquillas: una hora antes  Cerrado:   Enero: días 1 y 6.  Abril: del 1 al 4 inclusive, semana santa.  Mayo: día 1  Diciembre: 24,25 y 31.  El día  7 de diciembre  abierto horario de mañana y tarde." ;
-	base:tieneTelefono "914 548 700 (Información general)" ;
+	vcard:tel "914 548 700 (Información general)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealMonasteriodelaEncarna> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealMonasteriodelaEncarna> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealMonasteriodelaEncarna> ;
@@ -2322,8 +2324,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealMonasteriodelaEncarna> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "ENCARNACION" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "ENCARNACION" ;
 	base:tieneTipoVia "PLAZA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/RealMonasteriodelaEncarna> a base:Metro ;
@@ -2338,7 +2340,7 @@
 	base:tieneNombre "Real Monasterio de Santa Isabel" ;
 	base:tieneDescripcion "El Real Monasterio de Santa Isabel está situado en Madrid, dentro de la ciudad histórica, en una gran manzana, próxima a Atocha.  Santa Isabel agrupa dos fundaciones, un colegio de niñas, establecido por Felipe II, y un convento de clausura de monjas agustinas recoletas, fundado por la esposa de Felipe III, doña Margarita de Austria.   La arquitectura de la iglesia se debe a Gómez de Mora, de mediados del siglo XVIII. En la clausura se conservan numerosas obras pictóricas de los siglos XVII y XVIII." ;
 	base:tieneHorario "El acceso al templo sólo es posible en horario de culto" ;
-	base:tieneTelefono "914 548 700 (Información general)" ;
+	vcard:tel "914 548 700 (Información general)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealMonasteriodeSantaIsab> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealMonasteriodeSantaIsab> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealMonasteriodeSantaIsab> ;
@@ -2355,8 +2357,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealMonasteriodeSantaIsab> a base:Direccion ;
 	base:tieneNumero "48"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "SANTA ISABEL" ;
+	locn:postCode "28012"^^xsd:int ;
+	locn:address "SANTA ISABEL" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/RealMonasteriodeSantaIsab> a base:Metro .
@@ -2369,7 +2371,7 @@
 	base:tieneNombre "Real Sitio de El Pardo" ;
 	base:tieneDescripcion "Recinto en el que se conserva el Palacio, construido sobre el castillo del siglo  XV , la Casita del Príncipe, del siglo  XVIII  y la Quinta del Duque de Arco (Palacete que fue Casa de Labor y sus tierras). Desde 1983 ha sido adecuado para residencia de Jefes de Estado extranjeros en visita oficial." ;
 	base:tieneHorario "De octubre a marzo: todos los días de 10 a 18 horas  De abril a septiembre: todos los días de 10 a 20 horas  Cerrado:    Enero: días 1 y 6.  Mayo: día 1.  Diciembre: 24, 25 y 31." ;
-	base:tieneTelefono "914 548 700 (Información general)" ;
+	vcard:tel "914 548 700 (Información general)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/RealSitiodeElPardo> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealSitiodeElPardo> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/RealSitiodeElPardo> ;
@@ -2387,8 +2389,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/RealSitiodeElPardo> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28048"^^xsd:int ;
-	base:tieneCalle "MANUEL ALONSO" ;
+	locn:postCode "28048"^^xsd:int ;
+	locn:address "MANUEL ALONSO" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/RealSitiodeElPardo> a base:Metro .
@@ -2403,7 +2405,7 @@
 	base:tieneDescripcion "Templo egipcio dedicado a Amón de Debod y a Isis, construido entre 185  a. de C.  y el siglo  I  de la Era. Fue donado por Egipto a España en 1968, en agradecimiento por la ayuda en el salvamento de los templos de Abu Simbel." ;
 	base:tieneHorario "De 1 de octubre a 31 de marzo   De martes a viernes de 9:45 a 13:45 y de 16:15 a 18:15 horas  Sábados, domingos y festivos de 9:30 a 20 hora    De 1 de abril a 30 de septiembre   De martes a viernes de 10 a 14 y de 18 a 20 horas  Sábados, domingos y festivos de 9:30 a 20 horas.     El templo permanece cerrado los lunes y los festivos 1 de enero, 1 de mayo y 25 de diciembre.  Último pase de visita 15 minutos antes del cierre.  Este horario y la apertura de salas pueden sufrir modificaciones, por favor, confírmelo en el teléfono de información del museo." ;
 	base:tieneEquipamiento "No cuenta con accesos adaptados para minusválidos   Exposición permanente : Debod un templo ptolemaico  Actividades didácticas: talleres para grupos escolares, talleres de profesores, visitas guiadas, talleres para familias.  Se pueden realizar fotografías o grabaciones de vídeo libremente en el exterior o en el interior del templo, siempre y cuando no se utilicen flash o trípode y su fin no sea comercial." ;
-	base:tieneTelefono "913 667 415 (Museo de San Isidro / Templo de Debod))" ;
+	vcard:tel "913 667 415 (Museo de San Isidro / Templo de Debod))" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/TemplodeDebod> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TemplodeDebod> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/TemplodeDebod> ;
@@ -2421,8 +2423,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/TemplodeDebod> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28008"^^xsd:int ;
-	base:tieneCalle "FERRAZ" ;
+	locn:postCode "28008"^^xsd:int ;
+	locn:address "FERRAZ" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/TemplodeDebod> a base:Metro ;
@@ -2438,7 +2440,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Museo/Yacimientopaleontologico.> a base:SitioTuristico , base:Museo ;
 	base:tieneNombre "Yacimiento paleontológico. Estación de Metro Carpetana" ;
 	base:tieneHorario "Visitas todos los días durante la apertura de la estación, de 6 a 1:30 horas" ;
-	base:tieneTelefono "902 444 403 (Información)" ;
+	vcard:tel "902 444 403 (Información)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/Yacimientopaleontologico.> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/Yacimientopaleontologico.> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/Yacimientopaleontologico.> ;
@@ -2455,8 +2457,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/Yacimientopaleontologico.> a base:Direccion ;
 	base:tieneNumero "328"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/LATINA> ;
-	base:tieneCodigoPostal "28047"^^xsd:int ;
-	base:tieneCalle "VIA CARPETANA" ;
+	locn:postCode "28047"^^xsd:int ;
+	locn:address "VIA CARPETANA" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/Yacimientopaleontologico.> a base:Metro .

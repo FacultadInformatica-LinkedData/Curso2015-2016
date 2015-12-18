@@ -1,0 +1,92 @@
+Consultas SPARQL App - Web Linked Data
+
+-lugares donde hay eventos en este rango de fechas
+
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbp: <http://WebLinked.org/ontology/>
+SELECT ?Nombre ?Coordenada-x ?coordenada-y ?hasEvent ?name ?startDate
+WHERE {
+    	?Nombre dcterms:subject
+	<http://WebLinked.org/Library>
+	rdfs:label ?Nombre ;
+	dbp:coor-x ?Coordenada-x
+	dbp:coor-y ?Coordenada-y
+	dbp:boolEvento ?hasEvent
+	dbp:start-date ?startDate
+
+	FILTER (?start-date <= x && ?start-date >= y)
+}
+
+-Que bibliotecas tienen eventos
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbp: <http://WebLinked.org/ontology/>
+SELECT ?Nombre ?Coordenada-x ?coordenada-y ?hasEvent ?name
+WHERE {
+    	?Nombre dcterms:subject
+	<http://WebLinked.org/Library>
+	rdfs:label ?Nombre ;
+	dbp:coor-x ?Coordenada-x
+	dbp:coor-y ?Coordenada-y
+	dbp:boolEvento ?hasEvent
+
+-Listado de eventos por biblioteca
+
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbp: <http://WebLinked.org/ontology/>
+SELECT ?Nombre ?Coordenada-x ?coordenada-y ?hasEvent ?name
+WHERE {
+    	?Nombre dcterms:subject
+	<http://WebLinked.org/Library>
+	?name dcterms:subjet
+	<http://WebLinked.org/LibraryEvent>
+	rdfs:label ?Nombre ;
+	dbp:coor-x ?Coordenada-x
+	dbp:coor-y ?Coordenada-y
+	dbp:boolEvento ?hasEvent
+}
+
+-Donde están los bibiblio buses
+
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbp: <http://WebLinked.org/ontology/>
+SELECT ?Nombre ?Coordenada-x ?coordenada-y
+WHERE {
+    	?Nombre dcterms:subject
+	<http://WebLinked.org/LibraryBus>
+	rdfs:label ?Nombre ;
+	dbp:coor-x ?Coordenada-x
+	dbp:coor-y ?Coordenada-y
+}
+
+-Donde están las bibliotecas
+
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbp: <http://WebLinked.org/ontology/>
+SELECT ?Nombre ?Coordenada-x ?coordenada-y
+WHERE {
+    	?Nombre dcterms:subject
+	<http://WebLinked.org/Library>
+	rdfs:label ?Nombre ;
+	dbp:coor-x ?Coordenada-x
+	dbp:coor-y ?Coordenada-y
+}
+
+-Que bibliotecas tienen wifi
+
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbp: <http://WebLinked.org/ontology/>
+SELECT ?Nombre ?Coordenada-x ?coordenada-y ?Wifi
+WHERE {
+    	?Nombre dcterms:subject
+	<http://WebLinked.org/Library>
+	rdfs:label ?Nombre ;
+	dbp:coor-x ?Coordenada-x
+	dbp:coor-y ?Coordenada-y
+	dbp:wifi ?Wifi
+}

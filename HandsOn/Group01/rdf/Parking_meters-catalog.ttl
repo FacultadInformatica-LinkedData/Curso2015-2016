@@ -45,4 +45,12 @@
 	dcat:keyword "parkimeters"@en, "parkimetros"@es ;
 	dct:source <http://datasf.org/>;
 	dct:issued "2015-12-16"^^xsd:date ;
+   dcat:distribution :parkimeters-nt ;
+   .
+:parkimeters-nt
+	a dcat:Distribution ;
+	dcat:accessURL <https://github.com/FacultadInformatica-LinkedData/Curso2015-2016/blob/master/HandsOn/Group01/rdf/Parking_meters-csv.ttl> ;
+	dct:title "Distribution of parkimeters description in RDF (N-triples serialization)"@en ,
+			  "Distribución de descripciones de parkímetros en RDF (serialización N-triples"@es ;
+    dct:license http://creativecommons.org/publicdomain/zero/1.0/ ;
     .

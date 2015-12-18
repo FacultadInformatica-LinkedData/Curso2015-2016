@@ -1,0 +1,391 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/Group13/VisitingMadrid"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/Group13/VisitingMadrid">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Aparcamientos_publicos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centros_de_salud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Embajadas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Farmacia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lugar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mercadillos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oficinas_de_turismo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parques_y_jardines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sitio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teatros"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turismo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://data.lirmm.fr/ontologies/passim#modeOfTransport"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://dbpedia.org/ontology/district"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://dbpedia.org/ontology/place"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://dbpedia.org/ontology/postalCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/dc/terms/description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/ontology/places/province"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://vocab.org/transit/terms/schedule"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#clase-Vial"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#coordenada-X"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#coordenada-Y"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#description_entity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#direccion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#equipamiento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#escalera"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fax"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numero"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#orientacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#planta"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#puerta"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tipo-Numero"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#locality"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#street-address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#url"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/phone"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Aparcamientos_publicos"/>
+        <Class IRI="#Sitio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centros_de_salud"/>
+        <Class IRI="#Sitio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cines"/>
+        <Class IRI="#Sitio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Embajadas"/>
+        <Class IRI="#Sitio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Farmacia"/>
+        <Class IRI="#Lugar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mercadillos"/>
+        <Class IRI="#Sitio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oficinas_de_turismo"/>
+        <Class IRI="#Sitio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parques_y_jardines"/>
+        <Class IRI="#Sitio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salas"/>
+        <Class IRI="#Sitio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sitio"/>
+        <Class IRI="#Lugar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teatros"/>
+        <Class IRI="#Sitio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Turismo"/>
+        <Class IRI="#Sitio"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#Sitio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://dbpedia.org/ontology/place"/>
+            <Datatype abbreviatedIRI="owl:rational"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://data.lirmm.fr/ontologies/passim#modeOfTransport"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://dbpedia.org/ontology/district"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://dbpedia.org/ontology/place"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://dbpedia.org/ontology/postalCode"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/dc/terms/description"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/ontology/places/province"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://vocab.org/transit/terms/schedule"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#clase-Vial"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#coordenada-X"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#coordenada-Y"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description_entity"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#direccion"/>
+        <Class IRI="#Farmacia"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#equipamiento"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#escalera"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fax"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numero"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#orientacion"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#planta"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#puerta"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tipo-Numero"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#locality"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#street-address"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#url"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/phone"/>
+        <Class IRI="#Lugar"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://data.lirmm.fr/ontologies/passim#modeOfTransport"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://dbpedia.org/ontology/district"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://dbpedia.org/ontology/place"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://dbpedia.org/ontology/postalCode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/dc/terms/description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/ontology/places/province"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://vocab.org/transit/terms/schedule"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#clase-Vial"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#coordenada-X"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#coordenada-Y"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#description_entity"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#direccion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#equipamiento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#escalera"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fax"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numero"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#orientacion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#planta"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#puerta"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tipo-Numero"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#locality"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#street-address"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#url"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/phone"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

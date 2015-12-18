@@ -32,34 +32,34 @@
         <Class IRI="#Llamadas_violencias_de_genero"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Llamante"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Numero_de_denuncias"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Numero_de_llamadas"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Numero_de_ordenes_de_proteccion"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Numero_de_victimas"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Ordenes_de_proteccion"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Origen_de_la_denuncia"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Tipo_de_relacion"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Tramo_de_edad_de_la_victima"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Victimas_mortales"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Llamante"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Numero_de_denuncias"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Numero_de_llamadas"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Numero_de_ordenes_de_proteccion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Numero_de_victimas"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Origen_de_la_denuncia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Tipo_de_relacion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Tramo_de_edad_de_la_victima"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#EdadDeLaVictima"/>
@@ -94,38 +94,6 @@
     <Declaration>
         <ObjectProperty IRI="#RelacionSentimental"/>
     </Declaration>
-    <SubClassOf>
-        <Class IRI="#Llamante"/>
-        <Class IRI="#Llamadas_violencias_de_genero"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Numero_de_denuncias"/>
-        <Class IRI="#Denuncias_violencia_de_genero"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Numero_de_llamadas"/>
-        <Class IRI="#Llamadas_violencias_de_genero"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Numero_de_ordenes_de_proteccion"/>
-        <Class IRI="#Ordenes_de_proteccion"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Numero_de_victimas"/>
-        <Class IRI="#Victimas_mortales"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Origen_de_la_denuncia"/>
-        <Class IRI="#Denuncias_violencia_de_genero"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tipo_de_relacion"/>
-        <Class IRI="#Victimas_mortales"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tramo_de_edad_de_la_victima"/>
-        <Class IRI="#Victimas_mortales"/>
-    </SubClassOf>
 </Ontology>
 
 

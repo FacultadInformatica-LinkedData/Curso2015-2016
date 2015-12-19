@@ -3,606 +3,457 @@
 	xmlns:schema="http://schema.org/"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
-	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:base="http://www.example.net/group42/ontology/estaciones#">
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/0">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">678017.9803453928 4613320.634481554</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Calle Doctor Iranzo - Calle Escultor Benlliure</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/1">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676822.7225656463 4613438.861592172</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Calle Pedro Joaquín Soler - Coso</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/2">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676517.3458413489 4612706.090795129</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Calle Lacarra de Miguel - Calle San Vicente Martir</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/3">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">675841.2652424083 4613665.173932331</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Calle Madre Rafols - Esquina D.G.A.</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/4">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">675140.5935417248 4611902.584283834</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Plaza Emperador Carlos V</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/5">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">673818.3928125117 4612194.426397253</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Vía Hispanidad - Avda. Gómez Laguna</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/6">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">673535.126796119 4612856.6010818435</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Vía Hispanidad - Calle Océano Atlántico</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/7">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">674126.8415899678 4612286.664687123</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Avda. Juan Pablo II - Avda. Gómez Laguna</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/8">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">674353.1383456963 4611979.637886653</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Avda. Juan Carlos I - Calle Ramón Sainz de Varanda</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/9">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">674454.0980053664 4611556.142109903</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Calle Asín y Palacios - Calle Pedro IV El Ceremonioso</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/10">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">674849.903485189 4612042.595863729</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Calle Eduardo Ibarra - Calle Violante de Hungría</base:noCalle>
+</rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/+Calle++Doctor+Iranzo+-++Calle++Escultor+Benlliure">
-	<rdfs:label>C/ Doctor Iranzo -  C/ Escultor Benlliure</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/0">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Calle++Doctor+Iranzo+-++Calle++Escultor+Benlliure"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">678017.9803453928 4613320.634481554</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Calle++Pedro+Joaqu%C3%ADn+Soler+-+Coso">
-	<rdfs:label>C/ Pedro Joaquín Soler - Coso</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/1">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Calle++Pedro+Joaqu%C3%ADn+Soler+-+Coso"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">676822.7225656463 4613438.861592172</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Calle++Lacarra+de+Miguel+-+Calle++San+Vicente+Martir">
-	<rdfs:label>C/ Lacarra de Miguel - C/ San Vicente Martir</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/2">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Calle++Lacarra+de+Miguel+-+Calle++San+Vicente+Martir"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">676517.3458413489 4612706.090795129</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Calle++Madre+Rafols+-+Esquina+D.G.A.">
-	<rdfs:label>C/ Madre Rafols - Esquina D.G.A.</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/3">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Calle++Madre+Rafols+-+Esquina+D.G.A."/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">675841.2652424083 4613665.173932331</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Plaza+Emperador+Carlos+V">
-	<rdfs:label>Plaza Emperador Carlos V</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/4">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Plaza+Emperador+Carlos+V"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">675140.5935417248 4611902.584283834</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+V%C3%ADa+Hispanidad+-+Avda.+G%C3%B3mez+Laguna">
-	<rdfs:label>Vía Hispanidad - Avda. Gómez Laguna</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/5">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+V%C3%ADa+Hispanidad+-+Avda.+G%C3%B3mez+Laguna"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">673818.3928125117 4612194.426397253</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+V%C3%ADa+Hispanidad+-+Calle++Oc%C3%A9ano+Atl%C3%A1ntico">
-	<rdfs:label>Vía Hispanidad - C/ Océano Atlántico</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/6">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+V%C3%ADa+Hispanidad+-+Calle++Oc%C3%A9ano+Atl%C3%A1ntico"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">673535.126796119 4612856.6010818435</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Avda.+Juan+Pablo+II+-+Avda.+G%C3%B3mez+Laguna">
-	<rdfs:label>Avda. Juan Pablo II - Avda. Gómez Laguna</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/7">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Avda.+Juan+Pablo+II+-+Avda.+G%C3%B3mez+Laguna"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">674126.8415899678 4612286.664687123</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Avda.+Juan+Carlos+I+-+Calle++Ram%C3%B3n+Sainz+de+Varanda">
-	<rdfs:label>Avda. Juan Carlos I - C/ Ramón Sainz de Varanda</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/8">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Avda.+Juan+Carlos+I+-+Calle++Ram%C3%B3n+Sainz+de+Varanda"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">674353.1383456963 4611979.637886653</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Calle++As%C3%ADn+y+Palacios+-+Calle++Pedro+IV+El+Ceremonioso">
-	<rdfs:label>C/ Asín y Palacios - C/ Pedro IV El Ceremonioso</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/9">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Calle++As%C3%ADn+y+Palacios+-+Calle++Pedro+IV+El+Ceremonioso"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">674454.0980053664 4611556.142109903</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Calle++Eduardo+Ibarra+-+Calle++Violante+de+Hungr%C3%ADa">
-	<rdfs:label>C/ Eduardo Ibarra - C/ Violante de Hungría</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/10">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Calle++Eduardo+Ibarra+-+Calle++Violante+de+Hungr%C3%ADa"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">674849.903485189 4612042.595863729</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Via+Univ%C3%A9rsitas+-+Calle++Hermanos+Gambra">
-	<rdfs:label>Via Univérsitas - C/ Hermanos Gambra</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/11">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Via+Univ%C3%A9rsitas+-+Calle++Hermanos+Gambra"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">674209.1338063633 4613140.443152811</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Avda.+Navarra+-+Calle++Rioja">
-	<rdfs:label>Avda. Navarra - C/ Rioja</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/12">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Avda.+Navarra+-+Calle++Rioja"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">674246.138705967 4613850.809511608</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Calle++Graus+-+Calle++Unceta">
-	<rdfs:label>C/ Graus - C/ Unceta</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/13">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Calle++Graus+-+Calle++Unceta"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">674776.6682624074 4613537.967226235</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Calle++Corona+de+Arag%C3%B3n+-+Calle++Lorente">
-	<rdfs:label>C/ Corona de Aragón - C/ Lorente</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/14">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Calle++Corona+de+Arag%C3%B3n+-+Calle++Lorente"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">675169.6621584316 4612596.989091256</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Avda.+Pablo+Ruiz+Picasso+-+Torre+del+Agua">
-	<rdfs:label>Avda. Pablo Ruiz Picasso - Torre del Agua</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/15">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Avda.+Pablo+Ruiz+Picasso+-+Torre+del+Agua"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">674531.7776761394 4615518.329386774</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Avda.+Ranillas+-+Avda.+Pablo+Ruiz+Picasso">
-	<rdfs:label>Avda. Ranillas - Avda. Pablo Ruiz Picasso</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/16">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Avda.+Ranillas+-+Avda.+Pablo+Ruiz+Picasso"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">675082.8512086545 4615741.954081438</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Pasarela+del+Voluntariado+-+Avda.+Ranillas">
-	<rdfs:label>Pasarela del Voluntariado - Avda. Ranillas</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/17">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Pasarela+del+Voluntariado+-+Avda.+Ranillas"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">675469.635585876 4615158.24649585</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Avda.+Ranillas+-+Puente+de+La+Almozara">
-	<rdfs:label>Avda. Ranillas - Puente de La Almozara</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/18">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Avda.+Ranillas+-+Puente+de+La+Almozara"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">675887.9946791041 4614631.435627686</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+P%C2%BA+de+la+Ribera+-+Puente+de+Santiago">
-	<rdfs:label>Pº de la Ribera - Puente de Santiago</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/19">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+P%C2%BA+de+la+Ribera+-+Puente+de+Santiago"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">676521.483524982 4614439.010262394</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+P%C2%BA+de+la+Ribera+-+Puente+del+Pilar">
-	<rdfs:label>Pº de la Ribera - Puente del Pilar</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/20">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+P%C2%BA+de+la+Ribera+-+Puente+del+Pilar"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">677458.6056386359 4614044.937332258</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+P%C2%BA+Echegaray+y+Caballero+-+Pasarela+del+Huerva">
-	<rdfs:label>Pº Echegaray y Caballero - Pasarela del Huerva</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/21">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+P%C2%BA+Echegaray+y+Caballero+-+Pasarela+del+Huerva"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">677769.8830778005 4613631.346063166</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+P%C2%BA+Echegaray+y+Caballero+-+Puente+del+Pilar">
-	<rdfs:label>Pº Echegaray y Caballero - Puente del Pilar</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/22">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+P%C2%BA+Echegaray+y+Caballero+-+Puente+del+Pilar"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">677403.1636507643 4613776.593027227</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+P%C2%BA+Echegaray+y+Caballero+-+Puente+de+Piedra">
-	<rdfs:label>Pº Echegaray y Caballero - Puente de Piedra</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/23">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+P%C2%BA+Echegaray+y+Caballero+-+Puente+de+Piedra"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">676982.2461119632 4613971.405242417</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+P%C2%BA+Echegaray+y+Caballero+-+Puente+de+Santiago">
-	<rdfs:label>Pº Echegaray y Caballero - Puente de Santiago</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/24">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+P%C2%BA+Echegaray+y+Caballero+-+Puente+de+Santiago"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">676504.2527290656 4614170.725479681</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+P%C2%BA+Echegaray+y+Caballero+-+Puente+de+La+Almozara">
-	<rdfs:label>Pº Echegaray y Caballero - Puente de La Almozara</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/25">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+P%C2%BA+Echegaray+y+Caballero+-+Puente+de+La+Almozara"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">675643.0073561185 4614306.693232718</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Pasarela+del+Voluntariado+-+Avda.+Almozara">
-	<rdfs:label>Pasarela del Voluntariado - Avda. Almozara</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/26">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Pasarela+del+Voluntariado+-+Avda.+Almozara"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">675258.2438197444 4614764.45746837</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Calle++Francia+-+Pabell%C3%B3n+Puente">
-	<rdfs:label>C/ Francia - Pabellón Puente</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/27">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Calle++Francia+-+Pabell%C3%B3n+Puente"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">674353.7498153094 4614541.783660298</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Estaci%C3%B3n+Intermodal+Delicias+%28Salidas%29">
-	<rdfs:label>Estación Intermodal Delicias (Salidas)</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/28">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Estaci%C3%B3n+Intermodal+Delicias+%28Salidas%29"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">674227.3492706296 4614154.64966946</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Estaci%C3%B3n+de+Cercan%C3%ADas+El+Portillo+">
-	<rdfs:label>Estación de Cercanías El Portillo </rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/29">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Estaci%C3%B3n+de+Cercan%C3%ADas+El+Portillo+"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">675329.9923329047 4613409.474988687</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Plaza+Espa%C3%B1a">
-	<rdfs:label>Plaza España</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/30">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Plaza+Espa%C3%B1a"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">676582.2035544008 4613504.823403645</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+P%C2%BA+Constituci%C3%B3n+-+Plaza+Arag%C3%B3n+">
-	<rdfs:label>Pº Constitución - Plaza Aragón </rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/31">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+P%C2%BA+Constituci%C3%B3n+-+Plaza+Arag%C3%B3n+"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">676293.4849388119 4613036.333235371</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Calle++Asalto+-+Edificio+Trovador">
-	<rdfs:label>C/ Asalto - Edificio Trovador</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/32">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Calle++Asalto+-+Edificio+Trovador"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">677485.1699573447 4613408.545050462</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Calle++Asalto+-+Calle++Miguel+Servet+">
-	<rdfs:label>C/ Asalto - C/ Miguel Servet </rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/33">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Calle++Asalto+-+Calle++Miguel+Servet+"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">677009.1305011907 4613188.480893311</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Plaza+Salamero%2C+14">
-	<rdfs:label>Plaza Salamero, 14</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/34">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Plaza+Salamero%2C+14"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">676280.2924439493 4613553.287068226</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Avda.+C%C3%A9sar+Augusto+-+Avda.+Conde+Aranda">
-	<rdfs:label>Avda. César Augusto - Avda. Conde Aranda</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/35">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Avda.+C%C3%A9sar+Augusto+-+Avda.+Conde+Aranda"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">676275.2698373196 4613774.806717714</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Estaci%C3%B3n+Intermodal+Delicias+%28Llegadas%29">
-	<rdfs:label>Estación Intermodal Delicias (Llegadas)</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/36">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Estaci%C3%B3n+Intermodal+Delicias+%28Llegadas%29"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">673760.3177675647 4614266.757959997</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+P%C2%BA+de+La+Ribera+-+Pasarela+Azud">
-	<rdfs:label>Pº de La Ribera - Pasarela Azud</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/37">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+P%C2%BA+de+La+Ribera+-+Pasarela+Azud"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">678460.7452327413 4613654.374655051</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Plaza+San+Pedro+Nolasco">
-	<rdfs:label>Plaza San Pedro Nolasco</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/38">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Plaza+San+Pedro+Nolasco"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">676875.6737743317 4613589.483909276</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Plaza+de+los+Sitios+">
-	<rdfs:label>Plaza de los Sitios </rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/39">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Plaza+de+los+Sitios+"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">676648.6412621725 4613117.609568934</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+P%C2%BA+Pamplona+-+Puerta+del+Carmen">
-	<rdfs:label>Pº Pamplona - Puerta del Carmen</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/40">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+P%C2%BA+Pamplona+-+Puerta+del+Carmen"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">676049.8715700008 4613211.225377172</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+P%C2%BA+M%C2%AA+Agust%C3%ADn+-+Colegio+Joaqu%C3%ADn+Costa">
-	<rdfs:label>Pº Mª Agustín - Colegio Joaquín Costa</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/41">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+P%C2%BA+M%C2%AA+Agust%C3%ADn+-+Colegio+Joaqu%C3%ADn+Costa"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">675682.3195447342 4613483.302453537</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Plaza+del+Portillo+-+Plaza+de+Toros">
-	<rdfs:label>Plaza del Portillo - Plaza de Toros</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/42">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Plaza+del+Portillo+-+Plaza+de+Toros"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">675620.8765705475 4613838.870355027</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Avda.+Madrid+-+Aljafer%C3%ADa">
-	<rdfs:label>Avda. Madrid - Aljafería</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/43">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Avda.+Madrid+-+Aljafer%C3%ADa"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">675242.2729886677 4613893.277580566</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Avda.+Pablo+Gargallo+-+Avda.+Puerta+Sancho">
-	<rdfs:label>Avda. Pablo Gargallo - Avda. Puerta Sancho</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/44">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Avda.+Pablo+Gargallo+-+Avda.+Puerta+Sancho"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">674828.098925371 4614498.440154144</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Avda.+Pablo+Gargallo+-+Calle++Ignacio+Menaya">
-	<rdfs:label>Avda. Pablo Gargallo - C/ Ignacio Menaya</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/45">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Avda.+Pablo+Gargallo+-+Calle++Ignacio+Menaya"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">675300.9241561614 4614364.322915688</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Calle++Ram%C3%B3n+y+Cajal+-+Calle++Madre+Rafols">
-	<rdfs:label>C/ Ramón y Cajal - C/ Madre Rafols</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/46">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Calle++Ram%C3%B3n+y+Cajal+-+Calle++Madre+Rafols"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">676094.9231835532 4613477.412387599</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Plaza+del+Pilar+-+Edificio+Turismo+">
-	<rdfs:label>Plaza del Pilar - Edificio Turismo </rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/47">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Plaza+del+Pilar+-+Edificio+Turismo+"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">676787.9508470905 4613916.956012998</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+Plaza+Magdalena">
-	<rdfs:label>Plaza Magdalena</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/48">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+Plaza+Magdalena"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">677195.2331748571 4613545.258063194</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/+P%C2%BA+Echegaray+y+Caballero+-+Calle++Salvador+Minguij%C3%B3n">
-	<rdfs:label>Pº Echegaray y Caballero - C/ Salvador Minguijón</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/49">
-	<location xmlns="http://www.example.net/" rdf:resource="http://www.example.net/+P%C2%BA+Echegaray+y+Caballero+-+Calle++Salvador+Minguij%C3%B3n"/>
-	<bikesAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</bikesAvaliable>
-	<slotsAvaliable xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</slotsAvaliable>
-	<geoPosition xmlns="http://www.example.net/">678253.8887429056 4613481.584281914</geoPosition>
-	<lastUpdated xmlns="http://www.example.net/" rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</lastUpdated>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/11">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">674209.1338063633 4613140.443152811</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Via Univérsitas - Calle Hermanos Gambra</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/12">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">674246.138705967 4613850.809511608</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Avda. Navarra - Calle Rioja</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/13">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">674776.6682624074 4613537.967226235</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Calle Graus - Calle Unceta</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/14">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">675169.6621584316 4612596.989091256</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Calle Corona de Aragón - Calle Lorente</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/15">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">674531.7776761394 4615518.329386774</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Avda. Pablo Ruiz Picasso - Torre del Agua</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/16">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">675082.8512086545 4615741.954081438</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Avda. Ranillas - Avda. Pablo Ruiz Picasso</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/17">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">675469.635585876 4615158.24649585</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Pasarela del Voluntariado - Avda. Ranillas</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/18">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">675887.9946791041 4614631.435627686</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Avda. Ranillas - Puente de La Almozara</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/19">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676521.483524982 4614439.010262394</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Pº de la Ribera - Puente de Santiago</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/20">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">677458.6056386359 4614044.937332258</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Pº de la Ribera - Puente del Pilar</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/21">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">677769.8830778005 4613631.346063166</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Pº Echegaray y Caballero - Pasarela del Huerva</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/22">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">677403.1636507643 4613776.593027227</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Pº Echegaray y Caballero - Puente del Pilar</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/23">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676982.2461119632 4613971.405242417</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Pº Echegaray y Caballero - Puente de Piedra</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/24">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676504.2527290656 4614170.725479681</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Pº Echegaray y Caballero - Puente de Santiago</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/25">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">675643.0073561185 4614306.693232718</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Pº Echegaray y Caballero - Puente de La Almozara</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/26">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">675258.2438197444 4614764.45746837</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Pasarela del Voluntariado - Avda. Almozara</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/27">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">674353.7498153094 4614541.783660298</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Calle Francia - Pabellón Puente</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/28">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">674227.3492706296 4614154.64966946</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Estación Intermodal Delicias (Salidas)</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/29">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">675329.9923329047 4613409.474988687</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Estación de Cercanías El Portillo </base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/30">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676582.2035544008 4613504.823403645</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Plaza España</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/31">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676293.4849388119 4613036.333235371</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Pº Constitución - Plaza Aragón </base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/32">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">677485.1699573447 4613408.545050462</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Calle Asalto - Edificio Trovador</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/33">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">677009.1305011907 4613188.480893311</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Calle Asalto - Calle Miguel Servet </base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/34">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676280.2924439493 4613553.287068226</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Plaza Salamero, 14</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/35">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676275.2698373196 4613774.806717714</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Avda. César Augusto - Avda. Conde Aranda</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/36">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">673760.3177675647 4614266.757959997</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Estación Intermodal Delicias (Llegadas)</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/37">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">678460.7452327413 4613654.374655051</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Pº de La Ribera - Pasarela Azud</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/38">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676875.6737743317 4613589.483909276</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Plaza San Pedro Nolasco</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/39">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676648.6412621725 4613117.609568934</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Plaza de los Sitios </base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/40">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676049.8715700008 4613211.225377172</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Pº Pamplona - Puerta del Carmen</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/41">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">675682.3195447342 4613483.302453537</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Pº Mª Agustín - Colegio Joaquín Costa</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/42">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">675620.8765705475 4613838.870355027</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Plaza del Portillo - Plaza de Toros</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/43">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">675242.2729886677 4613893.277580566</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Avda. Madrid - Aljafería</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/44">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">674828.098925371 4614498.440154144</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Avda. Pablo Gargallo - Avda. Puerta Sancho</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/45">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">675300.9241561614 4614364.322915688</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Avda. Pablo Gargallo - Calle Ignacio Menaya</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/46">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676094.9231835532 4613477.412387599</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Calle Ramón y Cajal - Calle Madre Rafols</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/47">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676787.9508470905 4613916.956012998</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Plaza del Pilar - Edificio Turismo </base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/48">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">677195.2331748571 4613545.258063194</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Plaza Magdalena</base:noCalle>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/49">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionBici"/>
+	<base:nCapacidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</base:nCapacidad>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</base:slotsAvaliable>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">678253.8887429056 4613481.584281914</base:geoPosition>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-10-19T00:22:00Z</base:lastUpdated>
+	<base:noCalle>Pº Echegaray y Caballero - Calle Salvador Minguijón</base:noCalle>
 </rdf:Description>
 
 </rdf:RDF>

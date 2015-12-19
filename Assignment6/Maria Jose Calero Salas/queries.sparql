@@ -1,0 +1,66 @@
+# QUERY 1. How many accidents were there in Madrid in 2013
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX property: <http://example.org/myVocabulary#>
+
+SELECT (SUM (?x) AS ?totalAccidentsInMadrid) WHERE {
+	?obs a qb: Observation;
+	property: numberOfAccidents ? acc.
+}
+
+# QUERY 2. Give me the number of accidents in Usera for each type of accident
+
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX property: <http://example.org/myVocabulary#>
+
+SELECT ?tipoAcc ?num
+WHERE {
+	?obs a qb: Observation;
+	property: relatedDistrict 'USERA';
+	property: numberOfAccidents ?num;
+	property: hasAccidentType ?tipoAcc.
+}
+
+# QUERY 3. Give me the number of multiple collisions for each district
+
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX property: <http://example.org/myVocabulary#>
+
+SELECT ?distrito ?num
+WHERE {
+	?obs a qb:Observation;
+	property: relatedDistrict ?distrito;
+	property: numberOfAccidents ?num;
+	property: hasAccidentType property: MultipleCollision.
+
+}
+
+# QUERY 4. Which is the district were the number of bicycle falls was higher in 2013?
+
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX property: <http://example.org/myVocabulary#>
+
+SELECT ?distrito ?num
+WHERE {
+	?obs a qb: Observation;
+	property: relatedDistrict ?distrito;
+	property: numberOfAccidents ?num;
+	property: hasAccidentType property: BicycleFall.
+} ORDER BY DESC(?num) LIMIT 5
+
+# QUERY 5. Give me the districts with more than 500 accidents in 2013
+
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX property: <http://example.org/myVocabulary#>
+
+SELECT ?num ?distrito
+WHERE {
+	?obs a qb: Observation;
+	property: relatedDistrict ?distrito;
+	property: numberOfAccidents ?num.
+	FILTER (?acc >500)
+}ORDER BY DESC (?acc)

@@ -1,4 +1,8 @@
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/master
 import java.io.InputStream;
 
 import org.apache.jena.ontology.Individual;

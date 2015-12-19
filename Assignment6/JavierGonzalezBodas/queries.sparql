@@ -1,0 +1,52 @@
+# How many accidents were there in Madrid
+PREFIX property: <http://geo.linkeddata.es/stats/property#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+select (SUM(?accidents) as ?total) WHERE {?obs a qb:Observation;
+						mv:relatedDistrict ?district;
+						mv:hasAccidentType ?type ;
+						mv:numberOfAccidents ?accidents ;
+						qb:dataSet mn:MyDataset . } 
+
+# Give me the number of accidents in Usera for each type of accident
+PREFIX property: <http://geo.linkeddata.es/stats/property#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+select ?type ?accidents WHERE {?obs a qb:Observation;
+	mv:relatedDistrict  "USERA";
+	mv:hasAccidentType ?type ;
+	mv:numberOfAccidents ?accidents ;
+	qb:dataSet mn:MyDataset . } GROUP BY ?type
+
+# Give me the number of multiple collisions for each district 
+PREFIX property: <http://geo.linkeddata.es/stats/property#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+select ?district ?accidents WHERE {?obs a qb:Observation;
+	mv:relatedDistrict  ?district;
+	mv:hasAccidentType mv:MultipleCollision ;
+	mv:numberOfAccidents ?accidents ;
+	qb:dataSet mn:MyDataset . } GROUP BY ?district
+
+# Which is the district were the number of bicycle falls was higher in 2013
+
+# Give me the districts with more than 500 accidents in 2013
+PREFIX property: <http://geo.linkeddata.es/stats/property#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+select ?district WHERE {?obs a qb:Observation;
+	mv:relatedDistrict  ?district;
+	mv:hasAccidentType  ?type ;
+	qb:dataSet mn:MyDataset;
+	mv:numberOfAccidents ?accidents . FILTER (?accidents > 500) }

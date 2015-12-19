@@ -1,153 +1,117 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix base: <http://www.example.net/group42/ontology/barrio#> .
 
+<http://www.example.net/group42/resource/barrio/0> a base:EstacionBici ;
+	base:districtName "Arcosur".
 
-<http://example.net/Arcosur> rdfs:label "Arcosur" .
+<http://www.example.net/group42/resource/barrio/1> a base:Barrio ;
+	base:districtName "Actur".
 
-<http://example.net/0> <http://example.net/districtName> <http://example.net/Arcosur> .
+<http://www.example.net/group42/resource/barrio/2> a base:Barrio ;
+	base:districtName "Arrabal".
 
-<http://example.net/Actur> rdfs:label "Actur" .
+<http://www.example.net/group42/resource/barrio/3> a base:Barrio ;
+	base:districtName "Casco histórico".
 
-<http://example.net/1> <http://example.net/districtName> <http://example.net/Actur> .
+<http://www.example.net/group42/resource/barrio/4> a base:Barrio ;
+	base:districtName "Centro".
 
-<http://example.net/Arrabal> rdfs:label "Arrabal" .
+<http://www.example.net/group42/resource/barrio/5> a base:Barrio ;
+	base:districtName "La Jota".
 
-<http://example.net/2> <http://example.net/districtName> <http://example.net/Arrabal> .
+<http://www.example.net/group42/resource/barrio/6> a base:Barrio ;
+	base:districtName "La Paz".
 
-<http://example.net/Casco+Hist%C3%B3rico> rdfs:label "Casco Histórico" .
+<http://www.example.net/group42/resource/barrio/7> a base:Barrio ;
+	base:districtName "Las Fuentes".
 
-<http://example.net/3> <http://example.net/districtName> <http://example.net/Casco+Hist%C3%B3rico> .
+<http://www.example.net/group42/resource/barrio/8> a base:Barrio ;
+	base:districtName "Oliver".
 
-<http://example.net/Centro> rdfs:label "Centro" .
+<http://www.example.net/group42/resource/barrio/9> a base:Barrio ;
+	base:districtName "Picarral".
 
-<http://example.net/4> <http://example.net/districtName> <http://example.net/Centro> .
+<http://www.example.net/group42/resource/barrio/10> a base:Barrio ;
+	base:districtName "San José".
 
-<http://example.net/La+Jota> rdfs:label "La Jota" .
+<http://www.example.net/group42/resource/barrio/1> a base:Barrio ;
+	base:districtName "Torrero".
 
-<http://example.net/5> <http://example.net/districtName> <http://example.net/La+Jota> .
+<http://www.example.net/group42/resource/barrio/12> a base:Barrio ;
+	base:districtName "Juslibol".
 
-<http://example.net/La+Paz> rdfs:label "La Paz" .
+<http://www.example.net/group42/resource/barrio/13> a base:Barrio ;
+	base:districtName "La Cartuja Baja".
 
-<http://example.net/6> <http://example.net/districtName> <http://example.net/La+Paz> .
+<http://www.example.net/group42/resource/barrio/14> a base:Barrio ;
+	base:districtName "Montañana".
 
-<http://example.net/Las+Fuentes> rdfs:label "Las Fuentes" .
+<http://www.example.net/group42/resource/barrio/15> a base:Barrio ;
+	base:districtName "San Juan de Mozarrifar".
 
-<http://example.net/7> <http://example.net/districtName> <http://example.net/Las+Fuentes> .
+<http://www.example.net/group42/resource/barrio/16> a base:Barrio ;
+	base:districtName "Santa Isabel".	
 
-<http://example.net/Oliver> rdfs:label "Oliver" .
+<http://www.example.net/group42/resource/barrio/17> a base:Barrio ;
+	base:districtName "Miralbueno".
 
-<http://example.net/8> <http://example.net/districtName> <http://example.net/Oliver> .
+<http://www.example.net/group42/resource/barrio/18> a base:Barrio ;
+	base:districtName "Venta del Olivar".
 
-<http://example.net/Picarral> rdfs:label "Picarral" .
+<http://www.example.net/group42/resource/barrio/19> a base:Barrio ;
+	base:districtName "Delicias".
 
-<http://example.net/9> <http://example.net/districtName> <http://example.net/Picarral> .
+<http://www.example.net/group42/resource/barrio/20> a base:Barrio ;
+	base:districtName "Movera".
 
-<http://example.net/San+Jos%C3%A9> rdfs:label "San José" .
+<http://www.example.net/group42/resource/barrio/21> a base:Barrio ;
+	base:districtName "Almozara".
 
-<http://example.net/10> <http://example.net/districtName> <http://example.net/San+Jos%C3%A9> .
+<http://www.example.net/group42/resource/barrio/22> a base:Barrio ;
+	base:districtName "Romareda/Universidad".
 
-<http://example.net/Torrero> rdfs:label "Torrero" .
+<http://www.example.net/group42/resource/barrio/23> a base:Barrio ;
+	base:districtName "Valdefierro".
 
-<http://example.net/11> <http://example.net/districtName> <http://example.net/Torrero> .
+<http://www.example.net/group42/resource/barrio/24> a base:Barrio ;
+	base:districtName "Peñaflor".
 
-<http://example.net/Juslibol> rdfs:label "Juslibol" .
+<http://www.example.net/group42/resource/barrio/25> a base:Barrio ;
+	base:districtName "San gregorio".
 
-<http://example.net/12> <http://example.net/districtName> <http://example.net/Juslibol> .
+<http://www.example.net/group42/resource/barrio/26> a base:Barrio ;
+	base:districtName "Torrecilla de Valmadrid".
 
-<http://example.net/La+Cartuja+Baja> rdfs:label "La Cartuja Baja" .
+<http://www.example.net/group42/resource/barrio/27> a base:Barrio ;
+	base:districtName "Alfocea".
 
-<http://example.net/13> <http://example.net/districtName> <http://example.net/La+Cartuja+Baja> .
+<http://www.example.net/group42/resource/barrio/28> a base:Barrio ;
+	base:districtName "Casablanca".
 
-<http://example.net/Montañana> rdfs:label "Montañana" .
+<http://www.example.net/group42/resource/barrio/29> a base:Barrio ;
+	base:districtName "Casetas".
 
-<http://example.net/14> <http://example.net/districtName> <http://example.net/Montañana> .
+<http://www.example.net/group42/resource/barrio/30> a base:Barrio ;
+	base:districtName "Garrapinillos".
 
-<http://example.net/San+Juan+de+Mozarrifar> rdfs:label "San Juan de Mozarrifar" .
+<http://www.example.net/group42/resource/barrio/31> a base:Barrio ;
+	base:districtName "Monzalbarba".
 
-<http://example.net/15> <http://example.net/districtName> <http://example.net/San+Juan+de+Mozarrifar> .
+<http://www.example.net/group42/resource/barrio/32> a base:Barrio ;
+	base:districtName "Villarrapa".
 
-<http://example.net/Santa+Isabel> rdfs:label "Santa Isabel" .
+<http://www.example.net/group42/resource/barrio/33> a base:Barrio ;
+	base:districtName "Valdespartera".
 
-<http://example.net/16> <http://example.net/districtName> <http://example.net/Santa+Isabel> .
+<http://www.example.net/group42/resource/barrio/34> a base:Barrio ;
+	base:districtName "Ranillas".
 
-<http://example.net/Miralbueno> rdfs:label "Miralbueno" .
+<http://www.example.net/group42/resource/barrio/35> a base:Barrio ;
+	base:districtName "Vadorrey".
 
-<http://example.net/17> <http://example.net/districtName> <http://example.net/Miralbueno> .
+<http://www.example.net/group42/resource/barrio/36> a base:Barrio ;
+	base:districtName "Puerto Venecia".
 
-<http://example.net/Venta+del+Olivar> rdfs:label "Venta del Olivar" .
-
-<http://example.net/18> <http://example.net/districtName> <http://example.net/Venta+del+Olivar> .
-
-<http://example.net/Delicias> rdfs:label "Delicias" .
-
-<http://example.net/19> <http://example.net/districtName> <http://example.net/Delicias> .
-
-<http://example.net/Movera> rdfs:label "Movera" .
-
-<http://example.net/20> <http://example.net/districtName> <http://example.net/Movera> .
-
-<http://example.net/Almozara> rdfs:label "Almozara" .
-
-<http://example.net/21> <http://example.net/districtName> <http://example.net/Almozara> .
-
-<http://example.net/Romareda/Universidad> rdfs:label "Romareda/Universidad" .
-
-<http://example.net/22> <http://example.net/districtName> <http://example.net/Romareda/Universidad> .
-
-<http://example.net/Valdefierro> rdfs:label "Valdefierro" .
-
-<http://example.net/23> <http://example.net/districtName> <http://example.net/Valdefierro> .
-
-<http://example.net/Peñaflor> rdfs:label "Peñaflor" .
-
-<http://example.net/24> <http://example.net/districtName> <http://example.net/Peñaflor> .
-
-<http://example.net/San+Gregorio> rdfs:label "San Gregorio" .
-
-<http://example.net/25> <http://example.net/districtName> <http://example.net/San+Gregorio> .
-
-<http://example.net/Torrecilla+de+Valmadrid> rdfs:label "Torrecilla de Valmadrid" .
-
-<http://example.net/26> <http://example.net/districtName> <http://example.net/Torrecilla+de+Valmadrid> .
-
-<http://example.net/Alfocea> rdfs:label "Alfocea" .
-
-<http://example.net/27> <http://example.net/districtName> <http://example.net/Alfocea> .
-
-<http://example.net/Casablanca> rdfs:label "Casablanca" .
-
-<http://example.net/28> <http://example.net/districtName> <http://example.net/Casablanca> .
-
-<http://example.net/Casetas> rdfs:label "Casetas" .
-
-<http://example.net/29> <http://example.net/districtName> <http://example.net/Casetas> .
-
-<http://example.net/Garrapinillos> rdfs:label "Garrapinillos" .
-
-<http://example.net/30> <http://example.net/districtName> <http://example.net/Garrapinillos> .
-
-<http://example.net/Monzalbarba> rdfs:label "Monzalbarba" .
-
-<http://example.net/31> <http://example.net/districtName> <http://example.net/Monzalbarba> .
-
-<http://example.net/Villarrapa> rdfs:label "Villarrapa" .
-
-<http://example.net/32> <http://example.net/districtName> <http://example.net/Villarrapa> .
-
-<http://example.net/Valdespartera> rdfs:label "Valdespartera" .
-
-<http://example.net/33> <http://example.net/districtName> <http://example.net/Valdespartera> .
-
-<http://example.net/Ranillas> rdfs:label "Ranillas" .
-
-<http://example.net/34> <http://example.net/districtName> <http://example.net/Ranillas> .
-
-<http://example.net/Vadorrey> rdfs:label "Vadorrey" .
-
-<http://example.net/35> <http://example.net/districtName> <http://example.net/Vadorrey> .
-
-<http://example.net/Puerto+Venecia> rdfs:label "Puerto Venecia" .
-
-<http://example.net/36> <http://example.net/districtName> <http://example.net/Puerto+Venecia> .

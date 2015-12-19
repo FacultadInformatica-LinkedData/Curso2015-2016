@@ -3,6 +3,8 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix base: <http://puntosinteres.madrid.es/group04/ontology/puntosinteres#> .
 
@@ -10,7 +12,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/CasadeGalicia> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Casa de Galicia" ;
 	base:tieneHorario "Atención al ciudadano:  de lunes a viernes de 9 a 14 horas    Oficina de Turismo:    De lunes a jueves de 9 a 14 y de 16 a 19 horas.  Viernes, de 8 a 15 horas.  Agosto: de lunes a viernes de 9 a 14 horas.     Exposiciones:    De lunes a sábado de 10 a 14 y de 16 a 20 horas.  Domingos y festivos de 10 a 14 horas." ;
-	base:tieneTelefono "915 954 200 (centralita) / 915 954 214 (turismo)" ;
+	vcard:tel "915 954 200 (centralita) / 915 954 214 (turismo)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CasadeGalicia> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasadeGalicia> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/CasadeGalicia> ;
@@ -28,8 +30,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CasadeGalicia> a base:Direccion ;
 	base:tieneNumero "8"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "CASADO DEL ALISAL" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "CASADO DEL ALISAL" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
 
@@ -49,7 +51,7 @@
 	base:tieneDescripcion "Se trata del punto de Información turística más grande de Madrid. Situado en una ubicación idónea: junto al Paseo de Recoletos, el famoso Paseo del Arte, el Teatro Fernán Gómez, el Museo Arqueológico y la Biblioteca Nacional consiste en un espacio accesible con zonas de atención al público y salas de reunión en donde se celebran exposiciones temporales y proyecciones turísticas y culturales.  Obra del arquitecto portugués Álvaro Siza, cuenta con 1.017 m2 de superficie dotados con modernas tecnologías para atender las demandas de información turística de los visitantes de Madrid.   Denominación oficial : Centro de Turismo Colón" ;
 	base:tieneHorario "De lunes a domingo de 9:30 a 20:30 horas" ;
 	base:tieneEquipamiento "Centro de turismo.   Atención presencial  Atención especializada  Autoconsulta  Área tecnológica: acceso gratuito a Internet, WIFI  Accesibilidad: mapas en 3D, mostradores adaptados  Certificado  ICTE  de Q de calidad turística Norma  UNE  187003:2008" ;
-	base:tieneTelefono """914 544 410 (información turística y Programa de Visitas Guiadas Oficiales)                               
+	vcard:tel """914 544 410 (información turística y Programa de Visitas Guiadas Oficiales)                               
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeTurismoColon> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeTurismoColon> ;
@@ -68,8 +70,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeTurismoColon> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28046"^^xsd:int ;
-	base:tieneCalle "COLON" ;
+	locn:postCode "28046"^^xsd:int ;
+	locn:address "COLON" ;
 	base:tieneTipoVia "PLAZA" ;
 	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
 
@@ -91,7 +93,7 @@
 	base:tieneNombre "Centro de Turismo Plaza Mayor" ;
 	base:tieneHorario "De lunes a domingo de 9:30 a 21:30 horas.  Venta de entradas para el Programa de Visitas Guiadas Oficiales en el Centro de turismo de lunes a domingo de 9:30 a 20:30 horas." ;
 	base:tieneEquipamiento "Atención presencial: especial idiomas asiáticos y ruso  Atención especializada  Autoconsulta  Programa Visitas Guiadas Oficiales  Área tecnológica: audiovisuales, acceso gratuito a Internet, WIFI  Accesibilidad: lengua de signos española, bucle magnético, encaminamientos podotáctiles, rótulos y folletos en braille, asientos ergonómicos, apoyos isquiáticos, mostradores adaptados, guía de turismo accesible  Tienda de Madrid con productos oficiales (tarjeta turística MadridCard y Bus Turístico); libros, camisetas,  CD&rsquo;s , etc.  Certificado  ICTE  de Q de calidad turística Norma  UNE  187003:2008  Certificado  AENOR  de Accesibilidad Universal Norma  UNE  170001-2:2007" ;
-	base:tieneTelefono """914 544 410 (información turística y Programa Visitas Guiadas Oficiales)                                                               
+	vcard:tel """914 544 410 (información turística y Programa Visitas Guiadas Oficiales)                                                               
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/CentrodeTurismoPlazaMayor> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeTurismoPlazaMayor> ;
@@ -110,8 +112,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/CentrodeTurismoPlazaMayor> a base:Direccion ;
 	base:tieneNumero "27"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "MAYOR" ;
+	locn:postCode "28012"^^xsd:int ;
+	locn:address "MAYOR" ;
 	base:tieneTipoVia "PLAZA" ;
 	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
 
@@ -127,7 +129,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/DelegaciondelaGeneralitat> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Delegación de la Generalitat de Cataluña. Oficina de Turismo" ;
 	base:tieneHorario "De lunes a viernes de 10:30 a 15 y de 16 a 19:30 horas." ;
-	base:tieneTelefono """915 241 892 (Oficina de turismo)          
+	vcard:tel """915 241 892 (Oficina de turismo)          
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/DelegaciondelaGeneralitat> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/DelegaciondelaGeneralitat> ;
@@ -146,8 +148,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/DelegaciondelaGeneralitat> a base:Direccion ;
 	base:tieneNumero "44"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "ALCALA" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "ALCALA" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
 
@@ -162,7 +164,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinaCentraldeReservase> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina Central de Reservas e Información de la Comunidad de Madrid" ;
 	base:tieneHorario "De lunes a viernes de 9 a 14 horas" ;
-	base:tieneTelefono "912 767 478" ;
+	vcard:tel "912 767 478" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinaCentraldeReservase> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinaCentraldeReservase> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinaCentraldeReservase> ;
@@ -180,8 +182,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinaCentraldeReservase> a base:Direccion ;
 	base:tieneNumero "14"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28001"^^xsd:int ;
-	base:tieneCalle "RECOLETOS" ;
+	locn:postCode "28001"^^xsd:int ;
+	locn:address "RECOLETOS" ;
 	base:tieneTipoVia "PASEO" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
@@ -199,7 +201,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeAlemani> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Alemania" ;
-	base:tieneTelefono "914 293 551" ;
+	vcard:tel "914 293 551" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeAlemani> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeAlemani> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeAlemani> ;
@@ -217,8 +219,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeAlemani> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "SAN AGUSTIN" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "SAN AGUSTIN" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
 
@@ -233,7 +235,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeAndorra> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Andorra" ;
 	base:tieneHorario "Consultar telefónicamente" ;
-	base:tieneTelefono "914 317 453 " ;
+	vcard:tel "914 317 453 " ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeAndorra> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeAndorra> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeAndorra> ;
@@ -251,8 +253,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeAndorra> a base:Direccion ;
 	base:tieneNumero "73"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28009"^^xsd:int ;
-	base:tieneCalle "ALCALA" ;
+	locn:postCode "28009"^^xsd:int ;
+	locn:address "ALCALA" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
@@ -267,7 +269,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeArgenti> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Argentina" ;
 	base:tieneHorario "Consultar telefónicamente" ;
-	base:tieneTelefono "915 414 447" ;
+	vcard:tel "915 414 447" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeArgenti> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeArgenti> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeArgenti> ;
@@ -285,8 +287,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeArgenti> a base:Direccion ;
 	base:tieneNumero "12"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28008"^^xsd:int ;
-	base:tieneCalle "PRINCESA" ;
+	locn:postCode "28008"^^xsd:int ;
+	locn:address "PRINCESA" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
 
@@ -317,8 +319,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeAustria> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28008"^^xsd:int ;
-	base:tieneCalle "JUAN ALVAREZ MENDIZABAL" ;
+	locn:postCode "28008"^^xsd:int ;
+	locn:address "JUAN ALVAREZ MENDIZABAL" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
 
@@ -337,7 +339,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeBrasil> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Brasil" ;
 	base:tieneHorario "De lunes a viernes de 10:30 a 13:30 horas" ;
-	base:tieneTelefono "917 020 689" ;
+	vcard:tel "917 020 689" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeBrasil> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeBrasil> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeBrasil> ;
@@ -355,8 +357,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeBrasil> a base:Direccion ;
 	base:tieneNumero "28"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28010"^^xsd:int ;
-	base:tieneCalle "ALMAGRO" ;
+	locn:postCode "28010"^^xsd:int ;
+	locn:address "ALMAGRO" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Chamberi_(Madrid)> .
 
@@ -374,7 +376,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeCastill> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Castilla - León" ;
-	base:tieneTelefono "915 780 324" ;
+	vcard:tel "915 780 324" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeCastill> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeCastill> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeCastill> ;
@@ -392,8 +394,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeCastill> a base:Direccion ;
 	base:tieneNumero "105"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28009"^^xsd:int ;
-	base:tieneCalle "ALCALÁ" ;
+	locn:postCode "28009"^^xsd:int ;
+	locn:address "ALCALÁ" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
@@ -408,7 +410,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeChile> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Chile" ;
 	base:tieneHorario "Con cita previa" ;
-	base:tieneTelefono "914 357 834" ;
+	vcard:tel "914 357 834" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeChile> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeChile> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeChile> ;
@@ -426,8 +428,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeChile> a base:Direccion ;
 	base:tieneNumero "80"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28001"^^xsd:int ;
-	base:tieneCalle "VELAZQUEZ" ;
+	locn:postCode "28001"^^xsd:int ;
+	locn:address "VELAZQUEZ" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
@@ -441,7 +443,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeChina> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de China" ;
-	base:tieneTelefono "915 480 011 (información sobre horarios)" ;
+	vcard:tel "915 480 011 (información sobre horarios)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeChina> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeChina> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeChina> ;
@@ -459,8 +461,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeChina> a base:Direccion ;
 	base:tieneNumero "39"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "GRAN VIA" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "GRAN VIA" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
 
@@ -474,7 +476,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeCroacia> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Croacia" ;
-	base:tieneTelefono "917 815 514 (información sobre horarios)" ;
+	vcard:tel "917 815 514 (información sobre horarios)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeCroacia> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeCroacia> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeCroacia> ;
@@ -492,8 +494,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeCroacia> a base:Direccion ;
 	base:tieneNumero "22"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28001"^^xsd:int ;
-	base:tieneCalle "CLAUDIO COELLO" ;
+	locn:postCode "28001"^^xsd:int ;
+	locn:address "CLAUDIO COELLO" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
@@ -508,7 +510,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeCuba> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Cuba" ;
 	base:tieneHorario "Consultar telefónicamente" ;
-	base:tieneTelefono "914 113 097" ;
+	vcard:tel "914 113 097" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeCuba> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeCuba> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeCuba> ;
@@ -526,8 +528,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeCuba> a base:Direccion ;
 	base:tieneNumero "50"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMARTIN> ;
-	base:tieneCodigoPostal "28036"^^xsd:int ;
-	base:tieneCalle "HABANA" ;
+	locn:postCode "28036"^^xsd:int ;
+	locn:address "HABANA" ;
 	base:tieneTipoVia "PASEO" ;
 	owl:sameAs <http://dbpedia.org/resource/Madrid_Chamartin> .
 
@@ -545,7 +547,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeEcuador> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Ecuador" ;
-	base:tieneTelefono "t.arregui@ecuatropic.es" ;
+	vcard:tel "t.arregui@ecuatropic.es" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeEcuador> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeEcuador> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeEcuador> ;
@@ -563,8 +565,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeEcuador> a base:Direccion ;
 	base:tieneNumero "43"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28001"^^xsd:int ;
-	base:tieneCalle "SERRANO" ;
+	locn:postCode "28001"^^xsd:int ;
+	locn:address "SERRANO" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
@@ -578,7 +580,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeEgipto> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Egipto" ;
-	base:tieneTelefono "915 592 121 (información sobre horarios)" ;
+	vcard:tel "915 592 121 (información sobre horarios)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeEgipto> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeEgipto> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeEgipto> ;
@@ -596,8 +598,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeEgipto> a base:Direccion ;
 	base:tieneNumero "78"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "GRAN VIA" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "GRAN VIA" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
 
@@ -612,7 +614,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeFrancia> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Francia" ;
 	base:tieneHorario "Horario de septiembre a junio:    Lunes a jueves: de 10 a 14 y de 15 a 17:30 horas  Viernes: de 9:30 a 14:30 horas     Horario julio y agosto:  de 9 a 15 horas" ;
-	base:tieneTelefono """915 489 737 (Información)           
+	vcard:tel """915 489 737 (Información)           
 """ ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeFrancia> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeFrancia> ;
@@ -631,8 +633,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeFrancia> a base:Direccion ;
 	base:tieneNumero "40"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28001"^^xsd:int ;
-	base:tieneCalle "SERRANO" ;
+	locn:postCode "28001"^^xsd:int ;
+	locn:address "SERRANO" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
@@ -646,7 +648,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeGranBre> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Gran Bretaña" ;
-	base:tieneTelefono "917 146 497" ;
+	vcard:tel "917 146 497" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeGranBre> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeGranBre> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeGranBre> ;
@@ -663,8 +665,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeGranBre> a base:Direccion ;
 	base:tieneNumero "259"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28046"^^xsd:int ;
-	base:tieneCalle "CASTELLANA" ;
+	locn:postCode "28046"^^xsd:int ;
+	locn:address "CASTELLANA" ;
 	base:tieneTipoVia "PASEO" ;
 	owl:sameAs <http://dbpedia.org/resource/Fuencarral-El_Pardo> .
 
@@ -680,7 +682,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeturismodeGuatema> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de turismo de Guatemala" ;
-	base:tieneTelefono "913 440 347 / 913 441 417" ;
+	vcard:tel "913 440 347 / 913 441 417" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeturismodeGuatema> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeturismodeGuatema> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeturismodeGuatema> ;
@@ -698,8 +700,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeturismodeGuatema> a base:Direccion ;
 	base:tieneNumero "27"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28010"^^xsd:int ;
-	base:tieneCalle "FERNANDO EL SANTO" ;
+	locn:postCode "28010"^^xsd:int ;
+	locn:address "FERNANDO EL SANTO" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Chamberi_(Madrid)> .
 
@@ -713,7 +715,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeHolanda> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Holanda" ;
-	base:tieneTelefono "917 498 082" ;
+	vcard:tel "917 498 082" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeHolanda> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeHolanda> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeHolanda> ;
@@ -731,8 +733,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeHolanda> a base:Direccion ;
 	base:tieneNumero "259"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/FUENCARRAL-ELPARDO> ;
-	base:tieneCodigoPostal "28046"^^xsd:int ;
-	base:tieneCalle "CASTELLANA" ;
+	locn:postCode "28046"^^xsd:int ;
+	locn:address "CASTELLANA" ;
 	base:tieneTipoVia "PASEO" ;
 	owl:sameAs <http://dbpedia.org/resource/Fuencarral-El_Pardo> .
 
@@ -746,7 +748,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeHungria> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Hungria" ;
 	base:tieneHorario "Consultar telefónicamente" ;
-	base:tieneTelefono "915 569 348" ;
+	vcard:tel "915 569 348" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeHungria> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeHungria> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeHungria> ;
@@ -760,7 +762,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeHungria> a base:Direccion ;
 	base:tieneNumero "--"^^xsd:int ;
-	base:tieneCalle "--" ;
+	locn:address "--" ;
 	base:tieneTipoVia "--" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodeHungria> a base:Metro .
@@ -772,7 +774,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeIrlanda> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Irlanda" ;
 	base:tieneHorario "De lunes a viernes de 10 a 14 horas" ;
-	base:tieneTelefono "917 456 420" ;
+	vcard:tel "917 456 420" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeIrlanda> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeIrlanda> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeIrlanda> ;
@@ -790,8 +792,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeIrlanda> a base:Direccion ;
 	base:tieneNumero "46"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28046"^^xsd:int ;
-	base:tieneCalle "CASTELLANA" ;
+	locn:postCode "28046"^^xsd:int ;
+	locn:address "CASTELLANA" ;
 	base:tieneTipoVia "PASEO" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
@@ -806,7 +808,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeIran> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Irán" ;
 	base:tieneEquipamiento "Proporciona información a través de internet, correo y teléfono" ;
-	base:tieneTelefono "915 643 613" ;
+	vcard:tel "915 643 613" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeIran> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeIran> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeIran> ;
@@ -824,8 +826,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeIran> a base:Direccion ;
 	base:tieneNumero "26"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28006"^^xsd:int ;
-	base:tieneCalle "MARIA DE MOLINA" ;
+	locn:postCode "28006"^^xsd:int ;
+	locn:address "MARIA DE MOLINA" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
@@ -839,7 +841,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeIsrael> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Israel" ;
-	base:tieneTelefono "915 943 211" ;
+	vcard:tel "915 943 211" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeIsrael> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeIsrael> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeIsrael> ;
@@ -857,8 +859,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeIsrael> a base:Direccion ;
 	base:tieneNumero "101"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28004"^^xsd:int ;
-	base:tieneCalle "FUENCARRAL" ;
+	locn:postCode "28004"^^xsd:int ;
+	locn:address "FUENCARRAL" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
 
@@ -872,7 +874,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeItalia> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Italia" ;
-	base:tieneTelefono "915 670 670 (información sobre horario)" ;
+	vcard:tel "915 670 670 (información sobre horario)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeItalia> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeItalia> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeItalia> ;
@@ -890,8 +892,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeItalia> a base:Direccion ;
 	base:tieneNumero "120"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28006"^^xsd:int ;
-	base:tieneCalle "SERRANO" ;
+	locn:postCode "28006"^^xsd:int ;
+	locn:address "SERRANO" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
@@ -906,7 +908,7 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeJordani> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Jordania" ;
 	base:tieneHorario "Consultar telefónicamente" ;
-	base:tieneTelefono "917 813 987" ;
+	vcard:tel "917 813 987" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeJordani> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeJordani> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeJordani> ;
@@ -924,8 +926,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeJordani> a base:Direccion ;
 	base:tieneNumero "5"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28001"^^xsd:int ;
-	base:tieneCalle "VILLANUEVA" ;
+	locn:postCode "28001"^^xsd:int ;
+	locn:address "VILLANUEVA" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
@@ -941,7 +943,7 @@
 	base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Aeropuerto  de Barajas Terminal 1" ;
 	base:tieneHorario "De lunes a sábados de 9 a 20 horas.   Domingos y festivos de 9 a 14  horas, excepto 1 de mayo, 25 de diciembre y 1 de enero, que permencerá cerrada." ;
 	base:tieneEquipamiento "Proporcionan información turística de la Comunidad de Madrid y de los lugares mas representativos de España" ;
-	base:tieneTelefono "913 058 656 / Información turística y cultural: 902 100 007 " ;
+	vcard:tel "913 058 656 / Información turística y cultural: 902 100 007 " ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> ;
@@ -959,8 +961,8 @@
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> a base:Direccion ;
 	base:tieneNumero "0"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/BARAJAS> ;
-	base:tieneCodigoPostal "28042"^^xsd:int ;
-	base:tieneCalle "BARAJAS" ;
+	locn:postCode "28042"^^xsd:int ;
+	locn:address "BARAJAS" ;
 	base:tieneTipoVia "AEROPUERTO" ;
 	owl:sameAs <http://dbpedia.org/resource/Barajas_(district)> .
 
@@ -978,7 +980,7 @@
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodelaComun> base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Aeropuerto de Barajas Terminal 4" ;
 	base:tieneHorario "Todos los días de 9 a 20 horas  Cerrado: 1 de mayo, 25 de diciembre y 1 de enero" ;
-	base:tieneTelefono """Sala 11: 913 338 247  /     
+	vcard:tel """Sala 11: 913 338 247  /     
 Sala 10: 913 338 252      
 Información turística y cultural: 902 100 007             
 """ .
@@ -989,7 +991,7 @@ Información turística y cultural: 902 100 007
 	geo:long "-35.859.807.207.200.300"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> base:tieneNumero "2"^^xsd:int ;
-	base:tieneCalle "HISPANIDAD" ;
+	locn:address "HISPANIDAD" ;
 	base:tieneTipoVia "AVENIDA" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodelaComun> base:hayMetro "línea 8 - estación aeropuerto t-4" .
@@ -998,7 +1000,7 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodelaComun> base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Calle Alcalá, 31" ;
 	base:tieneHorario "De lunes a sábados de 9 a 20 horas.   Domingos y festivos de 9 a 14 horas, excepto 1 de mayo, 25 de diciembre y 1 de enero, que permencerá cerrada." ;
-	base:tieneTelefono """912 767 187   / Información turística y cultural: 902 100 007            
+	vcard:tel """912 767 187   / Información turística y cultural: 902 100 007            
 """ .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> base:hayTransportePublico "metro: sevilla (línea 2), banco de españa ( línea 2)  bus: 1, 2, 9, 15, 20, 28, 51, 52, 74, 146, 202" .
@@ -1008,8 +1010,8 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> base:tieneNumero "31"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "ALCALA" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "ALCALA" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
 
@@ -1019,7 +1021,7 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodelaComun> base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Calle Duque de Medinaceli" ;
 	base:tieneHorario "De lunes a sábados de 8 a 15 horas.   Domingos y festivos de 9 a 14 horas" ;
-	base:tieneTelefono """Información turística y cultural:  902 100 007  / 914 294 951       
+	vcard:tel """Información turística y cultural:  902 100 007  / 914 294 951       
 """ .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> base:hayTransportePublico "metro: antón martín (línea 1), banco de españa (línea 2)  bus: 6, 26, 32, 57" .
@@ -1027,7 +1029,7 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaComun> geo:lat "40.415.295.360.876.800"^^xsd:double ;
 	geo:long "-36.959.869.173.057.200"^^xsd:double .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> base:tieneCalle "DUQUE DE MEDINACELI" .
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> locn:address "DUQUE DE MEDINACELI" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodelaComun> base:hayMetro "antón martín (línea 1), banco de españa (línea 2)" .
 
@@ -1035,7 +1037,7 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodelaComun> base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Estación de Chamartín" ;
 	base:tieneHorario "De lunes a sábados de 8 a 20 horas.   Domingos y festivos de 9 a 14 horas, excepto 1 de mayo, 25 de diciembre y 1 de enero, que permanecerá cerrada" ;
-	base:tieneTelefono "913 159 976 / Información turística y cultural: 902 100 007 " .
+	vcard:tel "913 159 976 / Información turística y cultural: 902 100 007 " .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> base:hayTransportePublico "metro: chamartín (líneas 1, 10)  bus: 5, 80, 66, 124   renfe: chamartín" .
 
@@ -1044,8 +1046,8 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> base:tieneNumero "40"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMARTIN> ;
-	base:tieneCodigoPostal "28036"^^xsd:int ;
-	base:tieneCalle "AGUSTIN DE FOXA" ;
+	locn:postCode "28036"^^xsd:int ;
+	locn:address "AGUSTIN DE FOXA" ;
 	owl:sameAs <http://dbpedia.org/resource/Madrid_Chamartin> .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodelaComun> base:hayMetro "chamartín (líneas 1, 10)" .
@@ -1057,7 +1059,7 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodelaComun> base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Estación Puerta de Atocha" ;
 	base:tieneHorario "De lunes a sábados de 8 a 20 horas.   Domingos y festivos de 9 a 20 horas, excepto 1 de mayo, 25 de diciembre y 1 de enero, que permencerá cerrada." ;
-	base:tieneTelefono "Información turística y cultural: 902 100 007 / 915 284 630" .
+	vcard:tel "Información turística y cultural: 902 100 007 / 915 284 630" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> base:hayTransportePublico "metro: atocha (línea 1)  bus: 10 , 14 , 19 , 26 , 32 , 37 , 57   renfe: atocha" .
 
@@ -1066,8 +1068,8 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/ARGANZUELA> ;
-	base:tieneCodigoPostal "28045"^^xsd:int ;
-	base:tieneCalle "EMPERADOR CARLOS V" ;
+	locn:postCode "28045"^^xsd:int ;
+	locn:address "EMPERADOR CARLOS V" ;
 	base:tieneTipoVia "PLAZA" ;
 	owl:sameAs <http://dbpedia.org/resource/Arganzuela> .
 
@@ -1084,7 +1086,7 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodelaComun> base:tieneNombre "Oficina de Turismo de la Comunidad de Madrid. Ifema. Feria de Madrid" ;
 	base:tieneHorario "Los días en que se celebren ferias, de 11 a 17 horas" ;
-	base:tieneTelefono "917 210 599 / 917 210 604. Información turística y cultural: 902 100 007 " .
+	vcard:tel "917 210 599 / 917 210 604. Información turística y cultural: 902 100 007 " .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaComun> base:hayTransportePublico "metro: campo de las naciones (línea 8)  bus: 122, 112, 828" .
 
@@ -1092,7 +1094,7 @@ Información turística y cultural: 902 100 007
 	geo:long "-36.164.023.947.650.800"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaComun> base:tieneNumero "5"^^xsd:int ;
-	base:tieneCalle "PARTENON" .
+	locn:address "PARTENON" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/OficinadeTurismodelaComun> base:hayMetro "campo de las naciones (línea 8)" .
 
@@ -1100,7 +1102,7 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodelaRepub> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de la República Checa" ;
-	base:tieneTelefono "913 457 112 (información sobre horarios)" ;
+	vcard:tel "913 457 112 (información sobre horarios)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelaRepub> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaRepub> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelaRepub> ;
@@ -1118,8 +1120,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelaRepub> a base:Direccion ;
 	base:tieneNumero "22 -24"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMARTIN> ;
-	base:tieneCodigoPostal "28016"^^xsd:int ;
-	base:tieneCalle "PIO XII" ;
+	locn:postCode "28016"^^xsd:int ;
+	locn:address "PIO XII" ;
 	base:tieneTipoVia "AVENIDA" ;
 	owl:sameAs <http://dbpedia.org/resource/Madrid_Chamartin> .
 
@@ -1134,7 +1136,7 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeLaRioja> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de La Rioja" ;
 	base:tieneHorario "De lunes a viernes de 9 a 21:30 horas (en época de verano, consultar telefónicamente)." ;
-	base:tieneTelefono "915 764 852" ;
+	vcard:tel "915 764 852" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeLaRioja> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeLaRioja> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeLaRioja> ;
@@ -1152,8 +1154,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeLaRioja> a base:Direccion ;
 	base:tieneNumero "25"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28001"^^xsd:int ;
-	base:tieneCalle "SERRANO" ;
+	locn:postCode "28001"^^xsd:int ;
+	locn:address "SERRANO" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
@@ -1168,7 +1170,7 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeMalta> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Malta" ;
 	base:tieneHorario "De lunes a viernes de 9 a 14 horas" ;
-	base:tieneTelefono "913 913 061" ;
+	vcard:tel "913 913 061" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeMalta> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeMalta> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeMalta> ;
@@ -1186,8 +1188,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeMalta> a base:Direccion ;
 	base:tieneNumero "45"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28046"^^xsd:int ;
-	base:tieneCalle "CASTELLANA" ;
+	locn:postCode "28046"^^xsd:int ;
+	locn:address "CASTELLANA" ;
 	base:tieneTipoVia "PASEO" ;
 	owl:sameAs <http://dbpedia.org/resource/Chamberi_(Madrid)> .
 
@@ -1201,7 +1203,7 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeMarruec> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Marruecos" ;
-	base:tieneTelefono "915 412 995 (información sobre horarios)" ;
+	vcard:tel "915 412 995 (información sobre horarios)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeMarruec> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeMarruec> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeMarruec> ;
@@ -1219,8 +1221,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeMarruec> a base:Direccion ;
 	base:tieneNumero "24"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28008"^^xsd:int ;
-	base:tieneCalle "VENTURA RODRIGUEZ" ;
+	locn:postCode "28008"^^xsd:int ;
+	locn:address "VENTURA RODRIGUEZ" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
 
@@ -1234,7 +1236,7 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeMexico> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de México" ;
-	base:tieneTelefono "915 611 827 / 915 613 520" ;
+	vcard:tel "915 611 827 / 915 613 520" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeMexico> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeMexico> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeMexico> ;
@@ -1252,8 +1254,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeMexico> a base:Direccion ;
 	base:tieneNumero "46"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "SAN JERONIMO" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "SAN JERONIMO" ;
 	base:tieneTipoVia "CARRERA" ;
 	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
 
@@ -1268,7 +1270,7 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeNoruega> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Noruega" ;
 	base:tieneEquipamiento "Proporciona información a través de internet, correo y teléfono" ;
-	base:tieneTelefono "913 440 987" ;
+	vcard:tel "913 440 987" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeNoruega> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeNoruega> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeNoruega> ;
@@ -1286,8 +1288,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeNoruega> a base:Direccion ;
 	base:tieneNumero "2"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28046"^^xsd:int ;
-	base:tieneCalle "COLON" ;
+	locn:postCode "28046"^^xsd:int ;
+	locn:address "COLON" ;
 	base:tieneTipoVia "PLAZA" ;
 	owl:sameAs <http://dbpedia.org/resource/Chamberi_(Madrid)> .
 
@@ -1302,7 +1304,7 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeNuevaYo> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Nueva York" ;
 	base:tieneHorario "De lunes a viernes de 9 a 17:30 horas" ;
-	base:tieneTelefono "914 585 573" ;
+	vcard:tel "914 585 573" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeNuevaYo> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeNuevaYo> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeNuevaYo> ;
@@ -1320,8 +1322,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeNuevaYo> a base:Direccion ;
 	base:tieneNumero "27"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28010"^^xsd:int ;
-	base:tieneCalle "ELOY GONZALO" ;
+	locn:postCode "28010"^^xsd:int ;
+	locn:address "ELOY GONZALO" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Chamberi_(Madrid)> .
 
@@ -1335,7 +1337,7 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodePeru> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Perú" ;
-	base:tieneTelefono "911 937 511" ;
+	vcard:tel "911 937 511" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodePeru> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePeru> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodePeru> ;
@@ -1352,8 +1354,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePeru> a base:Direccion ;
 	base:tieneNumero "10"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28006"^^xsd:int ;
-	base:tieneCalle "MARQUES DE SALAMANCA" ;
+	locn:postCode "28006"^^xsd:int ;
+	locn:address "MARQUES DE SALAMANCA" ;
 	base:tieneTipoVia "PLAZA" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
@@ -1365,7 +1367,7 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodePolonia> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Polonia" ;
-	base:tieneTelefono "915 414 808 / 915 414 333" ;
+	vcard:tel "915 414 808 / 915 414 333" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodePolonia> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePolonia> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodePolonia> ;
@@ -1383,8 +1385,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePolonia> a base:Direccion ;
 	base:tieneNumero "3"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/MONCLOA-ARAVACA> ;
-	base:tieneCodigoPostal "28008"^^xsd:int ;
-	base:tieneCalle "PRINCESA" ;
+	locn:postCode "28008"^^xsd:int ;
+	locn:address "PRINCESA" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Moncloa-Aravaca> .
 
@@ -1398,7 +1400,7 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodePortuga> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Portugal" ;
-	base:tieneTelefono "917 617 230" ;
+	vcard:tel "917 617 230" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodePortuga> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePortuga> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodePortuga> ;
@@ -1416,8 +1418,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePortuga> a base:Direccion ;
 	base:tieneNumero "88"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28001"^^xsd:int ;
-	base:tieneCalle "LAGASCA" ;
+	locn:postCode "28001"^^xsd:int ;
+	locn:address "LAGASCA" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
@@ -1431,7 +1433,7 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodePuertoR> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Puerto Rico" ;
-	base:tieneTelefono "914 312 128" ;
+	vcard:tel "914 312 128" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodePuertoR> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePuertoR> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodePuertoR> ;
@@ -1449,8 +1451,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodePuertoR> a base:Direccion ;
 	base:tieneNumero "22"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28001"^^xsd:int ;
-	base:tieneCalle "CLAUDIO COELLO" ;
+	locn:postCode "28001"^^xsd:int ;
+	locn:address "CLAUDIO COELLO" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
@@ -1464,7 +1466,7 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeRepubli> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de República Dominicana" ;
-	base:tieneTelefono "914 177 375" ;
+	vcard:tel "914 177 375" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeRepubli> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeRepubli> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeRepubli> ;
@@ -1482,8 +1484,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeRepubli> a base:Direccion ;
 	base:tieneNumero "114"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28006"^^xsd:int ;
-	base:tieneCalle "SERRANO" ;
+	locn:postCode "28006"^^xsd:int ;
+	locn:address "SERRANO" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
@@ -1497,7 +1499,7 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeRumania> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Rumania" ;
-	base:tieneTelefono "914 014 268" ;
+	vcard:tel "914 014 268" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeRumania> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeRumania> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeRumania> ;
@@ -1515,8 +1517,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeRumania> a base:Direccion ;
 	base:tieneNumero "49"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28006"^^xsd:int ;
-	base:tieneCalle "ALCANTARA" ;
+	locn:postCode "28006"^^xsd:int ;
+	locn:address "ALCANTARA" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
@@ -1530,7 +1532,7 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeSeychel> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Seychelles" ;
-	base:tieneTelefono "917 020 804" ;
+	vcard:tel "917 020 804" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeSeychel> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeSeychel> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeSeychel> ;
@@ -1548,8 +1550,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeSeychel> a base:Direccion ;
 	base:tieneNumero "40"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28008"^^xsd:int ;
-	base:tieneCalle "PRINCESA" ;
+	locn:postCode "28008"^^xsd:int ;
+	locn:address "PRINCESA" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
 
@@ -1564,7 +1566,7 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeTahiti> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Tahití" ;
 	base:tieneHorario "Consultar telefónicamente" ;
-	base:tieneTelefono "915 489 747" ;
+	vcard:tel "915 489 747" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeTahiti> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeTahiti> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeTahiti> ;
@@ -1582,8 +1584,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeTahiti> a base:Direccion ;
 	base:tieneNumero "40"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28001"^^xsd:int ;
-	base:tieneCalle "SERRANO" ;
+	locn:postCode "28001"^^xsd:int ;
+	locn:address "SERRANO" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
@@ -1597,7 +1599,7 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeTurquia> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Turquia" ;
-	base:tieneTelefono "915 597 014 / 915 597 114 " ;
+	vcard:tel "915 597 014 / 915 597 114 " ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeTurquia> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeTurquia> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeTurquia> ;
@@ -1615,8 +1617,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeTurquia> a base:Direccion ;
 	base:tieneNumero "18"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "ANTONIO MAURA" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "ANTONIO MAURA" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
 
@@ -1630,7 +1632,7 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeTunez> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Túnez" ;
-	base:tieneTelefono "915 481 435" ;
+	vcard:tel "915 481 435" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeTunez> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeTunez> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeTunez> ;
@@ -1648,8 +1650,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeTunez> a base:Direccion ;
 	base:tieneNumero "11"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28015"^^xsd:int ;
-	base:tieneCalle "ALBERTO AGUILERA" ;
+	locn:postCode "28015"^^xsd:int ;
+	locn:address "ALBERTO AGUILERA" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
 
@@ -1664,7 +1666,7 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodeVenezue> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo de Venezuela" ;
 	base:tieneHorario "Consultar telefonicámente" ;
-	base:tieneTelefono "915 981 200" ;
+	vcard:tel "915 981 200" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodeVenezue> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeVenezue> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodeVenezue> ;
@@ -1682,8 +1684,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodeVenezue> a base:Direccion ;
 	base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/TETUAN> ;
-	base:tieneCodigoPostal "28020"^^xsd:int ;
-	base:tieneCalle "CAPITAN HAYA" ;
+	locn:postCode "28020"^^xsd:int ;
+	locn:address "CAPITAN HAYA" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Tetuan_(Madrid)> .
 
@@ -1702,7 +1704,7 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinadeTurismodelAyunta> a base:SitioTuristico , base:OficinaTurismo ;
 	base:tieneNombre "Oficina de Turismo del Ayuntamiento de Madrid. Sector Profesional" ;
 	base:tieneHorario "De lunes a viernes de 9 a 17 horas (sólo para profesionales de turismo)" ;
-	base:tieneTelefono "917 012 210" ;
+	vcard:tel "917 012 210" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinadeTurismodelAyunta> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelAyunta> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinadeTurismodelAyunta> ;
@@ -1720,8 +1722,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinadeTurismodelAyunta> a base:Direccion ;
 	base:tieneNumero "27"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "MAYOR" ;
+	locn:postCode "28012"^^xsd:int ;
+	locn:address "MAYOR" ;
 	base:tieneTipoVia "PLAZA" ;
 	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
 
@@ -1737,7 +1739,7 @@ Información turística y cultural: 902 100 007
 	base:tieneNombre "Oficina Joven Comunidad de Madrid. TIVE. Calle de Fernando el Católico" ;
 	base:tieneHorario "De lunes a viernes de 9 a 14 horas  Desde el 1 de abril hasta el 30 de septiembre de 9 a 19 horas., ininterrumpidamente, para todos los servicios excepto para las inscripciones en actividades organizadas por la Dirección General de Juventud y Deportes, que sólo se realizarán de 9 a 14 horas." ;
 	base:tieneEquipamiento "Obtención de carnets internacionales   Estudiante  (ISIC)   Profesor  (ITIC)   International Youth Travel Card (IYTC)  Albergues Juveniles  Carné Joven    Reservas en albergues juveniles internacionales  Cursos de idiomas en el extranjero  Seguros de viajes  Billetes de bus nacional e internacional  Billetes de tren nacional y emisión de billetes interRaíl  Oficina de Información Juvenil  Preinscripciones e inscripciones de participantes en campañas de la Dirección General de Juventud" ;
-	base:tieneTelefono "915 437 412" ;
+	vcard:tel "915 437 412" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/OficinaJovenComunidaddeMa> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinaJovenComunidaddeMa> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinaJovenComunidaddeMa> ;
@@ -1755,8 +1757,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinaJovenComunidaddeMa> a base:Direccion ;
 	base:tieneNumero "88"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CHAMBERI> ;
-	base:tieneCodigoPostal "28015"^^xsd:int ;
-	base:tieneCalle "FERNANDO EL CATOLICO" ;
+	locn:postCode "28015"^^xsd:int ;
+	locn:address "FERNANDO EL CATOLICO" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Chamberi_(Madrid)> .
 
@@ -1771,7 +1773,7 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/OficinaJovenComunidaddeMa> base:tieneNombre "Oficina Joven Comunidad de Madrid. TIVE. Calle de Recoletos" ;
 	base:tieneHorario "De lunes a viernes de 9 a 14 horas" ;
 	base:tieneEquipamiento "Obtención de carnets internacionales   Estudiante  (ISIC)   Profesor  (ITIC)       International Youth Travel Card   (IYTC)   Albergues Juveniles  Carné Joven    Oficina de Información Juvenil" ;
-	base:tieneTelefono "901 510 610 / 912 767 563" .
+	vcard:tel "901 510 610 / 912 767 563" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/OficinaJovenComunidaddeMa> base:hayTransportePublico "bus: 1, 5, 9, 14, 19, 27, 37, 45, 51, 53, 74, 150" .
 
@@ -1780,8 +1782,8 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/OficinaJovenComunidaddeMa> base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/SALAMANCA> ;
-	base:tieneCodigoPostal "28001"^^xsd:int ;
-	base:tieneCalle "RECOLETOS" ;
+	locn:postCode "28001"^^xsd:int ;
+	locn:address "RECOLETOS" ;
 	owl:sameAs <http://dbpedia.org/resource/Salamanca_(Madrid)> .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Bus/OficinaJovenComunidaddeMa> base:hayBus "1, 5, 9, 14, 19, 27, 37, 45, 51, 53, 74, 150 " .
@@ -1790,7 +1792,7 @@ Información turística y cultural: 902 100 007
 	base:tieneNombre "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid -  Barajas Terminal 2" ;
 	base:tieneHorario "De lunes a domingo de 9 a 20 horas" ;
 	base:tieneEquipamiento "Punto de información sobre la oferta turística y cultural de Madrid.  Atención presencial  Autoconsulta  Audiovisuales  Certificado  ICTE  de  Q de calidad turística  Norma  UNE  187003:2008" ;
-	base:tieneTelefono "914 544 410 (nformación turística y Programa de Visitas Guiadas Oficiales)" ;
+	vcard:tel "914 544 410 (nformación turística y Programa de Visitas Guiadas Oficiales)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PuntodeInformacionTuristi> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PuntodeInformacionTuristi> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/PuntodeInformacionTuristi> ;
@@ -1808,8 +1810,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PuntodeInformacionTuristi> a base:Direccion ;
 	base:tieneNumero "0"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/BARAJAS> ;
-	base:tieneCodigoPostal "28042"^^xsd:int ;
-	base:tieneCalle "HISPANIDAD" ;
+	locn:postCode "28042"^^xsd:int ;
+	locn:address "HISPANIDAD" ;
 	base:tieneTipoVia "AVENIDA" ;
 	owl:sameAs <http://dbpedia.org/resource/Barajas_(district)> .
 
@@ -1823,7 +1825,7 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#OficinaTurismo/PuntodeInformacionTuristi> base:tieneNombre "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid - Barajas Terminal 4" ;
 	base:tieneEquipamiento "Punto de información sobre la oferta turística y cultural de Madrid.  Atención presencial  Autoconsulta  Audiovisuales  Accesibilidad: mostrador adaptado  Certificados  ICTE  de Q de calidad turística Norma  UNE  187003:2008" ;
-	base:tieneTelefono "914 544 410 (información turística y Programa Visitas Guiadas Oficiales)" .
+	vcard:tel "914 544 410 (información turística y Programa Visitas Guiadas Oficiales)" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/PuntodeInformacionTuristi> base:hayTransportePublico "metro: aeropuerto t 4 (línea 8)  bus: 200 y exprés aeropuerto  renfe: aeropuerto t 4" .
 
@@ -1845,8 +1847,8 @@ Información turística y cultural: 902 100 007
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PuntodeInformacionTuristi> base:tieneNumero "1"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "CALLAO" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "CALLAO" ;
 	base:tieneTipoVia "PLAZA" ;
 	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
 
@@ -1863,8 +1865,8 @@ Información turística y cultural: 902 100 007
 	geo:long "-3.692.206.111.679.650"^^xsd:double .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PuntodeInformacionTuristi> base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/RETIRO> ;
-	base:tieneCodigoPostal "28014"^^xsd:int ;
-	base:tieneCalle "CIBELES" ;
+	locn:postCode "28014"^^xsd:int ;
+	locn:address "CIBELES" ;
 	owl:sameAs <http://dbpedia.org/resource/Retiro_(Madrid)> .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PuntodeInformacionTuristi> base:hayMetro "banco de españa (línea 2)" .
@@ -1883,8 +1885,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/PuntodeInformacionTuristi> geo:lat "4.041.213.027.498.250"^^xsd:double ;
 	geo:long "-36.994.547.941.964.900"^^xsd:double .
 
-<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PuntodeInformacionTuristi> base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "SANTA ISABEL" ;
+<http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/PuntodeInformacionTuristi> locn:postCode "28012"^^xsd:int ;
+	locn:address "SANTA ISABEL" ;
 	base:tieneTipoVia "CALLE" .
 
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Metro/PuntodeInformacionTuristi> base:hayMetro "atocha (línea 1)" .
@@ -1902,7 +1904,7 @@ Información turística y cultural: 902 100 007
 	base:tieneNombre "Servicio de Atención al Turista Extranjero (SATE). Comisaría de Centro" ;
 	base:tieneDescripcion "El Servicio de Atención al Turista Extranjero - SATE - es un servicio especializado gestionado por la Empresa Municipal Madrid Destino, Cultura, Turismo y Negocio, S.A en colaboración con la Policia Nacional que tiene por finalidad atender al turista que, durante su estancia en Madrid, haya vivido una situación excepcional y requiera de apoyo policial" ;
 	base:tieneHorario "Todos los días de 9 a 24 horas" ;
-	base:tieneTelefono "902 102 112 (denuncias 24 horas. Policía)" ;
+	vcard:tel "902 102 112 (denuncias 24 horas. Policía)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ServiciodeAtencionalTuris> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ServiciodeAtencionalTuris> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ServiciodeAtencionalTuris> ;
@@ -1920,8 +1922,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ServiciodeAtencionalTuris> a base:Direccion ;
 	base:tieneNumero "19"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28013"^^xsd:int ;
-	base:tieneCalle "LEGANITOS" ;
+	locn:postCode "28013"^^xsd:int ;
+	locn:address "LEGANITOS" ;
 	base:tieneTipoVia "CALLE" ;
 	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
 
@@ -1938,7 +1940,7 @@ Información turística y cultural: 902 100 007
 	base:tieneDescripcion "Información turística telefónica, por correo postal, correo electrónico y a través de la aplicación de chat de la página web  http://www.esmadrid.com/" ;
 	base:tieneHorario "De lunes a domingo de 9:30 a 20:30 horas" ;
 	base:tieneEquipamiento "Atiende aquellas consultas sobre la oferta turística de la ciudad, recibidas a través de teléfono, correo postal, correo electrónico y servicio de chat de la página  www.esmadrid.com.   Certificado  ICTE  de Q de calidad turística Norma  UNE  187003:2008" ;
-	base:tieneTelefono "914 544 410 (información turística y Programa Visitas Guiadas Oficiales)" ;
+	vcard:tel "914 544 410 (información turística y Programa Visitas Guiadas Oficiales)" ;
 	base:estaEnPosicion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Posicion/ServicioNoPresencialdeInf> ;
 	base:tieneDireccion <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ServicioNoPresencialdeInf> ;
 	base:tieneTransportePublico <http://puntosinteres.madrid.es/group04/ontology/puntointeres#TransportePublico/ServicioNoPresencialdeInf> ;
@@ -1955,8 +1957,8 @@ Información turística y cultural: 902 100 007
 <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Direccion/ServicioNoPresencialdeInf> a base:Direccion ;
 	base:tieneNumero "27"^^xsd:int ;
 	base:estaEnDistrito <http://puntosinteres.madrid.es/group04/ontology/puntointeres#Distrito/CENTRO> ;
-	base:tieneCodigoPostal "28012"^^xsd:int ;
-	base:tieneCalle "MAYOR" ;
+	locn:postCode "28012"^^xsd:int ;
+	locn:address "MAYOR" ;
 	base:tieneTipoVia "PLAZA" ;
 	owl:sameAs <http://dbpedia.org/resource/Centro_(Madrid)> .
 

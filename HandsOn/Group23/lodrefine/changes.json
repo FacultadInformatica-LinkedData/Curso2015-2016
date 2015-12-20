@@ -4,7 +4,7 @@
     "description": "Split multi-valued cells in column TELEFONO",
     "columnName": "TELEFONO",
     "keyColumnName": "PK",
-    "separator": "/", 
+    "separator": "/",
     "mode": "plain"
   },
   {
@@ -4690,7 +4690,7 @@
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
-      "baseUri": "http://edumadrid.linkeddata.es/EducactionCenters/",
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
       "prefixes": [
         {
           "name": "schema",
@@ -4705,8 +4705,24 @@
           "uri": "http://www.w3.org/2002/07/owl#"
         },
         {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
           "name": "rdfs",
           "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
         }
       ],
       "rootNodes": [
@@ -4997,6 +5013,4118 @@
               }
             }
           ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasSchedule",
+              "curie": ":hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "hasFloor",
+              "curie": ":hasFloor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasSchedule",
+              "curie": ":hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasName",
+              "curie": "vcard:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "hasFloor",
+              "curie": ":hasFloor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasSchedule",
+              "curie": ":hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasName",
+              "curie": "vcard:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasEquipment",
+              "curie": ":hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "hasFloor",
+              "curie": ":hasFloor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasSchedule",
+              "curie": ":hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasName",
+              "curie": "vcard:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasEquipment",
+              "curie": ":hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontologies.smile.deri.ie/pdo#hasDescription",
+              "curie": "pdo:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "hasFloor",
+              "curie": ":hasFloor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasSchedule",
+              "curie": ":hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasName",
+              "curie": "vcard:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasEquipment",
+              "curie": ":hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontologies.smile.deri.ie/pdo#hasDescription",
+              "curie": "pdo:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "hasFloor",
+              "curie": ":hasFloor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasSchedule",
+              "curie": ":hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasName",
+              "curie": "vcard:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasEquipment",
+              "curie": ":hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontologies.smile.deri.ie/pdo#hasDescription",
+              "curie": "pdo:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "hasFloor",
+              "curie": ":hasFloor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "pext",
+          "uri": "http://www.ontotext.com/proton/protonext#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasSchedule",
+              "curie": ":hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasName",
+              "curie": "vcard:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasEquipment",
+              "curie": ":hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontologies.smile.deri.ie/pdo#hasDescription",
+              "curie": "pdo:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "hasFloor",
+              "curie": ":hasFloor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "pext",
+          "uri": "http://www.ontotext.com/proton/protonext#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasSchedule",
+              "curie": ":hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasName",
+              "curie": "vcard:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasEquipment",
+              "curie": ":hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontologies.smile.deri.ie/pdo#hasDescription",
+              "curie": "pdo:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.ontotext.com/proton/protonext#hasWebPage",
+              "curie": "pext:hasWebPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "hasFloor",
+              "curie": ":hasFloor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "pext",
+          "uri": "http://www.ontotext.com/proton/protonext#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasSchedule",
+              "curie": ":hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasName",
+              "curie": "vcard:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasEquipment",
+              "curie": ":hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontologies.smile.deri.ie/pdo#hasDescription",
+              "curie": "pdo:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.ontotext.com/proton/protonext#hasWebPage",
+              "curie": "pext:hasWebPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasAccessibility",
+              "curie": ":hasAccessibility",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasEmail",
+              "curie": "vcard:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "hasFloor",
+              "curie": ":hasFloor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "pext",
+          "uri": "http://www.ontotext.com/proton/protonext#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasSchedule",
+              "curie": ":hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasName",
+              "curie": "vcard:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasEquipment",
+              "curie": ":hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontologies.smile.deri.ie/pdo#hasDescription",
+              "curie": "pdo:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.ontotext.com/proton/protonext#hasWebPage",
+              "curie": "pext:hasWebPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasAccessibility",
+              "curie": ":hasAccessibility",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasEmail",
+              "curie": "vcard:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://www.ontotext.com/proton/protonext#hasFax",
+              "curie": "pext:hasFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "hasFloor",
+              "curie": ":hasFloor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LOCALIDAD",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PROVINCIA",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "pext",
+          "uri": "http://www.ontotext.com/proton/protonext#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasSchedule",
+              "curie": ":hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasName",
+              "curie": "vcard:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasEquipment",
+              "curie": ":hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontologies.smile.deri.ie/pdo#hasDescription",
+              "curie": "pdo:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.ontotext.com/proton/protonext#hasWebPage",
+              "curie": "pext:hasWebPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasAccessibility",
+              "curie": ":hasAccessibility",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasEmail",
+              "curie": "vcard:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://www.ontotext.com/proton/protonext#hasFax",
+              "curie": "pext:hasFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "hasFloor",
+              "curie": ":hasFloor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LOCALIDAD",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PROVINCIA",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column COORDENADAS at index 24 based on column LATITUD using expression grel:cells[\"LATITUD\"].value + \" ; \" + cells[\"LONGITUD\"].value",
+    "engineConfig": {
+      "mode": "record-based",
+      "facets": []
+    },
+    "newColumnName": "COORDENADAS",
+    "columnInsertIndex": 24,
+    "baseColumnName": "LATITUD",
+    "expression": "grel:cells[\"LATITUD\"].value + \" ; \" + cells[\"LONGITUD\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "pext",
+          "uri": "http://www.ontotext.com/proton/protonext#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasSchedule",
+              "curie": ":hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasName",
+              "curie": "vcard:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasEquipment",
+              "curie": ":hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontologies.smile.deri.ie/pdo#hasDescription",
+              "curie": "pdo:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.ontotext.com/proton/protonext#hasWebPage",
+              "curie": "pext:hasWebPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasAccessibility",
+              "curie": ":hasAccessibility",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasEmail",
+              "curie": "vcard:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://www.ontotext.com/proton/protonext#hasFax",
+              "curie": "pext:hasFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#geo",
+              "curie": "vcard:geo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADAS"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "hasFloor",
+              "curie": ":hasFloor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LOCALIDAD",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PROVINCIA",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "pext",
+          "uri": "http://www.ontotext.com/proton/protonext#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasSchedule",
+              "curie": ":hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasName",
+              "curie": "vcard:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasEquipment",
+              "curie": ":hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontologies.smile.deri.ie/pdo#hasDescription",
+              "curie": "pdo:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.ontotext.com/proton/protonext#hasWebPage",
+              "curie": "pext:hasWebPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasAccessibility",
+              "curie": ":hasAccessibility",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasEmail",
+              "curie": "vcard:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://www.ontotext.com/proton/protonext#hasFax",
+              "curie": "pext:hasFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#geo",
+              "curie": "vcard:geo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADAS"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "hasFloor",
+              "curie": ":hasFloor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LOCALIDAD",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PROVINCIA",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "pext",
+          "uri": "http://www.ontotext.com/proton/protonext#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasSchedule",
+              "curie": ":hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasName",
+              "curie": "vcard:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasEquipment",
+              "curie": ":hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontologies.smile.deri.ie/pdo#hasDescription",
+              "curie": "pdo:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.ontotext.com/proton/protonext#hasWebPage",
+              "curie": "pext:hasWebPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasAccessibility",
+              "curie": ":hasAccessibility",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasEmail",
+              "curie": "vcard:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://www.ontotext.com/proton/protonext#hasFax",
+              "curie": "pext:hasFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#geo",
+              "curie": "vcard:geo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADAS"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "hasFloor",
+              "curie": ":hasFloor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LOCALIDAD",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PROVINCIA",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "pext",
+          "uri": "http://www.ontotext.com/proton/protonext#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasSchedule",
+              "curie": ":hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasName",
+              "curie": "vcard:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasEquipment",
+              "curie": ":hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontologies.smile.deri.ie/pdo#hasDescription",
+              "curie": "pdo:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.ontotext.com/proton/protonext#hasWebPage",
+              "curie": "pext:hasWebPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasAccessibility",
+              "curie": ":hasAccessibility",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasEmail",
+              "curie": "vcard:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://www.ontotext.com/proton/protonext#hasFax",
+              "curie": "pext:hasFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#geo",
+              "curie": "vcard:geo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADAS"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "hasFloor",
+              "curie": ":hasFloor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LOCALIDAD",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PROVINCIA",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "pext",
+          "uri": "http://www.ontotext.com/proton/protonext#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasSchedule",
+              "curie": ":hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasName",
+              "curie": "vcard:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasEquipment",
+              "curie": ":hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontologies.smile.deri.ie/pdo#hasDescription",
+              "curie": "pdo:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.ontotext.com/proton/protonext#hasWebPage",
+              "curie": "pext:hasWebPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasAccessibility",
+              "curie": ":hasAccessibility",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasEmail",
+              "curie": "vcard:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://www.ontotext.com/proton/protonext#hasFax",
+              "curie": "pext:hasFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#geo",
+              "curie": "vcard:geo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADAS"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "hasFloor",
+              "curie": ":hasFloor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LOCALIDAD",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PROVINCIA",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://edumadrid.linkeddata.es/EducactionalCenters/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://edumadrid.linkeddata.es/EducactionCenters/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "city",
+          "uri": "http://dbpedia.org/ontology/city"
+        },
+        {
+          "name": "pext",
+          "uri": "http://www.ontotext.com/proton/protonext#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "pdo",
+          "uri": "http://ontologies.smile.deri.ie/pdo#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        },
+        {
+          "name": "nco",
+          "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasSchedule",
+              "curie": ":hasSchedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasName",
+              "curie": "vcard:hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasEquipment",
+              "curie": ":hasEquipment",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontologies.smile.deri.ie/pdo#hasDescription",
+              "curie": "pdo:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.ontotext.com/proton/protonext#hasWebPage",
+              "curie": "pext:hasWebPage",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasAccessibility",
+              "curie": ":hasAccessibility",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasEmail",
+              "curie": "vcard:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://www.ontotext.com/proton/protonext#hasFax",
+              "curie": "pext:hasFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#geo",
+              "curie": "vcard:geo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADAS"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE-VIA",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticdesktop.org/ontologies/2007/03/22/nco#hasPostalAddress",
+              "curie": "nco:hasPostalAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasClassAddress",
+              "curie": ":hasClassAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "hasNumber",
+              "curie": ":hasNumber",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "hasFloor",
+              "curie": ":hasFloor",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PLANTA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "LOCALIDAD",
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PROVINCIA",
+          "rdfTypes": [],
+          "links": []
         },
         {
           "nodeType": "cell-as-resource",

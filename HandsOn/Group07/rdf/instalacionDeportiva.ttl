@@ -1,0 +1,89 @@
+@base <http://www.semanticweb.org/> .
+@prefix datosbne: <http://www.semanticweb.org/instances/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dctype:	<http://purl.org/dc/dcmitype/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard:	<http://www.w3.org/2006/vcard/ns#> .
+@prefix rdflicense:	<http://purl.org/NET/rdflicense/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix ont: <http://linkedgeodata.org/ontology/SportsCentre> .
+
+:catalog
+	a dcat:Catalog ;
+	dct:title "Dataset of sports facilities in Madrid"@en , "Dataset de las instalaciones deportivas de Madrid"@es ;
+	rdfs:label "datos.madrid.es RDF catalog"@en , "Catálogo RDF datos.madrid.es RDF"@es ;
+	foaf:homepage <http://datos.madrid.es/portal/site/egob/> ;
+	dct:creator <http://datos.madrid.es>
+	dct:source <http://datos.madrid.es>
+	dct:publisher ssanchezd ;
+	dct:publisher juanekele ;
+	dct:publisher davidboces ;
+	dct:publisher SergiuDC ;
+	dct:license rdflicense:cc-zero1.0 ;
+	dct:language <http://lexvo.org/id/iso639-3/spa> ;
+	dcat:dataset :InstalacionDeportiva, :Direccion ;
+	.
+
+# InstalacionDeportiva
+:InstalacionDeportiva
+	a dcat:Dataset ;
+	dct:title "Sports facilities in Madrid of datos.madrid.es"@en, "Instalaciones deportivas de Madrid de datos.madrid.es"@es  ;
+	dcat:keyword "InstalacionDeportiva"@en, "InstalacionDeportiva"@es ;
+	dct:issued "2015-12-20"^^xsd:date ;
+    dct:modified "2015-12-20"^^xsd:date ;
+    dcat:description "Instalaciones deportivas de Madrid" ;
+    dcat:distribution :InstalacionDeportiva-nt, :sparql ;
+	dct:license rdflicense:cc-zero1.0 ;
+    .
+	
+:InstalacionDeportiva-nt
+	a dcat:Distribution ;
+	dcat:downloadURL <http://datos.madrid.es/egob/catalogo/200215-0-instalaciones-deportivas.csv> ;
+	dct:title "Distribution of Sports facilities in Madrid"@en , "Distribución de Instalaciones deportivas de Madrid"@es ;
+    dcat:mediaType "application/csv" ;
+    dct:license rdflicense:cc-zero1.0 ;
+    .
+	
+:InstalacionDeportiva
+a void:Dataset;
+void:exampleResource <http://www.semanticweb.org/Group07/Instance#> .
+void:uriSpace "http://semanticweb.org/Group07/Instances#" .
+
+# Direccion
+:Direccion
+	a dcat:Dataset ;
+	dct:title "Direction in Madrid of datos.madrid.es"@en, "Direccion de Madrid de datos.madrid.es"@es  ;
+	dcat:keyword "Direccion"@en, "Direccion"@es ;
+	dct:issued "2015-12-20"^^xsd:date ;
+    dct:modified "2015-12-20"^^xsd:date ;
+    dcat:description "Direccion de Madrid" ;
+    dcat:distribution :Direccion-nt, :sparql ;
+	dct:license rdflicense:cc-zero1.0 ;
+    .
+	
+:Direccion-nt
+	a dcat:Distribution ;
+	dcat:downloadURL <http://datos.madrid.es/egob/catalogo/200215-0-instalaciones-deportivas.csv> ;
+	dct:title "Distribution of direction in Madrid"@en , "Distribución de direccion de Madrid"@es ;
+    dcat:mediaType "application/csv" ;
+    dct:license rdflicense:cc-zero1.0 ;
+    .
+	
+:Direccion
+a void:Dataset;
+void:exampleResource <http://www.semanticweb.org/Group07/Instance#> .
+void:uriSpace "http://semanticweb.org/Group07/Instances#" .
+
+:sparql
+	a dcat:Distribution ;
+	void:sparqlEndpoint <http://group07.es/sparql> ;
+	dcat:accessURL <http://group07.es/sparql> ;
+	dct:title "Public SPARQL endpoint of group07.es"@en , "Acceso público SPARQL de group07.es"@es ;
+    dct:license rdflicense:cc-zero1.0 ;
+	.

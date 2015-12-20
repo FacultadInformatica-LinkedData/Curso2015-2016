@@ -1,0 +1,731 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/group15/ontology,owl#"
+     xml:base="http://www.semanticweb.org/group15/ontology,owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/group15/ontology,owl">
+        <rdfs:comment>The semanticweb ontology that describes various activities and parkings</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#NumeroPlazasResidentes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#NumeroPlazasResidentes">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#NumeroPlazasResidentes"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;int"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#TieneDistrito -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#TieneDistrito">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#TieneDistrito"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#TieneDistrito"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#esGratuito -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#esGratuito">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#esGratuito"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;boolean"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneAccesibilidad -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneAccesibilidad">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneAccesibilidad"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;boolean"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneActividad -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneActividad">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneActividad"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneBarrio -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneBarrio">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneBarrio"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneCodigoPostal -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneCodigoPostal">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneCodigoPostal"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;int"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneCoordenadaX -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneCoordenadaX">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneCoordenadaX"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;int"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneCoordenadaX2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneCoordenadaX2">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneCoordenadaX2"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;int"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneCoordenadaY -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneCoordenadaY">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;int"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneCoordenadaY"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneCoordenadaY2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneCoordenadaY2">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneCoordenadaY2"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;int"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneDescripcion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneDescripcion">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneDescripcion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneFechaFin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneFechaFin">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;dateTime"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneFechaFin"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneFechaInicio -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneFechaInicio">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;dateTime"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneFechaInicio"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneHora -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneHora">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneHora"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneInstalacion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneInstalacion">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneInstalacion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneLargaDuracion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneLargaDuracion">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;boolean"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneLargaDuracion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneLatitud -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneLatitud">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;double"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneLatitud"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneLatitud2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneLatitud2">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneLatitud2"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;double"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneLocalidad -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneLocalidad">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneLocalidad"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneLongitud -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneLongitud">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;double"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneLongitud"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneLongitud2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneLongitud2">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;double"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneLongitud2"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneNombre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneNombre">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneNombre"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneNombreVia -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneNombreVia">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneNombreVia"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneNumero -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneNumero">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;int"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneNumero"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneNumeroPlazasPublicas -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneNumeroPlazasPublicas">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;int"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneNumeroPlazasPublicas"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneProvincia -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneProvincia">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneProvincia"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneTipo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneTipo">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneTipo"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneTipo2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneTipo2">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneTipo2"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneTipoNumero -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneTipoNumero">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneTipoNumero"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;int"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneTitulo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneTitulo">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneTitulo"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneURL -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneURL">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneURL"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneURL2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneURL2">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneURL2"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneURLactividad -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneURLactividad">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneURLactividad"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#tieneURLinstalacion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/group15/ontology,owl#tieneURLinstalacion">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&owl;topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/group15/ontology,owl#tieneURLinstalacion"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#Actividad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/group15/ontology,owl#Actividad"/>
+    
+
+
+    <!-- http://www.semanticweb.org/group15/ontology,owl#Aparcamiento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/group15/ontology,owl#Aparcamiento"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,286 @@
+[
+  {
+    "op": "core/column-addition",
+    "description": "Create column Plazas publicas at index 7 based on column DESCRIPCION using expression grel:value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Plazas publicas",
+    "columnInsertIndex": 7,
+    "baseColumnName": "DESCRIPCION",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Plazas residentes at index 8 based on column Plazas publicas using expression grel:value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Plazas residentes",
+    "columnInsertIndex": 8,
+    "baseColumnName": "Plazas publicas",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Plazas publicas",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Plazas publicas",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "  Plazas:  318 públicas y 298 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid "
+        ],
+        "to": 318
+      }
+    ]
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Plazas residentes",
+    "columnName": "Plazas residentes"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Plazas residentes at index 8 based on column Plazas publicas using expression grel:value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "Plazas residentes",
+    "columnInsertIndex": 8,
+    "baseColumnName": "Plazas publicas",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PLANTA",
+    "columnName": "PLANTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PUERTA",
+    "columnName": "PUERTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ESCALERAS",
+    "columnName": "ESCALERAS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ORIENTACION",
+    "columnName": "ORIENTACION"
+  },
+  {
+    "op": "core/row-flag",
+    "description": "Flag rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "flagged": true
+  },
+  {
+    "op": "core/row-flag",
+    "description": "Unflag rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "flagged": false
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column LOCALIDAD",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "LOCALIDAD",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MADRID"
+        ],
+        "to": "Madrid"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column PROVINCIA",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PROVINCIA",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "MADRID"
+        ],
+        "to": "Madrid"
+      }
+    ]
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column LOCALIDAD to type http://dbpedia.org/ontology/Place",
+    "columnName": "LOCALIDAD",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/789",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Place",
+        "name": "dbo:Place"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column PROVINCIA to type http://dbpedia.org/ontology/Place",
+    "columnName": "PROVINCIA",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/789",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Place",
+        "name": "dbo:Place"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column CLASE-VIAL",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CLASE-VIAL",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "AVENIDA"
+        ],
+        "to": "Avenida"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column CLASE-VIAL",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CLASE-VIAL",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE"
+        ],
+        "to": "Calle"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column CLASE-VIAL",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CLASE-VIAL",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PASEO"
+        ],
+        "to": "Paseo"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column CLASE-VIAL",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CLASE-VIAL",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLAZA"
+        ],
+        "to": "Plaza"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column BARRIO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "BARRIO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "SOL"
+        ],
+        "to": "Sol"
+      }
+    ]
+  }
+]

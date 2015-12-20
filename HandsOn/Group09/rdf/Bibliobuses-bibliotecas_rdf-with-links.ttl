@@ -7,15 +7,15 @@
 <http://www.semanticweb.org/gupo09/resource/Bibliobus+numero+10.+Recorrido+semanal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "6430067"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Bibliobus numero 10. Recorrido semanal" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> " Consulte en   documentaciÃ³n asociada   el detalle del Horario de invierno. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " Consulte en   documentacion asociada   el detalle del Horario de invierno. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=734a6e6b06637310VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "Servicio itinerante" .
 
-<http://www.semanticweb.org/gupo09/resource/MADRID> owl:sameAs "http://es.dbpedia.org/resource/Madrid,_Madrid" .
+<http://www.semanticweb.org/gupo09/resource/MADRID> owl:sameAs <http://es.dbpedia.org/resource/Madrid,_Madrid> .
 
 <http://www.semanticweb.org/gupo09/resource/Bibliobus+numero+10.+Recorrido+semanal> <http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> .
 
-<http://www.semanticweb.org/gupo09/resource/MADRID> owl:sameAs "http://dbpedia.org/resource/Category:Madrid" .
+<http://www.semanticweb.org/gupo09/resource/MADRID> owl:sameAs <http://dbpedia.org/resource/Category:Madrid> .
 
 <http://www.semanticweb.org/gupo09/resource/Bibliobus+numero+10.+Recorrido+semanal> <http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
 	<http://www.semanticweb.org/gupo09#coordenadaX> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
@@ -25,7 +25,7 @@
 <http://www.semanticweb.org/gupo09/resource/Bibliobus+numero+11.+Recorrido+semanal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "6431159"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Bibliobus numero 11. Recorrido semanal" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> " Consulte en   documentaciÃ³n asociada   el detalle del horario de invierno. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " Consulte en   documentacion asociada   el detalle del horario de invierno. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1d69b5f1cea37310VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "Servicio itinerante" ;
 	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
@@ -37,7 +37,7 @@
 <http://www.semanticweb.org/gupo09/resource/Bibliobus+numero+12.+Recorrido+semanal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "6432104"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Bibliobus numero 12. Recorrido semanal" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> " Consulte en   documentaciÃ³n asociada   el detalle del Horario de invierno. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " Consulte en   documentacion asociada   el detalle del Horario de invierno. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7a70ded3cbb37310VgnVCM2000000c205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "Servicio itinerante" ;
 	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
@@ -49,7 +49,7 @@
 <http://www.semanticweb.org/gupo09/resource/Bibliobus+numero+13.+Recorrido+semanal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "6435986"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Bibliobus numero 13. Recorrido semanal" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> " Consulte en   documentaciÃ³n asociada   el detalle del Horario de invierno. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " Consulte en   documentacion asociada   el detalle del Horario de invierno. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=18cc33935b957310VgnVCM2000000c205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "Servicio itinerante" ;
 	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
@@ -61,7 +61,7 @@
 <http://www.semanticweb.org/gupo09/resource/Bibliobus+numero+2.+Recorrido+quincenal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "7110421"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Bibliobus numero 2. Recorrido quincenal" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> "Consulte en   documentaciÃ³n asociada   el detalle del Horario de invierno."^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "Consulte en   documentacion asociada   el detalle del Horario de invierno."^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=88626db26d531410VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "Servicio itinerante" ;
 	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
@@ -84,7 +84,7 @@
 <http://www.semanticweb.org/gupo09/resource/Bibliobus+numero+9.+Recorrido+semanal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "6429143"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Bibliobus numero 9. Recorrido semanal" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> " Consulte en   documentaciÃ³n asociada   el detalle del Horario de invierno. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " Consulte en   documentacion asociada   el detalle del Horario de invierno. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a60438972b537310VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "Servicio itinerante" ;
 	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
@@ -96,7 +96,7 @@
 <http://www.semanticweb.org/gupo09/resource/Bibliometro> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "7902770"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Bibliometro" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " El  Bibliometro  es un servicio de extensiÃ³n bibliotecaria destinado al fomento de la lectura mediante el prÃ©stamo gratuito de libros en el Metro de Madrid.  Promovido conjuntamente por el Ayuntamiento de Madrid y la Comunidad de Madrid en colaboraciÃ³n con Metro, el Bibliometro es el primer servicio comÃºn a los dos sistemas de Bibliotecas PÃºblicas del Ayuntamiento de Madrid y la Comunidad de Madrid.  El servicio gestionado por el Ayuntamiento de Madrid se centraliza en la Unidad TÃ©cnica de Bibliotecas PÃºblicas, localizada en la calle PrÃ­ncipe de Vergara, 140. " ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " El  Bibliometro  es un servicio de extension bibliotecaria destinado al fomento de la lectura mediante el prestamo gratuito de libros en el Metro de Madrid.  " ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> "  Horario:  de 13.30 a 20.00 de lunes a viernes, excepto festivos.  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3d2cd4bdf66bb410VgnVCM1000000b205a0aRCRD> .
 
@@ -117,7 +117,7 @@
 <http://www.semanticweb.org/gupo09/resource/Bibliored> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "8053214"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Bibliored" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " El  Bibliored  es un servicio de extensiÃ³n bibliotecaria destinado al fomento de la lectura mediante el prÃ©stamo gratuito de libros, un proyecto similar al de Bibliometro pero en la superficie.  Existen dos mÃ³dulos de Bibliored: el de Cuatro Caminos y el de Sanchinarro, situados dentro de un centro juvenil y un centro cultural respectivamente.  El servicio, gestionado por el Ayuntamiento de Madrid, se centraliza en la Unidad TÃ©cnica de Bibliotecas PÃºblicas, localizada en la calle PrÃ­ncipe de Vergara, 140. " ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " El  Bibliored  es un servicio de extension bibliotecaria destinado al fomento de la lectura mediante el prestamo gratuito de libros, un proyecto similar al de Bibliometro pero en la superficie. " ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> "  Horario:  de 13.30 a 20.00 de lunes a viernes, excepto festivos.  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=917c40221457d410VgnVCM2000000c205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/PRINCIPE+DE+VERGARA> ;
@@ -135,8 +135,8 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Historica+Municipal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1881"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Historica Municipal" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " El origen de la  Biblioteca HistÃ³rica Municipal  fue la formaciÃ³n de una colecciÃ³n de libros sobre Madrid. Creada como Biblioteca Municipal en 1876 a iniciativa de RamÃ³n de Mesonero Romanos, en 1990 recibe la denominaciÃ³n de HistÃ³rica y se constituye en un centro para la investigaciÃ³n. Su principal objetivo es la protecciÃ³n del legado patrimonial bibliogrÃ¡fico y su difusiÃ³n.   Entre sus  colecciones especiales  estÃ¡n las siguientes: Madrid, Teatro y MÃºsica (manuscritos e impresos de los siglos  XVII  a  XIX ), Bio-bibliografÃ­a (ColecciÃ³n BeltrÃ¡n), ParemiologÃ­a, Raros, Veterinaria, Guerra Civil EspaÃ±ola (ColecciÃ³n TomÃ¡s BorrÃ¡s), Lope de Vega, Cervantes y Toros. " ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> "  Horario : de lunes a viernes de 8:30 a 14:30 horas.   Cerrada  festivos y los dÃ­as 24 y 31 de diciembre. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " El origen de la  Biblioteca Historica Municipal  fue la formacion de una coleccion de libros sobre Madrid. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Horario : de lunes a viernes de 8:30 a 14:30 horas.   Cerrada  festivos y los dias 24 y 31 de diciembre. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ccbc3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/CONDE+DUQUE> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
@@ -153,8 +153,8 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Musical+Victor+Espinos> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "6779450"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Musical Victor Espinos" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> "   La  Biblioteca Musical VÃ­ctor EspinÃ³s  fue fundada en 1919 a propuesta de VÃ­ctor EspinÃ³s como  Biblioteca Musical Circulante . Es un centro creado para la difusiÃ³n y fomento de la educaciÃ³n musical y desde sus comienzos tiene un marcado carÃ¡cter de servicio pÃºblico, abierto a todo tipo de usuarios. En 1932 se inicia un servicio pionero de prÃ©stamo de instrumentos cuyo fin es facilitar el estudio musical. " ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21:00 horas.   Cerrado  festivos y los dÃ­as 24 y 31 de diciembre. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "   La  Biblioteca Musical Victor Espinos  fue fundada en 1919 a propuesta de Vi­ctor Espinos como  Biblioteca Musical Circulante . " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21:00 horas.   Cerrado  festivos y los dias 24 y 31 de diciembre. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d482270f58c6c310VgnVCM2000000c205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/CONDE+DUQUE> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
@@ -171,7 +171,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Acuna> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1771"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Acuna" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> "  SecciÃ³n de adultos:  de lunes a viernes de 9 a 21 horas. SÃ¡bados de 9 a 14 horas.   SecciÃ³n infantil/juvenil:  de lunes a viernes de 15 a 21 horas. SÃ¡bados de 9 a 14 horas.   Servicio de prÃ©stamo y acceso a internet:  lunes a viernes de 9 a 20:45 horas; sÃ¡bados de 9 a 13:45 horas "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Seccion de adultos:  de lunes a viernes de 9 a 21 horas. Sabados de 9 a 14 horas.   Seccion infantil/juvenil:  de lunes a viernes de 15 a 21 horas."^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e9ad995a8bf5d010VgnVCM2000000c205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/QUINTANA> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
@@ -188,7 +188,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Canillejas> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1767"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Canillejas" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> "  Adultos:  lunes, jueves y viernes de 9 a 14 horas. Martes y miÃ©rcoles de 16 a 20:45 horas.   La biblioteca infantil estÃ¡ cerrada hasta nuevo aviso.   DÃ­as de cierre 2015 :   Fines de semana y festivos  Semana Santa (27 de marzo al 6 de abril)  Julio y agosto  DÃ­as no lectivos (13 de febrero; 19 de marzo; 1, 2 y 15 de mayo, 4 de junio)  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Adultos:  lunes, jueves y viernes de 9 a 14 horas. Martes y miercoles de 16 a 20:45 horas.   "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a8cd995a8bf5d010VgnVCM2000000c205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/MUSAS> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
@@ -205,7 +205,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Carabanchel+Luis+Rosales> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "5765642"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Carabanchel Luis Rosales" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 9 a 21 horas.  Fines de semana y festivos, de 11 a 19 horas (excepto el 1 de mayo, 25 de diciembre, 1 de enero y fines de semana y festivos de agosto).   El 24 y 31 de diciembre la biblioteca abrirÃ¡ de 9 a 14 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 9 a 21 horas.  Fines de semana y festivos, de 11 a 19 horas (excepto el 1 de mayo, 25 de diciembre."^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7a73f884ad3f9210VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/ANTONIA+RODRIGUEZ+SACRISTAN> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
@@ -238,7 +238,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+P%C3%83%C2%BAblica+Centro+Pedro+Salinas> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1798"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca PÃºblica Centro Pedro Salinas" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> "  SecciÃ³n de adultos:  de lunes a viernes de 9 a  21 horas    SecciÃ³n infantil/juvenil:  de lunes a viernes de 15 a 21 horas   Cierre del siervicio de prÃ©stamo:  15 minutos antes   DÃ­as de cierre 2015    SÃ¡bados y domingos   1 y 6 de enero; 19 de marzo; 2 y 3 de abril; 1, 2 y 15 de mayo; 4 de junio; 12 de octubre; 9 de noviembre; 8, 24, 25 y 31 de diciembre  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Seccion de adultos:  de lunes a viernes de 9 a  21 horas. Seccion infantil/juvenil:  de lunes a viernes de 15 a 21 horas  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=67ed995a8bf5d010VgnVCM2000000c205a0aRCRD> .
 
 <http://www.semanticweb.org/gupo09/resource/PUERTA+DE+TOLEDO> owl:sameAs "http://dbpedia.org/resource/Gate_of_Toledo" .
@@ -258,7 +258,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Fuencarral+-+El+Pardo.+Rafael+Alberti> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "66904"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Fuencarral - El Pardo. Rafael Alberti" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> "  Secciones de adultos, prensa y audiovisuales : de lunes a viernes de 9 a 21 horas. (PrÃ©stamo hasta las 20:45 horas).; SÃ¡bados de  9 a 14 horas (PrÃ©stamo hasta las 13:45 horas).    SecciÃ³n infantil:  de lunes a viernes de 15 a 21 horas. (PrÃ©stamo hasta las 20:45 horas).; SÃ¡bados de  9 a 14 horas (PrÃ©stamo hasta las 13:45 horas)    Sala de lectura:  de lunes a viernes de 9 a 21 horas. SÃ¡bados de  9 a 14 horas  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Secciones de adultos, prensa y audiovisuales : de lunes a viernes de 9 a 21 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=260e995a8bf5d010VgnVCM2000000c205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/SANGENJO> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
@@ -275,7 +275,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Hortaleza> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1770"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Hortaleza" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a jueves de 9 a 20:30 horas. Viernes de 9 a 14:30 horas  InformaciÃ³n adicional: desde el 1 de julio al 31 de agosto ambos inclusive cerrada por vacaciones. Al estar la biblioteca dentro de un centro docente, los dÃ­as de cierre de la misma se rigen por el  calendario escolar vigente . "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a jueves de 9 a 20:30 horas. Viernes de 9 a 14:30 horas  Informacion adicional: desde el 1 de julio al 31 de agosto ambos inclusive cerrada por vacaciones. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e42e995a8bf5d010VgnVCM2000000c205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/ABERTURA> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
@@ -292,7 +292,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Latina+-+Antonio+Mingote> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "25526"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Latina - Antonio Mingote" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> "  SecciÃ³n de adultos y sala de lectura:  de lunes  a viernes de  9 a 21 horas. SÃ¡bados de 9 a 14 horas.   SecciÃ³n infantil/juvenil:  de lunes  a viernes de  15 a 21 horas. SÃ¡bados de 9 a 14 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Seccion de adultos y sala de lectura:  de lunes  a viernes de  9 a 21 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c73e995a8bf5d010VgnVCM2000000c205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/RAFAEL+FINAT> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
@@ -309,7 +309,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Moratalaz> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1773"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Moratalaz" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> " SecciÃ³n de adultos  e infantil/juvenil: de lunes a viernes de 9 a 21 horas. SÃ¡bados de 9 a 14 horas.  Horario servicio de prÃ©stamo y acceso a Internet:  de lunes a viernes de 9 a 20:45 horas. SÃ¡bados de 9 a 13:45 horas.  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " Seccion de adultos  e infantil/juvenil: de lunes a viernes de 9 a 21 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=457e995a8bf5d010VgnVCM2000000c205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/CORREGIDOR+ALONSO+DE+TOBAR> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
@@ -326,7 +326,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Aluche+%28Latina%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1757"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Aluche (Latina)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca PÃºblica de Aluche se inaugurÃ³ en junio de 1992 con la asistencia del entonces alcalde D. JosÃ© MarÃ­a Alvarez del Manzano. Se sitÃºa en la primera planta del Centro Cultural Fernando de los RÃ­os, diseÃ±ado por el arquitecto JosÃ© MarÃ­a Guijarro. Desde 1986 y hasta la fecha de su inauguraciÃ³n oficial, se encontraba situada en este mismo centro cultural y planta pero en el ala derecha del edificio y con la mitad de superficie. La ubicaciÃ³n de la biblioteca en el centro cultural en la dÃ©cada de los 80  se decidiÃ³ porque Ã©ste era considerado un elemento aglutinador de la vida asociativa y cultural de los distritos.  " ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca PÃºblica de Aluche se inaugurÃ³ en junio de 1992 con la asistencia del entonces alcalde D. Jose Mari­a Alvarez del Manzano. Se situa en la primera planta del Centro Cultural Fernando de los RÃios, disenado por el arquitecto Jose MarÃia Guijarro. " ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7f0e3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/CAMARENA> ;
@@ -344,7 +344,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Ana+Maria+Matute+%28Carabanchel%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1755"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Ana Maria Matute (Carabanchel)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Municipal Ana MarÃ­a Matute sustituyÃ³ a la antigua Biblioteca Publica Municipal de Carabanchel. La Biblioteca de Carabanchel, sita en la calle de los Hermanos del Moral 15, fue inaugurada el 12 de diciembre de 1981 por el entonces alcalde, Enrique Tierno GalvÃ¡n, contaba con unos 250  m&sup2; . Despues de 32 aÃ±os de servicio, se traslada a su actual emplazamiento bajo el nombre actual. El proyecto arquitectÃ³nico fue encargado al estudio RSP. A la inauguraciÃ³n, el 28 de enero de 2013, asistieron la escritora Ana MarÃ­a Matute y la alcaldesa Ana MarÃ­a Botella.  " ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Municipal Ana Mari­a Matute sustituyo a la antigua Biblioteca Publica Municipal de Carabanchel. " ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=628e3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/DE+LOS+COMUNEROS+DE+CASTILLA> ;
@@ -362,8 +362,8 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Angel+Gonzalez+%28Latina%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "5768564"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Angel Gonzalez (Latina)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca PÃºblica Ã�ngel GonzÃ¡lez se inaugurÃ³ el 26 de julio de 2010, contando con la presencia de, entre otros, el entonces Alcalde Alberto Ruiz-GallardÃ³n, la Delegada del Ã�rea de Las Artes, Alicia Moreno, y la viuda del escritor, Susana Rivera.   El edificio es obra del arquitecto Carlos de RiaÃ±o, donde predomina el hormigÃ³n y el cristal. A pesar de estar junto a la A5, el aislamiento del entorno se consigue gracias a la utilizaciÃ³n de grandes terrazas como elemento constructivo. Tiene su fachada principal orientada hacia la autovÃ­a de Extremadura en previsiÃ³n del soterramiento de la autovÃ­a " ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas; sÃ¡bados de 9 a 18 horas y domingos de 9 a 14 horas. Los festivos y los fines de semana de agosto, la biblioteca permanecerÃ¡ cerrada. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Angel Gonzalez se inauguro el 26 de julio de 2010." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas; sabados de 9 a 18 horas y domingos de 9 a 14 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ec750a2153ef9210VgnVCM2000000c205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/GRANJA+DE+TORREHERMOSA> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
@@ -380,7 +380,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Buenavista+%28Salamanca%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1762"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Buenavista (Salamanca)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca Publica Municipal Buenavista se encuentra dentro del Centro Cultural homÃ³nimo. El edificio que la alberga fue construido durante la  II  RepÃºblica por el Ayuntamiento de Madrid para Casa de BaÃ±os, segÃºn proyecto de JosÃ© Lorite y reformado por el arquitecto municipal Salvador PÃ©rez Arroyo en 1982. El cambio de funciÃ³n e inauguraciÃ³n como Centro CÃ­vico tuvo lugar el 30 de abril de 1983 y la Biblioteca abriÃ³ sus puertas el 12 marzo de 1984.  La Biblioteca, ocupa uno de los pabellones que alojaron las piletas de las piscinas y sus vestuarios, en concreto, la zona del vaso destinada al baÃ±o de los hombres. En la actualidad esta estructura se observa en la sala de lectura y consulta donde los usuarios adultos se sumergen en sus fondos bibliogrÃ¡fÃ­cos" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca Publica Municipal Buenavista se encuentra dentro del Centro Cultural homonimo." ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 9 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c53e3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/TOREROS> ;
@@ -398,10 +398,10 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Canillejas+%28San+Blas-Canillejas%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1745"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Canillejas (San Blas-Canillejas)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca Publica Municipal de Canillejas se inaugurÃ³ el 4 de agosto de 1981 en la tercera planta del edificio que entonces ocupaba la Junta Municipal del Distrito de San Blas, en la calle Torre Arias. Ocho aÃ±os despuÃ©s se trasladÃ³ al edificio que ocupa hoy, en la calle BoltaÃ±a, justo enfrente de su ubicaciÃ³n anterior y en pleno nÃºcleo comercial del barrio de Canillejas. Su reapertura al pÃºblico, en las nuevas instalaciones, se produjo el 15 de marzo de 1989, compartiendo edificio con el Centro Cultural Buero Vallejo. " ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca Publica Municipal de Canillejas se inauguro el 4 de agosto de 1981 en la tercera planta del edificio que entonces ocupaba la Junta Municipal del Distrito de San Blas." ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eb9e995a8bf5d010VgnVCM2000000c205a0aRCRD> ;
-	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/BOLTAÃ‘A> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/BOLTA> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
 	<http://www.semanticweb.org/gupo09#tipoNum> "23"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
@@ -416,7 +416,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Ciudad+Lineal+%28Ciudad+Lineal%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1794"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Ciudad Lineal (Ciudad Lineal)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca de Ciudad Lineal se inaugurÃ³ en febrero de 1993 asistiendo al acto el Alcalde, JosÃ© M&ordf; Alvarez del Manzano, y la entonces Concejal de Cultura, Esperanza Aguirre.   Se encuentra dentro del Centro Cultural PrÃ­ncipe de Asturias, en la primera planta. Su construcciÃ³n se realizÃ³ para dar servicio a la zona y sustituir a la anterior biblioteca que habÃ­a en los locales de un edificio de viviendas. Desde entonces ha sido ampliada tan solo una vez, en 50  m&sup2; , en el aÃ±o 2004, afectando esta obra a su distribuciÃ³n interna." ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca de Ciudad Lineal se inauguro en febrero de 1993 asistiendo al acto el Alcalde, Jose Alvarez del Manzano, y la entonces Concejal de Cultura, Esperanza Aguirre.   " ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=82ce995a8bf5d010VgnVCM2000000c205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/HERMANOS+GARCIA+NOBLEJAS> ;
@@ -434,7 +434,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Conde+Duque+%28Centro%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1882"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Conde Duque (Centro)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca PÃºblica Conde Duque se inaugura en los aÃ±os 90, cuando se traslada a este edificio la Biblioteca Municipal situada en el actual emplazamiento del Museo de Historia de Madrid, en la calle Fuencarral, separÃ¡ndose la Biblioteca PÃºblica de la Biblioteca HistÃ³rica, que habÃ­an estado juntas hasta entonces.  El Cuartel de Conde Duque se reformÃ³ en 2011, obra llevada a cabo por el arquitecto Carlos de RiaÃ±o, reinaugurÃ¡ndose la biblioteca al aÃ±o siguiente, en un primer momento fusionada con la Biblioteca Musical VÃ­ctor EspinÃ³s, de la que posteriormente se separarÃ­a. Con la reforma ganÃ³ en amplitud y homogeneidad con el resto de la red, ya que anteriormente no contaba con sala infantil ni multimedia. " ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Conde Duque se inaugura en los anos 90." ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=13ec3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/CONDE+DUQUE> ;
@@ -452,7 +452,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Damaso+Alonso+%28Chamartin%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "51188"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Damaso Alonso (Chamartin)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La biblioteca se abriÃ³ al pÃºblico en mayo de 1999 denominÃ¡ndose Biblioteca Mateo Inurria, por estar situada en dicha calle. En 2008, por acuerdo plenario, pasÃ³ a llamarse Biblioteca DÃ¡maso Alonso. Y es que este poeta viviÃ³ en el nÃºmero 25 de la calle Alberto Alcocer, en una casita con huerta y jardÃ­n situada en su momento a las afueras de Madrid, en ChamartÃ­n de la Rosa. En cuanto a los orÃ­genes de la biblioteca, en 1997 la sede del diario  Ya  se convierte en sede del Barclays Bank. A cambio, la entidad cede una parcela al Ayuntamiento para la construcciÃ³n de una biblioteca, que entregÃ³ ya equipada. En 2008 se ampliÃ³ el vestÃ­bulo, se instalÃ³ un ascensor y se cerrÃ³ una de las dos escaleras. En su lugar se colocÃ³ un lucernario para iluminar la sala de lectura. " ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La biblioteca se abrio al publico en mayo de 1999 denominandose Biblioteca Mateo Inurria, por estar situada en dicha calle. " ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5870007f8441f010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/MANUEL+FERRERO> ;
@@ -470,10 +470,10 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Eugenio+Trias.+Casa+de+Fieras+de+El+Retiro> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "6893633"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Eugenio Trias. Casa de Fieras de El Retiro" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca PÃºblica Eugenio TrÃ­as-Casa fue inaugurada el 29 de abril de 2013. El edificio que alberga la biblioteca fue originariamente parte de las instalaciones que la Casa de Fieras tenÃ­a en el Parque de El Retiro, construido en tiempos de Fernando  VII . El proyecto para esta nueva biblioteca, promovido  por la entonces DirecciÃ³n General de Patrimonio HistÃ³rico, fue redactado por los arquitectos Jaime Nadal y SebastiÃ¡n Araujo e incluye la rehabilitaciÃ³n de los dos grandes pabellones de la antigua Casa de Fieras, uno longitudinal de gran dimensiÃ³n y otro transversal de menor tamaÃ±o asÃ­ como la construcciÃ³n de un pabellÃ³n de nueva planta imprescindible para cumplir con el  programa bibliotecario. " ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas; sÃ¡bados de 9 a 18 horas y domingos de 9 a 14 horas. Los festivos y los fines de semana de agosto, la biblioteca permanecerÃ¡ cerrada. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Eugenio Tras-Casa fue inaugurada el 29 de abril de 2013. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas; sabados de 9 a 18 horas y domingos de 9 a 14 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e791bed05ceed310VgnVCM1000000b205a0aRCRD> ;
-	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/FERNAN+NU%C3%83%E2%80%98EZ> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/FERNAN+NUNEZ> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "PASEO" ;
 	<http://www.semanticweb.org/gupo09#tipoNum> "24"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
@@ -488,7 +488,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Francisco+Ayala+%28Vicalvaro%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "167128"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Francisco Ayala (Vicalvaro)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Francisco Ayala es una biblioteca ubicada en el barrio de Valdebernardo, en el distrito de VicÃ¡lvaro. Se inaugurÃ³ en el aÃ±o 2005. El edificio de dos plantas estÃ¡ situado en el eje que vertebra el barrio, en la planta inferior se situan los servicios de acceso a Internet y prÃ©stamo de adultos. En la planta superior se encuentra la sala infantil, la sala de lectura y la sala de actividades." ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Francisco Ayala es una biblioteca ubicada en el barrio de Valdebernardo, en el distrito de Vicalvaro. " ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f05279262ef5d010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/INDALECIO+PRIETO> ;
@@ -506,7 +506,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Francisco+Ibanez+%28Chamartin%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1760"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Francisco Ibanez (Chamartin)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca PÃºblica Francisco IbÃ¡Ã±ez se encuentra situada en el Centro Cultural Mantuano, en el barrio de ChamartÃ­n. Proviene de la antigua Biblioteca de ChamartÃ­n, que fue inaugurada en 1983. En el aÃ±o 2015, despuÃ©s de una profunda remodelaciÃ³n, cambiÃ³ su denominaciÃ³n por la actual de Francisco IbÃ¡Ã±ez. La alcaldesa, Ana MarÃ­a Botella, inaugurÃ³ las nuevas instalaciones y se proyectÃ³  un vÃ­deo  del guionista y dibujante de cÃ³mic que le da nombre en agradecimiento." ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Publica Francisco Ibanez se encuentra situada en el Centro Cultural Mantuano, en el barrio de Chamartin." ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0fce3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/MANTUANO> ;
@@ -524,7 +524,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Gabriel+Garcia+M%C3%83%C2%A1rquez+%28Usera%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1754"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Gabriel Garcia MÃ¡rquez (Usera)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Publica Municipal Gabriel GarcÃ­a Marquez es heredera de la antigua biblioteca de Orcasur, abierta al pÃºblico en 1983. Esta biblioteca se situÃ³ en el interior del Centro Cultural de Orcasur. En 2014 fue remodelada profundamente a la vez que se cambiÃ³ el nombre por el de Gabriel GarcÃ­a Marquez." ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Publica Municipal Gabriel Garci­a Marquez es heredera de la antigua biblioteca de Orcasur, " ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e4bf3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/PUEBLO> ;
@@ -542,7 +542,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Gerardo+Diego+%28Villa+de+Vallecas%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1748"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Gerardo Diego (Villa de Vallecas)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca de Vallecas Villa se abriÃ³ en 1987, en el local que habÃ­a sido hasta entonces la escuela infantil del pueblo de Vallecas. Al transformarse en biblioteca, tomÃ³ el nombre del maestro de la antigua escuela -Francisco Fatou-, acudiendo a la inauguraciÃ³n su viuda, quien contribuyÃ³ con una importante aportaciÃ³n econÃ³mica para la ampliaciÃ³n de sus fondos. En 1995 se trasladÃ³ desde la calle Manuel VÃ©lez -donde quedÃ³ el Centro Cultural Francisco Fatou- a la vecina calle Monte Aya, en la que se inaugurÃ³ un nuevo edificio en enero de 1996.   Su nueva sede se construyÃ³ sobre el solar del antiguo Cine Madrid. La prÃ¡ctica totalidad del edificio, salvo unas pequeÃ±as dependencias destinadas a escuela de adultos, estÃ¡ dedicado a biblioteca. Es allÃ­ donde recibiÃ³ su actual denominaciÃ³n como Biblioteca Publica Municipal Gerardo Diego." ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca de Vallecas Villa se abrio en 1987, en el local que habia sido hasta entonces la escuela infantil del pueblo de Vallecas. " ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ca903d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/MONTE+AYA> ;
@@ -560,10 +560,10 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Gloria+Fuertes+%28Barajas%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "79941"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Gloria Fuertes (Barajas)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca Publica Municipal Gloria Fuertes fue inaugurada en octubre del aÃ±o 2001 asistiendo al acto el entonces alcalde, JosÃ© MarÃ­a Ã�lvarez del Manzano. El edificio es un proyecto de nueva planta de la arquitecta Carmen Blanco HernÃ¡ndez para albergar un centro cultural y la Ãºnica biblioteca que, en la actualidad, presta servicio a los vecinos del distrito de Barajas.  Desde los grandes ventanales que recorren la primera y segunda planta, donde se ubica la biblioteca, se aprecian los restos del reconstruido castillo de los Zapata, Ãºnico que se conserva en el tÃ©rmino municipal de Madrid, y un extenso olivar que pone lÃ­mite al moderno parque Juan Carlos I." ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca Publica Municipal Gloria Fuertes fue inaugurada en octubre del ano 2001 asistiendo al acto el entonces alcalde." ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1f64c2c6e051c010VgnVCM2000000c205a0aRCRD> ;
-	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/LOGROÃ‘O> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/LOGRONO> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "AVENIDA" ;
 	<http://www.semanticweb.org/gupo09#tipoNum> "179"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
@@ -578,7 +578,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Huerta+de+la+Salud+%28Hortaleza%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1750"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Huerta de la Salud (Hortaleza)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Publica Municipal Huerta de la Salud fue inaugurada en 1995, reformÃ¡ndose y ampliÃ¡ndose profundamente entre los aÃ±os 2006 y 2007." ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Publica Municipal Huerta de la Salud fue inaugurada en 1995, reformandose y ampliandose profundamente entre los anos 2006 y 2007." ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9c5879262ef5d010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/MAR+DE+LAS+ANTILLAS> ;
@@ -596,7 +596,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Islas+Filipinas+%28Ciudad+Lineal%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "51849"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Islas Filipinas (Ciudad Lineal)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Municipal Islas Filipinas fue inaugurada en el aÃ±o 2000 y su origen se remonta a la Biblioteca PÃºblica de Quintana, que estaba situada en el Centro Cultural Sambara. En el aÃ±o 2000 se trasladÃ³ a su actual ubicaciÃ³n donde continÃºa hasta la fecha, reformÃ¡ndose para hacerla accesible entre otoÃ±o de 2007 y primavera de 2009, reabriendo sus puertas en marzo de este aÃ±o.  La biblioteca se sitÃºa en lo que era el antiguo Colegio Islas Filipinas, del que recibe su nombre, prestando servicio a los ciudadanos de la zona, cuyo eje principal es la calle MarquÃ©s de Corbera. " ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Municipal Islas Filipinas fue inaugurada en el ano 2000 y su origen se remonta a la Biblioteca Publica de Quintana." ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=697c598d1351c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/NUESTRA+SE%C3%83%E2%80%98ORA+DEL+VILLAR> ;
@@ -614,8 +614,8 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Ivan+de+Vargas+%28Centro%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "5975465"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Ivan de Vargas (Centro)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Publica Municipal IvÃ¡n de Vargas fue inaugurada el 28 de febrero de 2011 y toma su nombre del antiguo edificio de viviendas que se levantaba en el mismo solar, que podrÃ­a datar de principios del siglo XVII. El linaje de los Vargas, procedente de la Ã©poca de la Reconquista, es uno de los mÃ¡s insignes de la historia de la ciudad.   La Biblioteca IvÃ¡n de Vargas es la primera que incorpora una secciÃ³n especializada de referencia sobre Madrid ,  que permitirÃ¡ conocer e investigar la historia, las tradiciones, el urbanismo o la gastronomÃ­a de la regiÃ³n.  " ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas; sÃ¡bados de 9 a 18 horas y domingos de 9 a 14 horas. Los festivos y los fines de semana de agosto ,  la biblioteca permanecerÃ¡ cerrada. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Publica Municipal Ivan de Vargas fue inaugurada el 28 de febrero de 2011 ." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas; sabados de 9 a 18 horas y domingos de 9 a 14 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0b60e92be3c5e210VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/SAN+JUSTO> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
@@ -632,7 +632,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Jose+Hierro+%28San+Blas-Canillejas%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "115056"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Jose Hierro (San Blas-Canillejas)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Municipal JosÃ© Hierro fue inaugurada en 2003, asistiendo a la inauguraciÃ³n la viuda del escritor y el entonces alcalde JosÃ© MarÃ­a Ã�lvarez del Manzano. Se trata de un edificio prÃ³ximo a la Junta de Distrito, con la que comparte un amplio espacio ajardinado. " ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Municipal Jose Hierro fue inaugurada en 2003." ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=338879262ef5d010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/MARIA+SEVILLA+DIAGO> ;
@@ -650,7 +650,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Jose+Saramago+%28Fuencarral-El+Pardo%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1790"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Jose Saramago (Fuencarral-El Pardo)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Municipal JosÃ© Saramago se inaugurÃ³ en noviembre de 1990, con el nombre de Biblioteca de la Vaguada. El origen es la antigua Biblioteca de PeÃ±agrande situada en el Centro Cultural Rafael de LeÃ³n. Las instalaciones eran insuficientes para uno de los distritos mÃ¡s grandes de Madrid, y gracias al proyecto del Centro CÃ­vico de La Vaguada se subsanÃ³, por un lado la falta de espacio y por otro se mejorÃ³ su ubicaciÃ³n al situarse junto al Centro Comercial La Vaguada. El edificio forma parte de un proyecto diseÃ±ado en 1982 por los arquitectos Javier San JosÃ© MarquÃ©s y Jordi Parcerisas VÃ¡zquez. La organizaciÃ³n del edificio se realizÃ³ por medio de una secuencia de arcos que unÃ­an entre sÃ­ los diferentes espacios. En el aÃ±o 2011 cambio su denominaciÃ³n por la actual de JosÃ© Saramago. " ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Municipal Jose Saramago se inauguro en noviembre de 1990, con el nombre de Biblioteca de la Vaguada. " ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=70d879262ef5d010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/MONFORTE+DE+LEMOS> ;
@@ -668,7 +668,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+La+Chata+%28Carabanchel%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1756"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal La Chata (Carabanchel)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca PÃºblica La Chata abriÃ³ sus puertas por primera vez al pÃºblico el DÃ­a de la Biblioteca, 24 de octubre, de 2005. El 13 de agosto de 2006 el Alcalde Ruiz-GallardÃ³n, acompaÃ±ado por la Concejala de Las Artes, Alicia Moreno, procediÃ³ a su inauguraciÃ³n oficial en un breve acto.  El nombre de la biblioteca, La Chata, alude a Isabel de BorbÃ³n, hermana de Alfonso  XII , que acudÃ­a regularmente a Carabanchel por ser una gran amante de los toros y a la Finca Vista Alegre que pertenecÃ­a a la familia real. TambiÃ©n alude al nombre popular de la plaza de toros de Vista Alegre, denominada asÃ­ por ser muy baja, achatada. Por lo tanto es un nombre muy &ldquo;carabanchelero&rdquo;." ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca Publica La Chata abrio sus puertas por primera vez al publico el Di­a de la Biblioteca." ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d9a879262ef5d010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/GENERAL+RICARDOS> ;
@@ -686,7 +686,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Manuel+Vazquez+Montalban+%28Tetu%C3%83%C2%A1n%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "185595"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Manuel Vazquez Montalban (TetuÃ¡n)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Manuel VÃ¡zquez MontalbÃ¡n se abriÃ³ al pÃºblico en agosto de 2006. Se trata de un edificio diseÃ±ado por la arquitecta Isabel Huete Chugunowa, en el que comparten instalaciones la biblioteca y una Escuela Municipal de MÃºsica." ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Manuel Vazquez Montalban se abrio al publico en agosto de 2006. " ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b5ca89e2c9e5d010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/FRANCOS+RODRIGUEZ> ;
@@ -704,7 +704,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Mario+Vargas+Llosa+%28Centro%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "7697128"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Mario Vargas Llosa (Centro)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca Mario Vargas Llosa fue inaugurada por el Premio Nobel de Literatura que le da su nombre. La biblioteca tiene su origen en la remodelaciÃ³n del complejo BarcelÃ³ que incluye un mercado, que sustituye al que existÃ­a antiguamente, un polideportivo, un parking y la biblioteca. Su construcciÃ³n y apertura era una antigua reivindicaciÃ³n de los vecinos que reclamaban una biblioteca en el distrito Centro que diera servicio a los barrios de Justicia, Universidad y parte de ChamberÃ­.  Al estar en un centro neurÃ¡lgico de la cultura madrileÃ±a, junto al Museo de Historia de Madrid y el Museo RomÃ¡ntico, numerosas librerÃ­as, varias universidades, etc. la Biblioteca Mario Vargas Llosa se constituye como un centro de encuentro cultural, artÃ­stico y social del barrio." ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca Mario Vargas Llosa fue inaugurada por el Premio Nobel de Literatura que le da su nombre. " ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6c4dbc2658739410VgnVCM2000000c205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/BARCELO> ;
@@ -722,7 +722,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Maria+Zambrano+%28Tetu%C3%83%C2%A1n%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1759"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Maria Zambrano (TetuÃ¡n)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Municipal MarÃ­a Zambrano se inaugurÃ³ el 29 de octubre de 2010 dentro del Centro Cultural Eduardo Ãšrculo (inaugurado a su vez el 15 de octubre de 2009), en el barrio de Ventilla, dentro del distrito de TetuÃ¡n en Madrid. Al acto acudieron el alcalde Alberto Ruiz GallardÃ³n y la Delegada del Ã�rea de Las Artes Alicia Moreno. Esta biblioteca es consecuencia de la necesidad de ampliar la Biblioteca de TetuÃ¡n, situada en el antiguo edificio de la Junta Municipal del mismo nombre (Bravo Murillo 357).   La Biblioteca de TetuÃ¡n fue inaugurada en 1982 por el alcalde Enrique Tierno GalvÃ¡n, dentro del edificio de la Junta Municipal, y fue una de las primeras de la red municipal de Bibliotecas del Ayuntamiento de Madrid. Era heredera de la biblioteca creada en la nueva Casa Consistorial del antiguo pueblo de ChamartÃ­n de la Rosa en 1934. " ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Municipal Mari­a Zambrano se inauguo³ el 29 de octubre de 2010 dentro del Centro Cultural Eduardo Ãšrculo." ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=74703d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/DONOSO> ;
@@ -740,7 +740,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Miguel+Delibes+%28Moratalaz%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1752"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Miguel Delibes (Moratalaz)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Municipal de Moratalaz fue inaugurada en el aÃ±o 1986. Su primera ubicaciÃ³n fue dentro del parque Darwin, en unas edificaciones que la Inmobiliaria Urbis utilizÃ³ como pisos piloto para la venta de las viviendas y donÃ³ luego al Ayuntamiento. La primera instalaciÃ³n se concibiÃ³ como un quiosco de libros de prÃ©stamo. Posteriormente se le aÃ±adiÃ³ otro mÃ³dulo de los pisos piloto. Con el desarrollo del distrito, se decide la construcciÃ³n de una nueva biblioteca. El proyecto, firmado por la arquitecta municipal Isabel Huete Chugunowa, comprende cuatro plantas con un total de 2.012  m&sup2; . Se inaugurÃ³ el 18 de octubre del aÃ±o 2001, en acto presidido por D. JosÃ© MarÃ­a Ã�lvarez del Manzano, alcalde del Ayuntamiento de Madrid. En 2010 se le da el nombre del escritor Miguel Delibes. " ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Municipal de Moratalaz fue inaugurada en el ano 1986. " ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrado. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9e8f3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/ARROYO+BELINCOSO> ;
@@ -758,7 +758,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Pablo+Neruda+%28Ciudad+Lineal%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "186714"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Pablo Neruda (Ciudad Lineal)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Pablo Neruda fue inaugurada en septiembre de 2006 por la Concejala del Ã�rea de Las Artes. La entrada a la biblioteca estÃ¡ presidida por un conjunto escultÃ³rico dedicado a Pablo Neruda, del escultor Julio LÃ³pez HernÃ¡ndez. Concebido en altorrelieve y en bronce, representa al escritor escribiendo en su mesa, junto con otros elementos entresacados de su casa de &quot;Isla Negra&quot;. La biblioteca es un edificio de nueva planta, exento, de tres alturas, que comparte dependencias con un Centro DÃ­a. La entrada es diÃ¡fana y luminosa y en ella se encuentra el mostrador de prÃ©stamo, la zona multimedia, la hemeroteca, la comiteca y el fondo bibliogrÃ¡fico. La segunda planta alberga una secciÃ³n juvenil, la sala infantil, la sala de referencia y el despacho de bibliotecarios. En la tercera estÃ¡ la sala polivalente. " ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Pablo Neruda fue inaugurada en septiembre de 2006 por la Concejala del Area de Las Artes. " ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrado. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d5c548d20675e010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/ASCAO> ;
@@ -776,7 +776,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Portazgo+%28Puente+de+Vallecas%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1753"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Portazgo (Puente de Vallecas)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca de Portazgo fue inaugurada en 1983 compartiendo espacio con el edificio del Centro Cultural Alberto SÃ¡nchez. Fue una de las bibliotecas pioneras en formar parte de la incipiente red de Bibliotecas PÃºblicas del Ayuntamiento de Madrid, hace mÃ¡s de 30 aÃ±os. En 2006 fue remodelada y ampliada incorporando espacios del Centro Cultural. Actualmente cuenta con dos plantas, en la planta baja encontramos la sala infantil, un pequeÃ±o espacio para la prensa y el mostrador de prÃ©stamo, ademÃ¡s del servicio de Internet. La planta primera funciona como sala de lectura y en ella se encuentra el fondo de adultos " ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca de Portazgo fue inaugurada en 1983 compartiendo espacio con el edificio del Centro Cultural Alberto Sanchez. " ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrado. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=89a40a47f441f010VgnVCM2000000c205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/CANTALAPIEDRA> ;
@@ -794,7 +794,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Pozo+del+Tio+Raimundo+%28Puente+de+Vallecas%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1792"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Pozo del Tio Raimundo (Puente de Vallecas)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca pÃºblica Pozo del TÃ­o Raimundo fue inaugurada en el aÃ±o 1991 y comparte edificio con el Centro Cultural Pozo del TÃ­o Raimundo." ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca publica Pozo del Ti­o Raimundo fue inaugurada en el ano 1991 y comparte edificio con el Centro Cultural Pozo del Ti­o Raimundo." ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrado. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d7203d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/GLORIETAS> ;
@@ -812,7 +812,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Pio+Baroja+%28Arganzuela%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1763"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Pio Baroja (Arganzuela)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca PÃ­o Baroja fue inaugurada en febrero de 1993. En realidad se trataba de un traslado de la Biblioteca de Arganzuela ubicada entonces en el edificio Casa del Reloj (antiguo pabellÃ³n central de Matadero) donde compartÃ­a espacio con el centro cultural. La construcciÃ³n de un nuevo edificio coincidiÃ³ con la ejecuciÃ³n de la operaciÃ³n urbanÃ­stica Pasillo Verde Ferroviario. El edificio de la biblioteca estÃ¡ distribuido en tres plantas, dos de acceso pÃºblico. En la primera planta, se encuentran la recepciÃ³n, servicio de prÃ©stamo y sala infantil. La segunda planta es un semisÃ³tano donde se ubican la sala de lectura, las publicaciones periÃ³dicas y los puestos de consulta de Internet. El elemento mas llamativo del edificio es la claraboya que desde la cubierta crea un patio acristalado y suministra luz a la sala de lectura.  " ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Pio Baroja fue inaugurada en febrero de 1993. " ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrado. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=17f879262ef5d010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/ARGANDA> ;
@@ -830,7 +830,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+San+Blas+%28San+Blas-Canillejas%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1746"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal San Blas (San Blas-Canillejas)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca Publica Municipal de San Blas se abriÃ³ al pÃºblico el 10 de mayo de 1987 y al acto de inauguraciÃ³n acudiÃ³ el entonces alcalde Juan Barranco. El edificio que ocupa actualmente fue un Seminario de Sacerdotes Migrantes, rehabilitado tras muchos aÃ±os de abandono y un incendio, que lo dejÃ³ en condiciones crÃ­ticas. El Ayuntamiento lo reformÃ³ para instalar en Ã©l el Centro Cultural Antonio Machado, dentro del que se encuentra la biblioteca. La Biblioteca se sitÃºa en la segunda planta. El edificio tiene forma redonda y 3 plantas. Tiene un Centro de Mayores y una Escuela de MÃºsica. Lo preside un busto de D. Antonio Machado." ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca Publica Municipal de San Blas se abria al publico el 10 de mayo de 1987 y al acto de inauguracion acudia el entonces alcalde Juan Barranco. " ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrado. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2e403d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/SAN+ROMAN+DEL+VALLE> ;
@@ -848,7 +848,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Vallecas+%28Puente+de+Vallecas%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1761"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Vallecas (Puente de Vallecas)" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " El 13 de noviembre de 1933 se inaugurÃ³ la Biblioteca del pueblo de Vallecas, presidida por su alcalde, AmÃ³s Acero PÃ©rez. En 1937 fue cerrada debido a la Guerra Civil, abriÃ©ndose de nuevo en febrero de 1940. Pero poco a poco fue cayendo en un estado de abandono hasta que en 1976 se decidiÃ³ su cierre para efectuar obras de remodelaciÃ³n. El 24 de abril de 1980, Enrique Tierno GalvÃ¡n reinaugurÃ³ la biblioteca, abriÃ©ndose al pÃºblico el 12 de mayo de ese mismo aÃ±o. La Biblioteca de Vallecas siempre ha estado ubicada en un espacio independiente, el mismo desde 1933. Tras la reforma iniciada en 1978, ha habido otra en 1990. En esta Ãºltima, se abriÃ³ una sala de lectura para adultos de 174,81  m&sup2; , debido a la cesiÃ³n de dos habitaciones del antiguo Juzgado de Vallecas. " ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " El 13 de noviembre de 1933 se inauguro la Biblioteca del pueblo de Vallecas, presidida por su alcalde." ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrado. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=11c03d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/PUERTO+DEL+MONASTERIO> ;
@@ -866,7 +866,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Vicalvaro> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1747"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Vicalvaro" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca PÃºblica de VicÃ¡lvaro fue inaugurada el 23 de mayo de 1987." ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Publica de Vicalvaro fue inaugurada el 23 de mayo de 1987." ;
 	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrado. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=67e03d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/VILLARDONDIEGO> ;
@@ -884,7 +884,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Retiro> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1774"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Retiro" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> "  SecciÃ³n de adultos:  de lunes a viernes de 9 a 21 horas. SÃ¡bados de 9 a 14 horas. Servicio de prÃ©stamo y acceso a Internet: de lunes a viernes de 9 a 20:45 horas. SÃ¡bados de 9 a 13:45 horas.    SecciÃ³n infantil:  de lunes a viernes de 9 a 21 horas. SÃ¡bados de 9 a 14 horas. Servicio de prÃ©stamo y acceso a Internet: de lunes a viernes de 15 a 20:45 horas. SÃ¡bados de 9 a 13:45 horas.    Sala de lectura:  de lunes a viernes de 9 a 21 horas. SÃ¡bados de 9 a 14 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Seccion de adultos:  de lunes a viernes de 9 a 21 horas. Sabados de 9 a 14 horas. Servicio de prestamo y acceso a Internet: de lunes a viernes de 9 a 20:45 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=44213d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/DOCTOR+ESQUERDO> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
@@ -901,7 +901,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Ruiz+Egea> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1777"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Ruiz Egea" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> "  SecciÃ³n de adultos:  de lunes a viernes de 9 a 21 horas.   SecciÃ³n infantil/juvenil:  de lunes a viernes de 9 a 21 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Seccion de adultos:  de lunes a viernes de 9 a 21 horas.   Seccion infantil/juvenil:  de lunes a viernes de 9 a 21 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b2413d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/RAIMUNDO+FERNANDEZ+VILLAVERDE> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
@@ -918,7 +918,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Salamanca+-+Manuel+Alvar> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1765"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Salamanca - Manuel Alvar" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> "   SecciÃ³n de adultos:  de lunes a viernes de 9 a 21 horas (Servicios bibliotecarios hasta las 20:45 horas).   SecciÃ³n infantil/juvenil:  de lunes a viernes de 15 a 21 horas (Servicios bibliotecarios hasta las 20:45 horas).   Fines de semana y festivos:  de 11 a 19 horas  (Servicios bibliotecarios hasta las 18:45)   De 14:30 a 15:30 horas no se asignarÃ¡n prÃ©stamos de libros ni acceso a internet pero sÃ­ continuarÃ¡ abierta la sala de lectura. Los dÃ­as 24 y 31 de diciembre horario de 9 a 14 horas   Cerrada:  fines de semana y festivos de agosto; 1 enero; 1 mayo y 25 diciembre   "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "   Seccion de adultos:  de lunes a viernes de 9 a 21 horas (Servicios bibliotecarios hasta las 20:45 horas).   Seccion infantil/juvenil:  de lunes a viernes de 15 a 21 horas (Servicios bibliotecarios hasta las 20:45 horas).  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d51979262ef5d010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/AZCONA> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
@@ -935,7 +935,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Usera+-+Jose+Hierro> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "123303"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Usera - Jose Hierro" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> "  SecciÃ³n de adultos:  de lunes a viernes de 9 a 21 horas.    SecciÃ³n infantil/juvenil:  de lunes a viernes de 15 a 21 horas.    Servicio de prÃ©stamo y acceso a Internet:  de 15 a 20:45 horas.    SecciÃ³n de adultos y secciÃ³n infantil/juvenil:  fines de semana y festivos, 11 a 19 horas. Servicio de prÃ©stamo y acceso a Internet de 11 a 14:30 y de 15:30 a 18:45 horas.   Horario especial 24 y 31 de diciembre : abierta de 9 a 14 horas   Cerrada los dÃ­as:  1 de enero, 1 de mayo, 25 de diciembre y fines de semana y festivos de agosto.  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Seccion de adultos:  de lunes a viernes de 9 a 21 horas.    Seccion infantil/juvenil:  de lunes a viernes de 15 a 21 horas.    "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=943979262ef5d010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/RAFAELA+YBARRA> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "AVENIDA" ;
@@ -952,7 +952,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Vallecas> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1800"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Vallecas" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> "  SecciÃ³n general,  secciÃ³n infantil y juvenil,  hemeroteca    De lunes a viernes de 9 a 21 horas.   SÃ¡bados de 9 a 14 horas  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Seccion general,  seccion infantil y juvenil,  hemeroteca    De lunes a viernes de 9 a 21 horas.   Sabados de 9 a 14 horas  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=535979262ef5d010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/RAFAEL+ALBERTI> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "AVENIDA" ;
@@ -969,7 +969,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Villa+de+Vallecas+-+Luis+Martin+Santos> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "181101"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Villa de Vallecas - Luis Martin Santos" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> "  De lunes a viernes:  de 9 a 21 horas. No se asignarÃ¡n prÃ©stamos ni acceso a Internet desde las 20:45 horas   Fines de semana y festivos:  de  11 a 19 horas. No se asignarÃ¡n prÃ©stamos ni acceso a Internet desde las 14:30 a las 15:30 horas y desde las 18:45 hasta la hora de cierre   Navidad:  DÃ­as 24 y 31 de diciembre, de 9 a 14 horas   Agosto:  de lunes a viernes de 9 a 21 horas.    Cerrado:  1 de enero, 1 de mayo, fines de semana y festivos de agosto y 25 de diciembre "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  De lunes a viernes:  de 9 a 21 horas. No se asignaran prestamos ni acceso a Internet desde las 20:45 horas   "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=09ac38d60b41c010VgnVCM2000000c205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/ANTONIO+MARIA+SEGOVIA> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "PLAZA" ;
@@ -986,7 +986,7 @@
 <http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Villaverde+-+Maria+Moliner> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "86719"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Villaverde - Maria Moliner" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> "  SecciÃ³n de adultos, infantil y juvenil, secciÃ³n de periÃ³dicos y revistas: de lunes a viernes de 9 a 21 horas. SÃ¡bados de 9 a 14 horas.  Horario de servicio de prÃ©stamo y acceso a Internet: de lunes a viernes de 9 a 20:45 horas. SÃ¡bados de 9 a 13:45 horas.   "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Seccion de adultos, infantil y juvenil, seccion de periodicos y revistas: de lunes a viernes de 9 a 21 horas. Sabados de 9 a 14 horas.  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=127979262ef5d010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/VILLALONSO> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
@@ -1020,7 +1020,7 @@
 <http://www.semanticweb.org/gupo09/resource/Casa+San+Cristobal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "1788"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Casa San Cristobal" ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> "  De lunes a viernes de 9 a 21 horas  SÃ¡bados de 10 a 14 horas   "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  De lunes a viernes de 9 a 21 horas  Sabados de 10 a 14 horas   "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dcdb3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/ROCAFORT> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
@@ -1037,13 +1037,10 @@
 <http://www.semanticweb.org/gupo09/resource/Centro+Social+y+Cultural+la+Casa+Encendida> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "103331"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Centro Social y Cultural la Casa Encendida" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " Edificio de carÃ¡cter monumental. De estilo neomudÃ©jar, fue diseÃ±ado por el arquitecto Fernando ArbÃ³s e inaugurado en el aÃ±o 1913. Cuenta con mÃ¡s de 6.000 metros cuadrados de instalaciones divididas en 4 plantas y una azotea. " ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> "  De lunes a domingo de 10 a 22 horas (todos los dÃ­as del aÃ±o, excepto festividades nacionales y de la Comunidad de Madrid)  Exposiciones: de 10 a 21:45 horas  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c27f8899fc81c010VgnVCM1000000b205a0aRCRD> .
-
-<http://www.semanticweb.org/gupo09/resource/VALENCIA> owl:sameAs "http://dbpedia.org/resource/Valencia" .
-
-<http://www.semanticweb.org/gupo09/resource/Centro+Social+y+Cultural+la+Casa+Encendida> <http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/VALENCIA> ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " Edificio de caracter monumental. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  De lunes a domingo de 10 a 22 horas (todos los dias del ano, excepto festividades nacionales y de la Comunidad de Madrid)  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c27f8899fc81c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/VALENCIA> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "RONDA" ;
 	<http://www.semanticweb.org/gupo09#tipoNum> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
@@ -1058,8 +1055,8 @@
 <http://www.semanticweb.org/gupo09/resource/Hemeroteca+Municipal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
 	<http://www.semanticweb.org/gupo09#tienePK> "2047"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	<http://www.semanticweb.org/gupo09#tieneNombre> "Hemeroteca Municipal" ;
-	<http://www.semanticweb.org/gupo09#tieneDescripcion> " Fundada en 1916, por iniciativa de los periodistas Ricardo Fuente y Antonio Asenjo, custodia prensa proveniente de todo el mundo hasta mediados del siglo  XX . A partir de 1966 recoge, casi exclusivamente, la prensa editada en Madrid.   Sus fondos abarcan una completÃ­sima colecciÃ³n de mÃ¡s de cuatro siglos de publicaciones periÃ³dicas. Destacan por su importancia las colecciones de los siglos  XVII  y  XVIII , correspondientes a los primeros momentos de la historia de la prensa espaÃ±ola. Abundantes y completas  son las del siglo  XIX   y de la Guerra Civil,1936-1939. Son muy valiosos tambiÃ©n, los fondos  de prensa antigua hispano- americana, francesa y alemana. " ;
-	<http://www.semanticweb.org/gupo09#tieneHorario> " Lunes a Viernes, de 9 a 21 horas (peticiones hasta 20:30 horas) Del 2 al 31 de julio y del 1 al 15 de septiembre: de 9 a 20:30 horas (peticiones hasta las 20 horas) Agosto: Lunes a Viernes, de 9 a 14 horas (peticiones hasta las 13:30 horas) Recogida de reprografÃ­a: Lunes a Viernes de 9 a 14 horas. Cerrado festivos y los dÃ­as 24 y 31 diciembre. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " Fundada en 1916, por iniciativa de los periodistas Ricardo Fuente y Antonio Asenjo." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " Lunes a Viernes, de 9 a 21 horas (peticiones hasta 20:30 horas) "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
 	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=11951e79ee71c010VgnVCM1000000b205a0aRCRD> ;
 	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/CONDE+DUQUE> ;
 	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;

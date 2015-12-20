@@ -263,6 +263,254 @@
     }
   },
   {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.linkedDataG1.es/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g1",
+          "uri": ""
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Parking/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "parkingId",
+          "rdfTypes": [
+            {
+              "uri": "http:/www.linkedDataG1.es/Parking#Parking",
+              "curie": "g1:Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingId#parkingId",
+              "curie": "g1:parkingId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingId"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingOwner#parkingOwner",
+              "curie": "g1:parkingOwner",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingOwner"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingAddress#parkingAddress",
+              "curie": "g1:parkingAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddress"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingCapacity#parkingCapacity",
+              "curie": "g1:parkingCapacity",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "parkingCapacity"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingCoordinates#parkingCoordinates",
+              "curie": "g1:parkingCoordinates",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingCoordinates"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/estaLocalizado#estaLocalizado",
+              "curie": "g1:estaLocalizado",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Street/\"+replace(value,\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddressName",
+                "rdfTypes": [
+                  {
+                    "uri": "http:/www.linkedDataG1.es/Street#Street",
+                    "curie": "g1:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "parkingAddressName"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.linkedDataG1.es/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g1",
+          "uri": ""
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Parking/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "parkingId",
+          "rdfTypes": [
+            {
+              "uri": "http:/www.linkedDataG1.es/Parking#Parking",
+              "curie": "g1:Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingId#parkingId",
+              "curie": "g1:parkingId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingId"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingOwner#parkingOwner",
+              "curie": "g1:parkingOwner",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingOwner"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingAddress#parkingAddress",
+              "curie": "g1:parkingAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddress"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingCapacity#parkingCapacity",
+              "curie": "g1:parkingCapacity",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "parkingCapacity"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingCoordinates#parkingCoordinates",
+              "curie": "g1:parkingCoordinates",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingCoordinates"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/estaLocalizado#estaLocalizado",
+              "curie": "g1:estaLocalizado",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Street/\"+replace(value,\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddressName",
+                "rdfTypes": [
+                  {
+                    "uri": "http:/www.linkedDataG1.es/Street#Street",
+                    "curie": "g1:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "parkingAddressName"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
     "op": "core/recon",
     "description": "Reconcile cells in column parkingAddressName to type null",
     "columnName": "parkingAddressName",
@@ -283,122 +531,10 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic 425 Market St. (http://dbpedia.org/resource/425_Market_St.) for cells containing \"market st\" in column parkingAddressName",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "cell.recon.best.score",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": false,
-          "name": "parkingAddressName: best candidate's score",
-          "from": 0.04,
-          "to": 1.002,
-          "type": "range",
-          "columnName": "parkingAddressName"
-        }
-      ]
-    },
-    "columnName": "parkingAddressName",
-    "similarValue": "market st",
-    "judgment": "matched",
-    "match": {
-      "id": "http://dbpedia.org/resource/425_Market_St.",
-      "name": "425 Market St.",
-      "score": 0.6071048955566023,
-      "types": [
-        ""
-      ]
-    },
-    "shareNewTopics": false
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "description": "Match topic South Van Ness Avenue (http://dbpedia.org/resource/South_Van_Ness_Avenue) for cells containing \"south van ness\" in column parkingAddressName",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "cell.recon.best.score",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": false,
-          "name": "parkingAddressName: best candidate's score",
-          "from": 0.04,
-          "to": 1.002,
-          "type": "range",
-          "columnName": "parkingAddressName"
-        }
-      ]
-    },
-    "columnName": "parkingAddressName",
-    "similarValue": "south van ness",
-    "judgment": "matched",
-    "match": {
-      "id": "http://dbpedia.org/resource/South_Van_Ness_Avenue",
-      "name": "South Van Ness Avenue",
-      "score": 0.6666666269302368,
-      "types": [
-        ""
-      ]
-    },
-    "shareNewTopics": false
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "description": "Match topic 101 California St. (http://dbpedia.org/resource/101_California_St.) for cells containing \"california st\" in column parkingAddressName",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "cell.recon.best.score",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": false,
-          "name": "parkingAddressName: best candidate's score",
-          "from": 0.04,
-          "to": 1.002,
-          "type": "range",
-          "columnName": "parkingAddressName"
-        }
-      ]
-    },
-    "columnName": "parkingAddressName",
-    "similarValue": "california st",
-    "judgment": "matched",
-    "match": {
-      "id": "http://dbpedia.org/resource/101_California_St.",
-      "name": "101 California St.",
-      "score": 0.6820561137555805,
-      "types": [
-        ""
-      ]
-    },
-    "shareNewTopics": false
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
     "description": "Match topic Stockton St (http://dbpedia.org/resource/Stockton_St) for cells containing \"stockton st\" in column parkingAddressName",
     "engineConfig": {
       "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "cell.recon.best.score",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": false,
-          "name": "parkingAddressName: best candidate's score",
-          "from": 0.04,
-          "to": 1.002,
-          "type": "range",
-          "columnName": "parkingAddressName"
-        }
-      ]
+      "facets": []
     },
     "columnName": "parkingAddressName",
     "similarValue": "stockton st",
@@ -415,89 +551,10 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic The Embarcadero, San Francisco (http://dbpedia.org/resource/The_Embarcadero,_San_Francisco) for cells containing \"the embarcadero\" in column parkingAddressName",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "cell.recon.best.score",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": false,
-          "name": "parkingAddressName: best candidate's score",
-          "from": 0.04,
-          "to": 1.002,
-          "type": "range",
-          "columnName": "parkingAddressName"
-        }
-      ]
-    },
-    "columnName": "parkingAddressName",
-    "similarValue": "the embarcadero",
-    "judgment": "matched",
-    "match": {
-      "id": "http://dbpedia.org/resource/The_Embarcadero,_San_Francisco",
-      "name": "The Embarcadero, San Francisco",
-      "score": 0.5,
-      "types": [
-        ""
-      ]
-    },
-    "shareNewTopics": false
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "description": "Match topic 888 Howard St. (http://dbpedia.org/resource/888_Howard_St.) for cells containing \"howard st\" in column parkingAddressName",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "cell.recon.best.score",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": false,
-          "name": "parkingAddressName: best candidate's score",
-          "from": 0.04,
-          "to": 1.002,
-          "type": "range",
-          "columnName": "parkingAddressName"
-        }
-      ]
-    },
-    "columnName": "parkingAddressName",
-    "similarValue": "howard st",
-    "judgment": "matched",
-    "match": {
-      "id": "http://dbpedia.org/resource/888_Howard_St.",
-      "name": "888 Howard St.",
-      "score": 0.6071048955566023,
-      "types": [
-        ""
-      ]
-    },
-    "shareNewTopics": false
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
     "description": "Match topic Geary Blvd (http://dbpedia.org/resource/Geary_Blvd) for cells containing \"geary blvd\" in column parkingAddressName",
     "engineConfig": {
       "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "cell.recon.best.score",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": false,
-          "name": "parkingAddressName: best candidate's score",
-          "from": 0.04,
-          "to": 1.002,
-          "type": "range",
-          "columnName": "parkingAddressName"
-        }
-      ]
+      "facets": []
     },
     "columnName": "parkingAddressName",
     "similarValue": "geary blvd",
@@ -514,221 +571,10 @@
   },
   {
     "op": "core/recon-judge-similar-cells",
-    "description": "Match topic 301 Mission St. (http://dbpedia.org/resource/301_Mission_St.) for cells containing \"mission st\" in column parkingAddressName",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "cell.recon.best.score",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": false,
-          "name": "parkingAddressName: best candidate's score",
-          "from": 0.04,
-          "to": 1.002,
-          "type": "range",
-          "columnName": "parkingAddressName"
-        }
-      ]
-    },
-    "columnName": "parkingAddressName",
-    "similarValue": "mission st",
-    "judgment": "matched",
-    "match": {
-      "id": "http://dbpedia.org/resource/301_Mission_St.",
-      "name": "301 Mission St.",
-      "score": 0.6295902328714175,
-      "types": [
-        ""
-      ]
-    },
-    "shareNewTopics": false
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "description": "Match topic 300 Spear St. (http://dbpedia.org/resource/300_Spear_St.) for cells containing \"spear st\" in column parkingAddressName",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "cell.recon.best.score",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": false,
-          "name": "parkingAddressName: best candidate's score",
-          "from": 0.04,
-          "to": 1.002,
-          "type": "range",
-          "columnName": "parkingAddressName"
-        }
-      ]
-    },
-    "columnName": "parkingAddressName",
-    "similarValue": "spear st",
-    "judgment": "matched",
-    "match": {
-      "id": "http://dbpedia.org/resource/300_Spear_St.",
-      "name": "300 Spear St.",
-      "score": 0.615384578704834,
-      "types": [
-        ""
-      ]
-    },
-    "shareNewTopics": false
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "description": "Match topic 199 Fremont St. (http://dbpedia.org/resource/199_Fremont_St.) for cells containing \"fremont st\" in column parkingAddressName",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "cell.recon.best.score",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": false,
-          "name": "parkingAddressName: best candidate's score",
-          "from": 0.04,
-          "to": 1.002,
-          "type": "range",
-          "columnName": "parkingAddressName"
-        }
-      ]
-    },
-    "columnName": "parkingAddressName",
-    "similarValue": "fremont st",
-    "judgment": "matched",
-    "match": {
-      "id": "http://dbpedia.org/resource/199_Fremont_St.",
-      "name": "199 Fremont St.",
-      "score": 0.6666666269302368,
-      "types": [
-        ""
-      ]
-    },
-    "shareNewTopics": false
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "description": "Match topic 19th st bart (http://dbpedia.org/resource/19th_st_bart) for cells containing \"19th st\" in column parkingAddressName",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "cell.recon.best.score",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": false,
-          "name": "parkingAddressName: best candidate's score",
-          "from": 0.04,
-          "to": 1.002,
-          "type": "range",
-          "columnName": "parkingAddressName"
-        }
-      ]
-    },
-    "columnName": "parkingAddressName",
-    "similarValue": "19th st",
-    "judgment": "matched",
-    "match": {
-      "id": "http://dbpedia.org/resource/19th_st_bart",
-      "name": "19th st bart",
-      "score": 0.5833333730697632,
-      "types": [
-        ""
-      ]
-    },
-    "shareNewTopics": false
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "description": "Match topic 333 Bush St. (http://dbpedia.org/resource/333_Bush_St.) for cells containing \"bush st\" in column parkingAddressName",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "cell.recon.best.score",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": false,
-          "name": "parkingAddressName: best candidate's score",
-          "from": 0.04,
-          "to": 1.002,
-          "type": "range",
-          "columnName": "parkingAddressName"
-        }
-      ]
-    },
-    "columnName": "parkingAddressName",
-    "similarValue": "bush st",
-    "judgment": "matched",
-    "match": {
-      "id": "http://dbpedia.org/resource/333_Bush_St.",
-      "name": "333 Bush St.",
-      "score": 0.5833333730697632,
-      "types": [
-        ""
-      ]
-    },
-    "shareNewTopics": false
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "description": "Match topic 44 Montgomery St. (http://dbpedia.org/resource/44_Montgomery_St.) for cells containing \"montgomery st\" in column parkingAddressName",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "cell.recon.best.score",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": false,
-          "name": "parkingAddressName: best candidate's score",
-          "from": 0.04,
-          "to": 1.002,
-          "type": "range",
-          "columnName": "parkingAddressName"
-        }
-      ]
-    },
-    "columnName": "parkingAddressName",
-    "similarValue": "montgomery st",
-    "judgment": "matched",
-    "match": {
-      "id": "http://dbpedia.org/resource/44_Montgomery_St.",
-      "name": "44 Montgomery St.",
-      "score": 0.7647058963775635,
-      "types": [
-        ""
-      ]
-    },
-    "shareNewTopics": false
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
     "description": "Match topic Haight St (http://dbpedia.org/resource/Haight_St) for cells containing \"haight st\" in column parkingAddressName",
     "engineConfig": {
       "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "cell.recon.best.score",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": false,
-          "name": "parkingAddressName: best candidate's score",
-          "from": 0.04,
-          "to": 1.002,
-          "type": "range",
-          "columnName": "parkingAddressName"
-        }
-      ]
+      "facets": []
     },
     "columnName": "parkingAddressName",
     "similarValue": "haight st",
@@ -744,92 +590,13 @@
     "shareNewTopics": false
   },
   {
-    "op": "core/recon-judge-similar-cells",
-    "description": "Match topic 24th St. Mission (BART station) (http://dbpedia.org/resource/24th_St._Mission_(BART_station)) for cells containing \"24th st\" in column parkingAddressName",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "cell.recon.best.score",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": false,
-          "name": "parkingAddressName: best candidate's score",
-          "from": 0.04,
-          "to": 1.002,
-          "type": "range",
-          "columnName": "parkingAddressName"
-        }
-      ]
-    },
-    "columnName": "parkingAddressName",
-    "similarValue": "24th st",
-    "judgment": "matched",
-    "match": {
-      "id": "http://dbpedia.org/resource/24th_St._Mission_(BART_station)",
-      "name": "24th St. Mission (BART station)",
-      "score": 0.22580647468566895,
-      "types": [
-        ""
-      ]
-    },
-    "shareNewTopics": false
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "description": "Match topic 16th St. Mission (BART station) (http://dbpedia.org/resource/16th_St._Mission_(BART_station)) for cells containing \"16th st\" in column parkingAddressName",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "cell.recon.best.score",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": false,
-          "name": "parkingAddressName: best candidate's score",
-          "from": 0.04,
-          "to": 1.002,
-          "type": "range",
-          "columnName": "parkingAddressName"
-        }
-      ]
-    },
-    "columnName": "parkingAddressName",
-    "similarValue": "16th st",
-    "judgment": "matched",
-    "match": {
-      "id": "http://dbpedia.org/resource/16th_St._Mission_(BART_station)",
-      "name": "16th St. Mission (BART station)",
-      "score": 0.22580647468566895,
-      "types": [
-        ""
-      ]
-    },
-    "shareNewTopics": false
-  },
-  {
     "op": "core/column-addition",
-    "description": "Create column linked at index 4 based on column parkingAddressName using expression grel:cell.recon.match.id",
+    "description": "Create column dbpedia_street at index 4 based on column parkingAddressName using expression grel:cell.recon.match.id",
     "engineConfig": {
       "mode": "row-based",
-      "facets": [
-        {
-          "selectNumeric": true,
-          "expression": "cell.recon.best.score",
-          "selectBlank": true,
-          "selectNonNumeric": true,
-          "selectError": false,
-          "name": "parkingAddressName: best candidate's score",
-          "from": 0.494,
-          "to": 1.002,
-          "type": "range",
-          "columnName": "parkingAddressName"
-        }
-      ]
+      "facets": []
     },
-    "newColumnName": "linked",
+    "newColumnName": "dbpedia_street",
     "columnInsertIndex": 4,
     "baseColumnName": "parkingAddressName",
     "expression": "grel:cell.recon.match.id",
@@ -882,7 +649,6 @@
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
-                "valueType": "http://www.w3.org/2001/XMLSchema#int",
                 "columnName": "parkingId"
               }
             },
@@ -959,10 +725,1246 @@
                       "nodeType": "cell-as-literal",
                       "expression": "value",
                       "isRowNumberCell": false,
-                      "columnName": "linked"
+                      "columnName": "dbpedia_street"
                     }
                   }
                 ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.linkedDataG1.es/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g1",
+          "uri": ""
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Parking/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "parkingId",
+          "rdfTypes": [
+            {
+              "uri": "http:/www.linkedDataG1.es/Parking#Parking",
+              "curie": "g1:Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingId#parkingId",
+              "curie": "g1:parkingId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingId"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingOwner#parkingOwner",
+              "curie": "g1:parkingOwner",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingOwner"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingAddress#parkingAddress",
+              "curie": "g1:parkingAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddress"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingCapacity#parkingCapacity",
+              "curie": "g1:parkingCapacity",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "parkingCapacity"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingCoordinates#parkingCoordinates",
+              "curie": "g1:parkingCoordinates",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingCoordinates"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/estaLocalizado#estaLocalizado",
+              "curie": "g1:estaLocalizado",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Street/\"+replace(value,\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddressName",
+                "rdfTypes": [
+                  {
+                    "uri": "http:/www.linkedDataG1.es/Street#Street",
+                    "curie": "g1:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "parkingAddressName"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "dbpedia_street"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column parkingAddress to type null",
+    "columnName": "parkingAddress",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": null,
+      "autoMatch": false,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column dbpedia_edificio at index 3 based on column parkingAddress using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "selectNumeric": true,
+          "expression": "cell.recon.best.score",
+          "selectBlank": true,
+          "selectNonNumeric": true,
+          "selectError": false,
+          "name": "parkingAddress: best candidate's score",
+          "from": 0.9166000000000001,
+          "to": 1.0002,
+          "type": "range",
+          "columnName": "parkingAddress"
+        }
+      ]
+    },
+    "newColumnName": "dbpedia_edificio",
+    "columnInsertIndex": 3,
+    "baseColumnName": "parkingAddress",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.linkedDataG1.es/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g1",
+          "uri": ""
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Parking/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "parkingId",
+          "rdfTypes": [
+            {
+              "uri": "http:/www.linkedDataG1.es/Parking#Parking",
+              "curie": "g1:Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingId#parkingId",
+              "curie": "g1:parkingId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingId"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingOwner#parkingOwner",
+              "curie": "g1:parkingOwner",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingOwner"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingAddress#parkingAddress",
+              "curie": "g1:parkingAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddress"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingCapacity#parkingCapacity",
+              "curie": "g1:parkingCapacity",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "parkingCapacity"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingCoordinates#parkingCoordinates",
+              "curie": "g1:parkingCoordinates",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingCoordinates"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/estaLocalizado#estaLocalizado",
+              "curie": "g1:estaLocalizado",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Street/\"+replace(value,\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddressName",
+                "rdfTypes": [
+                  {
+                    "uri": "http:/www.linkedDataG1.es/Street#Street",
+                    "curie": "g1:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "parkingAddressName"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "dbpedia_street"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "dbpedia_edificio"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.linkedDataG1.es/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g1",
+          "uri": ""
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Parking/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "parkingId",
+          "rdfTypes": [
+            {
+              "uri": "http:/www.linkedDataG1.es/Parking#Parking",
+              "curie": "g1:Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingId#parkingId",
+              "curie": "g1:parkingId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingId"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingOwner#parkingOwner",
+              "curie": "g1:parkingOwner",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingOwner"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingAddress#parkingAddress",
+              "curie": "g1:parkingAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddress"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingCapacity#parkingCapacity",
+              "curie": "g1:parkingCapacity",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "parkingCapacity"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingCoordinates#parkingCoordinates",
+              "curie": "g1:parkingCoordinates",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingCoordinates"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/estaLocalizado#estaLocalizado",
+              "curie": "g1:estaLocalizado",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Street/\"+replace(value,\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddressName",
+                "rdfTypes": [
+                  {
+                    "uri": "http:/www.linkedDataG1.es/Street#Street",
+                    "curie": "g1:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "parkingAddressName"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "dbpedia_street"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "dbpedia_edificio"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.linkedDataG1.es/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g1",
+          "uri": ""
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Parking/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "parkingId",
+          "rdfTypes": [
+            {
+              "uri": "http:/www.linkedDataG1.es/Parking#Parking",
+              "curie": "g1:Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingId#parkingId",
+              "curie": "g1:parkingId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingId"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingOwner#parkingOwner",
+              "curie": "g1:parkingOwner",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingOwner"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingAddress#parkingAddress",
+              "curie": "g1:parkingAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddress"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingCapacity#parkingCapacity",
+              "curie": "g1:parkingCapacity",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "parkingCapacity"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingCoordinates#parkingCoordinates",
+              "curie": "g1:parkingCoordinates",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingCoordinates"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/estaLocalizado#estaLocalizado",
+              "curie": "g1:estaLocalizado",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Street/\"+replace(value,\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddressName",
+                "rdfTypes": [
+                  {
+                    "uri": "http:/www.linkedDataG1.es/Street#Street",
+                    "curie": "g1:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "parkingAddressName"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "dbpedia_street"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "dbpedia_edificio"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.linkedDataG1.es/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g1",
+          "uri": ""
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Parking/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "parkingId",
+          "rdfTypes": [
+            {
+              "uri": "http:/www.linkedDataG1.es/Parking#Parking",
+              "curie": "g1:Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingId#parkingId",
+              "curie": "g1:parkingId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingId"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingOwner#parkingOwner",
+              "curie": "g1:parkingOwner",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingOwner"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingAddress#parkingAddress",
+              "curie": "g1:parkingAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddress"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingCapacity#parkingCapacity",
+              "curie": "g1:parkingCapacity",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "parkingCapacity"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingCoordinates#parkingCoordinates",
+              "curie": "g1:parkingCoordinates",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingCoordinates"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/estaLocalizado#estaLocalizado",
+              "curie": "g1:estaLocalizado",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Street/\"+replace(value,\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddressName",
+                "rdfTypes": [
+                  {
+                    "uri": "http:/www.linkedDataG1.es/Street#Street",
+                    "curie": "g1:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "parkingAddressName"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "dbpedia_street"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dbpedia_edificio"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.linkedDataG1.es/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g01",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g1",
+          "uri": ""
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Parking/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "parkingId",
+          "rdfTypes": [
+            {
+              "uri": "http:/www.linkedDataG1.es/Parking#Parking",
+              "curie": "g1:Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingId#parkingId",
+              "curie": "g1:parkingId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingId"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingOwner#parkingOwner",
+              "curie": "g1:parkingOwner",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingOwner"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingAddress#parkingAddress",
+              "curie": "g1:parkingAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddress"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingCapacity#parkingCapacity",
+              "curie": "g1:parkingCapacity",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "parkingCapacity"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/parkingCoordinates#parkingCoordinates",
+              "curie": "g1:parkingCoordinates",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingCoordinates"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/estaLocalizado#estaLocalizado",
+              "curie": "g1:estaLocalizado",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Street/\"+replace(value,\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddressName",
+                "rdfTypes": [
+                  {
+                    "uri": "http:/www.linkedDataG1.es/Street#Street",
+                    "curie": "g1:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "parkingAddressName"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "dbpedia_street"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dbpedia_edificio"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column parkingAddress to type null",
+    "columnName": "parkingAddress",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": null,
+      "autoMatch": false,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column dbpedia_edificio",
+    "columnName": "dbpedia_edificio"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column dbpedia_edificio at index 3 based on column parkingAddress using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "dbpedia_edificio",
+    "columnInsertIndex": 3,
+    "baseColumnName": "parkingAddress",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.linkedDataG1.es/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g01",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g1",
+          "uri": ""
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Parking/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "parkingId",
+          "rdfTypes": [
+            {
+              "uri": "http:/www.linkedDataG1.es/ontology#Parking",
+              "curie": "g01:Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http:/www.linkedDataG1.es/ontology#parkingId",
+              "curie": "g01:parkingId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingId"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/ontology#parkingOwner",
+              "curie": "g01:parkingOwner",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingOwner"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/ontology#parkingAddress",
+              "curie": "g01:parkingAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddress"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/ontology#parkingCapacity",
+              "curie": "g01:parkingCapacity",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "parkingCapacity"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/ontology#parkingCoordinates",
+              "curie": "g01:parkingCoordinates",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingCoordinates"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/ontology#estaLocalizado",
+              "curie": "g01:estaLocalizado",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Street/\"+replace(value,\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddressName",
+                "rdfTypes": [
+                  {
+                    "uri": "http:/www.linkedDataG1.es/ontology#Street",
+                    "curie": "g01:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "parkingAddressName"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "dbpedia_street"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dbpedia_edificio"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.linkedDataG1.es/resource/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "g01",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "g1",
+          "uri": ""
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Parking/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "parkingId",
+          "rdfTypes": [
+            {
+              "uri": "http:/www.linkedDataG1.es/ontology#Parking",
+              "curie": "g01:Parking"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http:/www.linkedDataG1.es/ontology#parkingId",
+              "curie": "g01:parkingId",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingId"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/ontology#parkingOwner",
+              "curie": "g01:parkingOwner",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingOwner"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/ontology#parkingAddress",
+              "curie": "g01:parkingAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddress"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/ontology#parkingCapacity",
+              "curie": "g01:parkingCapacity",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "parkingCapacity"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/ontology#parkingCoordinates",
+              "curie": "g01:parkingCoordinates",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "parkingCoordinates"
+              }
+            },
+            {
+              "uri": "http:/www.linkedDataG1.es/ontology#estaLocalizado",
+              "curie": "g01:estaLocalizado",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Street/\"+replace(value,\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "parkingAddressName",
+                "rdfTypes": [
+                  {
+                    "uri": "http:/www.linkedDataG1.es/ontology#Street",
+                    "curie": "g01:Street"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "parkingAddressName"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "dbpedia_street"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dbpedia_edificio"
               }
             }
           ]

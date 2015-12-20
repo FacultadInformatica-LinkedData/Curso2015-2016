@@ -44216,5 +44216,863 @@
         }
       ]
     }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"sol\" in column Renfe",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Renfe",
+    "similarValue": "sol",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://puntosinteres.madrid.es/group04/ontology/puntointeres#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "base",
+          "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Museo/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico",
+              "curie": "base:SitioTuristico"
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Museo",
+              "curie": "base:Museo"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneNombre",
+              "curie": "base:tieneNombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneDescripcion",
+              "curie": "base:tieneDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneHorario",
+              "curie": "base:tieneHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneEquipamiento",
+              "curie": "base:tieneEquipamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneTelefono",
+              "curie": "base:tieneTelefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#estaEnPosicion",
+              "curie": "base:estaEnPosicion",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Posicion/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneDireccion",
+              "curie": "base:tieneDireccion",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Direccion/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneTransportePublico",
+              "curie": "base:tieneTransportePublico",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"TransportePublico/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneMetro",
+              "curie": "base:tieneMetro",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Metro/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneBus",
+              "curie": "base:tieneBus",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Bus/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneRenfe",
+              "curie": "base:tieneRenfe",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Renfe/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"TransportePublico/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#TransportePublico",
+              "curie": "base:TransportePublico"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayTransportePublico",
+              "curie": "base:hayTransportePublico",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Posicion/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Posicion",
+              "curie": "base:Posicion"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneLatitud",
+              "curie": "base:tieneLatitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#long",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneLongitud",
+              "curie": "base:tieneLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#long",
+                "columnName": "LONGITUD"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Direccion/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Direccion",
+              "curie": "base:Direccion"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneNumero",
+              "curie": "base:tieneNumero",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#estaEnDistrito",
+              "curie": "base:estaEnDistrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Distrito/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneCodigoPostal",
+              "curie": "base:tieneCodigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneCalle",
+              "curie": "base:tieneCalle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneTipoVia",
+              "curie": "base:tieneTipoVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Metro/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Metro",
+              "curie": "base:Metro"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayMetro",
+              "curie": "base:hayMetro",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Metro"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Renfe/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Renfe",
+              "curie": "base:Renfe"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayRenfe",
+              "curie": "base:hayRenfe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Renfe"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameas",
+              "curie": "owl:sameas",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Renfe_Dbpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Bus/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Bus",
+              "curie": "base:Bus"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayBus",
+              "curie": "base:hayBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Bus"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Distrito/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Distrito",
+              "curie": "base:Distrito"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito_Dbpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#nombreDistrito",
+              "curie": "base:nombreDistrito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://puntosinteres.madrid.es/group04/ontology/puntointeres#",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "base",
+          "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Museo/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#SitioTuristico",
+              "curie": "base:SitioTuristico"
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Museo",
+              "curie": "base:Museo"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneNombre",
+              "curie": "base:tieneNombre",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneDescripcion",
+              "curie": "base:tieneDescripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneHorario",
+              "curie": "base:tieneHorario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneEquipamiento",
+              "curie": "base:tieneEquipamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneTelefono",
+              "curie": "base:tieneTelefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#estaEnPosicion",
+              "curie": "base:estaEnPosicion",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Posicion/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneDireccion",
+              "curie": "base:tieneDireccion",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Direccion/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneTransportePublico",
+              "curie": "base:tieneTransportePublico",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"TransportePublico/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneMetro",
+              "curie": "base:tieneMetro",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Metro/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneBus",
+              "curie": "base:tieneBus",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Bus/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneRenfe",
+              "curie": "base:tieneRenfe",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Renfe/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"TransportePublico/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#TransportePublico",
+              "curie": "base:TransportePublico"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayTransportePublico",
+              "curie": "base:hayTransportePublico",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Posicion/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Posicion",
+              "curie": "base:Posicion"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneLatitud",
+              "curie": "base:tieneLatitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#long",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneLongitud",
+              "curie": "base:tieneLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#long",
+                "columnName": "LONGITUD"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Direccion/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Direccion",
+              "curie": "base:Direccion"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneNumero",
+              "curie": "base:tieneNumero",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#estaEnDistrito",
+              "curie": "base:estaEnDistrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Distrito/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneCodigoPostal",
+              "curie": "base:tieneCodigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneCalle",
+              "curie": "base:tieneCalle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#tieneTipoVia",
+              "curie": "base:tieneTipoVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Metro/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Metro",
+              "curie": "base:Metro"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayMetro",
+              "curie": "base:hayMetro",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Metro"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Renfe/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Renfe",
+              "curie": "base:Renfe"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayRenfe",
+              "curie": "base:hayRenfe",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Renfe"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Renfe_Dbpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Bus/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Bus",
+              "curie": "base:Bus"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#hayBus",
+              "curie": "base:hayBus",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Bus"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Distrito/\"+substring(replaceChars(value,\"(,Ñ,ñ,Á,É,Í,Ó,Ú,á,é,í,ó,ú, \",\",,N,n,A,E,I,O,U,a,e,i,o,u,\"),0,25)",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#Distrito",
+              "curie": "base:Distrito"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Distrito_Dbpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://puntosinteres.madrid.es/group04/ontology/puntosinteres#nombreDistrito",
+              "curie": "base:nombreDistrito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            }
+          ]
+        }
+      ]
+    }
   }
 ]

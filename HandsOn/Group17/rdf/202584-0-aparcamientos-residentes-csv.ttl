@@ -1,0 +1,2801 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://127.0.0.1:3333/13470> xsd:String "Aparcamiento mixto. Arquitecto Ribera" , "  Plazas:  318 públicas y 298 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/BARCELO> xsd:Integer "2"^^xsd:int ;
+	vcard:street-address "BARCELO" ;
+	gn:locatedIn "JUSTICIA" ;
+	gn:postalCode "28004" .
+
+<http://127.0.0.1:3333/13470> vcard:street-address <http://127.0.0.1:3333/BARCELO> ;
+	gn:featureClass "CENTRO" .
+
+<http://127.0.0.1:3333/59060> xsd:String "Aparcamiento mixto. Avenida de América (intercambiador)" , "   Información sobre accesibilidad :   Tiene escaleras adaptadas  Ascensor de salida a la calle Avenida de América, 9  Tiene aseos accesibles  Plazas para minusválidos     Plazas : 269 públicas y 392 para residentes   Abierto 24 horas    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PRADENA+DEL+RINCON> xsd:Integer "4"^^xsd:int ;
+	vcard:street-address "PRADENA DEL RINCON" ;
+	gn:locatedIn "PROSPERIDAD" ;
+	gn:postalCode "28002" .
+
+<http://127.0.0.1:3333/59060> vcard:street-address <http://127.0.0.1:3333/PRADENA+DEL+RINCON> ;
+	gn:featureClass "CHAMARTIN" .
+
+<http://127.0.0.1:3333/13475> xsd:String "Aparcamiento mixto. Brasil" , "  Plazas:  226 públicas y 400 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/GENERAL+YAG%26Uuml%3BE> xsd:Integer "11"^^xsd:int ;
+	vcard:street-address "GENERAL YAG&Uuml;E" ;
+	gn:locatedIn "CUATRO CAMINOS" ;
+	gn:postalCode "28020" .
+
+<http://127.0.0.1:3333/13475> vcard:street-address <http://127.0.0.1:3333/GENERAL+YAG%26Uuml%3BE> ;
+	gn:featureClass "TETUAN" .
+
+<http://127.0.0.1:3333/183747> xsd:String "Aparcamiento mixto. Casino de la Reina" , "  Plazas:  135 públicas y 449 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CASINO> xsd:Integer "3"^^xsd:int ;
+	vcard:street-address "CASINO" ;
+	gn:locatedIn "EMBAJADORES" ;
+	gn:postalCode "28005" .
+
+<http://127.0.0.1:3333/183747> vcard:street-address <http://127.0.0.1:3333/CASINO> ;
+	gn:featureClass "CENTRO" .
+
+<http://127.0.0.1:3333/13477> xsd:String "Aparcamiento mixto. Condesa de Gavia" , "  Plazas : 73 públicas y 79 para residentes   Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CONDESA+DE+GAVIA> xsd:Integer "0"^^xsd:int ;
+	vcard:street-address "CONDESA DE GAVIA" ;
+	gn:locatedIn "CUATRO CAMINOS" ;
+	gn:postalCode "28020" .
+
+<http://127.0.0.1:3333/13477> vcard:street-address <http://127.0.0.1:3333/CONDESA+DE+GAVIA> ;
+	gn:featureClass "TETUAN" .
+
+<http://127.0.0.1:3333/24103> xsd:String "Aparcamiento mixto. Corazón de María II" , "   Plazas : 327 públicas y 750 para residentes   Informacion sobre accesibilidad:    No tiene escalera adaptada  No tiene ascensor de salida a calle  2 aseos accesibles ( 1&ordf;  planta)   Plazas para minusválidos residentes: 6     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CORAZON+DE+MARIA> xsd:Integer "46"^^xsd:int ;
+	vcard:street-address "CORAZON DE MARIA" ;
+	gn:locatedIn "PROSPERIDAD" ;
+	gn:postalCode "28002" .
+
+<http://127.0.0.1:3333/24103> vcard:street-address <http://127.0.0.1:3333/CORAZON+DE+MARIA> ;
+	gn:featureClass "CHAMARTIN" .
+
+<http://127.0.0.1:3333/81736> xsd:String "Aparcamiento mixto. Corona Boreal" , "   Plazas : 120 públicas y 125 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor de salida a la calle Pérez de Victoria  2 aseos accesibles (1&ordf; planta)  Plazas para minusválidos residentes: 3     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "1" .
+
+<http://127.0.0.1:3333/PEREZ+DE+VICTORIA> vcard:street-address "PEREZ DE VICTORIA" ;
+	gn:locatedIn "ARAVACA" ;
+	gn:postalCode "28023" .
+
+<http://127.0.0.1:3333/81736> vcard:street-address <http://127.0.0.1:3333/PEREZ+DE+VICTORIA> ;
+	gn:featureClass "MONCLOA-ARAVACA" .
+
+<http://127.0.0.1:3333/183748> xsd:String "Aparcamiento mixto. Daoíz y Velarde" , "  Plazas:  312 públicas y 174 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CIUDAD+DE+BARCELONA> xsd:Integer "3"^^xsd:int ;
+	vcard:street-address "CIUDAD DE BARCELONA" ;
+	gn:locatedIn "PACIFICO" ;
+	gn:postalCode "28007" .
+
+<http://127.0.0.1:3333/183748> vcard:street-address <http://127.0.0.1:3333/CIUDAD+DE+BARCELONA> ;
+	gn:featureClass "RETIRO" .
+
+<http://127.0.0.1:3333/44724> xsd:String "Aparcamiento mixto. Díaz Porlier" , "  Plazas:  203 públicas y 421 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/DIEGO+DE+LEON> xsd:Integer "62"^^xsd:int ;
+	vcard:street-address "DIEGO DE LEON" ;
+	gn:locatedIn "LISTA" ;
+	gn:postalCode "28006" .
+
+<http://127.0.0.1:3333/44724> vcard:street-address <http://127.0.0.1:3333/DIEGO+DE+LEON> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/36269> xsd:String "Aparcamiento mixto. Encuentro" , "  Plazas:  104 públicas y 550 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ENCUENTRO> xsd:Integer "1"^^xsd:int ;
+	vcard:street-address "ENCUENTRO" ;
+	gn:locatedIn "MEDIA LEGUA" ;
+	gn:postalCode "28030" .
+
+<http://127.0.0.1:3333/36269> vcard:street-address <http://127.0.0.1:3333/ENCUENTRO> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/13464> xsd:String "Aparcamiento mixto. Felipe II" , "  Plazas : 1218 públicas y 607 para residentes    Plazas : 120 públicas y 125 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor de salida a la plaza de Felipe II  Aseo accesible (1&ordf; planta)  Plazas para minusválidos residentes:23     Abierto 24 horas    Admite tarjeta Bono Red    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ANTONIA+MERCE> xsd:Integer "5-B"^^xsd:int ;
+	vcard:street-address "ANTONIA MERCE" ;
+	gn:locatedIn "GOYA" ;
+	gn:postalCode "28009" .
+
+<http://127.0.0.1:3333/13464> vcard:street-address <http://127.0.0.1:3333/ANTONIA+MERCE> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/13462> xsd:String "Aparcamiento mixto. Fuencarral" , "   Plazas : 410 públicas y 111 para residentes   Información sobre accesibilidad:   No tiene escalera adaptada  1 ascensor con salida a la calle Fuencarral, 117  1 aseo accesible en la 1&ordf; planta  Plazas para minusválidos residentes: 7     Abierto 24 horas    Admite Tarjeta Bono Red    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/FUENCARRAL> xsd:Integer "111 a 121"^^xsd:int ;
+	vcard:street-address "FUENCARRAL" ;
+	gn:locatedIn "TRAFALGAR" ;
+	gn:postalCode "28010" .
+
+<http://127.0.0.1:3333/13462> vcard:street-address <http://127.0.0.1:3333/FUENCARRAL> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/13515> xsd:String "Aparcamiento mixto. General Yagüe" , "  Plazas:  409 públicas y 717 residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/BRASIL> xsd:Integer "15"^^xsd:int ;
+	vcard:street-address "BRASIL" ;
+	gn:locatedIn "CASTILLEJOS" ;
+	gn:postalCode "28020" .
+
+<http://127.0.0.1:3333/13515> vcard:street-address <http://127.0.0.1:3333/BRASIL> ;
+	gn:featureClass "TETUAN" .
+
+<http://127.0.0.1:3333/36270> xsd:String "Aparcamiento mixto. Hernani" , "   Plazas:  115 públicas y 383 residentes   Información sobre accesibilidad:   No tiene escaleras adptadas  Ascensor de salida a la calle Hernai, 68  1 aseo accesible en 1&ordf; planta  Plazas para minusválidos residentes. 3      Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/HERNANI> xsd:Integer "60"^^xsd:int ;
+	vcard:street-address "HERNANI" ;
+	gn:locatedIn "CUATRO CAMINOS" ;
+	gn:postalCode "28020" .
+
+<http://127.0.0.1:3333/36270> vcard:street-address <http://127.0.0.1:3333/HERNANI> ;
+	gn:featureClass "TETUAN" .
+
+<http://127.0.0.1:3333/13459> xsd:String "Aparcamiento mixto. Jacinto Benavente" , "   Plazas:  285 públicas y 110 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor con salida a la calle Jacinto benavente, s/n  1 aseo accesible Plaza para minusválidos residentes: 16    Abierto 24 horas  Admite Tarjeta Bono Red    Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/JACINTO+BENAVENTE> xsd:Integer "6"^^xsd:int ;
+	vcard:street-address "JACINTO BENAVENTE" ;
+	gn:locatedIn "CORTES" ;
+	gn:postalCode "28012" .
+
+<http://127.0.0.1:3333/13459> vcard:street-address <http://127.0.0.1:3333/JACINTO+BENAVENTE> ;
+	gn:featureClass "CENTRO" .
+
+<http://127.0.0.1:3333/13479> xsd:String "Aparcamiento mixto. José Castán Tobeñas" , "   Plazas:  205 públicas y 43 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  No disponde ascensor  No disponde de aseos accesible  Plazas para minusválidos residentes: 5     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CAPITAN+HAYA> xsd:Integer "57"^^xsd:int ;
+	vcard:street-address "CAPITAN HAYA" ;
+	gn:locatedIn "CASTILLEJOS" ;
+	gn:postalCode "28020" .
+
+<http://127.0.0.1:3333/13479> vcard:street-address <http://127.0.0.1:3333/CAPITAN+HAYA> ;
+	gn:featureClass "TETUAN" .
+
+<http://127.0.0.1:3333/6143690> xsd:String "Aparcamiento mixto. Marqués de Salamanca" , "   Plazas : 360 públicas y 70 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida a la plaza del Marqués de Salamanca  1 aseo accesible en  2&ordf;   planta  Plaza para minusválidos residentes: 14     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MARQUES+DE+SALAMANCA> xsd:Integer "8"^^xsd:int ;
+	vcard:street-address "MARQUES DE SALAMANCA" ;
+	gn:locatedIn "LISTA" ;
+	gn:postalCode "28006" .
+
+<http://127.0.0.1:3333/6143690> vcard:street-address <http://127.0.0.1:3333/MARQUES+DE+SALAMANCA> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/182188> xsd:String "Aparcamiento mixto. Miguel Yuste" , "  Plazas:  182  públicas y 68 para residentes  Abierto: 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MIGUEL+YUSTE> xsd:Integer "11"^^xsd:int ;
+	vcard:street-address "MIGUEL YUSTE" ;
+	gn:locatedIn "SIMANCAS" ;
+	gn:postalCode "28037" .
+
+<http://127.0.0.1:3333/182188> vcard:street-address <http://127.0.0.1:3333/MIGUEL+YUSTE> ;
+	gn:featureClass "SAN BLAS-CANILLEJAS" .
+
+<http://127.0.0.1:3333/5517342> xsd:String "Aparcamiento mixto. Orense" , "   Plazas : 128 públicas y 663 para residentes   Información sobre accesibilidad:    1 escalera adaptada  No dispone de ascensor   1 aseo accesible  Plaza para minusválidos residentes: 5     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SOR+ANGELA+DE+LA+CRUZ> xsd:Integer "27"^^xsd:int ;
+	vcard:street-address "SOR ANGELA DE LA CRUZ" ;
+	gn:locatedIn "CASTILLEJOS" ;
+	gn:postalCode "28020" .
+
+<http://127.0.0.1:3333/5517342> vcard:street-address <http://127.0.0.1:3333/SOR+ANGELA+DE+LA+CRUZ> ;
+	gn:featureClass "TETUAN" .
+
+<http://127.0.0.1:3333/33440> xsd:String "Aparcamiento mixto. Oriente" , "  Plazas : 242 públicas y 511 para residentes  Abierto 24 horas  Admite Tarjeta Bono Red   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ORIENTE> xsd:Integer "1"^^xsd:int ;
+	vcard:street-address "ORIENTE" ;
+	gn:locatedIn "PALACIO" ;
+	gn:postalCode "28013" .
+
+<http://127.0.0.1:3333/33440> vcard:street-address <http://127.0.0.1:3333/ORIENTE> ;
+	gn:featureClass "CENTRO" .
+
+<http://127.0.0.1:3333/36271> xsd:String "Aparcamiento mixto. Presidente Carmona" , "  Plazas : 379 públicas y 124 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PRESIDENTE+CARMONA> xsd:Integer "3"^^xsd:int ;
+	vcard:street-address "PRESIDENTE CARMONA" ;
+	gn:locatedIn "CUATRO CAMINOS" ;
+	gn:postalCode "28020" .
+
+<http://127.0.0.1:3333/36271> vcard:street-address <http://127.0.0.1:3333/PRESIDENTE+CARMONA> ;
+	gn:featureClass "TETUAN" .
+
+<http://127.0.0.1:3333/13476> xsd:String "Aparcamiento mixto. Recoletos" , "   Plazas : 102 públicas y 289 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida al Paseo de Recoletos  1 aseo accesible  Plaza para minusválidos residentes: 10     Abierto 24 horas    Admite la Tarjeta BonoRed (Bono Red)    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/RECOLETOS> xsd:Integer "4"^^xsd:int ;
+	vcard:street-address "RECOLETOS" ;
+	gn:locatedIn "RECOLETOS" ;
+	gn:postalCode "28001" .
+
+<http://127.0.0.1:3333/13476> vcard:street-address <http://127.0.0.1:3333/RECOLETOS> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/24193> xsd:String "Aparcamiento mixto. República Dominicana" , "  Plazas : 892 públicas y 203 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/REPUBLICA+DOMINICANA> xsd:Integer "6-B"^^xsd:int ;
+	vcard:street-address "REPUBLICA DOMINICANA" ;
+	gn:locatedIn "NUEVA ESPAÑA" ;
+	gn:postalCode "28016" .
+
+<http://127.0.0.1:3333/24193> vcard:street-address <http://127.0.0.1:3333/REPUBLICA+DOMINICANA> ;
+	gn:featureClass "CHAMARTIN" .
+
+<http://127.0.0.1:3333/81828> xsd:String "Aparcamiento mixto. Reyes Magos" , "  Plazas : 356 públicas y 345 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/REYES+MAGOS> xsd:Integer "14"^^xsd:int ;
+	vcard:street-address "REYES MAGOS" ;
+	gn:locatedIn "NIÑO JESUS" ;
+	gn:postalCode "28007" .
+
+<http://127.0.0.1:3333/81828> vcard:street-address <http://127.0.0.1:3333/REYES+MAGOS> ;
+	gn:featureClass "RETIRO" .
+
+<http://127.0.0.1:3333/167692> xsd:String "Aparcamiento mixto. San Cayetano" , "  Plazas : 222 públicas y 261 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SAN+CAYETANO> xsd:Integer "1-B"^^xsd:int ;
+	vcard:street-address "SAN CAYETANO" ;
+	gn:locatedIn "GUINDALERA" ;
+	gn:postalCode "28028" .
+
+<http://127.0.0.1:3333/167692> vcard:street-address <http://127.0.0.1:3333/SAN+CAYETANO> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/19053> xsd:String "Aparcamiento mixto. Sánchez Bustillo" , "  Plazas : 132 públicas y 408 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SANCHEZ+BUSTILLO> xsd:Integer "1"^^xsd:int ;
+	vcard:street-address "SANCHEZ BUSTILLO" ;
+	gn:locatedIn "EMBAJADORES" ;
+	gn:postalCode "28012" .
+
+<http://127.0.0.1:3333/19053> vcard:street-address <http://127.0.0.1:3333/SANCHEZ+BUSTILLO> ;
+	gn:featureClass "CENTRO" .
+
+<http://127.0.0.1:3333/7416748> xsd:String "Aparcamiento mixto. Serrano I" , "  Plazas : 307 públicas y 831 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/JUAN+BRAVO> xsd:Integer "4-B"^^xsd:int ;
+	vcard:street-address "JUAN BRAVO" ;
+	gn:locatedIn "CASTELLANA" ;
+	gn:postalCode "28006" .
+
+<http://127.0.0.1:3333/7416748> vcard:street-address <http://127.0.0.1:3333/JUAN+BRAVO> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/7417028> xsd:String "Aparcamiento mixto. Serrano II" , "  Plazas : 379 públicas y 794 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/JOSE+ORTEGA+Y+GASSET> xsd:Integer "1-B"^^xsd:int ;
+	vcard:street-address "JOSE ORTEGA Y GASSET" ;
+	gn:locatedIn "CASTELLANA" ;
+	gn:postalCode "28006" .
+
+<http://127.0.0.1:3333/7417028> vcard:street-address <http://127.0.0.1:3333/JOSE+ORTEGA+Y+GASSET> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/7417052> xsd:String "Aparcamiento mixto. Serrano III" , "  Plazas : 261 públicas y 725 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/JORGE+JUAN> xsd:Integer "1-B"^^xsd:int ;
+	vcard:street-address "JORGE JUAN" ;
+	gn:locatedIn "RECOLETOS" ;
+	gn:postalCode "28001" .
+
+<http://127.0.0.1:3333/7417052> vcard:street-address <http://127.0.0.1:3333/JORGE+JUAN> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/13460> xsd:String "Aparcamiento mixto. Sevilla" , "  Plazas : 476 públicas y 70 para residentes  Abierto 24 horas   Admite Tarjeta Bono Red    Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ALCALA> xsd:Integer "17-B"^^xsd:int ;
+	vcard:street-address "ALCALA" ;
+	gn:locatedIn "SOL" ;
+	gn:postalCode "28014" .
+
+<http://127.0.0.1:3333/13460> vcard:street-address <http://127.0.0.1:3333/ALCALA> ;
+	gn:featureClass "CENTRO" .
+
+<http://127.0.0.1:3333/52114> xsd:String "Aparcamiento mixto. Vázquez de Mella" , "   Plazas:  109 públicas y 261 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor con salida a la Plaza de Vazquez de Mella  1 aseo accesible  Plaza para minusválidos residentes: 7     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VAZQUEZ+DE+MELLA> xsd:Integer "1"^^xsd:int ;
+	vcard:street-address "VAZQUEZ DE MELLA" ;
+	gn:locatedIn "JUSTICIA" ;
+	gn:postalCode "28004" .
+
+<http://127.0.0.1:3333/52114> vcard:street-address <http://127.0.0.1:3333/VAZQUEZ+DE+MELLA> ;
+	gn:featureClass "CENTRO" .
+
+<http://127.0.0.1:3333/13458> xsd:String "Aparcamiento mixto. Velázquez - Ayala" , "  Plazas:  464 públicas y 235 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed.   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VELAZQUEZ> xsd:Integer "47"^^xsd:int ;
+	vcard:street-address "VELAZQUEZ" ;
+	gn:locatedIn "RECOLETOS" ;
+	gn:postalCode "28001" .
+
+<http://127.0.0.1:3333/13458> vcard:street-address <http://127.0.0.1:3333/VELAZQUEZ> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/13457> xsd:String "Aparcamiento mixto. Velázquez Jorge Juan" , "  Plazas:  549 públicas y 395 para residentes  Abierto 24 horas  Admite Tarjeta Bono Red   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "1" .
+
+<http://127.0.0.1:3333/VELAZQUEZ> xsd:Integer "25-B"^^xsd:int .
+
+<http://127.0.0.1:3333/13457> vcard:street-address <http://127.0.0.1:3333/VELAZQUEZ> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/183607> xsd:String "Aparcamiento mixto. Verdaguer y García" , "   Plazas:  83 públicas y 180 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida a la Calle Verdaguer y garcía  1 aseo accesible en la planta -1  Plaza para minusválidos residentes: 4     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VERDAGUER+Y+GARCIA> xsd:Integer "1"^^xsd:int ;
+	vcard:street-address "VERDAGUER Y GARCIA" ;
+	gn:locatedIn "SAN PASCUAL" ;
+	gn:postalCode "28027" .
+
+<http://127.0.0.1:3333/183607> vcard:street-address <http://127.0.0.1:3333/VERDAGUER+Y+GARCIA> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/8087180> xsd:String "Aparcamiento para residentes del Centro Polivalente Barceló" ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/BARCELO> xsd:Integer "S/N"^^xsd:int .
+
+<http://127.0.0.1:3333/8087180> vcard:street-address <http://127.0.0.1:3333/BARCELO> ;
+	gn:featureClass "CENTRO" .
+
+<http://127.0.0.1:3333/4829668> xsd:String "Aparcamiento para residentes.  Ginzo de Limia" , "  Plazas:  97  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VALENCIA+DE+DON+JUAN> xsd:Integer "16"^^xsd:int ;
+	vcard:street-address "VALENCIA DE DON JUAN" ;
+	gn:locatedIn "LA PAZ" ;
+	gn:postalCode "28034" .
+
+<http://127.0.0.1:3333/4829668> vcard:street-address <http://127.0.0.1:3333/VALENCIA+DE+DON+JUAN> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/24139> xsd:String "Aparcamiento para residentes.  Valderromán" , "  Plazas:  424  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VALDERROMAN> xsd:Integer "24-B"^^xsd:int ;
+	vcard:street-address "VALDERROMAN" ;
+	gn:locatedIn "VALDEZARZA" ;
+	gn:postalCode "28035" .
+
+<http://127.0.0.1:3333/24139> vcard:street-address <http://127.0.0.1:3333/VALDERROMAN> ;
+	gn:featureClass "MONCLOA-ARAVACA" .
+
+<http://127.0.0.1:3333/67711> xsd:String "Aparcamiento para residentes. Aguilar de Campóo" , "  Plazas : 203  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ANTONIO+MACHADO> xsd:Integer "10"^^xsd:int ;
+	vcard:street-address "ANTONIO MACHADO" ;
+	gn:locatedIn "VALDEZARZA" ;
+	gn:postalCode "28035" .
+
+<http://127.0.0.1:3333/67711> vcard:street-address <http://127.0.0.1:3333/ANTONIO+MACHADO> ;
+	gn:featureClass "MONCLOA-ARAVACA" .
+
+<http://127.0.0.1:3333/13560> xsd:String "Aparcamiento para residentes. Aguilón" , "  Plazas : 271  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CHOPERA> xsd:Integer "27"^^xsd:int ;
+	vcard:street-address "CHOPERA" ;
+	gn:locatedIn "CHOPERA" ;
+	gn:postalCode "28045" .
+
+<http://127.0.0.1:3333/13560> vcard:street-address <http://127.0.0.1:3333/CHOPERA> ;
+	gn:featureClass "ARGANZUELA" .
+
+<http://127.0.0.1:3333/81690> xsd:String "Aparcamiento para residentes. Agustín Lara" , "  Plazas : 291  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/EMBAJADORES> xsd:Integer "58"^^xsd:int ;
+	vcard:street-address "EMBAJADORES" ;
+	gn:locatedIn "EMBAJADORES" ;
+	gn:postalCode "28012" .
+
+<http://127.0.0.1:3333/81690> vcard:street-address <http://127.0.0.1:3333/EMBAJADORES> ;
+	gn:featureClass "CENTRO" .
+
+<http://127.0.0.1:3333/7439839> xsd:String "Aparcamiento para residentes. Alameda" , "  Plazas : 171  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ALAMEDA> xsd:Integer "11"^^xsd:int ;
+	vcard:street-address "ALAMEDA" ;
+	gn:locatedIn "CORTES" ;
+	gn:postalCode "28014" .
+
+<http://127.0.0.1:3333/7439839> vcard:street-address <http://127.0.0.1:3333/ALAMEDA> ;
+	gn:featureClass "CENTRO" .
+
+<http://127.0.0.1:3333/24136> xsd:String "Aparcamiento para residentes. Alcalde Sáinz de Baranda" , "  Plazas : 565  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ALCALDE+SAINZ+DE+BARANDA> xsd:Integer "81"^^xsd:int ;
+	vcard:street-address "ALCALDE SAINZ DE BARANDA" ;
+	gn:locatedIn "ESTRELLA" ;
+	gn:postalCode "28007" .
+
+<http://127.0.0.1:3333/24136> vcard:street-address <http://127.0.0.1:3333/ALCALDE+SAINZ+DE+BARANDA> ;
+	gn:featureClass "RETIRO" .
+
+<http://127.0.0.1:3333/17790> xsd:String "Aparcamiento para residentes. Alcazaba" , "  Plazas : 334  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SINESIO+DELGADO> xsd:Integer "26"^^xsd:int ;
+	vcard:street-address "SINESIO DELGADO" ;
+	gn:locatedIn "EL PILAR" ;
+	gn:postalCode "28029" .
+
+<http://127.0.0.1:3333/17790> vcard:street-address <http://127.0.0.1:3333/SINESIO+DELGADO> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/81696> xsd:String "Aparcamiento para residentes. Alonso Cano" , "  Plazas : 433  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/JOSE+ABASCAL> xsd:Integer "21"^^xsd:int ;
+	vcard:street-address "JOSE ABASCAL" ;
+	gn:locatedIn "RIOS ROSAS" ;
+	gn:postalCode "28003" .
+
+<http://127.0.0.1:3333/81696> vcard:street-address <http://127.0.0.1:3333/JOSE+ABASCAL> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/13561> xsd:String "Aparcamiento para residentes. Altos de Lillo" , "  Plazas : 167  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/BUBIERCA> xsd:Integer "5"^^xsd:int ;
+	vcard:street-address "BUBIERCA" ;
+	gn:locatedIn "CASCO H.VALLECAS" ;
+	gn:postalCode "28031" .
+
+<http://127.0.0.1:3333/13561> vcard:street-address <http://127.0.0.1:3333/BUBIERCA> ;
+	gn:featureClass "VILLA DE VALLECAS" .
+
+<http://127.0.0.1:3333/19060> xsd:String "Aparcamiento para residentes. Aluche" , "  Plazas : 208  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ILLESCAS> xsd:Integer "151"^^xsd:int ;
+	vcard:street-address "ILLESCAS" ;
+	gn:locatedIn "ALUCHE" ;
+	gn:postalCode "28047" .
+
+<http://127.0.0.1:3333/19060> vcard:street-address <http://127.0.0.1:3333/ILLESCAS> ;
+	gn:featureClass "LATINA" .
+
+<http://127.0.0.1:3333/13494> xsd:String "Aparcamiento para residentes. América Española" , "  Plazas : 282  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SANCHO+DAVILA> xsd:Integer "1"^^xsd:int ;
+	vcard:street-address "SANCHO DAVILA" ;
+	gn:locatedIn "FUENTE DEL BERRO" ;
+	gn:postalCode "28028" .
+
+<http://127.0.0.1:3333/13494> vcard:street-address <http://127.0.0.1:3333/SANCHO+DAVILA> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/13552> xsd:String "Aparcamiento para residentes. Andévalo" , "  Plazas : 313  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ANDEVALO> xsd:Integer "6"^^xsd:int ;
+	vcard:street-address "ANDEVALO" ;
+	gn:locatedIn "ENTREVIAS" ;
+	gn:postalCode "28053" .
+
+<http://127.0.0.1:3333/13552> vcard:street-address <http://127.0.0.1:3333/ANDEVALO> ;
+	gn:featureClass "PUENTE DE VALLECAS" .
+
+<http://127.0.0.1:3333/5753573> xsd:String "Aparcamiento para residentes. Andorra II" , "  Plazas : 280  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SILVANO> xsd:Integer "61"^^xsd:int ;
+	vcard:street-address "SILVANO" ;
+	gn:locatedIn "CANILLAS" ;
+	gn:postalCode "28043" .
+
+<http://127.0.0.1:3333/5753573> vcard:street-address <http://127.0.0.1:3333/SILVANO> ;
+	gn:featureClass "HORTALEZA" .
+
+<http://127.0.0.1:3333/13514> xsd:String "Aparcamiento para residentes. Angel Carbajo" , "  Plazas:  470  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ANGEL+CARBAJO> xsd:Integer "8"^^xsd:int ;
+	vcard:street-address "ANGEL CARBAJO" ;
+	gn:locatedIn "CASTILLEJOS" ;
+	gn:postalCode "28020" .
+
+<http://127.0.0.1:3333/13514> vcard:street-address <http://127.0.0.1:3333/ANGEL+CARBAJO> ;
+	gn:featureClass "TETUAN" .
+
+<http://127.0.0.1:3333/13548> xsd:String "Aparcamiento para residentes. Antonio López" , "  Plazas : 1111  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CORDOBA> xsd:Integer "19"^^xsd:int ;
+	vcard:street-address "CORDOBA" ;
+	gn:locatedIn "ALMENDRALES" ;
+	gn:postalCode "28026" .
+
+<http://127.0.0.1:3333/13548> vcard:street-address <http://127.0.0.1:3333/CORDOBA> ;
+	gn:featureClass "USERA" .
+
+<http://127.0.0.1:3333/13562> xsd:String "Aparcamiento para residentes. Antonio Machado" , "  Plazas : 339  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ANTONIO+MACHADO> xsd:Integer "19"^^xsd:int .
+
+<http://127.0.0.1:3333/13562> vcard:street-address <http://127.0.0.1:3333/ANTONIO+MACHADO> ;
+	gn:featureClass "MONCLOA-ARAVACA" .
+
+<http://127.0.0.1:3333/13554> xsd:String "Aparcamiento para residentes. Antonio Maura" , "  Plazas:  510  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ANTONIO+MAURA> xsd:Integer "7"^^xsd:int ;
+	vcard:street-address "ANTONIO MAURA" ;
+	gn:locatedIn "LOS JERONIMOS" ;
+	gn:postalCode "28014" .
+
+<http://127.0.0.1:3333/13554> vcard:street-address <http://127.0.0.1:3333/ANTONIO+MAURA> ;
+	gn:featureClass "RETIRO" .
+
+<http://127.0.0.1:3333/24093> xsd:String "Aparcamiento para residentes. Antonio Mena" , "  Plazas:  315  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MORATALAZ> xsd:Integer "197"^^xsd:int ;
+	vcard:street-address "MORATALAZ" ;
+	gn:locatedIn "MARROQUINA" ;
+	gn:postalCode "28030" .
+
+<http://127.0.0.1:3333/24093> vcard:street-address <http://127.0.0.1:3333/MORATALAZ> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/24088> xsd:String "Aparcamiento para residentes. Antonio Pirala" , "  Plazas:  508  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ANTONIO+PIRALA> xsd:Integer "8"^^xsd:int ;
+	vcard:street-address "ANTONIO PIRALA" ;
+	gn:locatedIn "VENTAS" ;
+	gn:postalCode "28017" .
+
+<http://127.0.0.1:3333/24088> vcard:street-address <http://127.0.0.1:3333/ANTONIO+PIRALA> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/24095> xsd:String "Aparcamiento para residentes. Arganda" , "  Plazas:  164  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ARGANDA> xsd:Integer "10 C"^^xsd:int ;
+	vcard:street-address "ARGANDA" ;
+	gn:locatedIn "ACACIAS" ;
+	gn:postalCode "28005" .
+
+<http://127.0.0.1:3333/24095> vcard:street-address <http://127.0.0.1:3333/ARGANDA> ;
+	gn:featureClass "ARGANZUELA" .
+
+<http://127.0.0.1:3333/24096> xsd:String "Aparcamiento para residentes. Arroyo del Olivar" , "  Plazas:  214  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ARROYO+DEL+OLIVAR> xsd:Integer "51"^^xsd:int ;
+	vcard:street-address "ARROYO DEL OLIVAR" ;
+	gn:locatedIn "PALOMERAS BAJAS" ;
+	gn:postalCode "28018" .
+
+<http://127.0.0.1:3333/24096> vcard:street-address <http://127.0.0.1:3333/ARROYO+DEL+OLIVAR> ;
+	gn:featureClass "PUENTE DE VALLECAS" .
+
+<http://127.0.0.1:3333/13537> xsd:String "Aparcamiento para residentes. Arroyo Fontarrón" , "  Plazas:  307  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ARROYO+FONTARRON> xsd:Integer "9"^^xsd:int ;
+	vcard:street-address "ARROYO FONTARRON" ;
+	gn:locatedIn "FONTARRON" ;
+	gn:postalCode "28030" .
+
+<http://127.0.0.1:3333/13537> vcard:street-address <http://127.0.0.1:3333/ARROYO+FONTARRON> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/13536> xsd:String "Aparcamiento para residentes. Arroyo Media Legua" , "  Plazas:  285  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CORREGIDOR+DIEGO+CABEZA+DE+VACA> xsd:Integer "4"^^xsd:int ;
+	vcard:street-address "CORREGIDOR DIEGO CABEZA DE VACA" ;
+	gn:locatedIn "MEDIA LEGUA" ;
+	gn:postalCode "28030" .
+
+<http://127.0.0.1:3333/13536> vcard:street-address <http://127.0.0.1:3333/CORREGIDOR+DIEGO+CABEZA+DE+VACA> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/13626> xsd:String "Aparcamiento para residentes. Augusto González Besada" , "  Plazas:  278  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MORATALAZ> xsd:Integer "183"^^xsd:int .
+
+<http://127.0.0.1:3333/13626> vcard:street-address <http://127.0.0.1:3333/MORATALAZ> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/170742> xsd:String "Aparcamiento para residentes. Azuaga" , "  Plazas:  261  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "1" .
+
+<http://127.0.0.1:3333/SAN+RESTITUTO> xsd:Integer "33"^^xsd:int ;
+	vcard:street-address "SAN RESTITUTO" ;
+	gn:locatedIn "VALDEZARZA" ;
+	gn:postalCode "28039" .
+
+<http://127.0.0.1:3333/170742> vcard:street-address <http://127.0.0.1:3333/SAN+RESTITUTO> ;
+	gn:featureClass "MONCLOA-ARAVACA" .
+
+<http://127.0.0.1:3333/13501> xsd:String "Aparcamiento para residentes. Bañeza" , "  Plazas:  239  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/LA+BA%26Ntilde%3BEZA> xsd:Integer "20"^^xsd:int ;
+	vcard:street-address "LA BA&Ntilde;EZA" ;
+	gn:locatedIn "EL PILAR" ;
+	gn:postalCode "28029" .
+
+<http://127.0.0.1:3333/13501> vcard:street-address <http://127.0.0.1:3333/LA+BA%26Ntilde%3BEZA> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/13633> xsd:String "Aparcamiento para residentes. Baviera" , "  Plazas:  208  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "1" .
+
+<http://127.0.0.1:3333/BRUSELAS> xsd:Integer "74 B"^^xsd:int ;
+	vcard:street-address "BRUSELAS" ;
+	gn:locatedIn "GUINDALERA" ;
+	gn:postalCode "28028" .
+
+<http://127.0.0.1:3333/13633> vcard:street-address <http://127.0.0.1:3333/BRUSELAS> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/81700> xsd:String "Aparcamiento para residentes. Belianes" , "  Plazas:  161  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/AGUSTIN+DE+ITURBIDE> xsd:Integer "7"^^xsd:int ;
+	vcard:street-address "AGUSTIN DE ITURBIDE" ;
+	gn:locatedIn "PINAR DEL REY" ;
+	gn:postalCode "28043" .
+
+<http://127.0.0.1:3333/81700> vcard:street-address <http://127.0.0.1:3333/AGUSTIN+DE+ITURBIDE> ;
+	gn:featureClass "HORTALEZA" .
+
+<http://127.0.0.1:3333/21182> xsd:String "Aparcamiento para residentes. Blasco de Garay" , "  Plazas:  461  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/BLASCO+DE+GARAY> xsd:Integer "31"^^xsd:int ;
+	vcard:street-address "BLASCO DE GARAY" ;
+	gn:locatedIn "GAZTAMBIDE" ;
+	gn:postalCode "28015" .
+
+<http://127.0.0.1:3333/21182> vcard:street-address <http://127.0.0.1:3333/BLASCO+DE+GARAY> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/13532> xsd:String "Aparcamiento para residentes. Bohemios" , "  Plazas : 340  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PAN+Y+TOROS> xsd:Integer "56"^^xsd:int ;
+	vcard:street-address "PAN Y TOROS" ;
+	gn:locatedIn "LOS ANGELES" ;
+	gn:postalCode "28041" .
+
+<http://127.0.0.1:3333/13532> vcard:street-address <http://127.0.0.1:3333/PAN+Y+TOROS> ;
+	gn:featureClass "VILLAVERDE" .
+
+<http://127.0.0.1:3333/13495> xsd:String "Aparcamiento para residentes. Boston" , "  Plazas:  353  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/BOSTON> xsd:Integer "2"^^xsd:int ;
+	vcard:street-address "BOSTON" ;
+	gn:locatedIn "GUINDALERA" ;
+	gn:postalCode "28028" .
+
+<http://127.0.0.1:3333/13495> vcard:street-address <http://127.0.0.1:3333/BOSTON> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/13530> xsd:String "Aparcamiento para residentes. Bravo Murillo" , "  Plazas:  629  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/BRAVO+MURILLO> xsd:Integer "49"^^xsd:int ;
+	vcard:street-address "BRAVO MURILLO" ;
+	gn:locatedIn "VALLEHERMOSO" ;
+	gn:postalCode "28003" .
+
+<http://127.0.0.1:3333/13530> vcard:street-address <http://127.0.0.1:3333/BRAVO+MURILLO> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/13563> xsd:String "Aparcamiento para residentes. Brescia" , "  Plazas:  399  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/BRESCIA> xsd:Integer "13"^^xsd:int ;
+	vcard:street-address "BRESCIA" ;
+	gn:locatedIn "GUINDALERA" ;
+	gn:postalCode "28028" .
+
+<http://127.0.0.1:3333/13563> vcard:street-address <http://127.0.0.1:3333/BRESCIA> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/13564> xsd:String "Aparcamiento para residentes. Bristol" , "  Plazas:  317  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/BRISTOL> xsd:Integer "4"^^xsd:int ;
+	vcard:street-address "BRISTOL" ;
+	gn:locatedIn "GUINDALERA" ;
+	gn:postalCode "28028" .
+
+<http://127.0.0.1:3333/13564> vcard:street-address <http://127.0.0.1:3333/BRISTOL> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/13565> xsd:String "Aparcamiento para residentes. Bruselas" , "  Plazas:  224  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/BRUSELAS> xsd:Integer "56"^^xsd:int .
+
+<http://127.0.0.1:3333/13565> vcard:street-address <http://127.0.0.1:3333/BRUSELAS> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/81706> xsd:String "Aparcamiento para residentes. Burgo de Osma" , "  Plazas:  160  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/BURGO+DE+OSMA> xsd:Integer "4"^^xsd:int ;
+	vcard:street-address "BURGO DE OSMA" ;
+	gn:locatedIn "APOSTOL SANTIAGO" ;
+	gn:postalCode "28033" .
+
+<http://127.0.0.1:3333/81706> vcard:street-address <http://127.0.0.1:3333/BURGO+DE+OSMA> ;
+	gn:featureClass "HORTALEZA" .
+
+<http://127.0.0.1:3333/13566> xsd:String "Aparcamiento para residentes. Calanda" , "  Plazas:  368  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CALANDA> xsd:Integer "30"^^xsd:int ;
+	vcard:street-address "CALANDA" ;
+	gn:locatedIn "CANILLAS" ;
+	gn:postalCode "28043" .
+
+<http://127.0.0.1:3333/13566> vcard:street-address <http://127.0.0.1:3333/CALANDA> ;
+	gn:featureClass "HORTALEZA" .
+
+<http://127.0.0.1:3333/13499> xsd:String "Aparcamiento para residentes. Camarena" , "  Plazas:  192  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CAMARENA> xsd:Integer "10"^^xsd:int ;
+	vcard:street-address "CAMARENA" ;
+	gn:locatedIn "ALUCHE" ;
+	gn:postalCode "28047" .
+
+<http://127.0.0.1:3333/13499> vcard:street-address <http://127.0.0.1:3333/CAMARENA> ;
+	gn:featureClass "LATINA" .
+
+<http://127.0.0.1:3333/13539> xsd:String "Aparcamiento para residentes. Camino de los Vinateros I" , "  Plazas : 249  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CAMINO+DE+LOS+VINATEROS> xsd:Integer "129"^^xsd:int ;
+	vcard:street-address "CAMINO DE LOS VINATEROS" ;
+	gn:locatedIn "VINATEROS" ;
+	gn:postalCode "28030" .
+
+<http://127.0.0.1:3333/13539> vcard:street-address <http://127.0.0.1:3333/CAMINO+DE+LOS+VINATEROS> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/13538> xsd:String "Aparcamiento para residentes. Camino de los Vinateros II (El Torito)" , "  Plazas : 477  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CAMINO+DE+LOS+VINATEROS> xsd:Integer "118"^^xsd:int .
+
+<http://127.0.0.1:3333/13538> vcard:street-address <http://127.0.0.1:3333/CAMINO+DE+LOS+VINATEROS> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/13632> xsd:String "Aparcamiento para residentes. Camino Viejo de Leganés" , "  Plazas : 284  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CAMINO+VIEJO+DE+LEGANES> xsd:Integer "179"^^xsd:int ;
+	vcard:street-address "CAMINO VIEJO DE LEGANES" ;
+	gn:locatedIn "ABRANTES" ;
+	gn:postalCode "28025" .
+
+<http://127.0.0.1:3333/13632> vcard:street-address <http://127.0.0.1:3333/CAMINO+VIEJO+DE+LEGANES> ;
+	gn:featureClass "CARABANCHEL" .
+
+<http://127.0.0.1:3333/13518> xsd:String "Aparcamiento para residentes. Campillo del Mundo Nuevo" , "  Plazas:  452  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CAMPILLO+DEL+MUNDO+NUEVO> xsd:Integer "3"^^xsd:int ;
+	vcard:street-address "CAMPILLO DEL MUNDO NUEVO" ;
+	gn:locatedIn "EMBAJADORES" ;
+	gn:postalCode "28005" .
+
+<http://127.0.0.1:3333/13518> vcard:street-address <http://127.0.0.1:3333/CAMPILLO+DEL+MUNDO+NUEVO> ;
+	gn:featureClass "CENTRO" .
+
+<http://127.0.0.1:3333/81710> xsd:String "Aparcamiento para residentes. Canal" , "  Plazas:  112  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CEA+BERMUDEZ> xsd:Integer "1"^^xsd:int ;
+	vcard:street-address "CEA BERMUDEZ" ;
+	gn:locatedIn "ARAPILES" ;
+	gn:postalCode "28003" .
+
+<http://127.0.0.1:3333/81710> vcard:street-address <http://127.0.0.1:3333/CEA+BERMUDEZ> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/183580> xsd:String "Aparcamiento para residentes. Cándido Mateos" , "  Plazas:  618  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VALLE+DE+MENA> xsd:Integer "0"^^xsd:int ;
+	vcard:street-address "VALLE DE MENA" ;
+	gn:locatedIn "PEÑA GRANDE" ;
+	gn:postalCode "28035" .
+
+<http://127.0.0.1:3333/183580> vcard:street-address <http://127.0.0.1:3333/VALLE+DE+MENA> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/13624> xsd:String "Aparcamiento para residentes. Cantabria" , "  Plazas:  211  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/BERGANTIN> xsd:Integer "24"^^xsd:int ;
+	vcard:street-address "BERGANTIN" ;
+	gn:locatedIn "ALAMEDA DE OSUNA" ;
+	gn:postalCode "28042" .
+
+<http://127.0.0.1:3333/13624> vcard:street-address <http://127.0.0.1:3333/BERGANTIN> ;
+	gn:featureClass "BARAJAS" .
+
+<http://127.0.0.1:3333/13533> xsd:String "Aparcamiento para residentes. Cañada" , "  Plazas:  288  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CA&Ntilde;ADA> xsd:Integer "2"^^xsd:int ;
+	vcard:street-address "CA&Ntilde;ADA" ;
+	gn:locatedIn "VINATEROS" ;
+	gn:postalCode "28030" .
+
+<http://127.0.0.1:3333/13533> vcard:street-address <http://127.0.0.1:3333/CA&Ntilde;ADA> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/81733> xsd:String "Aparcamiento para residentes. Castelló" , "  Plazas:  303  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/DIEGO+DE+LEON> xsd:Integer "42"^^xsd:int ;
+	gn:locatedIn "CASTELLANA" .
+
+<http://127.0.0.1:3333/81733> vcard:street-address <http://127.0.0.1:3333/DIEGO+DE+LEON> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/13567> xsd:String "Aparcamiento para residentes. Castrillo de Aza" , "  Plazas:  297  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SANTA+EUGENIA> xsd:Integer "1"^^xsd:int ;
+	vcard:street-address "SANTA EUGENIA" ;
+	gn:locatedIn "SANTA EUGENIA" ;
+	gn:postalCode "28031" .
+
+<http://127.0.0.1:3333/13567> vcard:street-address <http://127.0.0.1:3333/SANTA+EUGENIA> ;
+	gn:featureClass "VILLA DE VALLECAS" .
+
+<http://127.0.0.1:3333/13636> xsd:String "Aparcamiento para residentes. Chamberí" , "  Plazas : 690  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SANTA+ENGRACIA> xsd:Integer "40"^^xsd:int ;
+	vcard:street-address "SANTA ENGRACIA" ;
+	gn:locatedIn "ALMAGRO" ;
+	gn:postalCode "28010" .
+
+<http://127.0.0.1:3333/13636> vcard:street-address <http://127.0.0.1:3333/SANTA+ENGRACIA> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/81734> xsd:String "Aparcamiento para residentes. Chaparral" , "  Plazas : 226  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CHAPARRAL> xsd:Integer "40"^^xsd:int ;
+	vcard:street-address "CHAPARRAL" ;
+	gn:locatedIn "PINAR DEL REY" ;
+	gn:postalCode "28033" .
+
+<http://127.0.0.1:3333/81734> vcard:street-address <http://127.0.0.1:3333/CHAPARRAL> ;
+	gn:featureClass "HORTALEZA" .
+
+<http://127.0.0.1:3333/13568> xsd:String "Aparcamiento para residentes. Cidamón" , "  Plazas : 343  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/NALDA> xsd:Integer "1"^^xsd:int ;
+	vcard:street-address "NALDA" ;
+	gn:locatedIn "SAN JUAN BAUTISTA" ;
+	gn:postalCode "28043" .
+
+<http://127.0.0.1:3333/13568> vcard:street-address <http://127.0.0.1:3333/NALDA> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/13503> xsd:String "Aparcamiento para residentes. Clara del Rey" , "  Plazas : 179  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CLARA+DEL+REY> xsd:Integer "49"^^xsd:int ;
+	vcard:street-address "CLARA DEL REY" ;
+	gn:locatedIn "PROSPERIDAD" ;
+	gn:postalCode "28002" .
+
+<http://127.0.0.1:3333/13503> vcard:street-address <http://127.0.0.1:3333/CLARA+DEL+REY> ;
+	gn:featureClass "CHAMARTIN" .
+
+<http://127.0.0.1:3333/24099> xsd:String "Aparcamiento para residentes. Codorniz" , "  Plazas : 705  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CODORNIZ> vcard:street-address "CODORNIZ" ;
+	gn:locatedIn "VISTA ALEGRE" ;
+	gn:postalCode "28047" .
+
+<http://127.0.0.1:3333/24099> vcard:street-address <http://127.0.0.1:3333/CODORNIZ> .
+
+<http://127.0.0.1:3333/13569> xsd:String "Aparcamiento para residentes. Comandante Benítez" , "  Plazas : 166  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/COMANDANTE+BENITEZ> xsd:Integer "16"^^xsd:int ;
+	vcard:street-address "COMANDANTE BENITEZ" ;
+	gn:locatedIn "CHOPERA" ;
+	gn:postalCode "28045" .
+
+<http://127.0.0.1:3333/13569> vcard:street-address <http://127.0.0.1:3333/COMANDANTE+BENITEZ> ;
+	gn:featureClass "ARGANZUELA" .
+
+<http://127.0.0.1:3333/13571> xsd:String "Aparcamiento para residentes. Condado de Treviño" , "  Plazas : 195  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CONDADO+DE+TREVI%26Ntilde%3BO> xsd:Integer "25"^^xsd:int ;
+	vcard:street-address "CONDADO DE TREVI&Ntilde;O" ;
+	gn:locatedIn "COSTILLARES" ;
+	gn:postalCode "28033" .
+
+<http://127.0.0.1:3333/13571> vcard:street-address <http://127.0.0.1:3333/CONDADO+DE+TREVI%26Ntilde%3BO> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/24101> xsd:String "Aparcamiento para residentes. Conde de Casal / Mediterraneo" , "  Plazas : 1650  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CONDE+DE+CASAL> vcard:street-address "CONDE DE CASAL" ;
+	gn:locatedIn "NIÑO JESUS" ;
+	gn:postalCode "28007" .
+
+<http://127.0.0.1:3333/24101> vcard:street-address <http://127.0.0.1:3333/CONDE+DE+CASAL> ;
+	gn:featureClass "RETIRO" .
+
+<http://127.0.0.1:3333/13504> xsd:String "Aparcamiento para residentes. Corazón de María I" , "  Plazas : 166  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" ;
+	vcard:street-address <http://127.0.0.1:3333/CORAZON+DE+MARIA> .
+
+<http://127.0.0.1:3333/13500> xsd:String "Aparcamiento para residentes. Cuevas de Almanzora" , "  Plazas : 203  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MOJACAR> xsd:Integer "2"^^xsd:int ;
+	vcard:street-address "MOJACAR" ;
+	gn:locatedIn "APOSTOL SANTIAGO" ;
+	gn:postalCode "28033" .
+
+<http://127.0.0.1:3333/13500> vcard:street-address <http://127.0.0.1:3333/MOJACAR> ;
+	gn:featureClass "HORTALEZA" .
+
+<http://127.0.0.1:3333/81737> xsd:String "Aparcamiento para residentes. Cumare" , "  Plazas:  156  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/NEVADO+DEL+RUIZ> xsd:Integer "2"^^xsd:int ;
+	vcard:street-address "NEVADO DEL RUIZ" ;
+	gn:locatedIn "PINAR DEL REY" ;
+	gn:postalCode "28033" .
+
+<http://127.0.0.1:3333/81737> vcard:street-address <http://127.0.0.1:3333/NEVADO+DEL+RUIZ> ;
+	gn:featureClass "HORTALEZA" .
+
+<http://127.0.0.1:3333/13535> xsd:String "Aparcamiento para residentes. Darwin" ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MORATALAZ> xsd:Integer "172"^^xsd:int ;
+	gn:locatedIn "VINATEROS" .
+
+<http://127.0.0.1:3333/13535> vcard:street-address <http://127.0.0.1:3333/MORATALAZ> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/183760> xsd:String "Aparcamiento para residentes. Doce de Octubre" , "  Plazas:  694  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "1" .
+
+<http://127.0.0.1:3333/NARVAEZ> xsd:Integer "57"^^xsd:int ;
+	vcard:street-address "NARVAEZ" ;
+	gn:locatedIn "IBIZA" ;
+	gn:postalCode "28009" .
+
+<http://127.0.0.1:3333/183760> vcard:street-address <http://127.0.0.1:3333/NARVAEZ> ;
+	gn:featureClass "RETIRO" .
+
+<http://127.0.0.1:3333/13630> xsd:String "Aparcamiento para residentes. Doctor Cirajas" , "  Plazas:  324   Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/DOCTOR+CIRAJAS> xsd:Integer "3"^^xsd:int ;
+	vcard:street-address "DOCTOR CIRAJAS" ;
+	gn:locatedIn "PUEBLO NUEVO" ;
+	gn:postalCode "28017" .
+
+<http://127.0.0.1:3333/13630> vcard:street-address <http://127.0.0.1:3333/DOCTOR+CIRAJAS> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/13551> xsd:String "Aparcamiento para residentes. Doctor Laguna" , "  Plazas:  537  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/DOCTOR+LAGUNA> xsd:Integer "12"^^xsd:int ;
+	vcard:street-address "DOCTOR LAGUNA" ;
+	gn:locatedIn "NIÑO JESUS" ;
+	gn:postalCode "28009" .
+
+<http://127.0.0.1:3333/13551> vcard:street-address <http://127.0.0.1:3333/DOCTOR+LAGUNA> ;
+	gn:featureClass "RETIRO" .
+
+<http://127.0.0.1:3333/39871> xsd:String "Aparcamiento para residentes. Doménico Scarlatti" , "  Plazas:  484   Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/DOMENICO+SCARLATTI> xsd:Integer "1"^^xsd:int ;
+	vcard:street-address "DOMENICO SCARLATTI" ;
+	gn:locatedIn "VALLEHERMOSO" ;
+	gn:postalCode "28003" .
+
+<http://127.0.0.1:3333/39871> vcard:street-address <http://127.0.0.1:3333/DOMENICO+SCARLATTI> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/7410134> xsd:String "Aparcamiento para residentes. El Greco" , "  Plazas:  225  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/El+Greco> xsd:Integer "29"^^xsd:int ;
+	vcard:street-address "El Greco" .
+
+<http://127.0.0.1:3333/7410134> vcard:street-address <http://127.0.0.1:3333/El+Greco> ;
+	gn:featureClass "LATINA" .
+
+<http://127.0.0.1:3333/4831001> xsd:String "Aparcamiento para residentes. Elvira" , "  Plazas:  194  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VICALVARO> xsd:Integer "13"^^xsd:int ;
+	vcard:street-address "VICALVARO" ;
+	gn:locatedIn "FUENTE DEL BERRO" ;
+	gn:postalCode "28028" .
+
+<http://127.0.0.1:3333/4831001> vcard:street-address <http://127.0.0.1:3333/VICALVARO> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/24106> xsd:String "Aparcamiento para residentes. Emigrantes" , "  Plazas:  281   Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MINAYA> xsd:Integer "1"^^xsd:int ;
+	vcard:street-address "MINAYA" ;
+	gn:locatedIn "CANILLAS" ;
+	gn:postalCode "28043" .
+
+<http://127.0.0.1:3333/24106> vcard:street-address <http://127.0.0.1:3333/MINAYA> ;
+	gn:featureClass "HORTALEZA" .
+
+<http://127.0.0.1:3333/13524> xsd:String "Aparcamiento para residentes. Encomienda de Palacios" , "  Plazas:  320   Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ENCOMIENDA+DE+PALACIOS> xsd:Integer "178"^^xsd:int ;
+	vcard:street-address "ENCOMIENDA DE PALACIOS" ;
+	gn:locatedIn "FONTARRON" ;
+	gn:postalCode "28030" .
+
+<http://127.0.0.1:3333/13524> vcard:street-address <http://127.0.0.1:3333/ENCOMIENDA+DE+PALACIOS> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/13550> xsd:String "Aparcamiento para residentes. Esfinge" , "  Plazas : 777   Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/NECTAR> xsd:Integer "36"^^xsd:int ;
+	vcard:street-address "NECTAR" ;
+	gn:locatedIn "CANILLEJAS" ;
+	gn:postalCode "28022" .
+
+<http://127.0.0.1:3333/13550> vcard:street-address <http://127.0.0.1:3333/NECTAR> ;
+	gn:featureClass "SAN BLAS-CANILLEJAS" .
+
+<http://127.0.0.1:3333/170634> xsd:String "Aparcamiento para residentes. Espalter" , "  Plazas : 480   Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ESPALTER> xsd:Integer "7"^^xsd:int ;
+	vcard:street-address "ESPALTER" ;
+	gn:locatedIn "LOS JERONIMOS" ;
+	gn:postalCode "28014" .
+
+<http://127.0.0.1:3333/170634> vcard:street-address <http://127.0.0.1:3333/ESPALTER> ;
+	gn:featureClass "RETIRO" .
+
+<http://127.0.0.1:3333/13558> xsd:String "Aparcamiento para residentes. Esperanza" , "  Plazas:  986  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ESPERANZA> xsd:Integer "11"^^xsd:int ;
+	vcard:street-address "ESPERANZA" ;
+	gn:locatedIn "ACACIAS" ;
+	gn:postalCode "28005" .
+
+<http://127.0.0.1:3333/13558> vcard:street-address <http://127.0.0.1:3333/ESPERANZA> ;
+	gn:featureClass "ARGANZUELA" .
+
+<http://127.0.0.1:3333/81743> xsd:String "Aparcamiento para residentes. Espinillo" , "  Plazas : 155  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CIUDADANIA> xsd:Integer "10"^^xsd:int ;
+	vcard:street-address "CIUDADANIA" ;
+	gn:locatedIn "LOS ROSALES" ;
+	gn:postalCode "28041" .
+
+<http://127.0.0.1:3333/81743> vcard:street-address <http://127.0.0.1:3333/CIUDADANIA> ;
+	gn:featureClass "VILLAVERDE" .
+
+<http://127.0.0.1:3333/24108> xsd:String "Aparcamiento para residentes. Esteban Villegas" , "  Plazas : 858  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/POETA+ESTEBAN+DE+VILLEGAS> xsd:Integer "4"^^xsd:int ;
+	vcard:street-address "POETA ESTEBAN DE VILLEGAS" ;
+	gn:locatedIn "LOS JERONIMOS" ;
+	gn:postalCode "28014" .
+
+<http://127.0.0.1:3333/24108> vcard:street-address <http://127.0.0.1:3333/POETA+ESTEBAN+DE+VILLEGAS> ;
+	gn:featureClass "RETIRO" .
+
+<http://127.0.0.1:3333/13572> xsd:String "Aparcamiento para residentes. Estrella Polar" , "  Plazas : 401  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ESTRELLA+POLAR> xsd:Integer "6-B"^^xsd:int ;
+	vcard:street-address "ESTRELLA POLAR" ;
+	gn:locatedIn "ESTRELLA" ;
+	gn:postalCode "28007" .
+
+<http://127.0.0.1:3333/13572> vcard:street-address <http://127.0.0.1:3333/ESTRELLA+POLAR> ;
+	gn:featureClass "RETIRO" .
+
+<http://127.0.0.1:3333/24111> xsd:String "Aparcamiento para residentes. Eugenia de Montijo" , "  Plazas : 387  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/EUGENIA+DE+MONTIJO> xsd:Integer "20"^^xsd:int ;
+	vcard:street-address "EUGENIA DE MONTIJO" ;
+	gn:locatedIn "VISTA ALEGRE" ;
+	gn:postalCode "28025" .
+
+<http://127.0.0.1:3333/24111> vcard:street-address <http://127.0.0.1:3333/EUGENIA+DE+MONTIJO> ;
+	gn:featureClass "CARABANCHEL" .
+
+<http://127.0.0.1:3333/13573> xsd:String "Aparcamiento para residentes. Ferrol" , "  Plazas : 350  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/EL+FERROL> xsd:Integer "28"^^xsd:int ;
+	vcard:street-address "EL FERROL" ;
+	gn:locatedIn "EL PILAR" ;
+	gn:postalCode "28029" .
+
+<http://127.0.0.1:3333/13573> vcard:street-address <http://127.0.0.1:3333/EL+FERROL> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/13498> xsd:String "Aparcamiento para residentes. Finisterre" , "  Plazas : 305  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/FINISTERRE> xsd:Integer "23"^^xsd:int ;
+	vcard:street-address "FINISTERRE" ;
+	gn:locatedIn "LA PAZ" ;
+	gn:postalCode "28029" .
+
+<http://127.0.0.1:3333/13498> vcard:street-address <http://127.0.0.1:3333/FINISTERRE> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/81745> xsd:String "Aparcamiento para residentes. Fonsagrada" , "  Plazas : 253  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ARTEIJO> xsd:Integer "10-B"^^xsd:int ;
+	vcard:street-address "ARTEIJO" ;
+	gn:locatedIn "EL PILAR" ;
+	gn:postalCode "28029" .
+
+<http://127.0.0.1:3333/81745> vcard:street-address <http://127.0.0.1:3333/ARTEIJO> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/4831271> xsd:String "Aparcamiento para residentes. Francisco Altimiras" , "  Plazas : 63  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/FRANCISCO+ALTIMIRAS> xsd:Integer "2"^^xsd:int ;
+	vcard:street-address "FRANCISCO ALTIMIRAS" ;
+	gn:locatedIn "GUINDALERA" ;
+	gn:postalCode "28028" .
+
+<http://127.0.0.1:3333/4831271> vcard:street-address <http://127.0.0.1:3333/FRANCISCO+ALTIMIRAS> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/13635> xsd:String "Aparcamiento para residentes. Francisco Rioja" , "  Plazas : 392  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "1" .
+
+<http://127.0.0.1:3333/LUIS+RUIZ> xsd:Integer "29"^^xsd:int ;
+	vcard:street-address "LUIS RUIZ" ;
+	gn:locatedIn "PUEBLO NUEVO" ;
+	gn:postalCode "28017" .
+
+<http://127.0.0.1:3333/13635> vcard:street-address <http://127.0.0.1:3333/LUIS+RUIZ> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/13634> xsd:String "Aparcamiento para residentes. Francos Rodríguez" , "  Plazas : 294  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "1" .
+
+<http://127.0.0.1:3333/NUMANCIA> xsd:Integer "61"^^xsd:int ;
+	vcard:street-address "NUMANCIA" ;
+	gn:locatedIn "BELLAS VISTAS" ;
+	gn:postalCode "28039" .
+
+<http://127.0.0.1:3333/13634> vcard:street-address <http://127.0.0.1:3333/NUMANCIA> ;
+	gn:featureClass "TETUAN" .
+
+<http://127.0.0.1:3333/24119> xsd:String "Aparcamiento para residentes. Galileo" , "  Plazas : 527  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/BLASCO+DE+GARAY> xsd:Integer "38"^^xsd:int ;
+	gn:locatedIn "ARAPILES" .
+
+<http://127.0.0.1:3333/24119> vcard:street-address <http://127.0.0.1:3333/BLASCO+DE+GARAY> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/13525> xsd:String "Aparcamiento para residentes. García Escámez" , "  Plazas : 260  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/GENERAL+GARCIA+ESCAMEZ> xsd:Integer "23"^^xsd:int ;
+	vcard:street-address "GENERAL GARCIA ESCAMEZ" ;
+	gn:locatedIn "LAS AGUILAS" ;
+	gn:postalCode "28044" .
+
+<http://127.0.0.1:3333/13525> vcard:street-address <http://127.0.0.1:3333/GENERAL+GARCIA+ESCAMEZ> ;
+	gn:featureClass "LATINA" .
+
+<http://127.0.0.1:3333/13534> xsd:String "Aparcamiento para residentes. García Tapia" , "  Plazas : 252  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/DOCTOR+GARCIA+TAPIA> xsd:Integer "51"^^xsd:int ;
+	vcard:street-address "DOCTOR GARCIA TAPIA" ;
+	gn:locatedIn "MARROQUINA" ;
+	gn:postalCode "28030" .
+
+<http://127.0.0.1:3333/13534> vcard:street-address <http://127.0.0.1:3333/DOCTOR+GARCIA+TAPIA> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/13527> xsd:String "Aparcamiento para residentes. Garrovillas" , "  Plazas : 324  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/GARROVILLAS> xsd:Integer "11"^^xsd:int ;
+	vcard:street-address "GARROVILLAS" ;
+	gn:locatedIn "LAS AGUILAS" ;
+	gn:postalCode "28044" .
+
+<http://127.0.0.1:3333/13527> vcard:street-address <http://127.0.0.1:3333/GARROVILLAS> ;
+	gn:featureClass "LATINA" .
+
+<http://127.0.0.1:3333/17449> xsd:String "Aparcamiento para residentes. General Fanjul" , "  Plazas:  570  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/GENERAL+FANJUL> xsd:Integer "140"^^xsd:int ;
+	vcard:street-address "GENERAL FANJUL" ;
+	gn:locatedIn "LAS AGUILAS" ;
+	gn:postalCode "28044" .
+
+<http://127.0.0.1:3333/17449> vcard:street-address <http://127.0.0.1:3333/GENERAL+FANJUL> ;
+	gn:featureClass "LATINA" .
+
+<http://127.0.0.1:3333/81746> xsd:String "Aparcamiento para residentes. General Gallegos" , "  Plazas : 101  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PADRE+DAMIAN> xsd:Integer "39"^^xsd:int ;
+	vcard:street-address "PADRE DAMIAN" ;
+	gn:locatedIn "NUEVA ESPAÑA" ;
+	gn:postalCode "28036" .
+
+<http://127.0.0.1:3333/81746> vcard:street-address <http://127.0.0.1:3333/PADRE+DAMIAN> ;
+	gn:featureClass "CHAMARTIN" .
+
+<http://127.0.0.1:3333/24120> xsd:String "Aparcamiento para residentes. General Lacy" , "  Plazas:  663  Abierto 24 horas    Titularidad:  Ayuntamiento de madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/GENERAL+LACY> xsd:Integer "11"^^xsd:int ;
+	vcard:street-address "GENERAL LACY" ;
+	gn:locatedIn "PALOS DE MOGUER" ;
+	gn:postalCode "28045" .
+
+<http://127.0.0.1:3333/24120> vcard:street-address <http://127.0.0.1:3333/GENERAL+LACY> ;
+	gn:featureClass "ARGANZUELA" .
+
+<http://127.0.0.1:3333/13520> xsd:String "Aparcamiento para residentes. Gerardo Cordón" , "  Plazas:  200  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/GERARDO+CORDON> xsd:Integer "63"^^xsd:int ;
+	vcard:street-address "GERARDO CORDON" ;
+	gn:locatedIn "VENTAS" ;
+	gn:postalCode "28017" .
+
+<http://127.0.0.1:3333/13520> vcard:street-address <http://127.0.0.1:3333/GERARDO+CORDON> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/13574> xsd:String "Aparcamiento para residentes. Germán Pérez Carrasco" , "  Plazas:  321  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VIRGEN+DEL+SAGRARIO> xsd:Integer "6"^^xsd:int ;
+	vcard:street-address "VIRGEN DEL SAGRARIO" ;
+	gn:locatedIn "QUINTANA" ;
+	gn:postalCode "28027" .
+
+<http://127.0.0.1:3333/13574> vcard:street-address <http://127.0.0.1:3333/VIRGEN+DEL+SAGRARIO> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/13615> xsd:String "Aparcamiento para residentes. Gómez Ulla" , "  Plazas:  191  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/DOCTOR+GOMEZ+ULLA> xsd:Integer "11"^^xsd:int ;
+	vcard:street-address "DOCTOR GOMEZ ULLA" ;
+	gn:locatedIn "GUINDALERA" ;
+	gn:postalCode "28028" .
+
+<http://127.0.0.1:3333/13615> vcard:street-address <http://127.0.0.1:3333/DOCTOR+GOMEZ+ULLA> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/13522> xsd:String "Aparcamiento para residentes. Goya I" , "  Plazas:  668  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/GOYA> xsd:Integer "100"^^xsd:int ;
+	vcard:street-address "GOYA" ;
+	gn:locatedIn "GOYA" ;
+	gn:postalCode "28009" .
+
+<http://127.0.0.1:3333/13522> vcard:street-address <http://127.0.0.1:3333/GOYA> .
+
+<http://127.0.0.1:3333/24121> xsd:String "Aparcamiento para residentes. Guadalete" , "  Plazas:  290  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/GUADALETE> xsd:Integer "132"^^xsd:int ;
+	vcard:street-address "GUADALETE" ;
+	gn:locatedIn "COMILLAS" ;
+	gn:postalCode "28019" .
+
+<http://127.0.0.1:3333/24121> vcard:street-address <http://127.0.0.1:3333/GUADALETE> .
+
+<http://127.0.0.1:3333/5421792> xsd:String "Aparcamiento para residentes. Ilíada" , "  Plazas  : 333  Abierto 24 Horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/LA+ILIADA> xsd:Integer "25"^^xsd:int ;
+	vcard:street-address "LA ILIADA" ;
+	gn:locatedIn "CANILLEJAS" ;
+	gn:postalCode "28022" .
+
+<http://127.0.0.1:3333/5421792> vcard:street-address <http://127.0.0.1:3333/LA+ILIADA> ;
+	gn:featureClass "SAN BLAS-CANILLEJAS" .
+
+<http://127.0.0.1:3333/13627> xsd:String "Aparcamiento para residentes. Illescas" , "  Plazas : 261  Abierto 24 horas    Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ILLESCAS> xsd:Integer "3"^^xsd:int ;
+	gn:postalCode "28024" .
+
+<http://127.0.0.1:3333/13627> vcard:street-address <http://127.0.0.1:3333/ILLESCAS> ;
+	gn:featureClass "LATINA" .
+
+<http://127.0.0.1:3333/183559> xsd:String "Aparcamiento para residentes. Ilustración" , "  Pazas:  142     Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ISLA+DE+AROSA> xsd:Integer "2"^^xsd:int ;
+	vcard:street-address "ISLA DE AROSA" ;
+	gn:locatedIn "PEÑA GRANDE" ;
+	gn:postalCode "28035" .
+
+<http://127.0.0.1:3333/183559> vcard:street-address <http://127.0.0.1:3333/ISLA+DE+AROSA> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/13502> xsd:String "Aparcamiento para residentes. Isla de Arosa" , "  Plazas : 189  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" ;
+	vcard:street-address <http://127.0.0.1:3333/ISLA+DE+AROSA> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/13575> xsd:String "Aparcamiento para residentes. Isla de Ons" , "  Plazas:  667  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ISLA+DE+ONS> xsd:Integer "5"^^xsd:int ;
+	vcard:street-address "ISLA DE ONS" ;
+	gn:locatedIn "PEÑA GRANDE" ;
+	gn:postalCode "28035" .
+
+<http://127.0.0.1:3333/13575> vcard:street-address <http://127.0.0.1:3333/ISLA+DE+ONS> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/13576> xsd:String "Aparcamiento para residentes. Isla de Tavira" , "  Plazas:  326  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ISLA+DE+TAVIRA> xsd:Integer "20"^^xsd:int ;
+	vcard:street-address "ISLA DE TAVIRA" ;
+	gn:locatedIn "PEÑA GRANDE" ;
+	gn:postalCode "28035" .
+
+<http://127.0.0.1:3333/13576> vcard:street-address <http://127.0.0.1:3333/ISLA+DE+TAVIRA> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/81748> xsd:String "Aparcamiento para residentes. Islas Filipinas" , "  Plazas : 397.  Abierto 24 horas.   Titularidad : Ayuntamiento de Madrid. " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CEA+BERMUDEZ> xsd:Integer "51"^^xsd:int ;
+	gn:locatedIn "GAZTAMBIDE" .
+
+<http://127.0.0.1:3333/81748> vcard:street-address <http://127.0.0.1:3333/CEA+BERMUDEZ> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/13577> xsd:String "Aparcamiento para residentes. Iván de Vargas" , "  Plazas : 199  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid. " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ERMITA+DEL+SANTO> xsd:Integer "71"^^xsd:int ;
+	vcard:street-address "ERMITA DEL SANTO" ;
+	gn:locatedIn "SAN ISIDRO" ;
+	gn:postalCode "28019" .
+
+<http://127.0.0.1:3333/13577> vcard:street-address <http://127.0.0.1:3333/ERMITA+DEL+SANTO> ;
+	gn:featureClass "CARABANCHEL" .
+
+<http://127.0.0.1:3333/13546> xsd:String "Aparcamiento para residentes. Jacinto Verdaguer" , "  Plazas : 545  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/JACINTO+VERDAGUER> xsd:Integer "25-B"^^xsd:int ;
+	vcard:street-address "JACINTO VERDAGUER" ;
+	gn:locatedIn "OPAÑEL" ;
+	gn:postalCode "28019" .
+
+<http://127.0.0.1:3333/13546> vcard:street-address <http://127.0.0.1:3333/JACINTO+VERDAGUER> ;
+	gn:featureClass "CARABANCHEL" .
+
+<http://127.0.0.1:3333/13529> xsd:String "Aparcamiento para residentes. Joaquín María López" , "  Plazas : 464  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/JOAQUIN+MARIA+LOPEZ> xsd:Integer "39"^^xsd:int ;
+	vcard:street-address "JOAQUIN MARIA LOPEZ" ;
+	gn:locatedIn "GAZTAMBIDE" ;
+	gn:postalCode "28015" .
+
+<http://127.0.0.1:3333/13529> vcard:street-address <http://127.0.0.1:3333/JOAQUIN+MARIA+LOPEZ> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/7471768> xsd:String "Aparcamiento para residentes. José Abascal" , "  Plazas:  126  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/JOSE+ABASCAL> xsd:Integer "54"^^xsd:int ;
+	gn:locatedIn "ALMAGRO" .
+
+<http://127.0.0.1:3333/7471768> vcard:street-address <http://127.0.0.1:3333/JOSE+ABASCAL> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/13526> xsd:String "Aparcamiento para residentes. José Cadalso" , "  Plazas : 259  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/JOSE+DE+CADALSO> xsd:Integer "67"^^xsd:int ;
+	vcard:street-address "JOSE DE CADALSO" ;
+	gn:locatedIn "LAS AGUILAS" ;
+	gn:postalCode "28044" .
+
+<http://127.0.0.1:3333/13526> vcard:street-address <http://127.0.0.1:3333/JOSE+DE+CADALSO> ;
+	gn:featureClass "LATINA" .
+
+<http://127.0.0.1:3333/13556> xsd:String "Aparcamiento para residentes. José del Hierro" , "  Plazas : 648  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/HERMANOS+DE+PABLO> xsd:Integer "46"^^xsd:int ;
+	vcard:street-address "HERMANOS DE PABLO" ;
+	gn:locatedIn "CONCEPCION" ;
+	gn:postalCode "28027" .
+
+<http://127.0.0.1:3333/13556> vcard:street-address <http://127.0.0.1:3333/HERMANOS+DE+PABLO> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/13578> xsd:String "Aparcamiento para residentes. José Luis Arrese" , "  Plazas : 380  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/JOSE+LUIS+DE+ARRESE> xsd:Integer "22"^^xsd:int ;
+	vcard:street-address "JOSE LUIS DE ARRESE" ;
+	gn:locatedIn "VENTAS" ;
+	gn:postalCode "28017" .
+
+<http://127.0.0.1:3333/13578> vcard:street-address <http://127.0.0.1:3333/JOSE+LUIS+DE+ARRESE> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/63334> xsd:String "Aparcamiento para residentes. Josep Pla" , "  Plazas : 239  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/LOPEZ+DE+HOYOS> xsd:Integer "57"^^xsd:int ;
+	vcard:street-address "LOPEZ DE HOYOS" ;
+	gn:locatedIn "CIUDAD JARDIN" ;
+	gn:postalCode "28002" .
+
+<http://127.0.0.1:3333/63334> vcard:street-address <http://127.0.0.1:3333/LOPEZ+DE+HOYOS> ;
+	gn:featureClass "CHAMARTIN" .
+
+<http://127.0.0.1:3333/13579> xsd:String "Aparcamiento para residentes. Juan de Vera" , "  Plazas : 512  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/JUAN+DE+VERA> xsd:Integer "15"^^xsd:int ;
+	vcard:street-address "JUAN DE VERA" ;
+	gn:locatedIn "DELICIAS" ;
+	gn:postalCode "28045" .
+
+<http://127.0.0.1:3333/13579> vcard:street-address <http://127.0.0.1:3333/JUAN+DE+VERA> ;
+	gn:featureClass "ARGANZUELA" .
+
+<http://127.0.0.1:3333/7432674> xsd:String "Aparcamiento para residentes. Juan Esplandiú" , "  Plazas:  249  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/JUAN+ESPLANDIU> xsd:Integer "1"^^xsd:int ;
+	vcard:street-address "JUAN ESPLANDIU" ;
+	gn:locatedIn "ESTRELLA" ;
+	gn:postalCode "28007" .
+
+<http://127.0.0.1:3333/7432674> vcard:street-address <http://127.0.0.1:3333/JUAN+ESPLANDIU> ;
+	gn:featureClass "RETIRO" .
+
+<http://127.0.0.1:3333/13541> xsd:String "Aparcamiento para residentes. Juan Francisco Luján I" , "  Plazas : 198  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CORREGIDOR+JUAN+FRANCISCO+DE+LUJAN> xsd:Integer "1"^^xsd:int ;
+	vcard:street-address "CORREGIDOR JUAN FRANCISCO DE LUJAN" ;
+	gn:locatedIn "FONTARRON" ;
+	gn:postalCode "28030" .
+
+<http://127.0.0.1:3333/13541> vcard:street-address <http://127.0.0.1:3333/CORREGIDOR+JUAN+FRANCISCO+DE+LUJAN> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/17452> xsd:String "Aparcamiento para residentes. Juan Francisco Luján II" , "  Plazas : 297  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CORREGIDOR+JUAN+FRANCISCO+DE+LUJAN> xsd:Integer "60"^^xsd:int .
+
+<http://127.0.0.1:3333/17452> vcard:street-address <http://127.0.0.1:3333/CORREGIDOR+JUAN+FRANCISCO+DE+LUJAN> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/13505> xsd:String "Aparcamiento para residentes. Juan Hurtado de Mendoza" , "  Plazas : 269  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/DOCTOR+FLEMING> xsd:Integer "21"^^xsd:int ;
+	vcard:street-address "DOCTOR FLEMING" ;
+	gn:locatedIn "NUEVA ESPAÑA" ;
+	gn:postalCode "28036" .
+
+<http://127.0.0.1:3333/13505> vcard:street-address <http://127.0.0.1:3333/DOCTOR+FLEMING> ;
+	gn:featureClass "CHAMARTIN" .
+
+<http://127.0.0.1:3333/5556588> xsd:String "Aparcamiento para residentes. Juan Ramón Jiménez" , "  Plazas:  401  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/JUAN+HURTADO+DE+MENDOZA> xsd:Integer "8"^^xsd:int ;
+	vcard:street-address "JUAN HURTADO DE MENDOZA" ;
+	gn:locatedIn "NUEVA ESPAÑA" ;
+	gn:postalCode "28036" .
+
+<http://127.0.0.1:3333/5556588> vcard:street-address <http://127.0.0.1:3333/JUAN+HURTADO+DE+MENDOZA> ;
+	gn:featureClass "CHAMARTIN" .
+
+<http://127.0.0.1:3333/81768> xsd:String "Aparcamiento para residentes. Lagasca" , "  Plazas:  327  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/DIEGO+DE+LEON> xsd:Integer "11"^^xsd:int .
+
+<http://127.0.0.1:3333/81768> vcard:street-address <http://127.0.0.1:3333/DIEGO+DE+LEON> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/13580> xsd:String "Aparcamiento para residentes. Lardero" , "  Plazas : 382  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/LARDERO> xsd:Integer "3-B"^^xsd:int ;
+	vcard:street-address "LARDERO" ;
+	gn:locatedIn "AMBROZ" ;
+	gn:postalCode "28032" .
+
+<http://127.0.0.1:3333/13580> vcard:street-address <http://127.0.0.1:3333/LARDERO> ;
+	gn:featureClass "VICALVARO" .
+
+<http://127.0.0.1:3333/13581> xsd:String "Aparcamiento para residentes. Maldonado" , "  Plazas : 721  Abierto 24 horas " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MALDONADO> xsd:Integer "63"^^xsd:int ;
+	vcard:street-address "MALDONADO" ;
+	gn:locatedIn "LISTA" ;
+	gn:postalCode "28006" .
+
+<http://127.0.0.1:3333/13581> vcard:street-address <http://127.0.0.1:3333/MALDONADO> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/13582> xsd:String "Aparcamiento para residentes. Manizales" , "  Plazas : 401  Abierto 24 horas " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/GALAPA> xsd:Integer "10"^^xsd:int ;
+	vcard:street-address "GALAPA" ;
+	gn:locatedIn "PINAR DEL REY" ;
+	gn:postalCode "28033" .
+
+<http://127.0.0.1:3333/13582> vcard:street-address <http://127.0.0.1:3333/GALAPA> ;
+	gn:featureClass "HORTALEZA" .
+
+<http://127.0.0.1:3333/24122> xsd:String "Aparcamiento para residentes. Manuel Noya" , "  Plazas : 492  Abierto 24 horas " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MANUEL+NOYA> xsd:Integer "2"^^xsd:int ;
+	vcard:street-address "MANUEL NOYA" ;
+	gn:locatedIn "MOSCARDO" ;
+	gn:postalCode "28026" .
+
+<http://127.0.0.1:3333/24122> vcard:street-address <http://127.0.0.1:3333/MANUEL+NOYA> .
+
+<http://127.0.0.1:3333/13583> xsd:String "Aparcamiento para residentes. Marcos de Orueta" , "  Plazas : 196  Abierto 24 horas " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ANGEL+MUGICA> xsd:Integer "6"^^xsd:int ;
+	vcard:street-address "ANGEL MUGICA" ;
+	gn:locatedIn "VALVERDE" ;
+	gn:postalCode "28034" .
+
+<http://127.0.0.1:3333/13583> vcard:street-address <http://127.0.0.1:3333/ANGEL+MUGICA> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/13585> xsd:String "Aparcamiento para residentes. Marqués de Corbera I" , "  Plazas : 287  Abierto 24 horas " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MARQUES+DE+CORBERA> xsd:Integer "2"^^xsd:int ;
+	vcard:street-address "MARQUES DE CORBERA" ;
+	gn:locatedIn "VENTAS" ;
+	gn:postalCode "28017" .
+
+<http://127.0.0.1:3333/13585> vcard:street-address <http://127.0.0.1:3333/MARQUES+DE+CORBERA> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/13584> xsd:String "Aparcamiento para residentes. Marqués de Corbera II" , "  Plazas:  287  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MARQUES+DE+CORBERA> xsd:Integer "64"^^xsd:int .
+
+<http://127.0.0.1:3333/13584> vcard:street-address <http://127.0.0.1:3333/MARQUES+DE+CORBERA> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/4831164> xsd:String "Aparcamiento para residentes. Marqués de Samaranch" , "  Plazas : 233  Abierto 24 horas " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/IMPERIAL> xsd:Integer "18"^^xsd:int ;
+	vcard:street-address "IMPERIAL" ;
+	gn:locatedIn "IMPERIAL" ;
+	gn:postalCode "28005" .
+
+<http://127.0.0.1:3333/4831164> vcard:street-address <http://127.0.0.1:3333/IMPERIAL> ;
+	gn:featureClass "ARGANZUELA" .
+
+<http://127.0.0.1:3333/36275> xsd:String "Aparcamiento para residentes. Marqués de Suances" , "  Plazas : 339  Abierto 24 horas " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ENSIDESA> xsd:Integer "6"^^xsd:int ;
+	vcard:street-address "ENSIDESA" ;
+	gn:locatedIn "EL SALVADOR" ;
+	gn:postalCode "28027" .
+
+<http://127.0.0.1:3333/36275> vcard:street-address <http://127.0.0.1:3333/ENSIDESA> ;
+	gn:featureClass "SAN BLAS-CANILLEJAS" .
+
+<http://127.0.0.1:3333/13490> xsd:String "Aparcamiento para residentes. Marqués de Zafra" , "  Plazas : 192  Abierto 24 horas " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MARQUES+DE+ZAFRA> xsd:Integer "63"^^xsd:int ;
+	vcard:street-address "MARQUES DE ZAFRA" ;
+	gn:locatedIn "FUENTE DEL BERRO" ;
+	gn:postalCode "28028" .
+
+<http://127.0.0.1:3333/13490> vcard:street-address <http://127.0.0.1:3333/MARQUES+DE+ZAFRA> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/13521> xsd:String "Aparcamiento para residentes. Marroquina" , "  Plazas : 683  Abierto 24 horas " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CAMINO+DE+LOS+VINATEROS> xsd:Integer "107"^^xsd:int ;
+	gn:locatedIn "MARROQUINA" .
+
+<http://127.0.0.1:3333/13521> vcard:street-address <http://127.0.0.1:3333/CAMINO+DE+LOS+VINATEROS> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/24125> xsd:String "Aparcamiento para residentes. Martín de Alzaga" , "  Plazas : 206  Abierto 24 horas " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ALCALDE+MARTIN+DE+ALZAGA> xsd:Integer "21"^^xsd:int ;
+	vcard:street-address "ALCALDE MARTIN DE ALZAGA" ;
+	gn:locatedIn "VALDEZARZA" ;
+	gn:postalCode "28039" .
+
+<http://127.0.0.1:3333/24125> vcard:street-address <http://127.0.0.1:3333/ALCALDE+MARTIN+DE+ALZAGA> ;
+	gn:featureClass "MONCLOA-ARAVACA" .
+
+<http://127.0.0.1:3333/24127> xsd:String "Aparcamiento para residentes. Matilde Gayo" , "  Plazas : 232  Abierto 24 horas " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MATILDE+GAYO> xsd:Integer "6"^^xsd:int ;
+	vcard:street-address "MATILDE GAYO" ;
+	gn:locatedIn "MOSCARDO" ;
+	gn:postalCode "28026" .
+
+<http://127.0.0.1:3333/24127> vcard:street-address <http://127.0.0.1:3333/MATILDE+GAYO> ;
+	gn:featureClass "USERA" .
+
+<http://127.0.0.1:3333/46136> xsd:String "Aparcamiento para residentes. Melchor Fernández Almagro" , "  Plazas : 255  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/GINZO+DE+LIMIA> xsd:Integer "7"^^xsd:int ;
+	vcard:street-address "GINZO DE LIMIA" ;
+	gn:locatedIn "EL PILAR" ;
+	gn:postalCode "28029" .
+
+<http://127.0.0.1:3333/46136> vcard:street-address <http://127.0.0.1:3333/GINZO+DE+LIMIA> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/13531> xsd:String "Aparcamiento para residentes. Menasalbas" , "  Plazas:  220  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/AHORRO> xsd:Integer "6"^^xsd:int ;
+	vcard:street-address "AHORRO" ;
+	gn:locatedIn "LOS ANGELES" ;
+	gn:postalCode "28041" .
+
+<http://127.0.0.1:3333/13531> vcard:street-address <http://127.0.0.1:3333/AHORRO> ;
+	gn:featureClass "VILLAVERDE" .
+
+<http://127.0.0.1:3333/183550> xsd:String "Aparcamiento para residentes. Menorca" , "  Plazas:  862  Abierto: 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "1" .
+
+<http://127.0.0.1:3333/NARVAEZ> xsd:Integer "54"^^xsd:int .
+
+<http://127.0.0.1:3333/183550> vcard:street-address <http://127.0.0.1:3333/NARVAEZ> ;
+	gn:featureClass "RETIRO" .
+
+<http://127.0.0.1:3333/13586> xsd:String "Aparcamiento para residentes. Mercedes Arteaga" , "  Plazas:  217  Abierto: 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MERCEDES+ARTEAGA> xsd:Integer "27"^^xsd:int ;
+	vcard:street-address "MERCEDES ARTEAGA" ;
+	gn:locatedIn "OPAÑEL" ;
+	gn:postalCode "28019" .
+
+<http://127.0.0.1:3333/13586> vcard:street-address <http://127.0.0.1:3333/MERCEDES+ARTEAGA> ;
+	gn:featureClass "CARABANCHEL" .
+
+<http://127.0.0.1:3333/81792> xsd:String "Aparcamiento para residentes. Miguel Angel" , "  Plazas:  87  Abierto: 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MIGUEL+ANGEL> xsd:Integer "30"^^xsd:int ;
+	vcard:street-address "MIGUEL ANGEL" ;
+	gn:locatedIn "ALMAGRO" ;
+	gn:postalCode "28010" .
+
+<http://127.0.0.1:3333/81792> vcard:street-address <http://127.0.0.1:3333/MIGUEL+ANGEL> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/13508> xsd:String "Aparcamiento para residentes. Mirabel" , "  Plazas:  617  Abierto: 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MIRABEL> xsd:Integer "13"^^xsd:int ;
+	vcard:street-address "MIRABEL" ;
+	gn:locatedIn "LAS AGUILAS" ;
+	gn:postalCode "28044" .
+
+<http://127.0.0.1:3333/13508> vcard:street-address <http://127.0.0.1:3333/MIRABEL> ;
+	gn:featureClass "LATINA" .
+
+<http://127.0.0.1:3333/13587> xsd:String "Aparcamiento para residentes. Misterios" , "  Plazas:  183  Abierto: 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MISTERIOS> xsd:Integer "1"^^xsd:int ;
+	vcard:street-address "MISTERIOS" ;
+	gn:locatedIn "QUINTANA" ;
+	gn:postalCode "28027" .
+
+<http://127.0.0.1:3333/13587> vcard:street-address <http://127.0.0.1:3333/MISTERIOS> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/13588> xsd:String "Aparcamiento para residentes. Mondariz" , "  Plazas : 282  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MONDARIZ> xsd:Integer "14-B"^^xsd:int ;
+	vcard:street-address "MONDARIZ" ;
+	gn:locatedIn "EL PILAR" ;
+	gn:postalCode "28029" .
+
+<http://127.0.0.1:3333/13588> vcard:street-address <http://127.0.0.1:3333/MONDARIZ> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/13589> xsd:String "Aparcamiento para residentes. Montevideo" , "  Plazas:  290  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/GENERAL+MOSCARDO> xsd:Integer "24"^^xsd:int ;
+	vcard:street-address "GENERAL MOSCARDO" ;
+	gn:locatedIn "CUATRO CAMINOS" ;
+	gn:postalCode "28020" .
+
+<http://127.0.0.1:3333/13589> vcard:street-address <http://127.0.0.1:3333/GENERAL+MOSCARDO> ;
+	gn:featureClass "TETUAN" .
+
+<http://127.0.0.1:3333/81770> xsd:String "Aparcamiento para residentes. Moralzarzal" , "  Plazas:  224  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MORALZARZAL> xsd:Integer "86"^^xsd:int ;
+	vcard:street-address "MORALZARZAL" ;
+	gn:locatedIn "MIRASIERRA" ;
+	gn:postalCode "28034" .
+
+<http://127.0.0.1:3333/81770> vcard:street-address <http://127.0.0.1:3333/MORALZARZAL> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/13540> xsd:String "Aparcamiento para residentes. Moratalaz" , "  Plazas:  379  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MORATALAZ> xsd:Integer "194"^^xsd:int .
+
+<http://127.0.0.1:3333/13540> vcard:street-address <http://127.0.0.1:3333/MORATALAZ> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/13516> xsd:String "Aparcamiento para residentes. Müller" , "  Plazas:  139  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/REMONTA> xsd:Integer "6"^^xsd:int ;
+	vcard:street-address "REMONTA" ;
+	gn:locatedIn "VALDEACEDERAS" ;
+	gn:postalCode "28039" .
+
+<http://127.0.0.1:3333/13516> vcard:street-address <http://127.0.0.1:3333/REMONTA> ;
+	gn:featureClass "TETUAN" .
+
+<http://127.0.0.1:3333/13497> xsd:String "Aparcamiento para residentes. Narváez" , "  Plazas:  523  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/NARVAEZ> xsd:Integer "26"^^xsd:int ;
+	gn:locatedIn "GOYA" .
+
+<http://127.0.0.1:3333/13497> vcard:street-address <http://127.0.0.1:3333/NARVAEZ> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/81793> xsd:String "Aparcamiento para residentes. Navalmoral de la Mata" , "  Plazas:  204  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/NAVALMORAL+DE+LA+MATA> xsd:Integer "64-B"^^xsd:int ;
+	vcard:street-address "NAVALMORAL DE LA MATA" ;
+	gn:locatedIn "LAS AGUILAS" ;
+	gn:postalCode "28044" .
+
+<http://127.0.0.1:3333/81793> vcard:street-address <http://127.0.0.1:3333/NAVALMORAL+DE+LA+MATA> ;
+	gn:featureClass "LATINA" .
+
+<http://127.0.0.1:3333/13590> xsd:String "Aparcamiento para residentes. Niño Jesús" , "  Plazas : 405  Abierto 24 horas.   Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/NI%26Ntilde%3BO+JESUS> xsd:Integer "4"^^xsd:int ;
+	vcard:street-address "NI&Ntilde;O JESUS" ;
+	gn:locatedIn "NIÑO JESUS" ;
+	gn:postalCode "28009" .
+
+<http://127.0.0.1:3333/13590> vcard:street-address <http://127.0.0.1:3333/NI%26Ntilde%3BO+JESUS> ;
+	gn:featureClass "RETIRO" .
+
+<http://127.0.0.1:3333/13519> xsd:String "Aparcamiento para residentes. Nuestra Señora de Gracia" , "  Plazas : 580  Titularidad : Ayuntamiento de Madrid   Abierto 24 horas. " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/HACIENDA+DE+PAVONES> xsd:Integer "202"^^xsd:int ;
+	vcard:street-address "HACIENDA DE PAVONES" ;
+	gn:locatedIn "FONTARRON" ;
+	gn:postalCode "28030" .
+
+<http://127.0.0.1:3333/13519> vcard:street-address <http://127.0.0.1:3333/HACIENDA+DE+PAVONES> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/13640> xsd:String "Aparcamiento para residentes. Ofelia Nieto" ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/OFELIA+NIETO> xsd:Integer "61 - B"^^xsd:int ;
+	vcard:street-address "OFELIA NIETO" ;
+	gn:locatedIn "VALDEZARZA" ;
+	gn:postalCode "28039" .
+
+<http://127.0.0.1:3333/13640> vcard:street-address <http://127.0.0.1:3333/OFELIA+NIETO> ;
+	gn:featureClass "MONCLOA-ARAVACA" .
+
+<http://127.0.0.1:3333/24129> xsd:String "Aparcamiento para residentes. Oporto" , "  Plazas : 456 Abierto 24 horas   Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CAMINO+VIEJO+DE+LEGANES> xsd:Integer "30"^^xsd:int ;
+	gn:locatedIn "OPAÑEL" ;
+	gn:postalCode "28019" .
+
+<http://127.0.0.1:3333/24129> vcard:street-address <http://127.0.0.1:3333/CAMINO+VIEJO+DE+LEGANES> ;
+	gn:featureClass "CARABANCHEL" .
+
+<http://127.0.0.1:3333/13543> xsd:String "Aparcamiento para residentes. Ortega y Gasset I" , "  Plazas : 741  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/JOSE+ORTEGA+Y+GASSET> xsd:Integer "26"^^xsd:int .
+
+<http://127.0.0.1:3333/13543> vcard:street-address <http://127.0.0.1:3333/JOSE+ORTEGA+Y+GASSET> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/13544> xsd:String "Aparcamiento para residentes. Ortega y Gasset II" , "  Plazas : 549 Abierto 24 horas    Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/JOSE+ORTEGA+Y+GASSET> xsd:Integer "44"^^xsd:int ;
+	gn:locatedIn "LISTA" .
+
+<http://127.0.0.1:3333/13544> vcard:street-address <http://127.0.0.1:3333/JOSE+ORTEGA+Y+GASSET> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/13549> xsd:String "Aparcamiento para residentes. Ortega y Gasset III" , "  Plazas : 402  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/JOSE+ORTEGA+Y+GASSET> xsd:Integer "35"^^xsd:int .
+
+<http://127.0.0.1:3333/13549> vcard:street-address <http://127.0.0.1:3333/JOSE+ORTEGA+Y+GASSET> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/13553> xsd:String "Aparcamiento para residentes. Ortega y Gasset IV" , "  Plazas : 369  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/JOSE+ORTEGA+Y+GASSET> xsd:Integer "25 -B"^^xsd:int .
+
+<http://127.0.0.1:3333/13553> vcard:street-address <http://127.0.0.1:3333/JOSE+ORTEGA+Y+GASSET> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/167691> xsd:String "Aparcamiento para residentes. Ortiz Campos" , "  Plazas : 151  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ORTIZ+CAMPOS> xsd:Integer "12"^^xsd:int ;
+	vcard:street-address "ORTIZ CAMPOS" ;
+	gn:locatedIn "PRADOLONGO" ;
+	gn:postalCode "28026" .
+
+<http://127.0.0.1:3333/167691> vcard:street-address <http://127.0.0.1:3333/ORTIZ+CAMPOS> ;
+	gn:featureClass "USERA" .
+
+<http://127.0.0.1:3333/13510> xsd:String "Aparcamiento para residentes. Osa de la Vega" , "  Plazas : 294  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/OSA+DE+LA+VEGA> xsd:Integer "6"^^xsd:int ;
+	vcard:street-address "OSA DE LA VEGA" ;
+	gn:locatedIn "LAS AGUILAS" ;
+	gn:postalCode "28044" .
+
+<http://127.0.0.1:3333/13510> vcard:street-address <http://127.0.0.1:3333/OSA+DE+LA+VEGA> ;
+	gn:featureClass "LATINA" .
+
+<http://127.0.0.1:3333/13628> xsd:String "Aparcamiento para residentes. Pablo Casals" , "  Plazas : 152  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PABLO+CASALS> xsd:Integer "1"^^xsd:int ;
+	vcard:street-address "PABLO CASALS" ;
+	gn:locatedIn "PUERTA DEL ANGEL" .
+
+<http://127.0.0.1:3333/13628> vcard:street-address <http://127.0.0.1:3333/PABLO+CASALS> ;
+	gn:featureClass "LATINA" .
+
+<http://127.0.0.1:3333/13591> xsd:String "Aparcamiento para residentes. Pablo Iglesias I" , "  Plazas : 180  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PABLO+IGLESIAS> xsd:Integer "16"^^xsd:int ;
+	vcard:street-address "PABLO IGLESIAS" ;
+	gn:locatedIn "VALLEHERMOSO" ;
+	gn:postalCode "28003" .
+
+<http://127.0.0.1:3333/13591> vcard:street-address <http://127.0.0.1:3333/PABLO+IGLESIAS> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/13517> xsd:String "Aparcamiento para residentes. Pablo Iglesias II" , "  Plazas : 504  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PABLO+IGLESIAS> xsd:Integer "40"^^xsd:int ;
+	gn:locatedIn "BELLAS VISTAS" ;
+	gn:postalCode "28039" .
+
+<http://127.0.0.1:3333/13517> vcard:street-address <http://127.0.0.1:3333/PABLO+IGLESIAS> ;
+	gn:featureClass "TETUAN" .
+
+<http://127.0.0.1:3333/13557> xsd:String "Aparcamiento para residentes. Pan y Toros" , "  Plazas : 226   Abierto 24 horas    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PAN+Y+TOROS> xsd:Integer "6 - b"^^xsd:int .
+
+<http://127.0.0.1:3333/13557> vcard:street-address <http://127.0.0.1:3333/PAN+Y+TOROS> ;
+	gn:featureClass "VILLAVERDE" .
+
+<http://127.0.0.1:3333/81799> xsd:String "Aparcamiento para residentes. Panamá" , "  Plazas : 435  Abierto 24 horas    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/DOCTOR+FLEMING> xsd:Integer "13"^^xsd:int ;
+	gn:locatedIn "HISPANOAMERICA" .
+
+<http://127.0.0.1:3333/81799> vcard:street-address <http://127.0.0.1:3333/DOCTOR+FLEMING> ;
+	gn:featureClass "CHAMARTIN" .
+
+<http://127.0.0.1:3333/63333> xsd:String "Aparcamiento para residentes. Parque de Santa María" , "  Plazas : 459  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SANTA+VIRGILIA> xsd:Integer "19"^^xsd:int ;
+	vcard:street-address "SANTA VIRGILIA" ;
+	gn:locatedIn "PINAR DEL REY" ;
+	gn:postalCode "28033" .
+
+<http://127.0.0.1:3333/63333> vcard:street-address <http://127.0.0.1:3333/SANTA+VIRGILIA> ;
+	gn:featureClass "HORTALEZA" .
+
+<http://127.0.0.1:3333/13619> xsd:String "Aparcamiento para residentes. Paseo de Pintor Rosales I" , "  Plazas : 315  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PINTOR+ROSALES> xsd:Integer "40"^^xsd:int ;
+	vcard:street-address "PINTOR ROSALES" ;
+	gn:locatedIn "ARGUELLES" ;
+	gn:postalCode "28008" .
+
+<http://127.0.0.1:3333/13619> vcard:street-address <http://127.0.0.1:3333/PINTOR+ROSALES> ;
+	gn:featureClass "MONCLOA-ARAVACA" .
+
+<http://127.0.0.1:3333/13637> xsd:String "Aparcamiento para residentes. Paseo de Pintor Rosales III" , "  Plazas : 733  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PINTOR+ROSALES> xsd:Integer "1"^^xsd:int ;
+	gn:locatedIn "CASA DE CAMPO" .
+
+<http://127.0.0.1:3333/13637> vcard:street-address <http://127.0.0.1:3333/PINTOR+ROSALES> ;
+	gn:featureClass "MONCLOA-ARAVACA" .
+
+<http://127.0.0.1:3333/13592> xsd:String "Aparcamiento para residentes. Pedro Yagüe" , "  Plazas : 198  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PEDRO+YAG%26Uuml%3BE> xsd:Integer "3"^^xsd:int ;
+	vcard:street-address "PEDRO YAG&Uuml;E" ;
+	gn:locatedIn "COMILLAS" ;
+	gn:postalCode "28019" .
+
+<http://127.0.0.1:3333/13592> vcard:street-address <http://127.0.0.1:3333/PEDRO+YAG%26Uuml%3BE> ;
+	gn:featureClass "CARABANCHEL" .
+
+<http://127.0.0.1:3333/24131> xsd:String "Aparcamiento para residentes. Peñuelas" , "  Plazas : 239  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ESPERANZA> xsd:Integer "13"^^xsd:int .
+
+<http://127.0.0.1:3333/24131> vcard:street-address <http://127.0.0.1:3333/ESPERANZA> ;
+	gn:featureClass "ARGANZUELA" .
+
+<http://127.0.0.1:3333/13617> xsd:String "Aparcamiento para residentes. Pérez Pillado" , "  Plazas : 531  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/TENIENTE+DE+ALCALDE+PEREZ+PILLADO> xsd:Integer "1-B"^^xsd:int ;
+	vcard:street-address "TENIENTE DE ALCALDE PEREZ PILLADO" ;
+	gn:locatedIn "VALLEHERMOSO" ;
+	gn:postalCode "28003" .
+
+<http://127.0.0.1:3333/13617> vcard:street-address <http://127.0.0.1:3333/TENIENTE+DE+ALCALDE+PEREZ+PILLADO> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/13545> xsd:String "Aparcamiento para residentes. Pez Volador" , "  Plazas : 657  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PEZ+VOLADOR> xsd:Integer "21"^^xsd:int ;
+	vcard:street-address "PEZ VOLADOR" ;
+	gn:locatedIn "ESTRELLA" ;
+	gn:postalCode "28007" .
+
+<http://127.0.0.1:3333/13545> vcard:street-address <http://127.0.0.1:3333/PEZ+VOLADOR> ;
+	gn:featureClass "RETIRO" .
+
+<http://127.0.0.1:3333/13542> xsd:String "Aparcamiento para residentes. Pico de los Artilleros" , "  Plazas : 195  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PICO+DE+LOS+ARTILLEROS> xsd:Integer "19"^^xsd:int ;
+	vcard:street-address "PICO DE LOS ARTILLEROS" ;
+	gn:locatedIn "MARROQUINA" ;
+	gn:postalCode "28030" .
+
+<http://127.0.0.1:3333/13542> vcard:street-address <http://127.0.0.1:3333/PICO+DE+LOS+ARTILLEROS> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/81802> xsd:String "Aparcamiento para residentes. Pilar de Zaragoza" , "  Plazas : 180  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PILAR+DE+ZARAGOZA> xsd:Integer "54"^^xsd:int ;
+	vcard:street-address "PILAR DE ZARAGOZA" ;
+	gn:locatedIn "GUINDALERA" ;
+	gn:postalCode "28028" .
+
+<http://127.0.0.1:3333/81802> vcard:street-address <http://127.0.0.1:3333/PILAR+DE+ZARAGOZA> ;
+	gn:featureClass "SALAMANCA" .
+
+<http://127.0.0.1:3333/13593> xsd:String "Aparcamiento para residentes. Pío Baroja I" , "  Plazas : 495  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/DOCTOR+LAGUNA> xsd:Integer "14"^^xsd:int .
+
+<http://127.0.0.1:3333/13593> vcard:street-address <http://127.0.0.1:3333/DOCTOR+LAGUNA> ;
+	gn:featureClass "RETIRO" .
+
+<http://127.0.0.1:3333/13594> xsd:String "Aparcamiento para residentes. Pío Baroja II" , "  Plazas : 268  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/LUIS+DE+HOYOS+SAINZ> xsd:Integer "82"^^xsd:int ;
+	vcard:street-address "LUIS DE HOYOS SAINZ" ;
+	gn:locatedIn "VINATEROS" ;
+	gn:postalCode "28030" .
+
+<http://127.0.0.1:3333/13594> vcard:street-address <http://127.0.0.1:3333/LUIS+DE+HOYOS+SAINZ> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/13595> xsd:String "Aparcamiento para residentes. Platón" , "  Plazas : 218  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PLATON> xsd:Integer "3"^^xsd:int ;
+	vcard:street-address "PLATON" ;
+	gn:locatedIn "SAN PASCUAL" ;
+	gn:postalCode "28027" .
+
+<http://127.0.0.1:3333/13595> vcard:street-address <http://127.0.0.1:3333/PLATON> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/5298038> xsd:String "Aparcamiento para residentes. Poeta Leopoldo de Luis" , "  Plazas:  314  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CASTILLA> xsd:Integer "16"^^xsd:int ;
+	vcard:street-address "CASTILLA" ;
+	gn:locatedIn "BELLAS VISTAS" ;
+	gn:postalCode "28039" .
+
+<http://127.0.0.1:3333/5298038> vcard:street-address <http://127.0.0.1:3333/CASTILLA> ;
+	gn:featureClass "TETUAN" .
+
+<http://127.0.0.1:3333/13488> xsd:String "Aparcamiento para residentes. Pradillo" , "  Plazas:  143  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PRADILLO> xsd:Integer "31"^^xsd:int ;
+	vcard:street-address "PRADILLO" ;
+	gn:locatedIn "CIUDAD JARDIN" ;
+	gn:postalCode "28002" .
+
+<http://127.0.0.1:3333/13488> vcard:street-address <http://127.0.0.1:3333/PRADILLO> ;
+	gn:featureClass "CHAMARTIN" .
+
+<http://127.0.0.1:3333/7401268> xsd:String "Aparcamiento para residentes. Pradillo II" , "  Plazas:  68  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PRADILLO> xsd:Integer "39"^^xsd:int .
+
+<http://127.0.0.1:3333/7401268> vcard:street-address <http://127.0.0.1:3333/PRADILLO> ;
+	gn:featureClass "CHAMARTIN" .
+
+<http://127.0.0.1:3333/13596> xsd:String "Aparcamiento para residentes. Puerto Monasterio" , "  Plazas:  244  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PUERTO+DEL+MONASTERIO> xsd:Integer "17"^^xsd:int ;
+	vcard:street-address "PUERTO DEL MONASTERIO" ;
+	gn:locatedIn "SAN DIEGO" ;
+	gn:postalCode "28053" .
+
+<http://127.0.0.1:3333/13596> vcard:street-address <http://127.0.0.1:3333/PUERTO+DEL+MONASTERIO> ;
+	gn:featureClass "PUENTE DE VALLECAS" .
+
+<http://127.0.0.1:3333/13509> xsd:String "Aparcamiento para residentes. Rafael Finat" , "  Plazas:  311  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/RAFAEL+FINAT> xsd:Integer "65"^^xsd:int ;
+	vcard:street-address "RAFAEL FINAT" ;
+	gn:locatedIn "LAS AGUILAS" ;
+	gn:postalCode "28044" .
+
+<http://127.0.0.1:3333/13509> vcard:street-address <http://127.0.0.1:3333/RAFAEL+FINAT> ;
+	gn:featureClass "LATINA" .
+
+<http://127.0.0.1:3333/13506> xsd:String "Aparcamiento para residentes. Rafael Salgado" , "  Plazas:  372  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/RAFAEL+SALGADO> xsd:Integer "13-B"^^xsd:int ;
+	vcard:street-address "RAFAEL SALGADO" ;
+	gn:locatedIn "HISPANOAMERICA" ;
+	gn:postalCode "28036" .
+
+<http://127.0.0.1:3333/13506> vcard:street-address <http://127.0.0.1:3333/RAFAEL+SALGADO> ;
+	gn:featureClass "CHAMARTIN" .
+
+<http://127.0.0.1:3333/24132> xsd:String "Aparcamiento para residentes. Rafaela Ybarra" , "  Plazas:  257  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/RAFAELA+YBARRA> xsd:Integer "51"^^xsd:int ;
+	vcard:street-address "RAFAELA YBARRA" ;
+	gn:locatedIn "PRADOLONGO" ;
+	gn:postalCode "28026" .
+
+<http://127.0.0.1:3333/24132> vcard:street-address <http://127.0.0.1:3333/RAFAELA+YBARRA> ;
+	gn:featureClass "USERA" .
+
+<http://127.0.0.1:3333/183557> xsd:String "Aparcamiento para residentes. Ramales" , "  Plazas : 455  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/REQUENA> xsd:Integer "7"^^xsd:int ;
+	vcard:street-address "REQUENA" ;
+	gn:locatedIn "PALACIO" ;
+	gn:postalCode "28013" .
+
+<http://127.0.0.1:3333/183557> vcard:street-address <http://127.0.0.1:3333/REQUENA> ;
+	gn:featureClass "CENTRO" .
+
+<http://127.0.0.1:3333/13597> xsd:String "Aparcamiento para residentes. Ramón Gómez de la Serna" , "  Plazas:  597  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/RAMON+GOMEZ+DE+LA+SERNA> xsd:Integer "143-B"^^xsd:int ;
+	vcard:street-address "RAMON GOMEZ DE LA SERNA" ;
+	gn:locatedIn "PEÑA GRANDE" ;
+	gn:postalCode "28035" .
+
+<http://127.0.0.1:3333/13597> vcard:street-address <http://127.0.0.1:3333/RAMON+GOMEZ+DE+LA+SERNA> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/13599> xsd:String "Aparcamiento para residentes. Ramos Carrión" , "  Plazas:  579  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CLARA+DEL+REY> xsd:Integer "61"^^xsd:int .
+
+<http://127.0.0.1:3333/13599> vcard:street-address <http://127.0.0.1:3333/CLARA+DEL+REY> ;
+	gn:featureClass "CHAMARTIN" .
+
+<http://127.0.0.1:3333/13598> xsd:String "Aparcamiento para residentes. Redondela" , "  Plazas:  661  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VERIN> xsd:Integer "3-B"^^xsd:int ;
+	vcard:street-address "VERIN" ;
+	gn:locatedIn "EL PILAR" ;
+	gn:postalCode "28029" .
+
+<http://127.0.0.1:3333/13598> vcard:street-address <http://127.0.0.1:3333/VERIN> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/81827> xsd:String "Aparcamiento para residentes. Reina Victoria" , "  Plazas:  382  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/REINA+VICTORIA> xsd:Integer "34"^^xsd:int ;
+	vcard:street-address "REINA VICTORIA" ;
+	gn:locatedIn "CIUDAD UNIVERSITARIA" ;
+	gn:postalCode "28003" .
+
+<http://127.0.0.1:3333/81827> vcard:street-address <http://127.0.0.1:3333/REINA+VICTORIA> ;
+	gn:featureClass "MONCLOA-ARAVACA" .
+
+<http://127.0.0.1:3333/13618> xsd:String "Aparcamiento para residentes. Ribadavia" , "  Plazas:  448  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/RIBADAVIA> xsd:Integer "47"^^xsd:int ;
+	vcard:street-address "RIBADAVIA" ;
+	gn:locatedIn "EL PILAR" ;
+	gn:postalCode "28029" .
+
+<http://127.0.0.1:3333/13618> vcard:street-address <http://127.0.0.1:3333/RIBADAVIA> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/13491> xsd:String "Aparcamiento para residentes. Ribadeo" , "  Plazas : 221  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/RIBADEO> xsd:Integer "2-B"^^xsd:int ;
+	vcard:street-address "RIBADEO" ;
+	gn:locatedIn "EL PILAR" ;
+	gn:postalCode "28029" .
+
+<http://127.0.0.1:3333/13491> vcard:street-address <http://127.0.0.1:3333/RIBADEO> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/81829> xsd:String "Aparcamiento para residentes. Ríos Rosas" , "  Plazas : 248  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/RIOS+ROSAS> xsd:Integer "20"^^xsd:int ;
+	vcard:street-address "RIOS ROSAS" ;
+	gn:locatedIn "RIOS ROSAS" ;
+	gn:postalCode "28003" .
+
+<http://127.0.0.1:3333/81829> vcard:street-address <http://127.0.0.1:3333/RIOS+ROSAS> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/13484> xsd:String "Aparcamiento para residentes. Rutilio Gacís" , "  Plazas : 605  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/GUILLERMO+DE+OSMA> xsd:Integer "3"^^xsd:int ;
+	vcard:street-address "GUILLERMO DE OSMA" ;
+	gn:locatedIn "CHOPERA" ;
+	gn:postalCode "28045" .
+
+<http://127.0.0.1:3333/13484> vcard:street-address <http://127.0.0.1:3333/GUILLERMO+DE+OSMA> ;
+	gn:featureClass "ARGANZUELA" .
+
+<http://127.0.0.1:3333/13600> xsd:String "Aparcamiento para residentes. San Amaro" , "  Plazas : 220  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/PRESIDENTE+CARMONA> xsd:Integer "4-B"^^xsd:int .
+
+<http://127.0.0.1:3333/13600> vcard:street-address <http://127.0.0.1:3333/PRESIDENTE+CARMONA> ;
+	gn:featureClass "TETUAN" .
+
+<http://127.0.0.1:3333/13638> xsd:String "Aparcamiento para residentes. San Antonio de la Florida" , "  Plazas : 183  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SAN+ANTONIO+DE+LA+FLORIDA> xsd:Integer "2-B"^^xsd:int ;
+	vcard:street-address "SAN ANTONIO DE LA FLORIDA" ;
+	gn:locatedIn "CASA DE CAMPO" ;
+	gn:postalCode "28008" .
+
+<http://127.0.0.1:3333/13638> vcard:street-address <http://127.0.0.1:3333/SAN+ANTONIO+DE+LA+FLORIDA> ;
+	gn:featureClass "MONCLOA-ARAVACA" .
+
+<http://127.0.0.1:3333/13601> xsd:String "Aparcamiento para residentes. San Aureliano" , "  Plazas : 194  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SAN+AURELIANO> xsd:Integer "9"^^xsd:int ;
+	vcard:street-address "SAN AURELIANO" ;
+	gn:locatedIn "SAN ANDRES" ;
+	gn:postalCode "28021" .
+
+<http://127.0.0.1:3333/13601> vcard:street-address <http://127.0.0.1:3333/SAN+AURELIANO> ;
+	gn:featureClass "VILLAVERDE" .
+
+<http://127.0.0.1:3333/81830> xsd:String "Aparcamiento para residentes. San Cipriano" , "  Plazas : 149  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SAN+CIPRIANO> xsd:Integer "53"^^xsd:int ;
+	vcard:street-address "SAN CIPRIANO" ;
+	gn:locatedIn "CASCO H.VICALVARO" ;
+	gn:postalCode "28032" .
+
+<http://127.0.0.1:3333/81830> vcard:street-address <http://127.0.0.1:3333/SAN+CIPRIANO> ;
+	gn:featureClass "VICALVARO" .
+
+<http://127.0.0.1:3333/13602> xsd:String "Aparcamiento para residentes. San Francisco de Sales I" , "  Plazas : 284  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ANDRES+MELLADO> xsd:Integer "116"^^xsd:int ;
+	vcard:street-address "ANDRES MELLADO" ;
+	gn:locatedIn "VALLEHERMOSO" ;
+	gn:postalCode "28003" .
+
+<http://127.0.0.1:3333/13602> vcard:street-address <http://127.0.0.1:3333/ANDRES+MELLADO> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/81831> xsd:String "Aparcamiento para residentes. San Francisco de Sales II" , "  Plazas : 447  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SAN+FRANCISCO+DE+SALES> xsd:Integer "27"^^xsd:int ;
+	vcard:street-address "SAN FRANCISCO DE SALES" ;
+	gn:locatedIn "VALLEHERMOSO" ;
+	gn:postalCode "28003" .
+
+<http://127.0.0.1:3333/81831> vcard:street-address <http://127.0.0.1:3333/SAN+FRANCISCO+DE+SALES> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/13603> xsd:String "Aparcamiento para residentes. San Germán" , "  Plazas : 243  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/INFANTA+MERCEDES> xsd:Integer "40"^^xsd:int ;
+	vcard:street-address "INFANTA MERCEDES" ;
+	gn:locatedIn "CASTILLEJOS" ;
+	gn:postalCode "28020" .
+
+<http://127.0.0.1:3333/13603> vcard:street-address <http://127.0.0.1:3333/INFANTA+MERCEDES> ;
+	gn:featureClass "TETUAN" .
+
+<http://127.0.0.1:3333/13621> xsd:String "Aparcamiento para residentes. San Juan de la Cruz" , "  Plazas : 249  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SAN+JUAN+DE+LA+CRUZ> xsd:Integer "3-B"^^xsd:int ;
+	vcard:street-address "SAN JUAN DE LA CRUZ" ;
+	gn:locatedIn "RIOS ROSAS" ;
+	gn:postalCode "28003" .
+
+<http://127.0.0.1:3333/13621> vcard:street-address <http://127.0.0.1:3333/SAN+JUAN+DE+LA+CRUZ> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/81833> xsd:String "Aparcamiento para residentes. San Juan de la Salle" , "  Plazas : 254  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SAN+JUAN+DE+LA+SALLE> xsd:Integer "2"^^xsd:int ;
+	vcard:street-address "SAN JUAN DE LA SALLE" ;
+	gn:locatedIn "EL VISO" ;
+	gn:postalCode "28036" .
+
+<http://127.0.0.1:3333/81833> vcard:street-address <http://127.0.0.1:3333/SAN+JUAN+DE+LA+SALLE> ;
+	gn:featureClass "CHAMARTIN" .
+
+<http://127.0.0.1:3333/13604> xsd:String "Aparcamiento para residentes. San Lamberto" , "  Plazas : 225  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SANTA+GENOVEVA> xsd:Integer "9-B"^^xsd:int ;
+	vcard:street-address "SANTA GENOVEVA" ;
+	gn:locatedIn "VENTAS" ;
+	gn:postalCode "28017" .
+
+<http://127.0.0.1:3333/13604> vcard:street-address <http://127.0.0.1:3333/SANTA+GENOVEVA> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/13622> xsd:String "Aparcamiento para residentes. Sancho de Córdoba" , "  Plazas : 472  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/CORREGIDOR+SANCHO+DE+CORDOBA> xsd:Integer "10"^^xsd:int ;
+	vcard:street-address "CORREGIDOR SANCHO DE CORDOBA" ;
+	gn:locatedIn "MEDIA LEGUA" ;
+	gn:postalCode "28030" .
+
+<http://127.0.0.1:3333/13622> vcard:street-address <http://127.0.0.1:3333/CORREGIDOR+SANCHO+DE+CORDOBA> ;
+	gn:featureClass "MORATALAZ" .
+
+<http://127.0.0.1:3333/81836> xsd:String "Aparcamiento para residentes. Santa Cruz" , "  Plazas : 152  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ATOCHA> xsd:Integer "3-B"^^xsd:int ;
+	vcard:street-address "ATOCHA" ;
+	gn:locatedIn "SOL" ;
+	gn:postalCode "28012" .
+
+<http://127.0.0.1:3333/81836> vcard:street-address <http://127.0.0.1:3333/ATOCHA> ;
+	gn:featureClass "CENTRO" .
+
+<http://127.0.0.1:3333/13555> xsd:String "Aparcamiento para residentes. Santa Eugenia" , "  Plazas : 530  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ZAZUAR> xsd:Integer "12"^^xsd:int ;
+	vcard:street-address "ZAZUAR" ;
+	gn:locatedIn "SANTA EUGENIA" ;
+	gn:postalCode "28031" .
+
+<http://127.0.0.1:3333/13555> vcard:street-address <http://127.0.0.1:3333/ZAZUAR> ;
+	gn:featureClass "VILLA DE VALLECAS" .
+
+<http://127.0.0.1:3333/13496> xsd:String "Aparcamiento para residentes. Santa Susana" , "  Plazas : 329  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SANTA+SUSANA> xsd:Integer "55"^^xsd:int ;
+	vcard:street-address "SANTA SUSANA" ;
+	gn:locatedIn "PINAR DEL REY" ;
+	gn:postalCode "28033" .
+
+<http://127.0.0.1:3333/13496> vcard:street-address <http://127.0.0.1:3333/SANTA+SUSANA> ;
+	gn:featureClass "HORTALEZA" .
+
+<http://127.0.0.1:3333/13605> xsd:String "Aparcamiento para residentes. Santa Virgilia" , "  Plazas : 330  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SANTA+VIRGILIA> xsd:Integer "12-B"^^xsd:int .
+
+<http://127.0.0.1:3333/13605> vcard:street-address <http://127.0.0.1:3333/SANTA+VIRGILIA> ;
+	gn:featureClass "HORTALEZA" .
+
+<http://127.0.0.1:3333/81838> xsd:String "Aparcamiento para residentes. Santander" , "  Plazas : 221  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SAN+FRANCISCO+DE+SALES> xsd:Integer "39"^^xsd:int .
+
+<http://127.0.0.1:3333/81838> vcard:street-address <http://127.0.0.1:3333/SAN+FRANCISCO+DE+SALES> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/13507> xsd:String "Aparcamiento para residentes. Santo Domingo de Silos" , "  Plazas : 252  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SANTO+DOMINGO+DE+SILOS> xsd:Integer "2-B"^^xsd:int ;
+	vcard:street-address "SANTO DOMINGO DE SILOS" ;
+	gn:locatedIn "EL VISO" ;
+	gn:postalCode "28036" .
+
+<http://127.0.0.1:3333/13507> vcard:street-address <http://127.0.0.1:3333/SANTO+DOMINGO+DE+SILOS> ;
+	gn:featureClass "CHAMARTIN" .
+
+<http://127.0.0.1:3333/24138> xsd:String "Aparcamiento para residentes. Sarriá" , "  Plazas : 517  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SARRIA> xsd:Integer "67"^^xsd:int ;
+	vcard:street-address "SARRIA" ;
+	gn:locatedIn "EL PILAR" ;
+	gn:postalCode "28029" .
+
+<http://127.0.0.1:3333/24138> vcard:street-address <http://127.0.0.1:3333/SARRIA> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/81841> xsd:String "Aparcamiento para residentes. Somontín" , "  Plazas : 282  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SOMONTIN> xsd:Integer "98-B"^^xsd:int ;
+	vcard:street-address "SOMONTIN" ;
+	gn:locatedIn "APOSTOL SANTIAGO" ;
+	gn:postalCode "28033" .
+
+<http://127.0.0.1:3333/81841> vcard:street-address <http://127.0.0.1:3333/SOMONTIN> ;
+	gn:featureClass "HORTALEZA" .
+
+<http://127.0.0.1:3333/13492> xsd:String "Aparcamiento para residentes. Sor Ángela de la Cruz" , "  Plazas : 250  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/SOR+ANGELA+DE+LA+CRUZ> xsd:Integer "24"^^xsd:int .
+
+<http://127.0.0.1:3333/13492> vcard:street-address <http://127.0.0.1:3333/SOR+ANGELA+DE+LA+CRUZ> ;
+	gn:featureClass "TETUAN" .
+
+<http://127.0.0.1:3333/13511> xsd:String "Aparcamiento para residentes. Tembleque" , "  Plazas : 562  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/TEMBLEQUE> xsd:Integer "146"^^xsd:int ;
+	vcard:street-address "TEMBLEQUE" ;
+	gn:locatedIn "ALUCHE" ;
+	gn:postalCode "28024" .
+
+<http://127.0.0.1:3333/13511> vcard:street-address <http://127.0.0.1:3333/TEMBLEQUE> ;
+	gn:featureClass "LATINA" .
+
+<http://127.0.0.1:3333/13547> xsd:String "Aparcamiento para residentes. Tomelloso" , "  Plazas : 213  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/TOMELLOSO> xsd:Integer "1-B"^^xsd:int ;
+	vcard:street-address "TOMELLOSO" ;
+	gn:locatedIn "ALMENDRALES" ;
+	gn:postalCode "28026" .
+
+<http://127.0.0.1:3333/13547> vcard:street-address <http://127.0.0.1:3333/TOMELLOSO> ;
+	gn:featureClass "USERA" .
+
+<http://127.0.0.1:3333/13489> xsd:String "Aparcamiento para residentes. Uruguay" , "  Plazas:  246  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/URUGUAY> xsd:Integer "12"^^xsd:int ;
+	vcard:street-address "URUGUAY" ;
+	gn:locatedIn "HISPANOAMERICA" ;
+	gn:postalCode "28016" .
+
+<http://127.0.0.1:3333/13489> vcard:street-address <http://127.0.0.1:3333/URUGUAY> ;
+	gn:featureClass "CHAMARTIN" .
+
+<http://127.0.0.1:3333/13559> xsd:String "Aparcamiento para residentes. Valladolid" , "  Plazas:  421  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VALLADOLID> xsd:Integer "55"^^xsd:int ;
+	vcard:street-address "VALLADOLID" ;
+	gn:locatedIn "CASA DE CAMPO" ;
+	gn:postalCode "28008" .
+
+<http://127.0.0.1:3333/13559> vcard:street-address <http://127.0.0.1:3333/VALLADOLID> ;
+	gn:featureClass "MONCLOA-ARAVACA" .
+
+<http://127.0.0.1:3333/24141> xsd:String "Aparcamiento para residentes. Valle de Suchil" , "  Plazas:  1.126  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/ARAPILES> xsd:Integer "17"^^xsd:int ;
+	vcard:street-address "ARAPILES" ;
+	gn:locatedIn "ARAPILES" ;
+	gn:postalCode "28015" .
+
+<http://127.0.0.1:3333/24141> vcard:street-address <http://127.0.0.1:3333/ARAPILES> ;
+	gn:featureClass "CHAMBERI" .
+
+<http://127.0.0.1:3333/13523> xsd:String "Aparcamiento para residentes. Valparaíso" , "  Plazas:  582  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VALPARAISO> xsd:Integer "5"^^xsd:int ;
+	vcard:street-address "VALPARAISO" ;
+	gn:locatedIn "HISPANOAMERICA" ;
+	gn:postalCode "28016" .
+
+<http://127.0.0.1:3333/13523> vcard:street-address <http://127.0.0.1:3333/VALPARAISO> ;
+	gn:featureClass "CHAMARTIN" .
+
+<http://127.0.0.1:3333/13623> xsd:String "Aparcamiento para residentes. Vasconcelos" , "  Plazas:  300  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/JOSE+VASCONCELOS> xsd:Integer "4"^^xsd:int ;
+	vcard:street-address "JOSE VASCONCELOS" ;
+	gn:locatedIn "CASTILLA" ;
+	gn:postalCode "28046" .
+
+<http://127.0.0.1:3333/13623> vcard:street-address <http://127.0.0.1:3333/JOSE+VASCONCELOS> ;
+	gn:featureClass "CHAMARTIN" .
+
+<http://127.0.0.1:3333/61831> xsd:String "Aparcamiento para residentes. Vía Carpetana" , "  Plazas:  309  Abierto 24 horas   Titularidad:  Ayuntamietno de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VIA+CARPETANA> xsd:Integer "205"^^xsd:int ;
+	vcard:street-address "VIA CARPETANA" ;
+	gn:locatedIn "VISTA ALEGRE" ;
+	gn:postalCode "28047" .
+
+<http://127.0.0.1:3333/61831> vcard:street-address <http://127.0.0.1:3333/VIA+CARPETANA> ;
+	gn:featureClass "CARABANCHEL" .
+
+<http://127.0.0.1:3333/13513> xsd:String "Aparcamiento para residentes. Vicente Gaceo" , "  Plazas:  268  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VICENTE+GACEO> xsd:Integer "19-B"^^xsd:int ;
+	vcard:street-address "VICENTE GACEO" ;
+	gn:locatedIn "ALMENARA" ;
+	gn:postalCode "28029" .
+
+<http://127.0.0.1:3333/13513> vcard:street-address <http://127.0.0.1:3333/VICENTE+GACEO> ;
+	gn:featureClass "TETUAN" .
+
+<http://127.0.0.1:3333/13606> xsd:String "Aparcamiento para residentes. Villa Rosa" , "  Plazas:  205  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/LAS+PEDRO%26Ntilde%3BERAS> xsd:Integer "44"^^xsd:int ;
+	vcard:street-address "LAS PEDRO&Ntilde;ERAS" ;
+	gn:locatedIn "CANILLAS" ;
+	gn:postalCode "28043" .
+
+<http://127.0.0.1:3333/13606> vcard:street-address <http://127.0.0.1:3333/LAS+PEDRO%26Ntilde%3BERAS> ;
+	gn:featureClass "HORTALEZA" .
+
+<http://127.0.0.1:3333/13607> xsd:String "Aparcamiento para residentes. Villacarlos" , "  Plazas:  316  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VILLACARLOS> xsd:Integer "10"^^xsd:int ;
+	vcard:street-address "VILLACARLOS" ;
+	gn:locatedIn "CASCO H.VICALVARO" ;
+	gn:postalCode "28032" .
+
+<http://127.0.0.1:3333/13607> vcard:street-address <http://127.0.0.1:3333/VILLACARLOS> ;
+	gn:featureClass "VICALVARO" .
+
+<http://127.0.0.1:3333/13608> xsd:String "Aparcamiento para residentes. Villaescusa" , "  Plazas : 228  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MATAMOROSA> xsd:Integer "2"^^xsd:int ;
+	vcard:street-address "MATAMOROSA" ;
+	gn:locatedIn "PUEBLO NUEVO" ;
+	gn:postalCode "28017" .
+
+<http://127.0.0.1:3333/13608> vcard:street-address <http://127.0.0.1:3333/MATAMOROSA> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/13609> xsd:String "Aparcamiento para residentes. Villamanín I" , "  Plazas : 195  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VILLAMANIN> xsd:Integer "37"^^xsd:int ;
+	vcard:street-address "VILLAMANIN" ;
+	gn:locatedIn "LUCERO" ;
+	gn:postalCode "28011" .
+
+<http://127.0.0.1:3333/13609> vcard:street-address <http://127.0.0.1:3333/VILLAMANIN> ;
+	gn:featureClass "LATINA" .
+
+<http://127.0.0.1:3333/13528> xsd:String "Aparcamiento para residentes. Villamanín II" , "  Plazas : 307  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VILLAMANIN> xsd:Integer "50"^^xsd:int .
+
+<http://127.0.0.1:3333/13528> vcard:street-address <http://127.0.0.1:3333/VILLAMANIN> ;
+	gn:featureClass "LATINA" .
+
+<http://127.0.0.1:3333/81866> xsd:String "Aparcamiento para residentes. Virgen de Aránzazu" , "  Plazas : 238  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VIRGEN+DE+ARANZAZU> xsd:Integer "23"^^xsd:int ;
+	vcard:street-address "VIRGEN DE ARANZAZU" ;
+	gn:locatedIn "VALVERDE" ;
+	gn:postalCode "28034" .
+
+<http://127.0.0.1:3333/81866> vcard:street-address <http://127.0.0.1:3333/VIRGEN+DE+ARANZAZU> ;
+	gn:featureClass "FUENCARRAL-EL PARDO" .
+
+<http://127.0.0.1:3333/13610> xsd:String "Aparcamiento para residentes. Virgen de La Alegría" , "  Plazas : 138  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VIRGEN+DE+LA+ALEGRIA> xsd:Integer "19"^^xsd:int ;
+	vcard:street-address "VIRGEN DE LA ALEGRIA" ;
+	gn:locatedIn "CONCEPCION" ;
+	gn:postalCode "28027" .
+
+<http://127.0.0.1:3333/13610> vcard:street-address <http://127.0.0.1:3333/VIRGEN+DE+LA+ALEGRIA> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/13612> xsd:String "Aparcamiento para residentes. Virgen de La Roca I" , "  Plazas : 172  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VIRGEN+DE+LA+ROCA> xsd:Integer "18"^^xsd:int ;
+	vcard:street-address "VIRGEN DE LA ROCA" ;
+	gn:locatedIn "CONCEPCION" ;
+	gn:postalCode "28027" .
+
+<http://127.0.0.1:3333/13612> vcard:street-address <http://127.0.0.1:3333/VIRGEN+DE+LA+ROCA> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/13613> xsd:String "Aparcamiento para residentes. Virgen de La Roca II" , "  Plazas : 203  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VIRGEN+DE+LA+ROCA> xsd:Integer "20"^^xsd:int .
+
+<http://127.0.0.1:3333/13613> vcard:street-address <http://127.0.0.1:3333/VIRGEN+DE+LA+ROCA> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/13639> xsd:String "Aparcamiento para residentes. Virgen de Lourdes" , "  Plazas : 296  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VIRGEN+DE+LOURDES> xsd:Integer "40"^^xsd:int ;
+	vcard:street-address "VIRGEN DE LOURDES" ;
+	gn:locatedIn "CONCEPCION" ;
+	gn:postalCode "28027" .
+
+<http://127.0.0.1:3333/13639> vcard:street-address <http://127.0.0.1:3333/VIRGEN+DE+LOURDES> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/13611> xsd:String "Aparcamiento para residentes. Virgen del Puerto" , "  Plazas : 793  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VIRGEN+DEL+PUERTO> xsd:Integer "7"^^xsd:int ;
+	vcard:street-address "VIRGEN DEL PUERTO" ;
+	gn:locatedIn "IMPERIAL" ;
+	gn:postalCode "28005" .
+
+<http://127.0.0.1:3333/13611> vcard:street-address <http://127.0.0.1:3333/VIRGEN+DEL+PUERTO> ;
+	gn:featureClass "ARGANZUELA" .
+
+<http://127.0.0.1:3333/7397971> xsd:String "Aparcamiento para Residentes. Virgen del Romero" , "  Plazas : 404  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VIRGEN+DEL+ROMERO> xsd:Integer "9"^^xsd:int ;
+	vcard:street-address "VIRGEN DEL ROMERO" ;
+	gn:locatedIn "CONCEPCION" ;
+	gn:postalCode "28027" .
+
+<http://127.0.0.1:3333/7397971> vcard:street-address <http://127.0.0.1:3333/VIRGEN+DEL+ROMERO> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/13614> xsd:String "Aparcamiento para residentes. Vista Alegre" , "  Plazas : 402  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/MATILDE+HERNANDEZ> xsd:Integer "101"^^xsd:int ;
+	vcard:street-address "MATILDE HERNANDEZ" ;
+	gn:locatedIn "VISTA ALEGRE" ;
+	gn:postalCode "28025" .
+
+<http://127.0.0.1:3333/13614> vcard:street-address <http://127.0.0.1:3333/MATILDE+HERNANDEZ> ;
+	gn:featureClass "CARABANCHEL" .
+
+<http://127.0.0.1:3333/13493> xsd:String "Aparcamiento para residentes. Vital Aza" , "  Plazas : 202  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0" .
+
+<http://127.0.0.1:3333/VITAL+AZA> xsd:Integer "10"^^xsd:int ;
+	vcard:street-address "VITAL AZA" ;
+	gn:locatedIn "PUEBLO NUEVO" ;
+	gn:postalCode "28017" .
+
+<http://127.0.0.1:3333/13493> vcard:street-address <http://127.0.0.1:3333/VITAL+AZA> ;
+	gn:featureClass "CIUDAD LINEAL" .
+
+<http://127.0.0.1:3333/13473> xsd:String "Aparcamiento público. Descalzas" , "  Plazas:  400   Abierto 24 horas  Admite Tarjeta Bono Red    Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "1" .
+
+<http://127.0.0.1:3333/DESCALZAS> xsd:Integer "4"^^xsd:int ;
+	vcard:street-address "DESCALZAS" ;
+	gn:locatedIn "SOL" ;
+	gn:postalCode "28013" .
+
+<http://127.0.0.1:3333/13473> vcard:street-address <http://127.0.0.1:3333/DESCALZAS> ;
+	gn:featureClass "CENTRO" .

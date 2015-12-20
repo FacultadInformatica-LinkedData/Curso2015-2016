@@ -1,0 +1,50 @@
+:EstacionBici
+	a void:Dataset;
+		void:exampleResource
+			<http://www.example.net/group42/resource/bici/EstacionBici>.
+		void:uriSpace "http://www.example.net/group42/resource/bici".
+
+DBpedia a void:Dataset .
+:EstacionBici void:classPartition :recursoDisponible.
+:recursoDisponible a void:Linkset;
+	void:linkPredicate
+		owl:sameAs;
+	void:target :EstacionBici, :DBpedia.
+
+DBpedia a void:Dataset .
+:EstacionBici void:classPartition :nCapacidad.
+:nCapacidad a void:Linkset;
+	void:linkPredicate
+		owl:sameAs;
+	void:target :EstacionBici, :DBpedia.
+
+:DBpedia a void:Dataset .
+:EstacionBici void:classPartition :geoPosition.
+:geoPosition a void:Linkset;
+	void:linkPredicate
+		owl:sameAs;
+	void:target :EstacionBici, :DBpedia.
+
+:DBpedia a void:Dataset .
+:EstacionBici void:classPartition :lastUpdated.
+:lastUpdated a void:Linkset;
+	void:linkPredicate
+		owl:sameAs;
+	void:target :EstacionBici, :DBpedia.
+
+:DBpedia a void:Dataset .
+:EstacionBici void:classPartition :noCalle.
+:noCalle a void:Linkset;
+	void:linkPredicate
+		owl:sameAs;
+	void:target :EstacionBici, :DBpedia.
+
+DBpedia a void:Dataset .
+:EstacionBici void:classPartition :slotsAvailable.
+:slotsAvailable a void:Linkset;
+	void:linkPredicate
+		owl:sameAs;
+	void:target :EstacionBici, :DBpedia.
+	
+
+	

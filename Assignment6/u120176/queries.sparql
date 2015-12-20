@@ -1,0 +1,74 @@
+1. How many accidents were there in Madrid in 2013?
+
+prefix mv: <http://example.org/mvVocabulary#> 
+prefix qb: <http://purl.org/linked-data/cube#>
+
+SELECT DISTINCT(SUM(?Accident) AS ?Accidents)WHERE{
+	?obs a qb:Observation;
+	mv:numberOfAccidents ?Accident.
+}
+
+2. Give me the number of accidents in Usera for each type of accident
+
+prefix mv: <http://example.org/myVocabulary#> 
+prefix qb: <http://purl.org/linked-data/cube#>
+
+SELECT DISTINCT * WHERE {
+	?obs a qb:Observation ;
+	mv:relatedDistrict:'USERA';
+	mv:numberOfAccidents ?NAccidents.
+}
+
+3. Give me the number of multiple collisions for each district
+
+prefix mv: <http://example.org/myVocabulary#> 
+prefix resources: <http://example.org/resources/>
+prefix qb: <http://purl.org/linked-data/qb#>
+
+SELECT DISTINCT ?District,?NAccidents where {
+?obs a qb:Observation;
+	mv:hasAccidentType mv:MultipleCollision;
+	mv:relatedDistrict ?District;
+	mv:numberOfAccidents ?NAccidents;
+	qb:dataSet resources:MyDataset.
+}
+
+
+4. Which is the district were the number of bicycle falls was higher in 2013?
+
+prefix mv: <http://example.org/myVocabulary#> 
+prefix qb: <http://purl.org/linked-data/qb#>
+
+SELECT DISTINCT ?District WHERE{
+?obs a qb:Observation;
+	mv:hasAccidentType mv:BicycleFall;
+	mv:numberOfAccidents ?NAccidents;
+	mv:relatedDistrict ?District;
+	qb:dataSet mn:MyDataset.
+	{
+		SELECT DISTINCT(MAX(?numberAccidents) AS ?NAccidents)WHERE{
+		?obs a qb:Observation;
+			mv:relatedDistrict ?Distrito;
+			mv:hasAccidentType mv:BicycleFall;
+			mv:numberOfAccidents ?numberAccident;
+			qb:dataSet mn:MyDataset.			
+		} 
+	}
+
+}
+
+
+5. Give me the districts with more than 500 accidents in 2013
+
+prefix mv: <http://example.org/myVocabulary#> 
+prefix qb: <http://purl.org/linked-data/qb#>
+
+SELECT DISTINCT ?District,?NAccidents WHERE{
+   {
+	SELECT DISTINCT ?District SUM(?NAccident) AS ?NAccidents WHERE{
+	?obs a qb:Observation ;
+		mv:numberOfAccidents ?NAccident;
+		mv:relatedDistrict ?District.
+	}
+    }FILTER(?NAccidents>500)
+}

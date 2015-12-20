@@ -1,0 +1,1071 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix grupo09: <http://www.semanticweb.org/gupo09> .
+
+
+<http://www.semanticweb.org/gupo09/resource/Bibliobus+numero+10.+Recorrido+semanal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "6430067"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Bibliobus numero 10. Recorrido semanal" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " Consulte en   documentacion asociada   el detalle del Horario de invierno. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=734a6e6b06637310VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "Servicio itinerante" .
+
+<http://www.semanticweb.org/gupo09/resource/MADRID> owl:sameAs <http://es.dbpedia.org/resource/Madrid,_Madrid> .
+
+<http://www.semanticweb.org/gupo09/resource/Bibliobus+numero+10.+Recorrido+semanal> <http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> .
+
+<http://www.semanticweb.org/gupo09/resource/MADRID> owl:sameAs <http://dbpedia.org/resource/Category:Madrid> .
+
+<http://www.semanticweb.org/gupo09/resource/Bibliobus+numero+10.+Recorrido+semanal> <http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	a <http://www.semanticweb.org/grupo09#Bibliobuses> .
+
+<http://www.semanticweb.org/gupo09/resource/Bibliobus+numero+11.+Recorrido+semanal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "6431159"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Bibliobus numero 11. Recorrido semanal" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " Consulte en   documentacion asociada   el detalle del horario de invierno. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1d69b5f1cea37310VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "Servicio itinerante" ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	a <http://www.semanticweb.org/grupo09#Bibliobuses> .
+
+<http://www.semanticweb.org/gupo09/resource/Bibliobus+numero+12.+Recorrido+semanal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "6432104"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Bibliobus numero 12. Recorrido semanal" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " Consulte en   documentacion asociada   el detalle del Horario de invierno. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7a70ded3cbb37310VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "Servicio itinerante" ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	a <http://www.semanticweb.org/grupo09#Bibliobuses> .
+
+<http://www.semanticweb.org/gupo09/resource/Bibliobus+numero+13.+Recorrido+semanal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "6435986"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Bibliobus numero 13. Recorrido semanal" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " Consulte en   documentacion asociada   el detalle del Horario de invierno. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=18cc33935b957310VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "Servicio itinerante" ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	a <http://www.semanticweb.org/grupo09#Bibliobuses> .
+
+<http://www.semanticweb.org/gupo09/resource/Bibliobus+numero+2.+Recorrido+quincenal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "7110421"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Bibliobus numero 2. Recorrido quincenal" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "Consulte en   documentacion asociada   el detalle del Horario de invierno."^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=88626db26d531410VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "Servicio itinerante" ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	a <http://www.semanticweb.org/grupo09#Bibliobuses> .
+
+<http://www.semanticweb.org/gupo09/resource/Bibliobus+numero+6.+Recorrido+semanal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "6427915"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Bibliobus numero 6. Recorrido semanal" ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a92128420e037310VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "Servicio itinerante" ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	a <http://www.semanticweb.org/grupo09#Bibliobuses> .
+
+<http://www.semanticweb.org/gupo09/resource/Bibliobus+numero+9.+Recorrido+semanal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "6429143"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Bibliobus numero 9. Recorrido semanal" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " Consulte en   documentacion asociada   el detalle del Horario de invierno. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a60438972b537310VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "Servicio itinerante" ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	a <http://www.semanticweb.org/grupo09#Bibliobuses> .
+
+<http://www.semanticweb.org/gupo09/resource/Bibliometro> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "7902770"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Bibliometro" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " El  Bibliometro  es un servicio de extension bibliotecaria destinado al fomento de la lectura mediante el prestamo gratuito de libros en el Metro de Madrid.  " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Horario:  de 13.30 a 20.00 de lunes a viernes, excepto festivos.  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3d2cd4bdf66bb410VgnVCM1000000b205a0aRCRD> .
+
+<http://www.semanticweb.org/gupo09/resource/PRINCIPE+DE+VERGARA> owl:sameAs "http://es.dbpedia.org/resource/Calle_Principe_de_Vergara_(Madrid)" .
+
+<http://www.semanticweb.org/gupo09/resource/Bibliometro> <http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/PRINCIPE+DE+VERGARA> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "140"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28002"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "442601"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4477517"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.044.444.653.179.130"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-367.813.993.012.987"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Bibliored> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "8053214"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Bibliored" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " El  Bibliored  es un servicio de extension bibliotecaria destinado al fomento de la lectura mediante el prestamo gratuito de libros, un proyecto similar al de Bibliometro pero en la superficie. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Horario:  de 13.30 a 20.00 de lunes a viernes, excepto festivos.  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=917c40221457d410VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/PRINCIPE+DE+VERGARA> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "140"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28002"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "442601"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4477517"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.044.444.653.179.130"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-367.813.993.012.987"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Historica+Municipal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1881"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Historica Municipal" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " El origen de la  Biblioteca Historica Municipal  fue la formacion de una coleccion de libros sobre Madrid. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Horario : de lunes a viernes de 8:30 a 14:30 horas.   Cerrada  festivos y los dias 24 y 31 de diciembre. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ccbc3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/CONDE+DUQUE> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28015"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439832"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4475644"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.042.737.760.210.630"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-37.106.116.887.809.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Musical+Victor+Espinos> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "6779450"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Musical Victor Espinos" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "   La  Biblioteca Musical Victor Espinos  fue fundada en 1919 a propuesta de Vi­ctor Espinos como  Biblioteca Musical Circulante . " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21:00 horas.   Cerrado  festivos y los dias 24 y 31 de diciembre. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d482270f58c6c310VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/CONDE+DUQUE> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28015"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439832"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4475644"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.042.737.760.210.630"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-37.106.116.887.809.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Acuna> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1771"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Acuna" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Seccion de adultos:  de lunes a viernes de 9 a 21 horas. Sabados de 9 a 14 horas.   Seccion infantil/juvenil:  de lunes a viernes de 15 a 21 horas."^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e9ad995a8bf5d010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/QUINTANA> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28008"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439295"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4475709"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.042.792.406.693.140"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-37.169.480.812.867.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Canillejas> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1767"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Canillejas" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Adultos:  lunes, jueves y viernes de 9 a 14 horas. Martes y miercoles de 16 a 20:45 horas.   "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a8cd995a8bf5d010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/MUSAS> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28022"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "448512"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4476732"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.043.776.263.645.110"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.083.782.410.803.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Carabanchel+Luis+Rosales> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "5765642"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Carabanchel Luis Rosales" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 9 a 21 horas.  Fines de semana y festivos, de 11 a 19 horas (excepto el 1 de mayo, 25 de diciembre."^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7a73f884ad3f9210VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/ANTONIA+RODRIGUEZ+SACRISTAN> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28044"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "436603"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4469681"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.373.420.234.648.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-37.480.802.097.487.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Central> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1764"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Central" ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5a2279262ef5d010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/FELIPE+EL+HERMOSO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28010"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "440772"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4476526"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.043.539.063.992.490"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.996.132.452.669.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+P%C3%83%C2%BAblica+Centro+Pedro+Salinas> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1798"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca PÃºblica Centro Pedro Salinas" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Seccion de adultos:  de lunes a viernes de 9 a  21 horas. Seccion infantil/juvenil:  de lunes a viernes de 15 a 21 horas  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=67ed995a8bf5d010VgnVCM2000000c205a0aRCRD> .
+
+<http://www.semanticweb.org/gupo09/resource/PUERTA+DE+TOLEDO> owl:sameAs "http://dbpedia.org/resource/Gate_of_Toledo" .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+P%C3%83%C2%BAblica+Centro+Pedro+Salinas> <http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/PUERTA+DE+TOLEDO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "GLORIETA" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28005"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439779"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4473395"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.040.711.374.218.030"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-37.110.231.390.549.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Fuencarral+-+El+Pardo.+Rafael+Alberti> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "66904"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Fuencarral - El Pardo. Rafael Alberti" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Secciones de adultos, prensa y audiovisuales : de lunes a viernes de 9 a 21 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=260e995a8bf5d010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/SANGENJO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "38"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28034"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "440920"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4482355"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.487.911.219.470.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.984.120.325.536.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Hortaleza> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1770"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Hortaleza" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a jueves de 9 a 20:30 horas. Viernes de 9 a 14:30 horas  Informacion adicional: desde el 1 de julio al 31 de agosto ambos inclusive cerrada por vacaciones. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e42e995a8bf5d010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/ABERTURA> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28033"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "445046"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4481138"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.047.723.185.032.390"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.496.247.031.818.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Latina+-+Antonio+Mingote> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "25526"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Latina - Antonio Mingote" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Seccion de adultos y sala de lectura:  de lunes  a viernes de  9 a 21 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c73e995a8bf5d010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/RAFAEL+FINAT> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "51"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28044"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "434795"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4470364"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.037.943.325.312.010"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-37.694.457.266.003.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Moratalaz> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1773"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Moratalaz" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " Seccion de adultos  e infantil/juvenil: de lunes a viernes de 9 a 21 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=457e995a8bf5d010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/CORREGIDOR+ALONSO+DE+TOBAR> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28030"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "445000"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4473014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.404.043.465.578.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.494.626.590.824.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Aluche+%28Latina%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1757"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Aluche (Latina)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca PÃºblica de Aluche se inaugurÃ³ en junio de 1992 con la asistencia del entonces alcalde D. Jose Mari­a Alvarez del Manzano. Se situa en la primera planta del Centro Cultural Fernando de los RÃios, disenado por el arquitecto Jose MarÃia Guijarro. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7f0e3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/CAMARENA> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28047"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "435929"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4472190"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.039.597.072.367.930"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-37.562.716.852.987.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Ana+Maria+Matute+%28Carabanchel%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1755"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Ana Maria Matute (Carabanchel)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Municipal Ana Mari­a Matute sustituyo a la antigua Biblioteca Publica Municipal de Carabanchel. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=628e3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/DE+LOS+COMUNEROS+DE+CASTILLA> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28019"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "438946"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4472344"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "403.975.850.662.447"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-37.207.386.328.562.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Angel+Gonzalez+%28Latina%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "5768564"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Angel Gonzalez (Latina)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Angel Gonzalez se inauguro el 26 de julio de 2010." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas; sabados de 9 a 18 horas y domingos de 9 a 14 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ec750a2153ef9210VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/GRANJA+DE+TORREHERMOSA> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28024"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "435063"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4472320"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.397.074.625.115.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-37.664.885.474.841.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Buenavista+%28Salamanca%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1762"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Buenavista (Salamanca)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca Publica Municipal Buenavista se encuentra dentro del Centro Cultural homonimo." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 9 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c53e3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/TOREROS> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "AVENIDA" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28028"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "443202"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4476130"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.043.199.309.720.510"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.670.929.243.543.710"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Canillejas+%28San+Blas-Canillejas%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1745"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Canillejas (San Blas-Canillejas)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca Publica Municipal de Canillejas se inauguro el 4 de agosto de 1981 en la tercera planta del edificio que entonces ocupaba la Junta Municipal del Distrito de San Blas." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eb9e995a8bf5d010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/BOLTA> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "23"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28022"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "448229"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4477693"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.044.640.229.188.280"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.117.933.204.271.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Ciudad+Lineal+%28Ciudad+Lineal%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1794"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Ciudad Lineal (Ciudad Lineal)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca de Ciudad Lineal se inauguro en febrero de 1993 asistiendo al acto el Alcalde, Jose Alvarez del Manzano, y la entonces Concejal de Cultura, Esperanza Aguirre.   " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=82ce995a8bf5d010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/HERMANOS+GARCIA+NOBLEJAS> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28037"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "446054"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4476600"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.043.641.736.294.720"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.637.346.971.302.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Conde+Duque+%28Centro%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1882"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Conde Duque (Centro)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Conde Duque se inaugura en los anos 90." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=13ec3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/CONDE+DUQUE> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28015"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439833"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4475645"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.042.738.668.300.470"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-37.105.999.955.473.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Damaso+Alonso+%28Chamartin%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "51188"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Damaso Alonso (Chamartin)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La biblioteca se abrio al publico en mayo de 1999 denominandose Biblioteca Mateo Inurria, por estar situada en dicha calle. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5870007f8441f010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/MANUEL+FERRERO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28036"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "442072"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4480075"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.467.453.379.213.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.846.112.774.442.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Eugenio+Trias.+Casa+de+Fieras+de+El+Retiro> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "6893633"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Eugenio Trias. Casa de Fieras de El Retiro" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Eugenio Tras-Casa fue inaugurada el 29 de abril de 2013. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas; sabados de 9 a 18 horas y domingos de 9 a 14 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e791bed05ceed310VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/FERNAN+NUNEZ> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "PASEO" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "24"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28009"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "442454"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4474428"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "404.166.091.081.099"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.795.930.368.034.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Francisco+Ayala+%28Vicalvaro%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "167128"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Francisco Ayala (Vicalvaro)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Francisco Ayala es una biblioteca ubicada en el barrio de Valdebernardo, en el distrito de Vicalvaro. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f05279262ef5d010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/INDALECIO+PRIETO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "BULEVAR" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28032"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "447388"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4472529"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.039.982.891.410.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.621.281.890.570.370"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Francisco+Ibanez+%28Chamartin%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1760"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Francisco Ibanez (Chamartin)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Publica Francisco Ibanez se encuentra situada en el Centro Cultural Mantuano, en el barrio de Chamartin." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0fce3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/MANTUANO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "51"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28002"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "442766"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4477922"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.044.810.636.195.710"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.762.309.620.097.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Gabriel+Garcia+M%C3%83%C2%A1rquez+%28Usera%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1754"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Gabriel Garcia MÃ¡rquez (Usera)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Publica Municipal Gabriel Garci­a Marquez es heredera de la antigua biblioteca de Orcasur, " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e4bf3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/PUEBLO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "PLAZA" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28041"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "440582"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4468910"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.366.768.324.753.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.701.141.063.083.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Gerardo+Diego+%28Villa+de+Vallecas%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1748"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Gerardo Diego (Villa de Vallecas)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca de Vallecas Villa se abrio en 1987, en el local que habia sido hasta entonces la escuela infantil del pueblo de Vallecas. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ca903d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/MONTE+AYA> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28031"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "447248"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4470096"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.037.790.196.240.430"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.227.296.605.039.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Gloria+Fuertes+%28Barajas%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "79941"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Gloria Fuertes (Barajas)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca Publica Municipal Gloria Fuertes fue inaugurada en octubre del ano 2001 asistiendo al acto el entonces alcalde." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1f64c2c6e051c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/LOGRONO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "AVENIDA" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "179"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28042"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "449770"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4479254"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.046.055.947.228.690"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-35.937.461.811.785.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Huerta+de+la+Salud+%28Hortaleza%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1750"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Huerta de la Salud (Hortaleza)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Publica Municipal Huerta de la Salud fue inaugurada en 1995, reformandose y ampliandose profundamente entre los anos 2006 y 2007." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9c5879262ef5d010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/MAR+DE+LAS+ANTILLAS> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28033"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "445295"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4480968"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.047.571.688.103.060"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-364.667.257.750.353"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Islas+Filipinas+%28Ciudad+Lineal%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "51849"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Islas Filipinas (Ciudad Lineal)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Municipal Islas Filipinas fue inaugurada en el ano 2000 y su origen se remonta a la Biblioteca Publica de Quintana." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=697c598d1351c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/NUESTRA+SE%C3%83%E2%80%98ORA+DEL+VILLAR> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28017"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "444814"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4475167"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.042.342.659.084.210"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.651.841.641.389.480"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Ivan+de+Vargas+%28Centro%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "5975465"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Ivan de Vargas (Centro)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Publica Municipal Ivan de Vargas fue inaugurada el 28 de febrero de 2011 ." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas; sabados de 9 a 18 horas y domingos de 9 a 14 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0b60e92be3c5e210VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/SAN+JUSTO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28005"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439884"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4474170"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.041.410.290.844.660"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-37.098.591.212.735.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Jose+Hierro+%28San+Blas-Canillejas%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "115056"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Jose Hierro (San Blas-Canillejas)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Municipal Jose Hierro fue inaugurada en 2003." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=338879262ef5d010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/MARIA+SEVILLA+DIAGO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28022"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "448323"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4476237"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.433.291.625.973.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.105.662.311.927.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Jose+Saramago+%28Fuencarral-El+Pardo%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1790"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Jose Saramago (Fuencarral-El Pardo)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Municipal Jose Saramago se inauguro en noviembre de 1990, con el nombre de Biblioteca de la Vaguada. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=70d879262ef5d010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/MONFORTE+DE+LEMOS> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "AVENIDA" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "38"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28029"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439977"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4481329"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.047.860.087.334.550"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-37.094.408.342.979.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+La+Chata+%28Carabanchel%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1756"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal La Chata (Carabanchel)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca Publica La Chata abrio sus puertas por primera vez al publico el Di­a de la Biblioteca." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d9a879262ef5d010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/GENERAL+RICARDOS> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "252"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28025"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "437123"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4470774"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.038.330.593.504.340"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-37.420.633.861.175.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Manuel+Vazquez+Montalban+%28Tetu%C3%83%C2%A1n%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "185595"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Manuel Vazquez Montalban (TetuÃ¡n)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Manuel Vazquez Montalban se abrio al publico en agosto de 2006. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b5ca89e2c9e5d010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/FRANCOS+RODRIGUEZ> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "67"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28039"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439865"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4478987"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.045.749.513.485.950"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.710.539.712.535.910"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Mario+Vargas+Llosa+%28Centro%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "7697128"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Mario Vargas Llosa (Centro)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca Mario Vargas Llosa fue inaugurada por el Premio Nobel de Literatura que le da su nombre. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6c4dbc2658739410VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/BARCELO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28004"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "440755"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4475555"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.426.642.215.368.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.699.722.994.908.340"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Maria+Zambrano+%28Tetu%C3%83%C2%A1n%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1759"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Maria Zambrano (TetuÃ¡n)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Municipal Mari­a Zambrano se inauguo³ el 29 de octubre de 2010 dentro del Centro Cultural Eduardo Ãšrculo." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrados. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=74703d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/DONOSO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "PLAZA" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28029"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "440967"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4480259"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.046.903.299.144.090"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.976.620.067.964.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Miguel+Delibes+%28Moratalaz%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1752"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Miguel Delibes (Moratalaz)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Publica Municipal de Moratalaz fue inaugurada en el ano 1986. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrado. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9e8f3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/ARROYO+BELINCOSO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28030"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "444706"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4473646"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.040.971.737.692.920"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.529.822.109.115.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Pablo+Neruda+%28Ciudad+Lineal%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "186714"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Pablo Neruda (Ciudad Lineal)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Pablo Neruda fue inaugurada en septiembre de 2006 por la Concejala del Area de Las Artes. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrado. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d5c548d20675e010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/ASCAO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28017"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "445680"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4475825"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.042.941.133.441.140"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.416.899.839.787.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Portazgo+%28Puente+de+Vallecas%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1753"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Portazgo (Puente de Vallecas)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca de Portazgo fue inaugurada en 1983 compartiendo espacio con el edificio del Centro Cultural Alberto Sanchez. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrado. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=89a40a47f441f010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/CANTALAPIEDRA> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28038"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "444487"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4471826"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.039.330.714.657.690"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.554.041.181.586.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Pozo+del+Tio+Raimundo+%28Puente+de+Vallecas%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1792"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Pozo del Tio Raimundo (Puente de Vallecas)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca publica Pozo del Ti­o Raimundo fue inaugurada en el ano 1991 y comparte edificio con el Centro Cultural Pozo del Ti­o Raimundo." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrado. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d7203d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/GLORIETAS> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "AVENIDA" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "19"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28053"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "444059"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4469640"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "403.735.856.436.473"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.602.546.064.905.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Pio+Baroja+%28Arganzuela%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1763"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Pio Baroja (Arganzuela)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " La Biblioteca Pio Baroja fue inaugurada en febrero de 1993. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrado. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=17f879262ef5d010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/ARGANDA> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28005"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "440076"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4472607"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.040.003.652.682.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-37.074.488.154.950.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+San+Blas+%28San+Blas-Canillejas%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1746"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal San Blas (San Blas-Canillejas)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "La Biblioteca Publica Municipal de San Blas se abria al publico el 10 de mayo de 1987 y al acto de inauguracion acudia el entonces alcalde Juan Barranco. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrado. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2e403d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/SAN+ROMAN+DEL+VALLE> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28037"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "447358"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4474793"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.420.231.627.534.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.218.113.860.909.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Vallecas+%28Puente+de+Vallecas%29> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1761"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Vallecas (Puente de Vallecas)" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " El 13 de noviembre de 1933 se inauguro la Biblioteca del pueblo de Vallecas, presidida por su alcalde." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrado. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=11c03d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/PUERTO+DEL+MONASTERIO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28053"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "443626"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4472022"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.039.501.488.341.380"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.665.565.995.938.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Municipal+Vicalvaro> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1747"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Municipal Vicalvaro" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> "  La Biblioteca Publica de Vicalvaro fue inaugurada el 23 de mayo de 1987." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 8:30 a 21 horas. Festivos cerrado. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=67e03d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/VILLARDONDIEGO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "36"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28032"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "448466"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4473127"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.405.283.650.744.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.086.278.232.922.800"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Retiro> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1774"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Retiro" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Seccion de adultos:  de lunes a viernes de 9 a 21 horas. Sabados de 9 a 14 horas. Servicio de prestamo y acceso a Internet: de lunes a viernes de 9 a 20:45 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=44213d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/DOCTOR+ESQUERDO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "189"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28007"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "443051"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4472976"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.040.354.316.970.940"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.672.367.247.007.090"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Ruiz+Egea> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1777"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Ruiz Egea" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Seccion de adultos:  de lunes a viernes de 9 a 21 horas.   Seccion infantil/juvenil:  de lunes a viernes de 9 a 21 horas. "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b2413d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/RAIMUNDO+FERNANDEZ+VILLAVERDE> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28003"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "440504"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4477772"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.446.595.985.821.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-37.028.897.237.155.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Salamanca+-+Manuel+Alvar> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1765"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Salamanca - Manuel Alvar" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "   Seccion de adultos:  de lunes a viernes de 9 a 21 horas (Servicios bibliotecarios hasta las 20:45 horas).   Seccion infantil/juvenil:  de lunes a viernes de 15 a 21 horas (Servicios bibliotecarios hasta las 20:45 horas).  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d51979262ef5d010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/AZCONA> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "42"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28028"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "443369"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4476395"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.043.437.388.116.330"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.668.960.389.290.820"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Usera+-+Jose+Hierro> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "123303"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Usera - Jose Hierro" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Seccion de adultos:  de lunes a viernes de 9 a 21 horas.    Seccion infantil/juvenil:  de lunes a viernes de 15 a 21 horas.    "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=943979262ef5d010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/RAFAELA+YBARRA> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "AVENIDA" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "43"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28026"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439790"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4470593"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.038.187.274.336.690"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.710.628.092.812.140"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Vallecas> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1800"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Vallecas" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Seccion general,  seccion infantil y juvenil,  hemeroteca    De lunes a viernes de 9 a 21 horas.   Sabados de 9 a 14 horas  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=535979262ef5d010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/RAFAEL+ALBERTI> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "AVENIDA" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "36"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28018"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "445539"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4470840"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.038.449.423.079.660"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.429.247.082.087.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Villa+de+Vallecas+-+Luis+Martin+Santos> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "181101"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Villa de Vallecas - Luis Martin Santos" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  De lunes a viernes:  de 9 a 21 horas. No se asignaran prestamos ni acceso a Internet desde las 20:45 horas   "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=09ac38d60b41c010VgnVCM2000000c205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/ANTONIO+MARIA+SEGOVIA> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "PLAZA" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28031"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "448017"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4470434"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.038.099.532.598.780"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.136.987.435.192.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Publica+Villaverde+-+Maria+Moliner> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "86719"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Publica Villaverde - Maria Moliner" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  Seccion de adultos, infantil y juvenil, seccion de periodicos y revistas: de lunes a viernes de 9 a 21 horas. Sabados de 9 a 14 horas.  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=127979262ef5d010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/VILLALONSO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28021"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439804"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4467001"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.349.515.086.848.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-37.101.234.920.009.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Biblioteca+Regional+de+Madrid+Joaquin+Leguina> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "108154"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Biblioteca Regional de Madrid Joaquin Leguina" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " De lunes a viernes de 9 a 21 horas   Cerrado en 2015 :   1 y 6 de enero; 19 de marzo; 2 y 3 de abril; 1 y 15 de mayo; 4 de junio; 12 de octubre; 9 de noviembre; 8, 24, 25 y 31 de diciembre  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d09979262ef5d010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/RAMIREZ+DE+PRADO> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28045"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "441552"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4472580"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.399.898.401.147.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-36.900.541.585.894.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Casa+San+Cristobal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "1788"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Casa San Cristobal" ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  De lunes a viernes de 9 a 21 horas  Sabados de 10 a 14 horas   "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dcdb3d0b5e71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/ROCAFORT> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "101"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28021"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "441778"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4466201"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.034.244.856.729.780"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.686.807.481.597.240"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .
+
+<http://www.semanticweb.org/gupo09/resource/Centro+Social+y+Cultural+la+Casa+Encendida> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "103331"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Centro Social y Cultural la Casa Encendida" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " Edificio de caracter monumental. " ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> "  De lunes a domingo de 10 a 22 horas (todos los dias del ano, excepto festividades nacionales y de la Comunidad de Madrid)  "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c27f8899fc81c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/VALENCIA> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "RONDA" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28012"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "440732"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4473259"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "4.040.595.710.517.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.699.779.793.558.760"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos> .
+
+<http://www.semanticweb.org/gupo09/resource/Hemeroteca+Municipal> a <http://www.semanticweb.org/gupo09#Biblioteca> ;
+	<http://www.semanticweb.org/gupo09#tienePK> "2047"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#tieneNombre> "Hemeroteca Municipal" ;
+	<http://www.semanticweb.org/gupo09#tieneDescripcion> " Fundada en 1916, por iniciativa de los periodistas Ricardo Fuente y Antonio Asenjo." ;
+	<http://www.semanticweb.org/gupo09#tieneHorario> " Lunes a Viernes, de 9 a 21 horas (peticiones hasta 20:30 horas) "^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://www.semanticweb.org/gupo09#tieneURL> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=11951e79ee71c010VgnVCM1000000b205a0aRCRD> ;
+	<http://www.semanticweb.org/gupo09#tieneNombreVia> <http://www.semanticweb.org/gupo09/resource/CONDE+DUQUE> ;
+	<http://www.semanticweb.org/gupo09#tipoVia> "CALLE" ;
+	<http://www.semanticweb.org/gupo09#tipoNum> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#perteneceALocalidad> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#perteneceAProvincia> <http://www.semanticweb.org/gupo09/resource/MADRID> ;
+	<http://www.semanticweb.org/gupo09#tieneCodigoPostal> "28015"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaX> "439864"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#coordenadaY> "4475706"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/gupo09#latitud> "40.427.938.443.518.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.semanticweb.org/gupo09#longitud> "-3.710.240.346.719.510"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	a <http://www.semanticweb.org/contenido/entidadesYorganismos/BibliotecasPublicas> .

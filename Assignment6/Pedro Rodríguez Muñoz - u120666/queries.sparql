@@ -1,0 +1,56 @@
+1
+
+SELECT COUNT(?x) WHERE { 
+?x <http://example.org/myVocabulary#numberOfAccidents> ?z
+} 
+
+O
+
+SELECT COUNT(?y) WHERE { 
+ ?obs a qb:Observation;
+ mv:numberOfAccidents ?y.
+} 
+
+
+2
+
+
+SELECT DISTINCT ?y ?z WHERE { 
+ ?obs a qb:Observation;
+ mv:relatedDistrict 'USERA';
+ mv:numberOfAccidents ?y;
+ mv:hasAccidentType ?z.
+} 
+
+
+3
+
+
+SELECT DISTINCT ?y ?z WHERE { 
+ ?obs a qb:Observation;
+ mv:relatedDistrict ?y;
+ mv:numberOfAccidents ?z;
+ mv:hasAccidentType mv:MultipleCollision.
+} 
+
+
+4
+
+SELECT MAX(?y) MAX(?z) WHERE { 
+ ?obs a qb:Observation;
+ mv:relatedDistrict ?y;
+ mv:numberOfAccidents ?z;
+ mv:hasAccidentType mv:BicycleFall.
+} 
+
+
+
+5
+
+
+SELECT distinct ?y ?z>500 WHERE { 
+ ?obs a qb:Observation;
+ mv:relatedDistrict ?y;
+ mv:numberOfAccidents ?z.
+} 
+

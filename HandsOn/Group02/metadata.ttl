@@ -1,0 +1,63 @@
+@base <http://www.semanticweb.org/webSemantica/group02/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dctype:	<http://purl.org/dc/dcmitype/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard:	<http://www.w3.org/2006/vcard/ns#> .
+@prefix rdflicense:	<http://purl.org/NET/rdflicense/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+
+:catalog
+	a dcat:Catalog ;
+	dct:title "Interesting places in Madrid"@en ,
+			 "Lugares de interés en Madrid"@es ;
+	rdfs:label "Madrid interesting places RDF catalog"@en , "Catálogo RDF lugares de interés de Madrid"@es ;	
+	dct:publisher 	"Francisco Javier Caballero Abenza",
+					"Jose Javier Gascón Carrera",
+					"Daniel Peña Gonzalez";
+	dct:license rdflicense:cc-zero1.0 ;
+	dct:language <http://lexvo.org/id/iso639-3/spa> ;
+	dcat:dataset :cines, :teatros , :museos, :wifi ;
+	.
+
+:cines
+	a dcat:Dataset ;
+	dct:title "Cinemas in Madrid"@en, "Cines en Madrid"@es  ;
+	dcat:keyword "cinemas"@en, "cines"@es, "Madrid"@en, "Madrid"@es ;
+	dct:issued "2015-12-19"^^xsd:date ;
+    dct:modified "2015-12-19"^^xsd:date ;
+    dcat:distribution https://github.com/jjgascon/Curso2015-2016/blob/master/HandsOn/Group02/RDF/updated/ttl-format/Cines-updated.ttl ;
+    .
+	
+:teatros
+	a dcat:Dataset ;
+	dct:title "Theaters in Madrid"@en, "Teatros en Madrid"@es  ;
+	dcat:keyword "theaters"@en, "teatros"@es, "Madrid"@en, "Madrid"@es ;
+	dct:issued "2015-12-19"^^xsd:date ;
+    dct:modified "2015-12-19"^^xsd:date ;
+    dcat:distribution https://github.com/jjgascon/Curso2015-2016/blob/master/HandsOn/Group02/RDF/updated/ttl-format/Teatros-updated.ttl ;
+    .
+	
+:museos
+	a dcat:Dataset ;
+	dct:title "Museums in Madrid"@en, "Museos en Madrid"@es  ;
+	dcat:keyword "museums"@en, "museos"@es, "Madrid"@en, "Madrid"@es ;
+	dct:issued "2015-12-19"^^xsd:date ;
+    dct:modified "2015-12-19"^^xsd:date ;
+    dcat:distribution https://github.com/jjgascon/Curso2015-2016/blob/master/HandsOn/Group02/RDF/updated/ttl-format/Museos-updated.ttl ;
+    .
+	
+:wifi
+	a dcat:Dataset ;
+	dct:title "WiFi zone in Madrid"@en, "Zona WiFi en Madrid"@es  ;
+	dcat:keyword "wifi"@en, "wifi"@es, "Madrid"@en, "Madrid"@es ;
+	dct:issued "2015-12-19"^^xsd:date ;
+    dct:modified "2015-12-19"^^xsd:date ;
+    dcat:distribution https://github.com/jjgascon/Curso2015-2016/blob/master/HandsOn/Group02/RDF/updated/ttl-format/Wifi_Gratis-updated.ttl ;
+    .
+    

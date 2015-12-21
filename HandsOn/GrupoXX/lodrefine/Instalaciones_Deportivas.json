@@ -1,0 +1,2728 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DESCRIPCION-ENTIDAD",
+    "columnName": "DESCRIPCION-ENTIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column HORARIO",
+    "columnName": "HORARIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column EQUIPAMIENTO",
+    "columnName": "EQUIPAMIENTO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DESCRIPCION",
+    "columnName": "DESCRIPCION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ACCESIBILIDAD",
+    "columnName": "ACCESIBILIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CLASE-VIAL",
+    "columnName": "CLASE-VIAL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO-NUM",
+    "columnName": "TIPO-NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NUM",
+    "columnName": "NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PLANTA",
+    "columnName": "PLANTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PUERTA",
+    "columnName": "PUERTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ESCALERAS",
+    "columnName": "ESCALERAS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ORIENTACION",
+    "columnName": "ORIENTACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LOCALIDAD",
+    "columnName": "LOCALIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PROVINCIA",
+    "columnName": "PROVINCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column BARRIO",
+    "columnName": "BARRIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LATITUD",
+    "columnName": "LATITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LONGITUD",
+    "columnName": "LONGITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FAX",
+    "columnName": "FAX"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO",
+    "columnName": "TIPO"
+  },
+  {
+    "op": "core/row-flag",
+    "description": "Flag rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Instalación Deportiva Municipal Básica",
+          "name": "NOMBRE",
+          "caseSensitive": false,
+          "columnName": "NOMBRE",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "flagged": true
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Instalación Deportiva Municipal Básica",
+          "name": "NOMBRE",
+          "caseSensitive": false,
+          "columnName": "NOMBRE",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-flag",
+    "description": "Flag rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Universidad",
+          "name": "NOMBRE",
+          "caseSensitive": false,
+          "columnName": "NOMBRE",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "flagged": true
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "query": "Universidad",
+          "name": "NOMBRE",
+          "caseSensitive": false,
+          "columnName": "NOMBRE",
+          "type": "text",
+          "mode": "text"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://smartcity.linkeddata.es/lcc/resource/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://smartcity.linkeddata.es/lcc/resource/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "hasName",
+              "curie": ":hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasDescription",
+              "curie": ":hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "hasURL",
+              "curie": ":hasURL",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasAddress",
+              "curie": ":hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "hasPostalCode",
+              "curie": ":hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasDistrict",
+              "curie": ":hasDistrict",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "hasXCoordinate",
+              "curie": ":hasXCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "hasYCoordinate",
+              "curie": ":hasYCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "hasPhone",
+              "curie": ":hasPhone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "hasEmail",
+              "curie": ":hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://smartcity.linkeddata.es/lcc/resource/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://smartcity.linkeddata.es/lcc/resource/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'Center/'+value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "hasName",
+              "curie": ":hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasDescription",
+              "curie": ":hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "hasURL",
+              "curie": ":hasURL",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasAddress",
+              "curie": ":hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "hasPostalCode",
+              "curie": ":hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasDistrict",
+              "curie": ":hasDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'District/'+replaceChars(value,\" -\",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasXCoordinate",
+              "curie": ":hasXCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "hasYCoordinate",
+              "curie": ":hasYCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "hasPhone",
+              "curie": ":hasPhone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "hasEmail",
+              "curie": ":hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "hasID",
+              "curie": ":hasID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://smartcity.linkeddata.es/lcc/resource/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://smartcity.linkeddata.es/lcc/resource/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'Center/'+value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "hasName",
+              "curie": ":hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasDescription",
+              "curie": ":hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "hasURL",
+              "curie": ":hasURL",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasAddress",
+              "curie": ":hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "hasPostalCode",
+              "curie": ":hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasDistrict",
+              "curie": ":hasDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'District/'+replaceChars(value,\" -\",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasXCoordinate",
+              "curie": ":hasXCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "hasYCoordinate",
+              "curie": ":hasYCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "hasPhone",
+              "curie": ":hasPhone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "hasEmail",
+              "curie": ":hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "hasID",
+              "curie": ":hasID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column DISTRITO to type http://schema.org/Place",
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia.es",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://schema.org/Place",
+        "name": "http://schema.org/Place"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column DISTRITO to type http://schema.org/Place",
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia2",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://schema.org/Place",
+        "name": "schema:Place"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Chamberi (distrito) (http://es.dbpedia.org/resource/Chamberi_(distrito)) for cells containing \"CHAMBERI\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "CHAMBERI",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Chamberi_(distrito)",
+      "name": "Chamberi (distrito)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Vicalvaro (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Vicalvaro_(Madrid)) for cells containing \"VICALVARO\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "VICALVARO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Vicalvaro_(Madrid)",
+      "name": "Distrito de Vicalvaro (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito Centro (Madrid) (http://es.dbpedia.org/resource/Categoría:Distrito_Centro_(Madrid)) for cells containing \"CENTRO\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "CENTRO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Categoría:Distrito_Centro_(Madrid)",
+      "name": "Distrito Centro (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Salamanca (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Salamanca_(Madrid)) for cells containing \"SALAMANCA\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "SALAMANCA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Salamanca_(Madrid)",
+      "name": "Distrito de Salamanca (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Chamberi (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Chamberi_(Madrid)) for cells containing \"CHAMBERI\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "CHAMBERI",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Chamberi_(Madrid)",
+      "name": "Distrito de Chamberi (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Centro (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Centro_(Madrid)) for cells containing \"CENTRO\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "CENTRO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Centro_(Madrid)",
+      "name": "Distrito de Centro (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Fuencarral-El Pardo (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Fuencarral-El_Pardo_(Madrid)) for cells containing \"FUENCARRAL-EL PARDO\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "FUENCARRAL-EL PARDO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Fuencarral-El_Pardo_(Madrid)",
+      "name": "Distrito de Fuencarral-El Pardo (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Barajas (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Barajas_(Madrid)) for cells containing \"BARAJAS\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "BARAJAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Barajas_(Madrid)",
+      "name": "Distrito de Barajas (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Latina (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Latina_(Madrid)) for cells containing \"LATINA\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "LATINA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Latina_(Madrid)",
+      "name": "Distrito de Latina (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Moncloa-Aravaca (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Moncloa-Aravaca_(Madrid)) for cells containing \"MONCLOA-ARAVACA\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "MONCLOA-ARAVACA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Moncloa-Aravaca_(Madrid)",
+      "name": "Distrito de Moncloa-Aravaca (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Hortaleza (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Hortaleza_(Madrid)) for cells containing \"HORTALEZA\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "HORTALEZA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Hortaleza_(Madrid)",
+      "name": "Distrito de Hortaleza (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Arganzuela (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Arganzuela_(Madrid)) for cells containing \"ARGANZUELA\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "ARGANZUELA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Arganzuela_(Madrid)",
+      "name": "Distrito de Arganzuela (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Retiro (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Retiro_(Madrid)) for cells containing \"RETIRO\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "RETIRO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Retiro_(Madrid)",
+      "name": "Distrito de Retiro (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Puente de Vallecas (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Puente_de_Vallecas_(Madrid)) for cells containing \"PUENTE DE VALLECAS\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "PUENTE DE VALLECAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Puente_de_Vallecas_(Madrid)",
+      "name": "Distrito de Puente de Vallecas (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Tetuan (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Tetuan_(Madrid)) for cells containing \"TETUAN\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "TETUAN",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Tetuan_(Madrid)",
+      "name": "Distrito de Tetuan (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Ciudad Lineal (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Ciudad_Lineal_(Madrid)) for cells containing \"CIUDAD LINEAL\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "CIUDAD LINEAL",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Ciudad_Lineal_(Madrid)",
+      "name": "Distrito de Ciudad Lineal (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Villa de Vallecas (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Villa_de_Vallecas_(Madrid)) for cells containing \"VILLA DE VALLECAS\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "VILLA DE VALLECAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Villa_de_Vallecas_(Madrid)",
+      "name": "Distrito de Villa de Vallecas (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Carabanchel (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Carabanchel_(Madrid)) for cells containing \"CARABANCHEL\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "CARABANCHEL",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Carabanchel_(Madrid)",
+      "name": "Distrito de Carabanchel (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Chamartin (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Chamartin_(Madrid)) for cells containing \"CHAMARTIN\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "CHAMARTIN",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Chamartin_(Madrid)",
+      "name": "Distrito de Chamartin (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Villaverde (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Villaverde_(Madrid)) for cells containing \"VILLAVERDE\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "VILLAVERDE",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Villaverde_(Madrid)",
+      "name": "Distrito de Villaverde (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de San Blas (Madrid) (http://es.dbpedia.org/resource/Distrito_de_San_Blas_(Madrid)) for cells containing \"SAN BLAS-CANILLEJAS\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "SAN BLAS-CANILLEJAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_San_Blas_(Madrid)",
+      "name": "Distrito de San Blas (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Moratalaz (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Moratalaz_(Madrid)) for cells containing \"MORATALAZ\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "MORATALAZ",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Moratalaz_(Madrid)",
+      "name": "Distrito de Moratalaz (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Distrito de Usera (Madrid) (http://es.dbpedia.org/resource/Distrito_de_Usera_(Madrid)) for cells containing \"USERA\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "USERA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Distrito_de_Usera_(Madrid)",
+      "name": "Distrito de Usera (Madrid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://smartcity.linkeddata.es/lcc/resource/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://smartcity.linkeddata.es/lcc/resource/"
+        },
+        {
+          "name": "onto",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'Center/'+value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            }
+          ],
+          "links": [
+            {
+              "uri": "hasName",
+              "curie": ":hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "hasURL",
+              "curie": ":hasURL",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasAddress",
+              "curie": ":hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "hasPostalCode",
+              "curie": ":hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasDistrict",
+              "curie": ":hasDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'District/'+replaceChars(value,\" -\",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasXCoordinate",
+              "curie": ":hasXCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "hasYCoordinate",
+              "curie": ":hasYCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "hasPhone",
+              "curie": ":hasPhone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "hasEmail",
+              "curie": ":hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "hasID",
+              "curie": ":hasID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://smartcity.linkeddata.es/lcc/resource/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://smartcity.linkeddata.es/lcc/resource/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'Center/'+value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            },
+            {
+              "uri": "http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo",
+              "curie": "onto:CentroDeportivo"
+            }
+          ],
+          "links": [
+            {
+              "uri": "hasName",
+              "curie": ":hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "hasURL",
+              "curie": ":hasURL",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasAddress",
+              "curie": ":hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "hasPostalCode",
+              "curie": ":hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasDistrict",
+              "curie": ":hasDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'District/'+replaceChars(value,\" -\",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://smartcity.linkeddata.es/lcc/ontology/Distrito",
+                    "curie": "onto:Distrito"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasXCoordinate",
+              "curie": ":hasXCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "hasYCoordinate",
+              "curie": ":hasYCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "hasPhone",
+              "curie": ":hasPhone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "hasEmail",
+              "curie": ":hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "hasID",
+              "curie": ":hasID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://smartcity.linkeddata.es/lcc/resource/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://smartcity.linkeddata.es/lcc/resource/"
+        },
+        {
+          "name": "onto",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'Center/'+value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            },
+            {
+              "uri": "http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo",
+              "curie": "onto:CentroDeportivo"
+            }
+          ],
+          "links": [
+            {
+              "uri": "hasName",
+              "curie": ":hasName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "hasTransport",
+              "curie": ":hasTransport",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "hasURL",
+              "curie": ":hasURL",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasAddress",
+              "curie": ":hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "hasPostalCode",
+              "curie": ":hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "hasDistrict",
+              "curie": ":hasDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'District/'+replaceChars(value,\" -\",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://smartcity.linkeddata.es/lcc/ontology/Distrito",
+                    "curie": "onto:Distrito"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasXCoordinate",
+              "curie": ":hasXCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "hasYCoordinate",
+              "curie": ":hasYCoordinate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "hasPhone",
+              "curie": ":hasPhone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "hasEmail",
+              "curie": ":hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "hasID",
+              "curie": ":hasID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://smartcity.linkeddata.es/lcc/resource/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://smartcity.linkeddata.es/lcc/resource/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "onto",
+          "uri": ""
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'Center/'+value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            },
+            {
+              "uri": "http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo",
+              "curie": "onto:CentroDeportivo"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://dbpedia.org/ontology/Name",
+              "curie": "onto:Name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/MeanOfTransportation",
+              "curie": "onto:MeanOfTransportation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasWebsiteURI",
+              "curie": "onto:hasWebsiteURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasStreetName",
+              "curie": "onto:hasStreetName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasPostalCode",
+              "curie": "onto:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://smartcity.linkeddata.es/lcc/ontology/inDistrict",
+              "curie": "onto:inDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'District/'+replaceChars(value,\" -\",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://dbpedia.org/ontology/District",
+                    "curie": "onto:District"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "onto:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "onto:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico/#hasPhoneNr",
+              "curie": "onto:hasPhoneNr",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasEmail",
+              "curie": "onto:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasID",
+              "curie": "onto:hasID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://smartcity.linkeddata.es/lcc/resource/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://smartcity.linkeddata.es/lcc/resource/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "onto",
+          "uri": ""
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'Center/'+value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "Center",
+              "curie": ":Center"
+            },
+            {
+              "uri": "http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo",
+              "curie": "onto:CentroDeportivo"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://dbpedia.org/ontology/Name",
+              "curie": "onto:Name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/MeanOfTransportation",
+              "curie": "onto:MeanOfTransportation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasWebsiteURI",
+              "curie": "onto:hasWebsiteURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasStreetName",
+              "curie": "onto:hasStreetName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasPostalCode",
+              "curie": "onto:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://smartcity.linkeddata.es/lcc/ontology/inDistrict",
+              "curie": "onto:inDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'District/'+replaceChars(value,\" -\",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://dbpedia.org/ontology/District",
+                    "curie": "onto:District"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "onto:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "onto:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico/#hasPhoneNr",
+              "curie": "onto:hasPhoneNr",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasEmail",
+              "curie": "onto:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasID",
+              "curie": "onto:hasID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://smartcity.linkeddata.es/lcc/resource/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://smartcity.linkeddata.es/lcc/resource/"
+        },
+        {
+          "name": "onto",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'CentroDeportivo/'+value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo",
+              "curie": "onto:CentroDeportivo"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://dbpedia.org/ontology/Name",
+              "curie": "onto:Name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/MeanOfTransportation",
+              "curie": "onto:MeanOfTransportation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasWebsiteURI",
+              "curie": "onto:hasWebsiteURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasStreetName",
+              "curie": "onto:hasStreetName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasPostalCode",
+              "curie": "onto:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://smartcity.linkeddata.es/lcc/ontology/inDistrict",
+              "curie": "onto:inDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'District/'+replaceChars(value,\" -\",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://dbpedia.org/ontology/District",
+                    "curie": "onto:District"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "onto:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "onto:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico/#hasPhoneNr",
+              "curie": "onto:hasPhoneNr",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasEmail",
+              "curie": "onto:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasID",
+              "curie": "onto:hasID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://smartcity.linkeddata.es/lcc/resource/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://smartcity.linkeddata.es/lcc/resource/"
+        },
+        {
+          "name": "onto",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'CentroDeportivo/'+value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo",
+              "curie": "onto:CentroDeportivo"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://dbpedia.org/ontology/Name",
+              "curie": "onto:Name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/MeanOfTransportation",
+              "curie": "onto:MeanOfTransportation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasWebsiteURI",
+              "curie": "onto:hasWebsiteURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasStreetName",
+              "curie": "onto:hasStreetName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasPostalCode",
+              "curie": "onto:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://smartcity.linkeddata.es/lcc/ontology/inDistrict",
+              "curie": "onto:inDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'District/'+replaceChars(value,\" -\",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://dbpedia.org/ontology/District",
+                    "curie": "onto:District"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "onto:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "onto:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico/#hasPhoneNr",
+              "curie": "onto:hasPhoneNr",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasEmail",
+              "curie": "onto:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasID",
+              "curie": "onto:hasID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://smartcity.linkeddata.es/lcc/resource/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://smartcity.linkeddata.es/lcc/resource/"
+        },
+        {
+          "name": "onto",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'CentroDeportivo/'+value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo",
+              "curie": "onto:CentroDeportivo"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://dbpedia.org/ontology/Name",
+              "curie": "onto:Name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/MeanOfTransportation",
+              "curie": "onto:MeanOfTransportation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasWebsiteURI",
+              "curie": "onto:hasWebsiteURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasStreetName",
+              "curie": "onto:hasStreetName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasPostalCode",
+              "curie": "onto:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://smartcity.linkeddata.es/lcc/ontology/inDistrict",
+              "curie": "onto:inDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'District/'+replaceChars(value,\" -\",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://dbpedia.org/ontology/District",
+                    "curie": "onto:District"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "onto:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "onto:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico/#hasPhoneNr",
+              "curie": "onto:hasPhoneNr",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasEmail",
+              "curie": "onto:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasID",
+              "curie": "onto:hasID",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+                    "curie": "onto:Literal"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://smartcity.linkeddata.es/lcc/resource/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://smartcity.linkeddata.es/lcc/resource/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "onto",
+          "uri": ""
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'CentroDeportivo/'+value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [
+            {
+              "uri": "http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo",
+              "curie": "onto:CentroDeportivo"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://dbpedia.org/ontology/Name",
+              "curie": "onto:Name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/MeanOfTransportation",
+              "curie": "onto:MeanOfTransportation",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasWebsiteURI",
+              "curie": "onto:hasWebsiteURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasStreetName",
+              "curie": "onto:hasStreetName",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasPostalCode",
+              "curie": "onto:hasPostalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://smartcity.linkeddata.es/lcc/ontology/inDistrict",
+              "curie": "onto:inDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'District/'+replaceChars(value,\" -\",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://dbpedia.org/ontology/District",
+                    "curie": "onto:District"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "onto:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "onto:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico/#hasPhoneNr",
+              "curie": "onto:hasPhoneNr",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasEmail",
+              "curie": "onto:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasID",
+              "curie": "onto:hasID",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  }
+]

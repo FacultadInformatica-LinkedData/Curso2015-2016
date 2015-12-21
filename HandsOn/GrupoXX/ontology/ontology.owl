@@ -1,172 +1,225 @@
 <?xml version="1.0"?>
 
 
-<!DOCTYPE Ontology [
+<!DOCTYPE rdf:RDF [
+    <!ENTITY time "http://www.w3.org/2006/time#" >
+    <!ENTITY ontology2 "http://dbpedia.org/ontology/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY logico "http://ontology.tno.nl/logico#" >
+    <!ENTITY logico2 "http://ontology.tno.nl/logico/#" >
+    <!ENTITY resource "http://pt.dbpedia.org/resource/" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY event "http://purl.org/NET/c4dm/event.owl#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY wgs84_pos "http://www.w3.org/2003/01/geo/wgs84_pos#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY ontology "http://smartcity.linkeddata.es/lcc/ontology/" >
+    <!ENTITY SportsMadrid "http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#" >
 ]>
 
 
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/franjiménez/ontologies/2015/9/untitled-ontology-7"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+<rdf:RDF xmlns="&ontology;SportsMadrid#"
+     xml:base="&ontology;SportsMadrid"
+     xmlns:logico2="http://ontology.tno.nl/logico/#"
+     xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:resource="http://pt.dbpedia.org/resource/"
+     xmlns:ontology="http://smartcity.linkeddata.es/lcc/ontology/"
+     xmlns:ontology2="http://dbpedia.org/ontology/"
+     xmlns:SportsMadrid="&ontology;SportsMadrid#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/franjiménez/ontologies/2015/9/untitled-ontology-7">
-    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Declaration>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Bus"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CoordenadaX"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CoordenadaY"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Coordenadas"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Distrito"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Evento"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Metro"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Transporte"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasCoordenate"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#inDistrict"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#nearTransport"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#occurs"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasDate"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasEmail"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasName"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasPhone"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasPostalCode"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasTitle"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasURL"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#inStreet"/>
-    </Declaration>
-    <SubClassOf>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Bus"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Transporte"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CoordenadaX"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Coordenadas"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CoordenadaY"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Coordenadas"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Metro"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Transporte"/>
-    </SubClassOf>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasCoordenate"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#inDistrict"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#nearTransport"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#occurs"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Evento"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasCoordenate"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Coordenadas"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#inDistrict"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Distrito"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#nearTransport"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Transporte"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#occurs"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
-    </ObjectPropertyRange>
-    <DataPropertyDomain>
-        <DataProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasDate"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#Evento"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasEmail"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasName"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasPhone"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasPostalCode"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasTitle"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#hasURL"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#inStreet"/>
-        <Class IRI="http://smartcity.linkeddata.es/lcc/ontology/SportsMadrid#CentroDeportivo"/>
-    </DataPropertyDomain>
-</Ontology>
+     xmlns:time="http://www.w3.org/2006/time#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:logico="http://ontology.tno.nl/logico#">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://smartcity.linkeddata.es/lcc/ontology/inCenter -->
+
+    <owl:ObjectProperty rdf:about="&ontology;inCenter">
+        <rdfs:domain rdf:resource="&event;Event"/>
+        <rdfs:range rdf:resource="&ontology;CentroDeportivo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://smartcity.linkeddata.es/lcc/ontology/inDistrict -->
+
+    <owl:ObjectProperty rdf:about="&ontology;inDistrict">
+        <rdfs:range rdf:resource="&ontology2;District"/>
+        <rdfs:domain rdf:resource="&ontology;CentroDeportivo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/MeanOfTransportation -->
+
+    <owl:DatatypeProperty rdf:about="&ontology2;MeanOfTransportation">
+        <rdfs:domain rdf:resource="&ontology;CentroDeportivo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://dbpedia.org/ontology/Name -->
+
+    <owl:DatatypeProperty rdf:about="&ontology2;Name">
+        <rdfs:domain rdf:resource="&event;Event"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://dbpedia.org/ontology/title -->
+
+    <owl:DatatypeProperty rdf:about="&ontology2;title">
+        <rdfs:domain rdf:resource="&event;Event"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.tno.nl/logico#hasEmail -->
+
+    <owl:DatatypeProperty rdf:about="&logico;hasEmail">
+        <rdfs:domain rdf:resource="&ontology;CentroDeportivo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.tno.nl/logico#hasID -->
+
+    <owl:DatatypeProperty rdf:about="&logico;hasID">
+        <rdfs:domain rdf:resource="&ontology;CentroDeportivo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.tno.nl/logico#hasPostalCode -->
+
+    <owl:DatatypeProperty rdf:about="&logico;hasPostalCode">
+        <rdfs:domain rdf:resource="&ontology;CentroDeportivo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.tno.nl/logico#hasStreetName -->
+
+    <owl:DatatypeProperty rdf:about="&logico;hasStreetName">
+        <rdfs:domain rdf:resource="&ontology;CentroDeportivo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.tno.nl/logico#hasWebsiteURI -->
+
+    <owl:DatatypeProperty rdf:about="&logico;hasWebsiteURI">
+        <rdfs:domain rdf:resource="&ontology;CentroDeportivo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontology.tno.nl/logico/#hasPhoneNr -->
+
+    <owl:DatatypeProperty rdf:about="&logico2;hasPhoneNr">
+        <rdfs:domain rdf:resource="&ontology;CentroDeportivo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento -->
+
+    <owl:DatatypeProperty rdf:about="&ontology;hasIDEvento">
+        <rdfs:domain rdf:resource="&event;Event"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#lat -->
+
+    <owl:DatatypeProperty rdf:about="&wgs84_pos;lat">
+        <rdfs:domain rdf:resource="&ontology;CentroDeportivo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#long -->
+
+    <owl:DatatypeProperty rdf:about="&wgs84_pos;long">
+        <rdfs:domain rdf:resource="&ontology;CentroDeportivo"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#day -->
+
+    <owl:DatatypeProperty rdf:about="&time;day">
+        <rdfs:domain rdf:resource="&event;Event"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hour -->
+
+    <owl:DatatypeProperty rdf:about="&time;hour">
+        <rdfs:domain rdf:resource="&event;Event"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/District -->
+
+    <owl:Class rdf:about="&ontology2;District"/>
+    
+
+
+    <!-- http://purl.org/NET/c4dm/event.owl#Event -->
+
+    <owl:Class rdf:about="&event;Event"/>
+    
+
+
+    <!-- http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo -->
+
+    <owl:Class rdf:about="&ontology;CentroDeportivo"/>
+</rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
 

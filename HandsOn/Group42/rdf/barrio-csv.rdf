@@ -1,194 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
-	xmlns:schema="http://schema.org/"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:owl="http://www.w3.org/2002/07/owl#"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:base="http://www.example.net/group42/ontology/barrio#">
+	xmlns:base="http://www.example.net/group42/ontology/estaciones#">
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/0">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/0">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Arcosur</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Arcosur</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/1">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/1">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Actur</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Actur-Rey_Fernando</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/2">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/2">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Arrabal</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Arrabal_(Zaragoza)</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/3">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/3">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Casco Histórico</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Casco_histórico_de_Zaragoza</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/4">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/4">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Centro</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Distrito_Centro_(Zaragoza)</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/5">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/5">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>La Jota</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/La_Jota_(Zaragoza)</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/6">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
-	<base:districtName>La Paz</base:districtName>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/7">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/7">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Las Fuentes</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Las_Fuentes_(Zaragoza)</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/8">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/8">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Oliver</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Oliver-Valdefierro</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/9">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/9">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Picarral</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Picarral</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/10">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
-	<base:districtName>San José</base:districtName>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/11">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/11">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Torrero</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Torrero</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/12">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/12">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Juslibol</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Juslibol</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/13">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/13">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>La Cartuja Baja</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/La_Cartuja_Baja</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/14">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
-	<base:districtName>Montañana</base:districtName>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/14">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
+	<base:districtName>MontaÃ±ana</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Montañana_(Zaragoza)</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/15">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/15">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>San Juan de Mozarrifar</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/San_Juan_de_Mozarrifar</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/16">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
-	<base:districtName>Santa Isabel</base:districtName>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/17">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/17">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Miralbueno</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Miralbueno</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/18">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
-	<base:districtName>Venta del Olivar</base:districtName>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/19">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/19">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Delicias</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Zaragoza-Delicias</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/20">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/20">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Movera</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Movera</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/21">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/21">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Almozara</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/La_Almozara</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/22">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
-	<base:districtName>Romareda/Universidad</base:districtName>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/23">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/23">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Valdefierro</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Oliver-Valdefierro</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/24">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/24">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Peñaflor</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Peñaflor_de_Gallego_(Zaragoza)</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/25">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
-	<base:districtName>San Gregorio</base:districtName>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/26">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/26">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Torrecilla de Valmadrid</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Valmadrid_(Zaragoza)</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/27">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/27">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Alfocea</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Alfocea</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/28">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
-	<base:districtName>Casablanca</base:districtName>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/29">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/29">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Casetas</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Casetas</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/30">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/30">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Garrapinillos</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Garrapinillos</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/31">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/31">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Monzalbarba</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Monzalbarba</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/32">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
-	<base:districtName>Villarrapa</base:districtName>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/33">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/33">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Valdespartera</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Valdespartera</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/34">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
-	<base:districtName>Ranillas</base:districtName>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/35">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/35">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Vadorrey</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Vadorrey</owl:sameAs>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.example.net/group42/resource/barrio/36">
-	<rdf:type rdf:resource="http://www.example.net/group42/ontology/barrio#Barrio"/>
+<rdf:Description rdf:about="http://www.example.net/group42/resource/bici/36">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#Barrio"/>
 	<base:districtName>Puerto Venecia</base:districtName>
+	<owl:sameAs>http://es.dbpedia.org/resource/Pasarela_de_los_pinares_de_venecia</owl:sameAs>
 </rdf:Description>
 
 </rdf:RDF>

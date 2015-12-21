@@ -1,0 +1,643 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/group15/ontology,owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/group15/ontology,owl">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The semanticweb ontology that describes various activities and parkings</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Actividad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aparcamiento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#NumeroPlazasResidentes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TieneDistrito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esGratuito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneAccesibilidad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneActividad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneBarrio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneCodigoPostal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneCoordenadaX"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneCoordenadaX2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneCoordenadaY"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneCoordenadaY2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneDescripcion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneFechaFin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneFechaInicio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneHora"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneInstalacion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneLargaDuracion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneLatitud"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneLatitud2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneLocalidad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneLongitud"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneLongitud2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneNombre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneNombreVia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneNumero"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneNumeroPlazasPublicas"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneProvincia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneTipo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneTipo2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneTipoNumero"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneTitulo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneURL"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneURL2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneURLactividad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneURLinstalacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneTipo"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#NumeroPlazasResidentes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#NumeroPlazasResidentes"/>
+            <Class IRI="#Aparcamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#NumeroPlazasResidentes"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TieneDistrito"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneDistrito"/>
+            <Class IRI="#Actividad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TieneDistrito"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#TieneDistrito"/>
+            <Class IRI="#Aparcamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#TieneDistrito"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esGratuito"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#esGratuito"/>
+            <Class IRI="#Actividad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esGratuito"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneAccesibilidad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneAccesibilidad"/>
+            <Class IRI="#Aparcamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneAccesibilidad"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneActividad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneActividad"/>
+            <Class IRI="#Actividad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneActividad"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneBarrio"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneBarrio"/>
+            <Class IRI="#Aparcamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneBarrio"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneCodigoPostal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneCodigoPostal"/>
+            <Class IRI="#Aparcamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneCodigoPostal"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneCoordenadaX"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneCoordenadaX"/>
+            <Class IRI="#Aparcamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneCoordenadaX"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneCoordenadaX2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneCoordenadaX2"/>
+            <Class IRI="#Actividad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneCoordenadaX2"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneCoordenadaY"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneCoordenadaY"/>
+            <Class IRI="#Aparcamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneCoordenadaY"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneCoordenadaY2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneCoordenadaY2"/>
+            <Class IRI="#Actividad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneCoordenadaY2"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneDescripcion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneDescripcion"/>
+            <Class IRI="#Actividad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneDescripcion"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneFechaFin"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneFechaFin"/>
+            <Class IRI="#Actividad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneFechaFin"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneFechaInicio"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneFechaInicio"/>
+            <Class IRI="#Actividad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneFechaInicio"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneHora"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneHora"/>
+            <Class IRI="#Actividad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneHora"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneInstalacion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneInstalacion"/>
+            <Class IRI="#Actividad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneInstalacion"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneLargaDuracion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneLargaDuracion"/>
+            <Class IRI="#Actividad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneLargaDuracion"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneLatitud"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneLatitud"/>
+            <Class IRI="#Aparcamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneLatitud"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneLatitud2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneLatitud2"/>
+            <Class IRI="#Actividad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneLatitud2"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneLocalidad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneLocalidad"/>
+            <Class IRI="#Aparcamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneLocalidad"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneLongitud"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneLongitud"/>
+            <Class IRI="#Aparcamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneLongitud"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneLongitud2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneLongitud2"/>
+            <Class IRI="#Actividad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneLongitud2"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneNombre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneNombre"/>
+            <Class IRI="#Aparcamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneNombre"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneNombreVia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneNombreVia"/>
+            <Class IRI="#Aparcamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneNombreVia"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneNumero"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneNumero"/>
+            <Class IRI="#Aparcamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneNumero"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneNumeroPlazasPublicas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneNumeroPlazasPublicas"/>
+            <Class IRI="#Aparcamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneNumeroPlazasPublicas"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneProvincia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneProvincia"/>
+            <Class IRI="#Aparcamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneProvincia"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneTipo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneTipo"/>
+            <Class IRI="#Aparcamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneTipo"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneTipo2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneTipo2"/>
+            <Class IRI="#Actividad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneTipo2"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneTipoNumero"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneTipoNumero"/>
+            <Class IRI="#Aparcamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneTipoNumero"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneTitulo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneTitulo"/>
+            <Class IRI="#Actividad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneTitulo"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneURL"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneURL"/>
+            <Class IRI="#Aparcamiento"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneURL"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneURL2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneURL2"/>
+            <Class IRI="#Actividad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneURL2"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneURLactividad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneURLactividad"/>
+            <Class IRI="#Actividad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneURLactividad"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneURLinstalacion"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#tieneURLinstalacion"/>
+            <Class IRI="#Actividad"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneURLinstalacion"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

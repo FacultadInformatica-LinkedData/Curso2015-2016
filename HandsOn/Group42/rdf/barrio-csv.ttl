@@ -1,117 +1,80 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix base: <http://www.example.net/group42/ontology/estaciones#> .
+@prefix base: <http://www.example.net/group42/ontology/barrios#> .
 
 
-<http://www.example.net/group42/resource/bici/0> a base:Barrio ;
-	base:districtName "Arcosur" ;
+<http://www.example.net/group42/resource/barrio/0> a base:Barrio ;
+	base:URI <http://www.zaragoza.es/api/recurso/sector-publico/territorio/barrio/36> ;
+	base:noCalle "Arcosur" ;
 	owl:sameAs "http://es.dbpedia.org/resource/Arcosur" .
 
-<http://www.example.net/group42/resource/bici/1> a base:Barrio ;
-	base:districtName "Actur" ;
+<http://www.example.net/group42/resource/barrio/1> a base:Barrio ;
+	base:URI <http://www.zaragoza.es/api/recurso/sector-publico/territorio/barrio/1> ;
+	base:noCalle "Actur" ;
 	owl:sameAs "http://es.dbpedia.org/resource/Actur-Rey_Fernando" .
 
-<http://www.example.net/group42/resource/bici/2> a base:Barrio ;
-	base:districtName "Arrabal" ;
-	owl:sameAs "http://es.dbpedia.org/resource/Arrabal_(Zaragoza)" .
-
-<http://www.example.net/group42/resource/bici/3> a base:Barrio ;
-	base:districtName "Casco Histórico" ;
+<http://www.example.net/group42/resource/barrio/3> a base:Barrio ;
+	base:URI <http://www.zaragoza.es/api/recurso/sector-publico/territorio/barrio/4> ;
+	base:noCalle "Casco HistÃ³rico" ;
 	owl:sameAs "http://es.dbpedia.org/resource/Casco_histórico_de_Zaragoza" .
 
-<http://www.example.net/group42/resource/bici/4> a base:Barrio ;
-	base:districtName "Centro" ;
-	owl:sameAs "http://es.dbpedia.org/resource/Distrito_Centro_(Zaragoza)" .
-
-<http://www.example.net/group42/resource/bici/5> a base:Barrio ;
-	base:districtName "La Jota" ;
-	owl:sameAs "http://es.dbpedia.org/resource/La_Jota_(Zaragoza)" .
-
-<http://www.example.net/group42/resource/bici/7> a base:Barrio ;
-	base:districtName "Las Fuentes" ;
-	owl:sameAs "http://es.dbpedia.org/resource/Las_Fuentes_(Zaragoza)" .
-
-<http://www.example.net/group42/resource/bici/8> a base:Barrio ;
-	base:districtName "Oliver" ;
-	owl:sameAs "http://es.dbpedia.org/resource/Oliver-Valdefierro" .
-
-<http://www.example.net/group42/resource/bici/9> a base:Barrio ;
-	base:districtName "Picarral" ;
-	owl:sameAs "http://es.dbpedia.org/resource/Picarral" .
-
-<http://www.example.net/group42/resource/bici/11> a base:Barrio ;
-	base:districtName "Torrero" ;
+<http://www.example.net/group42/resource/barrio/11> a base:Barrio ;
+	base:URI <http://www.zaragoza.es/api/recurso/sector-publico/territorio/barrio/14> ;
+	base:noCalle "Torrero" ;
 	owl:sameAs "http://es.dbpedia.org/resource/Torrero" .
 
-<http://www.example.net/group42/resource/bici/12> a base:Barrio ;
-	base:districtName "Juslibol" ;
+<http://www.example.net/group42/resource/barrio/12> a base:Barrio ;
+	base:URI <http://www.zaragoza.es/api/recurso/sector-publico/territorio/barrio/16> ;
+	base:noCalle "Juslibol" ;
 	owl:sameAs "http://es.dbpedia.org/resource/Juslibol" .
 
-<http://www.example.net/group42/resource/bici/13> a base:Barrio ;
-	base:districtName "La Cartuja Baja" ;
+<http://www.example.net/group42/resource/barrio/13> a base:Barrio ;
+	base:URI <http://www.zaragoza.es/api/recurso/sector-publico/territorio/barrio/17> ;
+	base:noCalle "La Cartuja Baja" ;
 	owl:sameAs "http://es.dbpedia.org/resource/La_Cartuja_Baja" .
 
-<http://www.example.net/group42/resource/bici/14> a base:Barrio ;
-	base:districtName "MontaÃ±ana" ;
-	owl:sameAs "http://es.dbpedia.org/resource/Montañana_(Zaragoza)" .
-
-<http://www.example.net/group42/resource/bici/15> a base:Barrio ;
-	base:districtName "San Juan de Mozarrifar" ;
+<http://www.example.net/group42/resource/barrio/15> a base:Barrio ;
+	base:URI <http://www.zaragoza.es/api/recurso/sector-publico/territorio/barrio/21> ;
+	base:noCalle "San Juan de Mozarrifar" ;
 	owl:sameAs "http://es.dbpedia.org/resource/San_Juan_de_Mozarrifar" .
 
-<http://www.example.net/group42/resource/bici/17> a base:Barrio ;
-	base:districtName "Miralbueno" ;
+<http://www.example.net/group42/resource/barrio/17> a base:Barrio ;
+	base:URI <http://www.zaragoza.es/api/recurso/sector-publico/territorio/barrio/29> ;
+	base:noCalle "Miralbueno" ;
 	owl:sameAs "http://es.dbpedia.org/resource/Miralbueno" .
 
-<http://www.example.net/group42/resource/bici/19> a base:Barrio ;
-	base:districtName "Delicias" ;
-	owl:sameAs "http://es.dbpedia.org/resource/Zaragoza-Delicias" .
-
-<http://www.example.net/group42/resource/bici/20> a base:Barrio ;
-	base:districtName "Movera" ;
+<http://www.example.net/group42/resource/barrio/20> a base:Barrio ;
+	base:URI <http://www.zaragoza.es/api/recurso/sector-publico/territorio/barrio/19> ;
+	base:noCalle "Movera" ;
 	owl:sameAs "http://es.dbpedia.org/resource/Movera" .
 
-<http://www.example.net/group42/resource/bici/21> a base:Barrio ;
-	base:districtName "Almozara" ;
-	owl:sameAs "http://es.dbpedia.org/resource/La_Almozara" .
-
-<http://www.example.net/group42/resource/bici/23> a base:Barrio ;
-	base:districtName "Valdefierro" ;
+<http://www.example.net/group42/resource/barrio/23> a base:Barrio ;
+	base:URI <http://www.zaragoza.es/api/recurso/sector-publico/territorio/barrio/15> ;
+	base:noCalle "Valdefierro" ;
 	owl:sameAs "http://es.dbpedia.org/resource/Oliver-Valdefierro" .
 
-<http://www.example.net/group42/resource/bici/24> a base:Barrio ;
-	base:districtName "Peñaflor" ;
-	owl:sameAs "http://es.dbpedia.org/resource/Peñaflor_de_Gallego_(Zaragoza)" .
+<http://www.example.net/group42/resource/barrio/24> a base:Barrio ;
+	base:URI <http://www.zaragoza.es/api/recurso/sector-publico/territorio/barrio/20> ;
+	base:noCalle "PeÃ±aflor" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Peñaflor_de_Gállego" .
 
-<http://www.example.net/group42/resource/bici/26> a base:Barrio ;
-	base:districtName "Torrecilla de Valmadrid" ;
-	owl:sameAs "http://es.dbpedia.org/resource/Valmadrid_(Zaragoza)" .
-
-<http://www.example.net/group42/resource/bici/27> a base:Barrio ;
-	base:districtName "Alfocea" ;
+<http://www.example.net/group42/resource/barrio/27> a base:Barrio ;
+	base:URI <http://www.zaragoza.es/api/recurso/sector-publico/territorio/barrio/25> ;
+	base:noCalle "Alfocea" ;
 	owl:sameAs "http://es.dbpedia.org/resource/Alfocea" .
 
-<http://www.example.net/group42/resource/bici/29> a base:Barrio ;
-	base:districtName "Casetas" ;
-	owl:sameAs "http://es.dbpedia.org/resource/Casetas" .
+<http://www.example.net/group42/resource/barrio/29> a base:Barrio ;
+	base:URI <http://www.zaragoza.es/api/recurso/sector-publico/territorio/barrio/27> ;
+	base:noCalle "Casetas" ;
+	owl:sameAs "http://dbpedia.org/resource/Casetas" .
 
-<http://www.example.net/group42/resource/bici/30> a base:Barrio ;
-	base:districtName "Garrapinillos" ;
+<http://www.example.net/group42/resource/barrio/30> a base:Barrio ;
+	base:URI <http://www.zaragoza.es/api/recurso/sector-publico/territorio/barrio/28> ;
+	base:noCalle "Garrapinillos" ;
 	owl:sameAs "http://es.dbpedia.org/resource/Garrapinillos" .
 
-<http://www.example.net/group42/resource/bici/31> a base:Barrio ;
-	base:districtName "Monzalbarba" ;
+<http://www.example.net/group42/resource/barrio/31> a base:Barrio ;
+	base:URI <http://www.zaragoza.es/api/recurso/sector-publico/territorio/barrio/30> ;
+	base:noCalle "Monzalbarba" ;
 	owl:sameAs "http://es.dbpedia.org/resource/Monzalbarba" .
-
-<http://www.example.net/group42/resource/bici/33> a base:Barrio ;
-	base:districtName "Valdespartera" ;
-	owl:sameAs "http://es.dbpedia.org/resource/Valdespartera" .
-
-<http://www.example.net/group42/resource/bici/35> a base:Barrio ;
-	base:districtName "Vadorrey" ;
-	owl:sameAs "http://es.dbpedia.org/resource/Vadorrey" .
-
-<http://www.example.net/group42/resource/bici/36> a base:Barrio ;
-	base:districtName "Puerto Venecia" ;
-	owl:sameAs "http://es.dbpedia.org/resource/Pasarela_de_los_pinares_de_venecia" .

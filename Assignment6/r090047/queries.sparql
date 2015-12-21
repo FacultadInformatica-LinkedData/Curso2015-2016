@@ -1,0 +1,60 @@
+#Álvaro Iturmendi Muñoz - r090047
+
+# Prefixes
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX property: <http://geo.linkeddata.es/stats/property#>
+PREFIX mn: <http://example.org/resources/>
+
+#Accidentes en madrid en 2013
+
+
+select (SUM(?accNumber) AS ?Accidents)
+where {
+  ?obs a qb:Observation;
+  mv:numberOfAccidents ?accNumber.
+}
+
+#Accidentes en distrito Usera según tipo de accidente
+
+
+select ?accType ?accNumber 
+where {
+  ?obs a qb:Observation ;
+  mv:relatedDistrict  "USERA";
+  mv:hasAccidentType ?accType;
+  mv:numberOfAccidents ?accNumber;
+  qb:dataSet mn:MyDataset.
+}
+
+#Número de colisiones múltiples por distrito
+select ?district ?accNumber 
+where {
+  ?obs a qb:Observation;
+  mv:relatedDistrict ?district;
+  mv:hasAccidentType mv:MultipleCollision;
+  mv:numberOfAccidents ?accNumber;
+  qb:dataSet mn:MyDataset.
+}
+
+#Número de accidentes involucrándose una bicicleta
+select ?district ?accNumber 
+where {
+  ?obs a qb:Observation;
+  mv:relatedDistrict ?district ;
+  mv:hasAccidentType mv:BicycleFall;
+  mv:numberOfAccidents ?accNumber;
+  qb:dataSet mn:MyDataset.
+}
+
+#Distritos con más de 500 accidentes 
+select ?district ?accNumber 
+where {
+  ?obs a qb:Observation;
+  mv:relatedDistrict ?district;
+  mv:numberOfAccidents ?accNumber;
+  qb:dataSet mn:MyDataset.
+  FILTER (?accNumber > 500)
+}ORDER BY DESC(?accNumber) LIMIT 1

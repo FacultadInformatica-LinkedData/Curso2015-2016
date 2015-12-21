@@ -1,0 +1,163 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://smartcity.linkeddata.es/lcc/resource/",
+      "prefixes": [
+        {
+          "name": "onto",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'Event/'+value",
+          "isRowNumberCell": false,
+          "columnName": "ID-EVENTO",
+          "rdfTypes": [
+            {
+              "uri": "http://purl.org/NET/c4dm/event.owl#Event",
+              "curie": "onto:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento",
+              "curie": "onto:hasIDEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://dbpedia.org/ontology/title",
+              "curie": "onto:title",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/time#day",
+              "curie": "onto:day",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/time#hour",
+              "curie": "onto:hour",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORA"
+              }
+            },
+            {
+              "uri": "http://ontology.tno.nl/logico#hasWebsiteURI",
+              "curie": "onto:hasWebsiteURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "hasURL",
+              "curie": ":hasURL",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URL-ACTIVIDAD"
+              }
+            },
+            {
+              "uri": "http://smartcity.linkeddata.es/lcc/ontology/inCenter",
+              "curie": "onto:inCenter",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"CentroDeportivo/\"+value",
+                "isRowNumberCell": false,
+                "columnName": "CENTROID",
+                "rdfTypes": [
+                  {
+                    "uri": "http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo",
+                    "curie": "onto:CentroDeportivo"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "onto:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "onto:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://smartcity.linkeddata.es/lcc/ontology/inDistrict",
+              "curie": "onto:inDistrict",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'District/'+replaceChars(value,\" -\",\"\")",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://dbpedia.org/ontology/District",
+                    "curie": "onto:District"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

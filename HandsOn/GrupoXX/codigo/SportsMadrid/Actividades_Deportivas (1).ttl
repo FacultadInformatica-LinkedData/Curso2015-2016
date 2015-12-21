@@ -1,0 +1,447 @@
+@prefix onto: <> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8369822> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8369822" ;
+	<http://dbpedia.org/ontology/title> "Actividades lúdicas y recreativas" ;
+	<http://www.w3.org/2006/time#day> "26/12/2015" ;
+	<http://www.w3.org/2006/time#hour> "10:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8e13956f69d51510VgnVCM1000000b205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1399a90b95d51510VgnVCM1000000b205a0aRCRD" .
+
+<http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4698> a <http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8369822> <http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4698> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "437704" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4472452" .
+
+<http://smartcity.linkeddata.es/lcc/resource/District/LATINA> a <http://dbpedia.org/ontology/District> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8369822> <http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/LATINA> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8279390> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8279390" ;
+	<http://dbpedia.org/ontology/title> "Atletismo. San Silvestre Popular y 51 San Silvestre Internacional 2015" ;
+	<http://www.w3.org/2006/time#day> "31/12/2015" ;
+	<http://www.w3.org/2006/time#hour> "17:30" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a8e5e445a96d0510VgnVCM2000000c205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a343cebc33383310VgnVCM2000000c205a0aRCRD" .
+
+<http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4657> a <http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8279390> <http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4657> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "441727" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4478378" .
+
+<http://smartcity.linkeddata.es/lcc/resource/District/CHAMARTIN> a <http://dbpedia.org/ontology/District> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8279390> <http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/CHAMARTIN> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8557750> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8557750" ;
+	<http://dbpedia.org/ontology/title> "Baloncesto. Tecnificación Navidad Baloncesto" ;
+	<http://www.w3.org/2006/time#day> "30/12/2015" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1c26637e13191510VgnVCM2000000c205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c8415e5501261510VgnVCM1000000b205a0aRCRD" .
+
+<http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4689> a <http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8557750> <http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4689> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "448255" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4475740" .
+
+<http://smartcity.linkeddata.es/lcc/resource/District/SANBLASCANILLEJAS> a <http://dbpedia.org/ontology/District> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8557750> <http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/SANBLASCANILLEJAS> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8371090> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8371090" ;
+	<http://dbpedia.org/ontology/title> "Campus de Gimnasia Rítmica" ;
+	<http://www.w3.org/2006/time#day> "21/12/2015" ;
+	<http://www.w3.org/2006/time#hour> "9:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=780306158f161510VgnVCM1000000b205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=edce06158f161510VgnVCM1000000b205a0aRCRD" .
+
+<http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/134059> a <http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8371090> <http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/134059> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "442592" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4472731" .
+
+<http://smartcity.linkeddata.es/lcc/resource/District/RETIRO> a <http://dbpedia.org/ontology/District> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8371090> <http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/RETIRO> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8372737> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8372737" ;
+	<http://dbpedia.org/ontology/title> "Deportes. Campaña Navidad 2015/16. Distrito Usera" ;
+	<http://www.w3.org/2006/time#day> "21/12/2015" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b14a82dace261510VgnVCM1000000b205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c3c787dbcc261510VgnVCM1000000b205a0aRCRD" .
+
+<http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4693> a <http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8372737> <http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4693> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "439629" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4469896" .
+
+<http://smartcity.linkeddata.es/lcc/resource/District/USERA> a <http://dbpedia.org/ontology/District> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8372737> <http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/USERA> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8369821> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8369821" ;
+	<http://dbpedia.org/ontology/title> "Gala Navidad Gimnasia Rítmica Infantil" ;
+	<http://www.w3.org/2006/time#day> "21/12/2015" ;
+	<http://www.w3.org/2006/time#hour> "18:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ec13956f69d51510VgnVCM1000000b205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1399a90b95d51510VgnVCM1000000b205a0aRCRD" .
+
+<http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4538574> a <http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8369821> <http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4538574> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "435889" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4470323" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/LATINA> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8148944> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8148944" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Club Atlético de Madrid SAD - Levante UD SAD" ;
+	<http://www.w3.org/2006/time#day> "02/01/2016" ;
+	<http://www.w3.org/2006/time#hour> "20:30" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cd7e451d9569e410VgnVCM2000000c205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b023423c2169e410VgnVCM2000000c205a0aRCRD" .
+
+<http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4658> a <http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8148944> <http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4658> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "438909" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4472774" .
+
+<http://smartcity.linkeddata.es/lcc/resource/District/ARGANZUELA> a <http://dbpedia.org/ontology/District> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8148944> <http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/ARGANZUELA> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8148965> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8148965" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Club Atlético de Madrid SAD - RC Deportivo de La Coruña SAD" ;
+	<http://www.w3.org/2006/time#day> "13/03/2016" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3e04451d9569e410VgnVCM2000000c205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b023423c2169e410VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4658> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "438909" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4472774" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/ARGANZUELA> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8148964> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8148964" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Club Atlético de Madrid SAD - Real Sociedad de Fútbol SAD" ;
+	<http://www.w3.org/2006/time#day> "02/03/2016" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6ca3451d9569e410VgnVCM2000000c205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b023423c2169e410VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4658> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "438909" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4472774" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/ARGANZUELA> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8148954> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8148954" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Club Atlético de Madrid SAD - SD Eibar SAD" ;
+	<http://www.w3.org/2006/time#day> "07/02/2016" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=94bf451d9569e410VgnVCM2000000c205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b023423c2169e410VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4658> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "438909" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4472774" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/ARGANZUELA> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8148951> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8148951" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Club Atlético de Madrid SAD - Sevilla FC SAD" ;
+	<http://www.w3.org/2006/time#day> "24/01/2016" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=08ee451d9569e410VgnVCM2000000c205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b023423c2169e410VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4658> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "438909" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4472774" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/ARGANZUELA> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8148959> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8148959" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Club Atlético de Madrid SAD - Villarreal CF SAD" ;
+	<http://www.w3.org/2006/time#day> "21/02/2016" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=48b0451d9569e410VgnVCM2000000c205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b023423c2169e410VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4658> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "438909" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4472774" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/ARGANZUELA> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8149096> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8149096" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Rayo Vallecano de Madrid SAD - FC Barcelona" ;
+	<http://www.w3.org/2006/time#day> "02/03/2016" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0d0b75f68769e410VgnVCM2000000c205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=358430ebb669e410VgnVCM2000000c205a0aRCRD" .
+
+<http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4659> a <http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8149096> <http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4659> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "444245" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4471721" .
+
+<http://smartcity.linkeddata.es/lcc/resource/District/PUENTEDEVALLECAS> a <http://dbpedia.org/ontology/District> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8149096> <http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/PUENTEDEVALLECAS> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8149093> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8149093" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Rayo Vallecano de Madrid SAD - RC Celta de Vigo SAD" ;
+	<http://www.w3.org/2006/time#day> "24/01/2016" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1cfb75f68769e410VgnVCM2000000c205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=358430ebb669e410VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4659> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "444245" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4471721" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/PUENTEDEVALLECAS> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8149092> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8149092" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Rayo Vallecano de Madrid SAD - Real sociedad de Fútbol SAD" ;
+	<http://www.w3.org/2006/time#day> "03/01/2016" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=390b75f68769e410VgnVCM2000000c205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=358430ebb669e410VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4659> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "444245" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4471721" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/PUENTEDEVALLECAS> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8149097> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8149097" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Rayo Vallecano de Madrid SAD - SD Eibar SAD" ;
+	<http://www.w3.org/2006/time#day> "13/03/2016" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=13ab75f68769e410VgnVCM2000000c205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=358430ebb669e410VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4659> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "444245" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4471721" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/PUENTEDEVALLECAS> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8149095> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8149095" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Rayo Vallecano de Madrid SAD - Sevilla FC SAD" ;
+	<http://www.w3.org/2006/time#day> "21/02/2016" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3c4b75f68769e410VgnVCM2000000c205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=358430ebb669e410VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4659> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "444245" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4471721" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/PUENTEDEVALLECAS> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8149094> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8149094" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Rayo Vallecano de Madrid SAD - UD Las Palmas" ;
+	<http://www.w3.org/2006/time#day> "07/02/2016" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=30cb75f68769e410VgnVCM2000000c205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=358430ebb669e410VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4659> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "444245" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4471721" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/PUENTEDEVALLECAS> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8149298> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8149298" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Real Madrid CF - Athletic Club" ;
+	<http://www.w3.org/2006/time#day> "14/02/2016" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2867e11b8a69e410VgnVCM1000000b205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=587f93e09869e410VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4657> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "441727" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4478378" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/CHAMARTIN> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8149300> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8149300" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Real Madrid CF - Club Atlético de Madrid SAD" ;
+	<http://www.w3.org/2006/time#day> "28/02/2016" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aca84cd47b69e410VgnVCM1000000b205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=587f93e09869e410VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4657> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "441727" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4478378" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/CHAMARTIN> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8149304> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8149304" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Real Madrid CF - RC Celta de Vigo SAD" ;
+	<http://www.w3.org/2006/time#day> "06/03/2016" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fee94cd47b69e410VgnVCM1000000b205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=587f93e09869e410VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4657> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "441727" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4478378" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/CHAMARTIN> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8149247> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8149247" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Real Madrid CF - RC Deportivo de La Coruña SAD" ;
+	<http://www.w3.org/2006/time#day> "10/01/2016" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5c0466fd7969e410VgnVCM1000000b205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=587f93e09869e410VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4657> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "441727" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4478378" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/CHAMARTIN> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8149250> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8149250" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Real Madrid CF - RCD Espanyol de Barcelona SAD" ;
+	<http://www.w3.org/2006/time#day> "31/01/2016" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=283466fd7969e410VgnVCM1000000b205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=587f93e09869e410VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4657> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "441727" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4478378" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/CHAMARTIN> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8149249> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8149249" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Real Madrid CF - Real Sporting de Gijón SAD" ;
+	<http://www.w3.org/2006/time#day> "17/01/2016" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=152466fd7969e410VgnVCM1000000b205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=587f93e09869e410VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4657> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "441727" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4478378" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/CHAMARTIN> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8149308> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8149308" ;
+	<http://dbpedia.org/ontology/title> "Partido de fútbol. Real Madrid CF - Sevilla FC SAD" ;
+	<http://www.w3.org/2006/time#day> "20/03/2016" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8e7c4cd47b69e410VgnVCM1000000b205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=587f93e09869e410VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4657> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "441727" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4478378" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/CHAMARTIN> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8371274> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8371274" ;
+	<http://dbpedia.org/ontology/title> "Torneo de Fútbol de Navidad" ;
+	<http://www.w3.org/2006/time#day> "26/12/2015" ;
+	<http://www.w3.org/2006/time#hour> "9:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=44eba16432261510VgnVCM1000000b205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c8415e5501261510VgnVCM1000000b205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4689> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "448255" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4475740" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/SANBLASCANILLEJAS> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8370386> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8370386" ;
+	<http://dbpedia.org/ontology/title> "Torneo de Fútbol Sala. Distrito San Blas - Canillejas" ;
+	<http://www.w3.org/2006/time#day> "26/12/2015" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d1f84e6f42e51510VgnVCM2000000c205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b5f39b5f6ed51510VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4689> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "448255" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4475740" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/SANBLASCANILLEJAS> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8370389> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8370389" ;
+	<http://dbpedia.org/ontology/title> "Torneo de Fútbol. Distrito San Blas - Canillejas" ;
+	<http://www.w3.org/2006/time#day> "26/12/2015" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2bf84e6f42e51510VgnVCM2000000c205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b5f39b5f6ed51510VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4689> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "448255" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4475740" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/SANBLASCANILLEJAS> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/7828582> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "7828582" ;
+	<http://dbpedia.org/ontology/title> "Tour Bernabéu" ;
+	<http://www.w3.org/2006/time#day> "21/12/2015" ;
+	<http://www.w3.org/2006/time#hour> "0:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=53c06b3848eca410VgnVCM1000000b205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=96a0f841b01de310VgnVCM2000000c205a0aRCRD" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4657> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "441727" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4478378" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/CHAMARTIN> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8368987> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8368987" ;
+	<http://dbpedia.org/ontology/title> "Trofeo de Navidad de Fútbol-Sala" ;
+	<http://www.w3.org/2006/time#day> "28/12/2015" ;
+	<http://www.w3.org/2006/time#hour> "16:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=59543cda78d51510VgnVCM1000000b205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1399a90b95d51510VgnVCM1000000b205a0aRCRD" .
+
+<http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/84661> a <http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8368987> <http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/84661> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "436820" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4473354" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/LATINA> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8368928> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8368928" ;
+	<http://dbpedia.org/ontology/title> "Trofeo de Navidad Fútbol 7" ;
+	<http://www.w3.org/2006/time#day> "28/12/2015" ;
+	<http://www.w3.org/2006/time#hour> "17:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f12a3cda78d51510VgnVCM1000000b205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1399a90b95d51510VgnVCM1000000b205a0aRCRD" .
+
+<http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4696> a <http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8368928> <http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4696> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "434441" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4470732" ;
+	<http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/LATINA> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8368275> a <http://purl.org/NET/c4dm/event.owl#Event> ;
+	<http://smartcity.linkeddata.es/lcc/ontology/hasIDEvento> "8368275" ;
+	<http://dbpedia.org/ontology/title> "Haz deporte y diviertete en Navidad" ;
+	<http://www.w3.org/2006/time#day> "28/12/2015" ;
+	<http://www.w3.org/2006/time#hour> "11:00" ;
+	<http://ontology.tno.nl/logico#hasWebsiteURI> <http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=21991a4cffc51510VgnVCM1000000b205a0aRCRD> ;
+	<http://smartcity.linkeddata.es/lcc/resource/hasURL> "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=df810bcfc7851510VgnVCM2000000c205a0aRCRD" .
+
+<http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4695> a <http://smartcity.linkeddata.es/lcc/ontology/CentroDeportivo> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8368275> <http://smartcity.linkeddata.es/lcc/ontology/inCenter> <http://smartcity.linkeddata.es/lcc/resource/CentroDeportivo/4695> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "436747" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4470671" .
+
+<http://smartcity.linkeddata.es/lcc/resource/District/CARABANCHEL> a <http://dbpedia.org/ontology/District> .
+
+<http://smartcity.linkeddata.es/lcc/resource/Event/8368275> <http://smartcity.linkeddata.es/lcc/ontology/inDistrict> <http://smartcity.linkeddata.es/lcc/resource/District/CARABANCHEL> .

@@ -1,0 +1,143 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix base: <http://www.example.net/group42/ontology/barrio#> .
+
+
+<http://www.example.net/group42/resource/barrio/0> a base:Barrio ;
+	base:districtName "Arcosur" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Arcosur> .
+
+<http://www.example.net/group42/resource/barrio/1> a base:Barrio ;
+	base:districtName "Actur" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Actur-Rey_Fernando> .
+
+<http://www.example.net/group42/resource/barrio/2> a base:Barrio ;
+	base:districtName "Arrabal" ;
+	owl:sameAs <http://dbpedia.org/resource/Arrabalde> .
+
+<http://www.example.net/group42/resource/barrio/3> a base:Barrio ;
+	base:districtName "Casco HistÃ³rico" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Casco_histórico_de_Zaragoza> .
+
+<http://www.example.net/group42/resource/barrio/4> a base:Barrio ;
+	base:districtName "Centro" ;
+	owl:sameAs <http://dbpedia.org/resource/El_Centro,_California> .
+
+<http://www.example.net/group42/resource/barrio/5> a base:Barrio ;
+	base:districtName "La Jota" .
+
+<http://www.example.net/group42/resource/barrio/6> a base:Barrio ;
+	base:districtName "La Paz" ;
+	owl:sameAs <http://dbpedia.org/resource/La_Paz> .
+
+<http://www.example.net/group42/resource/barrio/7> a base:Barrio ;
+	base:districtName "Las Fuentes" ;
+	owl:sameAs <http://dbpedia.org/resource/Olmeda_de_las_Fuentes> .
+
+<http://www.example.net/group42/resource/barrio/8> a base:Barrio ;
+	base:districtName "Oliver" ;
+	owl:sameAs <http://dbpedia.org/resource/Oliveri> .
+
+<http://www.example.net/group42/resource/barrio/9> a base:Barrio ;
+	base:districtName "Picarral" .
+
+<http://www.example.net/group42/resource/barrio/10> a base:Barrio ;
+	base:districtName "San JosÃ©" ;
+	owl:sameAs <http://dbpedia.org/resource/San_Jos%C3%A9_de_Ocoa_Province> .
+
+<http://www.example.net/group42/resource/barrio/11> a base:Barrio ;
+	base:districtName "Torrero" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Torrero> .
+
+<http://www.example.net/group42/resource/barrio/12> a base:Barrio ;
+	base:districtName "Juslibol" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Juslibol> .
+
+<http://www.example.net/group42/resource/barrio/13> a base:Barrio ;
+	base:districtName "La Cartuja Baja" ;
+	owl:sameAs <http://es.dbpedia.org/resource/La_Cartuja_Baja> .
+
+<http://www.example.net/group42/resource/barrio/14> a base:Barrio ;
+	base:districtName "MontaÃ±ana" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Montañana_(Burgos)> .
+
+<http://www.example.net/group42/resource/barrio/15> a base:Barrio ;
+	base:districtName "San Juan de Mozarrifar" ;
+	owl:sameAs <http://es.dbpedia.org/resource/San_Juan_de_Mozarrifar> .
+
+<http://www.example.net/group42/resource/barrio/16> a base:Barrio ;
+	base:districtName "Santa Isabel" ;
+	owl:sameAs <http://dbpedia.org/resource/Santa_Isabel_(Bogot%C3%A1)> .
+
+<http://www.example.net/group42/resource/barrio/17> a base:Barrio ;
+	base:districtName "Miralbueno" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Miralbueno> .
+
+<http://www.example.net/group42/resource/barrio/18> a base:Barrio ;
+	base:districtName "Venta del Olivar" .
+
+<http://www.example.net/group42/resource/barrio/19> a base:Barrio ;
+	base:districtName "Delicias" ;
+	owl:sameAs <http://dbpedia.org/resource/Delicias,_Chihuahua> .
+
+<http://www.example.net/group42/resource/barrio/20> a base:Barrio ;
+	base:districtName "Movera" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Movera> .
+
+<http://www.example.net/group42/resource/barrio/21> a base:Barrio ;
+	base:districtName "Almozara" ;
+	owl:sameAs <http://es.dbpedia.org/resource/La_Almozara> .
+
+<http://www.example.net/group42/resource/barrio/22> a base:Barrio ;
+	base:districtName "Romareda/Universidad" .
+
+<http://www.example.net/group42/resource/barrio/23> a base:Barrio ;
+	base:districtName "Valdefierro" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Oliver-Valdefierro> .
+
+<http://www.example.net/group42/resource/barrio/24> a base:Barrio ;
+	base:districtName "PeÃ±aflor" ;
+	owl:sameAs <http://dbpedia.org/resource/Pe%C3%B1aflor_(Grado)> .
+
+<http://www.example.net/group42/resource/barrio/25> a base:Barrio ;
+	base:districtName "San Gregorio" ;
+	owl:sameAs <http://dbpedia.org/resource/San_Gregorio_de_Nigua> .
+
+<http://www.example.net/group42/resource/barrio/26> a base:Barrio ;
+	base:districtName "Torrecilla de Valmadrid" .
+
+<http://www.example.net/group42/resource/barrio/27> a base:Barrio ;
+	base:districtName "Alfocea" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Alfocea> .
+
+<http://www.example.net/group42/resource/barrio/28> a base:Barrio ;
+	base:districtName "Casablanca" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Casablanca> .
+
+<http://www.example.net/group42/resource/barrio/29> a base:Barrio ;
+	base:districtName "Casetas" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Casetas> .
+
+<http://www.example.net/group42/resource/barrio/30> a base:Barrio ;
+	base:districtName "Garrapinillos" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Garrapinillos> .
+
+<http://www.example.net/group42/resource/barrio/31> a base:Barrio ;
+	base:districtName "Monzalbarba" ;
+	owl:sameAs <http://es.dbpedia.org/resource/Monzalbarba> .
+
+<http://www.example.net/group42/resource/barrio/32> a base:Barrio ;
+	base:districtName "Villarrapa" .
+
+<http://www.example.net/group42/resource/barrio/33> a base:Barrio ;
+	base:districtName "Valdespartera" .
+
+<http://www.example.net/group42/resource/barrio/34> a base:Barrio ;
+	base:districtName "Ranillas" .
+
+<http://www.example.net/group42/resource/barrio/35> a base:Barrio ;
+	base:districtName "Vadorrey" .
+
+<http://www.example.net/group42/resource/barrio/36> a base:Barrio ;
+	base:districtName "Puerto Venecia" .

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:base="http://www.example.net/group42/ontology/estaciones#">
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/0">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle bilbao, 2</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676200.75 4613253.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/1">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle marques casa jimenez, 4</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676310.9 4613259.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/2">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>plaza san pedro nolasco</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676907.94 4613590.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/3">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>veronica, plaza</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676846.7 4613489.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/4">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle pedro joaquin soler, 5</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676840.56 4613469.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/5">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle coso, 101</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676951.0 4613389.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/6">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>plaza santa engracia</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676374.94 4613215.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/7">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle joaquin costa, 3</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676503.6 4613185.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/8">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle joaquin costa, 6</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676495.44 4613170.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/9">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle joaquin costa, 8</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676510.5 4613161.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/10">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle felipe sanclemente, 13</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676534.44 4613257.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/11">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle felipe sanclemente, 3</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676425.4 4613285.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/12">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle jeronimo zurita, f 4</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676461.7 4613337.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/13">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle jeronimo zurita, 4</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676459.44 4613331.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/14">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle jeronimo zurita, f 10</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676569.6 4613303.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/15">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle jeronimo zurita, 10</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676555.56 4613308.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/16">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle jeronimo zurita, 9</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676575.7 4613317.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/17">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle jeronimo zurita, 7</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676565.44 4613320.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/18">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>plaza los sitios, 18</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676687.3 4613270.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/19">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>plaza los sitios, 17</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676680.44 4613258.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/20">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>plaza los sitios</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676693.2 4613250.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/21">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>plaza los sitios, 1</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676700.25 4613266.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/22">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle jaime balmes</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676784.0 4613231.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/23">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>plaza los sitios</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676766.3 4613221.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/24">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle jaime balmes</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676778.44 4613216.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/25">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle joaquin costa, 13</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676628.5 4613131.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/26">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle jose canalejas, 13</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676620.3 4613115.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/27">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle jose canalejas, 12</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676635.1 4613109.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/28">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>plaza los sitios</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676641.06 4613123.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/29">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle felipe sanclemente, 25</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676658.1 4613205.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/30">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle felipe sanclemente, 26</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676649.75 4613188.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/31">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle juan bruil, 2</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676388.8 4613104.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/32">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle jeronimo blancas, 2</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676677.6 4613456.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/33">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle santa catalina, 2</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676761.5 4613442.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/34">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle santa catalina, 8</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676726.1 4613358.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/35">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle albert schweitzer</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676481.6 4612503.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/36">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>paseo constitucion, f 8</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676339.25 4613040.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/37">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>paseo constitucion, f 6</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676330.25 4613037.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/38">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle albert schweitzer</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676520.94 4612503.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/39">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>paseo constitucion, 12</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676449.25 4613053.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/40">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>plaza san miguel, 2</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676982.2 4613322.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/41">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>plaza san miguel, 4</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676989.06 4613301.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/42">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle reconquista, 4</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676990.8 4613265.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/43">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle alto aragon</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">677503.06 4613484.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/44">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle asalto, 19</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">677029.5 4613236.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/45">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle matadero, 1</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">677443.7 4612696.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/46">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle monasterio de samos, f 25</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">677359.94 4612687.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/47">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle monasterio de samos, f 23</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">677349.0 4612671.5</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/48">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>paseo constitucion, f 12</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676426.6 4613086.0</base:geoPosition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.example.net/group42/resource/moto/49">
+	<rdf:type rdf:resource="http://www.example.net/group42/ontology/estaciones#EstacionMoto"/>
+	<base:noCalle>calle manuel lorenzo pardo, f 30</base:noCalle>
+	<base:slotsAvaliable rdf:datatype="http://www.w3.org/2001/XMLSchema#int">9</base:slotsAvaliable>
+	<base:lastUpdated rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-12-03T00:00:00Z</base:lastUpdated>
+	<base:geoPosition rdf:datatype="http://www.w3.org/2001/XMLSchema#double">676988.06 4612695.0</base:geoPosition>
+</rdf:Description>
+
+</rdf:RDF>

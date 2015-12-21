@@ -1,0 +1,356 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix base: <http://www.example.net/group42/ontology/estaciones#> .
+
+
+<http://www.example.net/group42/resource/bici/0> a base:EstacionBici ;
+	base:nCapacidad "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "678017.9803453928 4613320.634481554"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Calle Doctor Iranzo - Calle Escultor Benlliure" .
+
+<http://www.example.net/group42/resource/bici/1> a base:EstacionBici ;
+	base:nCapacidad "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "676822.7225656463 4613438.861592172"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Calle Pedro Joaquín Soler - Coso" .
+
+<http://www.example.net/group42/resource/bici/2> a base:EstacionBici ;
+	base:nCapacidad "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "676517.3458413489 4612706.090795129"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Calle Lacarra de Miguel - Calle San Vicente Martir" .
+
+<http://www.example.net/group42/resource/bici/3> a base:EstacionBici ;
+	base:nCapacidad "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "675841.2652424083 4613665.173932331"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Calle Madre Rafols - Esquina D.G.A." .
+
+<http://www.example.net/group42/resource/bici/4> a base:EstacionBici ;
+	base:nCapacidad "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "675140.5935417248 4611902.584283834"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Plaza Emperador Carlos V" .
+
+<http://www.example.net/group42/resource/bici/5> a base:EstacionBici ;
+	base:nCapacidad "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "673818.3928125117 4612194.426397253"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Vía Hispanidad - Avda. Gómez Laguna" .
+
+<http://www.example.net/group42/resource/bici/6> a base:EstacionBici ;
+	base:nCapacidad "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "673535.126796119 4612856.6010818435"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Vía Hispanidad - Calle Océano Atlántico" .
+
+<http://www.example.net/group42/resource/bici/7> a base:EstacionBici ;
+	base:nCapacidad "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "674126.8415899678 4612286.664687123"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Avda. Juan Pablo II - Avda. Gómez Laguna" .
+
+<http://www.example.net/group42/resource/bici/8> a base:EstacionBici ;
+	base:nCapacidad "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "674353.1383456963 4611979.637886653"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Avda. Juan Carlos I - Calle Ramón Sainz de Varanda" .
+
+<http://www.example.net/group42/resource/bici/9> a base:EstacionBici ;
+	base:nCapacidad "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "674454.0980053664 4611556.142109903"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Calle Asín y Palacios - Calle Pedro IV El Ceremonioso" .
+
+<http://www.example.net/group42/resource/bici/10> a base:EstacionBici ;
+	base:nCapacidad "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "674849.903485189 4612042.595863729"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Calle Eduardo Ibarra - Calle Violante de Hungría" .
+
+<http://www.example.net/group42/resource/bici/11> a base:EstacionBici ;
+	base:nCapacidad "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "674209.1338063633 4613140.443152811"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Via Univérsitas - Calle Hermanos Gambra" .
+
+<http://www.example.net/group42/resource/bici/12> a base:EstacionBici ;
+	base:nCapacidad "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "674246.138705967 4613850.809511608"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Avda. Navarra - Calle Rioja" .
+
+<http://www.example.net/group42/resource/bici/13> a base:EstacionBici ;
+	base:nCapacidad "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "674776.6682624074 4613537.967226235"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Calle Graus - Calle Unceta" .
+
+<http://www.example.net/group42/resource/bici/14> a base:EstacionBici ;
+	base:nCapacidad "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "675169.6621584316 4612596.989091256"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Calle Corona de Aragón - Calle Lorente" .
+
+<http://www.example.net/group42/resource/bici/15> a base:EstacionBici ;
+	base:nCapacidad "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "674531.7776761394 4615518.329386774"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Avda. Pablo Ruiz Picasso - Torre del Agua" .
+
+<http://www.example.net/group42/resource/bici/16> a base:EstacionBici ;
+	base:nCapacidad "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "675082.8512086545 4615741.954081438"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Avda. Ranillas - Avda. Pablo Ruiz Picasso" .
+
+<http://www.example.net/group42/resource/bici/17> a base:EstacionBici ;
+	base:nCapacidad "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "675469.635585876 4615158.24649585"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Pasarela del Voluntariado - Avda. Ranillas" .
+
+<http://www.example.net/group42/resource/bici/18> a base:EstacionBici ;
+	base:nCapacidad "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "675887.9946791041 4614631.435627686"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Avda. Ranillas - Puente de La Almozara" .
+
+<http://www.example.net/group42/resource/bici/19> a base:EstacionBici ;
+	base:nCapacidad "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "676521.483524982 4614439.010262394"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Pº de la Ribera - Puente de Santiago" .
+
+<http://www.example.net/group42/resource/bici/20> a base:EstacionBici ;
+	base:nCapacidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "19"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "677458.6056386359 4614044.937332258"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Pº de la Ribera - Puente del Pilar" .
+
+<http://www.example.net/group42/resource/bici/21> a base:EstacionBici ;
+	base:nCapacidad "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "677769.8830778005 4613631.346063166"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Pº Echegaray y Caballero - Pasarela del Huerva" .
+
+<http://www.example.net/group42/resource/bici/22> a base:EstacionBici ;
+	base:nCapacidad "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "677403.1636507643 4613776.593027227"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Pº Echegaray y Caballero - Puente del Pilar" .
+
+<http://www.example.net/group42/resource/bici/23> a base:EstacionBici ;
+	base:nCapacidad "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "676982.2461119632 4613971.405242417"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Pº Echegaray y Caballero - Puente de Piedra" .
+
+<http://www.example.net/group42/resource/bici/24> a base:EstacionBici ;
+	base:nCapacidad "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "676504.2527290656 4614170.725479681"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Pº Echegaray y Caballero - Puente de Santiago" .
+
+<http://www.example.net/group42/resource/bici/25> a base:EstacionBici ;
+	base:nCapacidad "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "675643.0073561185 4614306.693232718"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Pº Echegaray y Caballero - Puente de La Almozara" .
+
+<http://www.example.net/group42/resource/bici/26> a base:EstacionBici ;
+	base:nCapacidad "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "675258.2438197444 4614764.45746837"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Pasarela del Voluntariado - Avda. Almozara" .
+
+<http://www.example.net/group42/resource/bici/27> a base:EstacionBici ;
+	base:nCapacidad "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "674353.7498153094 4614541.783660298"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Calle Francia - Pabellón Puente" .
+
+<http://www.example.net/group42/resource/bici/28> a base:EstacionBici ;
+	base:nCapacidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "28"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "674227.3492706296 4614154.64966946"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Estación Intermodal Delicias (Salidas)" .
+
+<http://www.example.net/group42/resource/bici/29> a base:EstacionBici ;
+	base:nCapacidad "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "675329.9923329047 4613409.474988687"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Estación de Cercanías El Portillo " .
+
+<http://www.example.net/group42/resource/bici/30> a base:EstacionBici ;
+	base:nCapacidad "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "676582.2035544008 4613504.823403645"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Plaza España" .
+
+<http://www.example.net/group42/resource/bici/31> a base:EstacionBici ;
+	base:nCapacidad "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "676293.4849388119 4613036.333235371"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Pº Constitución - Plaza Aragón " .
+
+<http://www.example.net/group42/resource/bici/32> a base:EstacionBici ;
+	base:nCapacidad "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "677485.1699573447 4613408.545050462"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Calle Asalto - Edificio Trovador" .
+
+<http://www.example.net/group42/resource/bici/33> a base:EstacionBici ;
+	base:nCapacidad "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "677009.1305011907 4613188.480893311"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Calle Asalto - Calle Miguel Servet " .
+
+<http://www.example.net/group42/resource/bici/34> a base:EstacionBici ;
+	base:nCapacidad "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "676280.2924439493 4613553.287068226"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Plaza Salamero, 14" .
+
+<http://www.example.net/group42/resource/bici/35> a base:EstacionBici ;
+	base:nCapacidad "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "676275.2698373196 4613774.806717714"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Avda. César Augusto - Avda. Conde Aranda" .
+
+<http://www.example.net/group42/resource/bici/36> a base:EstacionBici ;
+	base:nCapacidad "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "22"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "673760.3177675647 4614266.757959997"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Estación Intermodal Delicias (Llegadas)" .
+
+<http://www.example.net/group42/resource/bici/37> a base:EstacionBici ;
+	base:nCapacidad "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "678460.7452327413 4613654.374655051"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Pº de La Ribera - Pasarela Azud" .
+
+<http://www.example.net/group42/resource/bici/38> a base:EstacionBici ;
+	base:nCapacidad "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "676875.6737743317 4613589.483909276"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Plaza San Pedro Nolasco" .
+
+<http://www.example.net/group42/resource/bici/39> a base:EstacionBici ;
+	base:nCapacidad "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "676648.6412621725 4613117.609568934"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Plaza de los Sitios " .
+
+<http://www.example.net/group42/resource/bici/40> a base:EstacionBici ;
+	base:nCapacidad "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "676049.8715700008 4613211.225377172"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Pº Pamplona - Puerta del Carmen" .
+
+<http://www.example.net/group42/resource/bici/41> a base:EstacionBici ;
+	base:nCapacidad "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "675682.3195447342 4613483.302453537"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Pº Mª Agustín - Colegio Joaquín Costa" .
+
+<http://www.example.net/group42/resource/bici/42> a base:EstacionBici ;
+	base:nCapacidad "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "675620.8765705475 4613838.870355027"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Plaza del Portillo - Plaza de Toros" .
+
+<http://www.example.net/group42/resource/bici/43> a base:EstacionBici ;
+	base:nCapacidad "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "675242.2729886677 4613893.277580566"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Avda. Madrid - Aljafería" .
+
+<http://www.example.net/group42/resource/bici/44> a base:EstacionBici ;
+	base:nCapacidad "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "674828.098925371 4614498.440154144"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Avda. Pablo Gargallo - Avda. Puerta Sancho" .
+
+<http://www.example.net/group42/resource/bici/45> a base:EstacionBici ;
+	base:nCapacidad "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "675300.9241561614 4614364.322915688"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Avda. Pablo Gargallo - Calle Ignacio Menaya" .
+
+<http://www.example.net/group42/resource/bici/46> a base:EstacionBici ;
+	base:nCapacidad "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "676094.9231835532 4613477.412387599"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Calle Ramón y Cajal - Calle Madre Rafols" .
+
+<http://www.example.net/group42/resource/bici/47> a base:EstacionBici ;
+	base:nCapacidad "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "676787.9508470905 4613916.956012998"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Plaza del Pilar - Edificio Turismo " .
+
+<http://www.example.net/group42/resource/bici/48> a base:EstacionBici ;
+	base:nCapacidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "18"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "677195.2331748571 4613545.258063194"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Plaza Magdalena" .
+
+<http://www.example.net/group42/resource/bici/49> a base:EstacionBici ;
+	base:nCapacidad "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:slotsAvaliable "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:geoPosition "678253.8887429056 4613481.584281914"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	base:lastUpdated "2015-10-19T00:22:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:noCalle "Pº Echegaray y Caballero - Calle Salvador Minguijón" .

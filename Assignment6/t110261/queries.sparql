@@ -1,0 +1,61 @@
+# Miguel Garcia Lafuente - t110261
+
+# Prefixes
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX property: <http://geo.linkeddata.es/stats/property#>
+PREFIX mn: <http://example.org/resources/>
+
+# 1
+# How many accidents were there in Madrid in 2013?
+
+select (SUM(?acc) AS ?Accidents)
+where {
+  ?obs a qb:Observation ;
+  mv:numberOfAccidents ?acc .
+}
+
+# 2
+# Give me the number of accidents in Usera for each type of accident
+
+select ?typeAcc ?acc WHERE {
+  ?obs a qb:Observation ;
+  mv:relatedDistrict  "USERA" ;
+  mv:hasAccidentType ?typeAcc ;
+  mv:numberOfAccidents ?acc ;
+  qb:dataSet mn:MyDataset .
+}
+
+# 3
+# Give me the number of multiple collisions for each district
+
+select ?district ?acc WHERE {
+  ?obs a qb:Observation ;
+  mv:relatedDistrict ?district ;
+  mv:hasAccidentType mv:MultipleCollision ;
+  mv:numberOfAccidents ?acc ;
+  qb:dataSet mn:MyDataset .
+}
+
+# 4
+# Which is the district were the number of bicycle falls was higher in 2013?
+
+SELECT ?district WHERE {
+  ?obs a qb:Observation ;
+  mv:relatedDistrict ?district ;
+  mv:hasAccidentType mv:BicycleFall ;
+  mv:numberOfAccidents ?n .
+} ORDER BY DESC(?n) LIMIT 1
+
+# 5
+# Give me the districts with more than 500 accidents in 2013
+
+select ?district WHERE {
+  ?obs a qb:Observation ;
+  mv:relatedDistrict ?district;
+  qb:dataSet mn:MyDataset ;
+  mv:numberOfAccidents ?acc .
+  FILTER (?acc > 500)
+}

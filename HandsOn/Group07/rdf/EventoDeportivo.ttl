@@ -1,0 +1,57 @@
+@base <http://www.semanticweb.org/> .
+@prefix datosbne: <http://www.semanticweb.org/instances/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dctype:	<http://purl.org/dc/dcmitype/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard:	<http://www.w3.org/2006/vcard/ns#> .
+@prefix rdflicense:	<http://purl.org/NET/rdflicense/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix ont: <http://linkedgeodata.org/ontology/SportsCentre> .
+
+:catalog
+	a dcat:Catalog ;
+	dct:title "Dataset of sport events in Madrid"@en , "Dataset de las actividades deportivas de Madrid"@es ;
+	rdfs:label "datos.madrid.es RDF catalog"@en , "Catálogo RDF datos.madrid.es RDF"@es ;
+	foaf:homepage <http://datos.madrid.es/portal/site/egob/> ;
+	dct:creator <http://datos.madrid.es>
+	dct:source <http://datos.madrid.es>
+	dct:publisher ssanchezd ;
+	dct:publisher juanekele ;
+	dct:publisher davidboces ;
+	dct:publisher SergiuDC ;
+	dct:license rdflicense:cc-zero1.0 ;
+	dct:language <http://lexvo.org/id/iso639-3/spa> ;
+	dcat:dataset :EventoDeportivo, :Direccion ;
+	.
+
+# EventoDeportivo
+:EventoDeportivo
+	a dcat:Dataset ;
+	dct:title "Sports events in Madrid of datos.madrid.es"@en, "Eventos deportivos de Madrid de datos.madrid.es"@es  ;
+	dcat:keyword "EventoDeportivo"@en, "EventoDeportivo"@es ;
+	dct:issued "2015-12-20"^^xsd:date ;
+    dct:modified "2015-12-20"^^xsd:date ;
+    dcat:description "Eventos deportivos en madrid" ;
+    dcat:distribution :EventoDeportivo-nt, :sparql ;
+	dct:license rdflicense:cc-zero1.0 ;
+    .
+	
+:EventoDeportivo-nt
+	a dcat:Distribution ;
+	dcat:downloadURL <http://datos.madrid.es/egob/catalogo/212504-0-agenda-actividades-deportes.csv> ;
+	dct:title "Distribution of Sports events in Madrid"@en , "Distribución de eventos deportivos de Madrid"@es ;
+    dcat:mediaType "application/csv" ;
+    dct:license rdflicense:cc-zero1.0 ;
+    .
+	
+:EventoDeportivo
+a void:Dataset;
+void:exampleResource <http://www.semanticweb.org/Group07/Instance#> .
+void:uriSpace "http://semanticweb.org/Group07/Instances#" .
+

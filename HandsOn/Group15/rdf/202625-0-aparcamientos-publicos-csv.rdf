@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:base="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#">
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13470">
+	<base:tieneNombre>Aparcamiento mixto. Arquitecto Ribera</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a50e15cbed51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>BARCELO</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28004</base:tieneCodigoPostal>
+	<base:tieneBarrio>JUSTICIA</base:tieneBarrio>
+	<base:TieneDistrito>CENTRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440764</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475560</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.426687899755734</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6996173701222492</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">318</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">298</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#59060">
+	<base:tieneNombre>Aparcamiento mixto. Avenida de América (intercambiador)</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=3f3bc2c6e051c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>PRADENA DEL RINCON</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28002</base:tieneCodigoPostal>
+	<base:tieneBarrio>PROSPERIDAD</base:tieneBarrio>
+	<base:TieneDistrito>CHAMARTIN</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442725</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476896</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.43886083125741</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6766217383743345</base:tieneLongitud>
+	<base:tieneTelefono>917 376 257</base:tieneTelefono>
+	<base:tieneEmail>intercambiador@intercambiador.net</base:tieneEmail>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">269</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">392</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#5898885">
+	<base:tieneNombre>Aparcamiento mixto. Avenida de Portugal</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c313e26f2b3fc210VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>PORTUGAL</base:tieneNombreVia>
+	<base:tieneClaseVia>AVENIDA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">155</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28011</base:tieneCodigoPostal>
+	<base:tieneBarrio>PUERTA DEL ANGEL</base:tieneBarrio>
+	<base:TieneDistrito>LATINA</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">437508</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4473865</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.411180021966345</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7378318857463158</base:tieneLongitud>
+	<base:tieneTelefono>917 877 292</base:tieneTelefono>
+	<base:tieneEmail>aparcamientos@madridmovilidad.es</base:tieneEmail>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">433</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">437</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13475">
+	<base:tieneNombre>Aparcamiento mixto. Brasil</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fb2e15cbed51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>GENERAL YAG&amp;Uuml;E</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28020</base:tieneCodigoPostal>
+	<base:tieneBarrio>CUATRO CAMINOS</base:tieneBarrio>
+	<base:TieneDistrito>TETUAN</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">441255</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4478822</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.45610834965894</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.694131675088486</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">226</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">400</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#183747">
+	<base:tieneNombre>Aparcamiento mixto. Casino de la Reina</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c5f4bdc85c01c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>CASINO</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28005</base:tieneCodigoPostal>
+	<base:tieneBarrio>EMBAJADORES</base:tieneBarrio>
+	<base:TieneDistrito>CENTRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440323</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4473355</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.406792648617134</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7046086019457167</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">135</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">449</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13477">
+	<base:tieneNombre>Aparcamiento mixto. Condesa de Gavia</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7e5f15cbed51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>CONDESA DE GAVIA</base:tieneNombreVia>
+	<base:tieneClaseVia>PLAZA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28020</base:tieneCodigoPostal>
+	<base:tieneBarrio>CUATRO CAMINOS</base:tieneBarrio>
+	<base:TieneDistrito>TETUAN</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440589</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4478081</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.44938567948415</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7019164121880888</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">73</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">79</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#24103">
+	<base:tieneNombre>Aparcamiento mixto. Corazón de María II</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=b74e6545f951c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>CORAZON DE MARIA</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">46</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28002</base:tieneCodigoPostal>
+	<base:tieneBarrio>PROSPERIDAD</base:tieneBarrio>
+	<base:TieneDistrito>CHAMARTIN</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">443554</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4477507</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.444421820483264</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.666902094780133</base:tieneLongitud>
+	<base:tieneTelefono>915 563 165 / 915 195 280</base:tieneTelefono>
+	<base:tieneEmail>aparcamientocorazondemaria@grupocogesa.es</base:tieneEmail>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">327</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">750</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#81736">
+	<base:tieneNombre>Aparcamiento mixto. Corona Boreal</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=db8bc2c6e051c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>PEREZ DE VICTORIA</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28023</base:tieneCodigoPostal>
+	<base:tieneBarrio>ARAVACA</base:tieneBarrio>
+	<base:TieneDistrito>MONCLOA-ARAVACA</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">433707</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4479153</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.45852127134047</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.78317943069732</base:tieneLongitud>
+	<base:tieneTelefono>913 573 714</base:tieneTelefono>
+	<base:tieneEmail>parkingcoronaboreal@hotmail.com</base:tieneEmail>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">120</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">125</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#183748">
+	<base:tieneNombre>Aparcamiento mixto. Daoíz y Velarde</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0f85bdc85c01c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>CIUDAD DE BARCELONA</base:tieneNombreVia>
+	<base:tieneClaseVia>AVENIDA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28007</base:tieneCodigoPostal>
+	<base:tieneBarrio>PACIFICO</base:tieneBarrio>
+	<base:TieneDistrito>RETIRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442108</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4473177</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.40531540835356</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.683557034656531</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">312</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">174</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#44724">
+	<base:tieneNombre>Aparcamiento mixto. Díaz Porlier</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9e69946be351c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>DIEGO DE LEON</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">62</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28006</base:tieneCodigoPostal>
+	<base:tieneBarrio>LISTA</base:tieneBarrio>
+	<base:TieneDistrito>SALAMANCA</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442797</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476402</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.434415601006386</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.675728293375598</base:tieneLongitud>
+	<base:tieneTelefono>91 401 73 74</base:tieneTelefono>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">203</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">421</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#36269">
+	<base:tieneNombre>Aparcamiento mixto. Encuentro</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c3e12c798651c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>ENCUENTRO</base:tieneNombreVia>
+	<base:tieneClaseVia>PLAZA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28030</base:tieneCodigoPostal>
+	<base:tieneBarrio>MEDIA LEGUA</base:tieneBarrio>
+	<base:TieneDistrito>MORATALAZ</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">444782</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4473212</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.40581270738191</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.652048809515808</base:tieneLongitud>
+	<base:tieneTelefono>91 328 36 80</base:tieneTelefono>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">104</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">550</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13464">
+	<base:tieneNombre>Aparcamiento mixto. Felipe II</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=425e15cbed51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>ANTONIA MERCE</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5-B</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28009</base:tieneCodigoPostal>
+	<base:tieneBarrio>GOYA</base:tieneBarrio>
+	<base:TieneDistrito>SALAMANCA</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442983</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475269</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.42422175692137</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.673433652213169</base:tieneLongitud>
+	<base:tieneTelefono>914 329 300</base:tieneTelefono>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1218</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">607</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13462">
+	<base:tieneNombre>Aparcamiento mixto. Fuencarral</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=987e15cbed51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>FUENCARRAL</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">111 a 121</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28010</base:tieneCodigoPostal>
+	<base:tieneBarrio>TRAFALGAR</base:tieneBarrio>
+	<base:TieneDistrito>CHAMBERI</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440497</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475873</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.42948845687032</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7027941027177986</base:tieneLongitud>
+	<base:tieneTelefono>915 468 939</base:tieneTelefono>
+	<base:tieneEmail>clientes@empark.es</base:tieneEmail>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">410</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">111</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13515">
+	<base:tieneNombre>Aparcamiento mixto. General Yagüe</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=ee9e15cbed51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>BRASIL</base:tieneNombreVia>
+	<base:tieneClaseVia>AVENIDA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28020</base:tieneCodigoPostal>
+	<base:tieneBarrio>CASTILLEJOS</base:tieneBarrio>
+	<base:TieneDistrito>TETUAN</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">441261</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4478892</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.45673936450418</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.694067405537416</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">409</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">717</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#36270">
+	<base:tieneNombre>Aparcamiento mixto. Hernani</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d0712c798651c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>HERNANI</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">60</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28020</base:tieneCodigoPostal>
+	<base:tieneBarrio>CUATRO CAMINOS</base:tieneBarrio>
+	<base:TieneDistrito>TETUAN</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440463</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4477972</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.448394729978006</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7033919552673127</base:tieneLongitud>
+	<base:tieneTelefono>915 545 326</base:tieneTelefono>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">115</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">383</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13459">
+	<base:tieneNombre>Aparcamiento mixto. Jacinto Benavente</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=c48f15cbed51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>JACINTO BENAVENTE</base:tieneNombreVia>
+	<base:tieneClaseVia>PLAZA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28012</base:tieneCodigoPostal>
+	<base:tieneBarrio>CORTES</base:tieneBarrio>
+	<base:TieneDistrito>CENTRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440439</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474203</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.41444016371457</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.70332112917586</base:tieneLongitud>
+	<base:tieneTelefono>917 877 292</base:tieneTelefono>
+	<base:tieneEmail>aparcamientos@madridmovilidad.es</base:tieneEmail>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">285</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">110</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13479">
+	<base:tieneNombre>Aparcamiento mixto. José Castán Tobeñas</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=35ce15cbed51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>CAPITAN HAYA</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">57</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28020</base:tieneCodigoPostal>
+	<base:tieneBarrio>CASTILLEJOS</base:tieneBarrio>
+	<base:TieneDistrito>TETUAN</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">441477</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4479747</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.46451060463543</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6916467875121377</base:tieneLongitud>
+	<base:tieneTelefono>915 707 612</base:tieneTelefono>
+	<base:tieneEmail>aeuropeos@gmail.com</base:tieneEmail>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">205</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">43</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#6143690">
+	<base:tieneNombre>Aparcamiento mixto. Marqués de Salamanca</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=cb5b1b2bb5b61310VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>MARQUES DE SALAMANCA</base:tieneNombreVia>
+	<base:tieneClaseVia>PLAZA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28006</base:tieneCodigoPostal>
+	<base:tieneBarrio>LISTA</base:tieneBarrio>
+	<base:TieneDistrito>SALAMANCA</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442498</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475966</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.43046723981028</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6792137901324056</base:tieneLongitud>
+	<base:tieneTelefono>917 877 292</base:tieneTelefono>
+	<base:tieneEmail>aparcamientos@madridmovilidad.es</base:tieneEmail>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">360</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#182188">
+	<base:tieneNombre>Aparcamiento mixto. Miguel Yuste</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=1c15bdc85c01c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>MIGUEL YUSTE</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28037</base:tieneCodigoPostal>
+	<base:tieneBarrio>SIMANCAS</base:tieneBarrio>
+	<base:TieneDistrito>SAN BLAS-CANILLEJAS</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">447100</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4477013</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4402052387976</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.625049272913964</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">182</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">68</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#5517342">
+	<base:tieneNombre>Aparcamiento mixto. Orense</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=eee35ed15bb95210VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>SOR ANGELA DE LA CRUZ</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28020</base:tieneCodigoPostal>
+	<base:tieneBarrio>CASTILLEJOS</base:tieneBarrio>
+	<base:TieneDistrito>TETUAN</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">441080</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4479226</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.45973534025835</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6962330375922363</base:tieneLongitud>
+	<base:tieneTelefono>917 877 292</base:tieneTelefono>
+	<base:tieneEmail>aparcamientos@madridmovilidad.es</base:tieneEmail>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">128</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">663</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#33440">
+	<base:tieneNombre>Aparcamiento mixto. Oriente</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=7db12c798651c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>ORIENTE</base:tieneNombreVia>
+	<base:tieneClaseVia>PLAZA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28013</base:tieneCodigoPostal>
+	<base:tieneBarrio>PALACIO</base:tieneBarrio>
+	<base:TieneDistrito>CENTRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">439736</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474563</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.417632509561116</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7116407088004757</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">242</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">511</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#36271">
+	<base:tieneNombre>Aparcamiento mixto. Presidente Carmona</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8a412c798651c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>PRESIDENTE CARMONA</base:tieneNombreVia>
+	<base:tieneClaseVia>AVENIDA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28020</base:tieneCodigoPostal>
+	<base:tieneBarrio>CUATRO CAMINOS</base:tieneBarrio>
+	<base:TieneDistrito>TETUAN</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440965</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4478549</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.45362846199134</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6975262417380064</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">379</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">124</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13476">
+	<base:tieneNombre>Aparcamiento mixto. Recoletos</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=283f15cbed51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>RECOLETOS</base:tieneNombreVia>
+	<base:tieneClaseVia>PASEO</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28001</base:tieneCodigoPostal>
+	<base:tieneBarrio>RECOLETOS</base:tieneBarrio>
+	<base:TieneDistrito>SALAMANCA</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">441407</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474873</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.42054469225109</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.691974283683488</base:tieneLongitud>
+	<base:tieneTelefono>917 877 292</base:tieneTelefono>
+	<base:tieneEmail>aparcamientos@madridmovilidad.es</base:tieneEmail>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">102</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">289</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#24193">
+	<base:tieneNombre>Aparcamiento mixto. República Dominicana</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=aabe6545f951c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>REPUBLICA DOMINICANA</base:tieneNombreVia>
+	<base:tieneClaseVia>PLAZA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6-B</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28016</base:tieneCodigoPostal>
+	<base:tieneBarrio>NUEVA ESPAÑA</base:tieneBarrio>
+	<base:TieneDistrito>CHAMARTIN</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442750</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4479117</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.45887037458626</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6765275895176677</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">892</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">203</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#167692">
+	<base:tieneNombre>Aparcamiento mixto. San Cayetano</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a284ff632081c010VgnVCM1000000b205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>SAN CAYETANO</base:tieneNombreVia>
+	<base:tieneClaseVia>PLAZA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1-B</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28028</base:tieneCodigoPostal>
+	<base:tieneBarrio>GUINDALERA</base:tieneBarrio>
+	<base:TieneDistrito>SALAMANCA</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">443276</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476388</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.43432235224971</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6700799322371056</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">222</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">261</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#19053">
+	<base:tieneNombre>Aparcamiento mixto. Sánchez Bustillo</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=27912c798651c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>SANCHEZ BUSTILLO</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28012</base:tieneCodigoPostal>
+	<base:tieneBarrio>EMBAJADORES</base:tieneBarrio>
+	<base:TieneDistrito>CENTRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">441224</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4473612</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.40917205238472</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6940145592988043</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">132</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">408</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#7416748">
+	<base:tieneNombre>Aparcamiento mixto. Serrano I</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bd61f94ae1d15410VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>JUAN BRAVO</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4-B</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28006</base:tieneCodigoPostal>
+	<base:tieneBarrio>CASTELLANA</base:tieneBarrio>
+	<base:TieneDistrito>SALAMANCA</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">441944</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476240</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.43289700914247</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6857697780390155</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">307</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">831</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#7417028">
+	<base:tieneNombre>Aparcamiento mixto. Serrano II</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bc096f1c35d15410VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>JOSE ORTEGA Y GASSET</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1-B</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28006</base:tieneCodigoPostal>
+	<base:tieneBarrio>CASTELLANA</base:tieneBarrio>
+	<base:TieneDistrito>SALAMANCA</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">441729</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475986</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.43059379257075</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.688281097618061</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">379</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">794</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#7417052">
+	<base:tieneNombre>Aparcamiento mixto. Serrano III</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9a1c6f1c35d15410VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>JORGE JUAN</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1-B</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28001</base:tieneCodigoPostal>
+	<base:tieneBarrio>RECOLETOS</base:tieneBarrio>
+	<base:TieneDistrito>SALAMANCA</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">441597</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475307</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.42446775888825</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6897747066093993</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">261</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">725</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13460">
+	<base:tieneNombre>Aparcamiento mixto. Sevilla</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9dd67339ae51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>ALCALA</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17-B</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28014</base:tieneCodigoPostal>
+	<base:tieneBarrio>SOL</base:tieneBarrio>
+	<base:TieneDistrito>CENTRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440740</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474574</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.41780383567921</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6998082261071747</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">476</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">70</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#52114">
+	<base:tieneNombre>Aparcamiento mixto. Vázquez de Mella</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e499946be351c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>VAZQUEZ DE MELLA</base:tieneNombreVia>
+	<base:tieneClaseVia>PLAZA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28004</base:tieneCodigoPostal>
+	<base:tieneBarrio>JUSTICIA</base:tieneBarrio>
+	<base:TieneDistrito>CENTRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440735</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474924</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4209564450911</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.699899832865304</base:tieneLongitud>
+	<base:tieneTelefono>917 877 292</base:tieneTelefono>
+	<base:tieneEmail>aparcamientos@movilidad.es</base:tieneEmail>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">109</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">261</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13458">
+	<base:tieneNombre>Aparcamiento mixto. Velázquez - Ayala</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8bee15cbed51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>VELAZQUEZ</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">47</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28001</base:tieneCodigoPostal>
+	<base:tieneBarrio>RECOLETOS</base:tieneBarrio>
+	<base:TieneDistrito>SALAMANCA</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442075</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475607</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.427203787185476</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6841676172873936</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">464</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">235</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13457">
+	<base:tieneNombre>Aparcamiento mixto. Velázquez Jorge Juan</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d11f15cbed51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>VELAZQUEZ</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25-B</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28001</base:tieneCodigoPostal>
+	<base:tieneBarrio>RECOLETOS</base:tieneBarrio>
+	<base:TieneDistrito>SALAMANCA</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442058</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475292</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4243649253884</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.684339253399854</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">549</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">395</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#183607">
+	<base:tieneNombre>Aparcamiento mixto. Verdaguer y García</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=6245bdc85c01c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>VERDAGUER Y GARCIA</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28027</base:tieneCodigoPostal>
+	<base:tieneBarrio>SAN PASCUAL</base:tieneBarrio>
+	<base:TieneDistrito>CIUDAD LINEAL</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">444432</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4477001</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.43992277144076</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.656505118007155</base:tieneLongitud>
+	<base:tieneTelefono>913 531 050</base:tieneTelefono>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">83</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">180</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#7073131">
+	<base:tieneNombre>Aparcamiento público.  Nuestra Señora del Recuerdo</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=12f4322b42690410VgnVCM1000000b205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>HIEDRA</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28036</base:tieneCodigoPostal>
+	<base:tieneBarrio>CASTILLA</base:tieneBarrio>
+	<base:TieneDistrito>CHAMARTIN</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442535</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4480554</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.47180063753809</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6791936061781114</base:tieneLongitud>
+	<base:tieneTelefono>917 877 292</base:tieneTelefono>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">819</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13452">
+	<base:tieneNombre>Aparcamiento público. Almagro</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0e167339ae51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>ALMAGRO</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28010</base:tieneCodigoPostal>
+	<base:tieneBarrio>ALMAGRO</base:tieneBarrio>
+	<base:TieneDistrito>CHAMBERI</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">441316</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475957</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.43030345785862</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6931471299523446</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">462</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#7393089">
+	<base:tieneNombre>Aparcamiento público. Auditorio Nacional de Música (Príncipe de Vergara)</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=ed88f25e040c4410VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>CARTAGENA</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">176</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28002</base:tieneCodigoPostal>
+	<base:tieneBarrio>CIUDAD JARDIN</base:tieneBarrio>
+	<base:TieneDistrito>CHAMARTIN</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442638</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4477497</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.44426892073378</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6777018495296048</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">376</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13473">
+	<base:tieneNombre>Aparcamiento público. Descalzas</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=98e77339ae51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>DESCALZAS</base:tieneNombreVia>
+	<base:tieneClaseVia>PLAZA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28013</base:tieneCodigoPostal>
+	<base:tieneBarrio>SOL</base:tieneBarrio>
+	<base:TieneDistrito>CENTRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440189</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474611</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.41809765692244</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.706306013191402</base:tieneLongitud>
+	<base:tieneTelefono>91 532 57 57</base:tieneTelefono>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosResidentes</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">400</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#24809">
+	<base:tieneNombre>Aparcamiento público. Fernández Shaw</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=0e6e6545f951c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>CARLOS Y GUILLERMO FERNANDEZ SHAW</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28007</base:tieneCodigoPostal>
+	<base:tieneBarrio>ADELFAS</base:tieneBarrio>
+	<base:TieneDistrito>RETIRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">443319</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4473244</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.406002468696784</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.669292239090564</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">245</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13478">
+	<base:tieneNombre>Aparcamiento público. Glorieta Puerta de Toledo</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=5f477339ae51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>CAPITAN SALAZAR MARTINEZ</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28005</base:tieneCodigoPostal>
+	<base:tieneBarrio>EMBAJADORES</base:tieneBarrio>
+	<base:TieneDistrito>CENTRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">439865</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4473432</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.40745328367243</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7100131737859567</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">244</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13467">
+	<base:tieneNombre>Aparcamiento público. Las Cortes</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=42c77339ae51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>LAS CORTES</base:tieneNombreVia>
+	<base:tieneClaseVia>PLAZA</base:tieneClaseVia>
+	<base:tieneTipoNumero>NUM</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28014</base:tieneCodigoPostal>
+	<base:tieneBarrio>CORTES</base:tieneBarrio>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">441115</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474345</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.41576756093728</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.695367083138702</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">480</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13449">
+	<base:tieneNombre>Aparcamiento público. Luna - Tudescos</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=54467339ae51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>SANTA MARIA SOLEDAD TORRES ACOSTA</base:tieneNombreVia>
+	<base:tieneClaseVia>PLAZA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28004</base:tieneCodigoPostal>
+	<base:tieneBarrio>UNIVERSIDAD</base:tieneBarrio>
+	<base:TieneDistrito>CENTRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440255</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474983</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4214535549175</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.705563118253955</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">481</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13469">
+	<base:tieneNombre>Aparcamiento público. Marqués de Urquijo</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=aa667339ae51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>MARQUES DE URQUIJO</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28008</base:tieneCodigoPostal>
+	<base:tieneBarrio>ARGUELLES</base:tieneBarrio>
+	<base:TieneDistrito>MONCLOA-ARAVACA</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">439113</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475892</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.42955928333471</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.719111078507027</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">482</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13465">
+	<base:tieneNombre>Aparcamiento público. Montalbán</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=f0967339ae51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>MONTALBAN</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28014</base:tieneCodigoPostal>
+	<base:tieneBarrio>LOS JERONIMOS</base:tieneBarrio>
+	<base:TieneDistrito>RETIRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">441477</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474593</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.41802725000116</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.691123387515545</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">275</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13451">
+	<base:tieneNombre>Aparcamiento público. Mostenses</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fe0881eb5f51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>GARCIA MOLINAS</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28015</base:tieneCodigoPostal>
+	<base:tieneBarrio>UNIVERSIDAD</base:tieneBarrio>
+	<base:TieneDistrito>CENTRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">439979</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475132</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.4227759148193</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.708830424647755</base:tieneLongitud>
+	<base:tieneTelefono>902 283 080</base:tieneTelefono>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">362</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#88141">
+	<base:tieneNombre>Aparcamiento público. Museo de la Ciudad</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=bdc7bdc85c01c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>PRINCIPE DE VERGARA</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">134</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28002</base:tieneCodigoPostal>
+	<base:tieneBarrio>CIUDAD JARDIN</base:tieneBarrio>
+	<base:TieneDistrito>CHAMARTIN</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442593</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4477430</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.44366224087455</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6782263814004565</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">147</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13450">
+	<base:tieneNombre>Aparcamiento público. Olavide</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=453881eb5f51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>OLAVIDE</base:tieneNombreVia>
+	<base:tieneClaseVia>PLAZA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28010</base:tieneCodigoPostal>
+	<base:tieneBarrio>TRAFALGAR</base:tieneBarrio>
+	<base:TieneDistrito>CHAMBERI</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440639</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476237</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.43277769820206</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7011542013121264</base:tieneLongitud>
+	<base:tieneTelefono>914 468 570</base:tieneTelefono>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">397</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13454">
+	<base:tieneNombre>Aparcamiento público. Plaza de Colón</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=a5777339ae51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>GOYA</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28001</base:tieneCodigoPostal>
+	<base:tieneBarrio>RECOLETOS</base:tieneBarrio>
+	<base:TieneDistrito>SALAMANCA</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">441682</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475386</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.42518540300912</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6887800207651495</base:tieneLongitud>
+	<base:tieneTelefono>915 761 837</base:tieneTelefono>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">605</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13463">
+	<base:tieneNombre>Aparcamiento público. Plaza de España</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=fb977339ae51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>ESPA&amp;Ntilde;A</base:tieneNombreVia>
+	<base:tieneClaseVia>PLAZA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28008</base:tieneCodigoPostal>
+	<base:tieneBarrio>ARGUELLES</base:tieneBarrio>
+	<base:TieneDistrito>MONCLOA-ARAVACA</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">439740</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475239</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.42372251184839</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.7116577340508523</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">824</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13472">
+	<base:tieneNombre>Aparcamiento público. Plaza del Carmen</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=8ec881eb5f51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>CARMEN</base:tieneNombreVia>
+	<base:tieneClaseVia>PLAZA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28013</base:tieneCodigoPostal>
+	<base:tieneBarrio>SOL</base:tieneBarrio>
+	<base:TieneDistrito>CENTRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440464</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474652</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.41848676016168</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.703068586180966</base:tieneLongitud>
+	<base:tieneTelefono>915 214 312</base:tieneTelefono>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">450</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13474">
+	<base:tieneNombre>Aparcamiento público. Plaza del Rey</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=d4f881eb5f51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>REY</base:tieneNombreVia>
+	<base:tieneClaseVia>PLAZA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28004</base:tieneCodigoPostal>
+	<base:tieneBarrio>JUSTICIA</base:tieneBarrio>
+	<base:TieneDistrito>CENTRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">441076</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474836</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.42018796139455</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.69587231093941</base:tieneLongitud>
+	<base:tieneTelefono>915 225 219</base:tieneTelefono>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">160</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13466">
+	<base:tieneNombre>Aparcamiento público. Plaza Mayor</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=2b1981eb5f51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>FELIPE III</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28012</base:tieneCodigoPostal>
+	<base:tieneBarrio>SOL</base:tieneBarrio>
+	<base:TieneDistrito>CENTRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440137</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474364</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.41586882022003</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.706895619414367</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">694</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13456">
+	<base:tieneNombre>Aparcamiento público. Santa Ana</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=9b5881eb5f51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>SANTA ANA</base:tieneNombreVia>
+	<base:tieneClaseVia>PLAZA</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28012</base:tieneCodigoPostal>
+	<base:tieneBarrio>CORTES</base:tieneBarrio>
+	<base:TieneDistrito>CENTRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440645</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4474250</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.41487830605113</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.700897645451053</base:tieneLongitud>
+	<base:tieneTelefono>915 214 312</base:tieneTelefono>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">325</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13468">
+	<base:tieneNombre>Aparcamiento público. Velázquez - Juan Bravo</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=e3077339ae51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>VELAZQUEZ</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">88-B</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28006</base:tieneCodigoPostal>
+	<base:tieneBarrio>CASTELLANA</base:tieneBarrio>
+	<base:TieneDistrito>SALAMANCA</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">442140</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4476138</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.431991827319116</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.683449815935094</base:tieneLongitud>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">371</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#13453">
+	<base:tieneNombre>Aparcamiento público. Villa de París</base:tieneNombre>
+	<base:tieneAccesibilidad rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</base:tieneAccesibilidad>
+	<base:tieneURL>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&amp;vgnextoid=38a881eb5f51c010VgnVCM2000000c205a0aRCRD</base:tieneURL>
+	<base:tieneNombreVia>MARQUES DE LA ENSENADA</base:tieneNombreVia>
+	<base:tieneClaseVia>CALLE</base:tieneClaseVia>
+	<base:tieneTipoNumero>V</base:tieneTipoNumero>
+	<base:tieneNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1-B</base:tieneNumero>
+	<base:tieneLocalidad rdf:datatype="http://dbpedia.org/resource/Madrid">MADRID</base:tieneLocalidad>
+	<base:tieneProvincia rdf:datatype="http://aparcamientos.madrid.org/grupo15/ontology/aparcamientos#%22http%3A%2F%2Fdbpedia.org%2Fresource%2FMadrid%22%2F">MADRID</base:tieneProvincia>
+	<base:tieneCodigoPostal rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28004</base:tieneCodigoPostal>
+	<base:tieneBarrio>JUSTICIA</base:tieneBarrio>
+	<base:TieneDistrito>CENTRO</base:TieneDistrito>
+	<base:tieneCoordenadaX rdf:datatype="http://www.w3.org/2001/XMLSchema#int">441373</base:tieneCoordenadaX>
+	<base:tieneCoordenadaY rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4475380</base:tieneCoordenadaY>
+	<base:tieneLatitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.42533530030625</base:tieneLatitud>
+	<base:tieneLongitud rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-3.6923416648619947</base:tieneLongitud>
+	<base:tieneEmail>aparcamientos@movilidad.es</base:tieneEmail>
+	<base:tieneTipo>/contenido/entidadesYorganismos/AparcamientosPublicos</base:tieneTipo>
+	<base:tieneNumeroPlazasPublicas rdf:datatype="http://www.w3.org/2001/XMLSchema#int">341</base:tieneNumeroPlazasPublicas>
+	<base:NumeroPlazasResidentes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</base:NumeroPlazasResidentes>
+</rdf:Description>
+
+</rdf:RDF>

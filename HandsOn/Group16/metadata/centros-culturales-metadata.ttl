@@ -1,0 +1,17 @@
+@base <http://www.linkedculture.org/> .
+@prefix linkedculture: <http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#>.
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+
+:activities
+	a void:Dataset;
+	dct:title "RDF information about all the cultural centers in Madrid"@en ,
+			 "Información en RDF sobre todos los centros culturales de Madrid"@es ;
+	dct:description "List of all the cultural centers placed in Madrid" ;
+	dct:source <http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=fc8a034270603410VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD> ; 
+	dct:creator <https://www.twitter.com/carrizosant>, ; 
+	foaf:homepage <http://www.linkedculture.org/> ;	
+	void:exampleResource <http://www.linkedculture.org/ontologies/resource/Centro+Cultural+Las+Virtudes> .
+	void:uriSpace "http://www.linkedculture.org/ontologies/resource/" .

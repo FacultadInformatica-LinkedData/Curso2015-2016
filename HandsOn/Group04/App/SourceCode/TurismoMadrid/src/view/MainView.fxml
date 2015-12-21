@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Region?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@Theme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainViewCtrl">
+   <children>
+      <Text layoutX="217.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Turismo Madrid" textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Bold" size="25.0" />
+         </font>
+      </Text>
+      <ScrollPane layoutX="162.0" layoutY="57.0" prefHeight="344.0" prefWidth="438.0" styleClass="listView" stylesheets="@Theme.css">
+         <content>
+            <ListView fx:id="listView" onMouseClicked="#detailButton" prefHeight="322.0" prefWidth="420.0" styleClass="listView" stylesheets="@Theme.css" />
+         </content>
+      </ScrollPane>
+      <Button layoutX="25.0" layoutY="65.0" mnemonicParsing="false" onAction="#jardines" prefHeight="44.0" prefWidth="117.0" text="Jardines" />
+      <Button layoutX="25.0" layoutY="119.0" mnemonicParsing="false" onAction="#monumentos" prefHeight="44.0" prefWidth="117.0" text="Monumentos" />
+      <Button layoutX="25.0" layoutY="173.0" mnemonicParsing="false" onAction="#museos" prefHeight="44.0" prefWidth="117.0" text="Museos" />
+      <Button layoutX="25.0" layoutY="227.0" mnemonicParsing="false" onAction="#teatros" prefHeight="44.0" prefWidth="117.0" text="Teatros" />
+      <Button layoutX="25.0" layoutY="281.0" mnemonicParsing="false" onAction="#wifi" prefHeight="44.0" prefWidth="117.0" text="Wifi" />
+      <Button layoutX="25.0" layoutY="333.0" mnemonicParsing="false" onAction="#oficinas" prefHeight="44.0" prefWidth="117.0" text="Of. Turisticas" />
+   </children>
+</Pane>

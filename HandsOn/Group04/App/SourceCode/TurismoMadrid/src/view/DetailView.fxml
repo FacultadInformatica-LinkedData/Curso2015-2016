@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Region?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.DetailViewCtrl">
+   <children>
+      <Text layoutX="358.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Detalles" textAlignment="CENTER">
+         <font>
+            <Font name="Calibri Bold" size="25.0" />
+         </font>
+      </Text>
+      <ListView fx:id="concept" layoutX="16.0" layoutY="67.0" prefHeight="430.0" prefWidth="126.0" />
+      <ListView fx:id="detail" layoutX="140.0" layoutY="67.0" prefHeight="430.0" prefWidth="640.0" />
+   </children>
+</Pane>

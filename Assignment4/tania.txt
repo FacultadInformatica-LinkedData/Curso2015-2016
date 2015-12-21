@@ -1,0 +1,244 @@
+#############
+##### 1 #####
+############# 
+
+select ?class where {
+?class a <http://www.w3.org/2000/01/rdf-schema#Class>
+} LIMIT 50
+
+http://www.w3.org/2002/07/owl#Class
+http://www.w3.org/2002/07/owl#Ontology
+http://www.w3.org/2002/07/owl#OntologyProperty
+http://www.w3.org/2002/07/owl#AnnotationProperty
+http://www.w3.org/2002/07/owl#AllDifferent
+http://www.w3.org/2002/07/owl#Restriction
+http://www.w3.org/2002/07/owl#ObjectProperty
+http://www.w3.org/2002/07/owl#DatatypeProperty
+http://www.w3.org/2002/07/owl#TransitiveProperty
+http://www.w3.org/2002/07/owl#SymmetricProperty
+http://www.w3.org/2002/07/owl#FunctionalProperty
+http://www.w3.org/2002/07/owl#InverseFunctionalProperty
+http://www.w3.org/2002/07/owl#DeprecatedClass
+http://www.w3.org/2002/07/owl#DeprecatedProperty
+http://www.w3.org/2002/07/owl#DataRange
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
+http://www.w3.org/2002/07/owl#Class
+http://www.w3.org/2000/01/rdf-schema#Class
+http://www.w3.org/1999/02/22-rdf-syntax-ns#List
+http://www.w3.org/2002/07/owl#ObjectProperty
+http://www.w3.org/2002/07/owl#DatatypeProperty
+http://energy.linkeddata.es/PQube.owl#PropertySummaryValue
+http://energy.linkeddata.es/PQube.owl#ObservationValue
+http://energy.linkeddata.es/PQube.owl#PQubePropertySummary
+http://www.loa-cnr.it/ontologies/DUL.owl#TimeInterval
+http://energy.linkeddata.es/PQube.owl#PQubeProperty
+http://www.w3.org/2000/01/rdf-schema#Resource
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement
+http://energy.linkeddata.es/PQube.owl#DailyObservationCollection
+http://energy.linkeddata.es/PQube.owl#PQubeDevice
+http://www.w3.org/2000/01/rdf-schema#Container
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag
+http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty
+http://energy.linkeddata.es/PQube.owl#Building
+http://www.w3.org/2000/01/rdf-schema#Datatype
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt
+http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral
+http://energy.linkeddata.es/PQube.owl#PQubeConfiguration
+http://www.w3.org/2000/01/rdf-schema#Literal
+http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq
+http://datos.localidata.com/def/CityStats/code#Nacionalidad
+http://GP-onto.fi.upm.es/exercise2#OnFoot
+http://GP-onto.fi.upm.es/exercise2#TransportMedium
+http://GP-onto.fi.upm.es/exercise2#Hostel
+http://GP-onto.fi.upm.es/exercise2#Establishment
+http://GP-onto.fi.upm.es/exercise2#PhysicalPoint
+http://GP-onto.fi.upm.es/exercise2#Stage
+http://GP-onto.fi.upm.es/exercise2#TransportInfrastructure
+http://GP-onto.fi.upm.es/exercise2#Bus
+http://GP-onto.fi.upm.es/exercise2#Car
+
+##############
+##### 2 #####
+#############
+
+select ?subclass where {
+?subclass rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Establishment>
+}
+
+
+http://GP-onto.fi.upm.es/exercise2#Hostel
+http://GP-onto.fi.upm.es/exercise2#GuestHouse
+http://GP-onto.fi.upm.es/exercise2#Hotel
+
+#############
+##### 3 #####
+#############
+
+select ?instances where {
+?instances a <http://GP-onto.fi.upm.es/exercise2#City>
+}
+
+http://GP-onto.fi.upm.es/exercise2#ACoruC1a
+http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela
+http://GP-onto.fi.upm.es/exercise2#Madrid
+
+#############
+##### 4 #####
+#############
+
+select ?inhabitants where {
+<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?inhabitants
+}
+
+" 300000 "^^<http://www.w3.org/2001/XMLSchema#integer>
+
+#############
+##### 5 #####
+#############
+
+select ?santiago ?arzua where {
+<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?santiago.
+<http://GP-onto.fi.upm.es/exercise2#Arzua> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?arzua
+}
+
+santiago 	arzua
+" 300000 "^^<http://www.w3.org/2001/XMLSchema#integer> 	" 38900 "^^<http://www.w3.org/2001/XMLSchema#integer>
+
+#############
+##### 6 #####
+#############
+
+select ?place ?inhabitants where {
+?place <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?inhabitants
+} ORDER BY ASC(?place)
+
+ place 	inhabitants
+http://GP-onto.fi.upm.es/exercise2#Arzua 	" 38900 "^^<http://www.w3.org/2001/XMLSchema#integer>
+http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela 	" 300000 "^^<http://www.w3.org/2001/XMLSchema#integer>
+
+
+#############
+##### 7 #####
+#############
+
+select ?instances ?inhabitants where {
+?instances a ?x . ?x rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Locality> . OPTIONAL {?instances <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?inhabitants }
+}
+
+ instances 	inhabitants
+http://GP-onto.fi.upm.es/exercise2#ACoruC1a 	
+http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela 	" 300000 "^^<http://www.w3.org/2001/XMLSchema#integer>
+http://GP-onto.fi.upm.es/exercise2#Madrid 	
+http://GP-onto.fi.upm.es/exercise2#Arzua 	" 38900 "^^<http://www.w3.org/2001/XMLSchema#integer>
+
+#############
+##### 8 #####
+#############
+
+select ?places where {
+?places <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?x.
+FILTER (xsd:integer(?x) > 200000)
+}
+
+ places
+http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela
+
+
+#############
+##### 9 #####
+#############
+
+select ?street ?number ?locality ?province where {
+<http://GP-onto.fi.upm.es/exercise2#Pazo_Breogan> <http://GP-onto.fi.upm.es/exercise2#hasAddress> ?dir .
+<http://GP-onto.fi.upm.es/exercise2#Pazo_Breogan> <http://GP-onto.fi.upm.es/exercise2#isPlacedIn> ?locality .
+?dir <http://GP-onto.fi.upm.es/exercise2#hasStreet> ?street .
+?dir <http://GP-onto.fi.upm.es/exercise2#hasNumber> ?number .
+?locality <http://GP-onto.fi.upm.es/exercise2#inProvince> ?province
+}
+
+ street 	number 	locality 	province
+C/Mayor 	5 	http://GP-onto.fi.upm.es/exercise2#Arzua 	Pontevedra
+
+
+#############
+##### 10 ####
+#############
+
+select ?subclass where {
+?subclass rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Establishment>
+}
+
+ subclass
+http://GP-onto.fi.upm.es/exercise2#Hostel
+http://GP-onto.fi.upm.es/exercise2#GuestHouse
+http://GP-onto.fi.upm.es/exercise2#Hotel
+
+
+#############
+##### 11 ####
+#############
+
+select ?instances where {
+?instances a <http://GP-onto.fi.upm.es/exercise2#Locality>
+}
+
+ instances
+
+
+#############
+##### 12 ####
+#############
+
+describe ?resource where {
+?resource rdfs:label "Madrid"
+}
+
+<rdf:RDF>
+	<rdf:Description rdf:about="http://GP-onto.fi.upm.es/exercise2#Madrid">
+		<rdfs:label>Madrid</rdfs:label>
+	</rdf:Description><rdf:Description rdf:about="http://GP-onto.fi.upm.es/exercise2#Madrid">
+	<rdf:type rdf:resource="http://GP-onto.fi.upm.es/exercise2#City"/></rdf:Description>
+	<rdf:Description rdf:about="http://GP-onto.fi.upm.es/exercise2#GP_Santiago_Instance_72">
+		<n0pred:hasEnd rdf:resource="http://GP-onto.fi.upm.es/exercise2#Madrid"/>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://GP-onto.fi.upm.es/exercise2#Madrid">
+		<n0pred:inProvince>Madrid</n0pred:inProvince>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://GP-onto.fi.upm.es/exercise2#Madrid">
+		<n0pred:isLocatedAtPoint rdf:resource="http://GP-onto.fi.upm.es/exercise2#GP_Santiago_Instance_74"/>
+	</rdf:Description>
+</rdf:RDF>
+
+
+#############
+##### 13 ####
+#############
+
+construct {?place <http://GP-onto.fi.upm.es/exercise2#isIn> ?province} where {
+?place <http://GP-onto.fi.upm.es/exercise2#isPlacedIn> ?auxiliar . 
+?auxiliar <http://GP-onto.fi.upm.es/exercise2#inProvince> ?province
+}
+
+<rdf:RDF>
+	<rdf:Description rdf:about="http://GP-onto.fi.upm.es/exercise2#Pazo_Breogan">
+		<n0pred:isIn>Pontevedra</n0pred:isIn>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://GP-onto.fi.upm.es/exercise2#Fuente_Talaverana">
+		<n0pred:isIn>Pontevedra</n0pred:isIn>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://GP-onto.fi.upm.es/exercise2#Cathedral_Santiago_Compostela">
+		<n0pred:isIn>Pontevedra</n0pred:isIn>
+	</rdf:Description><rdf:Description rdf:about="http://GP-onto.fi.upm.es/exercise2#Monte_Do_Gozo">
+		<n0pred:isIn>Pontevedra</n0pred:isIn>
+	</rdf:Description>
+</rdf:RDF>
+
+#############
+##### 14 ####
+#############
+
+ask where {
+?x a <http://GP-onto.fi.upm.es/exercise2#Town>
+}
+
+true

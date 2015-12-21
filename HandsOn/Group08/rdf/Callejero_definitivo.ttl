@@ -1,0 +1,1048 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix onto: <http://www.semanticweb.org/GROUP08/FarmaciasDeGuardia#> .
+
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PALACIO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "PALACIO" ;
+	dcterms:title "PALACIO" ;
+	onto:superficie "1471085"^^xsd:int ;
+	onto:perimetro "5754"^^xsd:int .
+
+<http://dbpedia.org/resource/Episcopal_Palace,_Astorga> owl:sameAs "http://dbpedia.org/resource/Episcopal_Palace,_Astorga" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/IMPERIAL> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "IMPERIAL" ;
+	dcterms:title "IMPERIAL" ;
+	onto:superficie "967500"^^xsd:int ;
+	onto:perimetro "4557"^^xsd:int .
+
+<http://dbpedia.org/resource/Imperial_District> owl:sameAs "http://dbpedia.org/resource/Imperial_District" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PACIFICO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "PACIFICO" ;
+	dcterms:title "PACÍFICO" ;
+	onto:superficie "750065"^^xsd:int ;
+	onto:perimetro "4005"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/RECOLETOS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "RECOLETOS" ;
+	dcterms:title "RECOLETOS" ;
+	onto:superficie "870857"^^xsd:int ;
+	onto:perimetro "3927"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Recoletos_(Madrid)> owl:sameAs "http://es.dbpedia.org/resource/Recoletos_(Madrid)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FEL+VISO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "EL VISO" ;
+	dcterms:title "EL VISO" ;
+	onto:superficie "1708046"^^xsd:int ;
+	onto:perimetro "5269"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Cerro_del_Viso> owl:sameAs "http://es.dbpedia.org/resource/Cerro_del_Viso" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FBELLAS+VISTAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "BELLAS VISTAS" ;
+	dcterms:title "BELLAS VISTAS" ;
+	onto:superficie "716261"^^xsd:int ;
+	onto:perimetro "3443"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/GAZTAMBIDE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "GAZTAMBIDE" ;
+	dcterms:title "GAZTAMBIDE" ;
+	onto:superficie "506596"^^xsd:int ;
+	onto:perimetro "2969"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Gaztambide_(Madrid)> owl:sameAs "http://es.dbpedia.org/resource/Gaztambide_(Madrid)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FEL+PARDO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "EL PARDO" ;
+	dcterms:title "EL PARDO" ;
+	onto:superficie "187642916"^^xsd:int ;
+	onto:perimetro "87125"^^xsd:int .
+
+<http://dbpedia.org/resource/El_Pardo> owl:sameAs "http://dbpedia.org/resource/El_Pardo" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCASA+DE+CAMPO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "CASA DE CAMPO" ;
+	dcterms:title "CASA DE CAMPO" ;
+	onto:superficie "17470075"^^xsd:int ;
+	onto:perimetro "19233"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Casa_de_Campo_(Madrid)> owl:sameAs "http://es.dbpedia.org/resource/Casa_de_Campo_(Madrid)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FLOS+CARMENES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "LOS CARMENES" ;
+	dcterms:title "LOS CÁRMENES" ;
+	onto:superficie "1292235"^^xsd:int ;
+	onto:perimetro "6186"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/COMILLAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "COMILLAS" ;
+	dcterms:title "COMILLAS" ;
+	onto:superficie "665999"^^xsd:int ;
+	onto:perimetro "4257"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Comillas_(Madrid)> owl:sameAs "http://es.dbpedia.org/resource/Comillas_(Madrid)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ORCASITAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "ORCASITAS" ;
+	dcterms:title "ORCASITAS" ;
+	onto:superficie "1356371"^^xsd:int ;
+	onto:perimetro "4664"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Estación_de_Orcasitas> owl:sameAs "http://es.dbpedia.org/resource/Estación_de_Orcasitas" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ENTREVIAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "ENTREVIAS" ;
+	dcterms:title "ENTREVÍAS" ;
+	onto:superficie "5996932"^^xsd:int ;
+	onto:perimetro "11057"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PAVONES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "PAVONES" ;
+	dcterms:title "PAVONES" ;
+	onto:superficie "1016979"^^xsd:int ;
+	onto:perimetro "4134"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VENTAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "VENTAS" ;
+	dcterms:title "VENTAS" ;
+	onto:superficie "3198045"^^xsd:int ;
+	onto:perimetro "8207"^^xsd:int .
+
+<http://dbpedia.org/resource/Las_Ventas> owl:sameAs "http://dbpedia.org/resource/Las_Ventas" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PALOMAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "PALOMAS" ;
+	dcterms:title "PALOMAS" ;
+	onto:superficie "1128602"^^xsd:int ;
+	onto:perimetro "4988"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Arroyo_Palomas> owl:sameAs "http://es.dbpedia.org/resource/Arroyo_Palomas" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSAN+ANDRES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "SAN ANDRES" ;
+	dcterms:title "SAN ANDRÉS" ;
+	onto:superficie "9192451"^^xsd:int ;
+	onto:perimetro "13710"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCASCO+H.VALLECAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "CASCO H.VALLECAS" ;
+	dcterms:title "CASCO H.VALLECAS" ;
+	onto:superficie "49359337"^^xsd:int ;
+	onto:perimetro "31924"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCASCO+H.VICALVARO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "CASCO H.VICALVARO" ;
+	dcterms:title "CASCO H.VICÁLVARO" ;
+	onto:superficie "32924620"^^xsd:int ;
+	onto:perimetro "33326"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/SIMANCAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "SIMANCAS" ;
+	dcterms:title "SIMANCAS" ;
+	onto:superficie "2278418"^^xsd:int ;
+	onto:perimetro "6678"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FALAMEDA+DE+OSUNA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "1" ;
+	geo:location "ALAMEDA DE OSUNA" ;
+	dcterms:title "ALAMEDA DE OSUNA" ;
+	onto:superficie "1961904"^^xsd:int ;
+	onto:perimetro "6043"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/EMBAJADORES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "EMBAJADORES" ;
+	dcterms:title "EMBAJADORES" ;
+	onto:superficie "1032822"^^xsd:int ;
+	onto:perimetro "4267"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Embajadores_(Madrid)> owl:sameAs "http://es.dbpedia.org/resource/Embajadores_(Madrid)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ACACIAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "ACACIAS" ;
+	dcterms:title "ACACIAS" ;
+	onto:superficie "1074172"^^xsd:int ;
+	onto:perimetro "3950"^^xsd:int .
+
+<http://dbpedia.org/resource/Acacias-Embajadores_(Madrid_Metro)> owl:sameAs "http://dbpedia.org/resource/Acacias-Embajadores_(Madrid_Metro)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ADELFAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "ADELFAS" ;
+	dcterms:title "ADELFAS" ;
+	onto:superficie "640692"^^xsd:int ;
+	onto:perimetro "3584"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/GOYA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "GOYA" ;
+	dcterms:title "GOYA" ;
+	onto:superficie "771228"^^xsd:int ;
+	onto:perimetro "3473"^^xsd:int .
+
+<http://dbpedia.org/resource/Bidania-Goiatz> owl:sameAs "http://dbpedia.org/resource/Bidania-Goiatz" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PROSPERIDAD> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "PROSPERIDAD" ;
+	dcterms:title "PROSPERIDAD" ;
+	onto:superficie "1043284"^^xsd:int ;
+	onto:perimetro "5250"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Prosperidad_(Madrid)> owl:sameAs "http://es.dbpedia.org/resource/Prosperidad_(Madrid)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCUATRO+CAMINOS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "CUATRO CAMINOS" ;
+	dcterms:title "CUATRO CAMINOS" ;
+	onto:superficie "1193509"^^xsd:int ;
+	onto:perimetro "4366"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Estación_de_Cuatro_Caminos> owl:sameAs "http://es.dbpedia.org/resource/Estación_de_Cuatro_Caminos" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ARAPILES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "ARAPILES" ;
+	dcterms:title "ARAPILES" ;
+	onto:superficie "578534"^^xsd:int ;
+	onto:perimetro "3096"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/FUENTELARREINA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "FUENTELARREINA" ;
+	dcterms:title "FUENTELARREINA" ;
+	onto:superficie "1382646"^^xsd:int ;
+	onto:perimetro "7691"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ARGUELLES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "ARGUELLES" ;
+	dcterms:title "ARGUELLES" ;
+	onto:superficie "755758"^^xsd:int ;
+	onto:perimetro "5245"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPUERTA+DEL+ANGEL> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "PUERTA DEL ANGEL" ;
+	dcterms:title "PUERTA DEL ÁNGEL" ;
+	onto:superficie "1374799"^^xsd:int ;
+	onto:perimetro "5373"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/OPAÑEL> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "OPAÑEL" ;
+	dcterms:title "OPAÑEL" ;
+	onto:superficie "1106597"^^xsd:int ;
+	onto:perimetro "4492"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ORCASUR> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "ORCASUR" ;
+	dcterms:title "ORCASUR" ;
+	onto:superficie "1384234"^^xsd:int ;
+	onto:perimetro "5962"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Estación_de_San_Fermín-Orcasur> owl:sameAs "http://es.dbpedia.org/resource/Estación_de_San_Fermín-Orcasur" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSAN+DIEGO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "SAN DIEGO" ;
+	dcterms:title "SAN DIEGO" ;
+	onto:superficie "1069944"^^xsd:int ;
+	onto:perimetro "4726"^^xsd:int .
+
+<http://dbpedia.org/resource/Amaya_Drive_(San_Diego_Trolley_station)> owl:sameAs "http://dbpedia.org/resource/Amaya_Drive_(San_Diego_Trolley_station)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/HORCAJO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "HORCAJO" ;
+	dcterms:title "HORCAJO" ;
+	onto:superficie "745503"^^xsd:int ;
+	onto:perimetro "3901"^^xsd:int .
+
+<http://dbpedia.org/resource/Horcajo_de_Montemayor> owl:sameAs "http://dbpedia.org/resource/Horcajo_de_Montemayor" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPUEBLO+NUEVO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "PUEBLO NUEVO" ;
+	dcterms:title "PUEBLO NUEVO" ;
+	onto:superficie "2319230"^^xsd:int ;
+	onto:perimetro "7746"^^xsd:int .
+
+<http://dbpedia.org/resource/Estadio_Polideportivo_de_Pueblo_Nuevo> owl:sameAs "http://dbpedia.org/resource/Estadio_Polideportivo_de_Pueblo_Nuevo" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PIOVERA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "PIOVERA" ;
+	dcterms:title "PIOVERA" ;
+	onto:superficie "3139060"^^xsd:int ;
+	onto:perimetro "7812"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSAN+CRISTOBAL> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "SAN CRISTOBAL" ;
+	dcterms:title "SAN CRISTÓBAL" ;
+	onto:superficie "1106718"^^xsd:int ;
+	onto:perimetro "4810"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSANTA+EUGENIA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "SANTA EUGENIA" ;
+	dcterms:title "SANTA EUGENIA" ;
+	onto:superficie "2070637"^^xsd:int ;
+	onto:perimetro "6831"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Santa_Eugenia_(Madrid)> owl:sameAs "http://es.dbpedia.org/resource/Santa_Eugenia_(Madrid)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/AMBROZ> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "AMBROZ" ;
+	dcterms:title "AMBROZ" ;
+	onto:superficie "2354258"^^xsd:int ;
+	onto:perimetro "8336"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Valle_del_Ambroz> owl:sameAs "http://es.dbpedia.org/resource/Valle_del_Ambroz" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/HELLIN> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "HELLIN" ;
+	dcterms:title "HELLÍN" ;
+	onto:superficie "549031"^^xsd:int ;
+	onto:perimetro "3988"^^xsd:int .
+
+<http://dbpedia.org/resource/Hellinikon_Olympic_Softball_Stadium> owl:sameAs "http://dbpedia.org/resource/Hellinikon_Olympic_Softball_Stadium" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/AEROPUERTO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "2" ;
+	geo:location "AEROPUERTO" ;
+	dcterms:title "AEROPUERTO" ;
+	onto:superficie "25132277"^^xsd:int ;
+	onto:perimetro "26448"^^xsd:int .
+
+<http://dbpedia.org/resource/Adolfo_Su%C3%A1rez_Madrid%E2%80%93Barajas_Airport> owl:sameAs "http://dbpedia.org/resource/Adolfo_Su%C3%A1rez_Madrid%E2%80%93Barajas_Airport" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CORTES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "CORTES" ;
+	dcterms:title "CORTES" ;
+	onto:superficie "592070"^^xsd:int ;
+	onto:perimetro "3731"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Cortes_(Burgos)> owl:sameAs "http://es.dbpedia.org/resource/Cortes_(Burgos)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CHOPERA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "CHOPERA" ;
+	dcterms:title "CHOPERA" ;
+	onto:superficie "566358"^^xsd:int ;
+	onto:perimetro "3203"^^xsd:int .
+
+<http://es.dbpedia.org/resource/La_Chopera> owl:sameAs "http://es.dbpedia.org/resource/La_Chopera" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ESTRELLA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "ESTRELLA" ;
+	dcterms:title "ESTRELLA" ;
+	onto:superficie "1025805"^^xsd:int ;
+	onto:perimetro "4441"^^xsd:int .
+
+<http://dbpedia.org/resource/La_Estrella,_Spain> owl:sameAs "http://dbpedia.org/resource/La_Estrella,_Spain" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FFUENTE+DEL+BERRO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "FUENTE DEL BERRO" ;
+	dcterms:title "FUENTE DEL BERRO" ;
+	onto:superficie "852579"^^xsd:int ;
+	onto:perimetro "3886"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCIUDAD+JARDIN> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "CIUDAD JARDIN" ;
+	dcterms:title "CIUDAD JARDÍN" ;
+	onto:superficie "762371"^^xsd:int ;
+	onto:perimetro "3915"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CASTILLEJOS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "CASTILLEJOS" ;
+	dcterms:title "CASTILLEJOS" ;
+	onto:superficie "708501"^^xsd:int ;
+	onto:perimetro "3556"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/TRAFALGAR> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "TRAFALGAR" ;
+	dcterms:title "TRAFALGAR" ;
+	onto:superficie "611950"^^xsd:int ;
+	onto:perimetro "3505"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Tómbolo_de_Trafalgar> owl:sameAs "http://es.dbpedia.org/resource/Tómbolo_de_Trafalgar" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPE%C3%91A+GRANDE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "PEÑA GRANDE" ;
+	dcterms:title "PEÑA GRANDE" ;
+	onto:superficie "2890405"^^xsd:int ;
+	onto:perimetro "7331"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCIUDAD+UNIVERSITARIA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "CIUDAD UNIVERSITARIA" ;
+	dcterms:title "CIUDAD UNIVERSITARIA" ;
+	onto:superficie "14248243"^^xsd:int ;
+	onto:perimetro "19453"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Estación_de_Ciudad_Universitaria> owl:sameAs "http://es.dbpedia.org/resource/Estación_de_Ciudad_Universitaria" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/LUCERO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "LUCERO" ;
+	dcterms:title "LUCERO" ;
+	onto:superficie "1679450"^^xsd:int ;
+	onto:perimetro "5498"^^xsd:int .
+
+<http://dbpedia.org/resource/Alto_Lucero> owl:sameAs "http://dbpedia.org/resource/Alto_Lucero" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSAN+ISIDRO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "SAN ISIDRO" ;
+	dcterms:title "SAN ISIDRO" ;
+	onto:superficie "1899346"^^xsd:int ;
+	onto:perimetro "6149"^^xsd:int .
+
+<http://dbpedia.org/resource/San_Isidro_District,_Lima> owl:sameAs "http://dbpedia.org/resource/San_Isidro_District,_Lima" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSAN+FERMIN> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "SAN FERMIN" ;
+	dcterms:title "SAN FERMÍN" ;
+	onto:superficie "1463692"^^xsd:int ;
+	onto:perimetro "5836"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPALOMERAS+BAJAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "PALOMERAS BAJAS" ;
+	dcterms:title "PALOMERAS BAJAS" ;
+	onto:superficie "1724430"^^xsd:int ;
+	onto:perimetro "5649"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/MARROQUINA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "MARROQUINA" ;
+	dcterms:title "MARROQUINA" ;
+	onto:superficie "1789256"^^xsd:int ;
+	onto:perimetro "6746"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/QUINTANA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "QUINTANA" ;
+	dcterms:title "QUINTANA" ;
+	onto:superficie "722756"^^xsd:int ;
+	onto:perimetro "4440"^^xsd:int .
+
+<http://dbpedia.org/resource/Alfoz_de_Quintanadue%C3%B1as> owl:sameAs "http://dbpedia.org/resource/Alfoz_de_Quintanadue%C3%B1as" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CANILLAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "CANILLAS" ;
+	dcterms:title "CANILLAS" ;
+	onto:superficie "2516943"^^xsd:int ;
+	onto:perimetro "7532"^^xsd:int .
+
+<http://dbpedia.org/resource/Canillas_de_Abajo> owl:sameAs "http://dbpedia.org/resource/Canillas_de_Abajo" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/BUTARQUE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "BUTARQUE" ;
+	dcterms:title "BUTARQUE" ;
+	onto:superficie "6425005"^^xsd:int ;
+	onto:perimetro "12719"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Arroyo_Butarque> owl:sameAs "http://es.dbpedia.org/resource/Arroyo_Butarque" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/AMPOSTA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "AMPOSTA" ;
+	dcterms:title "AMPOSTA" ;
+	onto:superficie "370250"^^xsd:int ;
+	onto:perimetro "3097"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCASCO+H.BARAJAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "3" ;
+	geo:location "CASCO H.BARAJAS" ;
+	dcterms:title "CASCO H.BARAJAS" ;
+	onto:superficie "609202"^^xsd:int ;
+	onto:perimetro "4033"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/JUSTICIA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "JUSTICIA" ;
+	dcterms:title "JUSTICIA" ;
+	onto:superficie "742034"^^xsd:int ;
+	onto:perimetro "3598"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Palacio_de_Justicia_(Toluca)> owl:sameAs "http://es.dbpedia.org/resource/Palacio_de_Justicia_(Toluca)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/LEGAZPI> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "LEGAZPI" ;
+	dcterms:title "LEGAZPI" ;
+	onto:superficie "1396410"^^xsd:int ;
+	onto:perimetro "5120"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/IBIZA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "IBIZA" ;
+	dcterms:title "IBIZA" ;
+	onto:superficie "490863"^^xsd:int ;
+	onto:perimetro "2913"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/GUINDALERA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "GUINDALERA" ;
+	dcterms:title "GUINDALERA" ;
+	onto:superficie "1598962"^^xsd:int ;
+	onto:perimetro "5194"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/HISPANOAMERICA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "HISPANOAMERICA" ;
+	dcterms:title "HISPANOAMÉRICA" ;
+	onto:superficie "1707406"^^xsd:int ;
+	onto:perimetro "6068"^^xsd:int .
+
+<http://dbpedia.org/resource/Museo_de_Arte_Hispanoamericano_Isaac_Fern%C3%A1ndez_Blanco> owl:sameAs "http://dbpedia.org/resource/Museo_de_Arte_Hispanoamericano_Isaac_Fern%C3%A1ndez_Blanco" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ALMENARA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "ALMENARA" ;
+	dcterms:title "ALMENARA" ;
+	onto:superficie "999369"^^xsd:int ;
+	onto:perimetro "4011"^^xsd:int .
+
+<http://dbpedia.org/resource/Almenara,_Castell%C3%B3n> owl:sameAs "http://dbpedia.org/resource/Almenara,_Castell%C3%B3n" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ALMAGRO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "ALMAGRO" ;
+	dcterms:title "ALMAGRO" ;
+	onto:superficie "937095"^^xsd:int ;
+	onto:perimetro "4071"^^xsd:int .
+
+<http://dbpedia.org/resource/Almagro,_Ciudad_Real> owl:sameAs "http://dbpedia.org/resource/Almagro,_Ciudad_Real" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FEL+PILAR> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "EL PILAR" ;
+	dcterms:title "EL PILAR" ;
+	onto:superficie "1359881"^^xsd:int ;
+	onto:perimetro "5155"^^xsd:int .
+
+<http://dbpedia.org/resource/Pilar_Partido> owl:sameAs "http://dbpedia.org/resource/Pilar_Partido" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VALDEZARZA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "VALDEZARZA" ;
+	dcterms:title "VALDEZARZA" ;
+	onto:superficie "1397672"^^xsd:int ;
+	onto:perimetro "5352"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ALUCHE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "ALUCHE" ;
+	dcterms:title "ALUCHE" ;
+	onto:superficie "2849829"^^xsd:int ;
+	onto:perimetro "7267"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FVISTA+ALEGRE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "VISTA ALEGRE" ;
+	dcterms:title "VISTA ALEGRE" ;
+	onto:superficie "1589877"^^xsd:int ;
+	onto:perimetro "6433"^^xsd:int .
+
+<http://dbpedia.org/resource/Vista_Alegre_(Asunci%C3%B3n)> owl:sameAs "http://dbpedia.org/resource/Vista_Alegre_(Asunci%C3%B3n)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ALMENDRALES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "ALMENDRALES" ;
+	dcterms:title "ALMENDRALES" ;
+	onto:superficie "772281"^^xsd:int ;
+	onto:perimetro "3692"^^xsd:int .
+
+<http://dbpedia.org/resource/Almendrales_(Madrid_Metro)> owl:sameAs "http://dbpedia.org/resource/Almendrales_(Madrid_Metro)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPALOMERAS+SURESTE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "PALOMERAS SURESTE" ;
+	dcterms:title "PALOMERAS SURESTE" ;
+	onto:superficie "3118722"^^xsd:int ;
+	onto:perimetro "7827"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FMEDIA+LEGUA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "MEDIA LEGUA" ;
+	dcterms:title "MEDIA LEGUA" ;
+	onto:superficie "999539"^^xsd:int ;
+	onto:perimetro "4674"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CONCEPCION> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "CONCEPCION" ;
+	dcterms:title "CONCEPCIÓN" ;
+	onto:superficie "885875"^^xsd:int ;
+	onto:perimetro "5777"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPINAR+DEL+REY> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "PINAR DEL REY" ;
+	dcterms:title "PINAR DEL REY" ;
+	onto:superficie "2632846"^^xsd:int ;
+	onto:perimetro "8271"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FLOS+ROSALES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "LOS ROSALES" ;
+	dcterms:title "LOS ROSALES" ;
+	onto:superficie "1510919"^^xsd:int ;
+	onto:perimetro "5442"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Estación_de_Los_Rosales> owl:sameAs "http://es.dbpedia.org/resource/Estación_de_Los_Rosales" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ARCOS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "ARCOS" ;
+	dcterms:title "ARCOS" ;
+	onto:superficie "1305192"^^xsd:int ;
+	onto:perimetro "5074"^^xsd:int .
+
+<http://dbpedia.org/resource/Arches_National_Park> owl:sameAs "http://dbpedia.org/resource/Arches_National_Park" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/TIMON> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "4" ;
+	geo:location "TIMON" ;
+	dcterms:title "TIMÓN" ;
+	onto:superficie "9595252"^^xsd:int ;
+	onto:perimetro "15415"^^xsd:int .
+
+<http://dbpedia.org/resource/Vatimont> owl:sameAs "http://dbpedia.org/resource/Vatimont" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/UNIVERSIDAD> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "UNIVERSIDAD" ;
+	dcterms:title "UNIVERSIDAD" ;
+	onto:superficie "947641"^^xsd:int ;
+	onto:perimetro "4060"^^xsd:int .
+
+<http://dbpedia.org/resource/Estadio_Neza_86> owl:sameAs "http://dbpedia.org/resource/Estadio_Neza_86" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/DELICIAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "DELICIAS" ;
+	dcterms:title "DELICIAS" ;
+	onto:superficie "1057730"^^xsd:int ;
+	onto:perimetro "4755"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Delicias_(municipio)> owl:sameAs "http://es.dbpedia.org/resource/Delicias_(municipio)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FLOS+JERONIMOS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "LOS JERONIMOS" ;
+	dcterms:title "LOS JERÓNIMOS" ;
+	onto:superficie "1900627"^^xsd:int ;
+	onto:perimetro "5259"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/LISTA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "LISTA" ;
+	dcterms:title "LISTA" ;
+	onto:superficie "520399"^^xsd:int ;
+	onto:perimetro "3232"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FNUEVA+ESPA%C3%91A> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "NUEVA ESPAÑA" ;
+	dcterms:title "NUEVA ESPAÑA" ;
+	onto:superficie "1788654"^^xsd:int ;
+	onto:perimetro "5588"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VALDEACEDERAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "VALDEACEDERAS" ;
+	dcterms:title "VALDEACEDERAS" ;
+	onto:superficie "1163421"^^xsd:int ;
+	onto:perimetro "5024"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FRIOS+ROSAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "RIOS ROSAS" ;
+	dcterms:title "RIOS ROSAS" ;
+	onto:superficie "971220"^^xsd:int ;
+	onto:perimetro "4060"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FLA+PAZ> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "LA PAZ" ;
+	dcterms:title "LA PAZ" ;
+	onto:superficie "2159243"^^xsd:int ;
+	onto:perimetro "6347"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VALDEMARIN> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "VALDEMARIN" ;
+	dcterms:title "VALDEMARÍN" ;
+	onto:superficie "3305105"^^xsd:int ;
+	onto:perimetro "8300"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CAMPAMENTO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "CAMPAMENTO" ;
+	dcterms:title "CAMPAMENTO" ;
+	onto:superficie "9157875"^^xsd:int ;
+	onto:perimetro "16619"^^xsd:int .
+
+<http://dbpedia.org/resource/Campamento,_Uruguay> owl:sameAs "http://dbpedia.org/resource/Campamento,_Uruguay" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPUERTA+BONITA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "PUERTA BONITA" ;
+	dcterms:title "PUERTA BONITA" ;
+	onto:superficie "1607994"^^xsd:int ;
+	onto:perimetro "5982"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Barrio_de_Puerta_Bonita> owl:sameAs "http://es.dbpedia.org/resource/Barrio_de_Puerta_Bonita" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/MOSCARDO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "MOSCARDO" ;
+	dcterms:title "MOSCARDÓ" ;
+	onto:superficie "908875"^^xsd:int ;
+	onto:perimetro "4248"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PORTAZGO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "PORTAZGO" ;
+	dcterms:title "PORTAZGO" ;
+	onto:superficie "1245274"^^xsd:int ;
+	onto:perimetro "4834"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Estación_de_Portazgo> owl:sameAs "http://es.dbpedia.org/resource/Estación_de_Portazgo" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/FONTARRON> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "FONTARRON" ;
+	dcterms:title "FONTARRÓN" ;
+	onto:superficie "964574"^^xsd:int ;
+	onto:perimetro "6220"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSAN+PASCUAL> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "SAN PASCUAL" ;
+	dcterms:title "SAN PASCUAL" ;
+	onto:superficie "1052925"^^xsd:int ;
+	onto:perimetro "4458"^^xsd:int .
+
+<http://dbpedia.org/resource/Obando_Church> owl:sameAs "http://dbpedia.org/resource/Obando_Church" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FAPOSTOL+SANTIAGO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "APOSTOL SANTIAGO" ;
+	dcterms:title "APÓSTOL SANTIAGO" ;
+	onto:superficie "1204621"^^xsd:int ;
+	onto:perimetro "4726"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FLOS+ANGELES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "LOS ANGELES" ;
+	dcterms:title "LOS ÁNGELES" ;
+	onto:superficie "1944811"^^xsd:int ;
+	onto:perimetro "5713"^^xsd:int .
+
+<http://dbpedia.org/resource/Lake_Los_Angeles,_California> owl:sameAs "http://dbpedia.org/resource/Lake_Los_Angeles,_California" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ROSAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "ROSAS" ;
+	dcterms:title "ROSAS" ;
+	onto:superficie "9388024"^^xsd:int ;
+	onto:perimetro "15290"^^xsd:int .
+
+<http://dbpedia.org/resource/Gulf_of_Roses> owl:sameAs "http://dbpedia.org/resource/Gulf_of_Roses" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CORRALEJOS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "5" ;
+	geo:location "CORRALEJOS" ;
+	dcterms:title "CORRALEJOS" ;
+	onto:superficie "4633048"^^xsd:int ;
+	onto:perimetro "9753"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/SOL> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "6" ;
+	geo:location "SOL" ;
+	dcterms:title "SOL" ;
+	onto:superficie "445128"^^xsd:int ;
+	onto:perimetro "2716"^^xsd:int .
+
+<http://dbpedia.org/resource/Argen%C3%A7ola> owl:sameAs "http://dbpedia.org/resource/Argen%C3%A7ola" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FPALOS+DE+MOGUER> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "6" ;
+	geo:location "PALOS DE MOGUER" ;
+	dcterms:title "PALOS DE MOGUER" ;
+	onto:superficie "643542"^^xsd:int ;
+	onto:perimetro "3615"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Palos_de_Moguer_(Madrid)> owl:sameAs "http://es.dbpedia.org/resource/Palos_de_Moguer_(Madrid)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FNI%C3%91O+JESUS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "6" ;
+	geo:location "NIÑO JESUS" ;
+	dcterms:title "NIÑO JESÚS" ;
+	onto:superficie "643202"^^xsd:int ;
+	onto:perimetro "3548"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CASTELLANA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "6" ;
+	geo:location "CASTELLANA" ;
+	dcterms:title "CASTELLANA" ;
+	onto:superficie "773230"^^xsd:int ;
+	onto:perimetro "3745"^^xsd:int .
+
+<http://dbpedia.org/resource/La_Castellana_(TransMilenio)> owl:sameAs "http://dbpedia.org/resource/La_Castellana_(TransMilenio)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CASTILLA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "6" ;
+	geo:location "CASTILLA" ;
+	dcterms:title "CASTILLA" ;
+	onto:superficie "2160431"^^xsd:int ;
+	onto:perimetro "6783"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/BERRUGUETE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "6" ;
+	geo:location "BERRUGUETE" ;
+	dcterms:title "BERRUGUETE" ;
+	onto:superficie "607050"^^xsd:int ;
+	onto:perimetro "3417"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Berruguete_(Madrid)> owl:sameAs "http://es.dbpedia.org/resource/Berruguete_(Madrid)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VALLEHERMOSO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "6" ;
+	geo:location "VALLEHERMOSO" ;
+	dcterms:title "VALLEHERMOSO" ;
+	onto:superficie "1068709"^^xsd:int ;
+	onto:perimetro "4221"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VALVERDE> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "6" ;
+	geo:location "VALVERDE" ;
+	dcterms:title "VALVERDE" ;
+	onto:superficie "8977802"^^xsd:int ;
+	onto:perimetro "12223"^^xsd:int .
+
+<http://dbpedia.org/resource/Valverde_de_Alcal%C3%A1> owl:sameAs "http://dbpedia.org/resource/Valverde_de_Alcal%C3%A1" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FEL+PLANTIO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "6" ;
+	geo:location "EL PLANTIO" ;
+	dcterms:title "EL PLANTÍO" ;
+	onto:superficie "3554549"^^xsd:int ;
+	onto:perimetro "9995"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FCUATRO+VIENTOS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "6" ;
+	geo:location "CUATRO VIENTOS" ;
+	dcterms:title "CUATRO VIENTOS" ;
+	onto:superficie "5419612"^^xsd:int ;
+	onto:perimetro "10146"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Parque_de_Cuatro_Vientos> owl:sameAs "http://es.dbpedia.org/resource/Parque_de_Cuatro_Vientos" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/BUENAVISTA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "6" ;
+	geo:location "BUENAVISTA" ;
+	dcterms:title "BUENAVISTA" ;
+	onto:superficie "5613749"^^xsd:int ;
+	onto:perimetro "11612"^^xsd:int .
+
+<http://dbpedia.org/resource/Buenavista,_Quind%C3%ADo> owl:sameAs "http://dbpedia.org/resource/Buenavista,_Quind%C3%ADo" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ZOFIO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "6" ;
+	geo:location "ZOFIO" ;
+	dcterms:title "ZOFIO" ;
+	onto:superficie "775103"^^xsd:int ;
+	onto:perimetro "3743"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/NUMANCIA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "6" ;
+	geo:location "NUMANCIA" ;
+	dcterms:title "NUMANCIA" ;
+	onto:superficie "1849172"^^xsd:int ;
+	onto:perimetro "5364"^^xsd:int .
+
+<http://dbpedia.org/resource/Numancia_de_la_Sagra> owl:sameAs "http://dbpedia.org/resource/Numancia_de_la_Sagra" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VINATEROS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "6" ;
+	geo:location "VINATEROS" ;
+	dcterms:title "VINATEROS" ;
+	onto:superficie "593979"^^xsd:int ;
+	onto:perimetro "3721"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Estación_de_Vinateros> owl:sameAs "http://es.dbpedia.org/resource/Estación_de_Vinateros" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FSAN+JUAN+BAUTISTA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "6" ;
+	geo:location "SAN JUAN BAUTISTA" ;
+	dcterms:title "SAN JUAN BAUTISTA" ;
+	onto:superficie "1010843"^^xsd:int ;
+	onto:perimetro "4012"^^xsd:int .
+
+<http://dbpedia.org/resource/Sant_Joan_de_Labritja> owl:sameAs "http://dbpedia.org/resource/Sant_Joan_de_Labritja" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/VALDEFUENTES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "6" ;
+	geo:location "VALDEFUENTES" ;
+	dcterms:title "VALDEFUENTES" ;
+	onto:superficie "16778055"^^xsd:int ;
+	onto:perimetro "18779"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Valdefuentes_(Cáceres)> owl:sameAs "http://es.dbpedia.org/resource/Valdefuentes_(Cáceres)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/REJAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "6" ;
+	geo:location "REJAS" ;
+	dcterms:title "REJAS" ;
+	onto:superficie "5007305"^^xsd:int ;
+	onto:perimetro "13360"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Las_Parejas> owl:sameAs "http://es.dbpedia.org/resource/Las_Parejas" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ATOCHA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "7" ;
+	geo:location "ATOCHA" ;
+	dcterms:title "ATOCHA" ;
+	onto:superficie "775561"^^xsd:int ;
+	onto:perimetro "4999"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Estadio_de_Atocha> owl:sameAs "http://es.dbpedia.org/resource/Estadio_de_Atocha" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/MIRASIERRA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "7" ;
+	geo:location "MIRASIERRA" ;
+	dcterms:title "MIRASIERRA" ;
+	onto:superficie "6975186"^^xsd:int ;
+	onto:perimetro "13135"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Castaño-Mirasierra> owl:sameAs "http://es.dbpedia.org/resource/Castaño-Mirasierra" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ARAVACA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "7" ;
+	geo:location "ARAVACA" ;
+	dcterms:title "ARAVACA" ;
+	onto:superficie "5855800"^^xsd:int ;
+	onto:perimetro "10853"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FLAS+AGUILAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "7" ;
+	geo:location "LAS AGUILAS" ;
+	dcterms:title "LAS ÁGUILAS" ;
+	onto:superficie "3609338"^^xsd:int ;
+	onto:perimetro "7626"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ABRANTES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "7" ;
+	geo:location "ABRANTES" ;
+	dcterms:title "ABRANTES" ;
+	onto:superficie "1564207"^^xsd:int ;
+	onto:perimetro "5494"^^xsd:int .
+
+<http://dbpedia.org/resource/Fontes_(Abrantes)> owl:sameAs "http://dbpedia.org/resource/Fontes_(Abrantes)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/PRADOLONGO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "7" ;
+	geo:location "PRADOLONGO" ;
+	dcterms:title "PRADOLONGO" ;
+	onto:superficie "1095654"^^xsd:int ;
+	onto:perimetro "4785"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/COLINA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "7" ;
+	geo:location "COLINA" ;
+	dcterms:title "COLINA" ;
+	onto:superficie "559702"^^xsd:int ;
+	onto:perimetro "3175"^^xsd:int .
+
+<http://dbpedia.org/resource/Barrios_de_Colina> owl:sameAs "http://dbpedia.org/resource/Barrios_de_Colina" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/CANILLEJAS> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "7" ;
+	geo:location "CANILLEJAS" ;
+	dcterms:title "CANILLEJAS" ;
+	onto:superficie "1598075"^^xsd:int ;
+	onto:perimetro "5428"^^xsd:int .
+
+<http://dbpedia.org/resource/San_Blas_(Madrid)> owl:sameAs "http://dbpedia.org/resource/San_Blas_(Madrid)" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FEL+GOLOSO> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "8" ;
+	geo:location "EL GOLOSO" ;
+	dcterms:title "EL GOLOSO" ;
+	onto:superficie "26509171"^^xsd:int ;
+	onto:perimetro "26489"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Estación_de_El_Goloso> owl:sameAs "http://es.dbpedia.org/resource/Estación_de_El_Goloso" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/ATALAYA> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "8" ;
+	geo:location "ATALAYA" ;
+	dcterms:title "ATALAYA" ;
+	onto:superficie "248887"^^xsd:int ;
+	onto:perimetro "2240"^^xsd:int .
+
+<http://es.dbpedia.org/resource/Distrito_de_Atalaya> owl:sameAs "http://es.dbpedia.org/resource/Distrito_de_Atalaya" .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio%2FEL+SALVADOR> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "8" ;
+	geo:location "EL SALVADOR" ;
+	dcterms:title "EL SALVADOR" ;
+	onto:superficie "1881765"^^xsd:int ;
+	onto:perimetro "6571"^^xsd:int .
+
+<http://www.semanticweb.org/GROUP08/Farmacia#sDeGuardiabarrio/COSTILLARES> a <http://www.semanticweb.org/davidaz/ontologies/2015/9/untitled-ontology-3#Barrio> ;
+	dcterms:identifier "9" ;
+	geo:location "COSTILLARES" ;
+	dcterms:title "COSTILLARES" ;
+	onto:superficie "1427052"^^xsd:int ;
+	onto:perimetro "5635"^^xsd:int .

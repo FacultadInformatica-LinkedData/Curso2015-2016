@@ -1,6 +1,6 @@
 # Licencias
 
-Los tres datasets comparten la misma [licencia](http://www.zaragoza.es/ciudad/servicios/avisolegal.htm#condiciones).
+Los cuatro datasets comparten la misma [licencia](http://www.zaragoza.es/ciudad/servicios/avisolegal.htm#condiciones).
 
 - El ayuntamiento se compromete a mantener el acceso de los datos 24/7/365, aunque por fuerza mayor se puede limitar o cortar el acceso de forma temporal.
 - El ayuntamiento no se hace responsable del uso indebido o incorrecto por parte del usuario que usa los datos.

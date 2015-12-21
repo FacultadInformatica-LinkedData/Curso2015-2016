@@ -58,19 +58,10 @@
         <DataProperty IRI="#lastUpdated"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#location"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#nCapacidad"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#nEst"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#noCalle"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#nombre"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#slotsAvaliable"/>
@@ -107,10 +98,6 @@
         <ObjectProperty IRI="#localizadasEn"/>
         <Class IRI="#Calle"/>
     </ObjectPropertyRange>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#nEst"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
     <DataPropertyDomain>
         <DataProperty IRI="#districtName"/>
         <Class IRI="#Barrio"/>
@@ -133,10 +120,6 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#noCalle"/>
-        <Class IRI="#Calle"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#nombre"/>
         <Class IRI="#Calle"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -167,16 +150,8 @@
         <Datatype abbreviatedIRI="xsd:int"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#nEst"/>
-        <Datatype abbreviatedIRI="xsd:anyURI"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
         <DataProperty IRI="#noCalle"/>
         <Datatype abbreviatedIRI="xsd:int"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#nombre"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#slotsAvaliable"/>

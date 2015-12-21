@@ -31,8 +31,7 @@
 
 <http://linkeddata.es/grupo10/resource/farmacia/1295> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1295/turno/2015-10-01> .
 
-find:Aravaca a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Moncloa-Aravaca> .
+<http://linkeddata.es/grupo10/resource/distrito/Aravaca> owl:sameAs <http://es.dbpedia.org/resource/Moncloa-Aravaca> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1198> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Aravaca> ;
@@ -117,15 +116,13 @@ find:Aravaca a dbo:District ;
 
 <http://linkeddata.es/grupo10/resource/farmacia/19> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/19/turno/2015-10-01> .
 
-find:Barajas a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Barajas> .
+<http://linkeddata.es/grupo10/resource/distrito/Barajas> owl:sameAs <http://es.dbpedia.org/resource/Barajas> .
 
 <http://linkeddata.es/grupo10/resource/distrito/Alameda_De_Osuna> a dbo:District .
 
 <http://linkeddata.es/grupo10/resource/farmacia/19> schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Alameda_De_Osuna> .
 
-find:Alameda_De_Osuna a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Alameda_de_Osuna> .
+<http://linkeddata.es/grupo10/resource/distrito/Alameda_De_Osuna> owl:sameAs <http://es.dbpedia.org/resource/Alameda_de_Osuna> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/677> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Barajas> ;
@@ -234,15 +231,13 @@ find:Alameda_De_Osuna a dbo:District ;
 
 <http://linkeddata.es/grupo10/resource/farmacia/2274> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2274/turno/2015-10-01> .
 
-find:Carabanchel a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Carabanchel> .
+<http://linkeddata.es/grupo10/resource/distrito/Carabanchel> owl:sameAs <http://es.dbpedia.org/resource/Carabanchel> .
 
 <http://linkeddata.es/grupo10/resource/distrito/Latina> a dbo:District .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2274> schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Latina> .
 
-find:Latina a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Latina_(Madrid)> .
+<http://linkeddata.es/grupo10/resource/distrito/Latina> owl:sameAs <http://es.dbpedia.org/resource/Latina_(Madrid)> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1301> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Carabanchel> ;
@@ -330,8 +325,7 @@ find:Latina a dbo:District ;
 
 <http://linkeddata.es/grupo10/resource/farmacia/331> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/331/turno/2015-10-01> .
 
-find:Centro a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Centro_(Madrid)> .
+<http://linkeddata.es/grupo10/resource/distrito/Centro> owl:sameAs <http://es.dbpedia.org/resource/Centro_(Madrid)> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/46> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Centro> ;
@@ -516,14 +510,11 @@ find:Centro a dbo:District ;
 
 <http://linkeddata.es/grupo10/resource/farmacia/95> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/95/turno/2015-10-01> .
 
-find:Chamartin a dbo:District .
-
 <http://linkeddata.es/grupo10/resource/distrito/Hortaleza> a dbo:District .
 
 <http://linkeddata.es/grupo10/resource/farmacia/95> schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Hortaleza> .
 
-find:Hortaleza a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Hortaleza> .
+<http://linkeddata.es/grupo10/resource/distrito/Hortaleza> owl:sameAs <http://es.dbpedia.org/resource/Hortaleza> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/624> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Chamartin> ;
@@ -545,7 +536,7 @@ find:Hortaleza a dbo:District ;
 
 <http://linkeddata.es/grupo10/resource/farmacia/624> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/624/turno/2015-10-01> .
 
-find:Chamartin owl:sameAs <http://es.dbpedia.org/resource/Chamartín> .
+<http://linkeddata.es/grupo10/resource/distrito/Chamartin> owl:sameAs <http://es.dbpedia.org/resource/Chamartín> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/624> schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Hortaleza> .
 
@@ -719,14 +710,11 @@ find:Chamartin owl:sameAs <http://es.dbpedia.org/resource/Chamartín> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/136> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/136/turno/2015-10-01> .
 
-find:Chamberi a dbo:District .
-
 <http://linkeddata.es/grupo10/resource/distrito/Moncloa> a dbo:District .
 
 <http://linkeddata.es/grupo10/resource/farmacia/136> schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Moncloa> .
 
-find:Moncloa a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Moncloa-Aravaca> .
+<http://linkeddata.es/grupo10/resource/distrito/Moncloa> owl:sameAs <http://es.dbpedia.org/resource/Moncloa-Aravaca> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/535> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Chamberi> ;
@@ -748,7 +736,7 @@ find:Moncloa a dbo:District ;
 
 <http://linkeddata.es/grupo10/resource/farmacia/535> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/535/turno/2015-10-01> .
 
-find:Chamberi owl:sameAs <http://es.dbpedia.org/resource/Chamberí> .
+<http://linkeddata.es/grupo10/resource/distrito/Chamberi> owl:sameAs <http://es.dbpedia.org/resource/Chamberí> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/535> schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Moncloa> .
 
@@ -838,14 +826,11 @@ find:Chamberi owl:sameAs <http://es.dbpedia.org/resource/Chamberí> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/886> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/886/turno/2015-10-01> .
 
-find:Ciudad_Lineal a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Ciudad_Lineal> .
+<http://linkeddata.es/grupo10/resource/distrito/Ciudad_Lineal> owl:sameAs <http://es.dbpedia.org/resource/Ciudad_Lineal> .
 
 <http://linkeddata.es/grupo10/resource/distrito/San_Blas> a dbo:District .
 
 <http://linkeddata.es/grupo10/resource/farmacia/886> schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/San_Blas> .
-
-find:San_Blas a dbo:District .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1077> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Ciudad_Lineal> ;
@@ -868,7 +853,7 @@ find:San_Blas a dbo:District .
 <http://linkeddata.es/grupo10/resource/farmacia/1077> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1077/turno/2015-10-01> ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/San_Blas> .
 
-find:San_Blas owl:sameAs <http://es.dbpedia.org/resource/San_Blas-Canillejas> .
+<http://linkeddata.es/grupo10/resource/distrito/San_Blas> owl:sameAs <http://es.dbpedia.org/resource/San_Blas-Canillejas> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/589> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Ciudad_Lineal> ;
@@ -956,14 +941,11 @@ find:San_Blas owl:sameAs <http://es.dbpedia.org/resource/San_Blas-Canillejas> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1870> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1870/turno/2015-10-01> .
 
-find:Fuencarral a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Fuencarral-El_Pardo> .
+<http://linkeddata.es/grupo10/resource/distrito/Fuencarral> owl:sameAs <http://es.dbpedia.org/resource/Fuencarral-El_Pardo> .
 
 <http://linkeddata.es/grupo10/resource/distrito/Barrio_Del_Pilar> a dbo:District .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1870> schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Barrio_Del_Pilar> .
-
-find:Barrio_Del_Pilar a dbo:District .
 
 <http://linkeddata.es/grupo10/resource/farmacia/999> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Fuencarral> ;
@@ -986,7 +968,7 @@ find:Barrio_Del_Pilar a dbo:District .
 <http://linkeddata.es/grupo10/resource/farmacia/999> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/999/turno/2015-10-01> ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Barrio_Del_Pilar> .
 
-find:Barrio_Del_Pilar owl:sameAs <http://es.dbpedia.org/resource/El_Pilar_(Madrid)> .
+<http://linkeddata.es/grupo10/resource/distrito/Barrio_Del_Pilar> owl:sameAs <http://es.dbpedia.org/resource/El_Pilar_(Madrid)> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2314> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Fuencarral> ;
@@ -1074,8 +1056,7 @@ find:Barrio_Del_Pilar owl:sameAs <http://es.dbpedia.org/resource/El_Pilar_(Madri
 
 <http://linkeddata.es/grupo10/resource/farmacia/1088> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1088/turno/2015-10-01> .
 
-find:Moratalaz a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Moratalaz> .
+<http://linkeddata.es/grupo10/resource/distrito/Moratalaz> owl:sameAs <http://es.dbpedia.org/resource/Moratalaz> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/751> a font:FarmaciaDeGuardia .
 
@@ -1100,8 +1081,6 @@ find:Moratalaz a dbo:District ;
 
 <http://linkeddata.es/grupo10/resource/farmacia/751> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/751/turno/2015-10-01> .
 
-find:Pueblo_De_Vallecas a dbo:District .
-
 <http://linkeddata.es/grupo10/resource/farmacia/1890> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Pueblo_De_Vallecas> ;
 	schema:address "CL REAL DE ARGANDA,  40 (Vallecas Villa)" ;
@@ -1122,7 +1101,7 @@ find:Pueblo_De_Vallecas a dbo:District .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1890> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1890/turno/2015-10-01> .
 
-find:Pueblo_De_Vallecas owl:sameAs <http://es.dbpedia.org/resource/Vallecas> .
+<http://linkeddata.es/grupo10/resource/distrito/Pueblo_De_Vallecas> owl:sameAs <http://es.dbpedia.org/resource/Vallecas> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/139> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Pueblo_De_Vallecas> ;
@@ -1167,14 +1146,11 @@ find:Pueblo_De_Vallecas owl:sameAs <http://es.dbpedia.org/resource/Vallecas> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/515> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/515/turno/2015-10-01> .
 
-find:Puente_De_Vallecas a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Puente_de_Vallecas> .
+<http://linkeddata.es/grupo10/resource/distrito/Puente_De_Vallecas> owl:sameAs <http://es.dbpedia.org/resource/Puente_de_Vallecas> .
 
 <http://linkeddata.es/grupo10/resource/distrito/Entrevias> a dbo:District .
 
 <http://linkeddata.es/grupo10/resource/farmacia/515> schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Entrevias> .
-
-find:Entrevias a dbo:District .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1764> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Puente_De_Vallecas> ;
@@ -1197,7 +1173,7 @@ find:Entrevias a dbo:District .
 <http://linkeddata.es/grupo10/resource/farmacia/1764> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1764/turno/2015-10-01> ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Entrevias> .
 
-find:Entrevias owl:sameAs <http://es.dbpedia.org/resource/Entrevías> .
+<http://linkeddata.es/grupo10/resource/distrito/Entrevias> owl:sameAs <http://es.dbpedia.org/resource/Entrevías> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/124> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Puente_De_Vallecas> ;
@@ -1243,15 +1219,13 @@ find:Entrevias owl:sameAs <http://es.dbpedia.org/resource/Entrevías> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2360> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/2360/turno/2015-10-01> .
 
-find:Retiro a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Retiro_(Madrid)> .
+<http://linkeddata.es/grupo10/resource/distrito/Retiro> owl:sameAs <http://es.dbpedia.org/resource/Retiro_(Madrid)> .
 
 <http://linkeddata.es/grupo10/resource/distrito/Arganzuela> a dbo:District .
 
 <http://linkeddata.es/grupo10/resource/farmacia/2360> schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Arganzuela> .
 
-find:Arganzuela a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Arganzuela> .
+<http://linkeddata.es/grupo10/resource/distrito/Arganzuela> owl:sameAs <http://es.dbpedia.org/resource/Arganzuela> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1418> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Retiro> ;
@@ -1423,15 +1397,13 @@ find:Arganzuela a dbo:District ;
 
 <http://linkeddata.es/grupo10/resource/farmacia/892> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/892/turno/2015-10-01> .
 
-find:Salamanca a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Salamanca_(Madrid)> .
+<http://linkeddata.es/grupo10/resource/distrito/Salamanca> owl:sameAs <http://es.dbpedia.org/resource/Salamanca_(Madrid)> .
 
 <http://linkeddata.es/grupo10/resource/distrito/Ventas> a dbo:District .
 
 <http://linkeddata.es/grupo10/resource/farmacia/892> schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Ventas> .
 
-find:Ventas a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Ventas_(Madrid)> .
+<http://linkeddata.es/grupo10/resource/distrito/Ventas> owl:sameAs <http://es.dbpedia.org/resource/Ventas_(Madrid)> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/524> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Salamanca> ;
@@ -1603,14 +1575,11 @@ find:Ventas a dbo:District ;
 
 <http://linkeddata.es/grupo10/resource/farmacia/1346> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1346/turno/2015-10-01> .
 
-find:Tetuan a dbo:District .
-
 <http://linkeddata.es/grupo10/resource/distrito/Cuatro_Caminos> a dbo:District .
 
 <http://linkeddata.es/grupo10/resource/farmacia/1346> schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Cuatro_Caminos> .
 
-find:Cuatro_Caminos a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Cuatro_Caminos_(Madrid)> .
+<http://linkeddata.es/grupo10/resource/distrito/Cuatro_Caminos> owl:sameAs <http://es.dbpedia.org/resource/Cuatro_Caminos_(Madrid)> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/706> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Tetuan> ;
@@ -1632,7 +1601,7 @@ find:Cuatro_Caminos a dbo:District ;
 
 <http://linkeddata.es/grupo10/resource/farmacia/706> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/706/turno/2015-10-01> .
 
-find:Tetuan owl:sameAs <http://es.dbpedia.org/resource/Tetuán_(Madrid)> .
+<http://linkeddata.es/grupo10/resource/distrito/Tetuan> owl:sameAs <http://es.dbpedia.org/resource/Tetuán_(Madrid)> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/706> schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Cuatro_Caminos> .
 
@@ -1701,15 +1670,13 @@ find:Tetuan owl:sameAs <http://es.dbpedia.org/resource/Tetuán_(Madrid)> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/123> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/123/turno/2015-10-01> .
 
-find:Usera a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Usera> .
+<http://linkeddata.es/grupo10/resource/distrito/Usera> owl:sameAs <http://es.dbpedia.org/resource/Usera> .
 
 <http://linkeddata.es/grupo10/resource/distrito/Villaverde> a dbo:District .
 
 <http://linkeddata.es/grupo10/resource/farmacia/123> schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Villaverde> .
 
-find:Villaverde a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Villaverde_(Madrid)> .
+<http://linkeddata.es/grupo10/resource/distrito/Villaverde> owl:sameAs <http://es.dbpedia.org/resource/Villaverde_(Madrid)> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/493> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Usera> ;
@@ -1755,8 +1722,7 @@ find:Villaverde a dbo:District ;
 
 <http://linkeddata.es/grupo10/resource/farmacia/1455> font:tieneTurnoDeGuardia <http://linkeddata.es/grupo10/resource/farmacia/1455/turno/2015-10-01> .
 
-find:Vicalvaro a dbo:District ;
-	owl:sameAs <http://es.dbpedia.org/resource/Vicálvaro> .
+<http://linkeddata.es/grupo10/resource/distrito/Vicalvaro> owl:sameAs <http://es.dbpedia.org/resource/Vicálvaro> .
 
 <http://linkeddata.es/grupo10/resource/farmacia/91088> a font:FarmaciaDeGuardia ;
 	schema:containedInPlace <http://linkeddata.es/grupo10/resource/distrito/Vicalvaro> ;

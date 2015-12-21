@@ -5,12 +5,12 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "value.length()",
           "to": 6.7,
+          "expression": "value.length()",
           "selectError": true,
           "selectNumeric": true,
-          "name": "Tel�fono",
           "selectBlank": true,
+          "name": "Tel�fono",
           "columnName": "Tel�fono",
           "selectNonNumeric": true,
           "from": 6,
@@ -58,12 +58,12 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "value.length()",
           "to": 6.96,
+          "expression": "value.length()",
           "selectError": true,
           "selectNumeric": true,
-          "name": "Tel�fono",
           "selectBlank": true,
+          "name": "Tel�fono",
           "columnName": "Tel�fono",
           "selectNonNumeric": true,
           "from": 6,
@@ -104,14 +104,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "value",
           "invert": false,
+          "expression": "value",
           "selectError": false,
           "omitError": false,
-          "name": "Duraci�n",
           "selectBlank": false,
-          "columnName": "Duraci�n",
+          "name": "Duraci�n",
           "omitBlank": false,
+          "columnName": "Duraci�n",
           "type": "list",
           "selection": [
             {
@@ -123,14 +123,14 @@
           ]
         },
         {
-          "expression": "value",
           "invert": false,
+          "expression": "value",
           "selectError": false,
           "omitError": false,
-          "name": "HoraFinTurno",
           "selectBlank": true,
-          "columnName": "HoraFinTurno",
+          "name": "HoraFinTurno",
           "omitBlank": false,
+          "columnName": "HoraFinTurno",
           "type": "list",
           "selection": []
         }
@@ -156,14 +156,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "value",
           "invert": false,
+          "expression": "value",
           "selectError": false,
           "omitError": false,
-          "name": "HoraFinTurno",
           "selectBlank": true,
-          "columnName": "HoraFinTurno",
+          "name": "HoraFinTurno",
           "omitBlank": false,
+          "columnName": "HoraFinTurno",
           "type": "list",
           "selection": []
         }
@@ -712,12 +712,12 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": false,
           "selectNumeric": true,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -745,14 +745,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -764,12 +764,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": false,
           "selectNumeric": true,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -797,14 +797,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -816,12 +816,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": false,
           "selectNumeric": true,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -849,14 +849,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -868,12 +868,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": false,
           "selectNumeric": true,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -901,14 +901,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -920,12 +920,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": false,
           "selectNumeric": true,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -953,14 +953,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -972,12 +972,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": false,
           "selectNumeric": true,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1005,14 +1005,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1024,12 +1024,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": false,
           "selectNumeric": true,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1057,14 +1057,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1076,12 +1076,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": false,
           "selectNumeric": true,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1109,14 +1109,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1128,12 +1128,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": false,
           "selectNumeric": true,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1161,14 +1161,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1180,12 +1180,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": false,
           "selectNumeric": true,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1213,14 +1213,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1232,12 +1232,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": false,
           "selectNumeric": true,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1265,14 +1265,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1284,12 +1284,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": false,
           "selectNumeric": true,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1317,14 +1317,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1336,12 +1336,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": false,
           "selectNumeric": true,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1369,14 +1369,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1388,12 +1388,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": false,
           "selectNumeric": true,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1421,14 +1421,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1440,12 +1440,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": false,
           "selectNumeric": true,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1473,14 +1473,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1492,12 +1492,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": false,
           "selectNumeric": true,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1525,14 +1525,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1544,12 +1544,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": false,
           "selectNumeric": true,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1577,14 +1577,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1596,12 +1596,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": false,
           "selectNumeric": true,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1629,12 +1629,12 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": true,
           "selectNumeric": false,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1662,14 +1662,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1681,12 +1681,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": true,
           "selectNumeric": false,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1714,14 +1714,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1733,12 +1733,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": true,
           "selectNumeric": false,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1766,14 +1766,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1785,12 +1785,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": true,
           "selectNumeric": false,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1818,14 +1818,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1837,12 +1837,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": true,
           "selectNumeric": false,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1870,14 +1870,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1889,12 +1889,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": true,
           "selectNumeric": false,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1922,14 +1922,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1941,12 +1941,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": true,
           "selectNumeric": false,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -1974,14 +1974,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -1993,12 +1993,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": true,
           "selectNumeric": false,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -2026,14 +2026,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -2045,12 +2045,12 @@
           ]
         },
         {
-          "expression": "cell.recon.best.score",
           "to": 1.002,
+          "expression": "cell.recon.best.score",
           "selectError": true,
           "selectNumeric": false,
-          "name": "Barrio: best candidate's score",
           "selectBlank": true,
+          "name": "Barrio: best candidate's score",
           "columnName": "Barrio",
           "selectNonNumeric": true,
           "from": 0.225,
@@ -2078,14 +2078,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "value",
           "invert": false,
+          "expression": "value",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -2097,14 +2097,14 @@
           ]
         },
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -2137,14 +2137,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "value",
           "invert": false,
+          "expression": "value",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -2156,14 +2156,14 @@
           ]
         },
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -2196,14 +2196,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "value",
           "invert": false,
+          "expression": "value",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -2215,14 +2215,14 @@
           ]
         },
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -2255,14 +2255,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "value",
           "invert": false,
+          "expression": "value",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -2274,14 +2274,14 @@
           ]
         },
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -2314,14 +2314,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "value",
           "invert": false,
+          "expression": "value",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -2333,14 +2333,14 @@
           ]
         },
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -2373,14 +2373,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "value",
           "invert": false,
+          "expression": "value",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -2392,14 +2392,14 @@
           ]
         },
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -2432,14 +2432,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "value",
           "invert": false,
+          "expression": "value",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -2451,14 +2451,14 @@
           ]
         },
         {
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
           "selectError": false,
           "omitError": false,
-          "name": "Barrio: judgment",
           "selectBlank": false,
-          "columnName": "Barrio",
+          "name": "Barrio: judgment",
           "omitBlank": false,
+          "columnName": "Barrio",
           "type": "list",
           "selection": [
             {
@@ -2836,6 +2836,212 @@
         {
           "nodeType": "cell-as-resource",
           "expression": "replace(toTitlecase(value),\" \",\"_\")",
+          "isRowNumberCell": false,
+          "columnName": "Barrio",
+          "rdfTypes": [
+            {
+              "uri": "http://dbpedia.org/ontology/District",
+              "curie": "dbo:District"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "dbpedia:Distrito",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://linkeddata.es/grupo10/resource/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "time",
+          "uri": "http://www.w3.org/2006/time#"
+        },
+        {
+          "name": "dbo",
+          "uri": "http://dbpedia.org/ontology/"
+        },
+        {
+          "name": "font",
+          "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "find",
+          "uri": "http://linkeddata.es/grupo10/resource/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"farmacia/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "Farmacia",
+          "rdfTypes": [
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#FarmaciaDeGuardia",
+              "curie": "font:FarmaciaDeGuardia"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/containedInPlace",
+              "curie": "schema:containedInPlace",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"distrito/\" + replace(toTitlecase(value),\" \",\"_\")",
+                "isRowNumberCell": false,
+                "columnName": "Barrio",
+                "rdfTypes": [
+                  {
+                    "uri": "http://dbpedia.org/ontology/District",
+                    "curie": "dbo:District"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.org/address",
+              "curie": "schema:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Direccion"
+              }
+            },
+            {
+              "uri": "http://schema.org/branchCode",
+              "curie": "schema:branchCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia"
+              }
+            },
+            {
+              "uri": "http://schema.org/telephone",
+              "curie": "schema:telephone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TelefonoCompleto"
+              }
+            },
+            {
+              "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#tieneTurnoDeGuardia",
+              "curie": "font:tieneTurnoDeGuardia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"farmacia/\" + value + \"/turno/\" + cells[\"Fecha\"].value.toDate(\"dd/MM/yyyy\").toString(\"yyyy-MM-dd\")",
+                "isRowNumberCell": false,
+                "columnName": "Farmacia",
+                "rdfTypes": [
+                  {
+                    "uri": "http://linkeddata.es/grupo10/ontology/Farmacias#TurnoDeGuardia",
+                    "curie": "font:TurnoDeGuardia"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2006/time#hasBeginning",
+                    "curie": "time:hasBeginning",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"farmacia/\" + value + \"/turno/\" + cells[\"Fecha\"].value.toDate(\"dd/MM/yyyy\").toString(\"yyyy-MM-dd\") + \"/inicio\"",
+                      "isRowNumberCell": false,
+                      "columnName": "Farmacia",
+                      "rdfTypes": [
+                        {
+                          "uri": "http://www.w3.org/2006/time#Instant",
+                          "curie": "time:Instant"
+                        }
+                      ],
+                      "links": [
+                        {
+                          "uri": "http://www.w3.org/2006/time#inXSDDateTime",
+                          "curie": "time:inXSDDateTime",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "toString(toDate(value+\" \"+cells[\"HoraInicioTurno\"].value,\"dd/MM/yyyy HH:mm\"), \"yyyy-MM-dd'T'HH:mm:ss\")",
+                            "isRowNumberCell": false,
+                            "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                            "columnName": "Fecha"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2006/time#hasEnd",
+                    "curie": "time:hasEnd",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "\"farmacia/\" + value + \"/turno/\" + cells[\"Fecha\"].value.toDate(\"dd/MM/yyyy\").toString(\"yyyy-MM-dd\") + \"/fin\"",
+                      "isRowNumberCell": false,
+                      "columnName": "Farmacia",
+                      "rdfTypes": [
+                        {
+                          "uri": "http://www.w3.org/2006/time#Instant",
+                          "curie": "time:Instant"
+                        }
+                      ],
+                      "links": [
+                        {
+                          "uri": "http://www.w3.org/2006/time#inXSDDateTime",
+                          "curie": "time:inXSDDateTime",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "toString(if(diff(cells[\"HoraFinTurno\"].value.toDate(\"HH:mm\"),cells[\"HoraInicioTurno\"].value.toDate(\"HH:mm\"),\"seconds\") > 0, inc(toDate(value + \" \" + cells[\"HoraFinTurno\"].value, \"dd/MM/yyyy HH:mm\"), -1, \"seconds\"), inc(inc(toDate(value + \" \" + cells[\"HoraFinTurno\"].value, \"dd/MM/yyyy HH:mm\"), -1, \"seconds\"), 1, \"day\")), \"yyyy-MM-dd'T'HH:mm:ss\")",
+                            "isRowNumberCell": false,
+                            "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                            "columnName": "Fecha"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"distrito/\" + replace(toTitlecase(value),\" \",\"_\")",
           "isRowNumberCell": false,
           "columnName": "Barrio",
           "rdfTypes": [

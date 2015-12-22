@@ -1,12 +1,24 @@
 @prefix : <> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix esdbp: <http://es.dbpedia.org/property/> .
 @prefix dbp: <http://dbpedia.org/property/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix loc: <http://www.w3.org/2007/uwa/context/location.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema> .
+@prefix owl: <http://www.w3.org/2002/07/owl> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns> .
+@prefix loc: <../ontology/local.owl> .
+
+:catalog
+	a dcat:Catalog ;
+	dct:title "An RDF catalog to show the gender violence in Spain";
+	rdfs:label "violenciaGenero.bne.es RDF catalog"@en , "Catálogo RDF violenciaGenero.bne.es RDF"@es ;
+	foaf:homepage <http://violenciaGenero.grupo58.es/inicio> ;
+	dct:creator <http://estadisticasviolenciagenero.msssi.gob.es/> ;
+	dct:source <http://estadisticasviolenciagenero.msssi.gob.es/> ;
+	dct:publisher :ETSIINF-LinkedData-Group58 ;
+	dct:license rdflicense:cc-zero1.0 ;
+	dct:language <http://lexvo.org/id/iso639-3/spa>;
+	dcat:dataset :numeroDenuncias, :numeroLlamadas, :numeroOrdenes, :numeroVictimas;
 
 
 <http://127.0.0.1:3333/53> a loc:numeroDenuncias ;

@@ -1,0 +1,1544 @@
+[
+  {
+    "op": "core/column-split",
+    "description": "Split column Año by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Año",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Año 1",
+    "columnName": "Año 1"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Año 2 to Año",
+    "oldColumnName": "Año 2",
+    "newColumnName": "Año"
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "Número de denuncias por violencia de género",
+          "selectBlank": false,
+          "columnName": "Número de denuncias por violencia de género",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": 0,
+                "l": "0.0"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "Número de víctimas mortales",
+          "selectBlank": false,
+          "columnName": "Número de víctimas mortales",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": 0,
+                "l": "0.0"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column File",
+    "columnName": "File"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://127.0.0.1:3333/",
+      "prefixes": [
+        {
+          "name": "",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "esdbp",
+          "uri": "http://es.dbpedia.org/property/"
+        },
+        {
+          "name": "dbp",
+          "uri": "http://dbpedia.org/property/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "loc",
+          "uri": "http://www.w3.org/2007/uwa/context/location.owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de denuncias por violencia de género",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://es.dbpedia.org/property/date",
+              "curie": "esdbp:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/comunidadAutonoma",
+              "curie": "esdbp:comunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/province",
+              "curie": "esdbp:province",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#origenDenuncia",
+              "curie": "loc:origenDenuncia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Origen de la denuncia"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroDenuncias",
+              "curie": "loc:numeroDenuncias",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de denuncias por violencia de género"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de llamadas pertinentes",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://es.dbpedia.org/property/date",
+              "curie": "esdbp:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/comunidadAutonoma",
+              "curie": "esdbp:comunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/province",
+              "curie": "esdbp:province",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/llamante",
+              "curie": "esdbp:llamante",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Llamante"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/numeroLlamadas",
+              "curie": "esdbp:numeroLlamadas",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de llamadas pertinentes"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de órdenes de protección",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://es.dbpedia.org/property/date",
+              "curie": "esdbp:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/comunidadAutonoma",
+              "curie": "esdbp:comunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/province",
+              "curie": "esdbp:province",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/numeroOrdenes",
+              "curie": "esdbp:numeroOrdenes",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de órdenes de protección"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de víctimas mortales",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://es.dbpedia.org/property/date",
+              "curie": "esdbp:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/conmunidadAutonoma",
+              "curie": "esdbp:conmunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/province",
+              "curie": "esdbp:province",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/edadVictima",
+              "curie": "esdbp:edadVictima",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tramo de edad Víctima"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/pareja",
+              "curie": "esdbp:pareja",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Pareja - Expareja"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/numeroVictimas",
+              "curie": "esdbp:numeroVictimas",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de víctimas mortales"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://127.0.0.1:3333/",
+      "prefixes": [
+        {
+          "name": "",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "esdbp",
+          "uri": "http://es.dbpedia.org/property/"
+        },
+        {
+          "name": "dbp",
+          "uri": "http://dbpedia.org/property/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "loc",
+          "uri": "http://www.w3.org/2007/uwa/context/location.owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de denuncias por violencia de género",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://es.dbpedia.org/property/date",
+              "curie": "esdbp:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/comunidadAutonoma",
+              "curie": "esdbp:comunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/province",
+              "curie": "esdbp:province",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#origenDenuncia",
+              "curie": "loc:origenDenuncia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Origen de la denuncia"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroDenuncias",
+              "curie": "loc:numeroDenuncias",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de denuncias por violencia de género"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de llamadas pertinentes",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://es.dbpedia.org/property/date",
+              "curie": "esdbp:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/comunidadAutonoma",
+              "curie": "esdbp:comunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/province",
+              "curie": "esdbp:province",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/llamante",
+              "curie": "esdbp:llamante",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Llamante"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/numeroLlamadas",
+              "curie": "esdbp:numeroLlamadas",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de llamadas pertinentes"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de órdenes de protección",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://es.dbpedia.org/property/date",
+              "curie": "esdbp:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/comunidadAutonoma",
+              "curie": "esdbp:comunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/province",
+              "curie": "esdbp:province",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/numeroOrdenes",
+              "curie": "esdbp:numeroOrdenes",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de órdenes de protección"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de víctimas mortales",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://es.dbpedia.org/property/date",
+              "curie": "esdbp:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/conmunidadAutonoma",
+              "curie": "esdbp:conmunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/province",
+              "curie": "esdbp:province",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/edadVictima",
+              "curie": "esdbp:edadVictima",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tramo de edad Víctima"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/pareja",
+              "curie": "esdbp:pareja",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Pareja - Expareja"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/numeroVictimas",
+              "curie": "esdbp:numeroVictimas",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de víctimas mortales"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://127.0.0.1:3333/",
+      "prefixes": [
+        {
+          "name": "",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "esdbp",
+          "uri": "http://es.dbpedia.org/property/"
+        },
+        {
+          "name": "dbp",
+          "uri": "http://dbpedia.org/property/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "loc",
+          "uri": "http://www.w3.org/2007/uwa/context/location.owl#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de denuncias por violencia de género",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://es.dbpedia.org/property/date",
+              "curie": "esdbp:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/comunidadAutonoma",
+              "curie": "esdbp:comunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/province",
+              "curie": "esdbp:province",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#origenDenuncia",
+              "curie": "loc:origenDenuncia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Origen de la denuncia"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroDenuncias",
+              "curie": "loc:numeroDenuncias",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de denuncias por violencia de género"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de llamadas pertinentes",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://es.dbpedia.org/property/date",
+              "curie": "esdbp:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/comunidadAutonoma",
+              "curie": "esdbp:comunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/province",
+              "curie": "esdbp:province",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/llamante",
+              "curie": "esdbp:llamante",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Llamante"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/numeroLlamadas",
+              "curie": "esdbp:numeroLlamadas",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de llamadas pertinentes"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de órdenes de protección",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://es.dbpedia.org/property/date",
+              "curie": "esdbp:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/comunidadAutonoma",
+              "curie": "esdbp:comunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/province",
+              "curie": "esdbp:province",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/numeroOrdenes",
+              "curie": "esdbp:numeroOrdenes",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de órdenes de protección"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de víctimas mortales",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://es.dbpedia.org/property/date",
+              "curie": "esdbp:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/conmunidadAutonoma",
+              "curie": "esdbp:conmunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/province",
+              "curie": "esdbp:province",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/edadVictima",
+              "curie": "esdbp:edadVictima",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tramo de edad Víctima"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/pareja",
+              "curie": "esdbp:pareja",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Pareja - Expareja"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/numeroVictimas",
+              "curie": "esdbp:numeroVictimas",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de víctimas mortales"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://127.0.0.1:3333/",
+      "prefixes": [
+        {
+          "name": "",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "esdbp",
+          "uri": "http://es.dbpedia.org/property/"
+        },
+        {
+          "name": "dbp",
+          "uri": "http://dbpedia.org/property/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "loc",
+          "uri": "http://www.w3.org/2007/uwa/context/location.owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de denuncias por violencia de género",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroDenuncias",
+              "curie": "loc:numeroDenuncias"
+            }
+          ],
+          "links": [
+            {
+              "uri": "esdbp:año",
+              "curie": ":esdbp:año",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/comunidadAutonoma",
+              "curie": "esdbp:comunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/provincia",
+              "curie": "esdbp:provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#origenDenuncia",
+              "curie": "loc:origenDenuncia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Origen de la denuncia"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroDenuncias",
+              "curie": "loc:numeroDenuncias",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de denuncias por violencia de género"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de llamadas pertinentes",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroLlamadas",
+              "curie": "loc:numeroLlamadas"
+            }
+          ],
+          "links": [
+            {
+              "uri": "esdbp:año",
+              "curie": ":esdbp:año",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/comunidadAutonoma",
+              "curie": "esdbp:comunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/provincia",
+              "curie": "esdbp:provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#llamante",
+              "curie": "loc:llamante",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Llamante"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroLlamadas",
+              "curie": "loc:numeroLlamadas",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de llamadas pertinentes"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de órdenes de protección",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroOrdenes",
+              "curie": "loc:numeroOrdenes"
+            }
+          ],
+          "links": [
+            {
+              "uri": "esdbp:año",
+              "curie": ":esdbp:año",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/comunidadAutonoma",
+              "curie": "esdbp:comunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/provincia",
+              "curie": "esdbp:provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroOrdenes",
+              "curie": "loc:numeroOrdenes",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de órdenes de protección"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de víctimas mortales",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroVictimas",
+              "curie": "loc:numeroVictimas"
+            }
+          ],
+          "links": [
+            {
+              "uri": "esdbp:año",
+              "curie": ":esdbp:año",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/conmunidadAutonoma",
+              "curie": "esdbp:conmunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/provincia",
+              "curie": "esdbp:provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#edadVictima",
+              "curie": "loc:edadVictima",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tramo de edad Víctima"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#pareja",
+              "curie": "loc:pareja",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Pareja - Expareja"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroVictimas",
+              "curie": "loc:numeroVictimas",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de víctimas mortales"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://127.0.0.1:3333/",
+      "prefixes": [
+        {
+          "name": "",
+          "uri": ""
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "esdbp",
+          "uri": "http://es.dbpedia.org/property/"
+        },
+        {
+          "name": "dbp",
+          "uri": "http://dbpedia.org/property/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "loc",
+          "uri": "http://www.w3.org/2007/uwa/context/location.owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de denuncias por violencia de género",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroDenuncias",
+              "curie": "loc:numeroDenuncias"
+            }
+          ],
+          "links": [
+            {
+              "uri": "esdbp:año",
+              "curie": ":esdbp:año",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/comunidadAutonoma",
+              "curie": "esdbp:comunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/provincia",
+              "curie": "esdbp:provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#origenDenuncia",
+              "curie": "loc:origenDenuncia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Origen de la denuncia"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroDenuncias",
+              "curie": "loc:numeroDenuncias",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de denuncias por violencia de género"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de llamadas pertinentes",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroLlamadas",
+              "curie": "loc:numeroLlamadas"
+            }
+          ],
+          "links": [
+            {
+              "uri": "esdbp:año",
+              "curie": ":esdbp:año",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/comunidadAutonoma",
+              "curie": "esdbp:comunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/provincia",
+              "curie": "esdbp:provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#llamante",
+              "curie": "loc:llamante",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Llamante"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroLlamadas",
+              "curie": "loc:numeroLlamadas",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de llamadas pertinentes"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de órdenes de protección",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroOrdenes",
+              "curie": "loc:numeroOrdenes"
+            }
+          ],
+          "links": [
+            {
+              "uri": "esdbp:año",
+              "curie": ":esdbp:año",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/comunidadAutonoma",
+              "curie": "esdbp:comunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/provincia",
+              "curie": "esdbp:provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroOrdenes",
+              "curie": "loc:numeroOrdenes",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de órdenes de protección"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "Número de víctimas mortales",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroVictimas",
+              "curie": "loc:numeroVictimas"
+            }
+          ],
+          "links": [
+            {
+              "uri": "esdbp:año",
+              "curie": ":esdbp:año",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Año"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/conmunidadAutonoma",
+              "curie": "esdbp:conmunidadAutonoma",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Comunidad autónoma"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/property/provincia",
+              "curie": "esdbp:provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Provincia"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#edadVictima",
+              "curie": "loc:edadVictima",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Tramo de edad Víctima"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#pareja",
+              "curie": "loc:pareja",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Pareja - Expareja"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2007/uwa/context/location.owl#numeroVictimas",
+              "curie": "loc:numeroVictimas",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Número de víctimas mortales"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

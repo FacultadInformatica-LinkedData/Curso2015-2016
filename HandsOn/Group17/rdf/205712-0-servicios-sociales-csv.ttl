@@ -1,0 +1,460 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://accessibility/group17/7827523> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Alicia Koplowitz Centro de Día y Residencial de Esclerosis Múltiple de la Comunidad de Madrid" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "JOSE PRAT" , "BULEVAR" , "40"^^xsd:int , "28032" ;
+	gn:locatedIn "CASCO H.VICALVARO" ;
+	vcard:street-address <http://accessibility/group17/7827523> .
+
+<http://accessibility/group17/133823> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro de Día Funprodami" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "GARCIA MIRANDA" , "CALLE" , "4"^^xsd:int , "28018" ;
+	gn:locatedIn "SAN DIEGO" ;
+	vcard:street-address <http://accessibility/group17/133823> .
+
+<http://accessibility/group17/77520> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro de día para discapacitados físicos Argüelles" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "ANDRES MELLADO" , "CALLE" , "31"^^xsd:int , "28015" ;
+	gn:locatedIn "GAZTAMBIDE" ;
+	vcard:street-address <http://accessibility/group17/77520> .
+
+<http://accessibility/group17/29839> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro de Día para Personas con Discapacidad Intelectual Navas de Tolosa" ;
+	xsd:Integer "1"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "BENIMAMET" , "CALLE" , "109"^^xsd:int , "28021" ;
+	gn:locatedIn "SAN CRISTOBAL" ;
+	vcard:street-address <http://accessibility/group17/29839> .
+
+<http://accessibility/group17/7192500> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro de día y ocupacional Fundación Juan XXIII" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "GRAN VIA DEL ESTE" , "AVENIDA" , "1"^^xsd:int , "28032" ;
+	gn:locatedIn "CASCO H.VICALVARO" ;
+	vcard:street-address <http://accessibility/group17/7192500> .
+
+<http://accessibility/group17/51238> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro de Día y ocupacional para discapacitados intelectuales Pardo Valcarce" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "MONASTERIO DE LAS HUELGAS" , "CALLE" , "15"^^xsd:int , "28049" ;
+	gn:locatedIn "MIRASIERRA" ;
+	vcard:street-address <http://accessibility/group17/51238> .
+
+<http://accessibility/group17/7191610> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro de día y ocupacional para personas con discapacidad intelectual Afade" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "RAFAEL ALBERTI" , "AVENIDA" , "4"^^xsd:int , "28038" ;
+	gn:locatedIn "PALOMERAS SURESTE" ;
+	vcard:street-address <http://accessibility/group17/7191610> .
+
+<http://accessibility/group17/1143> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro de día y ocupacional para personas con discapacidad intelectual Manos Tendidas" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "RICARDO DAMAS" , "CALLE" , "3"^^xsd:int , "28045" ;
+	gn:locatedIn "LEGAZPI" ;
+	vcard:street-address <http://accessibility/group17/1143> .
+
+<http://accessibility/group17/133636> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro de día y residencia para personas con discapacidad intelectual Dos de Mayo" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "OÑA" , "CALLE" , "1"^^xsd:int , "28050" ;
+	gn:locatedIn "VALDEFUENTES" ;
+	vcard:street-address <http://accessibility/group17/133636> .
+
+<http://accessibility/group17/133640> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro de día y residencia para personas con discapacidad intelectual Mirasierra" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "LA MASO" , "CALLE" , "40"^^xsd:int , "28034" ;
+	gn:locatedIn "MIRASIERRA" ;
+	vcard:street-address <http://accessibility/group17/133640> .
+
+<http://accessibility/group17/1417> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro de día y residencial de Atención al Paralítico Cerebral (ATENPACE)" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "ISLAS MARQUESAS" , "CALLE" , "27"^^xsd:int , "28035" ;
+	gn:locatedIn "PEÑA GRANDE" ;
+	vcard:street-address <http://accessibility/group17/1417> .
+
+<http://accessibility/group17/7190893> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro de día, ocupacional y residencia 3 Olivos para personas con discapacidad intelectual de la Fundación Síndrome de Down" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "CUEVA DE MONTESINOS" , "CALLE" , "45"^^xsd:int , "28034" ;
+	gn:locatedIn "VALVERDE" ;
+	vcard:street-address <http://accessibility/group17/7190893> .
+
+<http://accessibility/group17/7191698> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro de día, ocupacional y residencia Ande Punto" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "RAFAELA YBARRA" , "AVENIDA" , "75"^^xsd:int , "28026" ;
+	gn:locatedIn "PRADOLONGO" ;
+	vcard:street-address <http://accessibility/group17/7191698> .
+
+<http://accessibility/group17/39745> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro de día, ocupacional y residencia para personas con discapacidad intelectual Götze" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "CASTILLA" , "CARRETERA" , "KM 5"^^xsd:int , "28040" ;
+	gn:locatedIn "ARAVACA" ;
+	vcard:street-address <http://accessibility/group17/39745> .
+
+<http://accessibility/group17/133674> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro de día, ocupacional y residencia para personas con discapacidad intelectual San Vicente" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "RAFAELA YBARRA" , "AVENIDA" , "75"^^xsd:int , "28026" ;
+	gn:locatedIn "PRADOLONGO" ;
+	vcard:street-address <http://accessibility/group17/133674> .
+
+<http://accessibility/group17/133523> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro de día, ocupacional y residencia para personas con discapacidad intelectual Ángel de la Guarda" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "DAROCA" , "AVENIDA" , "60"^^xsd:int , "28017" ;
+	gn:locatedIn "VENTAS" ;
+	vcard:street-address <http://accessibility/group17/133523> .
+
+<http://accessibility/group17/7190391> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro de día, Residencia y Centro ocupacional para personas con discapacidad intelectual Fundación Betesda" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "GRAN VIA DE HORTALEZA" , "AVENIDA" , "27"^^xsd:int , "28043" ;
+	gn:locatedIn "PINAR DEL REY" ;
+	vcard:street-address <http://accessibility/group17/7190391> .
+
+<http://accessibility/group17/35004> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro de Recuperación de  Personas con Discapacidad Física (CRMF) de Madrid" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "VALDERRIBAS" , "CAMINO" , "113"^^xsd:int , "28038" ;
+	gn:locatedIn "NUMANCIA" ;
+	vcard:street-address <http://accessibility/group17/35004> .
+
+<http://accessibility/group17/2022> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro de Referencia Estatal de Autonomía Personal y Ayudas Técnicas (CEAPAT)" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "EXTREMEÑOS" , "CALLE" , "1"^^xsd:int , "28018" ;
+	gn:locatedIn "PALOMERAS SURESTE" ;
+	vcard:street-address <http://accessibility/group17/2022> .
+
+<http://accessibility/group17/179797> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional Afanias las Victorias" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "FRAY JUNIPERO SERRA" , "CALLE" , "27"^^xsd:int , "28039" ;
+	gn:locatedIn "VALDEACEDERAS" ;
+	vcard:street-address <http://accessibility/group17/179797> .
+
+<http://accessibility/group17/7192542> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional Fundación Prodis para personas con discapacidad intelectual" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "INDALECIO PRIETO" , "BULEVAR" , "2"^^xsd:int , "28032" ;
+	gn:locatedIn "CASCO H.VICALVARO" ;
+	vcard:street-address <http://accessibility/group17/7192542> .
+
+<http://accessibility/group17/7827408> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional Jardines de España" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "BURGOS" , "AVENIDA" , "85"^^xsd:int , "28050" ;
+	gn:locatedIn "VALVERDE" ;
+	vcard:street-address <http://accessibility/group17/7827408> .
+
+<http://accessibility/group17/7827509> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional Nuestra Señora del Camino III, C.O." ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "NUEVA CALEDONIA" , "CALLE" , "14"^^xsd:int , "28035" ;
+	gn:locatedIn "CIUDAD UNIVERSITARIA" ;
+	vcard:street-address <http://accessibility/group17/7827509> .
+
+<http://accessibility/group17/11941> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional para discapacitados intelectuales San Pedro Apostol" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "JUBILADO" , "PLAZA" , "7"^^xsd:int , "28042" ;
+	gn:locatedIn "CASCO H.BARAJAS" ;
+	vcard:street-address <http://accessibility/group17/11941> .
+
+<http://accessibility/group17/133522> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional para personas con discapaciad intelectual Ciudad Lineal" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "JOSEFA VALCARCEL" , "CALLE" , "1"^^xsd:int , "28027" ;
+	gn:locatedIn "SAN PASCUAL" ;
+	vcard:street-address <http://accessibility/group17/133522> .
+
+<http://accessibility/group17/11917> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional para personas con discapacidad intelectual Aluche" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "RAFAEL FINAT" , "CALLE" , "48"^^xsd:int , "28044" ;
+	gn:locatedIn "LAS AGUILAS" ;
+	vcard:street-address <http://accessibility/group17/11917> .
+
+<http://accessibility/group17/35013> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional para personas con discapacidad intelectual Amanecer" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "MATILDE DIEZ" , "CALLE" , "8"^^xsd:int , "28002" ;
+	gn:locatedIn "CIUDAD JARDIN" ;
+	vcard:street-address <http://accessibility/group17/35013> .
+
+<http://accessibility/group17/133713> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional para personas con discapacidad intelectual Estar 5. Calle Camino Hormigueras" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "HORMIGUERAS" , "CAMINO" , "122"^^xsd:int , "28031" ;
+	gn:locatedIn "CASCO H.VALLECAS" ;
+	vcard:street-address <http://accessibility/group17/133713> .
+
+<http://accessibility/group17/133712> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro Ocupacional para personas con discapacidad intelectual Estar. Calle Los Yébenes" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "LOS YEBENES" , "CALLE" , "241"^^xsd:int , "28047" ;
+	gn:locatedIn "ALUCHE" ;
+	vcard:street-address <http://accessibility/group17/133712> .
+
+<http://accessibility/group17/7191581> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional para personas con discapacidad intelectual I.S.F.A.S." ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "VENTA DE LA RUBIA" , "CARRETERA" , "1"^^xsd:int , "0" , <http://accessibility/group17/7191581> .
+
+<http://accessibility/group17/133490> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional para personas con discapacidad intelectual Juan de Austria" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "ARTURO SORIA" , "CALLE" , "12"^^xsd:int , "28027" ;
+	gn:locatedIn "QUINTANA" ;
+	vcard:street-address <http://accessibility/group17/133490> .
+
+<http://accessibility/group17/11937> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional para personas con discapacidad intelectual Nazaret" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "MANOTERAS" , "AVENIDA" , "1"^^xsd:int , "28050" ;
+	gn:locatedIn "VALDEFUENTES" ;
+	vcard:street-address <http://accessibility/group17/11937> .
+
+<http://accessibility/group17/56940> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional para personas con discapacidad intelectual Pintor Rosales" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "MARQUES DE URQUIJO" , "CALLE" , "47"^^xsd:int , "28008" ;
+	gn:locatedIn "ARGUELLES" ;
+	vcard:street-address <http://accessibility/group17/56940> .
+
+<http://accessibility/group17/29854> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro Ocupacional para Personas con Discapacidad Intelectual Villaverde" ;
+	xsd:Integer "1"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "BASCUÑUELOS" , "CALLE" , "1"^^xsd:int , "28021" ;
+	gn:locatedIn "SAN ANDRES" ;
+	vcard:street-address <http://accessibility/group17/29854> .
+
+<http://accessibility/group17/11942> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional personas con discapacidad intelectual Fundación Aprocor II" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "FROMISTA" , "CALLE" , "13"^^xsd:int , "28050" ;
+	gn:locatedIn "VALVERDE" ;
+	vcard:street-address <http://accessibility/group17/11942> .
+
+<http://accessibility/group17/7827380> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional San Fernando" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "CRISTO DE LA VICTORIA" , "CALLE" , "1"^^xsd:int , "28026" ;
+	gn:locatedIn "ALMENDRALES" ;
+	vcard:street-address <http://accessibility/group17/7827380> .
+
+<http://accessibility/group17/133488> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional y residencia Carabanchel" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "GENERAL RICARDOS" , "CALLE" , "177"^^xsd:int , "28025" ;
+	gn:locatedIn "PUERTA BONITA" ;
+	vcard:street-address <http://accessibility/group17/133488> .
+
+<http://accessibility/group17/11928> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional y residencia para discapacitados intelectuales Nuestra Señora del Camino" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "COLLADO DE TIROBARRA" , "CALLE" , "4"^^xsd:int , "28034" ;
+	gn:locatedIn "MIRASIERRA" ;
+	vcard:street-address <http://accessibility/group17/11928> .
+
+<http://accessibility/group17/133361> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional y residencia para personas con discapacidad intelectual Barajas" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "ZAOREJAS" , "CALLE" , "3"^^xsd:int , "28042" ;
+	gn:locatedIn "AEROPUERTO" ;
+	vcard:street-address <http://accessibility/group17/133361> .
+
+<http://accessibility/group17/7191232> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Centro ocupacional Ángeles Urbanos Hortaleza para personas con discapacidad intelectual" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "JOSE ALVAREZ DE TOLEDO" , "CALLE" , "6"^^xsd:int , "28043" ;
+	gn:locatedIn "PIOVERA" ;
+	vcard:street-address <http://accessibility/group17/7191232> .
+
+<http://accessibility/group17/7827516> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Estudios Asura Residencia para Discapacitados" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "ASURA" , "CALLE" , "74"^^xsd:int , "28043" ;
+	gn:locatedIn "PIOVERA" ;
+	vcard:street-address <http://accessibility/group17/7827516> .
+
+<http://accessibility/group17/7828344> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Estudios Sobradiel Residencia para personas con discapacidad" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "SOBRADIEL" , "RONDA" , "83"^^xsd:int , "28043" ;
+	gn:locatedIn "PIOVERA" ;
+	vcard:street-address <http://accessibility/group17/7828344> .
+
+<http://accessibility/group17/6858752> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Federación Autismo Madrid" ;
+	xsd:Integer "1"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "MORALZARZAL" , "CALLE" , "55"^^xsd:int , "28034" ;
+	gn:locatedIn "MIRASIERRA" ;
+	vcard:street-address <http://accessibility/group17/6858752> .
+
+<http://accessibility/group17/133438> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Fundación, centro ocupacional y residencia Alas Moratalaz" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "ENCOMIENDA DE PALACIOS" , "CALLE" , "235"^^xsd:int , "28030" ;
+	gn:locatedIn "PAVONES" ;
+	vcard:street-address <http://accessibility/group17/133438> .
+
+<http://accessibility/group17/12168> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Hospital Fundación Instituto San José" ;
+	xsd:Integer "1"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "PINAR DE SAN JOSE" , "CALLE" , "98"^^xsd:int , "28054" ;
+	gn:locatedIn "CUATRO VIENTOS" ;
+	vcard:street-address <http://accessibility/group17/12168> .
+
+<http://accessibility/group17/7827714> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Residencia Medinaceli Ramírez Tomé" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "RAMIREZ TOME" , "CALLE" , "38"^^xsd:int , "28038" ;
+	gn:locatedIn "PORTAZGO" ;
+	vcard:street-address <http://accessibility/group17/7827714> .
+
+<http://accessibility/group17/11919> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Residencia para personas con discapacidad física de la Confederación Estatal de Minusválidos Físicos de España COCEMFE" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "EUGENIO SALAZAR" , "CALLE" , "2"^^xsd:int , "28002" ;
+	gn:locatedIn "PROSPERIDAD" ;
+	vcard:street-address <http://accessibility/group17/11919> .
+
+<http://accessibility/group17/108506> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Residencia para personas con discapacidad intelectual La Peineta Cepri" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "ZURICH" , "CALLE" , "41"^^xsd:int , "28022" ;
+	gn:locatedIn "ROSAS" ;
+	vcard:street-address <http://accessibility/group17/108506> .
+
+<http://accessibility/group17/6818168> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Residencia para personas con discapacidad intelectual no grave Belisana" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "BELISANA" , "CALLE" , "22"^^xsd:int , "28043" ;
+	gn:locatedIn "CANILLAS" ;
+	vcard:street-address <http://accessibility/group17/6818168> .
+
+<http://accessibility/group17/35179> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Residencia para personas con discapacidad intelectual San Martín de Porres" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "WALMAN" , "CALLE" , "17"^^xsd:int , "28023" ;
+	gn:locatedIn "EL PLANTIO" ;
+	vcard:street-address <http://accessibility/group17/35179> .
+
+<http://accessibility/group17/39623> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Residencia y centro cupacional para personas con discapacidad intelectual Afanias Canillejas" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "CANILLEJAS A VICALVARO" , "AVENIDA" , "28"^^xsd:int , "28022" ;
+	gn:locatedIn "SIMANCAS" ;
+	vcard:street-address <http://accessibility/group17/39623> .
+
+<http://accessibility/group17/4849820> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Residencia y Centro de Día para personas con discapacidad intelectual El Despertar" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "ADONIS" , "CALLE" , "1"^^xsd:int , "28024" ;
+	gn:locatedIn "LAS AGUILAS" ;
+	vcard:street-address <http://accessibility/group17/4849820> .
+
+<http://accessibility/group17/133475> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Residencia y centro ocupacional para personas con discapacidad intelectual Casa Santa Teresa" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "PONIENTE" , "CALLE" , "10"^^xsd:int , "28036" ;
+	gn:locatedIn "CASTILLA" ;
+	vcard:street-address <http://accessibility/group17/133475> .
+
+<http://accessibility/group17/4852632> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Residencia, centro de día y ocupacional para personas con discapacidad intelectual Fundacion San José" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "PINAR DE SAN JOSE" , "CALLE" , "98"^^xsd:int , "28054" ;
+	gn:locatedIn "CUATRO VIENTOS" ;
+	vcard:street-address <http://accessibility/group17/4852632> .
+
+<http://accessibility/group17/35067> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Residencia, centro ocupacional y centro de día para personas con discapacidad intelectual Doctor Quintero Lumbreras" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "COLMENAR VIEJO" , "CARRETERA" , "13.6"^^xsd:int , "0" , <http://accessibility/group17/35067> .
+
+<http://accessibility/group17/34541> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Taller centro ocupacional para personas con discapacidad intelectual Aprocor I" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "ESTEBAN PALACIOS" , "CALLE" , "12"^^xsd:int , "28043" ;
+	gn:locatedIn "PIOVERA" ;
+	vcard:street-address <http://accessibility/group17/34541> .
+
+<http://accessibility/group17/7193047> a <http://accessibility/group17/ServiciosSociales> ;
+	rdfs:label "Taller ocupacional II Ademo para personas con discapacidad intelectual" ;
+	xsd:Integer "0"^^xsd:boolean ;
+	a <http://accessibility/group17/Address> ;
+	vcard:street-address "CAMINO DE LOS VINATEROS" , "CALLE" , "59"^^xsd:int , "28030" ;
+	gn:locatedIn "MEDIA LEGUA" ;
+	vcard:street-address <http://accessibility/group17/7193047> .

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2015-12-21 lun 12:13 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="viewport" content="width=device-width, initial-scale=1" />
+<title>Analisis de los datasets</title>
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Grupo 42" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Analisis de los datasets</h1>
+
+<div id="outline-container-orgheadline21" class="outline-2">
+<h2 id="orgheadline21"><span class="section-number-2">1</span> Analisis de los datasets</h2>
+<div class="outline-text-2" id="text-1">
+</div><div id="outline-container-orgheadline1" class="outline-3">
+<h3 id="orgheadline1"><span class="section-number-3">1.1</span> Datasets usados:</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>Aparcamiento de motos</li>
+<li>Barrios</li>
+<li>Calles</li>
+<li>Estacionamiento bicicletas</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline2" class="outline-3">
+<h3 id="orgheadline2"><span class="section-number-3">1.2</span> Datos a utilizar:</h3>
+<div class="outline-text-3" id="text-1-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Descripcion</td>
+<td class="org-left">Observaciones</td>
+</tr>
+
+<tr>
+<td class="org-left">districtName</td>
+<td class="org-left">Nombre del distrito</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">geoPosition</td>
+<td class="org-left">Posicion geolocalizada con latitud y longitud</td>
+<td class="org-left">Util para encontrar las estaciones mas cercanas</td>
+</tr>
+
+<tr>
+<td class="org-left">idEstacion</td>
+<td class="org-left">ID de la estacion</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">lastUpdated</td>
+<td class="org-left">Ultima vez que los datos han sido actualizados</td>
+<td class="org-left">Servira para saber si los datos puede que esten desactualizado-s</td>
+</tr>
+
+<tr>
+<td class="org-left">nCapacidad</td>
+<td class="org-left">Capacidad maxima de la estacion</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">noCalle</td>
+<td class="org-left">Nombre comun de la calle</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">slotsAvaliable</td>
+<td class="org-left">Puestos disponibles en la estacion</td>
+<td class="org-left">Gracias a esto se sabra si se podra aparcar</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orgheadline20" class="outline-3">
+<h3 id="orgheadline20"><span class="section-number-3">1.3</span> Licencia</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+El Excmo. Ayuntamiento de Zaragoza informa a los usuari@s que esta sede electrónica está gestionada por la Oficina Web Municipal, perteneciente a la Dirección General de Ciencia y Tecnología del Excmo. Ayuntamiento de Zaragoza. La información y los contenidos que se proporcionan en esta sede electrónica son facilitados por los diferentes Servicios y Departamentos Municipales.
+</p>
+
+<p>
+En cumplimiento con lo dispuesto en el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, se informa que www.zaragoza.es es un nombre de dominio, cuyo titular es el Excmo. Ayuntamiento de Zaragoza, el cual, a través de su sede electrónica proporciona servicios, actividades y actuaciones dentro de su ámbito de actuación relacionados con servicios de la sociedad de la información. A efectos de lo dispuesto en el mencionado artículo 10, los datos de la entidad son los siguientes:
+</p>
+
+<p>
+Nombre: Excmo. Ayuntamiento de Zaragoza
+Dirección: Edificio Seminario: Vía Hispanidad nº 20, 50071 Zaragoza
+CIF: P5030300G
+Teléfono: 976 721 000
+Fax: 976 721 166
+Email: webmunicipal@zaragoza.es
+</p>
+
+<p>
+Este Aviso Legal regula las condiciones de uso de la sede electrónica www.zaragoza.es. Toda persona que acceda a la misma asume el papel de usuari@, comprometiéndose a la observancia y cumplimiento de las disposiciones incluidas en ella así como su correcta utilización de conformidad con la legislación aplicable, respondiendo de los perjuicios que pudiera ocasionar el incumplimiento de esta obligación. El tratamiento de los datos de carácter personal que se realice a través de esta sede electrónica se sujetará a lo establecido por la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal y demás normativa de aplicación, tal como se dispone en la "Política de Privacidad" contenida en la misma.
+</p>
+</div>
+<div id="outline-container-orgheadline3" class="outline-4">
+<h4 id="orgheadline3"><span class="section-number-4">1.3.1</span> Propiedad Intelectual e Industrial</h4>
+<div class="outline-text-4" id="text-1-3-1">
+<p>
+Los derechos de propiedad intelectual pertenecen al Excmo. Ayuntamiento de Zaragoza, por tanto, esta sede electrónica y todos sus contenidos, textos, imágenes, gráficos, audio y cualesquiera otros materiales son propiedad del Excmo. Ayuntamiento de Zaragoza. Las marcas o signos distintivos del Excmo. Ayuntamiento de Zaragoza contenidos en la sede electrónica están protegidos por la legislación de propiedad industrial. Los diseños, logotipos, texto y/o gráficos ajenos al Excmo. Ayuntamiento de Zaragoza que pudieran aparecer en la misma pertenecen a sus respectivos propietarios, siendo ellos responsables de cualquier posible controversia que pudiera suscitarse respecto a los mismos.
+</p>
+</div>
+</div>
+<div id="outline-container-orgheadline17" class="outline-4">
+<h4 id="orgheadline17"><span class="section-number-4">1.3.2</span> Condiciones de uso</h4>
+<div class="outline-text-4" id="text-1-3-2">
+</div><ol class="org-ol"><li><a id="orgheadline4"></a>CONDICIONES GENERALES<br  /><div class="outline-text-5" id="text-1-3-2-1">
+<p>
+El acceso a la sede electrónica del Excmo. Ayuntamiento de Zaragoza así como el uso que pueda hacerse de la información que se contiene en la misma, son de la exclusiva responsabilidad del usuari@. El usuari@ se obliga a acceder a la sede electrónica y a usar sus contenidos de forma diligente, correcta y lícita y, en particular, se compromete a hacer uso de las informaciones y/o servicios ofrecidos de conformidad con la normativa vigente en cada momento. El Excmo. Ayuntamiento de Zaragoza no se hará responsable en ningún caso del uso que los usuari@s y/o terceros pudieran hacer de su sede electrónica o de sus contenidos, ni de los daños y perjuicios que pudieran derivarse del mismo, incluidos daños informáticos o virus. El Excmo. Ayuntamiento de Zaragoza excluye toda responsabilidad por cualquier daño o perjuicio en el software o hardware del usuari@ que pudiera derivarse del acceso a esta sede electrónica, así como de su uso, transmisión, difusión, almacenamiento de información o aplicaciones contenidas en la misma. El Excmo. Ayuntamiento de Zaragoza podrá efectuar, en cualquier momento y sin necesidad de previo aviso, las modificaciones y actualizaciones necesarias sobre la información contenida en su sede electrónica. El funcionamiento de la misma está constantemente revisado al objeto de que funcione correctamente los 365 días del año. No obstante, no se descarta la posibilidad de que existan ciertos errores de programación o acontezcan causas de fuerza mayor, catástrofes naturales o circunstancias semejantes que hagan imposible, en un momento dado, el acceso a su sede electrónica. El Excmo. Ayuntamiento de Zaragoza desarrollará los esfuerzos precisos para evitar errores y, en su caso, repararlos o actualizarlos lo antes posible, excluyendo toda responsabilidad por los daños y perjuicios causados por las interrupciones o fallos temporales en el acceso a la misma.
+</p>
+</div></li>
+<li><a id="orgheadline10"></a>CONDICIONES ESPECÍFICAS PARA LA UTILIZACIÓN DE LA PLATAFORMA GOBIERNO ABIERTO<br  /><ol class="org-ol"><li><a id="orgheadline5"></a>Condiciones aplicables<br  /><div class="outline-text-6" id="text-1-3-2-2-1">
+<p>
+El uso de la plataforma Gobierno Abierto del Ayuntamiento de Zaragoza está sujeta a las condiciones de uso y a la política de privacidad de la Web Municipal, además de a las siguientes condiciones específicas, cuyo objetivo es garantizar que los ciudadanos y ciudadanas puedan enviar sus comentarios, aportaciones y propuestas, así como hacer uso de los canales participativos que ofrece la plataforma, realizándose todo ello dentro de un marco de respeto y legalidad.
+</p>
+</div></li>
+<li><a id="orgheadline6"></a>Finalidad<br  /><div class="outline-text-6" id="text-1-3-2-2-2">
+<p>
+El usuario se compromete a hacer un uso de la plataforma adecuado con su finalidad participativa y a no emplearlo para incurrir en actividades ilícitas; contrarias a la buena fe; que vulneren o transgredan el honor, la intimidad personal o familiar o la imagen de las personas; o que supongan actos de competencia desleal o publicidad ilícita.
+</p>
+</div></li>
+<li><a id="orgheadline7"></a>Responsabilidad sobre los contenidos aportados<br  /><div class="outline-text-6" id="text-1-3-2-2-3">
+<p>
+El Usuario es el único responsable de los contenidos, comentarios y ficheros que pueda poner a disposición a través de la plataforma. El Ayuntamiento de Zaragoza excluye toda responsabilidad por los daños y perjuicios de cualquier naturaleza que puedan derivar de los contenidos aportados por los usuarios, así como por las opiniones vertidas por los mismos.
+</p>
+
+<p>
+El usuario adquiere una obligación de veracidad sobre los contenidos que aporte a la plataforma, por la que se compromete a no incurrir en falta de veracidad, exactitud, exhaustividad, pertinencia y/o actualidad de los contenidos.
+</p>
+
+<p>
+El usuario se obliga a no publicar (o subir) ningún fichero que esté sujeto a derechos de propiedad intelectual o industrial de terceros, salvo que el titular de dichos derechos le haya otorgado una licencia o autorización formal.
+</p>
+</div></li>
+<li><a id="orgheadline8"></a>Moderación de los contenidos<br  /><div class="outline-text-6" id="text-1-3-2-2-4">
+<p>
+La plataforma dispone de un sistema de moderación de comentarios, aportaciones y propuestas cuya finalidad es evitar la publicación de contenidos que infrinjan las presentes Condiciones o cualquier otra regulación que resulte aplicable. El usuario acepta que los contenidos aportados sean supervisados por el Ayuntamiento de Zaragoza y, en su caso, retirados de la plataforma. En caso de disconformidad, el usuario podrá dirigirse al Ayuntamiento por medio de los mecanismos disponibles en la Web Municipal, o por cualquier otro que legalmente resulte adecuado.
+</p>
+
+<p>
+Las aportaciones que, por parte del Ayuntamiento de Zaragoza, se considere que no entran en la categoría de comentario, aportaciones o propuestas, por tratarse de una queja, sugerencia o solicitud de información serán derivadas al Servicio de Quejas y Sugerencias para su oportuna tramitación y/o resolución.
+</p>
+</div></li>
+<li><a id="orgheadline9"></a>Comunicaciones con los usuarios<br  /><div class="outline-text-6" id="text-1-3-2-2-5">
+<p>
+El Usuario acepta expresamente que la dirección de correo electrónico que, en su caso, haya aportado para las comunicaciones con el Ayuntamiento es correcta y veraz, y que las comunicaciones dirigidas a la misma se considerarán eficaces a todos los efectos.
+</p>
+</div></li></ol></li>
+<li><a id="orgheadline16"></a>CONDICIONES GENERALES PARA LA MOVILIDAD GENERAL DE PUESTA A DISPOSICIÓN DE LOS DOCUMENTOS REUTILIZABLES DEL AYUNTAMIENTO DE ZARAGOZA<br  /><ol class="org-ol"><li><a id="orgheadline11"></a>Obligatoriedad de las condiciones generales<br  /><div class="outline-text-6" id="text-1-3-2-3-1">
+<p>
+Las presentes condiciones generales, disponibles con carácter permanente bajo Aviso Legal, obligan a cualquier agente reutilizador por el mero hecho de hacer uso de los documentos sometidos a ellas.
+</p>
+</div></li>
+<li><a id="orgheadline12"></a>Autorización de reutilización y cesión no exclusiva de derechos de propiedad intelectual<br  /><div class="outline-text-6" id="text-1-3-2-3-2">
+<p>
+Las presentes condiciones generales permiten la reutilización de los documentos sometidos a ellas para fines comerciales y no comerciales. Se entiende por reutilización el uso de documentos que obran en poder del Ayuntamiento de Zaragoza y de los demás organismos y entidades incluidos en el ámbito subjetivo de la Ordenanza de Administración Electrónica por su artículo 2, por personas físicas o jurídicas, con fines comerciales o no comerciales, siempre que dicho uso no constituya una actividad administrativa pública. Por ejemplo, la reutilización autorizada incluye actividades como la copia, difusión, modificación, adaptación, extracción, reordenación y combinación de la información.
+</p>
+
+<p>
+Se entiende por documento electrónico, según el artículo 50 de la mencionada Ordenanza, cualquier representación de texto, imagen, sonido o video, o las combinaciones de todos o alguno de estos elementos, que haya sido codificada mediante el empleo de un programa de tratamiento de la información y resulte legible gracias al mismo programa usado para su generación u otro equivalente, siendo susceptible de tratamiento individualizado. Además, a los efectos de estas condiciones generales se incluyen expresamente las bases y colecciones de datos.
+</p>
+
+<p>
+La reutilización conlleva la cesión gratuita y no exclusiva de los derechos de propiedad intelectual, en su caso, correspondientes a tales documentos, autorizándose la realización de actividades de reproducción, distribución, comunicación pública o transformación, que sean necesarias para desarrollar la actividad de reutilización autorizada, en cualquier modalidad y bajo cualquier formato, para todo el mundo y por el plazo máximo permitido por la Ley.
+</p>
+</div></li>
+<li><a id="orgheadline13"></a>Condiciones generales para la reutilización<br  /><div class="outline-text-6" id="text-1-3-2-3-3">
+<p>
+Se aplican las siguientes condiciones generales para la reutilización de los documentos:
+</p>
+
+<ul class="org-ul">
+<li>Está prohibido desnaturalizar el sentido de la información.</li>
+<li>Debe citarse la fuente de los documentos objeto de la reutilización. Esta cita podrá realizarse de la siguiente manera: "Origen de los datos: Ayuntamiento de Zaragoza (o, en su caso, órgano administrativo, organismo o entidad de que se trate)".</li>
+<li>Debe mencionarse la fecha de la última actualización de los documentos objeto de la reutilización, siempre cuando estuviera incluida en el documento original.</li>
+<li>No se podrá indicar, insinuar o sugerir que el Ayuntamiento de Zaragoza participa, patrocina o apoya la reutilización que se lleve a cabo con la información.</li>
+<li>Deben conservarse, no alterarse ni suprimirse los metadatos sobre la fecha de actualización y las condiciones de reutilización aplicables incluidos, en su caso, en el documento puesto a disposición para su reutilización.</li>
+</ul>
+</div></li>
+<li><a id="orgheadline14"></a>Exclusión de responsabilidad<br  /><div class="outline-text-6" id="text-1-3-2-3-4">
+<p>
+La utilización de los conjuntos de datos se realizará por parte de los usuarios o agentes de la reutilización bajo su propia cuenta y riesgo, correspondiéndoles en exclusiva a ellos responder frente a terceros por daños que pudieran derivarse de ella.
+</p>
+
+<p>
+El Ayuntamiento de Zaragoza no será responsable del uso que de su información hagan los agentes reutilizadores ni tampoco de los daños sufridos o pérdidas económicas que, de forma directa o indirecta, produzcan o puedan producir perjuicios económicos, materiales o sobre datos, provocados por el uso de la información reutilizada.
+</p>
+
+<p>
+El Ayuntamiento de Zaragoza no garantiza la continuidad en la puesta a disposición de los documentos reutilizables, ni en contenido ni en forma, ni asume responsabilidades por cualquier error u omisión contenido en ellos.
+</p>
+</div></li>
+<li><a id="orgheadline15"></a>Responsabilidad del agente reutilizador<br  /><div class="outline-text-6" id="text-1-3-2-3-5">
+<p>
+El agente reutilizador se haya sometido a la normativa aplicable en materia de reutilización de la información del sector público, incluyendo el régimen sancionador previsto en el artículo 11 de la Ley 37/2007, de 16 de noviembre, sobre reutilización de la información del sector público.
+</p>
+</div></li></ol></li></ol>
+</div>
+<div id="outline-container-orgheadline18" class="outline-4">
+<h4 id="orgheadline18"><span class="section-number-4">1.3.3</span> Enlaces</h4>
+<div class="outline-text-4" id="text-1-3-3">
+<p>
+Los enlaces contenidos en la sede electrónica del Excmo. Ayuntamiento de Zaragoza pueden dirigir a páginas web de terceros sobre las que el Excmo. Ayuntamiento de Zaragoza no ejerce ningún control, por lo que no asume ninguna responsabilidad por el contenido, informaciones o servicios que pudieran aparecer en dichos sitios y en consecuencia no será en ningún caso responsable de los daños y perjuicios que pudieran derivarse.
+</p>
+</div>
+</div>
+<div id="outline-container-orgheadline19" class="outline-4">
+<h4 id="orgheadline19"><span class="section-number-4">1.3.4</span> Ley aplicable y Jurisdicción</h4>
+<div class="outline-text-4" id="text-1-3-4">
+<p>
+Para la resolución de todas las controversias o cuestiones relacionadas con la presente sede electrónica o de las actividades en ella desarrolladas, será de aplicación la legislación española, a la que se someten expresamente las partes, siendo competentes para la resolución de todos los conflictos derivados o relacionados con su uso los Juzgados y Tribunales de Zaragoza.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgheadline22" class="outline-2">
+<h2 id="orgheadline22"><span class="section-number-2">2</span> Definicion de estrategia de nombrado de recursos</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Hash URIs for ontological terms, slash URIs for individuals
+</p>
+
+<ul class="org-ul">
+<li>Domain: <a href="http://www.example.net/">http://www.example.net/</a></li>
+<li>Ontological terms path: <a href="http://www.example.net/group42/ontology/estaciones">http://www.example.net/group42/ontology/estaciones</a>#</li>
+<li>Individual path: <a href="http://www.example.net/group42/resource">http://www.example.net/group42/resource</a></li>
+<li>Ontological terms pattern: <a href="http://www.example.net/group42/ontology/estaciones#&amp;lt;term_name&amp;gt">http://www.example.net/group42/ontology/estaciones#&lt;term_name&gt</a>;</li>
+<li>Individuals pattern: <a href="http://www.example.net/group42/resource/&amp;lt;resource_type&amp;gt;/&amp;lt;resource_name&amp;gt">http://www.example.net/group42/resource/&lt;resource_type&gt;/&lt;resource_name&gt</a>;</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Grupo 42</p>
+<p class="date">Created: 2015-12-21 lun 12:13</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

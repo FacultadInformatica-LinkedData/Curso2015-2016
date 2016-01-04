@@ -1,0 +1,33 @@
+:EstacionMoto
+	a void:Dataset;
+		void:exampleResource
+			<http://www.example.net/group42/resource/moto/EstacionMoto>.
+		void:uriSpace "http://www.example.net/group42/resource/moto".
+		
+:DBpedia a void:Dataset .
+:EstacionMoto void:classPartition :noCalle.
+:noCalle a void:Linkset;
+	void:linkPredicate
+		owl:sameAs;
+	void:target :EstacionMoto, :DBpedia.
+
+DBpedia a void:Dataset .
+:EstacionMoto void:classPartition :slotsAvailable.
+:slotsAvailable a void:Linkset;
+	void:linkPredicate
+		owl:sameAs;
+	void:target :EstacionMoto, :DBpedia.
+	
+:DBpedia a void:Dataset .
+:EstacionMoto void:classPartition :lastUpdated.
+:lastUpdated a void:Linkset;
+	void:linkPredicate
+		owl:sameAs;
+	void:target :EstacionMoto, :DBpedia.
+	
+:DBpedia a void:Dataset .
+:EstacionMoto void:classPartition :geoPosition.
+:geoPosition a void:Linkset;
+	void:linkPredicate
+		owl:sameAs;
+	void:target :EstacionMoto, :DBpedia.

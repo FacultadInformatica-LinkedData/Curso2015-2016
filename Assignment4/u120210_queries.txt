@@ -1,0 +1,65 @@
+Daniel Peña Gonzalez
+
+1.Get all the classes
+select distinct ?x where {?x a rdfs:Class} LIMIT 100
+
+2.Get all the subclasses of the class Establishment
+select distinct ?x
+where {?x rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Establishment>} LIMIT 100
+
+3.Get all instances of the class City
+select distinct ?x
+where {?x a <http://GP-onto.fi.upm.es/exercise2#City>} LIMIT 100
+
+4.Get the number of inhabitants of Santiago de Compostela
+select distinct ?c
+where {<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?c} LIMIT 100
+
+5.Get the number of inhabitants of Santiago de Compostela and Arzua
+select distinct ?c
+where {{<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?c}
+UNION{<http://GP-onto.fi.upm.es/exercise2#Arzua> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?c}} LIMIT 100
+
+6.Get all places, together with the number of inhabitants, ordered by the place name (ascending)
+select distinct ?c  ?x 
+where {?x <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?c} 
+ORDER BY ?x ASC(?x)
+LIMIT 100
+
+7.Get all instances of  Locality together with their number of inhabitants (if this information exists)
+http://sandbox.linkeddata.es/sparql?default-graph-uri=http%3A%2F%2Fsandbox.linkeddata.es%2FGrado_20122013&query=select+distinct+%3Fx++%3Fn+%3Fa%0D%0Awhere+%7B%3Fx+rdfs%3AsubClassOf+%3Chttp%3A%2F%2FGP-onto.fi.upm.es%2Fexercise2%23Locality%3E+.%0D%0A+++++++%3Fa+a+%3Fx+.%0D%0A+++++++OPTIONAL%7B%3Fa+%3Chttp%3A%2F%2FGP-onto.fi.upm.es%2Fexercise2%23hasInhabitantNumber%3E+%3Fn%7D%7D+%0D%0ALIMIT+100&format=text%2Fhtml&timeout=0&debug=on
+
+8.Get all places with more than 200.000 inhabitants
+select distinct ?x  ?n ?a
+where {?x rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Locality> .
+       ?a a ?x .
+       OPTIONAL{?a <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?n}
+       FILTER(xsd:integer(?n)> 200000)} 
+LIMIT 100
+
+
+9.Get postal address data for Pazo_Breogan (street, number, locality, province)
+
+select distinct ?x ?c 
+where {<http://GP-onto.fi.upm.es/exercise2#Pazo_Breogan> ?x  ?c } 
+LIMIT 100
+
+
+10. Get all subclasses of class Location
+
+select distinct ?x
+where {?x rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Location>} LIMIT 100
+
+
+
+11. Get all instances of class Locality
+
+select distinct ?x
+where {?x a <http://GP-onto.fi.upm.es/exercise2#Locality>} LIMIT 100
+
+
+12. Describe the resource with rdfs:label "Madrid”
+
+select distinct ?b ?c
+where {<http://GP-onto.fi.upm.es/exercise2#Madrid> ?b  ?c} LIMIT 100
+

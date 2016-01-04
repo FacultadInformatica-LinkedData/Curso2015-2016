@@ -146,6 +146,14 @@
 
     <DatatypeProperty rdf:about="http://www.semanticweb.org/gupo09#tieneNombre">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/gupo09#Biblioteca"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gupo09#tieneNombreFamoso -->
+
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/gupo09#tieneNombreFamoso">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/gupo09#Famoso"/>
         <rdfs:range rdf:resource="&xsd;string"/>
     </DatatypeProperty>

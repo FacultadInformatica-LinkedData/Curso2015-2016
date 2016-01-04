@@ -1,0 +1,27 @@
+@base <http://www.linkedculture.org/> .
+@prefix linkedculture: <http://www.linkedculture.org/ontologies/ontonlogy/wsld-ontology.owl#>.
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+
+:activities
+	a void:Dataset;
+	dct:title "The RDF catalog of Cultural Activities in Madrid"@en ,
+			 "El catálogo RDF de las Actividades Culturales en Madrid"@es ;
+	dct:description "Set of cultural activities in the city of Madrid" ;
+	dct:source <http://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=6c0b6d01df986410VgnVCM2000000c205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD> ; 
+	dct:creator <https://www.linkedin.com/in/pedro-rodr%C3%ADguez-mu%C3%B1oz-360079b3>, ; 
+	foaf:homepage <http://www.linkedculture.org/> ;	
+	void:exampleResource <http://www.linkedculture.org/ontologies/resource/Actividades+Infantiles+Prado> .
+	void:uriSpace "http://www.linkedculture.org/ontologies/resource/" .
+
+
+
+
+:centers a void:Dataset .
+:activities void:subset :culturallinks .
+:culturallinks a void:Linkset;
+	void:linkPredicate
+		owl:sameAs;
+	void:target :activities, :centers .

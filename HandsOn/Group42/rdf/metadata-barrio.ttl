@@ -1,0 +1,17 @@
+:Barrio
+	a void:Dataset;
+		void:exampleResource
+			<http://www.example.net/group42/resource/barrio/Barrio>.
+		void:uriSpace "http://www.example.net/group42/resource/barrio".
+
+DBpedia a void:Dataset .
+:Barrio void:classPartition :districtName.
+:districtName a void:Linkset;
+	void:linkPredicate
+		owl:sameAs;
+	void:target :Barrio, :DBpedia.
+
+
+	
+
+	

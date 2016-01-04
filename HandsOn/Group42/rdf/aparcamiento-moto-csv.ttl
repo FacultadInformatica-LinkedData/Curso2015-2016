@@ -1,0 +1,305 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix base: <http://www.example.net/group42/ontology/estaciones#> .
+
+
+<http://www.example.net/group42/resource/moto/0> a base:EstacionMoto ;
+	base:noCalle "calle bilbao, 2" ;
+	base:slotsAvaliable "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676200.75 4613253.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/1> a base:EstacionMoto ;
+	base:noCalle "calle marques casa jimenez, 4" ;
+	base:slotsAvaliable "18"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676310.9 4613259.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/2> a base:EstacionMoto ;
+	base:noCalle "plaza san pedro nolasco" ;
+	base:slotsAvaliable "23"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676907.94 4613590.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/3> a base:EstacionMoto ;
+	base:noCalle "veronica, plaza" ;
+	base:slotsAvaliable "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676846.7 4613489.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/4> a base:EstacionMoto ;
+	base:noCalle "calle pedro joaquin soler, 5" ;
+	base:slotsAvaliable "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676840.56 4613469.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/5> a base:EstacionMoto ;
+	base:noCalle "calle coso, 101" ;
+	base:slotsAvaliable "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676951.0 4613389.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/6> a base:EstacionMoto ;
+	base:noCalle "plaza santa engracia" ;
+	base:slotsAvaliable "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676374.94 4613215.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/7> a base:EstacionMoto ;
+	base:noCalle "calle joaquin costa, 3" ;
+	base:slotsAvaliable "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676503.6 4613185.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/8> a base:EstacionMoto ;
+	base:noCalle "calle joaquin costa, 6" ;
+	base:slotsAvaliable "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676495.44 4613170.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/9> a base:EstacionMoto ;
+	base:noCalle "calle joaquin costa, 8" ;
+	base:slotsAvaliable "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676510.5 4613161.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/10> a base:EstacionMoto ;
+	base:noCalle "calle felipe sanclemente, 13" ;
+	base:slotsAvaliable "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676534.44 4613257.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/11> a base:EstacionMoto ;
+	base:noCalle "calle felipe sanclemente, 3" ;
+	base:slotsAvaliable "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676425.4 4613285.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/12> a base:EstacionMoto ;
+	base:noCalle "calle jeronimo zurita, f 4" ;
+	base:slotsAvaliable "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676461.7 4613337.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/13> a base:EstacionMoto ;
+	base:noCalle "calle jeronimo zurita, 4" ;
+	base:slotsAvaliable "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676459.44 4613331.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/14> a base:EstacionMoto ;
+	base:noCalle "calle jeronimo zurita, f 10" ;
+	base:slotsAvaliable "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676569.6 4613303.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/15> a base:EstacionMoto ;
+	base:noCalle "calle jeronimo zurita, 10" ;
+	base:slotsAvaliable "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676555.56 4613308.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/16> a base:EstacionMoto ;
+	base:noCalle "calle jeronimo zurita, 9" ;
+	base:slotsAvaliable "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676575.7 4613317.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/17> a base:EstacionMoto ;
+	base:noCalle "calle jeronimo zurita, 7" ;
+	base:slotsAvaliable "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676565.44 4613320.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/18> a base:EstacionMoto ;
+	base:noCalle "plaza los sitios, 18" ;
+	base:slotsAvaliable "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676687.3 4613270.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/19> a base:EstacionMoto ;
+	base:noCalle "plaza los sitios, 17" ;
+	base:slotsAvaliable "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676680.44 4613258.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/20> a base:EstacionMoto ;
+	base:noCalle "plaza los sitios" ;
+	base:slotsAvaliable "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676693.2 4613250.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/21> a base:EstacionMoto ;
+	base:noCalle "plaza los sitios, 1" ;
+	base:slotsAvaliable "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676700.25 4613266.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/22> a base:EstacionMoto ;
+	base:noCalle "calle jaime balmes" ;
+	base:slotsAvaliable "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676784.0 4613231.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/23> a base:EstacionMoto ;
+	base:noCalle "plaza los sitios" ;
+	base:slotsAvaliable "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676766.3 4613221.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/24> a base:EstacionMoto ;
+	base:noCalle "calle jaime balmes" ;
+	base:slotsAvaliable "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676778.44 4613216.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/25> a base:EstacionMoto ;
+	base:noCalle "calle joaquin costa, 13" ;
+	base:slotsAvaliable "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676628.5 4613131.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/26> a base:EstacionMoto ;
+	base:noCalle "calle jose canalejas, 13" ;
+	base:slotsAvaliable "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676620.3 4613115.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/27> a base:EstacionMoto ;
+	base:noCalle "calle jose canalejas, 12" ;
+	base:slotsAvaliable "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676635.1 4613109.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/28> a base:EstacionMoto ;
+	base:noCalle "plaza los sitios" ;
+	base:slotsAvaliable "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676641.06 4613123.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/29> a base:EstacionMoto ;
+	base:noCalle "calle felipe sanclemente, 25" ;
+	base:slotsAvaliable "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676658.1 4613205.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/30> a base:EstacionMoto ;
+	base:noCalle "calle felipe sanclemente, 26" ;
+	base:slotsAvaliable "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676649.75 4613188.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/31> a base:EstacionMoto ;
+	base:noCalle "calle juan bruil, 2" ;
+	base:slotsAvaliable "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676388.8 4613104.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/32> a base:EstacionMoto ;
+	base:noCalle "calle jeronimo blancas, 2" ;
+	base:slotsAvaliable "26"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676677.6 4613456.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/33> a base:EstacionMoto ;
+	base:noCalle "calle santa catalina, 2" ;
+	base:slotsAvaliable "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676761.5 4613442.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/34> a base:EstacionMoto ;
+	base:noCalle "calle santa catalina, 8" ;
+	base:slotsAvaliable "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676726.1 4613358.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/35> a base:EstacionMoto ;
+	base:noCalle "calle albert schweitzer" ;
+	base:slotsAvaliable "18"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676481.6 4612503.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/36> a base:EstacionMoto ;
+	base:noCalle "paseo constitucion, f 8" ;
+	base:slotsAvaliable "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676339.25 4613040.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/37> a base:EstacionMoto ;
+	base:noCalle "paseo constitucion, f 6" ;
+	base:slotsAvaliable "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676330.25 4613037.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/38> a base:EstacionMoto ;
+	base:noCalle "calle albert schweitzer" ;
+	base:slotsAvaliable "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676520.94 4612503.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/39> a base:EstacionMoto ;
+	base:noCalle "paseo constitucion, 12" ;
+	base:slotsAvaliable "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676449.25 4613053.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/40> a base:EstacionMoto ;
+	base:noCalle "plaza san miguel, 2" ;
+	base:slotsAvaliable "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676982.2 4613322.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/41> a base:EstacionMoto ;
+	base:noCalle "plaza san miguel, 4" ;
+	base:slotsAvaliable "23"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676989.06 4613301.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/42> a base:EstacionMoto ;
+	base:noCalle "calle reconquista, 4" ;
+	base:slotsAvaliable "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676990.8 4613265.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/43> a base:EstacionMoto ;
+	base:noCalle "calle alto aragon" ;
+	base:slotsAvaliable "50"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "677503.06 4613484.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/44> a base:EstacionMoto ;
+	base:noCalle "calle asalto, 19" ;
+	base:slotsAvaliable "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "677029.5 4613236.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/45> a base:EstacionMoto ;
+	base:noCalle "calle matadero, 1" ;
+	base:slotsAvaliable "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "677443.7 4612696.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/46> a base:EstacionMoto ;
+	base:noCalle "calle monasterio de samos, f 25" ;
+	base:slotsAvaliable "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "677359.94 4612687.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/47> a base:EstacionMoto ;
+	base:noCalle "calle monasterio de samos, f 23" ;
+	base:slotsAvaliable "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "677349.0 4612671.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/48> a base:EstacionMoto ;
+	base:noCalle "paseo constitucion, f 12" ;
+	base:slotsAvaliable "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676426.6 4613086.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://www.example.net/group42/resource/moto/49> a base:EstacionMoto ;
+	base:noCalle "calle manuel lorenzo pardo, f 30" ;
+	base:slotsAvaliable "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	base:lastUpdated "2014-12-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	base:geoPosition "676988.06 4612695.0"^^<http://www.w3.org/2001/XMLSchema#double> .

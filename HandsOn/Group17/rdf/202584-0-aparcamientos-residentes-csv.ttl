@@ -1,0 +1,3071 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://accesibility/group17/13470> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Arquitecto Ribera" ;
+	xsd:String "  Plazas:  318 públicas y 298 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/BARCELO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "BARCELO" , "2" ;
+	gn:locatedIn "JUSTICIA" ;
+	vcard:postal-code "28004" .
+
+<http://accesibility/group17/13470> vcard:street-address <http://accesibility/group17/BARCELO> .
+
+<http://accesibility/group17/59060> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Avenida de América (intercambiador)" ;
+	xsd:String "   Información sobre accesibilidad :   Tiene escaleras adaptadas  Ascensor de salida a la calle Avenida de América, 9  Tiene aseos accesibles  Plazas para minusválidos     Plazas : 269 públicas y 392 para residentes   Abierto 24 horas    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PRADENA+DEL+RINCON> a <http://accesibility/group17/Address> ;
+	vcard:street-address "PRADENA DEL RINCON" , "4" ;
+	gn:locatedIn "PROSPERIDAD" ;
+	vcard:postal-code "28002" .
+
+<http://accesibility/group17/59060> vcard:street-address <http://accesibility/group17/PRADENA+DEL+RINCON> .
+
+<http://accesibility/group17/13475> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Brasil" ;
+	xsd:String "  Plazas:  226 públicas y 400 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/GENERAL+YAG%26Uuml%3BE> a <http://accesibility/group17/Address> ;
+	vcard:street-address "GENERAL YAG&Uuml;E" , "11" ;
+	gn:locatedIn "CUATRO CAMINOS" ;
+	vcard:postal-code "28020" .
+
+<http://accesibility/group17/13475> vcard:street-address <http://accesibility/group17/GENERAL+YAG%26Uuml%3BE> .
+
+<http://accesibility/group17/183747> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Casino de la Reina" ;
+	xsd:String "  Plazas:  135 públicas y 449 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CASINO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CASINO" , "3" ;
+	gn:locatedIn "EMBAJADORES" ;
+	vcard:postal-code "28005" .
+
+<http://accesibility/group17/183747> vcard:street-address <http://accesibility/group17/CASINO> .
+
+<http://accesibility/group17/13477> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Condesa de Gavia" ;
+	xsd:String "  Plazas : 73 públicas y 79 para residentes   Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CONDESA+DE+GAVIA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CONDESA DE GAVIA" , "0" ;
+	gn:locatedIn "CUATRO CAMINOS" ;
+	vcard:postal-code "28020" .
+
+<http://accesibility/group17/13477> vcard:street-address <http://accesibility/group17/CONDESA+DE+GAVIA> .
+
+<http://accesibility/group17/24103> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Corazón de María II" ;
+	xsd:String "   Plazas : 327 públicas y 750 para residentes   Informacion sobre accesibilidad:    No tiene escalera adaptada  No tiene ascensor de salida a calle  2 aseos accesibles ( 1&ordf;  planta)   Plazas para minusválidos residentes: 6     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CORAZON+DE+MARIA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CORAZON DE MARIA" , "46" ;
+	gn:locatedIn "PROSPERIDAD" ;
+	vcard:postal-code "28002" .
+
+<http://accesibility/group17/24103> vcard:street-address <http://accesibility/group17/CORAZON+DE+MARIA> .
+
+<http://accesibility/group17/81736> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Corona Boreal" ;
+	xsd:String "   Plazas : 120 públicas y 125 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor de salida a la calle Pérez de Victoria  2 aseos accesibles (1&ordf; planta)  Plazas para minusválidos residentes: 3     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "1"^^xsd:boolean .
+
+<http://accesibility/group17/PEREZ+DE+VICTORIA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "PEREZ DE VICTORIA" ;
+	gn:locatedIn "ARAVACA" ;
+	vcard:postal-code "28023" .
+
+<http://accesibility/group17/81736> vcard:street-address <http://accesibility/group17/PEREZ+DE+VICTORIA> .
+
+<http://accesibility/group17/183748> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Daoíz y Velarde" ;
+	xsd:String "  Plazas:  312 públicas y 174 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CIUDAD+DE+BARCELONA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CIUDAD DE BARCELONA" , "3" ;
+	gn:locatedIn "PACIFICO" ;
+	vcard:postal-code "28007" .
+
+<http://accesibility/group17/183748> vcard:street-address <http://accesibility/group17/CIUDAD+DE+BARCELONA> .
+
+<http://accesibility/group17/44724> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Díaz Porlier" ;
+	xsd:String "  Plazas:  203 públicas y 421 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/DIEGO+DE+LEON> a <http://accesibility/group17/Address> ;
+	vcard:street-address "DIEGO DE LEON" , "62" ;
+	gn:locatedIn "LISTA" ;
+	vcard:postal-code "28006" .
+
+<http://accesibility/group17/44724> vcard:street-address <http://accesibility/group17/DIEGO+DE+LEON> .
+
+<http://accesibility/group17/36269> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Encuentro" ;
+	xsd:String "  Plazas:  104 públicas y 550 para residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ENCUENTRO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ENCUENTRO" , "1" ;
+	gn:locatedIn "MEDIA LEGUA" ;
+	vcard:postal-code "28030" .
+
+<http://accesibility/group17/36269> vcard:street-address <http://accesibility/group17/ENCUENTRO> .
+
+<http://accesibility/group17/13464> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Felipe II" ;
+	xsd:String "  Plazas : 1218 públicas y 607 para residentes    Plazas : 120 públicas y 125 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor de salida a la plaza de Felipe II  Aseo accesible (1&ordf; planta)  Plazas para minusválidos residentes:23     Abierto 24 horas    Admite tarjeta Bono Red    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ANTONIA+MERCE> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ANTONIA MERCE" , "5-B" ;
+	gn:locatedIn "GOYA" ;
+	vcard:postal-code "28009" .
+
+<http://accesibility/group17/13464> vcard:street-address <http://accesibility/group17/ANTONIA+MERCE> .
+
+<http://accesibility/group17/13462> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Fuencarral" ;
+	xsd:String "   Plazas : 410 públicas y 111 para residentes   Información sobre accesibilidad:   No tiene escalera adaptada  1 ascensor con salida a la calle Fuencarral, 117  1 aseo accesible en la 1&ordf; planta  Plazas para minusválidos residentes: 7     Abierto 24 horas    Admite Tarjeta Bono Red    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/FUENCARRAL> a <http://accesibility/group17/Address> ;
+	vcard:street-address "FUENCARRAL" , "111 a 121" ;
+	gn:locatedIn "TRAFALGAR" ;
+	vcard:postal-code "28010" .
+
+<http://accesibility/group17/13462> vcard:street-address <http://accesibility/group17/FUENCARRAL> .
+
+<http://accesibility/group17/13515> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. General Yagüe" ;
+	xsd:String "  Plazas:  409 públicas y 717 residentes  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/BRASIL> a <http://accesibility/group17/Address> ;
+	vcard:street-address "BRASIL" , "15" ;
+	gn:locatedIn "CASTILLEJOS" ;
+	vcard:postal-code "28020" .
+
+<http://accesibility/group17/13515> vcard:street-address <http://accesibility/group17/BRASIL> .
+
+<http://accesibility/group17/36270> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Hernani" ;
+	xsd:String "   Plazas:  115 públicas y 383 residentes   Información sobre accesibilidad:   No tiene escaleras adptadas  Ascensor de salida a la calle Hernai, 68  1 aseo accesible en 1&ordf; planta  Plazas para minusválidos residentes. 3      Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/HERNANI> a <http://accesibility/group17/Address> ;
+	vcard:street-address "HERNANI" , "60" ;
+	gn:locatedIn "CUATRO CAMINOS" ;
+	vcard:postal-code "28020" .
+
+<http://accesibility/group17/36270> vcard:street-address <http://accesibility/group17/HERNANI> .
+
+<http://accesibility/group17/13459> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Jacinto Benavente" ;
+	xsd:String "   Plazas:  285 públicas y 110 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  Ascensor con salida a la calle Jacinto benavente, s/n  1 aseo accesible Plaza para minusválidos residentes: 16    Abierto 24 horas  Admite Tarjeta Bono Red    Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/JACINTO+BENAVENTE> a <http://accesibility/group17/Address> ;
+	vcard:street-address "JACINTO BENAVENTE" , "6" ;
+	gn:locatedIn "CORTES" ;
+	vcard:postal-code "28012" .
+
+<http://accesibility/group17/13459> vcard:street-address <http://accesibility/group17/JACINTO+BENAVENTE> .
+
+<http://accesibility/group17/13479> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. José Castán Tobeñas" ;
+	xsd:String "   Plazas:  205 públicas y 43 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  No disponde ascensor  No disponde de aseos accesible  Plazas para minusválidos residentes: 5     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CAPITAN+HAYA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CAPITAN HAYA" , "57" ;
+	gn:locatedIn "CASTILLEJOS" ;
+	vcard:postal-code "28020" .
+
+<http://accesibility/group17/13479> vcard:street-address <http://accesibility/group17/CAPITAN+HAYA> .
+
+<http://accesibility/group17/6143690> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Marqués de Salamanca" ;
+	xsd:String "   Plazas : 360 públicas y 70 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida a la plaza del Marqués de Salamanca  1 aseo accesible en  2&ordf;   planta  Plaza para minusválidos residentes: 14     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MARQUES+DE+SALAMANCA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "MARQUES DE SALAMANCA" , "8" ;
+	gn:locatedIn "LISTA" ;
+	vcard:postal-code "28006" .
+
+<http://accesibility/group17/6143690> vcard:street-address <http://accesibility/group17/MARQUES+DE+SALAMANCA> .
+
+<http://accesibility/group17/182188> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Miguel Yuste" ;
+	xsd:String "  Plazas:  182  públicas y 68 para residentes  Abierto: 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MIGUEL+YUSTE> a <http://accesibility/group17/Address> ;
+	vcard:street-address "MIGUEL YUSTE" , "11" ;
+	gn:locatedIn "SIMANCAS" ;
+	vcard:postal-code "28037" .
+
+<http://accesibility/group17/182188> vcard:street-address <http://accesibility/group17/MIGUEL+YUSTE> .
+
+<http://accesibility/group17/5517342> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Orense" ;
+	xsd:String "   Plazas : 128 públicas y 663 para residentes   Información sobre accesibilidad:    1 escalera adaptada  No dispone de ascensor   1 aseo accesible  Plaza para minusválidos residentes: 5     Abierto 24 horas    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SOR+ANGELA+DE+LA+CRUZ> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SOR ANGELA DE LA CRUZ" , "27" ;
+	gn:locatedIn "CASTILLEJOS" ;
+	vcard:postal-code "28020" .
+
+<http://accesibility/group17/5517342> vcard:street-address <http://accesibility/group17/SOR+ANGELA+DE+LA+CRUZ> .
+
+<http://accesibility/group17/33440> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Oriente" ;
+	xsd:String "  Plazas : 242 públicas y 511 para residentes  Abierto 24 horas  Admite Tarjeta Bono Red   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ORIENTE> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ORIENTE" , "1" ;
+	gn:locatedIn "PALACIO" ;
+	vcard:postal-code "28013" .
+
+<http://accesibility/group17/33440> vcard:street-address <http://accesibility/group17/ORIENTE> .
+
+<http://accesibility/group17/36271> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Presidente Carmona" ;
+	xsd:String "  Plazas : 379 públicas y 124 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PRESIDENTE+CARMONA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "PRESIDENTE CARMONA" , "3" ;
+	gn:locatedIn "CUATRO CAMINOS" ;
+	vcard:postal-code "28020" .
+
+<http://accesibility/group17/36271> vcard:street-address <http://accesibility/group17/PRESIDENTE+CARMONA> .
+
+<http://accesibility/group17/13476> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Recoletos" ;
+	xsd:String "   Plazas : 102 públicas y 289 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida al Paseo de Recoletos  1 aseo accesible  Plaza para minusválidos residentes: 10     Abierto 24 horas    Admite la Tarjeta BonoRed (Bono Red)    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/RECOLETOS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "RECOLETOS" , "4" ;
+	gn:locatedIn "RECOLETOS" ;
+	vcard:postal-code "28001" .
+
+<http://accesibility/group17/13476> vcard:street-address <http://accesibility/group17/RECOLETOS> .
+
+<http://accesibility/group17/24193> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. República Dominicana" ;
+	xsd:String "  Plazas : 892 públicas y 203 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/REPUBLICA+DOMINICANA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "REPUBLICA DOMINICANA" , "6-B" ;
+	gn:locatedIn "NUEVA ESPAÑA" ;
+	vcard:postal-code "28016" .
+
+<http://accesibility/group17/24193> vcard:street-address <http://accesibility/group17/REPUBLICA+DOMINICANA> .
+
+<http://accesibility/group17/81828> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Reyes Magos" ;
+	xsd:String "  Plazas : 356 públicas y 345 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/REYES+MAGOS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "REYES MAGOS" , "14" ;
+	gn:locatedIn "NIÑO JESUS" ;
+	vcard:postal-code "28007" .
+
+<http://accesibility/group17/81828> vcard:street-address <http://accesibility/group17/REYES+MAGOS> .
+
+<http://accesibility/group17/167692> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. San Cayetano" ;
+	xsd:String "  Plazas : 222 públicas y 261 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SAN+CAYETANO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SAN CAYETANO" , "1-B" ;
+	gn:locatedIn "GUINDALERA" ;
+	vcard:postal-code "28028" .
+
+<http://accesibility/group17/167692> vcard:street-address <http://accesibility/group17/SAN+CAYETANO> .
+
+<http://accesibility/group17/19053> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Sánchez Bustillo" ;
+	xsd:String "  Plazas : 132 públicas y 408 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SANCHEZ+BUSTILLO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SANCHEZ BUSTILLO" , "1" ;
+	gn:locatedIn "EMBAJADORES" ;
+	vcard:postal-code "28012" .
+
+<http://accesibility/group17/19053> vcard:street-address <http://accesibility/group17/SANCHEZ+BUSTILLO> .
+
+<http://accesibility/group17/7416748> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Serrano I" ;
+	xsd:String "  Plazas : 307 públicas y 831 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/JUAN+BRAVO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "JUAN BRAVO" , "4-B" ;
+	gn:locatedIn "CASTELLANA" ;
+	vcard:postal-code "28006" .
+
+<http://accesibility/group17/7416748> vcard:street-address <http://accesibility/group17/JUAN+BRAVO> .
+
+<http://accesibility/group17/7417028> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Serrano II" ;
+	xsd:String "  Plazas : 379 públicas y 794 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/JOSE+ORTEGA+Y+GASSET> a <http://accesibility/group17/Address> ;
+	vcard:street-address "JOSE ORTEGA Y GASSET" , "1-B" ;
+	gn:locatedIn "CASTELLANA" ;
+	vcard:postal-code "28006" .
+
+<http://accesibility/group17/7417028> vcard:street-address <http://accesibility/group17/JOSE+ORTEGA+Y+GASSET> .
+
+<http://accesibility/group17/7417052> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Serrano III" ;
+	xsd:String "  Plazas : 261 públicas y 725 para residentes  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/JORGE+JUAN> a <http://accesibility/group17/Address> ;
+	vcard:street-address "JORGE JUAN" , "1-B" ;
+	gn:locatedIn "RECOLETOS" ;
+	vcard:postal-code "28001" .
+
+<http://accesibility/group17/7417052> vcard:street-address <http://accesibility/group17/JORGE+JUAN> .
+
+<http://accesibility/group17/13460> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Sevilla" ;
+	xsd:String "  Plazas : 476 públicas y 70 para residentes  Abierto 24 horas   Admite Tarjeta Bono Red    Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ALCALA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ALCALA" , "17-B" ;
+	gn:locatedIn "SOL" ;
+	vcard:postal-code "28014" .
+
+<http://accesibility/group17/13460> vcard:street-address <http://accesibility/group17/ALCALA> .
+
+<http://accesibility/group17/52114> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Vázquez de Mella" ;
+	xsd:String "   Plazas:  109 públicas y 261 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor con salida a la Plaza de Vazquez de Mella  1 aseo accesible  Plaza para minusválidos residentes: 7     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VAZQUEZ+DE+MELLA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VAZQUEZ DE MELLA" , "1" ;
+	gn:locatedIn "JUSTICIA" ;
+	vcard:postal-code "28004" .
+
+<http://accesibility/group17/52114> vcard:street-address <http://accesibility/group17/VAZQUEZ+DE+MELLA> .
+
+<http://accesibility/group17/13458> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Velázquez - Ayala" ;
+	xsd:String "  Plazas:  464 públicas y 235 para residentes  Abierto 24 horas  Admite Tarjeta BonoRed.   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VELAZQUEZ> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VELAZQUEZ" , "47" ;
+	gn:locatedIn "RECOLETOS" ;
+	vcard:postal-code "28001" .
+
+<http://accesibility/group17/13458> vcard:street-address <http://accesibility/group17/VELAZQUEZ> .
+
+<http://accesibility/group17/13457> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Velázquez Jorge Juan" ;
+	xsd:String "  Plazas:  549 públicas y 395 para residentes  Abierto 24 horas  Admite Tarjeta Bono Red   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "1"^^xsd:boolean .
+
+<http://accesibility/group17/VELAZQUEZ> vcard:street-address "25-B" .
+
+<http://accesibility/group17/13457> vcard:street-address <http://accesibility/group17/VELAZQUEZ> .
+
+<http://accesibility/group17/183607> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento mixto. Verdaguer y García" ;
+	xsd:String "   Plazas:  83 públicas y 180 para residentes   Información sobre accesibilidad:    No tiene escaleras adaptadas  1 ascensor en la salida a la Calle Verdaguer y garcía  1 aseo accesible en la planta -1  Plaza para minusválidos residentes: 4     Abierto 24 horas    Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VERDAGUER+Y+GARCIA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VERDAGUER Y GARCIA" , "1" ;
+	gn:locatedIn "SAN PASCUAL" ;
+	vcard:postal-code "28027" .
+
+<http://accesibility/group17/183607> vcard:street-address <http://accesibility/group17/VERDAGUER+Y+GARCIA> .
+
+<http://accesibility/group17/8087180> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes del Centro Polivalente Barceló" ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/BARCELO> vcard:street-address "S/N" .
+
+<http://accesibility/group17/8087180> vcard:street-address <http://accesibility/group17/BARCELO> .
+
+<http://accesibility/group17/4829668> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes.  Ginzo de Limia" ;
+	xsd:String "  Plazas:  97  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VALENCIA+DE+DON+JUAN> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VALENCIA DE DON JUAN" , "16" ;
+	gn:locatedIn "LA PAZ" ;
+	vcard:postal-code "28034" .
+
+<http://accesibility/group17/4829668> vcard:street-address <http://accesibility/group17/VALENCIA+DE+DON+JUAN> .
+
+<http://accesibility/group17/24139> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes.  Valderromán" ;
+	xsd:String "  Plazas:  424  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VALDERROMAN> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VALDERROMAN" , "24-B" ;
+	gn:locatedIn "VALDEZARZA" ;
+	vcard:postal-code "28035" .
+
+<http://accesibility/group17/24139> vcard:street-address <http://accesibility/group17/VALDERROMAN> .
+
+<http://accesibility/group17/67711> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Aguilar de Campóo" ;
+	xsd:String "  Plazas : 203  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ANTONIO+MACHADO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ANTONIO MACHADO" , "10" ;
+	gn:locatedIn "VALDEZARZA" ;
+	vcard:postal-code "28035" .
+
+<http://accesibility/group17/67711> vcard:street-address <http://accesibility/group17/ANTONIO+MACHADO> .
+
+<http://accesibility/group17/13560> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Aguilón" ;
+	xsd:String "  Plazas : 271  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CHOPERA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CHOPERA" , "27" ;
+	gn:locatedIn "CHOPERA" ;
+	vcard:postal-code "28045" .
+
+<http://accesibility/group17/13560> vcard:street-address <http://accesibility/group17/CHOPERA> .
+
+<http://accesibility/group17/81690> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Agustín Lara" ;
+	xsd:String "  Plazas : 291  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/EMBAJADORES> a <http://accesibility/group17/Address> ;
+	vcard:street-address "EMBAJADORES" , "58" ;
+	gn:locatedIn "EMBAJADORES" ;
+	vcard:postal-code "28012" .
+
+<http://accesibility/group17/81690> vcard:street-address <http://accesibility/group17/EMBAJADORES> .
+
+<http://accesibility/group17/7439839> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Alameda" ;
+	xsd:String "  Plazas : 171  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ALAMEDA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ALAMEDA" , "11" ;
+	gn:locatedIn "CORTES" ;
+	vcard:postal-code "28014" .
+
+<http://accesibility/group17/7439839> vcard:street-address <http://accesibility/group17/ALAMEDA> .
+
+<http://accesibility/group17/24136> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Alcalde Sáinz de Baranda" ;
+	xsd:String "  Plazas : 565  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ALCALDE+SAINZ+DE+BARANDA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ALCALDE SAINZ DE BARANDA" , "81" ;
+	gn:locatedIn "ESTRELLA" ;
+	vcard:postal-code "28007" .
+
+<http://accesibility/group17/24136> vcard:street-address <http://accesibility/group17/ALCALDE+SAINZ+DE+BARANDA> .
+
+<http://accesibility/group17/17790> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Alcazaba" ;
+	xsd:String "  Plazas : 334  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SINESIO+DELGADO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SINESIO DELGADO" , "26" ;
+	gn:locatedIn "EL PILAR" ;
+	vcard:postal-code "28029" .
+
+<http://accesibility/group17/17790> vcard:street-address <http://accesibility/group17/SINESIO+DELGADO> .
+
+<http://accesibility/group17/81696> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Alonso Cano" ;
+	xsd:String "  Plazas : 433  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/JOSE+ABASCAL> a <http://accesibility/group17/Address> ;
+	vcard:street-address "JOSE ABASCAL" , "21" ;
+	gn:locatedIn "RIOS ROSAS" ;
+	vcard:postal-code "28003" .
+
+<http://accesibility/group17/81696> vcard:street-address <http://accesibility/group17/JOSE+ABASCAL> .
+
+<http://accesibility/group17/13561> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Altos de Lillo" ;
+	xsd:String "  Plazas : 167  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/BUBIERCA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "BUBIERCA" , "5" ;
+	gn:locatedIn "CASCO H.VALLECAS" ;
+	vcard:postal-code "28031" .
+
+<http://accesibility/group17/13561> vcard:street-address <http://accesibility/group17/BUBIERCA> .
+
+<http://accesibility/group17/19060> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Aluche" ;
+	xsd:String "  Plazas : 208  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ILLESCAS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ILLESCAS" , "151" ;
+	gn:locatedIn "ALUCHE" ;
+	vcard:postal-code "28047" .
+
+<http://accesibility/group17/19060> vcard:street-address <http://accesibility/group17/ILLESCAS> .
+
+<http://accesibility/group17/13494> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. América Española" ;
+	xsd:String "  Plazas : 282  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SANCHO+DAVILA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SANCHO DAVILA" , "1" ;
+	gn:locatedIn "FUENTE DEL BERRO" ;
+	vcard:postal-code "28028" .
+
+<http://accesibility/group17/13494> vcard:street-address <http://accesibility/group17/SANCHO+DAVILA> .
+
+<http://accesibility/group17/13552> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Andévalo" ;
+	xsd:String "  Plazas : 313  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ANDEVALO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ANDEVALO" , "6" ;
+	gn:locatedIn "ENTREVIAS" ;
+	vcard:postal-code "28053" .
+
+<http://accesibility/group17/13552> vcard:street-address <http://accesibility/group17/ANDEVALO> .
+
+<http://accesibility/group17/5753573> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Andorra II" ;
+	xsd:String "  Plazas : 280  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SILVANO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SILVANO" , "61" ;
+	gn:locatedIn "CANILLAS" ;
+	vcard:postal-code "28043" .
+
+<http://accesibility/group17/5753573> vcard:street-address <http://accesibility/group17/SILVANO> .
+
+<http://accesibility/group17/13514> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Angel Carbajo" ;
+	xsd:String "  Plazas:  470  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ANGEL+CARBAJO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ANGEL CARBAJO" , "8" ;
+	gn:locatedIn "CASTILLEJOS" ;
+	vcard:postal-code "28020" .
+
+<http://accesibility/group17/13514> vcard:street-address <http://accesibility/group17/ANGEL+CARBAJO> .
+
+<http://accesibility/group17/13548> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Antonio López" ;
+	xsd:String "  Plazas : 1111  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CORDOBA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CORDOBA" , "19" ;
+	gn:locatedIn "ALMENDRALES" ;
+	vcard:postal-code "28026" .
+
+<http://accesibility/group17/13548> vcard:street-address <http://accesibility/group17/CORDOBA> .
+
+<http://accesibility/group17/13562> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Antonio Machado" ;
+	xsd:String "  Plazas : 339  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ANTONIO+MACHADO> vcard:street-address "19" .
+
+<http://accesibility/group17/13562> vcard:street-address <http://accesibility/group17/ANTONIO+MACHADO> .
+
+<http://accesibility/group17/13554> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Antonio Maura" ;
+	xsd:String "  Plazas:  510  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ANTONIO+MAURA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ANTONIO MAURA" , "7" ;
+	gn:locatedIn "LOS JERONIMOS" ;
+	vcard:postal-code "28014" .
+
+<http://accesibility/group17/13554> vcard:street-address <http://accesibility/group17/ANTONIO+MAURA> .
+
+<http://accesibility/group17/24093> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Antonio Mena" ;
+	xsd:String "  Plazas:  315  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MORATALAZ> a <http://accesibility/group17/Address> ;
+	vcard:street-address "MORATALAZ" , "197" ;
+	gn:locatedIn "MARROQUINA" ;
+	vcard:postal-code "28030" .
+
+<http://accesibility/group17/24093> vcard:street-address <http://accesibility/group17/MORATALAZ> .
+
+<http://accesibility/group17/24088> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Antonio Pirala" ;
+	xsd:String "  Plazas:  508  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ANTONIO+PIRALA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ANTONIO PIRALA" , "8" ;
+	gn:locatedIn "VENTAS" ;
+	vcard:postal-code "28017" .
+
+<http://accesibility/group17/24088> vcard:street-address <http://accesibility/group17/ANTONIO+PIRALA> .
+
+<http://accesibility/group17/24095> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Arganda" ;
+	xsd:String "  Plazas:  164  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ARGANDA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ARGANDA" , "10 C" ;
+	gn:locatedIn "ACACIAS" ;
+	vcard:postal-code "28005" .
+
+<http://accesibility/group17/24095> vcard:street-address <http://accesibility/group17/ARGANDA> .
+
+<http://accesibility/group17/24096> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Arroyo del Olivar" ;
+	xsd:String "  Plazas:  214  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ARROYO+DEL+OLIVAR> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ARROYO DEL OLIVAR" , "51" ;
+	gn:locatedIn "PALOMERAS BAJAS" ;
+	vcard:postal-code "28018" .
+
+<http://accesibility/group17/24096> vcard:street-address <http://accesibility/group17/ARROYO+DEL+OLIVAR> .
+
+<http://accesibility/group17/13537> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Arroyo Fontarrón" ;
+	xsd:String "  Plazas:  307  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ARROYO+FONTARRON> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ARROYO FONTARRON" , "9" ;
+	gn:locatedIn "FONTARRON" ;
+	vcard:postal-code "28030" .
+
+<http://accesibility/group17/13537> vcard:street-address <http://accesibility/group17/ARROYO+FONTARRON> .
+
+<http://accesibility/group17/13536> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Arroyo Media Legua" ;
+	xsd:String "  Plazas:  285  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CORREGIDOR+DIEGO+CABEZA+DE+VACA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CORREGIDOR DIEGO CABEZA DE VACA" , "4" ;
+	gn:locatedIn "MEDIA LEGUA" ;
+	vcard:postal-code "28030" .
+
+<http://accesibility/group17/13536> vcard:street-address <http://accesibility/group17/CORREGIDOR+DIEGO+CABEZA+DE+VACA> .
+
+<http://accesibility/group17/13626> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Augusto González Besada" ;
+	xsd:String "  Plazas:  278  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MORATALAZ> vcard:street-address "183" .
+
+<http://accesibility/group17/13626> vcard:street-address <http://accesibility/group17/MORATALAZ> .
+
+<http://accesibility/group17/170742> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Azuaga" ;
+	xsd:String "  Plazas:  261  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "1"^^xsd:boolean .
+
+<http://accesibility/group17/SAN+RESTITUTO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SAN RESTITUTO" , "33" ;
+	gn:locatedIn "VALDEZARZA" ;
+	vcard:postal-code "28039" .
+
+<http://accesibility/group17/170742> vcard:street-address <http://accesibility/group17/SAN+RESTITUTO> .
+
+<http://accesibility/group17/13501> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Bañeza" ;
+	xsd:String "  Plazas:  239  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/LA+BA%26Ntilde%3BEZA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "LA BA&Ntilde;EZA" , "20" ;
+	gn:locatedIn "EL PILAR" ;
+	vcard:postal-code "28029" .
+
+<http://accesibility/group17/13501> vcard:street-address <http://accesibility/group17/LA+BA%26Ntilde%3BEZA> .
+
+<http://accesibility/group17/13633> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Baviera" ;
+	xsd:String "  Plazas:  208  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "1"^^xsd:boolean .
+
+<http://accesibility/group17/BRUSELAS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "BRUSELAS" , "74 B" ;
+	gn:locatedIn "GUINDALERA" ;
+	vcard:postal-code "28028" .
+
+<http://accesibility/group17/13633> vcard:street-address <http://accesibility/group17/BRUSELAS> .
+
+<http://accesibility/group17/81700> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Belianes" ;
+	xsd:String "  Plazas:  161  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/AGUSTIN+DE+ITURBIDE> a <http://accesibility/group17/Address> ;
+	vcard:street-address "AGUSTIN DE ITURBIDE" , "7" ;
+	gn:locatedIn "PINAR DEL REY" ;
+	vcard:postal-code "28043" .
+
+<http://accesibility/group17/81700> vcard:street-address <http://accesibility/group17/AGUSTIN+DE+ITURBIDE> .
+
+<http://accesibility/group17/21182> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Blasco de Garay" ;
+	xsd:String "  Plazas:  461  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/BLASCO+DE+GARAY> a <http://accesibility/group17/Address> ;
+	vcard:street-address "BLASCO DE GARAY" , "31" ;
+	gn:locatedIn "GAZTAMBIDE" ;
+	vcard:postal-code "28015" .
+
+<http://accesibility/group17/21182> vcard:street-address <http://accesibility/group17/BLASCO+DE+GARAY> .
+
+<http://accesibility/group17/13532> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Bohemios" ;
+	xsd:String "  Plazas : 340  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PAN+Y+TOROS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "PAN Y TOROS" , "56" ;
+	gn:locatedIn "LOS ANGELES" ;
+	vcard:postal-code "28041" .
+
+<http://accesibility/group17/13532> vcard:street-address <http://accesibility/group17/PAN+Y+TOROS> .
+
+<http://accesibility/group17/13495> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Boston" ;
+	xsd:String "  Plazas:  353  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/BOSTON> a <http://accesibility/group17/Address> ;
+	vcard:street-address "BOSTON" , "2" ;
+	gn:locatedIn "GUINDALERA" ;
+	vcard:postal-code "28028" .
+
+<http://accesibility/group17/13495> vcard:street-address <http://accesibility/group17/BOSTON> .
+
+<http://accesibility/group17/13530> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Bravo Murillo" ;
+	xsd:String "  Plazas:  629  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/BRAVO+MURILLO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "BRAVO MURILLO" , "49" ;
+	gn:locatedIn "VALLEHERMOSO" ;
+	vcard:postal-code "28003" .
+
+<http://accesibility/group17/13530> vcard:street-address <http://accesibility/group17/BRAVO+MURILLO> .
+
+<http://accesibility/group17/13563> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Brescia" ;
+	xsd:String "  Plazas:  399  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/BRESCIA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "BRESCIA" , "13" ;
+	gn:locatedIn "GUINDALERA" ;
+	vcard:postal-code "28028" .
+
+<http://accesibility/group17/13563> vcard:street-address <http://accesibility/group17/BRESCIA> .
+
+<http://accesibility/group17/13564> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Bristol" ;
+	xsd:String "  Plazas:  317  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/BRISTOL> a <http://accesibility/group17/Address> ;
+	vcard:street-address "BRISTOL" , "4" ;
+	gn:locatedIn "GUINDALERA" ;
+	vcard:postal-code "28028" .
+
+<http://accesibility/group17/13564> vcard:street-address <http://accesibility/group17/BRISTOL> .
+
+<http://accesibility/group17/13565> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Bruselas" ;
+	xsd:String "  Plazas:  224  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/BRUSELAS> vcard:street-address "56" .
+
+<http://accesibility/group17/13565> vcard:street-address <http://accesibility/group17/BRUSELAS> .
+
+<http://accesibility/group17/81706> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Burgo de Osma" ;
+	xsd:String "  Plazas:  160  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/BURGO+DE+OSMA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "BURGO DE OSMA" , "4" ;
+	gn:locatedIn "APOSTOL SANTIAGO" ;
+	vcard:postal-code "28033" .
+
+<http://accesibility/group17/81706> vcard:street-address <http://accesibility/group17/BURGO+DE+OSMA> .
+
+<http://accesibility/group17/13566> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Calanda" ;
+	xsd:String "  Plazas:  368  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CALANDA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CALANDA" , "30" ;
+	gn:locatedIn "CANILLAS" ;
+	vcard:postal-code "28043" .
+
+<http://accesibility/group17/13566> vcard:street-address <http://accesibility/group17/CALANDA> .
+
+<http://accesibility/group17/13499> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Camarena" ;
+	xsd:String "  Plazas:  192  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CAMARENA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CAMARENA" , "10" ;
+	gn:locatedIn "ALUCHE" ;
+	vcard:postal-code "28047" .
+
+<http://accesibility/group17/13499> vcard:street-address <http://accesibility/group17/CAMARENA> .
+
+<http://accesibility/group17/13539> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Camino de los Vinateros I" ;
+	xsd:String "  Plazas : 249  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CAMINO+DE+LOS+VINATEROS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CAMINO DE LOS VINATEROS" , "129" ;
+	gn:locatedIn "VINATEROS" ;
+	vcard:postal-code "28030" .
+
+<http://accesibility/group17/13539> vcard:street-address <http://accesibility/group17/CAMINO+DE+LOS+VINATEROS> .
+
+<http://accesibility/group17/13538> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Camino de los Vinateros II (El Torito)" ;
+	xsd:String "  Plazas : 477  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CAMINO+DE+LOS+VINATEROS> vcard:street-address "118" .
+
+<http://accesibility/group17/13538> vcard:street-address <http://accesibility/group17/CAMINO+DE+LOS+VINATEROS> .
+
+<http://accesibility/group17/13632> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Camino Viejo de Leganés" ;
+	xsd:String "  Plazas : 284  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CAMINO+VIEJO+DE+LEGANES> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CAMINO VIEJO DE LEGANES" , "179" ;
+	gn:locatedIn "ABRANTES" ;
+	vcard:postal-code "28025" .
+
+<http://accesibility/group17/13632> vcard:street-address <http://accesibility/group17/CAMINO+VIEJO+DE+LEGANES> .
+
+<http://accesibility/group17/13518> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Campillo del Mundo Nuevo" ;
+	xsd:String "  Plazas:  452  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CAMPILLO+DEL+MUNDO+NUEVO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CAMPILLO DEL MUNDO NUEVO" , "3" ;
+	gn:locatedIn "EMBAJADORES" ;
+	vcard:postal-code "28005" .
+
+<http://accesibility/group17/13518> vcard:street-address <http://accesibility/group17/CAMPILLO+DEL+MUNDO+NUEVO> .
+
+<http://accesibility/group17/81710> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Canal" ;
+	xsd:String "  Plazas:  112  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CEA+BERMUDEZ> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CEA BERMUDEZ" , "1" ;
+	gn:locatedIn "ARAPILES" ;
+	vcard:postal-code "28003" .
+
+<http://accesibility/group17/81710> vcard:street-address <http://accesibility/group17/CEA+BERMUDEZ> .
+
+<http://accesibility/group17/183580> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Cándido Mateos" ;
+	xsd:String "  Plazas:  618  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VALLE+DE+MENA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VALLE DE MENA" , "0" ;
+	gn:locatedIn "PEÑA GRANDE" ;
+	vcard:postal-code "28035" .
+
+<http://accesibility/group17/183580> vcard:street-address <http://accesibility/group17/VALLE+DE+MENA> .
+
+<http://accesibility/group17/13624> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Cantabria" ;
+	xsd:String "  Plazas:  211  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/BERGANTIN> a <http://accesibility/group17/Address> ;
+	vcard:street-address "BERGANTIN" , "24" ;
+	gn:locatedIn "ALAMEDA DE OSUNA" ;
+	vcard:postal-code "28042" .
+
+<http://accesibility/group17/13624> vcard:street-address <http://accesibility/group17/BERGANTIN> .
+
+<http://accesibility/group17/13533> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Cañada" ;
+	xsd:String "  Plazas:  288  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CA&Ntilde;ADA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CA&Ntilde;ADA" , "2" ;
+	gn:locatedIn "VINATEROS" ;
+	vcard:postal-code "28030" .
+
+<http://accesibility/group17/13533> vcard:street-address <http://accesibility/group17/CA&Ntilde;ADA> .
+
+<http://accesibility/group17/81733> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Castelló" ;
+	xsd:String "  Plazas:  303  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/DIEGO+DE+LEON> vcard:street-address "42" ;
+	gn:locatedIn "CASTELLANA" .
+
+<http://accesibility/group17/81733> vcard:street-address <http://accesibility/group17/DIEGO+DE+LEON> .
+
+<http://accesibility/group17/13567> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Castrillo de Aza" ;
+	xsd:String "  Plazas:  297  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SANTA+EUGENIA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SANTA EUGENIA" , "1" ;
+	gn:locatedIn "SANTA EUGENIA" ;
+	vcard:postal-code "28031" .
+
+<http://accesibility/group17/13567> vcard:street-address <http://accesibility/group17/SANTA+EUGENIA> .
+
+<http://accesibility/group17/13636> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Chamberí" ;
+	xsd:String "  Plazas : 690  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SANTA+ENGRACIA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SANTA ENGRACIA" , "40" ;
+	gn:locatedIn "ALMAGRO" ;
+	vcard:postal-code "28010" .
+
+<http://accesibility/group17/13636> vcard:street-address <http://accesibility/group17/SANTA+ENGRACIA> .
+
+<http://accesibility/group17/81734> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Chaparral" ;
+	xsd:String "  Plazas : 226  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CHAPARRAL> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CHAPARRAL" , "40" ;
+	gn:locatedIn "PINAR DEL REY" ;
+	vcard:postal-code "28033" .
+
+<http://accesibility/group17/81734> vcard:street-address <http://accesibility/group17/CHAPARRAL> .
+
+<http://accesibility/group17/13568> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Cidamón" ;
+	xsd:String "  Plazas : 343  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/NALDA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "NALDA" , "1" ;
+	gn:locatedIn "SAN JUAN BAUTISTA" ;
+	vcard:postal-code "28043" .
+
+<http://accesibility/group17/13568> vcard:street-address <http://accesibility/group17/NALDA> .
+
+<http://accesibility/group17/13503> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Clara del Rey" ;
+	xsd:String "  Plazas : 179  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CLARA+DEL+REY> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CLARA DEL REY" , "49" ;
+	gn:locatedIn "PROSPERIDAD" ;
+	vcard:postal-code "28002" .
+
+<http://accesibility/group17/13503> vcard:street-address <http://accesibility/group17/CLARA+DEL+REY> .
+
+<http://accesibility/group17/24099> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Codorniz" ;
+	xsd:String "  Plazas : 705  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CODORNIZ> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CODORNIZ" ;
+	gn:locatedIn "VISTA ALEGRE" ;
+	vcard:postal-code "28047" .
+
+<http://accesibility/group17/24099> vcard:street-address <http://accesibility/group17/CODORNIZ> .
+
+<http://accesibility/group17/13569> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Comandante Benítez" ;
+	xsd:String "  Plazas : 166  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/COMANDANTE+BENITEZ> a <http://accesibility/group17/Address> ;
+	vcard:street-address "COMANDANTE BENITEZ" , "16" ;
+	gn:locatedIn "CHOPERA" ;
+	vcard:postal-code "28045" .
+
+<http://accesibility/group17/13569> vcard:street-address <http://accesibility/group17/COMANDANTE+BENITEZ> .
+
+<http://accesibility/group17/13571> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Condado de Treviño" ;
+	xsd:String "  Plazas : 195  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CONDADO+DE+TREVI%26Ntilde%3BO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CONDADO DE TREVI&Ntilde;O" , "25" ;
+	gn:locatedIn "COSTILLARES" ;
+	vcard:postal-code "28033" .
+
+<http://accesibility/group17/13571> vcard:street-address <http://accesibility/group17/CONDADO+DE+TREVI%26Ntilde%3BO> .
+
+<http://accesibility/group17/24101> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Conde de Casal / Mediterraneo" ;
+	xsd:String "  Plazas : 1650  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CONDE+DE+CASAL> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CONDE DE CASAL" ;
+	gn:locatedIn "NIÑO JESUS" ;
+	vcard:postal-code "28007" .
+
+<http://accesibility/group17/24101> vcard:street-address <http://accesibility/group17/CONDE+DE+CASAL> .
+
+<http://accesibility/group17/13504> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Corazón de María I" ;
+	xsd:String "  Plazas : 166  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean ;
+	vcard:street-address <http://accesibility/group17/CORAZON+DE+MARIA> .
+
+<http://accesibility/group17/13500> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Cuevas de Almanzora" ;
+	xsd:String "  Plazas : 203  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MOJACAR> a <http://accesibility/group17/Address> ;
+	vcard:street-address "MOJACAR" , "2" ;
+	gn:locatedIn "APOSTOL SANTIAGO" ;
+	vcard:postal-code "28033" .
+
+<http://accesibility/group17/13500> vcard:street-address <http://accesibility/group17/MOJACAR> .
+
+<http://accesibility/group17/81737> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Cumare" ;
+	xsd:String "  Plazas:  156  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/NEVADO+DEL+RUIZ> a <http://accesibility/group17/Address> ;
+	vcard:street-address "NEVADO DEL RUIZ" , "2" ;
+	gn:locatedIn "PINAR DEL REY" ;
+	vcard:postal-code "28033" .
+
+<http://accesibility/group17/81737> vcard:street-address <http://accesibility/group17/NEVADO+DEL+RUIZ> .
+
+<http://accesibility/group17/13535> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Darwin" ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MORATALAZ> vcard:street-address "172" ;
+	gn:locatedIn "VINATEROS" .
+
+<http://accesibility/group17/13535> vcard:street-address <http://accesibility/group17/MORATALAZ> .
+
+<http://accesibility/group17/183760> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Doce de Octubre" ;
+	xsd:String "  Plazas:  694  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "1"^^xsd:boolean .
+
+<http://accesibility/group17/NARVAEZ> a <http://accesibility/group17/Address> ;
+	vcard:street-address "NARVAEZ" , "57" ;
+	gn:locatedIn "IBIZA" ;
+	vcard:postal-code "28009" .
+
+<http://accesibility/group17/183760> vcard:street-address <http://accesibility/group17/NARVAEZ> .
+
+<http://accesibility/group17/13630> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Doctor Cirajas" ;
+	xsd:String "  Plazas:  324   Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/DOCTOR+CIRAJAS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "DOCTOR CIRAJAS" , "3" ;
+	gn:locatedIn "PUEBLO NUEVO" ;
+	vcard:postal-code "28017" .
+
+<http://accesibility/group17/13630> vcard:street-address <http://accesibility/group17/DOCTOR+CIRAJAS> .
+
+<http://accesibility/group17/13551> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Doctor Laguna" ;
+	xsd:String "  Plazas:  537  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/DOCTOR+LAGUNA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "DOCTOR LAGUNA" , "12" ;
+	gn:locatedIn "NIÑO JESUS" ;
+	vcard:postal-code "28009" .
+
+<http://accesibility/group17/13551> vcard:street-address <http://accesibility/group17/DOCTOR+LAGUNA> .
+
+<http://accesibility/group17/39871> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Doménico Scarlatti" ;
+	xsd:String "  Plazas:  484   Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/DOMENICO+SCARLATTI> a <http://accesibility/group17/Address> ;
+	vcard:street-address "DOMENICO SCARLATTI" , "1" ;
+	gn:locatedIn "VALLEHERMOSO" ;
+	vcard:postal-code "28003" .
+
+<http://accesibility/group17/39871> vcard:street-address <http://accesibility/group17/DOMENICO+SCARLATTI> .
+
+<http://accesibility/group17/7410134> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. El Greco" ;
+	xsd:String "  Plazas:  225  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/El+Greco> a <http://accesibility/group17/Address> ;
+	vcard:street-address "El Greco" , "29" .
+
+<http://accesibility/group17/7410134> vcard:street-address <http://accesibility/group17/El+Greco> .
+
+<http://accesibility/group17/4831001> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Elvira" ;
+	xsd:String "  Plazas:  194  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VICALVARO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VICALVARO" , "13" ;
+	gn:locatedIn "FUENTE DEL BERRO" ;
+	vcard:postal-code "28028" .
+
+<http://accesibility/group17/4831001> vcard:street-address <http://accesibility/group17/VICALVARO> .
+
+<http://accesibility/group17/24106> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Emigrantes" ;
+	xsd:String "  Plazas:  281   Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MINAYA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "MINAYA" , "1" ;
+	gn:locatedIn "CANILLAS" ;
+	vcard:postal-code "28043" .
+
+<http://accesibility/group17/24106> vcard:street-address <http://accesibility/group17/MINAYA> .
+
+<http://accesibility/group17/13524> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Encomienda de Palacios" ;
+	xsd:String "  Plazas:  320   Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ENCOMIENDA+DE+PALACIOS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ENCOMIENDA DE PALACIOS" , "178" ;
+	gn:locatedIn "FONTARRON" ;
+	vcard:postal-code "28030" .
+
+<http://accesibility/group17/13524> vcard:street-address <http://accesibility/group17/ENCOMIENDA+DE+PALACIOS> .
+
+<http://accesibility/group17/13550> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Esfinge" ;
+	xsd:String "  Plazas : 777   Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/NECTAR> a <http://accesibility/group17/Address> ;
+	vcard:street-address "NECTAR" , "36" ;
+	gn:locatedIn "CANILLEJAS" ;
+	vcard:postal-code "28022" .
+
+<http://accesibility/group17/13550> vcard:street-address <http://accesibility/group17/NECTAR> .
+
+<http://accesibility/group17/170634> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Espalter" ;
+	xsd:String "  Plazas : 480   Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ESPALTER> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ESPALTER" , "7" ;
+	gn:locatedIn "LOS JERONIMOS" ;
+	vcard:postal-code "28014" .
+
+<http://accesibility/group17/170634> vcard:street-address <http://accesibility/group17/ESPALTER> .
+
+<http://accesibility/group17/13558> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Esperanza" ;
+	xsd:String "  Plazas:  986  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ESPERANZA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ESPERANZA" , "11" ;
+	gn:locatedIn "ACACIAS" ;
+	vcard:postal-code "28005" .
+
+<http://accesibility/group17/13558> vcard:street-address <http://accesibility/group17/ESPERANZA> .
+
+<http://accesibility/group17/81743> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Espinillo" ;
+	xsd:String "  Plazas : 155  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CIUDADANIA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CIUDADANIA" , "10" ;
+	gn:locatedIn "LOS ROSALES" ;
+	vcard:postal-code "28041" .
+
+<http://accesibility/group17/81743> vcard:street-address <http://accesibility/group17/CIUDADANIA> .
+
+<http://accesibility/group17/24108> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Esteban Villegas" ;
+	xsd:String "  Plazas : 858  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/POETA+ESTEBAN+DE+VILLEGAS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "POETA ESTEBAN DE VILLEGAS" , "4" ;
+	gn:locatedIn "LOS JERONIMOS" ;
+	vcard:postal-code "28014" .
+
+<http://accesibility/group17/24108> vcard:street-address <http://accesibility/group17/POETA+ESTEBAN+DE+VILLEGAS> .
+
+<http://accesibility/group17/13572> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Estrella Polar" ;
+	xsd:String "  Plazas : 401  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ESTRELLA+POLAR> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ESTRELLA POLAR" , "6-B" ;
+	gn:locatedIn "ESTRELLA" ;
+	vcard:postal-code "28007" .
+
+<http://accesibility/group17/13572> vcard:street-address <http://accesibility/group17/ESTRELLA+POLAR> .
+
+<http://accesibility/group17/24111> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Eugenia de Montijo" ;
+	xsd:String "  Plazas : 387  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/EUGENIA+DE+MONTIJO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "EUGENIA DE MONTIJO" , "20" ;
+	gn:locatedIn "VISTA ALEGRE" ;
+	vcard:postal-code "28025" .
+
+<http://accesibility/group17/24111> vcard:street-address <http://accesibility/group17/EUGENIA+DE+MONTIJO> .
+
+<http://accesibility/group17/13573> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Ferrol" ;
+	xsd:String "  Plazas : 350  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/EL+FERROL> a <http://accesibility/group17/Address> ;
+	vcard:street-address "EL FERROL" , "28" ;
+	gn:locatedIn "EL PILAR" ;
+	vcard:postal-code "28029" .
+
+<http://accesibility/group17/13573> vcard:street-address <http://accesibility/group17/EL+FERROL> .
+
+<http://accesibility/group17/13498> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Finisterre" ;
+	xsd:String "  Plazas : 305  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/FINISTERRE> a <http://accesibility/group17/Address> ;
+	vcard:street-address "FINISTERRE" , "23" ;
+	gn:locatedIn "LA PAZ" ;
+	vcard:postal-code "28029" .
+
+<http://accesibility/group17/13498> vcard:street-address <http://accesibility/group17/FINISTERRE> .
+
+<http://accesibility/group17/81745> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Fonsagrada" ;
+	xsd:String "  Plazas : 253  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ARTEIJO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ARTEIJO" , "10-B" ;
+	gn:locatedIn "EL PILAR" ;
+	vcard:postal-code "28029" .
+
+<http://accesibility/group17/81745> vcard:street-address <http://accesibility/group17/ARTEIJO> .
+
+<http://accesibility/group17/4831271> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Francisco Altimiras" ;
+	xsd:String "  Plazas : 63  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/FRANCISCO+ALTIMIRAS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "FRANCISCO ALTIMIRAS" , "2" ;
+	gn:locatedIn "GUINDALERA" ;
+	vcard:postal-code "28028" .
+
+<http://accesibility/group17/4831271> vcard:street-address <http://accesibility/group17/FRANCISCO+ALTIMIRAS> .
+
+<http://accesibility/group17/13635> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Francisco Rioja" ;
+	xsd:String "  Plazas : 392  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "1"^^xsd:boolean .
+
+<http://accesibility/group17/LUIS+RUIZ> a <http://accesibility/group17/Address> ;
+	vcard:street-address "LUIS RUIZ" , "29" ;
+	gn:locatedIn "PUEBLO NUEVO" ;
+	vcard:postal-code "28017" .
+
+<http://accesibility/group17/13635> vcard:street-address <http://accesibility/group17/LUIS+RUIZ> .
+
+<http://accesibility/group17/13634> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Francos Rodríguez" ;
+	xsd:String "  Plazas : 294  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "1"^^xsd:boolean .
+
+<http://accesibility/group17/NUMANCIA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "NUMANCIA" , "61" ;
+	gn:locatedIn "BELLAS VISTAS" ;
+	vcard:postal-code "28039" .
+
+<http://accesibility/group17/13634> vcard:street-address <http://accesibility/group17/NUMANCIA> .
+
+<http://accesibility/group17/24119> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Galileo" ;
+	xsd:String "  Plazas : 527  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/BLASCO+DE+GARAY> vcard:street-address "38" ;
+	gn:locatedIn "ARAPILES" .
+
+<http://accesibility/group17/24119> vcard:street-address <http://accesibility/group17/BLASCO+DE+GARAY> .
+
+<http://accesibility/group17/13525> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. García Escámez" ;
+	xsd:String "  Plazas : 260  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/GENERAL+GARCIA+ESCAMEZ> a <http://accesibility/group17/Address> ;
+	vcard:street-address "GENERAL GARCIA ESCAMEZ" , "23" ;
+	gn:locatedIn "LAS AGUILAS" ;
+	vcard:postal-code "28044" .
+
+<http://accesibility/group17/13525> vcard:street-address <http://accesibility/group17/GENERAL+GARCIA+ESCAMEZ> .
+
+<http://accesibility/group17/13534> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. García Tapia" ;
+	xsd:String "  Plazas : 252  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/DOCTOR+GARCIA+TAPIA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "DOCTOR GARCIA TAPIA" , "51" ;
+	gn:locatedIn "MARROQUINA" ;
+	vcard:postal-code "28030" .
+
+<http://accesibility/group17/13534> vcard:street-address <http://accesibility/group17/DOCTOR+GARCIA+TAPIA> .
+
+<http://accesibility/group17/13527> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Garrovillas" ;
+	xsd:String "  Plazas : 324  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/GARROVILLAS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "GARROVILLAS" , "11" ;
+	gn:locatedIn "LAS AGUILAS" ;
+	vcard:postal-code "28044" .
+
+<http://accesibility/group17/13527> vcard:street-address <http://accesibility/group17/GARROVILLAS> .
+
+<http://accesibility/group17/17449> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. General Fanjul" ;
+	xsd:String "  Plazas:  570  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/GENERAL+FANJUL> a <http://accesibility/group17/Address> ;
+	vcard:street-address "GENERAL FANJUL" , "140" ;
+	gn:locatedIn "LAS AGUILAS" ;
+	vcard:postal-code "28044" .
+
+<http://accesibility/group17/17449> vcard:street-address <http://accesibility/group17/GENERAL+FANJUL> .
+
+<http://accesibility/group17/81746> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. General Gallegos" ;
+	xsd:String "  Plazas : 101  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PADRE+DAMIAN> a <http://accesibility/group17/Address> ;
+	vcard:street-address "PADRE DAMIAN" , "39" ;
+	gn:locatedIn "NUEVA ESPAÑA" ;
+	vcard:postal-code "28036" .
+
+<http://accesibility/group17/81746> vcard:street-address <http://accesibility/group17/PADRE+DAMIAN> .
+
+<http://accesibility/group17/24120> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. General Lacy" ;
+	xsd:String "  Plazas:  663  Abierto 24 horas    Titularidad:  Ayuntamiento de madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/GENERAL+LACY> a <http://accesibility/group17/Address> ;
+	vcard:street-address "GENERAL LACY" , "11" ;
+	gn:locatedIn "PALOS DE MOGUER" ;
+	vcard:postal-code "28045" .
+
+<http://accesibility/group17/24120> vcard:street-address <http://accesibility/group17/GENERAL+LACY> .
+
+<http://accesibility/group17/13520> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Gerardo Cordón" ;
+	xsd:String "  Plazas:  200  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/GERARDO+CORDON> a <http://accesibility/group17/Address> ;
+	vcard:street-address "GERARDO CORDON" , "63" ;
+	gn:locatedIn "VENTAS" ;
+	vcard:postal-code "28017" .
+
+<http://accesibility/group17/13520> vcard:street-address <http://accesibility/group17/GERARDO+CORDON> .
+
+<http://accesibility/group17/13574> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Germán Pérez Carrasco" ;
+	xsd:String "  Plazas:  321  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VIRGEN+DEL+SAGRARIO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VIRGEN DEL SAGRARIO" , "6" ;
+	gn:locatedIn "QUINTANA" ;
+	vcard:postal-code "28027" .
+
+<http://accesibility/group17/13574> vcard:street-address <http://accesibility/group17/VIRGEN+DEL+SAGRARIO> .
+
+<http://accesibility/group17/13615> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Gómez Ulla" ;
+	xsd:String "  Plazas:  191  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/DOCTOR+GOMEZ+ULLA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "DOCTOR GOMEZ ULLA" , "11" ;
+	gn:locatedIn "GUINDALERA" ;
+	vcard:postal-code "28028" .
+
+<http://accesibility/group17/13615> vcard:street-address <http://accesibility/group17/DOCTOR+GOMEZ+ULLA> .
+
+<http://accesibility/group17/13522> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Goya I" ;
+	xsd:String "  Plazas:  668  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/GOYA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "GOYA" , "100" ;
+	gn:locatedIn "GOYA" ;
+	vcard:postal-code "28009" .
+
+<http://accesibility/group17/13522> vcard:street-address <http://accesibility/group17/GOYA> .
+
+<http://accesibility/group17/24121> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Guadalete" ;
+	xsd:String "  Plazas:  290  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/GUADALETE> a <http://accesibility/group17/Address> ;
+	vcard:street-address "GUADALETE" , "132" ;
+	gn:locatedIn "COMILLAS" ;
+	vcard:postal-code "28019" .
+
+<http://accesibility/group17/24121> vcard:street-address <http://accesibility/group17/GUADALETE> .
+
+<http://accesibility/group17/5421792> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Ilíada" ;
+	xsd:String "  Plazas  : 333  Abierto 24 Horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/LA+ILIADA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "LA ILIADA" , "25" ;
+	gn:locatedIn "CANILLEJAS" ;
+	vcard:postal-code "28022" .
+
+<http://accesibility/group17/5421792> vcard:street-address <http://accesibility/group17/LA+ILIADA> .
+
+<http://accesibility/group17/13627> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Illescas" ;
+	xsd:String "  Plazas : 261  Abierto 24 horas    Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ILLESCAS> vcard:street-address "3" ;
+	vcard:postal-code "28024" .
+
+<http://accesibility/group17/13627> vcard:street-address <http://accesibility/group17/ILLESCAS> .
+
+<http://accesibility/group17/183559> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Ilustración" ;
+	xsd:String "  Pazas:  142     Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ISLA+DE+AROSA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ISLA DE AROSA" , "2" ;
+	gn:locatedIn "PEÑA GRANDE" ;
+	vcard:postal-code "28035" .
+
+<http://accesibility/group17/183559> vcard:street-address <http://accesibility/group17/ISLA+DE+AROSA> .
+
+<http://accesibility/group17/13502> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Isla de Arosa" ;
+	xsd:String "  Plazas : 189  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean ;
+	vcard:street-address <http://accesibility/group17/ISLA+DE+AROSA> .
+
+<http://accesibility/group17/13575> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Isla de Ons" ;
+	xsd:String "  Plazas:  667  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ISLA+DE+ONS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ISLA DE ONS" , "5" ;
+	gn:locatedIn "PEÑA GRANDE" ;
+	vcard:postal-code "28035" .
+
+<http://accesibility/group17/13575> vcard:street-address <http://accesibility/group17/ISLA+DE+ONS> .
+
+<http://accesibility/group17/13576> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Isla de Tavira" ;
+	xsd:String "  Plazas:  326  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ISLA+DE+TAVIRA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ISLA DE TAVIRA" , "20" ;
+	gn:locatedIn "PEÑA GRANDE" ;
+	vcard:postal-code "28035" .
+
+<http://accesibility/group17/13576> vcard:street-address <http://accesibility/group17/ISLA+DE+TAVIRA> .
+
+<http://accesibility/group17/81748> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Islas Filipinas" ;
+	xsd:String "  Plazas : 397.  Abierto 24 horas.   Titularidad : Ayuntamiento de Madrid. " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CEA+BERMUDEZ> vcard:street-address "51" ;
+	gn:locatedIn "GAZTAMBIDE" .
+
+<http://accesibility/group17/81748> vcard:street-address <http://accesibility/group17/CEA+BERMUDEZ> .
+
+<http://accesibility/group17/13577> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Iván de Vargas" ;
+	xsd:String "  Plazas : 199  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid. " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ERMITA+DEL+SANTO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ERMITA DEL SANTO" , "71" ;
+	gn:locatedIn "SAN ISIDRO" ;
+	vcard:postal-code "28019" .
+
+<http://accesibility/group17/13577> vcard:street-address <http://accesibility/group17/ERMITA+DEL+SANTO> .
+
+<http://accesibility/group17/13546> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Jacinto Verdaguer" ;
+	xsd:String "  Plazas : 545  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/JACINTO+VERDAGUER> a <http://accesibility/group17/Address> ;
+	vcard:street-address "JACINTO VERDAGUER" , "25-B" ;
+	gn:locatedIn "OPAÑEL" ;
+	vcard:postal-code "28019" .
+
+<http://accesibility/group17/13546> vcard:street-address <http://accesibility/group17/JACINTO+VERDAGUER> .
+
+<http://accesibility/group17/13529> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Joaquín María López" ;
+	xsd:String "  Plazas : 464  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/JOAQUIN+MARIA+LOPEZ> a <http://accesibility/group17/Address> ;
+	vcard:street-address "JOAQUIN MARIA LOPEZ" , "39" ;
+	gn:locatedIn "GAZTAMBIDE" ;
+	vcard:postal-code "28015" .
+
+<http://accesibility/group17/13529> vcard:street-address <http://accesibility/group17/JOAQUIN+MARIA+LOPEZ> .
+
+<http://accesibility/group17/7471768> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. José Abascal" ;
+	xsd:String "  Plazas:  126  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/JOSE+ABASCAL> vcard:street-address "54" ;
+	gn:locatedIn "ALMAGRO" .
+
+<http://accesibility/group17/7471768> vcard:street-address <http://accesibility/group17/JOSE+ABASCAL> .
+
+<http://accesibility/group17/13526> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. José Cadalso" ;
+	xsd:String "  Plazas : 259  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/JOSE+DE+CADALSO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "JOSE DE CADALSO" , "67" ;
+	gn:locatedIn "LAS AGUILAS" ;
+	vcard:postal-code "28044" .
+
+<http://accesibility/group17/13526> vcard:street-address <http://accesibility/group17/JOSE+DE+CADALSO> .
+
+<http://accesibility/group17/13556> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. José del Hierro" ;
+	xsd:String "  Plazas : 648  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/HERMANOS+DE+PABLO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "HERMANOS DE PABLO" , "46" ;
+	gn:locatedIn "CONCEPCION" ;
+	vcard:postal-code "28027" .
+
+<http://accesibility/group17/13556> vcard:street-address <http://accesibility/group17/HERMANOS+DE+PABLO> .
+
+<http://accesibility/group17/13578> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. José Luis Arrese" ;
+	xsd:String "  Plazas : 380  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/JOSE+LUIS+DE+ARRESE> a <http://accesibility/group17/Address> ;
+	vcard:street-address "JOSE LUIS DE ARRESE" , "22" ;
+	gn:locatedIn "VENTAS" ;
+	vcard:postal-code "28017" .
+
+<http://accesibility/group17/13578> vcard:street-address <http://accesibility/group17/JOSE+LUIS+DE+ARRESE> .
+
+<http://accesibility/group17/63334> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Josep Pla" ;
+	xsd:String "  Plazas : 239  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/LOPEZ+DE+HOYOS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "LOPEZ DE HOYOS" , "57" ;
+	gn:locatedIn "CIUDAD JARDIN" ;
+	vcard:postal-code "28002" .
+
+<http://accesibility/group17/63334> vcard:street-address <http://accesibility/group17/LOPEZ+DE+HOYOS> .
+
+<http://accesibility/group17/13579> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Juan de Vera" ;
+	xsd:String "  Plazas : 512  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/JUAN+DE+VERA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "JUAN DE VERA" , "15" ;
+	gn:locatedIn "DELICIAS" ;
+	vcard:postal-code "28045" .
+
+<http://accesibility/group17/13579> vcard:street-address <http://accesibility/group17/JUAN+DE+VERA> .
+
+<http://accesibility/group17/7432674> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Juan Esplandiú" ;
+	xsd:String "  Plazas:  249  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/JUAN+ESPLANDIU> a <http://accesibility/group17/Address> ;
+	vcard:street-address "JUAN ESPLANDIU" , "1" ;
+	gn:locatedIn "ESTRELLA" ;
+	vcard:postal-code "28007" .
+
+<http://accesibility/group17/7432674> vcard:street-address <http://accesibility/group17/JUAN+ESPLANDIU> .
+
+<http://accesibility/group17/13541> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Juan Francisco Luján I" ;
+	xsd:String "  Plazas : 198  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CORREGIDOR+JUAN+FRANCISCO+DE+LUJAN> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CORREGIDOR JUAN FRANCISCO DE LUJAN" , "1" ;
+	gn:locatedIn "FONTARRON" ;
+	vcard:postal-code "28030" .
+
+<http://accesibility/group17/13541> vcard:street-address <http://accesibility/group17/CORREGIDOR+JUAN+FRANCISCO+DE+LUJAN> .
+
+<http://accesibility/group17/17452> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Juan Francisco Luján II" ;
+	xsd:String "  Plazas : 297  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CORREGIDOR+JUAN+FRANCISCO+DE+LUJAN> vcard:street-address "60" .
+
+<http://accesibility/group17/17452> vcard:street-address <http://accesibility/group17/CORREGIDOR+JUAN+FRANCISCO+DE+LUJAN> .
+
+<http://accesibility/group17/13505> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Juan Hurtado de Mendoza" ;
+	xsd:String "  Plazas : 269  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/DOCTOR+FLEMING> a <http://accesibility/group17/Address> ;
+	vcard:street-address "DOCTOR FLEMING" , "21" ;
+	gn:locatedIn "NUEVA ESPAÑA" ;
+	vcard:postal-code "28036" .
+
+<http://accesibility/group17/13505> vcard:street-address <http://accesibility/group17/DOCTOR+FLEMING> .
+
+<http://accesibility/group17/5556588> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Juan Ramón Jiménez" ;
+	xsd:String "  Plazas:  401  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/JUAN+HURTADO+DE+MENDOZA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "JUAN HURTADO DE MENDOZA" , "8" ;
+	gn:locatedIn "NUEVA ESPAÑA" ;
+	vcard:postal-code "28036" .
+
+<http://accesibility/group17/5556588> vcard:street-address <http://accesibility/group17/JUAN+HURTADO+DE+MENDOZA> .
+
+<http://accesibility/group17/81768> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Lagasca" ;
+	xsd:String "  Plazas:  327  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/DIEGO+DE+LEON> vcard:street-address "11" .
+
+<http://accesibility/group17/81768> vcard:street-address <http://accesibility/group17/DIEGO+DE+LEON> .
+
+<http://accesibility/group17/13580> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Lardero" ;
+	xsd:String "  Plazas : 382  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/LARDERO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "LARDERO" , "3-B" ;
+	gn:locatedIn "AMBROZ" ;
+	vcard:postal-code "28032" .
+
+<http://accesibility/group17/13580> vcard:street-address <http://accesibility/group17/LARDERO> .
+
+<http://accesibility/group17/13581> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Maldonado" ;
+	xsd:String "  Plazas : 721  Abierto 24 horas " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MALDONADO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "MALDONADO" , "63" ;
+	gn:locatedIn "LISTA" ;
+	vcard:postal-code "28006" .
+
+<http://accesibility/group17/13581> vcard:street-address <http://accesibility/group17/MALDONADO> .
+
+<http://accesibility/group17/13582> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Manizales" ;
+	xsd:String "  Plazas : 401  Abierto 24 horas " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/GALAPA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "GALAPA" , "10" ;
+	gn:locatedIn "PINAR DEL REY" ;
+	vcard:postal-code "28033" .
+
+<http://accesibility/group17/13582> vcard:street-address <http://accesibility/group17/GALAPA> .
+
+<http://accesibility/group17/24122> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Manuel Noya" ;
+	xsd:String "  Plazas : 492  Abierto 24 horas " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MANUEL+NOYA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "MANUEL NOYA" , "2" ;
+	gn:locatedIn "MOSCARDO" ;
+	vcard:postal-code "28026" .
+
+<http://accesibility/group17/24122> vcard:street-address <http://accesibility/group17/MANUEL+NOYA> .
+
+<http://accesibility/group17/13583> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Marcos de Orueta" ;
+	xsd:String "  Plazas : 196  Abierto 24 horas " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ANGEL+MUGICA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ANGEL MUGICA" , "6" ;
+	gn:locatedIn "VALVERDE" ;
+	vcard:postal-code "28034" .
+
+<http://accesibility/group17/13583> vcard:street-address <http://accesibility/group17/ANGEL+MUGICA> .
+
+<http://accesibility/group17/13585> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Marqués de Corbera I" ;
+	xsd:String "  Plazas : 287  Abierto 24 horas " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MARQUES+DE+CORBERA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "MARQUES DE CORBERA" , "2" ;
+	gn:locatedIn "VENTAS" ;
+	vcard:postal-code "28017" .
+
+<http://accesibility/group17/13585> vcard:street-address <http://accesibility/group17/MARQUES+DE+CORBERA> .
+
+<http://accesibility/group17/13584> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Marqués de Corbera II" ;
+	xsd:String "  Plazas:  287  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MARQUES+DE+CORBERA> vcard:street-address "64" .
+
+<http://accesibility/group17/13584> vcard:street-address <http://accesibility/group17/MARQUES+DE+CORBERA> .
+
+<http://accesibility/group17/4831164> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Marqués de Samaranch" ;
+	xsd:String "  Plazas : 233  Abierto 24 horas " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/IMPERIAL> a <http://accesibility/group17/Address> ;
+	vcard:street-address "IMPERIAL" , "18" ;
+	gn:locatedIn "IMPERIAL" ;
+	vcard:postal-code "28005" .
+
+<http://accesibility/group17/4831164> vcard:street-address <http://accesibility/group17/IMPERIAL> .
+
+<http://accesibility/group17/36275> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Marqués de Suances" ;
+	xsd:String "  Plazas : 339  Abierto 24 horas " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ENSIDESA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ENSIDESA" , "6" ;
+	gn:locatedIn "EL SALVADOR" ;
+	vcard:postal-code "28027" .
+
+<http://accesibility/group17/36275> vcard:street-address <http://accesibility/group17/ENSIDESA> .
+
+<http://accesibility/group17/13490> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Marqués de Zafra" ;
+	xsd:String "  Plazas : 192  Abierto 24 horas " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MARQUES+DE+ZAFRA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "MARQUES DE ZAFRA" , "63" ;
+	gn:locatedIn "FUENTE DEL BERRO" ;
+	vcard:postal-code "28028" .
+
+<http://accesibility/group17/13490> vcard:street-address <http://accesibility/group17/MARQUES+DE+ZAFRA> .
+
+<http://accesibility/group17/13521> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Marroquina" ;
+	xsd:String "  Plazas : 683  Abierto 24 horas " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CAMINO+DE+LOS+VINATEROS> vcard:street-address "107" ;
+	gn:locatedIn "MARROQUINA" .
+
+<http://accesibility/group17/13521> vcard:street-address <http://accesibility/group17/CAMINO+DE+LOS+VINATEROS> .
+
+<http://accesibility/group17/24125> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Martín de Alzaga" ;
+	xsd:String "  Plazas : 206  Abierto 24 horas " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ALCALDE+MARTIN+DE+ALZAGA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ALCALDE MARTIN DE ALZAGA" , "21" ;
+	gn:locatedIn "VALDEZARZA" ;
+	vcard:postal-code "28039" .
+
+<http://accesibility/group17/24125> vcard:street-address <http://accesibility/group17/ALCALDE+MARTIN+DE+ALZAGA> .
+
+<http://accesibility/group17/24127> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Matilde Gayo" ;
+	xsd:String "  Plazas : 232  Abierto 24 horas " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MATILDE+GAYO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "MATILDE GAYO" , "6" ;
+	gn:locatedIn "MOSCARDO" ;
+	vcard:postal-code "28026" .
+
+<http://accesibility/group17/24127> vcard:street-address <http://accesibility/group17/MATILDE+GAYO> .
+
+<http://accesibility/group17/46136> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Melchor Fernández Almagro" ;
+	xsd:String "  Plazas : 255  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/GINZO+DE+LIMIA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "GINZO DE LIMIA" , "7" ;
+	gn:locatedIn "EL PILAR" ;
+	vcard:postal-code "28029" .
+
+<http://accesibility/group17/46136> vcard:street-address <http://accesibility/group17/GINZO+DE+LIMIA> .
+
+<http://accesibility/group17/13531> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Menasalbas" ;
+	xsd:String "  Plazas:  220  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/AHORRO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "AHORRO" , "6" ;
+	gn:locatedIn "LOS ANGELES" ;
+	vcard:postal-code "28041" .
+
+<http://accesibility/group17/13531> vcard:street-address <http://accesibility/group17/AHORRO> .
+
+<http://accesibility/group17/183550> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Menorca" ;
+	xsd:String "  Plazas:  862  Abierto: 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "1"^^xsd:boolean .
+
+<http://accesibility/group17/NARVAEZ> vcard:street-address "54" .
+
+<http://accesibility/group17/183550> vcard:street-address <http://accesibility/group17/NARVAEZ> .
+
+<http://accesibility/group17/13586> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Mercedes Arteaga" ;
+	xsd:String "  Plazas:  217  Abierto: 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MERCEDES+ARTEAGA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "MERCEDES ARTEAGA" , "27" ;
+	gn:locatedIn "OPAÑEL" ;
+	vcard:postal-code "28019" .
+
+<http://accesibility/group17/13586> vcard:street-address <http://accesibility/group17/MERCEDES+ARTEAGA> .
+
+<http://accesibility/group17/81792> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Miguel Angel" ;
+	xsd:String "  Plazas:  87  Abierto: 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MIGUEL+ANGEL> a <http://accesibility/group17/Address> ;
+	vcard:street-address "MIGUEL ANGEL" , "30" ;
+	gn:locatedIn "ALMAGRO" ;
+	vcard:postal-code "28010" .
+
+<http://accesibility/group17/81792> vcard:street-address <http://accesibility/group17/MIGUEL+ANGEL> .
+
+<http://accesibility/group17/13508> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Mirabel" ;
+	xsd:String "  Plazas:  617  Abierto: 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MIRABEL> a <http://accesibility/group17/Address> ;
+	vcard:street-address "MIRABEL" , "13" ;
+	gn:locatedIn "LAS AGUILAS" ;
+	vcard:postal-code "28044" .
+
+<http://accesibility/group17/13508> vcard:street-address <http://accesibility/group17/MIRABEL> .
+
+<http://accesibility/group17/13587> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Misterios" ;
+	xsd:String "  Plazas:  183  Abierto: 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MISTERIOS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "MISTERIOS" , "1" ;
+	gn:locatedIn "QUINTANA" ;
+	vcard:postal-code "28027" .
+
+<http://accesibility/group17/13587> vcard:street-address <http://accesibility/group17/MISTERIOS> .
+
+<http://accesibility/group17/13588> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Mondariz" ;
+	xsd:String "  Plazas : 282  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MONDARIZ> a <http://accesibility/group17/Address> ;
+	vcard:street-address "MONDARIZ" , "14-B" ;
+	gn:locatedIn "EL PILAR" ;
+	vcard:postal-code "28029" .
+
+<http://accesibility/group17/13588> vcard:street-address <http://accesibility/group17/MONDARIZ> .
+
+<http://accesibility/group17/13589> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Montevideo" ;
+	xsd:String "  Plazas:  290  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/GENERAL+MOSCARDO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "GENERAL MOSCARDO" , "24" ;
+	gn:locatedIn "CUATRO CAMINOS" ;
+	vcard:postal-code "28020" .
+
+<http://accesibility/group17/13589> vcard:street-address <http://accesibility/group17/GENERAL+MOSCARDO> .
+
+<http://accesibility/group17/81770> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Moralzarzal" ;
+	xsd:String "  Plazas:  224  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MORALZARZAL> a <http://accesibility/group17/Address> ;
+	vcard:street-address "MORALZARZAL" , "86" ;
+	gn:locatedIn "MIRASIERRA" ;
+	vcard:postal-code "28034" .
+
+<http://accesibility/group17/81770> vcard:street-address <http://accesibility/group17/MORALZARZAL> .
+
+<http://accesibility/group17/13540> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Moratalaz" ;
+	xsd:String "  Plazas:  379  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MORATALAZ> vcard:street-address "194" .
+
+<http://accesibility/group17/13540> vcard:street-address <http://accesibility/group17/MORATALAZ> .
+
+<http://accesibility/group17/13516> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Müller" ;
+	xsd:String "  Plazas:  139  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/REMONTA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "REMONTA" , "6" ;
+	gn:locatedIn "VALDEACEDERAS" ;
+	vcard:postal-code "28039" .
+
+<http://accesibility/group17/13516> vcard:street-address <http://accesibility/group17/REMONTA> .
+
+<http://accesibility/group17/13497> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Narváez" ;
+	xsd:String "  Plazas:  523  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/NARVAEZ> vcard:street-address "26" ;
+	gn:locatedIn "GOYA" .
+
+<http://accesibility/group17/13497> vcard:street-address <http://accesibility/group17/NARVAEZ> .
+
+<http://accesibility/group17/81793> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Navalmoral de la Mata" ;
+	xsd:String "  Plazas:  204  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/NAVALMORAL+DE+LA+MATA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "NAVALMORAL DE LA MATA" , "64-B" ;
+	gn:locatedIn "LAS AGUILAS" ;
+	vcard:postal-code "28044" .
+
+<http://accesibility/group17/81793> vcard:street-address <http://accesibility/group17/NAVALMORAL+DE+LA+MATA> .
+
+<http://accesibility/group17/13590> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Niño Jesús" ;
+	xsd:String "  Plazas : 405  Abierto 24 horas.   Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/NI%26Ntilde%3BO+JESUS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "NI&Ntilde;O JESUS" , "4" ;
+	gn:locatedIn "NIÑO JESUS" ;
+	vcard:postal-code "28009" .
+
+<http://accesibility/group17/13590> vcard:street-address <http://accesibility/group17/NI%26Ntilde%3BO+JESUS> .
+
+<http://accesibility/group17/13519> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Nuestra Señora de Gracia" ;
+	xsd:String "  Plazas : 580  Titularidad : Ayuntamiento de Madrid   Abierto 24 horas. " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/HACIENDA+DE+PAVONES> a <http://accesibility/group17/Address> ;
+	vcard:street-address "HACIENDA DE PAVONES" , "202" ;
+	gn:locatedIn "FONTARRON" ;
+	vcard:postal-code "28030" .
+
+<http://accesibility/group17/13519> vcard:street-address <http://accesibility/group17/HACIENDA+DE+PAVONES> .
+
+<http://accesibility/group17/13640> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Ofelia Nieto" ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/OFELIA+NIETO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "OFELIA NIETO" , "61 - B" ;
+	gn:locatedIn "VALDEZARZA" ;
+	vcard:postal-code "28039" .
+
+<http://accesibility/group17/13640> vcard:street-address <http://accesibility/group17/OFELIA+NIETO> .
+
+<http://accesibility/group17/24129> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Oporto" ;
+	xsd:String "  Plazas : 456 Abierto 24 horas   Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CAMINO+VIEJO+DE+LEGANES> vcard:street-address "30" ;
+	gn:locatedIn "OPAÑEL" ;
+	vcard:postal-code "28019" .
+
+<http://accesibility/group17/24129> vcard:street-address <http://accesibility/group17/CAMINO+VIEJO+DE+LEGANES> .
+
+<http://accesibility/group17/13543> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Ortega y Gasset I" ;
+	xsd:String "  Plazas : 741  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/JOSE+ORTEGA+Y+GASSET> vcard:street-address "26" .
+
+<http://accesibility/group17/13543> vcard:street-address <http://accesibility/group17/JOSE+ORTEGA+Y+GASSET> .
+
+<http://accesibility/group17/13544> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Ortega y Gasset II" ;
+	xsd:String "  Plazas : 549 Abierto 24 horas    Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/JOSE+ORTEGA+Y+GASSET> vcard:street-address "44" ;
+	gn:locatedIn "LISTA" .
+
+<http://accesibility/group17/13544> vcard:street-address <http://accesibility/group17/JOSE+ORTEGA+Y+GASSET> .
+
+<http://accesibility/group17/13549> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Ortega y Gasset III" ;
+	xsd:String "  Plazas : 402  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/JOSE+ORTEGA+Y+GASSET> vcard:street-address "35" .
+
+<http://accesibility/group17/13549> vcard:street-address <http://accesibility/group17/JOSE+ORTEGA+Y+GASSET> .
+
+<http://accesibility/group17/13553> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Ortega y Gasset IV" ;
+	xsd:String "  Plazas : 369  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/JOSE+ORTEGA+Y+GASSET> vcard:street-address "25 -B" .
+
+<http://accesibility/group17/13553> vcard:street-address <http://accesibility/group17/JOSE+ORTEGA+Y+GASSET> .
+
+<http://accesibility/group17/167691> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Ortiz Campos" ;
+	xsd:String "  Plazas : 151  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ORTIZ+CAMPOS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ORTIZ CAMPOS" , "12" ;
+	gn:locatedIn "PRADOLONGO" ;
+	vcard:postal-code "28026" .
+
+<http://accesibility/group17/167691> vcard:street-address <http://accesibility/group17/ORTIZ+CAMPOS> .
+
+<http://accesibility/group17/13510> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Osa de la Vega" ;
+	xsd:String "  Plazas : 294  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/OSA+DE+LA+VEGA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "OSA DE LA VEGA" , "6" ;
+	gn:locatedIn "LAS AGUILAS" ;
+	vcard:postal-code "28044" .
+
+<http://accesibility/group17/13510> vcard:street-address <http://accesibility/group17/OSA+DE+LA+VEGA> .
+
+<http://accesibility/group17/13628> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Pablo Casals" ;
+	xsd:String "  Plazas : 152  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PABLO+CASALS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "PABLO CASALS" , "1" ;
+	gn:locatedIn "PUERTA DEL ANGEL" .
+
+<http://accesibility/group17/13628> vcard:street-address <http://accesibility/group17/PABLO+CASALS> .
+
+<http://accesibility/group17/13591> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Pablo Iglesias I" ;
+	xsd:String "  Plazas : 180  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PABLO+IGLESIAS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "PABLO IGLESIAS" , "16" ;
+	gn:locatedIn "VALLEHERMOSO" ;
+	vcard:postal-code "28003" .
+
+<http://accesibility/group17/13591> vcard:street-address <http://accesibility/group17/PABLO+IGLESIAS> .
+
+<http://accesibility/group17/13517> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Pablo Iglesias II" ;
+	xsd:String "  Plazas : 504  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PABLO+IGLESIAS> vcard:street-address "40" ;
+	gn:locatedIn "BELLAS VISTAS" ;
+	vcard:postal-code "28039" .
+
+<http://accesibility/group17/13517> vcard:street-address <http://accesibility/group17/PABLO+IGLESIAS> .
+
+<http://accesibility/group17/13557> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Pan y Toros" ;
+	xsd:String "  Plazas : 226   Abierto 24 horas    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PAN+Y+TOROS> vcard:street-address "6 - b" .
+
+<http://accesibility/group17/13557> vcard:street-address <http://accesibility/group17/PAN+Y+TOROS> .
+
+<http://accesibility/group17/81799> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Panamá" ;
+	xsd:String "  Plazas : 435  Abierto 24 horas    Titularidad : Ayuntamiento de Madrid  " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/DOCTOR+FLEMING> vcard:street-address "13" ;
+	gn:locatedIn "HISPANOAMERICA" .
+
+<http://accesibility/group17/81799> vcard:street-address <http://accesibility/group17/DOCTOR+FLEMING> .
+
+<http://accesibility/group17/63333> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Parque de Santa María" ;
+	xsd:String "  Plazas : 459  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SANTA+VIRGILIA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SANTA VIRGILIA" , "19" ;
+	gn:locatedIn "PINAR DEL REY" ;
+	vcard:postal-code "28033" .
+
+<http://accesibility/group17/63333> vcard:street-address <http://accesibility/group17/SANTA+VIRGILIA> .
+
+<http://accesibility/group17/13619> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Paseo de Pintor Rosales I" ;
+	xsd:String "  Plazas : 315  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PINTOR+ROSALES> a <http://accesibility/group17/Address> ;
+	vcard:street-address "PINTOR ROSALES" , "40" ;
+	gn:locatedIn "ARGUELLES" ;
+	vcard:postal-code "28008" .
+
+<http://accesibility/group17/13619> vcard:street-address <http://accesibility/group17/PINTOR+ROSALES> .
+
+<http://accesibility/group17/13637> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Paseo de Pintor Rosales III" ;
+	xsd:String "  Plazas : 733  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PINTOR+ROSALES> vcard:street-address "1" ;
+	gn:locatedIn "CASA DE CAMPO" .
+
+<http://accesibility/group17/13637> vcard:street-address <http://accesibility/group17/PINTOR+ROSALES> .
+
+<http://accesibility/group17/13592> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Pedro Yagüe" ;
+	xsd:String "  Plazas : 198  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PEDRO+YAG%26Uuml%3BE> a <http://accesibility/group17/Address> ;
+	vcard:street-address "PEDRO YAG&Uuml;E" , "3" ;
+	gn:locatedIn "COMILLAS" ;
+	vcard:postal-code "28019" .
+
+<http://accesibility/group17/13592> vcard:street-address <http://accesibility/group17/PEDRO+YAG%26Uuml%3BE> .
+
+<http://accesibility/group17/24131> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Peñuelas" ;
+	xsd:String "  Plazas : 239  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ESPERANZA> vcard:street-address "13" .
+
+<http://accesibility/group17/24131> vcard:street-address <http://accesibility/group17/ESPERANZA> .
+
+<http://accesibility/group17/13617> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Pérez Pillado" ;
+	xsd:String "  Plazas : 531  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/TENIENTE+DE+ALCALDE+PEREZ+PILLADO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "TENIENTE DE ALCALDE PEREZ PILLADO" , "1-B" ;
+	gn:locatedIn "VALLEHERMOSO" ;
+	vcard:postal-code "28003" .
+
+<http://accesibility/group17/13617> vcard:street-address <http://accesibility/group17/TENIENTE+DE+ALCALDE+PEREZ+PILLADO> .
+
+<http://accesibility/group17/13545> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Pez Volador" ;
+	xsd:String "  Plazas : 657  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PEZ+VOLADOR> a <http://accesibility/group17/Address> ;
+	vcard:street-address "PEZ VOLADOR" , "21" ;
+	gn:locatedIn "ESTRELLA" ;
+	vcard:postal-code "28007" .
+
+<http://accesibility/group17/13545> vcard:street-address <http://accesibility/group17/PEZ+VOLADOR> .
+
+<http://accesibility/group17/13542> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Pico de los Artilleros" ;
+	xsd:String "  Plazas : 195  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PICO+DE+LOS+ARTILLEROS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "PICO DE LOS ARTILLEROS" , "19" ;
+	gn:locatedIn "MARROQUINA" ;
+	vcard:postal-code "28030" .
+
+<http://accesibility/group17/13542> vcard:street-address <http://accesibility/group17/PICO+DE+LOS+ARTILLEROS> .
+
+<http://accesibility/group17/81802> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Pilar de Zaragoza" ;
+	xsd:String "  Plazas : 180  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PILAR+DE+ZARAGOZA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "PILAR DE ZARAGOZA" , "54" ;
+	gn:locatedIn "GUINDALERA" ;
+	vcard:postal-code "28028" .
+
+<http://accesibility/group17/81802> vcard:street-address <http://accesibility/group17/PILAR+DE+ZARAGOZA> .
+
+<http://accesibility/group17/13593> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Pío Baroja I" ;
+	xsd:String "  Plazas : 495  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/DOCTOR+LAGUNA> vcard:street-address "14" .
+
+<http://accesibility/group17/13593> vcard:street-address <http://accesibility/group17/DOCTOR+LAGUNA> .
+
+<http://accesibility/group17/13594> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Pío Baroja II" ;
+	xsd:String "  Plazas : 268  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/LUIS+DE+HOYOS+SAINZ> a <http://accesibility/group17/Address> ;
+	vcard:street-address "LUIS DE HOYOS SAINZ" , "82" ;
+	gn:locatedIn "VINATEROS" ;
+	vcard:postal-code "28030" .
+
+<http://accesibility/group17/13594> vcard:street-address <http://accesibility/group17/LUIS+DE+HOYOS+SAINZ> .
+
+<http://accesibility/group17/13595> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Platón" ;
+	xsd:String "  Plazas : 218  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PLATON> a <http://accesibility/group17/Address> ;
+	vcard:street-address "PLATON" , "3" ;
+	gn:locatedIn "SAN PASCUAL" ;
+	vcard:postal-code "28027" .
+
+<http://accesibility/group17/13595> vcard:street-address <http://accesibility/group17/PLATON> .
+
+<http://accesibility/group17/5298038> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Poeta Leopoldo de Luis" ;
+	xsd:String "  Plazas:  314  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CASTILLA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CASTILLA" , "16" ;
+	gn:locatedIn "BELLAS VISTAS" ;
+	vcard:postal-code "28039" .
+
+<http://accesibility/group17/5298038> vcard:street-address <http://accesibility/group17/CASTILLA> .
+
+<http://accesibility/group17/13488> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Pradillo" ;
+	xsd:String "  Plazas:  143  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PRADILLO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "PRADILLO" , "31" ;
+	gn:locatedIn "CIUDAD JARDIN" ;
+	vcard:postal-code "28002" .
+
+<http://accesibility/group17/13488> vcard:street-address <http://accesibility/group17/PRADILLO> .
+
+<http://accesibility/group17/7401268> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Pradillo II" ;
+	xsd:String "  Plazas:  68  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PRADILLO> vcard:street-address "39" .
+
+<http://accesibility/group17/7401268> vcard:street-address <http://accesibility/group17/PRADILLO> .
+
+<http://accesibility/group17/13596> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Puerto Monasterio" ;
+	xsd:String "  Plazas:  244  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PUERTO+DEL+MONASTERIO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "PUERTO DEL MONASTERIO" , "17" ;
+	gn:locatedIn "SAN DIEGO" ;
+	vcard:postal-code "28053" .
+
+<http://accesibility/group17/13596> vcard:street-address <http://accesibility/group17/PUERTO+DEL+MONASTERIO> .
+
+<http://accesibility/group17/13509> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Rafael Finat" ;
+	xsd:String "  Plazas:  311  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/RAFAEL+FINAT> a <http://accesibility/group17/Address> ;
+	vcard:street-address "RAFAEL FINAT" , "65" ;
+	gn:locatedIn "LAS AGUILAS" ;
+	vcard:postal-code "28044" .
+
+<http://accesibility/group17/13509> vcard:street-address <http://accesibility/group17/RAFAEL+FINAT> .
+
+<http://accesibility/group17/13506> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Rafael Salgado" ;
+	xsd:String "  Plazas:  372  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/RAFAEL+SALGADO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "RAFAEL SALGADO" , "13-B" ;
+	gn:locatedIn "HISPANOAMERICA" ;
+	vcard:postal-code "28036" .
+
+<http://accesibility/group17/13506> vcard:street-address <http://accesibility/group17/RAFAEL+SALGADO> .
+
+<http://accesibility/group17/24132> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Rafaela Ybarra" ;
+	xsd:String "  Plazas:  257  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/RAFAELA+YBARRA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "RAFAELA YBARRA" , "51" ;
+	gn:locatedIn "PRADOLONGO" ;
+	vcard:postal-code "28026" .
+
+<http://accesibility/group17/24132> vcard:street-address <http://accesibility/group17/RAFAELA+YBARRA> .
+
+<http://accesibility/group17/183557> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Ramales" ;
+	xsd:String "  Plazas : 455  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/REQUENA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "REQUENA" , "7" ;
+	gn:locatedIn "PALACIO" ;
+	vcard:postal-code "28013" .
+
+<http://accesibility/group17/183557> vcard:street-address <http://accesibility/group17/REQUENA> .
+
+<http://accesibility/group17/13597> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Ramón Gómez de la Serna" ;
+	xsd:String "  Plazas:  597  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/RAMON+GOMEZ+DE+LA+SERNA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "RAMON GOMEZ DE LA SERNA" , "143-B" ;
+	gn:locatedIn "PEÑA GRANDE" ;
+	vcard:postal-code "28035" .
+
+<http://accesibility/group17/13597> vcard:street-address <http://accesibility/group17/RAMON+GOMEZ+DE+LA+SERNA> .
+
+<http://accesibility/group17/13599> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Ramos Carrión" ;
+	xsd:String "  Plazas:  579  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CLARA+DEL+REY> vcard:street-address "61" .
+
+<http://accesibility/group17/13599> vcard:street-address <http://accesibility/group17/CLARA+DEL+REY> .
+
+<http://accesibility/group17/13598> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Redondela" ;
+	xsd:String "  Plazas:  661  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VERIN> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VERIN" , "3-B" ;
+	gn:locatedIn "EL PILAR" ;
+	vcard:postal-code "28029" .
+
+<http://accesibility/group17/13598> vcard:street-address <http://accesibility/group17/VERIN> .
+
+<http://accesibility/group17/81827> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Reina Victoria" ;
+	xsd:String "  Plazas:  382  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/REINA+VICTORIA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "REINA VICTORIA" , "34" ;
+	gn:locatedIn "CIUDAD UNIVERSITARIA" ;
+	vcard:postal-code "28003" .
+
+<http://accesibility/group17/81827> vcard:street-address <http://accesibility/group17/REINA+VICTORIA> .
+
+<http://accesibility/group17/13618> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Ribadavia" ;
+	xsd:String "  Plazas:  448  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/RIBADAVIA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "RIBADAVIA" , "47" ;
+	gn:locatedIn "EL PILAR" ;
+	vcard:postal-code "28029" .
+
+<http://accesibility/group17/13618> vcard:street-address <http://accesibility/group17/RIBADAVIA> .
+
+<http://accesibility/group17/13491> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Ribadeo" ;
+	xsd:String "  Plazas : 221  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/RIBADEO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "RIBADEO" , "2-B" ;
+	gn:locatedIn "EL PILAR" ;
+	vcard:postal-code "28029" .
+
+<http://accesibility/group17/13491> vcard:street-address <http://accesibility/group17/RIBADEO> .
+
+<http://accesibility/group17/81829> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Ríos Rosas" ;
+	xsd:String "  Plazas : 248  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/RIOS+ROSAS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "RIOS ROSAS" , "20" ;
+	gn:locatedIn "RIOS ROSAS" ;
+	vcard:postal-code "28003" .
+
+<http://accesibility/group17/81829> vcard:street-address <http://accesibility/group17/RIOS+ROSAS> .
+
+<http://accesibility/group17/13484> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Rutilio Gacís" ;
+	xsd:String "  Plazas : 605  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/GUILLERMO+DE+OSMA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "GUILLERMO DE OSMA" , "3" ;
+	gn:locatedIn "CHOPERA" ;
+	vcard:postal-code "28045" .
+
+<http://accesibility/group17/13484> vcard:street-address <http://accesibility/group17/GUILLERMO+DE+OSMA> .
+
+<http://accesibility/group17/13600> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. San Amaro" ;
+	xsd:String "  Plazas : 220  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/PRESIDENTE+CARMONA> vcard:street-address "4-B" .
+
+<http://accesibility/group17/13600> vcard:street-address <http://accesibility/group17/PRESIDENTE+CARMONA> .
+
+<http://accesibility/group17/13638> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. San Antonio de la Florida" ;
+	xsd:String "  Plazas : 183  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SAN+ANTONIO+DE+LA+FLORIDA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SAN ANTONIO DE LA FLORIDA" , "2-B" ;
+	gn:locatedIn "CASA DE CAMPO" ;
+	vcard:postal-code "28008" .
+
+<http://accesibility/group17/13638> vcard:street-address <http://accesibility/group17/SAN+ANTONIO+DE+LA+FLORIDA> .
+
+<http://accesibility/group17/13601> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. San Aureliano" ;
+	xsd:String "  Plazas : 194  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SAN+AURELIANO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SAN AURELIANO" , "9" ;
+	gn:locatedIn "SAN ANDRES" ;
+	vcard:postal-code "28021" .
+
+<http://accesibility/group17/13601> vcard:street-address <http://accesibility/group17/SAN+AURELIANO> .
+
+<http://accesibility/group17/81830> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. San Cipriano" ;
+	xsd:String "  Plazas : 149  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SAN+CIPRIANO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SAN CIPRIANO" , "53" ;
+	gn:locatedIn "CASCO H.VICALVARO" ;
+	vcard:postal-code "28032" .
+
+<http://accesibility/group17/81830> vcard:street-address <http://accesibility/group17/SAN+CIPRIANO> .
+
+<http://accesibility/group17/13602> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. San Francisco de Sales I" ;
+	xsd:String "  Plazas : 284  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ANDRES+MELLADO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ANDRES MELLADO" , "116" ;
+	gn:locatedIn "VALLEHERMOSO" ;
+	vcard:postal-code "28003" .
+
+<http://accesibility/group17/13602> vcard:street-address <http://accesibility/group17/ANDRES+MELLADO> .
+
+<http://accesibility/group17/81831> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. San Francisco de Sales II" ;
+	xsd:String "  Plazas : 447  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SAN+FRANCISCO+DE+SALES> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SAN FRANCISCO DE SALES" , "27" ;
+	gn:locatedIn "VALLEHERMOSO" ;
+	vcard:postal-code "28003" .
+
+<http://accesibility/group17/81831> vcard:street-address <http://accesibility/group17/SAN+FRANCISCO+DE+SALES> .
+
+<http://accesibility/group17/13603> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. San Germán" ;
+	xsd:String "  Plazas : 243  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/INFANTA+MERCEDES> a <http://accesibility/group17/Address> ;
+	vcard:street-address "INFANTA MERCEDES" , "40" ;
+	gn:locatedIn "CASTILLEJOS" ;
+	vcard:postal-code "28020" .
+
+<http://accesibility/group17/13603> vcard:street-address <http://accesibility/group17/INFANTA+MERCEDES> .
+
+<http://accesibility/group17/13621> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. San Juan de la Cruz" ;
+	xsd:String "  Plazas : 249  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SAN+JUAN+DE+LA+CRUZ> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SAN JUAN DE LA CRUZ" , "3-B" ;
+	gn:locatedIn "RIOS ROSAS" ;
+	vcard:postal-code "28003" .
+
+<http://accesibility/group17/13621> vcard:street-address <http://accesibility/group17/SAN+JUAN+DE+LA+CRUZ> .
+
+<http://accesibility/group17/81833> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. San Juan de la Salle" ;
+	xsd:String "  Plazas : 254  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SAN+JUAN+DE+LA+SALLE> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SAN JUAN DE LA SALLE" , "2" ;
+	gn:locatedIn "EL VISO" ;
+	vcard:postal-code "28036" .
+
+<http://accesibility/group17/81833> vcard:street-address <http://accesibility/group17/SAN+JUAN+DE+LA+SALLE> .
+
+<http://accesibility/group17/13604> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. San Lamberto" ;
+	xsd:String "  Plazas : 225  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SANTA+GENOVEVA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SANTA GENOVEVA" , "9-B" ;
+	gn:locatedIn "VENTAS" ;
+	vcard:postal-code "28017" .
+
+<http://accesibility/group17/13604> vcard:street-address <http://accesibility/group17/SANTA+GENOVEVA> .
+
+<http://accesibility/group17/13622> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Sancho de Córdoba" ;
+	xsd:String "  Plazas : 472  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/CORREGIDOR+SANCHO+DE+CORDOBA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "CORREGIDOR SANCHO DE CORDOBA" , "10" ;
+	gn:locatedIn "MEDIA LEGUA" ;
+	vcard:postal-code "28030" .
+
+<http://accesibility/group17/13622> vcard:street-address <http://accesibility/group17/CORREGIDOR+SANCHO+DE+CORDOBA> .
+
+<http://accesibility/group17/81836> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Santa Cruz" ;
+	xsd:String "  Plazas : 152  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ATOCHA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ATOCHA" , "3-B" ;
+	gn:locatedIn "SOL" ;
+	vcard:postal-code "28012" .
+
+<http://accesibility/group17/81836> vcard:street-address <http://accesibility/group17/ATOCHA> .
+
+<http://accesibility/group17/13555> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Santa Eugenia" ;
+	xsd:String "  Plazas : 530  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ZAZUAR> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ZAZUAR" , "12" ;
+	gn:locatedIn "SANTA EUGENIA" ;
+	vcard:postal-code "28031" .
+
+<http://accesibility/group17/13555> vcard:street-address <http://accesibility/group17/ZAZUAR> .
+
+<http://accesibility/group17/13496> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Santa Susana" ;
+	xsd:String "  Plazas : 329  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SANTA+SUSANA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SANTA SUSANA" , "55" ;
+	gn:locatedIn "PINAR DEL REY" ;
+	vcard:postal-code "28033" .
+
+<http://accesibility/group17/13496> vcard:street-address <http://accesibility/group17/SANTA+SUSANA> .
+
+<http://accesibility/group17/13605> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Santa Virgilia" ;
+	xsd:String "  Plazas : 330  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SANTA+VIRGILIA> vcard:street-address "12-B" .
+
+<http://accesibility/group17/13605> vcard:street-address <http://accesibility/group17/SANTA+VIRGILIA> .
+
+<http://accesibility/group17/81838> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Santander" ;
+	xsd:String "  Plazas : 221  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SAN+FRANCISCO+DE+SALES> vcard:street-address "39" .
+
+<http://accesibility/group17/81838> vcard:street-address <http://accesibility/group17/SAN+FRANCISCO+DE+SALES> .
+
+<http://accesibility/group17/13507> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Santo Domingo de Silos" ;
+	xsd:String "  Plazas : 252  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SANTO+DOMINGO+DE+SILOS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SANTO DOMINGO DE SILOS" , "2-B" ;
+	gn:locatedIn "EL VISO" ;
+	vcard:postal-code "28036" .
+
+<http://accesibility/group17/13507> vcard:street-address <http://accesibility/group17/SANTO+DOMINGO+DE+SILOS> .
+
+<http://accesibility/group17/24138> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Sarriá" ;
+	xsd:String "  Plazas : 517  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SARRIA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SARRIA" , "67" ;
+	gn:locatedIn "EL PILAR" ;
+	vcard:postal-code "28029" .
+
+<http://accesibility/group17/24138> vcard:street-address <http://accesibility/group17/SARRIA> .
+
+<http://accesibility/group17/81841> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Somontín" ;
+	xsd:String "  Plazas : 282  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SOMONTIN> a <http://accesibility/group17/Address> ;
+	vcard:street-address "SOMONTIN" , "98-B" ;
+	gn:locatedIn "APOSTOL SANTIAGO" ;
+	vcard:postal-code "28033" .
+
+<http://accesibility/group17/81841> vcard:street-address <http://accesibility/group17/SOMONTIN> .
+
+<http://accesibility/group17/13492> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Sor Ángela de la Cruz" ;
+	xsd:String "  Plazas : 250  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/SOR+ANGELA+DE+LA+CRUZ> vcard:street-address "24" .
+
+<http://accesibility/group17/13492> vcard:street-address <http://accesibility/group17/SOR+ANGELA+DE+LA+CRUZ> .
+
+<http://accesibility/group17/13511> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Tembleque" ;
+	xsd:String "  Plazas : 562  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/TEMBLEQUE> a <http://accesibility/group17/Address> ;
+	vcard:street-address "TEMBLEQUE" , "146" ;
+	gn:locatedIn "ALUCHE" ;
+	vcard:postal-code "28024" .
+
+<http://accesibility/group17/13511> vcard:street-address <http://accesibility/group17/TEMBLEQUE> .
+
+<http://accesibility/group17/13547> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Tomelloso" ;
+	xsd:String "  Plazas : 213  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/TOMELLOSO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "TOMELLOSO" , "1-B" ;
+	gn:locatedIn "ALMENDRALES" ;
+	vcard:postal-code "28026" .
+
+<http://accesibility/group17/13547> vcard:street-address <http://accesibility/group17/TOMELLOSO> .
+
+<http://accesibility/group17/13489> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Uruguay" ;
+	xsd:String "  Plazas:  246  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/URUGUAY> a <http://accesibility/group17/Address> ;
+	vcard:street-address "URUGUAY" , "12" ;
+	gn:locatedIn "HISPANOAMERICA" ;
+	vcard:postal-code "28016" .
+
+<http://accesibility/group17/13489> vcard:street-address <http://accesibility/group17/URUGUAY> .
+
+<http://accesibility/group17/13559> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Valladolid" ;
+	xsd:String "  Plazas:  421  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VALLADOLID> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VALLADOLID" , "55" ;
+	gn:locatedIn "CASA DE CAMPO" ;
+	vcard:postal-code "28008" .
+
+<http://accesibility/group17/13559> vcard:street-address <http://accesibility/group17/VALLADOLID> .
+
+<http://accesibility/group17/24141> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Valle de Suchil" ;
+	xsd:String "  Plazas:  1.126  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/ARAPILES> a <http://accesibility/group17/Address> ;
+	vcard:street-address "ARAPILES" , "17" ;
+	gn:locatedIn "ARAPILES" ;
+	vcard:postal-code "28015" .
+
+<http://accesibility/group17/24141> vcard:street-address <http://accesibility/group17/ARAPILES> .
+
+<http://accesibility/group17/13523> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Valparaíso" ;
+	xsd:String "  Plazas:  582  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VALPARAISO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VALPARAISO" , "5" ;
+	gn:locatedIn "HISPANOAMERICA" ;
+	vcard:postal-code "28016" .
+
+<http://accesibility/group17/13523> vcard:street-address <http://accesibility/group17/VALPARAISO> .
+
+<http://accesibility/group17/13623> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Vasconcelos" ;
+	xsd:String "  Plazas:  300  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/JOSE+VASCONCELOS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "JOSE VASCONCELOS" , "4" ;
+	gn:locatedIn "CASTILLA" ;
+	vcard:postal-code "28046" .
+
+<http://accesibility/group17/13623> vcard:street-address <http://accesibility/group17/JOSE+VASCONCELOS> .
+
+<http://accesibility/group17/61831> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Vía Carpetana" ;
+	xsd:String "  Plazas:  309  Abierto 24 horas   Titularidad:  Ayuntamietno de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VIA+CARPETANA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VIA CARPETANA" , "205" ;
+	gn:locatedIn "VISTA ALEGRE" ;
+	vcard:postal-code "28047" .
+
+<http://accesibility/group17/61831> vcard:street-address <http://accesibility/group17/VIA+CARPETANA> .
+
+<http://accesibility/group17/13513> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Vicente Gaceo" ;
+	xsd:String "  Plazas:  268  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VICENTE+GACEO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VICENTE GACEO" , "19-B" ;
+	gn:locatedIn "ALMENARA" ;
+	vcard:postal-code "28029" .
+
+<http://accesibility/group17/13513> vcard:street-address <http://accesibility/group17/VICENTE+GACEO> .
+
+<http://accesibility/group17/13606> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Villa Rosa" ;
+	xsd:String "  Plazas:  205  Abierto 24 horas   Titularidad:  Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/LAS+PEDRO%26Ntilde%3BERAS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "LAS PEDRO&Ntilde;ERAS" , "44" ;
+	gn:locatedIn "CANILLAS" ;
+	vcard:postal-code "28043" .
+
+<http://accesibility/group17/13606> vcard:street-address <http://accesibility/group17/LAS+PEDRO%26Ntilde%3BERAS> .
+
+<http://accesibility/group17/13607> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Villacarlos" ;
+	xsd:String "  Plazas:  316  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VILLACARLOS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VILLACARLOS" , "10" ;
+	gn:locatedIn "CASCO H.VICALVARO" ;
+	vcard:postal-code "28032" .
+
+<http://accesibility/group17/13607> vcard:street-address <http://accesibility/group17/VILLACARLOS> .
+
+<http://accesibility/group17/13608> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Villaescusa" ;
+	xsd:String "  Plazas : 228  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MATAMOROSA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "MATAMOROSA" , "2" ;
+	gn:locatedIn "PUEBLO NUEVO" ;
+	vcard:postal-code "28017" .
+
+<http://accesibility/group17/13608> vcard:street-address <http://accesibility/group17/MATAMOROSA> .
+
+<http://accesibility/group17/13609> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Villamanín I" ;
+	xsd:String "  Plazas : 195  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VILLAMANIN> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VILLAMANIN" , "37" ;
+	gn:locatedIn "LUCERO" ;
+	vcard:postal-code "28011" .
+
+<http://accesibility/group17/13609> vcard:street-address <http://accesibility/group17/VILLAMANIN> .
+
+<http://accesibility/group17/13528> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Villamanín II" ;
+	xsd:String "  Plazas : 307  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VILLAMANIN> vcard:street-address "50" .
+
+<http://accesibility/group17/13528> vcard:street-address <http://accesibility/group17/VILLAMANIN> .
+
+<http://accesibility/group17/81866> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Virgen de Aránzazu" ;
+	xsd:String "  Plazas : 238  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VIRGEN+DE+ARANZAZU> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VIRGEN DE ARANZAZU" , "23" ;
+	gn:locatedIn "VALVERDE" ;
+	vcard:postal-code "28034" .
+
+<http://accesibility/group17/81866> vcard:street-address <http://accesibility/group17/VIRGEN+DE+ARANZAZU> .
+
+<http://accesibility/group17/13610> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Virgen de La Alegría" ;
+	xsd:String "  Plazas : 138  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VIRGEN+DE+LA+ALEGRIA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VIRGEN DE LA ALEGRIA" , "19" ;
+	gn:locatedIn "CONCEPCION" ;
+	vcard:postal-code "28027" .
+
+<http://accesibility/group17/13610> vcard:street-address <http://accesibility/group17/VIRGEN+DE+LA+ALEGRIA> .
+
+<http://accesibility/group17/13612> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Virgen de La Roca I" ;
+	xsd:String "  Plazas : 172  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VIRGEN+DE+LA+ROCA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VIRGEN DE LA ROCA" , "18" ;
+	gn:locatedIn "CONCEPCION" ;
+	vcard:postal-code "28027" .
+
+<http://accesibility/group17/13612> vcard:street-address <http://accesibility/group17/VIRGEN+DE+LA+ROCA> .
+
+<http://accesibility/group17/13613> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Virgen de La Roca II" ;
+	xsd:String "  Plazas : 203  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VIRGEN+DE+LA+ROCA> vcard:street-address "20" .
+
+<http://accesibility/group17/13613> vcard:street-address <http://accesibility/group17/VIRGEN+DE+LA+ROCA> .
+
+<http://accesibility/group17/13639> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Virgen de Lourdes" ;
+	xsd:String "  Plazas : 296  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VIRGEN+DE+LOURDES> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VIRGEN DE LOURDES" , "40" ;
+	gn:locatedIn "CONCEPCION" ;
+	vcard:postal-code "28027" .
+
+<http://accesibility/group17/13639> vcard:street-address <http://accesibility/group17/VIRGEN+DE+LOURDES> .
+
+<http://accesibility/group17/13611> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Virgen del Puerto" ;
+	xsd:String "  Plazas : 793  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VIRGEN+DEL+PUERTO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VIRGEN DEL PUERTO" , "7" ;
+	gn:locatedIn "IMPERIAL" ;
+	vcard:postal-code "28005" .
+
+<http://accesibility/group17/13611> vcard:street-address <http://accesibility/group17/VIRGEN+DEL+PUERTO> .
+
+<http://accesibility/group17/7397971> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para Residentes. Virgen del Romero" ;
+	xsd:String "  Plazas : 404  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VIRGEN+DEL+ROMERO> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VIRGEN DEL ROMERO" , "9" ;
+	gn:locatedIn "CONCEPCION" ;
+	vcard:postal-code "28027" .
+
+<http://accesibility/group17/7397971> vcard:street-address <http://accesibility/group17/VIRGEN+DEL+ROMERO> .
+
+<http://accesibility/group17/13614> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Vista Alegre" ;
+	xsd:String "  Plazas : 402  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/MATILDE+HERNANDEZ> a <http://accesibility/group17/Address> ;
+	vcard:street-address "MATILDE HERNANDEZ" , "101" ;
+	gn:locatedIn "VISTA ALEGRE" ;
+	vcard:postal-code "28025" .
+
+<http://accesibility/group17/13614> vcard:street-address <http://accesibility/group17/MATILDE+HERNANDEZ> .
+
+<http://accesibility/group17/13493> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento para residentes. Vital Aza" ;
+	xsd:String "  Plazas : 202  Abierto 24 horas   Titularidad : Ayuntamiento de Madrid " ;
+	xsd:Boolean "0"^^xsd:boolean .
+
+<http://accesibility/group17/VITAL+AZA> a <http://accesibility/group17/Address> ;
+	vcard:street-address "VITAL AZA" , "10" ;
+	gn:locatedIn "PUEBLO NUEVO" ;
+	vcard:postal-code "28017" .
+
+<http://accesibility/group17/13493> vcard:street-address <http://accesibility/group17/VITAL+AZA> .
+
+<http://accesibility/group17/13473> a <http://accesibility/group17/Parking> ;
+	rdfs:label "Aparcamiento público. Descalzas" ;
+	xsd:String "  Plazas:  400   Abierto 24 horas  Admite Tarjeta Bono Red    Titularidad:  Ayuntamiento de Madrid  " ;
+	xsd:Boolean "1"^^xsd:boolean .
+
+<http://accesibility/group17/DESCALZAS> a <http://accesibility/group17/Address> ;
+	vcard:street-address "DESCALZAS" , "4" ;
+	gn:locatedIn "SOL" ;
+	vcard:postal-code "28013" .
+
+<http://accesibility/group17/13473> vcard:street-address <http://accesibility/group17/DESCALZAS> .

@@ -1,0 +1,105 @@
+1. Devolver todas las clases
+select distinct ?x where {?x a rdfs:Class}
+LIMIT 100
+
+2.Todas las subclases de la clase Establishment
+select distinct ?x where {?x rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Establishment>}
+LIMIT 100
+
+3.Todas las intancias de la clase City
+select distinct ?x where {?x a <http://GP-onto.fi.upm.es/exercise2#City>}
+LIMIT 100
+
+4.Numero de habitantes de Santiago de Compostela
+select distinct ?x
+where
+{<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?x }
+LIMIT 100
+
+5. Numero de habitantes de Santiago de Compostela y Arzua
+select distinct ?S ?A
+where
+{
+<http://GP-onto.fi.upm.es/exercise2#Santiago_de_Compostela> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?S .
+<http://GP-onto.fi.upm.es/exercise2#Arzua> <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?A
+}
+LIMIT 100
+
+6.Todos los lugares junto a su numero de habitantes, ordenados por el nombre del lugar (ascending)
+select distinct ?Lugar ?NumeroH
+where
+{
+?locality rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Locality> .
+?Lugar a ?locality;
+    <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?NumeroH
+}
+ORDER BY ?Lugar
+LIMIT 100
+
+7.Todas las intancias de Locality junto con sus numeros de habitantes (if this information exists)
+select distinct ?Lugar ?NumeroH
+where
+{
+?locality a <http://GP-onto.fi.upm.es/exercise2#Locality> .
+?Lugar a ?locality;
+    <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?NumeroH
+}
+ORDER BY ?Lugar
+LIMIT 100
+
+8.Todos los lugares cuyo numero de habitantes sea mayor que 200.000
+select distinct ?Lugar 
+where 
+{
+?locality rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Locality> .
+?Lugar a ?locality;
+    <http://GP-onto.fi.upm.es/exercise2#hasInhabitantNumber> ?NumeroH .
+Filter(xsd:integer(?NumeroH) > 200000) .
+}
+
+9.Direccion Postal Pazo_Breogan (street, number, locality, province)
+select ?calle ?numero ?lugar ?provincia
+where { 
+<http://GP-onto.fi.upm.es/exercise2#Pazo_Breogan> <http://GP-onto.fi.upm.es/exercise2#hasAddress> ?direccion; 
+<http://GP-onto.fi.upm.es/exercise2#isPlacedIn> ?lugar. ?lugar <http://GP-onto.fi.upm.es/exercise2#inProvince> ?provincia.
+?dir <http://GP-onto.fi.upm.es/exercise2#hasStreet> ?calle; 
+<http://GP-onto.fi.upm.es/exercise2#hasNumber> ?numero. 
+}
+
+10.Todas las subclases de la clase Location
+select distinct ?x where {?x rdfs:subClassOf <http://GP-onto.fi.upm.es/exercise2#Location>}
+LIMIT 100
+
+11.Todas las intancias de la clase Locality
+select distinct ?x where {?x a <http://GP-onto.fi.upm.es/exercise2#Location>}
+LIMIT 100
+
+12.Describe the resource with rdfs:label "Madrid”
+describe ?resource
+where { ?resource rdfs:label "Madrid" }
+
+13.Construya una gráfica que relaciona directamente todos los lugares turísticos con sus provincias, utilizando una nueva propiedad llamada ”isIn”
+construct {?tourist <http://GP-onto.fi.upm.es/exercise2#isIn> ?object} 
+where { 
+?tourist  a <http://GP-onto.fi.upm.es/exercise2#TouristicLocation>;
+<http://GP-onto.fi.upm.es/exercise2#isPlacedIn> ?lugar. 
+?lugar<http://GP-onto.fi.upm.es/exercise2#inProvince> ?object. 
+}
+
+14.Compruebe si hay alguna instancia de Ciudad
+ask where { ?i a <http://GP-onto.fi.upm.es/exercise2#Town> }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

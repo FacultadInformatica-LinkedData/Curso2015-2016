@@ -1,0 +1,56 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix g1: <> .
+@prefix dbpedia: <http://dbpedia.org/page/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+
+:catalog
+	a dcat:Catalog ;
+	dct:title "El catálogo RDF de parking de la ciudad de San Francisco"@es ;
+	dct:description "El catálogo RDF de parking de la ciudad de San Francisco realizado para la
+		asignatura de Semantic Web and Web of Linked Data"@es ;
+	dct:issued "2015-12-16"^^xsd:date ;
+	dct:publisher :samuel ;
+	dct:license <http://creativecommons.org/publicdomain/zero/1.0/>
+	dcat:dataset :parking ;
+	dc:creator
+		:samuel ,
+		:adrian ,
+		:abraham ,
+		:diego	.
+
+:samuel a foaf:Person ;
+	foaf:name "Samuel Cruz Jimenez";
+	foaf:homepage <https://github.com/t110306/> .
+:adrian a foaf:Person ;
+	foaf:name "Adrian Martin Fuentes";
+	foaf:homepage <https://github.com/AdrianMartinF/> .
+:abraham a foaf:Person ;
+	foaf:name "Abraham Lominchar Jimenez";
+	foaf:homepage <https://github.com/secleth/> .
+:diego a foaf:Person ;
+	foaf:name "Diego Ortiz Moreno";
+	foaf:homepage <https://github.com/domeldor/> .
+
+# parking
+:parking
+	a dcat:Dataset ;
+	dct:title "Parking de la ontologia"@es  ;
+	dcat:keyword "parking"@en, "parking"@es ;
+	dct:source <http://datasf.org/>;
+	dct:issued "2015-12-16"^^xsd:date ;
+   dcat:distribution :parking-nt ;
+   .
+:parking-nt
+	a dcat:Distribution ;
+	dcat:accessURL <https://github.com/FacultadInformatica-LinkedData/Curso2015-2016/blob/master/HandsOn/Group01/rdf/Off-Street_parking_lots_and_parking_garages.csv> ;
+	dct:title "Distribution of parking description in RDF (N-triples serialization)"@en ,
+			  "Distribución de descripciones de parking en RDF (serialización N-triples"@es ;
+    dct:license http://creativecommons.org/publicdomain/zero/1.0/ ;
+    .

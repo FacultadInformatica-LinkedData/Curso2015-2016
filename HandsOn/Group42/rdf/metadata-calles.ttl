@@ -1,0 +1,11 @@
+:Calle
+	a void:Dataset;
+		void:exampleResource
+			<http://www.example.net/group42/resource/calle/Calle>.
+		void:uriSpace "http://www.example.net/group42/resource/calle".
+:DBpedia a void:Dataset .
+:Calle void:classPartition :noCalle.
+:noCalle a void:Linkset;
+	void:linkPredicate
+		owl:sameAs;
+	void:target :Calle, :DBpedia.

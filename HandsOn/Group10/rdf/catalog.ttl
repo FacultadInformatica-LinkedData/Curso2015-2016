@@ -1,0 +1,38 @@
+@base <http://linkeddata.es/grupo10/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+:catalog
+	a dcat:Catalog ;
+	dct:title "El catálogo RDF para Farmacias de guardia de Madrid"@es ;
+	dct:source <http://datos.madrid.es/> ;
+	dct:publisher <http://github.com/parmandorc> ;
+	dct:publisher <http://github.com/xfumer> ;
+	dct:publisher <http://github.com/vavg> ;
+	dct:publisher <http://github.com/paumb85> ;
+	dct:language <http://lexvo.org/id/iso639-3/spa> ;
+	dcat:dataset :Farmacias .
+	
+:Farmacias
+	a dcat:Dataset ;
+	dct:title "Farmacias de guardia de Madrid"@es ;
+	dcat:keyword "farmacias"@es, "guardia"@es, "barrio"@es, "Madrid"@es ;
+	dct:description "Dataset RDF de las farmacias de guardia de Madrid, y sus turnos de guardia para Octubre de 2015"@es ;
+	dct:issued "2015-11-02"^^xsd:date ;
+	dct:modified "2015-12-21"^^xsd:date ;
+	dct:uriSpace <http://likeddata.es/grupo10/resource/"> ;
+	dcat:distribution :Farmacias-bulk ;
+	void:subset :LS .
+
+:Farmacias-bulk
+	a dcat:Distribution ;
+	dct:title "Distribución del dataset de Farmacias de guardia de Madrid"@es ;
+	void:downloadURL <https://raw.githubusercontent.com/parmandorc/LinkedData-Curso2015-2016/master/HandsOn/Group10/rdf/turnosmadrid_guardia-csv-updated.ttl>
+	void:downloadURL <http://destinoc-cp159.wordpresstemporal.com/ld/wp-content/plugins/lh-tools/rdf/turnosmadrid_guardia-csv-updated.ttl>
+	dcat:mediaType "text/turtle" .
+
+:LS
+	a void:Linkset ;
+	void:linkPredicate owl:sameAs ;
+	void:target <http://es.dbpedia.org/> .

@@ -45,14 +45,14 @@
     "engineConfig": {
       "facets": [
         {
-          "invert": false,
           "expression": "value",
+          "invert": false,
           "selectError": false,
           "omitError": false,
-          "selectBlank": false,
           "name": "tittle",
-          "omitBlank": false,
+          "selectBlank": false,
           "columnName": "tittle",
+          "omitBlank": false,
           "type": "list",
           "selection": [
             {
@@ -3220,5 +3220,23 @@
     "description": "Rename column Type to tipo",
     "oldColumnName": "Type",
     "newColumnName": "tipo"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column tipo to type",
+    "oldColumnName": "tipo",
+    "newColumnName": "type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column ID to id",
+    "oldColumnName": "ID",
+    "newColumnName": "id"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column plazas to parkingBay",
+    "oldColumnName": "plazas",
+    "newColumnName": "parkingBay"
   }
 ]

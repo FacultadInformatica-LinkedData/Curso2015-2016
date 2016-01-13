@@ -6,11 +6,11 @@
 
 :catalog
 	a dcat:Catalog;	
-	dcterms:title "Catálogo RDF para Puntos de Interes y Parking de coche y moto de Zaragoza"@es;
-    dcterms:source<https://www.zaragoza.es/ciudad/risp/detalle_Risp?id=334>;
-    dcterms:source<https://www.zaragoza.es/ciudad/risp/detalle_Risp?id=55>;
-    dcterms:source<https://www.zaragoza.es/ciudad/risp/detalle_Risp?id=23>;
-    foaf:homepage<http://linkeddata.es/grupo25/>;
+	dcterms:title "Catalogo RDF para Puntos de Interes y Parking de coche y moto de Zaragoza"@es;
+    dcterms:source <https://www.zaragoza.es/ciudad/risp/detalle_Risp?id=334>;
+    dcterms:source <https://www.zaragoza.es/ciudad/risp/detalle_Risp?id=55>;
+    dcterms:source <https://www.zaragoza.es/ciudad/risp/detalle_Risp?id=23>;
+    foaf:homepage <http://linkeddata.es/grupo25/>;
     dct:publisher :David;
 	dct:publisher :Alvaro;
 	dct:publisher :Borja;
@@ -35,7 +35,7 @@
 
 :POI&Parking-bulk
 	a dcat:Distribution;
-	dct:title "Distribución del dataset de los puntos de interes y los parking de coche y moto en la ciudad de Zaragoza"@es;
+	dct:title "Distribucion del dataset de los puntos de interes y los parking de coche y moto en la ciudad de Zaragoza"@es;
 	void:downloadURL <https://github.com/atoledano2510/LinkedData-Curso2015-2016/blob/master/HandsOn/Group25/rdf/poi_con_aparcamientos-with%20links.ttl>;
 	dcat:mediaType "text/turtle" .
 
@@ -45,7 +45,7 @@
 	void:target <http://es.dbpedia.org/>.
 
  :David a foaf:Person;
- 	rdfs:label "David Gutiérrez Galán";
+ 	rdfs:label "David Gutierrez Galan";
  	foaf:mbox <mailto:david.gutierrez.galan@alumnos.upm.es>;
  	foaf:page <http://github.com/dggalan>.
 
@@ -54,7 +54,7 @@
 	foaf:mbox <mailto:a.toledano@alumnos.upm.es>;
 	foaf: page <http://github.com/atoledano2510>.
 
-:Borja a foaf:PErson;
+:Borja a foaf:Person;
 	rdfs:label "Borja Peiro Villanueva";
 	foaf:mbox <mailto:borjapeiro@gmail.com>;
 	foaf: page <http://github.com/borjapeiro>.

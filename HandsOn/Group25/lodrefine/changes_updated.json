@@ -1,0 +1,7442 @@
+[
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column tittle",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tittle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Edificios Hist�rico Art�sticos"
+        ],
+        "to": "Edificios Historico Artisticos"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column tittle",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tittle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Polic�a"
+        ],
+        "to": "Policia"
+      }
+    ]
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "tittle",
+          "selectBlank": false,
+          "columnName": "tittle",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "La Ciudad",
+                "l": "La Ciudad"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column tittle",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "tittle",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Peatonal - Accesible"
+        ],
+        "to": "Peatonal"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Alcald�a del Barrio, Antigua Agrupaci�n Escolar y Hogar de la Tercera Edad"
+        ],
+        "to": "Alcaldia del Barrio, Antigua Agrupacion Escolar y Hogar de la Tercera Edad"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Amar y Borb�n , Josefa , 11"
+        ],
+        "to": "Amar y Borbon , Josefa , 11"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Arco y Casa del De�n"
+        ],
+        "to": "Arco y Casa del Dean"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Baltasar Graci�n , 5"
+        ],
+        "to": "Baltasar Gracian , 5"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Blas�n Aragon�s , 2"
+        ],
+        "to": "Blason Aragones , 2"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Alfonso I , 14"
+        ],
+        "to": "Alfonso I "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Alfonso I , 16"
+        ],
+        "to": "Alfonso I"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Alfonso I "
+        ],
+        "to": "Alfonso I"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Amar y Borbon , Josefa , 11"
+        ],
+        "to": "Amar y Borbon , Josefa"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Armas , 14"
+        ],
+        "to": "Armas"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Baltasar Gracian , 5"
+        ],
+        "to": "Baltasar Gracian"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Blason Aragones , 2"
+        ],
+        "to": "Blason Aragones"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE ASALTO, 19"
+        ],
+        "to": "CALLE ASALTO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE BILBAO, 2"
+        ],
+        "to": "CALLE BILBAO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE COSO, 101"
+        ],
+        "to": "CALLE COSO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE FELIPE SANCLEMENTE, 13"
+        ],
+        "to": "CALLE FELIPE SANCLEMENTE"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE FELIPE SANCLEMENTE, 25"
+        ],
+        "to": "CALLE FELIPE SANCLEMENTE"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE FELIPE SANCLEMENTE, 26"
+        ],
+        "to": "CALLE FELIPE SANCLEMENTE"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE FELIPE SANCLEMENTE, 3"
+        ],
+        "to": "CALLE FELIPE SANCLEMENTE"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JERONIMO BLANCAS, 2"
+        ],
+        "to": "CALLE JERONIMO BLANCAS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JERONIMO ZURITA, 10"
+        ],
+        "to": "CALLE JERONIMO ZURITA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JERONIMO ZURITA, 4"
+        ],
+        "to": "CALLE JERONIMO ZURITA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JERONIMO ZURITA, 7"
+        ],
+        "to": "CALLE JERONIMO ZURITA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JERONIMO ZURITA, 9"
+        ],
+        "to": "CALLE JERONIMO ZURITA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JERONIMO ZURITA, F 10"
+        ],
+        "to": "CALLE JERONIMO ZURITA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JERONIMO ZURITA, F 4"
+        ],
+        "to": "CALLE JERONIMO ZURITA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JOAQUIN COSTA, 13"
+        ],
+        "to": "CALLE JOAQUIN COSTA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JOAQUIN COSTA, 3"
+        ],
+        "to": "CALLE JOAQUIN COSTA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JOAQUIN COSTA, 6"
+        ],
+        "to": "CALLE JOAQUIN COSTA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JOAQUIN COSTA, 8"
+        ],
+        "to": "CALLE JOAQUIN COSTA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JOSE CANALEJAS, 12"
+        ],
+        "to": "CALLE JOSE CANALEJAS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JOSE CANALEJAS, 13"
+        ],
+        "to": "CALLE JOSE CANALEJAS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JUAN BRUIL, 2"
+        ],
+        "to": "CALLE JUAN BRUIL"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE MANUEL LORENZO PARDO, F 30"
+        ],
+        "to": "CALLE MANUEL LORENZO PARDO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE MARQUES CASA JIMENEZ, 4"
+        ],
+        "to": "CALLE MARQUES CASA JIMENEZ"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE MATADERO, 1"
+        ],
+        "to": "CALLE MATADERO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE MONASTERIO DE SAMOS, F 23"
+        ],
+        "to": "CALLE MONASTERIO DE SAMOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE MONASTERIO DE SAMOS, F 25"
+        ],
+        "to": "CALLE MONASTERIO DE SAMOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE PEDRO JOAQUIN SOLER, 5"
+        ],
+        "to": "CALLE PEDRO JOAQUIN SOLER"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE RECONQUISTA, 4"
+        ],
+        "to": "CALLE RECONQUISTA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE SANTA CATALINA, 2"
+        ],
+        "to": "CALLE SANTA CATALINA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE SANTA CATALINA, 8"
+        ],
+        "to": "CALLE SANTA CATALINA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Casa Jim�nez ( Antiguo Gobierno Militar )"
+        ],
+        "to": "Casa Jimenez ( Antiguo Gobierno Militar )"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cervantes , 5"
+        ],
+        "to": "Cervantes"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "César Augusto"
+        ],
+        "to": "César Augusto"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Colegio Santa Mar�a del Pilar (Marianistas)"
+        ],
+        "to": "Colegio Santa Maria del Pilar (Marianistas)"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Conde Aranda , 5"
+        ],
+        "to": "Conde Aranda"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Contamina , 11 (angular a la calle Maestro Luna)"
+        ],
+        "to": "Contamina"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Coso , 5"
+        ],
+        "to": "Coso"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "C�diz , 8"
+        ],
+        "to": "Cadiz"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Don Jaime I , 13"
+        ],
+        "to": "Don Jaime I"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Hern�n Cort�s , 11"
+        ],
+        "to": "Hernan Cortes"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Horno , 9"
+        ],
+        "to": "Horno"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Iglesia Nuestra Se�ora del Rosario"
+        ],
+        "to": "Iglesia Nuestra Señora del Rosario"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Jer�nimo Zurita , 13"
+        ],
+        "to": "Jeronimo Zurita"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Jos� Anselmo Clav� , 5"
+        ],
+        "to": "Jose Anselmo Clavo"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Jos� Palafox , 7 - 9"
+        ],
+        "to": "Jos� Palafox"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Juan de Arag�n , 5"
+        ],
+        "to": "Juan de Aragon"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Jos� Palafox"
+        ],
+        "to": "Jose Palafox"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "La Espa�ola"
+        ],
+        "to": "La Española"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Libertad , 7"
+        ],
+        "to": "Libertad"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Luis Mart�n Blasco. Joyer�a"
+        ],
+        "to": "Luis Martin Blasco"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "M�rtires , 8"
+        ],
+        "to": "Martires"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Pabell�n de Servicios"
+        ],
+        "to": "Pabellon de Servicios"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PASEO CONSTITUCION, 12"
+        ],
+        "to": "PASEO CONSTITUCION"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PASEO CONSTITUCION, F 12"
+        ],
+        "to": "PASEO CONSTITUCION"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PASEO CONSTITUCION, F 6"
+        ],
+        "to": "PASEO CONSTITUCION"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PASEO CONSTITUCION, F 8"
+        ],
+        "to": "PASEO CONSTITUCION"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Paseo de la Mina , 1"
+        ],
+        "to": "Paseo de la Mina"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Pedro Garc�s de A��n , 14"
+        ],
+        "to": "Pedro Garces de Añon"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Pedro Garc�s de A��n , 16"
+        ],
+        "to": "Pedro Garces de Añon"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLAZA LOS SITIOS, 1"
+        ],
+        "to": "PLAZA LOS SITIOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLAZA LOS SITIOS, 17"
+        ],
+        "to": "PLAZA LOS SITIOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLAZA LOS SITIOS, 18"
+        ],
+        "to": "PLAZA LOS SITIOS"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLAZA SAN MIGUEL, 2"
+        ],
+        "to": "PLAZA SAN MIGUEL"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLAZA SAN MIGUEL, 4"
+        ],
+        "to": "PLAZA SAN MIGUEL"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLAZA SAN PEDRO NOLASCO"
+        ],
+        "to": "PLAZA SAN PEDRO NOLASCO"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Polic�a Zaragoza. Educaci�n Vial"
+        ],
+        "to": "Policia Zaragoza. Educacion Vial"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ponzano , 5"
+        ],
+        "to": "Ponzano"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Prudencio , 5"
+        ],
+        "to": "Prudencio"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Prudencio, 4"
+        ],
+        "to": "Prudencio"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Pza. de Espa�a , 5"
+        ],
+        "to": "Pza. de España"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ram�n y Cajal , 9"
+        ],
+        "to": "Ramon y Cajal"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "San Blas , 9"
+        ],
+        "to": "San Blas"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "San Jorge , 5"
+        ],
+        "to": "San Jorge"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "San Vicente de Pa�l , 1"
+        ],
+        "to": "San Vicente de Paul"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Santa Isabel , 5"
+        ],
+        "to": "Santa Isabel"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Santa Isabel , 9"
+        ],
+        "to": "Santa Isabel"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "VERONICA, PLAZA"
+        ],
+        "to": "PLAZA VERONICA"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Tte. Cnel. Valenzuela , 9"
+        ],
+        "to": "Tte. Cnel. Valenzuela"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column plazas",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "plazas",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "15"
+        ],
+        "to": 15
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column plazas",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "plazas",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "23"
+        ],
+        "to": 23
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column plazas",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "plazas",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "11"
+        ],
+        "to": 11
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column plazas",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "plazas",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "2"
+        ],
+        "to": "2"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column plazas",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "plazas",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "2"
+        ],
+        "to": 2
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column plazas",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "plazas",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "9"
+        ],
+        "to": 9
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column plazas",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "plazas",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "10"
+        ],
+        "to": 10
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column plazas",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "plazas",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "8"
+        ],
+        "to": 8
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column plazas",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "plazas",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "6"
+        ],
+        "to": 6
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column plazas",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "plazas",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "5"
+        ],
+        "to": 5
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column plazas",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "plazas",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "16"
+        ],
+        "to": "16"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column plazas",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "plazas",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "7"
+        ],
+        "to": 7
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column plazas",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "plazas",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "16"
+        ],
+        "to": "16"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column plazas",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "plazas",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "13"
+        ],
+        "to": 13
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column plazas",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "plazas",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "4"
+        ],
+        "to": 4
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column lastUpdated",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "lastUpdated",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "2013-04-10T00:00:00Z"
+        ],
+        "to": "Tue Apr 09 20:00:00 GMT-05:00 2013"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column lastUpdated",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "lastUpdated",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "2014-12-03T00:00:00Z"
+        ],
+        "to": "Tue Dec 02 19:00:00 GMT-05:00 2014"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column lastUpdated",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "lastUpdated",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "2007-04-24T00:00:00Z"
+        ],
+        "to": "Mon Apr 23 20:00:00 GMT-05:00 2007"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column lastUpdated",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "lastUpdated",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "2011-02-01T00:00:00Z"
+        ],
+        "to": "Mon Jan 31 19:00:00 GMT-05:00 2011"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column lastUpdated",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "lastUpdated",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "2012-12-20T00:00:00Z"
+        ],
+        "to": "Wed Dec 19 19:00:00 GMT-05:00 2012"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE ALBERT SCHWEITZER"
+        ],
+        "to": "albert schweitzer"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE ALTO ARAGON"
+        ],
+        "to": "alto aragon"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE ASALTO"
+        ],
+        "to": "asalto"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE BILBAO"
+        ],
+        "to": "bilbao"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE COSO"
+        ],
+        "to": "coso"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE FELIPE SANCLEMENTE"
+        ],
+        "to": "felipe sanclemente"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JAIME BALMES"
+        ],
+        "to": "jaime balmes"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JERONIMO BLANCAS"
+        ],
+        "to": "jeronimo blancas"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JERONIMO ZURITA"
+        ],
+        "to": "jeronimo zurita"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JOAQUIN COSTA"
+        ],
+        "to": "joaquin costa"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JOSE CANALEJAS"
+        ],
+        "to": "jose canalejas"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE JUAN BRUIL"
+        ],
+        "to": "juan bruil"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE MANUEL LORENZO PARDO"
+        ],
+        "to": "manuel lorenzo pardo"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE MARQUES CASA JIMENEZ"
+        ],
+        "to": "marques casa jimenez"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE MATADERO"
+        ],
+        "to": "matadero"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE MONASTERIO DE SAMOS"
+        ],
+        "to": "monasterio de samos"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE PEDRO JOAQUIN SOLER"
+        ],
+        "to": "pedro joaquin soler"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE RECONQUISTA"
+        ],
+        "to": "reconquista"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CALLE SANTA CATALINA"
+        ],
+        "to": "santa catalina"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "albert schweitzer"
+        ],
+        "to": "Albert Schweitzer"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "alto aragon"
+        ],
+        "to": "Alto Aragon"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "asalto"
+        ],
+        "to": "Asalto"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "bilbao"
+        ],
+        "to": "Bilbao"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "coso"
+        ],
+        "to": "Coso"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "felipe sanclemente"
+        ],
+        "to": "Felipe Sanclemente"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "jaime balmes"
+        ],
+        "to": "Jaime Balmes"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "jeronimo blancas"
+        ],
+        "to": "Jeronimo Blancas"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "jeronimo zurita"
+        ],
+        "to": "Jeronimo Zurita"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "joaquin costa"
+        ],
+        "to": "Joaquin Costa"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "jose canalejas"
+        ],
+        "to": "Jose Canalejas"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "juan bruil"
+        ],
+        "to": "Juan Bruil"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "manuel lorenzo pardo"
+        ],
+        "to": "Manuel Lorenzo Pardo"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "marques casa jimenez"
+        ],
+        "to": "Marques Casa Jimenez"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "matadero"
+        ],
+        "to": "Matadero"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "monasterio de samos"
+        ],
+        "to": "Monasterio de Samos"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PASEO CONSTITUCION"
+        ],
+        "to": "Paseo Constitucion"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "pedro joaquin soler"
+        ],
+        "to": "Pedro Joaquin Soler"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLAZA LOS SITIOS"
+        ],
+        "to": "Plaza Los Sitios"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLAZA SAN MIGUEL"
+        ],
+        "to": "Plaza San Miguel"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLAZA SAN PEDRO NOLASCO"
+        ],
+        "to": "Plaza San Pedro Nolasco"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLAZA SANTA ENGRACIA"
+        ],
+        "to": "Plaza Santa Engracia"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "PLAZA VERONICA"
+        ],
+        "to": "Plaza Veronica"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "reconquista"
+        ],
+        "to": "Reconquista"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "santa catalina"
+        ],
+        "to": "Santa Catalina"
+      }
+    ]
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column plazas to parking_bay",
+    "oldColumnName": "plazas",
+    "newColumnName": "parking_bay"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column tittle to Type",
+    "oldColumnName": "tittle",
+    "newColumnName": "Type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column id to ID",
+    "oldColumnName": "id",
+    "newColumnName": "ID"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column description to Place",
+    "oldColumnName": "description",
+    "newColumnName": "Place"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column geometry to Coordenade",
+    "oldColumnName": "geometry",
+    "newColumnName": "Coordenade"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Coordenade to geometry",
+    "oldColumnName": "Coordenade",
+    "newColumnName": "geometry"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Place to description",
+    "oldColumnName": "Place",
+    "newColumnName": "description"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column parking_bay to plazas",
+    "oldColumnName": "parking_bay",
+    "newColumnName": "plazas"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Type to tipo",
+    "oldColumnName": "Type",
+    "newColumnName": "tipo"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column tipo to type",
+    "oldColumnName": "tipo",
+    "newColumnName": "type"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column ID to id",
+    "oldColumnName": "ID",
+    "newColumnName": "id"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column plazas to parkingBay",
+    "oldColumnName": "plazas",
+    "newColumnName": "parkingBay"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column geometry by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "geometry",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column geometry 1 to latitude",
+    "oldColumnName": "geometry 1",
+    "newColumnName": "latitude"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column geometry 2 to longitude",
+    "oldColumnName": "geometry 2",
+    "newColumnName": "longitude"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ayuntamiento"
+        ],
+        "to": "Ayuntamiento deZaragoza"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ayuntamiento deZaragoza"
+        ],
+        "to": "Ayuntamiento de Zaragoza"
+      }
+    ]
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column type to type http://www.w3.org/2004/02/skos/core#Concept",
+    "columnName": "type",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia-es",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "name": "skos:Concept"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle peatonal (http://es.dbpedia.org/resource/Calle_peatonal) for cells containing \"Peatonal\" in column type",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "type",
+    "similarValue": "Peatonal",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle_peatonal",
+      "name": "Calle peatonal",
+      "score": 0.5714285373687744,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Vehículos (http://es.dbpedia.org/resource/Vehículos) for cells containing \"Vehículos\" in column type",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "type",
+    "similarValue": "Vehículos",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Vehículos",
+      "name": "Vehículos",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Motocicleta (http://dbpedia.org/resource/Motorcycle) for cells containing \"Estacionamiento para Motos\" in column type",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "type",
+    "similarValue": "Estacionamiento para Motos",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Motorcycle",
+      "name": "Motocicleta",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Monumento Histórico Artístico (http://es.dbpedia.org/resource/Monumento_Histórico_Artístico) for cells containing \"Edificios Historico Artisticos\" in column type",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "type",
+    "similarValue": "Edificios Historico Artisticos",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Monumento_Histórico_Artístico",
+      "name": "Monumento Histórico Artístico",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column description to type http://dbpedia.org/ontology/Place",
+    "columnName": "description",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia-es",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Place",
+        "name": "dbo:Place"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Plaza del Pilar (Zaragoza) (http://es.dbpedia.org/resource/Plaza_del_Pilar_(Zaragoza)) for cells containing \"Plaza del Pilar - Juzgados\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Plaza del Pilar - Juzgados",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Plaza_del_Pilar_(Zaragoza)",
+      "name": "Plaza del Pilar (Zaragoza)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ayuntamiento de Zaragoza (http://es.dbpedia.org/resource/Ayuntamiento_de_Zaragoza) for cells containing \"Ayuntamiento de Zaragoza\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Ayuntamiento de Zaragoza",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Ayuntamiento_de_Zaragoza",
+      "name": "Ayuntamiento de Zaragoza",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ayuntamiento de Zaragoza"
+        ],
+        "to": "Ayuntamiento"
+      }
+    ]
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Avenida de César Augusto (Zaragoza) (http://es.dbpedia.org/resource/Avenida_de_César_Augusto_(Zaragoza)) for cells containing \"César Augusto\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "César Augusto",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Avenida_de_César_Augusto_(Zaragoza)",
+      "name": "Avenida de César Augusto (Zaragoza)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle-Calle (http://es.dbpedia.org/resource/Calle-Calle) for cells containing \"Salamero\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Salamero",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle-Calle",
+      "name": "Calle-Calle",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle-Calle (http://es.dbpedia.org/resource/Calle-Calle) for cells containing \"Audiorama\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Audiorama",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle-Calle",
+      "name": "Calle-Calle",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Palacio de Villahermosa (Zaragoza) (http://es.dbpedia.org/resource/Palacio_de_Villahermosa_(Zaragoza)) for cells containing \"Villahermosa\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Villahermosa",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Palacio_de_Villahermosa_(Zaragoza)",
+      "name": "Palacio de Villahermosa (Zaragoza)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Seminario (http://es.dbpedia.org/resource/Seminario) for cells containing \"Seminario\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Seminario",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Seminario",
+      "name": "Seminario",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Hospital Clínico (Zaragoza) (http://es.dbpedia.org/resource/Hospital_Clínico_(Zaragoza)) for cells containing \"Hospital Clínico\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Hospital Clínico",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Hospital_Clínico_(Zaragoza)",
+      "name": "Hospital Clínico (Zaragoza)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Bilbao (http://dbpedia.org/resource/Bilbao) for cells containing \"Bilbao\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Bilbao",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Bilbao",
+      "name": "Bilbao",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Plaza de los Sitios (http://es.dbpedia.org/resource/Plaza_de_los_Sitios) for cells containing \"Plaza Los Sitios\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Plaza Los Sitios",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Plaza_de_los_Sitios",
+      "name": "Plaza de los Sitios",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Coso (Zaragoza) (http://es.dbpedia.org/resource/Coso_(Zaragoza)) for cells containing \"Coso\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Coso",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Coso_(Zaragoza)",
+      "name": "Coso (Zaragoza)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle-Calle (http://es.dbpedia.org/resource/Calle-Calle) for cells containing \"Marques Casa Jimenez\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Marques Casa Jimenez",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle-Calle",
+      "name": "Calle-Calle",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Pedro Nolasco (http://es.dbpedia.org/resource/San_Pedro_Nolasco) for cells containing \"Plaza San Pedro Nolasco\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Plaza San Pedro Nolasco",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/San_Pedro_Nolasco",
+      "name": "San Pedro Nolasco",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Teatro romano de Zaragoza (http://es.dbpedia.org/resource/Teatro_romano_de_Zaragoza) for cells containing \"Plaza Veronica\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Plaza Veronica",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Teatro_romano_de_Zaragoza",
+      "name": "Teatro romano de Zaragoza",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Teatro romano de Zaragoza (http://es.dbpedia.org/resource/Teatro_romano_de_Zaragoza) for cells containing \"Pedro Joaquin Soler\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Pedro Joaquin Soler",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Teatro_romano_de_Zaragoza",
+      "name": "Teatro romano de Zaragoza",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Basílica de Santa Engracia (Zaragoza) (http://es.dbpedia.org/resource/Basílica_de_Santa_Engracia_(Zaragoza)) for cells containing \"Plaza Santa Engracia\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Plaza Santa Engracia",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Basílica_de_Santa_Engracia_(Zaragoza)",
+      "name": "Basílica de Santa Engracia (Zaragoza)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle-Calle (http://es.dbpedia.org/resource/Calle-Calle) for cells containing \"Joaquin Costa\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Joaquin Costa",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle-Calle",
+      "name": "Calle-Calle",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle-Calle (http://es.dbpedia.org/resource/Calle-Calle) for cells containing \"Felipe Sanclemente\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Felipe Sanclemente",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle-Calle",
+      "name": "Calle-Calle",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle-Calle (http://es.dbpedia.org/resource/Calle-Calle) for cells containing \"Jeronimo Zurita\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Jeronimo Zurita",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle-Calle",
+      "name": "Calle-Calle",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle-Calle (http://es.dbpedia.org/resource/Calle-Calle) for cells containing \"Jaime Balmes\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Jaime Balmes",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle-Calle",
+      "name": "Calle-Calle",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle-Calle (http://es.dbpedia.org/resource/Calle-Calle) for cells containing \"Jose Canalejas\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Jose Canalejas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle-Calle",
+      "name": "Calle-Calle",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle-Calle (http://es.dbpedia.org/resource/Calle-Calle) for cells containing \"Santa Catalina\" in column description",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Santa Catalina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle-Calle",
+      "name": "Calle-Calle",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle-Calle (http://es.dbpedia.org/resource/Calle-Calle) for cells containing \"Juan Bruil\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Juan Bruil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle-Calle",
+      "name": "Calle-Calle",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle-Calle (http://es.dbpedia.org/resource/Calle-Calle) for cells containing \"Jeronimo Blancas\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Jeronimo Blancas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle-Calle",
+      "name": "Calle-Calle",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle-Calle (http://es.dbpedia.org/resource/Calle-Calle) for cells containing \"Albert Schweitzer\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Albert Schweitzer",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle-Calle",
+      "name": "Calle-Calle",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Paseo de la Constitucion (Zaragoza) (http://es.dbpedia.org/resource/Paseo_de_la_Constitucion_(Zaragoza)) for cells containing \"Paseo Constitucion\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Paseo Constitucion",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Paseo_de_la_Constitucion_(Zaragoza)",
+      "name": "Paseo de la Constitucion (Zaragoza)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Iglesia de San Miguel de los Navarros (http://es.dbpedia.org/resource/Iglesia_de_San_Miguel_de_los_Navarros) for cells containing \"Plaza San Miguel\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Plaza San Miguel",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Iglesia_de_San_Miguel_de_los_Navarros",
+      "name": "Iglesia de San Miguel de los Navarros",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle-Calle (http://es.dbpedia.org/resource/Calle-Calle) for cells containing \"Reconquista\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Reconquista",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle-Calle",
+      "name": "Calle-Calle",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Alto Aragon (http://es.dbpedia.org/resource/Alto_Aragon) for cells containing \"Alto Aragon\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Alto Aragon",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Alto_Aragon",
+      "name": "Alto Aragon",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle-Calle (http://es.dbpedia.org/resource/Calle-Calle) for cells containing \"Asalto\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Asalto",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle-Calle",
+      "name": "Calle-Calle",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Matadero (http://dbpedia.org/resource/Slaughterhouse) for cells containing \"Matadero\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Matadero",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Slaughterhouse",
+      "name": "Matadero",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Monasterio de Samos (http://es.dbpedia.org/resource/Monasterio_de_Samos) for cells containing \"Monasterio de Samos\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Monasterio de Samos",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Monasterio_de_Samos",
+      "name": "Monasterio de Samos",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Manuel Lorenzo Pardo (http://es.dbpedia.org/resource/Manuel_Lorenzo_Pardo) for cells containing \"Manuel Lorenzo Pardo\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Manuel Lorenzo Pardo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Manuel_Lorenzo_Pardo",
+      "name": "Manuel Lorenzo Pardo",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Policia Nacional de España (http://es.dbpedia.org/resource/Policia_Nacional_de_España) for cells containing \"Policia Zaragoza. Educacion Vial\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Policia Zaragoza. Educacion Vial",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Policia_Nacional_de_España",
+      "name": "Policia Nacional de España",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic La Libertad (La Libertad) (http://dbpedia.org/resource/La_Libertad,_La_Libertad) for cells containing \"Libertad\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Libertad",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/La_Libertad,_La_Libertad",
+      "name": "La Libertad (La Libertad)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Contamina (Zaragoza) (http://es.dbpedia.org/resource/Contamina_(Zaragoza)) for cells containing \"Contamina\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Contamina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Contamina_(Zaragoza)",
+      "name": "Contamina (Zaragoza)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Hernan Cortes (http://es.dbpedia.org/resource/Hernan_Cortes) for cells containing \"Hernan Cortes\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Hernan Cortes",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Hernan_Cortes",
+      "name": "Hernan Cortes",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Josefa Amar y Borbon (http://es.dbpedia.org/resource/Josefa_Amar_y_Borbon) for cells containing \"Amar y Borbon , Josefa\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Amar y Borbon , Josefa",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Josefa_Amar_y_Borbon",
+      "name": "Josefa Amar y Borbon",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle-Calle (http://es.dbpedia.org/resource/Calle-Calle) for cells containing \"Paseo de la Mina\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Paseo de la Mina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle-Calle",
+      "name": "Calle-Calle",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Juan de Aragon (http://es.dbpedia.org/resource/Juan_de_Aragon) for cells containing \"Juan de Aragon\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Juan de Aragon",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Juan_de_Aragon",
+      "name": "Juan de Aragon",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Colegiata mudejar de Santa Maria del Pilar (http://es.dbpedia.org/resource/Colegiata_mudejar_de_Santa_Maria_del_Pilar) for cells containing \"Colegio Santa Maria del Pilar (Marianistas)\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Colegio Santa Maria del Pilar (Marianistas)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Colegiata_mudejar_de_Santa_Maria_del_Pilar",
+      "name": "Colegiata mudejar de Santa Maria del Pilar",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Conde de Aranda (http://dbpedia.org/resource/Pedro_Pablo_Abarca_de_Bolea,_10th_Count_of_Aranda) for cells containing \"Conde Aranda\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Conde Aranda",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Pedro_Pablo_Abarca_de_Bolea,_10th_Count_of_Aranda",
+      "name": "Conde de Aranda",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Colegio Militar (http://es.dbpedia.org/resource/Colegio_Militar) for cells containing \"Casa Jimenez ( Antiguo Gobierno Militar )\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Casa Jimenez ( Antiguo Gobierno Militar )",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Colegio_Militar",
+      "name": "Colegio Militar",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Cervantes (http://es.dbpedia.org/resource/Cervantes_(serie_de_televisión)) for cells containing \"Cervantes\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Cervantes",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Cervantes_(serie_de_televisión)",
+      "name": "Cervantes",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Martires de Zaragoza (http://es.dbpedia.org/resource/Martires_de_Zaragoza) for cells containing \"Martires\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Martires",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Martires_de_Zaragoza",
+      "name": "Martires de Zaragoza",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Santa Isabel (Zaragoza) (http://es.dbpedia.org/resource/Santa_Isabel_(Zaragoza)) for cells containing \"Santa Isabel\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Santa Isabel",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Santa_Isabel_(Zaragoza)",
+      "name": "Santa Isabel (Zaragoza)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Blas (http://dbpedia.org/resource/San_Blas) for cells containing \"San Blas\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "San Blas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/San_Blas",
+      "name": "San Blas",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Pabellon de Aragon de la Expo 2008 (http://es.dbpedia.org/resource/Pabellon_de_Aragon_de_la_Expo_2008) for cells containing \"Pabellon de Servicios\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Pabellon de Servicios",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Pabellon_de_Aragon_de_la_Expo_2008",
+      "name": "Pabellon de Aragon de la Expo 2008",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Alfonso I de Aragón (http://es.dbpedia.org/resource/Alfonso_I_de_Aragón) for cells containing \"Alfonso I\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Alfonso I",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Alfonso_I_de_Aragón",
+      "name": "Alfonso I de Aragón",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Casa romana de la calle Añon de Zaragoza (http://es.dbpedia.org/resource/Casa_romana_de_la_calle_Añon_de_Zaragoza) for cells containing \"Pedro Garces de Añon\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Pedro Garces de Añon",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Casa_romana_de_la_calle_Añon_de_Zaragoza",
+      "name": "Casa romana de la calle Añon de Zaragoza",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Iglesia de San Lorenzo (http://dbpedia.org/resource/St._Laurence's_Church) for cells containing \"Iglesia de San Lorenzo\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Iglesia de San Lorenzo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/St._Laurence's_Church",
+      "name": "Iglesia de San Lorenzo",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Vicente de Paul (http://es.dbpedia.org/resource/San_Vicente_de_Paul) for cells containing \"San Vicente de Paul\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "San Vicente de Paul",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/San_Vicente_de_Paul",
+      "name": "San Vicente de Paul",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Persona (http://dbpedia.org/resource/Person) for cells containing \"Jose Anselmo Clavo\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Jose Anselmo Clavo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Person",
+      "name": "Persona",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Santa Hermandad (http://es.dbpedia.org/resource/Santa_Hermandad) for cells containing \"Santa y Real Hermandad del Refugio\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Santa y Real Hermandad del Refugio",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Santa_Hermandad",
+      "name": "Santa Hermandad",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Arquitectura mudejar de Aragon (http://es.dbpedia.org/resource/Arquitectura_mudejar_de_Aragon) for cells containing \"Arco y Casa del Dean\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Arco y Casa del Dean",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Arquitectura_mudejar_de_Aragon",
+      "name": "Arquitectura mudejar de Aragon",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Plaza de España (Zaragoza) (http://es.dbpedia.org/resource/Plaza_de_España_(Zaragoza)) for cells containing \"Pza. de España\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Pza. de España",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Plaza_de_España_(Zaragoza)",
+      "name": "Plaza de España (Zaragoza)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Baltasar Gracian (http://es.dbpedia.org/resource/Baltasar_Gracian) for cells containing \"Baltasar Gracian\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Baltasar Gracian",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Baltasar_Gracian",
+      "name": "Baltasar Gracian",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Lascellas-Ponzano (Huesca) (http://es.dbpedia.org/resource/Lascellas-Ponzano_(Huesca)) for cells containing \"Ponzano\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Ponzano",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Lascellas-Ponzano_(Huesca)",
+      "name": "Lascellas-Ponzano (Huesca)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Teniente coronel Valenzuela (http://es.dbpedia.org/resource/Teniente_coronel_Valenzuela) for cells containing \"Tte. Cnel. Valenzuela\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Tte. Cnel. Valenzuela",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Teniente_coronel_Valenzuela",
+      "name": "Teniente coronel Valenzuela",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Horno (http://dbpedia.org/resource/Oven) for cells containing \"Horno\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Horno",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Oven",
+      "name": "Horno",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Iglesia Nuestra Señora del Rosario (Vela) (http://es.dbpedia.org/resource/Iglesia_Nuestra_Señora_del_Rosario_(Vela)) for cells containing \"Iglesia Nuestra Señora del Rosario\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Iglesia Nuestra Señora del Rosario",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Iglesia_Nuestra_Señora_del_Rosario_(Vela)",
+      "name": "Iglesia Nuestra Señora del Rosario (Vela)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Calle Don Jaime I (Zaragoza) (http://es.dbpedia.org/resource/Calle_Don_Jaime_I_(Zaragoza)) for cells containing \"Don Jaime I\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Don Jaime I",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Calle_Don_Jaime_I_(Zaragoza)",
+      "name": "Calle Don Jaime I (Zaragoza)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Blason (http://es.dbpedia.org/resource/Blason) for cells containing \"Blason Aragones\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Blason Aragones",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Blason",
+      "name": "Blason",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Residencia de ancianos (http://es.dbpedia.org/resource/Residencia_de_ancianos) for cells containing \"Alcaldia del Barrio, Antigua Agrupacion Escolar y Hogar de la Tercera Edad\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Alcaldia del Barrio, Antigua Agrupacion Escolar y Hogar de la Tercera Edad",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Residencia_de_ancianos",
+      "name": "Residencia de ancianos",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Prudencio (http://dbpedia.org/resource/Prudentius) for cells containing \"Prudencio\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Prudencio",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Prudentius",
+      "name": "Prudencio",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Real Seminario de San Carlos Borromeo (http://es.dbpedia.org/resource/Real_Seminario_de_San_Carlos_Borromeo) for cells containing \"Real Seminario de San Carlos Borromeo\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Real Seminario de San Carlos Borromeo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Real_Seminario_de_San_Carlos_Borromeo",
+      "name": "Real Seminario de San Carlos Borromeo",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Jorge y el Dragón (http://dbpedia.org/resource/Saint_George_and_the_Dragon_(disambiguation)) for cells containing \"San Jorge\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "San Jorge",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Saint_George_and_the_Dragon_(disambiguation)",
+      "name": "San Jorge y el Dragón",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Palacio Arzobispal de Zaragoza (http://es.dbpedia.org/resource/Palacio_Arzobispal_de_Zaragoza) for cells containing \"Palacio Arzobispal\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Palacio Arzobispal",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Palacio_Arzobispal_de_Zaragoza",
+      "name": "Palacio Arzobispal de Zaragoza",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Cadiz (Cadiz) (http://es.dbpedia.org/resource/Cadiz_(Cadiz)) for cells containing \"Cadiz\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Cadiz",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Cadiz_(Cadiz)",
+      "name": "Cadiz (Cadiz)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Jose Palafox (http://es.dbpedia.org/resource/Jose_Palafox) for cells containing \"Jose Palafox\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Jose Palafox",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Jose_Palafox",
+      "name": "Jose Palafox",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Francisco Caballero y Rozas (http://es.dbpedia.org/resource/Francisco_Caballero_y_Rozas) for cells containing \"Grupo de Viviendas Francisco Caballero\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Grupo de Viviendas Francisco Caballero",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Francisco_Caballero_y_Rozas",
+      "name": "Francisco Caballero y Rozas",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ramon y Cajal (http://es.dbpedia.org/resource/Ramon_y_Cajal) for cells containing \"Ramon y Cajal\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Ramon y Cajal",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Ramon_y_Cajal",
+      "name": "Ramon y Cajal",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic La Española (http://dbpedia.org/resource/Hispaniola) for cells containing \"La Española\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "La Española",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Hispaniola",
+      "name": "La Española",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Luis Martin (http://es.dbpedia.org/resource/Luis_Martin) for cells containing \"Luis Martin Blasco\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Luis Martin Blasco",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Luis_Martin",
+      "name": "Luis Martin",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Castejón de las Armas (Zaragoza) (http://es.dbpedia.org/resource/Castejón_de_las_Armas_(Zaragoza)) for cells containing \"Armas\" in column description",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "description: judgment",
+          "selectBlank": false,
+          "columnName": "description",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "description",
+    "similarValue": "Armas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Castejón_de_las_Armas_(Zaragoza)",
+      "name": "Castejón de las Armas (Zaragoza)",
+      "score": 100,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column type URI from DBpedia at index 3 based on column type using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "type URI from DBpedia",
+    "columnInsertIndex": 3,
+    "baseColumnName": "type",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column description URI from DBpedia at index 5 based on column description using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "description URI from DBpedia",
+    "columnInsertIndex": 5,
+    "baseColumnName": "description",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://localhost:3333/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+              "curie": "xsd:anyURI"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+              "curie": "xsd:anyURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "description"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#URI",
+              "curie": "xsd:URI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "description URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "lastUpdated"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#int",
+              "curie": "xsd:int",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "geometry"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+              "curie": "xsd:anyURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "icon",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#int",
+              "curie": "xsd:int",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "parkingBay"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+              "curie": "xsd:anyURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "link",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://example.org/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+              "curie": "xsd:anyURI"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+              "curie": "xsd:anyURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "description"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#URI",
+              "curie": "xsd:URI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "description URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "lastUpdated"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#int",
+              "curie": "xsd:int",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "geometry"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+              "curie": "xsd:anyURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "icon",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#int",
+              "curie": "xsd:int",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "parkingBay"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+              "curie": "xsd:anyURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "link",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://example.org/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+              "curie": "xsd:anyURI"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+              "curie": "xsd:anyURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#string",
+              "curie": "xsd:string",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "description"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#URI",
+              "curie": "xsd:URI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "description URI from DBpedia",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#dateTime",
+              "curie": "xsd:dateTime",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "lastUpdated"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#int",
+              "curie": "xsd:int",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "geometry"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+              "curie": "xsd:anyURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "icon",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#int",
+              "curie": "xsd:int",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "parkingBay"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2001/XMLSchema#anyURI",
+              "curie": "xsd:anyURI",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "link",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://example.org/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "description",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#versionInfo",
+              "curie": "owl:versionInfo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "lastUpdated"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#lat",
+              "curie": "rdf:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "latitude"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#log",
+              "curie": "rdf:log",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "longitude"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "icon",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://example.org/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "description",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#versionInfo",
+              "curie": "owl:versionInfo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "lastUpdated"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#lat",
+              "curie": "rdf:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "latitude"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#log",
+              "curie": "rdf:log",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "longitude"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "icon",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://example.org/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "description",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#versionInfo",
+              "curie": "owl:versionInfo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "lastUpdated"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#lat",
+              "curie": "rdf:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "latitude"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#log",
+              "curie": "rdf:log",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "longitude"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "icon",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaragoza.es/api/recurso/",
+      "prefixes": [
+        {
+          "name": "",
+          "uri": ""
+        },
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "onto",
+          "uri": "http://www.zaragoza.es/api/recurso#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "dbpedia",
+          "uri": "http://dbpedia.org/resource/"
+        },
+        {
+          "name": "wgs84",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "description",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#versionInfo",
+              "curie": "owl:versionInfo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "lastUpdated"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#lat",
+              "curie": "rdf:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "latitude"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#log",
+              "curie": "rdf:log",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "longitude"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "icon",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaragoza.es/api/recurso/#",
+      "prefixes": [
+        {
+          "name": "",
+          "uri": ""
+        },
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "onto",
+          "uri": "http://www.zaragoza.es/api/recurso#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "dbpedia",
+          "uri": "http://dbpedia.org/resource/"
+        },
+        {
+          "name": "wgs84",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "http://www.zaragoza.es/api/recurso#Location",
+              "curie": "onto:Location"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.zaragoza.es/api/recurso#isIn",
+              "curie": "onto:isIn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "description",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.zaragoza.es/api/recurso#Place",
+                    "curie": "onto:Place"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "description URI from DBpedia",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.zaragoza.es/api/recurso#lastupdate",
+              "curie": "onto:lastupdate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "lastUpdated"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "wgs84:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "latitude"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "wgs84:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "longitude"
+              }
+            },
+            {
+              "uri": "http://www.zaragoza.es/api/recurso#icon",
+              "curie": "onto:icon",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "icon",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column type",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "type",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Edificios Historico Artisticos"
+        ],
+        "to": "Poi"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column type",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "type",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Estacionamiento para Motos"
+        ],
+        "to": "MotorBikeParking"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column type",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "type",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Peatonal"
+        ],
+        "to": "Parking"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column type",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "type",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Vehículos"
+        ],
+        "to": "Parking"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column type",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "type",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Policia"
+        ],
+        "to": "Poi"
+      }
+    ]
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"MotorBikeParking\" in column type",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "type",
+          "omitBlank": false,
+          "columnName": "type",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "MotorBikeParking",
+                "l": "MotorBikeParking"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "type",
+    "similarValue": "MotorBikeParking",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Parking\" in column type",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "type",
+          "omitBlank": false,
+          "columnName": "type",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Parking",
+                "l": "Parking"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "type",
+    "similarValue": "Parking",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Poi\" in column type",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "type",
+          "omitBlank": false,
+          "columnName": "type",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Poi",
+                "l": "Poi"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "type",
+    "similarValue": "Poi",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column type URI from DBpedia",
+    "columnName": "type URI from DBpedia"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Parking\" in column type",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "type",
+    "similarValue": "Parking",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Parking\" in column type",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "type",
+    "similarValue": "Parking",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.zaragoza.es/api/recurso/#",
+      "prefixes": [
+        {
+          "name": "",
+          "uri": ""
+        },
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "onto",
+          "uri": "http://www.zaragoza.es/api/recurso#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "dbpedia",
+          "uri": "http://dbpedia.org/resource/"
+        },
+        {
+          "name": "wgs84",
+          "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "id",
+          "rdfTypes": [
+            {
+              "uri": "http://www.zaragoza.es/api/recurso#Location",
+              "curie": "onto:Location"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.zaragoza.es/api/recurso#isIn",
+              "curie": "onto:isIn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "description",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.zaragoza.es/api/recurso#Place",
+                    "curie": "onto:Place"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "description URI from DBpedia",
+                      "rdfTypes": [],
+                      "links": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.zaragoza.es/api/recurso#lastupdate",
+              "curie": "onto:lastupdate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "lastUpdated"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#lat",
+              "curie": "wgs84:lat",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "latitude"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2003/01/geo/wgs84_pos#long",
+              "curie": "wgs84:long",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "longitude"
+              }
+            },
+            {
+              "uri": "http://www.zaragoza.es/api/recurso#icon",
+              "curie": "onto:icon",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "icon",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "type",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

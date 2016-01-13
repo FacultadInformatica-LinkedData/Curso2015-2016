@@ -45,14 +45,14 @@
     "engineConfig": {
       "facets": [
         {
-          "expression": "value",
           "invert": false,
+          "expression": "value",
           "selectError": false,
           "omitError": false,
-          "name": "tittle",
           "selectBlank": false,
-          "columnName": "tittle",
+          "name": "tittle",
           "omitBlank": false,
+          "columnName": "tittle",
           "type": "list",
           "selection": [
             {
@@ -3238,5 +3238,32 @@
     "description": "Rename column plazas to parkingBay",
     "oldColumnName": "plazas",
     "newColumnName": "parkingBay"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column geometry by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "geometry",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column geometry 1 to latitude",
+    "oldColumnName": "geometry 1",
+    "newColumnName": "latitude"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column geometry 2 to longitude",
+    "oldColumnName": "geometry 2",
+    "newColumnName": "longitude"
   }
 ]

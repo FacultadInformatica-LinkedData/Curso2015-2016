@@ -1,12 +1,16 @@
-@prefix : <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#> .
+@prefix : <http://www.madridDeporte.es/ontologia#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2> .
+@base <http://www.madridDeporte.es/ontologia> .
 
-<http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2> rdf:type owl:Ontology .
+<http://www.madridDeporte.es/ontologia> rdf:type owl:Ontology ;
+                                        
+                                        rdfs:comment "" ;
+                                        
+                                        owl:versionIRI <http://www.madridDeporte.es/ontologia/1.0.0> .
 
 
 #################################################################
@@ -16,7 +20,7 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasAddress
+###  http://www.madridDeporte.es/ontologia#hasAddress
 
 :hasAddress rdf:type owl:ObjectProperty ;
             
@@ -31,7 +35,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasCenter
+###  http://www.madridDeporte.es/ontologia#hasCenter
 
 :hasCenter rdf:type owl:ObjectProperty ;
            
@@ -43,7 +47,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasContact
+###  http://www.madridDeporte.es/ontologia#hasContact
 
 :hasContact rdf:type owl:ObjectProperty ;
             
@@ -58,7 +62,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDate
+###  http://www.madridDeporte.es/ontologia#hasDate
 
 :hasDate rdf:type owl:ObjectProperty ;
          
@@ -73,7 +77,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDays
+###  http://www.madridDeporte.es/ontologia#hasDays
 
 :hasDays rdf:type owl:ObjectProperty ;
          
@@ -88,7 +92,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDaysWeek
+###  http://www.madridDeporte.es/ontologia#hasDaysWeek
 
 :hasDaysWeek rdf:type owl:ObjectProperty ;
              
@@ -103,7 +107,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDescription
+###  http://www.madridDeporte.es/ontologia#hasDescription
 
 :hasDescription rdf:type owl:ObjectProperty ;
                 
@@ -121,7 +125,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDistrict
+###  http://www.madridDeporte.es/ontologia#hasDistrict
 
 :hasDistrict rdf:type owl:ObjectProperty ;
              
@@ -136,7 +140,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDoor
+###  http://www.madridDeporte.es/ontologia#hasDoor
 
 :hasDoor rdf:type owl:ObjectProperty ;
          
@@ -151,7 +155,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasDuration
+###  http://www.madridDeporte.es/ontologia#hasDuration
 
 :hasDuration rdf:type owl:ObjectProperty ;
              
@@ -166,7 +170,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEmail
+###  http://www.madridDeporte.es/ontologia#hasEmail
 
 :hasEmail rdf:type owl:ObjectProperty ;
           
@@ -181,7 +185,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEndDate
+###  http://www.madridDeporte.es/ontologia#hasEndDate
 
 :hasEndDate rdf:type owl:ObjectProperty ;
             
@@ -196,7 +200,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasEventId
+###  http://www.madridDeporte.es/ontologia#hasEventId
 
 :hasEventId rdf:type owl:ObjectProperty ;
             
@@ -211,7 +215,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasFaxNumber
+###  http://www.madridDeporte.es/ontologia#hasFaxNumber
 
 :hasFaxNumber rdf:type owl:ObjectProperty ;
               
@@ -226,7 +230,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasHour
+###  http://www.madridDeporte.es/ontologia#hasHour
 
 :hasHour rdf:type owl:ObjectProperty ;
          
@@ -241,7 +245,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasIdKey
+###  http://www.madridDeporte.es/ontologia#hasIdKey
 
 :hasIdKey rdf:type owl:ObjectProperty ;
           
@@ -257,7 +261,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasLatitude
+###  http://www.madridDeporte.es/ontologia#hasLatitude
 
 :hasLatitude rdf:type owl:ObjectProperty ;
              
@@ -272,7 +276,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasLocality
+###  http://www.madridDeporte.es/ontologia#hasLocality
 
 :hasLocality rdf:type owl:ObjectProperty ;
              
@@ -287,7 +291,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasLocation
+###  http://www.madridDeporte.es/ontologia#hasLocation
 
 :hasLocation rdf:type owl:ObjectProperty ;
              
@@ -302,7 +306,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasLongitude
+###  http://www.madridDeporte.es/ontologia#hasLongitude
 
 :hasLongitude rdf:type owl:ObjectProperty ;
               
@@ -317,7 +321,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasName
+###  http://www.madridDeporte.es/ontologia#hasName
 
 :hasName rdf:type owl:ObjectProperty ;
          
@@ -333,7 +337,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasNum
+###  http://www.madridDeporte.es/ontologia#hasNum
 
 :hasNum rdf:type owl:ObjectProperty ;
         
@@ -348,7 +352,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasNumType
+###  http://www.madridDeporte.es/ontologia#hasNumType
 
 :hasNumType rdf:type owl:ObjectProperty ;
             
@@ -363,7 +367,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasOrientation
+###  http://www.madridDeporte.es/ontologia#hasOrientation
 
 :hasOrientation rdf:type owl:ObjectProperty ;
                 
@@ -378,7 +382,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasPhoneNumber
+###  http://www.madridDeporte.es/ontologia#hasPhoneNumber
 
 :hasPhoneNumber rdf:type owl:ObjectProperty ;
                 
@@ -393,7 +397,22 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasPrice
+###  http://www.madridDeporte.es/ontologia#hasPostalCode
+
+:hasPostalCode rdf:type owl:ObjectProperty ;
+               
+               rdfs:label "Codigo Postal"@es ;
+               
+               rdfs:domain :Direccion ;
+               
+               rdfs:range [ rdf:type owl:Restriction ;
+                            owl:onProperty owl:topDataProperty ;
+                            owl:someValuesFrom xsd:string
+                          ] .
+
+
+
+###  http://www.madridDeporte.es/ontologia#hasPrice
 
 :hasPrice rdf:type owl:ObjectProperty ;
           
@@ -408,7 +427,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasPrimaryKey
+###  http://www.madridDeporte.es/ontologia#hasPrimaryKey
 
 :hasPrimaryKey rdf:type owl:ObjectProperty ;
                
@@ -425,7 +444,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasProvince
+###  http://www.madridDeporte.es/ontologia#hasProvince
 
 :hasProvince rdf:type owl:ObjectProperty ;
              
@@ -440,7 +459,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasSchedule
+###  http://www.madridDeporte.es/ontologia#hasSchedule
 
 :hasSchedule rdf:type owl:ObjectProperty ;
              
@@ -455,7 +474,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasSection
+###  http://www.madridDeporte.es/ontologia#hasSection
 
 :hasSection rdf:type owl:ObjectProperty ;
             
@@ -470,7 +489,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasStairs
+###  http://www.madridDeporte.es/ontologia#hasStairs
 
 :hasStairs rdf:type owl:ObjectProperty ;
            
@@ -485,7 +504,22 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasTransport
+###  http://www.madridDeporte.es/ontologia#hasTitle
+
+:hasTitle rdf:type owl:ObjectProperty ;
+          
+          rdfs:label "Tiene Titulo"@es ;
+          
+          rdfs:domain :Actividad ;
+          
+          rdfs:range [ rdf:type owl:Restriction ;
+                       owl:onProperty owl:topDataProperty ;
+                       owl:someValuesFrom xsd:string
+                     ] .
+
+
+
+###  http://www.madridDeporte.es/ontologia#hasTransport
 
 :hasTransport rdf:type owl:ObjectProperty ;
               
@@ -500,7 +534,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasType
+###  http://www.madridDeporte.es/ontologia#hasType
 
 :hasType rdf:type owl:ObjectProperty ;
          
@@ -515,7 +549,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasViaClass
+###  http://www.madridDeporte.es/ontologia#hasViaClass
 
 :hasViaClass rdf:type owl:ObjectProperty ;
              
@@ -530,7 +564,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasViaName
+###  http://www.madridDeporte.es/ontologia#hasViaName
 
 :hasViaName rdf:type owl:ObjectProperty ;
             
@@ -545,7 +579,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasXCoordinate
+###  http://www.madridDeporte.es/ontologia#hasXCoordinate
 
 :hasXCoordinate rdf:type owl:ObjectProperty ;
                 
@@ -560,7 +594,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#hasYCoordinate
+###  http://www.madridDeporte.es/ontologia#hasYCoordinate
 
 :hasYCoordinate rdf:type owl:ObjectProperty ;
                 
@@ -575,7 +609,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isAccesible
+###  http://www.madridDeporte.es/ontologia#isAccesible
 
 :isAccesible rdf:type owl:ObjectProperty ;
              
@@ -590,7 +624,7 @@
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#isFree
+###  http://www.madridDeporte.es/ontologia#isFree
 
 :isFree rdf:type owl:ObjectProperty ;
         
@@ -614,31 +648,31 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Actividad
+###  http://www.madridDeporte.es/ontologia#Actividad
 
 :Actividad rdf:type owl:Class .
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Contacto
+###  http://www.madridDeporte.es/ontologia#Contacto
 
 :Contacto rdf:type owl:Class .
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Direccion
+###  http://www.madridDeporte.es/ontologia#Direccion
 
 :Direccion rdf:type owl:Class .
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#EspacioDeportivo
+###  http://www.madridDeporte.es/ontologia#EspacioDeportivo
 
 :EspacioDeportivo rdf:type owl:Class .
 
 
 
-###  http://www.semanticweb.org/javie/ontologies/2015/10/untitled-ontology-2#Localizacion
+###  http://www.madridDeporte.es/ontologia#Localizacion
 
 :Localizacion rdf:type owl:Class .
 

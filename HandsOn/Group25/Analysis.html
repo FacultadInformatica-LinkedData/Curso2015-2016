@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<p><h1>Analyse Data Set:</h1></p>
+
+<p>Obtenemos de <a href="https://www.zaragoza.es/ciudad/risp/buscar_Risp">https://www.zaragoza.es/ciudad/risp/buscar_Risp</a></li>	 tres csv que utilizamos como fuente. </p>
+
+<p>El primero contiene puntos de interés donde se muestran todos los puntos recogidos en la Sede Electrónica: Alojamientos, Restaurantes, Actividades, Dependencias Municipales... Incluye ID, tittle, description, last updated, geometry, icon, link (tras refinamiento y análisis del dataset).</p>
+
+<p>El segundo csv contiene  la relación de Estacionamientos para motos en la ciudad de Zaragoza. Incluye ID, tittle, description, last updated, geometry, icon, plazas  (tras refinamiento y análisis del dataset).</p>
+
+<p>El tercer csv contiene la relación de los principales parkings públicos para automóviles de la ciudad de Zaragoza y la información relativa a la ocupación de los aparcamientos gestionados por la empresa VINCI. Incluye ID, tittle, description, lastupdated, geometry, icon  (tras refinamiento y análisis del dataset).</p>
+
+<p>En dichos archivos csv se observa que hay campos como ID, description, lastupdated, geometry, icon que son comunes, otros como plazas o links no aparecen en todos los csv; además hay campos que hemos eliminado ya que estaban incompletos, o eran erróneos. También, hemos modificado el nombre de algunas columnas para que fuese más claro saber su contenido (tittle pasa a ser tipo).</p>
+
+<p>Las diversas columnas muestran datos de distintos tipos: textos y datos numéricos. La información que relacionamos permitirá buscar un punto de interés con su parking más cercano, ya sea público, o específico para motos, usando la dirección o sus coordenadas. Otros campos se usarán para aportar mayor información.</p>
+
+<p><h1>Analyse Licesing of the Data Source:</h1></p>
+
+<p>La licencia recoge la reutilización que conlleva la cesión gratuita y no exclusiva de los derechos de propiedad intelectual, correspondientes a tales documentos, autorizándose la realización de actividades de reproducción, distribución, comunicación pública o transformación, que sean necesarias para desarrollar la actividad de reutilización autorizada, en cualquier modalidad y bajo cualquier formato, para todo el mundo y por el plazo máximo permitido por la Ley. </p>
+
+<p>Para mayor información consultar el enlace:
+<a href="https://www.zaragoza.es/ciudad/servicios/avisolegal.htm#condiciones">https://www.zaragoza.es/ciudad/servicios/avisolegal.htm#condiciones</a></li>
+
+<p><h1> Resource naming strategy:</h1></p>
+
+<li>Domain: <a href="http://www.zaragoza.es/">http://www.zaragoza.es/</a></li>
+<li>Ontological terms path: <a href="http://www.zaragoza.es/api/recurso/#">http://www.zaragoza.es/api/recurso/#</a></li>
+<li>Individual path: <a href="http://www.zaragoza.es/api/recurso/">http://www.zaragoza.es/api/recurso/</a></li>
+<li>Ontological terms pattern: <a href="http://www.zaragoza.es/api/recurso/#&amp;lt;term_name&amp;gt">http://www.zaragoza.es/api/recurso/#&lt;term_name&gt</a></li>
+<li>Individuals pattern: <a href=": http://www.zaragoza.es/api/recurso/&amp;lt;resource_type&amp;gt;/&amp;lt;resource_name&amp;gt">: http://www.zaragoza.es/api/recurso/&lt;resource_type&gt;/&lt;resource_name&gt</a></li>

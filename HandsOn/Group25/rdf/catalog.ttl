@@ -1,0 +1,60 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix void: <http://rdfs.org/ns/void#>.
+@prefix foaf: <http://www.w3.org/TR/void/#ref-FOAF>.
+@prefix dcterms: <http://dublincore.org/documents/dcmi-terms/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+:catalog
+	a dcat:Catalog;	
+	dcterms:title "Catalogo RDF para Puntos de Interes y Parking de coche y moto de Zaragoza"@es;
+    dcterms:source <https://www.zaragoza.es/ciudad/risp/detalle_Risp?id=334>;
+    dcterms:source <https://www.zaragoza.es/ciudad/risp/detalle_Risp?id=55>;
+    dcterms:source <https://www.zaragoza.es/ciudad/risp/detalle_Risp?id=23>;
+    foaf:homepage <http://linkeddata.es/grupo25/>;
+    dct:publisher :David;
+	dct:publisher :Alvaro;
+	dct:publisher :Borja;
+	dcterms:contributor <https://github.com/FacultadInformatica-LinkedData>;
+	dct:language <http://lexvo.org/id/iso639-3/spa>;
+    dcterms:license <http://www.opendatacommons.org/odc-public-domain-dedication-and-licence/>;
+    wv:norms <http://www.opendatacommons.org/norms/odc-by-sa/>;
+    wv:waiver """To the extent possible under law, it has been waived all
+          copyright and related or neighboring rights to POI&Parking Dataset.""";
+    dcat:dataset :POI&Parking.
+
+:POI&Parking
+	a dcat: Dataset;
+	dcterms:title "Points of interest and Parking at Zaragoza"@es;
+	dcat:keyword "zaragoza"@es, "poi"@es, "parking"@es, "españa"@es;
+	dcterms: description "Dataset RDF de los puntos de interes y los parking de coche y moto en la ciudad de Zaragoza"@es;
+	dct:issued "2016-01-02"^^xsd:date;
+	dct:modified "2016-01-09"^^xsd:date;
+	dct:uriSpace <http://likeddata.es/grupo25/resource/">;
+	dcat:distribution :POI&Parking-bulk;
+	void:subset :LS .
+
+:POI&Parking-bulk
+	a dcat:Distribution;
+	dct:title "Distribucion del dataset de los puntos de interes y los parking de coche y moto en la ciudad de Zaragoza"@es;
+	void:downloadURL <https://github.com/atoledano2510/LinkedData-Curso2015-2016/blob/master/HandsOn/Group25/rdf/poi_con_aparcamientos-with%20links.ttl>;
+	dcat:mediaType "text/turtle" .
+
+:LS
+	a void:Linkset;
+	void:linkPredicate owl:sameAs;
+	void:target <http://es.dbpedia.org/>.
+
+ :David a foaf:Person;
+ 	rdfs:label "David Gutierrez Galan";
+ 	foaf:mbox <mailto:david.gutierrez.galan@alumnos.upm.es>;
+ 	foaf:page <http://github.com/dggalan>.
+
+:Alvaro a foaf:Person;
+	rdfs:label "Alvaro Toledano Martin";
+	foaf:mbox <mailto:a.toledano@alumnos.upm.es>;
+	foaf: page <http://github.com/atoledano2510>.
+
+:Borja a foaf:Person;
+	rdfs:label "Borja Peiro Villanueva";
+	foaf:mbox <mailto:borjapeiro@gmail.com>;
+	foaf: page <http://github.com/borjapeiro>.

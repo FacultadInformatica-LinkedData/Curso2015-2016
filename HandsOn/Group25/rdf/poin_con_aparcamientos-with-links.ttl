@@ -1,0 +1,1302 @@
+@prefix : <> .
+@prefix schema: <http://schema.org/> .
+@prefix onto: <http://www.zaragoza.es/api/recurso#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/1> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Plaza+del+Pilar+-+Juzgados> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Plaza_del_Pilar_(Zaragoza)> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/1> onto:isIn <http://www.zaragoza.es/api/recurso/#Plaza+del+Pilar+-+Juzgados> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "676551.94" ;
+	wgs84:long "4614112" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/2> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Plaza+del+Pilar+-+Juzgados> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "676615.8" ;
+	wgs84:long "4614043.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/3> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Ayuntamiento> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Ayuntamiento_de_Zaragoza> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/3> onto:isIn <http://www.zaragoza.es/api/recurso/#Ayuntamiento> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "676815.8" ;
+	wgs84:long "4614011" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/4> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Ayuntamiento> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "676844.1" ;
+	wgs84:long "4613934.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/5> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Ayuntamiento> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "676784.1" ;
+	wgs84:long "4613940.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/6> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#C%C3%A9sar+Augusto> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Avenida_de_César_Augusto_(Zaragoza)> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/6> onto:isIn <http://www.zaragoza.es/api/recurso/#C%C3%A9sar+Augusto> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "676293" ;
+	wgs84:long "4613774" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/7> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#C%C3%A9sar+Augusto> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "676269.5" ;
+	wgs84:long "4613820" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/8> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#C%C3%A9sar+Augusto> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "676330.3" ;
+	wgs84:long "4613892.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/9> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Salamero> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Calle-Calle> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/9> onto:isIn <http://www.zaragoza.es/api/recurso/#Salamero> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "676348.94" ;
+	wgs84:long "4613579" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/10> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Salamero> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "676255.7" ;
+	wgs84:long "4613541" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/11> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Salamero> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "676336.44" ;
+	wgs84:long "4613567.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/12> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Salamero> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "676260" ;
+	wgs84:long "4613560.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/13> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Salamero> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "676270.1" ;
+	wgs84:long "4613529" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/14> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Audiorama> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Calle-Calle> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/14> onto:isIn <http://www.zaragoza.es/api/recurso/#Audiorama> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "674994.9" ;
+	wgs84:long "4611819.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/15> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Audiorama> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "675043.94" ;
+	wgs84:long "4611929.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/16> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Audiorama> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "675041.44" ;
+	wgs84:long "4611848" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/17> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Audiorama> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "675035.44" ;
+	wgs84:long "4611923.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/18> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Villahermosa> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Palacio_de_Villahermosa_(Zaragoza)> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/18> onto:isIn <http://www.zaragoza.es/api/recurso/#Villahermosa> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "674424.5" ;
+	wgs84:long "4612885.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/19> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Villahermosa> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "674362.44" ;
+	wgs84:long "4612976.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/20> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Seminario> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Seminario> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/20> onto:isIn <http://www.zaragoza.es/api/recurso/#Seminario> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "674101.7" ;
+	wgs84:long "4611590" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/21> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Seminario> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "674106.6" ;
+	wgs84:long "4611597" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/22> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Hospital+Cl%C3%ADnico> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Hospital_Clínico_(Zaragoza)> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/22> onto:isIn <http://www.zaragoza.es/api/recurso/#Hospital+Cl%C3%ADnico> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "674782.44" ;
+	wgs84:long "4612593.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/23> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Hospital+Cl%C3%ADnico> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "674785.4" ;
+	wgs84:long "4612588" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/24> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Hospital+Cl%C3%ADnico> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "674750" ;
+	wgs84:long "4612437.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-accesos/25> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Hospital+Cl%C3%ADnico> ;
+	onto:lastupdate "Tue Apr 09 20:00:00 CEST 2013" ;
+	wgs84:lat "674755.94" ;
+	wgs84:long "4612424.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/aparcamientos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Parking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/1> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Bilbao> a onto:Place ;
+	owl:sameAs dbpedia:Bilbao .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/1> onto:isIn <http://www.zaragoza.es/api/recurso/#Bilbao> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676200.75" ;
+	wgs84:long "4613253.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/2> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Marques+Casa+Jimenez> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Calle-Calle> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/2> onto:isIn <http://www.zaragoza.es/api/recurso/#Marques+Casa+Jimenez> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676310.9" ;
+	wgs84:long "4613259.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/3> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Plaza+San+Pedro+Nolasco> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/San_Pedro_Nolasco> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/3> onto:isIn <http://www.zaragoza.es/api/recurso/#Plaza+San+Pedro+Nolasco> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676907.94" ;
+	wgs84:long "4613590" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/4> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Plaza+Veronica> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Teatro_romano_de_Zaragoza> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/4> onto:isIn <http://www.zaragoza.es/api/recurso/#Plaza+Veronica> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676846.7" ;
+	wgs84:long "4613489.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/5> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Pedro+Joaquin+Soler> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Teatro_romano_de_Zaragoza> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/5> onto:isIn <http://www.zaragoza.es/api/recurso/#Pedro+Joaquin+Soler> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676840.56" ;
+	wgs84:long "4613469" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/6> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Coso> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Coso_(Zaragoza)> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/6> onto:isIn <http://www.zaragoza.es/api/recurso/#Coso> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676951" ;
+	wgs84:long "4613389" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/7> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Plaza+Santa+Engracia> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Basílica_de_Santa_Engracia_(Zaragoza)> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/7> onto:isIn <http://www.zaragoza.es/api/recurso/#Plaza+Santa+Engracia> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676374.94" ;
+	wgs84:long "4613215.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/8> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Joaquin+Costa> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Calle-Calle> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/8> onto:isIn <http://www.zaragoza.es/api/recurso/#Joaquin+Costa> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676503.6" ;
+	wgs84:long "4613185.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/9> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Joaquin+Costa> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676495.44" ;
+	wgs84:long "4613170" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/10> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Joaquin+Costa> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676510.5" ;
+	wgs84:long "4613161.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/11> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Felipe+Sanclemente> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Calle-Calle> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/11> onto:isIn <http://www.zaragoza.es/api/recurso/#Felipe+Sanclemente> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676534.44" ;
+	wgs84:long "4613257" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/12> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Felipe+Sanclemente> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676425.4" ;
+	wgs84:long "4613285.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/13> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Jeronimo+Zurita> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Calle-Calle> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/13> onto:isIn <http://www.zaragoza.es/api/recurso/#Jeronimo+Zurita> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676461.7" ;
+	wgs84:long "4613337" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/14> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Jeronimo+Zurita> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676459.44" ;
+	wgs84:long "4613331.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/15> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Jeronimo+Zurita> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676569.6" ;
+	wgs84:long "4613303.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/16> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Jeronimo+Zurita> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676555.56" ;
+	wgs84:long "4613308" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/17> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Jeronimo+Zurita> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676575.7" ;
+	wgs84:long "4613317.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/18> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Jeronimo+Zurita> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676565.44" ;
+	wgs84:long "4613320" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/19> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Plaza+Los+Sitios> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Plaza_de_los_Sitios> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/19> onto:isIn <http://www.zaragoza.es/api/recurso/#Plaza+Los+Sitios> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676687.3" ;
+	wgs84:long "4613270.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/20> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Plaza+Los+Sitios> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676680.44" ;
+	wgs84:long "4613258.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/21> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Plaza+Los+Sitios> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676693.2" ;
+	wgs84:long "4613250.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/22> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Plaza+Los+Sitios> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676700.25" ;
+	wgs84:long "4613266" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/23> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Jaime+Balmes> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Calle-Calle> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/23> onto:isIn <http://www.zaragoza.es/api/recurso/#Jaime+Balmes> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676784" ;
+	wgs84:long "4613231" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/24> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Plaza+Los+Sitios> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676766.3" ;
+	wgs84:long "4613221" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/25> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Jaime+Balmes> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676778.44" ;
+	wgs84:long "4613216.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/26> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Joaquin+Costa> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676628.5" ;
+	wgs84:long "4613131.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/27> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Jose+Canalejas> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Calle-Calle> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/27> onto:isIn <http://www.zaragoza.es/api/recurso/#Jose+Canalejas> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676620.3" ;
+	wgs84:long "4613115.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/28> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Jose+Canalejas> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676635.1" ;
+	wgs84:long "4613109.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/29> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Plaza+Los+Sitios> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676641.06" ;
+	wgs84:long "4613123" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/30> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Felipe+Sanclemente> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676658.1" ;
+	wgs84:long "4613205.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/31> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Felipe+Sanclemente> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676649.75" ;
+	wgs84:long "4613188.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/32> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Juan+Bruil> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Calle-Calle> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/32> onto:isIn <http://www.zaragoza.es/api/recurso/#Juan+Bruil> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676388.8" ;
+	wgs84:long "4613104" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/33> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Jeronimo+Blancas> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Calle-Calle> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/33> onto:isIn <http://www.zaragoza.es/api/recurso/#Jeronimo+Blancas> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676677.6" ;
+	wgs84:long "4613456.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/34> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Santa+Catalina> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Calle-Calle> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/34> onto:isIn <http://www.zaragoza.es/api/recurso/#Santa+Catalina> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676761.5" ;
+	wgs84:long "4613442" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/35> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Santa+Catalina> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676726.1" ;
+	wgs84:long "4613358.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/36> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Albert+Schweitzer> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Calle-Calle> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/36> onto:isIn <http://www.zaragoza.es/api/recurso/#Albert+Schweitzer> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676481.6" ;
+	wgs84:long "4612503.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/37> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Paseo+Constitucion> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Paseo_de_la_Constitucion_(Zaragoza)> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/37> onto:isIn <http://www.zaragoza.es/api/recurso/#Paseo+Constitucion> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676339.25" ;
+	wgs84:long "4613040.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/38> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Paseo+Constitucion> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676330.25" ;
+	wgs84:long "4613037.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/39> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Albert+Schweitzer> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676520.94" ;
+	wgs84:long "4612503" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/40> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Paseo+Constitucion> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676449.25" ;
+	wgs84:long "4613053" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/41> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Plaza+San+Miguel> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Iglesia_de_San_Miguel_de_los_Navarros> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/41> onto:isIn <http://www.zaragoza.es/api/recurso/#Plaza+San+Miguel> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676982.2" ;
+	wgs84:long "4613322" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/42> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Plaza+San+Miguel> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676989.06" ;
+	wgs84:long "4613301" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/43> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Reconquista> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Calle-Calle> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/43> onto:isIn <http://www.zaragoza.es/api/recurso/#Reconquista> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676990.8" ;
+	wgs84:long "4613265.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/44> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Alto+Aragon> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Alto_Aragon> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/44> onto:isIn <http://www.zaragoza.es/api/recurso/#Alto+Aragon> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "677503.06" ;
+	wgs84:long "4613484" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/45> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Asalto> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Calle-Calle> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/45> onto:isIn <http://www.zaragoza.es/api/recurso/#Asalto> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "677029.5" ;
+	wgs84:long "4613236" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/46> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Matadero> a onto:Place ;
+	owl:sameAs dbpedia:Slaughterhouse .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/46> onto:isIn <http://www.zaragoza.es/api/recurso/#Matadero> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "677443.7" ;
+	wgs84:long "4612696.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/47> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Monasterio+de+Samos> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Monasterio_de_Samos> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/47> onto:isIn <http://www.zaragoza.es/api/recurso/#Monasterio+de+Samos> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "677359.94" ;
+	wgs84:long "4612687" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/48> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Monasterio+de+Samos> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "677349" ;
+	wgs84:long "4612671.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/49> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Paseo+Constitucion> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676426.6" ;
+	wgs84:long "4613086" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/50> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Manuel+Lorenzo+Pardo> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Manuel_Lorenzo_Pardo> .
+
+<http://www.zaragoza.es/api/recurso/urbanismo-infraestructuras/equipamiento/aparcamiento-moto/50> onto:isIn <http://www.zaragoza.es/api/recurso/#Manuel+Lorenzo+Pardo> ;
+	onto:lastupdate "Tue Dec 02 19:00:00 CET 2014" ;
+	wgs84:lat "676988.06" ;
+	wgs84:long "4612695" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/estacionamiento_motos.png> ;
+	a <http://www.zaragoza.es/api/recurso/#MotorBikeParking> .
+
+<http://www.zaragoza.es/api/recurso/poi/contenido-459951775> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Policia+Zaragoza.+Educacion+Vial> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Policia_Nacional_de_España> .
+
+<http://www.zaragoza.es/api/recurso/poi/contenido-459951775> onto:isIn <http://www.zaragoza.es/api/recurso/#Policia+Zaragoza.+Educacion+Vial> ;
+	onto:lastupdate "Mon Apr 23 20:00:00 CEST 2007" ;
+	wgs84:lat "483282" ;
+	wgs84:long "5454818" ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-262> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Libertad> a onto:Place ;
+	owl:sameAs <http://dbpedia.org/resource/La_Libertad,_La_Libertad> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-262> onto:isIn <http://www.zaragoza.es/api/recurso/#Libertad> ;
+	onto:lastupdate "Mon Jan 31 19:00:00 CET 2011" ;
+	wgs84:lat "676605.35" ;
+	wgs84:long "4613666.03" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-765> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Contamina> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Contamina_(Zaragoza)> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-765> onto:isIn <http://www.zaragoza.es/api/recurso/#Contamina> ;
+	onto:lastupdate "Wed Dec 19 19:00:00 CET 2012" ;
+	wgs84:lat "676524.62" ;
+	wgs84:long "4613861.48" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-936> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Hernan+Cortes> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Hernan_Cortes> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-936> onto:isIn <http://www.zaragoza.es/api/recurso/#Hernan+Cortes> ;
+	onto:lastupdate "Thu Dec 27 19:00:00 CET 2012" ;
+	wgs84:lat "675909.71" ;
+	wgs84:long "4613148.3" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1114> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Amar+y+Borbon+%2C+Josefa> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Josefa_Amar_y_Borbon> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1114> onto:isIn <http://www.zaragoza.es/api/recurso/#Amar+y+Borbon+%2C+Josefa> ;
+	onto:lastupdate "Mon Jan 31 19:00:00 CET 2011" ;
+	wgs84:lat "676618.22" ;
+	wgs84:long "4613415.23" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-185> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Paseo+de+la+Mina> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Calle-Calle> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-185> onto:isIn <http://www.zaragoza.es/api/recurso/#Paseo+de+la+Mina> ;
+	onto:lastupdate "Sun Jan 20 19:00:00 CET 2013" ;
+	wgs84:lat "676718.85" ;
+	wgs84:long "4613001.74" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1354> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Juan+de+Aragon> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Juan_de_Aragon> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1354> onto:isIn <http://www.zaragoza.es/api/recurso/#Juan+de+Aragon> ;
+	onto:lastupdate "Thu Jan 03 19:00:00 CET 2013" ;
+	wgs84:lat "676961.01" ;
+	wgs84:long "4613747.37" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1500> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Colegio+Santa+Maria+del+Pilar+%28Marianistas%29> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Colegiata_mudejar_de_Santa_Maria_del_Pilar> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1500> onto:isIn <http://www.zaragoza.es/api/recurso/#Colegio+Santa+Maria+del+Pilar+%28Marianistas%29> ;
+	onto:lastupdate "Wed Dec 19 19:00:00 CET 2012" ;
+	wgs84:lat "674992.73" ;
+	wgs84:long "4610490.31" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-26> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Conde+Aranda> a onto:Place ;
+	owl:sameAs <http://dbpedia.org/resource/Pedro_Pablo_Abarca_de_Bolea,_10th_Count_of_Aranda> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-26> onto:isIn <http://www.zaragoza.es/api/recurso/#Conde+Aranda> ;
+	onto:lastupdate "Wed Dec 19 19:00:00 CET 2012" ;
+	wgs84:lat "676223.98" ;
+	wgs84:long "4613750.63" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1182> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Casa+Jimenez+%28+Antiguo+Gobierno+Militar+%29> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Colegio_Militar> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1182> onto:isIn <http://www.zaragoza.es/api/recurso/#Casa+Jimenez+%28+Antiguo+Gobierno+Militar+%29> ;
+	onto:lastupdate "Thu Sep 05 20:00:00 CEST 2013" ;
+	wgs84:lat "676262.04" ;
+	wgs84:long "4613287.89" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1181> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Cervantes> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Cervantes_(serie_de_televisión)> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1181> onto:isIn <http://www.zaragoza.es/api/recurso/#Cervantes> ;
+	onto:lastupdate "Tue Dec 18 19:00:00 CET 2012" ;
+	wgs84:lat "676078.97" ;
+	wgs84:long "4612614.05" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-235> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Martires> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Martires_de_Zaragoza> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-235> onto:isIn <http://www.zaragoza.es/api/recurso/#Martires> ;
+	onto:lastupdate "Mon Jan 31 19:00:00 CET 2011" ;
+	wgs84:lat "676616.4" ;
+	wgs84:long "4613589.23" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-720> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Santa+Isabel> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Santa_Isabel_(Zaragoza)> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-720> onto:isIn <http://www.zaragoza.es/api/recurso/#Santa+Isabel> ;
+	onto:lastupdate "Sun Feb 10 19:00:00 CET 2013" ;
+	wgs84:lat "676550.28" ;
+	wgs84:long "4613913.82" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1037> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#San+Blas> a onto:Place ;
+	owl:sameAs dbpedia:San_Blas .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1037> onto:isIn <http://www.zaragoza.es/api/recurso/#San+Blas> ;
+	onto:lastupdate "Sun Feb 10 19:00:00 CET 2013" ;
+	wgs84:lat "669116.28" ;
+	wgs84:long "4619073.64" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-901> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Pabellon+de+Servicios> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Pabellon_de_Aragon_de_la_Expo_2008> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-901> onto:isIn <http://www.zaragoza.es/api/recurso/#Pabellon+de+Servicios> ;
+	onto:lastupdate "Sun Jan 20 19:00:00 CET 2013" ;
+	wgs84:lat "681510.96" ;
+	wgs84:long "4608456.98" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-84> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Alfonso+I> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Alfonso_I_de_Aragón> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-84> onto:isIn <http://www.zaragoza.es/api/recurso/#Alfonso+I> ;
+	onto:lastupdate "Mon Jan 31 19:00:00 CET 2011" ;
+	wgs84:lat "676556.84" ;
+	wgs84:long "4613757.51" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-850> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Pedro+Garces+de+A%C3%B1on> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Casa_romana_de_la_calle_Añon_de_Zaragoza> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-850> onto:isIn <http://www.zaragoza.es/api/recurso/#Pedro+Garces+de+A%C3%B1on> ;
+	onto:lastupdate "Sun Jan 20 19:00:00 CET 2013" ;
+	wgs84:lat "677194.07" ;
+	wgs84:long "4613372.44" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-918> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Iglesia+de+San+Lorenzo> a onto:Place ;
+	owl:sameAs <http://dbpedia.org/resource/St._Laurence's_Church> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-918> onto:isIn <http://www.zaragoza.es/api/recurso/#Iglesia+de+San+Lorenzo> ;
+	onto:lastupdate "Thu Dec 27 19:00:00 CET 2012" ;
+	wgs84:lat "664325.51" ;
+	wgs84:long "4616761.26" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-840> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#San+Vicente+de+Paul> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/San_Vicente_de_Paul> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-840> onto:isIn <http://www.zaragoza.es/api/recurso/#San+Vicente+de+Paul> ;
+	onto:lastupdate "Sun Feb 10 19:00:00 CET 2013" ;
+	wgs84:lat "676888.49" ;
+	wgs84:long "4613423.61" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1186> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Jose+Anselmo+Clavo> a onto:Place ;
+	owl:sameAs dbpedia:Person .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1186> onto:isIn <http://www.zaragoza.es/api/recurso/#Jose+Anselmo+Clavo> ;
+	onto:lastupdate "Thu Jan 03 19:00:00 CET 2013" ;
+	wgs84:lat "675540.79" ;
+	wgs84:long "4613615.5" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1006> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Coso> ;
+	onto:lastupdate "Wed Dec 19 19:00:00 CET 2012" ;
+	wgs84:lat "676369.91" ;
+	wgs84:long "4613700.69" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-937> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Santa+y+Real+Hermandad+del+Refugio> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Santa_Hermandad> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-937> onto:isIn <http://www.zaragoza.es/api/recurso/#Santa+y+Real+Hermandad+del+Refugio> ;
+	onto:lastupdate "Sun Feb 10 19:00:00 CET 2013" ;
+	wgs84:lat "675601.18" ;
+	wgs84:long "4613398.53" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-625> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Arco+y+Casa+del+Dean> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Arquitectura_mudejar_de_Aragon> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-625> onto:isIn <http://www.zaragoza.es/api/recurso/#Arco+y+Casa+del+Dean> ;
+	onto:lastupdate "Mon Jan 31 19:00:00 CET 2011" ;
+	wgs84:lat "677043" ;
+	wgs84:long "4613780.57" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-630> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Pza.+de+Espa%C3%B1a> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Plaza_de_España_(Zaragoza)> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-630> onto:isIn <http://www.zaragoza.es/api/recurso/#Pza.+de+Espa%C3%B1a> ;
+	onto:lastupdate "Tue Jan 22 19:00:00 CET 2013" ;
+	wgs84:lat "676569.38" ;
+	wgs84:long "4613471.53" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-941> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Baltasar+Gracian> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Baltasar_Gracian> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-941> onto:isIn <http://www.zaragoza.es/api/recurso/#Baltasar+Gracian> ;
+	onto:lastupdate "Mon Jan 31 19:00:00 CET 2011" ;
+	wgs84:lat "675577.15" ;
+	wgs84:long "4612606.24" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-356> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Ponzano> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Lascellas-Ponzano_(Huesca)> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-356> onto:isIn <http://www.zaragoza.es/api/recurso/#Ponzano> ;
+	onto:lastupdate "Sun Jan 20 19:00:00 CET 2013" ;
+	wgs84:lat "676232.39" ;
+	wgs84:long "4613195.45" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1285> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Tte.+Cnel.+Valenzuela> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Teniente_coronel_Valenzuela> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1285> onto:isIn <http://www.zaragoza.es/api/recurso/#Tte.+Cnel.+Valenzuela> ;
+	onto:lastupdate "Wed Apr 24 20:00:00 CEST 2013" ;
+	wgs84:lat "676368.6" ;
+	wgs84:long "4613569.22" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-370> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Horno> a onto:Place ;
+	owl:sameAs dbpedia:Oven .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-370> onto:isIn <http://www.zaragoza.es/api/recurso/#Horno> ;
+	onto:lastupdate "Thu Dec 27 19:00:00 CET 2012" ;
+	wgs84:lat "677053.14" ;
+	wgs84:long "4614328.8" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-927> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Iglesia+Nuestra+Se%C3%B1ora+del+Rosario> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Iglesia_Nuestra_Señora_del_Rosario_(Vela)> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-927> onto:isIn <http://www.zaragoza.es/api/recurso/#Iglesia+Nuestra+Se%C3%B1ora+del+Rosario> ;
+	onto:lastupdate "Thu Dec 27 19:00:00 CET 2012" ;
+	wgs84:lat "681124.78" ;
+	wgs84:long "4617246.91" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-266> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Don+Jaime+I> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Calle_Don_Jaime_I_(Zaragoza)> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-266> onto:isIn <http://www.zaragoza.es/api/recurso/#Don+Jaime+I> ;
+	onto:lastupdate "Mon Jan 31 19:00:00 CET 2011" ;
+	wgs84:lat "676690.36" ;
+	wgs84:long "4613587.39" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-490> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Blason+Aragones> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Blason> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-490> onto:isIn <http://www.zaragoza.es/api/recurso/#Blason+Aragones> ;
+	onto:lastupdate "Mon Jan 31 19:00:00 CET 2011" ;
+	wgs84:lat "676536.88" ;
+	wgs84:long "4613676.11" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-916> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Alcaldia+del+Barrio%2C+Antigua+Agrupacion+Escolar+y+Hogar+de+la+Tercera+Edad> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Residencia_de_ancianos> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-916> onto:isIn <http://www.zaragoza.es/api/recurso/#Alcaldia+del+Barrio%2C+Antigua+Agrupacion+Escolar+y+Hogar+de+la+Tercera+Edad> ;
+	onto:lastupdate "Mon Jan 31 19:00:00 CET 2011" ;
+	wgs84:lat "664188.52" ;
+	wgs84:long "4620650.1" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1454> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Prudencio> a onto:Place ;
+	owl:sameAs dbpedia:Prudentius .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1454> onto:isIn <http://www.zaragoza.es/api/recurso/#Prudencio> ;
+	onto:lastupdate "Mon Jan 31 19:00:00 CET 2011" ;
+	wgs84:lat "676514.82" ;
+	wgs84:long "4614018.16" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-250> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Prudencio> ;
+	onto:lastupdate "Mon Jan 21 19:00:00 CET 2013" ;
+	wgs84:lat "676514.82" ;
+	wgs84:long "4614018.16" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-308> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Real+Seminario+de+San+Carlos+Borromeo> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Real_Seminario_de_San_Carlos_Borromeo> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-308> onto:isIn <http://www.zaragoza.es/api/recurso/#Real+Seminario+de+San+Carlos+Borromeo> ;
+	onto:lastupdate "Tue Sep 17 20:00:00 CEST 2013" ;
+	wgs84:lat "676991.17" ;
+	wgs84:long "4613464.36" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-309> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#San+Jorge> a onto:Place ;
+	owl:sameAs <http://dbpedia.org/resource/Saint_George_and_the_Dragon_(disambiguation)> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-309> onto:isIn <http://www.zaragoza.es/api/recurso/#San+Jorge> ;
+	onto:lastupdate "Sun Feb 10 19:00:00 CET 2013" ;
+	wgs84:lat "676827.44" ;
+	wgs84:long "4613620.35" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-454> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Santa+Isabel> ;
+	onto:lastupdate "Sun Feb 10 19:00:00 CET 2013" ;
+	wgs84:lat "676544.55" ;
+	wgs84:long "4613919.83" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-593> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Palacio+Arzobispal> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Palacio_Arzobispal_de_Zaragoza> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-593> onto:isIn <http://www.zaragoza.es/api/recurso/#Palacio+Arzobispal> ;
+	onto:lastupdate "Sun Jan 20 19:00:00 CET 2013" ;
+	wgs84:lat "676984.82" ;
+	wgs84:long "4613895.88" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-544> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Cadiz> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Cadiz_(Cadiz)> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-544> onto:isIn <http://www.zaragoza.es/api/recurso/#Cadiz> ;
+	onto:lastupdate "Wed Dec 26 19:00:00 CET 2012" ;
+	wgs84:lat "676337.59" ;
+	wgs84:long "4613384.02" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-41> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Jose+Palafox> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Jose_Palafox> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-41> onto:isIn <http://www.zaragoza.es/api/recurso/#Jose+Palafox> ;
+	onto:lastupdate "Thu Jan 03 19:00:00 CET 2013" ;
+	wgs84:lat "677116.5" ;
+	wgs84:long "4613742.46" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1229> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Grupo+de+Viviendas+Francisco+Caballero> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Francisco_Caballero_y_Rozas> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1229> onto:isIn <http://www.zaragoza.es/api/recurso/#Grupo+de+Viviendas+Francisco+Caballero> ;
+	onto:lastupdate "Mon Jan 31 19:00:00 CET 2011" ;
+	wgs84:lat "675401.04" ;
+	wgs84:long "4612072.36" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-254> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Ramon+y+Cajal> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Ramon_y_Cajal> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-254> onto:isIn <http://www.zaragoza.es/api/recurso/#Ramon+y+Cajal> ;
+	onto:lastupdate "Sun Feb 10 19:00:00 CET 2013" ;
+	wgs84:lat "676138.6" ;
+	wgs84:long "4613751.49" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1231> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Grupo+de+Viviendas+Francisco+Caballero> ;
+	onto:lastupdate "Thu Dec 27 19:00:00 CET 2012" ;
+	wgs84:lat "675379.24" ;
+	wgs84:long "4612039.37" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-363> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Jeronimo+Zurita> ;
+	onto:lastupdate "Thu Jan 03 19:00:00 CET 2013" ;
+	wgs84:lat "676603.94" ;
+	wgs84:long "4613306.78" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1108> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Alfonso+I> ;
+	onto:lastupdate "Mon Jan 31 19:00:00 CET 2011" ;
+	wgs84:lat "676534.85" ;
+	wgs84:long "4613725.44" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1380> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#La+Espa%C3%B1ola> a onto:Place ;
+	owl:sameAs dbpedia:Hispaniola .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1380> onto:isIn <http://www.zaragoza.es/api/recurso/#La+Espa%C3%B1ola> ;
+	onto:lastupdate "Thu Dec 27 19:00:00 CET 2012" ;
+	wgs84:lat "676534.85" ;
+	wgs84:long "4613725.44" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1379> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Luis+Martin+Blasco> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Luis_Martin> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-1379> onto:isIn <http://www.zaragoza.es/api/recurso/#Luis+Martin+Blasco> ;
+	onto:lastupdate "Mon Jan 31 19:00:00 CET 2011" ;
+	wgs84:lat "676534.85" ;
+	wgs84:long "4613725.44" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-849> a onto:Location ;
+	onto:isIn <http://www.zaragoza.es/api/recurso/#Pedro+Garces+de+A%C3%B1on> ;
+	onto:lastupdate "Sun Jan 20 19:00:00 CET 2013" ;
+	wgs84:lat "677187.74" ;
+	wgs84:long "4613376.41" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-574> a onto:Location .
+
+<http://www.zaragoza.es/api/recurso/#Armas> a onto:Place ;
+	owl:sameAs <http://es.dbpedia.org/resource/Castejón_de_las_Armas_(Zaragoza)> .
+
+<http://www.zaragoza.es/api/recurso/poi/edificio-574> onto:isIn <http://www.zaragoza.es/api/recurso/#Armas> ;
+	onto:lastupdate "Mon Jan 31 19:00:00 CET 2011" ;
+	wgs84:lat "676333.72" ;
+	wgs84:long "4613997.41" ;
+	onto:icon <http://www.zaragoza.es/contenidos/iconos/arte.png> ;
+	a <http://www.zaragoza.es/api/recurso/#Poi> .

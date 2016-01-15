@@ -1,7 +1,7 @@
 Course 2015-2016
 ================
 
-This is the repository that we will use for our collaborative work and for uploading all the assignments for course 2015-2016
+This is our repository that we will use for our collaborative work and for uploading all the assignments for course 2015-2016
 
 This is the normal process that you will have to follow:
 

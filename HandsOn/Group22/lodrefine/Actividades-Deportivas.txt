@@ -1,0 +1,1653 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column FECHA-FIN using expression grel:toDate(value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "FECHA-FIN",
+    "expression": "grel:toDate(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column FECHA using expression grel:toDate(value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "FECHA",
+    "expression": "grel:toDate(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column GRATUITO using expression grel:not(value == 0)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "GRATUITO",
+    "expression": "grel:not(value == 0)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LARGA-DURACION using expression grel:not(value == 0)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "LARGA-DURACION",
+    "expression": "grel:not(value == 0)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.madridDeporte.es/actividades/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.madridDeporte.es/actividades/",
+      "prefixes": [
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replace(value, ' ', '_')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.madridDeporte.es/actividades/",
+      "prefixes": [
+        {
+          "name": "mdep",
+          "uri": "http://www.madridDeporte.es/ontologia#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replace(value, ' ', '_')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.madridDeporte.es/actividades/",
+      "prefixes": [
+        {
+          "name": "mdep",
+          "uri": "http://www.madridDeporte.es/ontologia#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replace(value, ' ', '_')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasTitle",
+              "curie": "mdep:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasIdKey",
+              "curie": "mdep:hasIdKey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasPrice",
+              "curie": "mdep:hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#isFree",
+              "curie": "mdep:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDaysWeek",
+              "curie": "mdep:hasDaysWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDate",
+              "curie": "mdep:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasEndDate",
+              "curie": "mdep:hasEndDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FECHA-FIN"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasHour",
+              "curie": "mdep:hasHour",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDescription",
+              "curie": "mdep:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.madridDeporte.es/actividades/",
+      "prefixes": [
+        {
+          "name": "mdep",
+          "uri": "http://www.madridDeporte.es/ontologia#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replace(value, ' ', '_')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasTitle",
+              "curie": "mdep:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasIdKey",
+              "curie": "mdep:hasIdKey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasPrice",
+              "curie": "mdep:hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#isFree",
+              "curie": "mdep:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDaysWeek",
+              "curie": "mdep:hasDaysWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDate",
+              "curie": "mdep:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasEndDate",
+              "curie": "mdep:hasEndDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FECHA-FIN"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasHour",
+              "curie": "mdep:hasHour",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDescription",
+              "curie": "mdep:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasCenter",
+              "curie": "mdep:hasCenter",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URL-INSTALACION",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.madridDeporte.es/actividades/",
+      "prefixes": [
+        {
+          "name": "mdep",
+          "uri": "http://www.madridDeporte.es/ontologia#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replace(value, ' ', '_')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasTitle",
+              "curie": "mdep:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasIdKey",
+              "curie": "mdep:hasIdKey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasPrice",
+              "curie": "mdep:hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#isFree",
+              "curie": "mdep:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDaysWeek",
+              "curie": "mdep:hasDaysWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDate",
+              "curie": "mdep:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasEndDate",
+              "curie": "mdep:hasEndDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FECHA-FIN"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasHour",
+              "curie": "mdep:hasHour",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDescription",
+              "curie": "mdep:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasCenter",
+              "curie": "mdep:hasCenter",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URL-INSTALACION",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.madridDeporte.es/",
+      "prefixes": [
+        {
+          "name": "mdep",
+          "uri": "http://www.madridDeporte.es/ontologia#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'actividad/' + replace(value, ' ', '_')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasTitle",
+              "curie": "mdep:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasIdKey",
+              "curie": "mdep:hasIdKey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasPrice",
+              "curie": "mdep:hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#isFree",
+              "curie": "mdep:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDaysWeek",
+              "curie": "mdep:hasDaysWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDate",
+              "curie": "mdep:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasEndDate",
+              "curie": "mdep:hasEndDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FECHA-FIN"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasHour",
+              "curie": "mdep:hasHour",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDescription",
+              "curie": "mdep:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasCenter",
+              "curie": "mdep:hasCenter",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'centro/' + replace(value, ' ', '_')",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.madridDeporte.es/",
+      "prefixes": [
+        {
+          "name": "mdep",
+          "uri": "http://www.madridDeporte.es/ontologia#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'actividad/' + replace(value, ' ', '_')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasTitle",
+              "curie": "mdep:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasIdKey",
+              "curie": "mdep:hasIdKey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasPrice",
+              "curie": "mdep:hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#isFree",
+              "curie": "mdep:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDaysWeek",
+              "curie": "mdep:hasDaysWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDate",
+              "curie": "mdep:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasEndDate",
+              "curie": "mdep:hasEndDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA-FIN"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasHour",
+              "curie": "mdep:hasHour",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDescription",
+              "curie": "mdep:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasCenter",
+              "curie": "mdep:hasCenter",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'centro/' + replace(value, ' ', '_')",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.madridDeporte.es/",
+      "prefixes": [
+        {
+          "name": "mdep",
+          "uri": "http://www.madridDeporte.es/ontologia#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'actividad/' + replace(value, ' ', '_')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasTitle",
+              "curie": "mdep:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasIdKey",
+              "curie": "mdep:hasIdKey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasPrice",
+              "curie": "mdep:hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#isFree",
+              "curie": "mdep:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDaysWeek",
+              "curie": "mdep:hasDaysWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDate",
+              "curie": "mdep:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasEndDate",
+              "curie": "mdep:hasEndDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA-FIN"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasHour",
+              "curie": "mdep:hasHour",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDescription",
+              "curie": "mdep:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasCenter",
+              "curie": "mdep:hasCenter",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'centro/' + replace(value, ' ', '_')",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.madridDeporte.es/",
+      "prefixes": [
+        {
+          "name": "mdep",
+          "uri": "http://www.madridDeporte.es/ontologia#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'actividad/' + replace(value, ' ', '_')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasTitle",
+              "curie": "mdep:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasIdKey",
+              "curie": "mdep:hasIdKey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasPrice",
+              "curie": "mdep:hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#isFree",
+              "curie": "mdep:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDaysWeek",
+              "curie": "mdep:hasDaysWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDate",
+              "curie": "mdep:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.toString(\"yyyy-MM-dd\")+\"T\"+value.toString(\"HH:mm:ss\")",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasEndDate",
+              "curie": "mdep:hasEndDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.toString(\"yyyy-MM-dd\")+\"T\"+value.toString(\"HH:mm:ss\")",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA-FIN"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasHour",
+              "curie": "mdep:hasHour",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDescription",
+              "curie": "mdep:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasCenter",
+              "curie": "mdep:hasCenter",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'centro/' + replace(value, ' ', '_')",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.madridDeporte.es/",
+      "prefixes": [
+        {
+          "name": "mdep",
+          "uri": "http://www.madridDeporte.es/ontologia#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'actividad/' + replace(value, ' ', '_')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasTitle",
+              "curie": "mdep:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasIdKey",
+              "curie": "mdep:hasIdKey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasPrice",
+              "curie": "mdep:hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#isFree",
+              "curie": "mdep:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDaysWeek",
+              "curie": "mdep:hasDaysWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDate",
+              "curie": "mdep:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.toString(\"yyyy-MM-dd\")+\"T\"+value.toString(\"HH:mm:ss\")",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasEndDate",
+              "curie": "mdep:hasEndDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.toString(\"yyyy-MM-dd\")+\"T\"+value.toString(\"HH:mm:ss\")",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA-FIN"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasHour",
+              "curie": "mdep:hasHour",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDescription",
+              "curie": "mdep:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasCenter",
+              "curie": "mdep:hasCenter",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'centro/' + replace(value, ' ', '_')",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.madridDeporte.es/",
+      "prefixes": [
+        {
+          "name": "mdep",
+          "uri": "http://www.madridDeporte.es/ontologia#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'actividad/' + replace(value, ' ', '_')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasTitle",
+              "curie": "mdep:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasIdKey",
+              "curie": "mdep:hasIdKey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasPrice",
+              "curie": "mdep:hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#isFree",
+              "curie": "mdep:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDaysWeek",
+              "curie": "mdep:hasDaysWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDate",
+              "curie": "mdep:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.toString(\"yyyy-MM-dd\")+\"T\"+value.toString(\"HH:mm:ss\")",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasEndDate",
+              "curie": "mdep:hasEndDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.toString(\"yyyy-MM-dd\")+\"T\"+value.toString(\"HH:mm:ss\")",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA-FIN"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasHour",
+              "curie": "mdep:hasHour",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDescription",
+              "curie": "mdep:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasCenter",
+              "curie": "mdep:hasCenter",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'centro/' + replace(value, ' ', '_')",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.madridDeporte.es/",
+      "prefixes": [
+        {
+          "name": "mdep",
+          "uri": "http://www.madridDeporte.es/ontologia#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "'actividad/' + replace(value, ' ', '_')",
+          "isRowNumberCell": false,
+          "columnName": "TITULO",
+          "rdfTypes": [
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#Actividad",
+              "curie": "mdep:Actividad"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasTitle",
+              "curie": "mdep:hasTitle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasIdKey",
+              "curie": "mdep:hasIdKey",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ID-EVENTO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasPrice",
+              "curie": "mdep:hasPrice",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PRECIO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#isFree",
+              "curie": "mdep:isFree",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDaysWeek",
+              "curie": "mdep:hasDaysWeek",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDate",
+              "curie": "mdep:hasDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.toString(\"yyyy-MM-dd\")+\"T\"+value.toString(\"HH:mm:ss\")",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasEndDate",
+              "curie": "mdep:hasEndDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.toString(\"yyyy-MM-dd\")+\"T\"+value.toString(\"HH:mm:ss\")",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA-FIN"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasHour",
+              "curie": "mdep:hasHour",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORA"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasDescription",
+              "curie": "mdep:hasDescription",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.madridDeporte.es/ontologia#hasCenter",
+              "curie": "mdep:hasCenter",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "'centro/' + replace(value, ' ', '_')",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
